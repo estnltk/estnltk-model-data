@@ -1,1 +1,1 @@
-"# estnltk-model-data" 
+# estnltk-model-data
