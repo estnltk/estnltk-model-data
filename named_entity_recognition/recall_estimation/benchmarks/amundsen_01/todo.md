@@ -2,3 +2,4 @@
 - Put together an example test code that will give you the recall score with 95% confidence intervals.
 - Fill out the leaderboard (EstNLTK, Kairit model I, Kairit model II)
 - Put the original version of leaderboard algorithms in algorithms.md file so that I could repeat the experiment. 
+- Fill the file suffix_words.txt
