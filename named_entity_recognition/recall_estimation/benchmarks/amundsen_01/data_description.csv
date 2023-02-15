@@ -1,1 +1,4 @@
-file, population, positives, selected
+,file, population, positives, selected
+0,recall_sets/koond_1000_levinumad.csv,levinumad,350,
+1,recall_sets/koond_1000_ulejaanud.csv,ulejaanud,172,
+2,recall_sets/koond_1000_mitmetahenduslikud.csv,mitmetahenduslikud,13,
