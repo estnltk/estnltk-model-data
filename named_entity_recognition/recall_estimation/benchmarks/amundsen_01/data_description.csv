@@ -1,4 +1,4 @@
-,file, population, occurences, labelled, positive, occurence_ratio, detection_ratio, relative_frequency
-0,recall_sets/koond_1000_levinumad.csv,levinumad,80943, 1000, 350, 23.89%, 35%, 8.36%
-1,recall_sets/koond_1000_ulejaanud.csv,ulejaanud,182057, 1000, 172, 53.73%, 17.2%, 9.24%
-2,recall_sets/koond_1000_mitmetahenduslikud.csv,mitmetahenduslikud,75853, 1000,  13, 22.39%, 1.3%, 0.29%
+Unnamed: 0,file,population,occurences,labelled,positive,occurence_ratio,detection_ratio,relative_frequency
+0,recall_sets/koond_1000_levinumad.csv,levinumad,80943,1000,350, 23.89%, 35%, 46.73%
+1,recall_sets/koond_1000_ulejaanud.csv,ulejaanud,182057,1000,172, 53.73%, 17.2%, 51.65%
+2,recall_sets/koond_1000_mitmetahenduslikud.csv,mitmetahenduslikud,75853,1000,13, 22.39%, 1.3%, 1.62%
