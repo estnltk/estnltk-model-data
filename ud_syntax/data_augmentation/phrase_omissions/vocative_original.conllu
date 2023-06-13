@@ -1,0 +1,1014 @@
+# sent_id = ilu_orlau_106
+# text = "Kristin!" paanilises hirmus raputas Juudas tüdrukut õlgadest ...
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Kristin	Kristin	PROPN	S	Case=Nom|Number=Sing	7	vocative	7:vocative	NE=B-Per|SpaceAfter=No
+3	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+4	"	"	PUNCT	Z	_	2	punct	2:punct	_
+5	paanilises	paaniline	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	hirmus	hirm	NOUN	S	Case=Ine|Number=Sing	7	obl	7:obl	_
+7	raputas	raputama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	Juudas	Juudas	PROPN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	NE=B-Per
+9	tüdrukut	tüdruk	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+10	õlgadest	õlg	NOUN	S	Case=Ela|Number=Plur	7	obl	7:obl	_
+11	...	...	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ilu_vilep_133
+# text = "Noo teate, poisid!" ühmas ta omaette.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Noo	noo	INTJ	I	_	3	discourse	3:discourse	_
+3	teate	teadma	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	poisid	poiss	NOUN	S	Case=Nom|Number=Plur	3	vocative	3:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	3	punct	3:punct	_
+8	ühmas	ühmama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	_
+10	omaette	oma_ette	ADV	D	_	8	advmod	8:advmod	SpaceAfter=No
+11	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ilu_kivirahk_718
+# text = "Sa oled kõigest täpselt aru saanud, õilis rüütel!" kinnitas Merlin.
+1	"	"	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
+2	Sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	_
+3	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+4	kõigest	kõigest	ADV	D	_	7	advmod	7:advmod	_
+5	täpselt	täpselt	ADV	D	_	7	advmod	7:advmod	_
+6	aru	aru	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+7	saanud	saama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	13	ccomp	13:ccomp	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	õilis	õilis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	7	vocative	7:vocative	SpaceAfter=No
+11	!	!	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
+12	"	"	PUNCT	Z	_	7	punct	7:punct	_
+13	kinnitas	kinnitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	Merlin	Merlin	PROPN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	NE=B-Per|SpaceAfter=No
+15	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = ilu_vilep_86
+# text = " Ära solvu, ema!
+1	"	"	PUNCT	Z	_	3	punct	3:punct	_
+2	Ära	ära	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+3	solvu	solvuma	VERB	V	Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	ema	ema	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_kivirahk_362
+# text = mu põrmust lilled õitsetad, mu isamaa, mu isamaa!"
+1	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
+2	põrmust	põrm	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	_
+3	lilled	lill	NOUN	S	Case=Nom|Number=Plur	4	obj	4:obj	_
+4	õitsetad	õitsetama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod	7:nmod	_
+7	isamaa	isa_maa	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	nmod	10:nmod	_
+10	isamaa	isa_maa	NOUN	S	Case=Nom|Number=Sing	7	vocative	7:vocative	SpaceAfter=No
+11	!	!	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+12	"	"	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_kivirahk_362
+# text = mu põrmust lilled õitsetad, mu isamaa, mu isamaa!"
+1	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod	2:nmod	_
+2	põrmust	põrm	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	_
+3	lilled	lill	NOUN	S	Case=Nom|Number=Plur	4	obj	4:obj	_
+4	õitsetad	õitsetama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod	7:nmod	_
+7	isamaa	isa_maa	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	nmod	10:nmod	_
+10	isamaa	isa_maa	NOUN	S	Case=Nom|Number=Sing	7	vocative	7:vocative	SpaceAfter=No
+11	!	!	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+12	"	"	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_vilep_56
+# text = "Tere, tädi Alma!"
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Tere	tere	INTJ	I	_	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	tädi	tädi	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	_
+5	Alma	Alma	PROPN	S	Case=Nom|Number=Sing	4	appos	4:appos	NE=B-Per|SpaceAfter=No
+6	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_kivirahk_685
+# text = "Ole õnnistatud, vapper rüütel!
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Ole	olema	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+3	õnnistatud	õnnistama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	vapper	vapper	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
+6	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+7	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_kivirahk_244
+# text = "Söö, taadike, söö aga!" rõõmustas Petrov.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Söö	sööma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	taadike	taadi=ke	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	söö	sööma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj|10:ccomp	_
+7	aga	aga	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
+8	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+9	"	"	PUNCT	Z	_	2	punct	2:punct	_
+10	rõõmustas	rõõmustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	NE=B-Per|SpaceAfter=No
+12	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ilu_kivirahk_731
+# text = Võitlus tuleb äge, kuid Jumal hoiab oma kätt sinu pea kohal ja sa ei pea mitte kartma, aulik rüütel!"
+1	Võitlus	võitlus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|3:nsubj	_
+2	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	äge	äge	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	xcomp	2:xcomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	7	punct	7:punct	_
+5	kuid	kuid	CCONJ	J	_	7	cc	7:cc	_
+6	Jumal	jumal	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	NE=B-Per
+7	hoiab	hoidma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+8	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	9:nmod	_
+9	kätt	käsi	NOUN	S	Case=Par|Number=Sing	7	obj	7:obj	_
+10	sinu	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	11	nmod	11:nmod	_
+11	pea	pea	NOUN	S	Case=Gen|Number=Sing	7	obl	7:obl	_
+12	kohal	kohal	ADP	K	AdpType=Post	11	case	11:case	_
+13	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+14	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	18:nsubj	_
+15	ei	ei	AUX	V	Polarity=Neg	18	aux	18:aux	_
+16	pea	pidama	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	18:aux	_
+17	mitte	mitte	ADV	D	Polarity=Neg	18	advmod	18:advmod	_
+18	kartma	kartma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	7	conj	0:root|2:conj|7:conj	SpaceAfter=No
+19	,	,	PUNCT	Z	_	21	punct	21:punct	_
+20	aulik	aulik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	21	amod	21:amod	_
+21	rüütel	rüütel	NOUN	S	Case=Nom|Number=Sing	18	vocative	18:vocative	SpaceAfter=No
+22	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+23	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_ee200110_2915
+# text = Kas sa oled elus, armas lugeja?
+1	Kas	kas	ADV	D	_	4	advmod	4:advmod	_
+2	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj:cop	4:nsubj	_
+3	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	elus	elus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	armas	armas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	lugeja	lugeja	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+8	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_kivirahk_234
+# text = "Ei valuta, taadike!" naeris Petrov.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	valuta	valutama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	taadike	taadi=ke	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	3	punct	3:punct	_
+8	naeris	naerma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	NE=B-Per|SpaceAfter=No
+10	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ilu_kivirahk_254
+# text = "Ah, sina, taadike, oled jälle nagu mesilane!" naeris Petrov, kes vist ei osanudki pahaseks saada.
+1	"	"	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+2	Ah	ah	INTJ	I	_	11	discourse	11:discourse	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	punct	2:punct	_
+4	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	11	nsubj:cop	11:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	taadike	taadi=ke	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+7	,	,	PUNCT	Z	_	6	punct	6:punct	_
+8	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
+9	jälle	jälle	ADV	D	_	11	advmod	11:advmod	_
+10	nagu	nagu	SCONJ	J	_	11	mark	11:mark	_
+11	mesilane	mesilane	NOUN	S	Case=Nom|Number=Sing	14	ccomp	14:ccomp	SpaceAfter=No
+12	!	!	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+13	"	"	PUNCT	Z	_	11	punct	11:punct	_
+14	naeris	naerma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+15	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj|20:nsubj|21:nsubj|22:nsubj	NE=B-Per|SpaceAfter=No
+16	,	,	PUNCT	Z	_	20	punct	20:punct	_
+17	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	20	nsubj	15:ref	_
+18	vist	vist	ADV	D	_	20	advmod	20:advmod	_
+19	ei	ei	AUX	V	Polarity=Neg	20	aux	20:aux	_
+20	osanudki	oskama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	15:acl:relcl	_
+21	pahaseks	pahane	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	22	xcomp	22:xcomp	_
+22	saada	saama	VERB	V	VerbForm=Inf	20	xcomp	20:xcomp	SpaceAfter=No
+23	.	.	PUNCT	Z	_	14	punct	14:punct	_
+
+# sent_id = ilu_kivirahk_192
+# text = "Patujuttu ajate, isake!" ütles kääbus nüüd sootuks naise häälega, justkui mingi eit.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Patujuttu	patu_jutt	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
+3	ajate	ajama	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	isake	isake	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	3	punct	3:punct	_
+8	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	kääbus	kääbus	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
+10	nüüd	nüüd	ADV	D	_	8	advmod	8:advmod	_
+11	sootuks	sootuks	ADV	D	_	12	advmod	12:advmod	_
+12	naise	naine	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
+13	häälega	hääl	NOUN	S	Case=Com|Number=Sing	8	obl	8:obl	SpaceAfter=No
+14	,	,	PUNCT	Z	_	17	punct	17:punct	_
+15	justkui	just_kui	SCONJ	J	_	17	mark	17:mark	_
+16	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	17	det	17:det	_
+17	eit	eit	NOUN	S	Case=Nom|Number=Sing	8	advcl	8:advcl	SpaceAfter=No
+18	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ilu_indrikson_92
+# text = Aga eelmisel kolmapäeval ütlesin Gunnarile, et kõik, poiss, vahefinis, mina kaon kuueks päevaks orbiidilt ja mitte keegi ei leia mind!
+1	Aga	aga	CCONJ	J	_	4	cc	4:cc	_
+2	eelmisel	eelmine	ADJ	A	Case=Ade|Degree=Pos|Number=Sing	3	amod	3:amod	_
+3	kolmapäeval	kolma_päev	NOUN	S	Case=Ade|Number=Sing	4	obl	4:obl	_
+4	ütlesin	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	Gunnarile	Gunnar	PROPN	S	Case=All|Number=Sing	4	obl	4:obl	NE=B-Per|SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	et	et	SCONJ	J	_	8	mark	8:mark	_
+8	kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	4	ccomp	4:ccomp	SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	10:punct	_
+10	poiss	poiss	NOUN	S	Case=Nom|Number=Sing	8	vocative	8:vocative	SpaceAfter=No
+11	,	,	PUNCT	Z	_	12	punct	12:punct	_
+12	vahefinis	vahe_finis	NOUN	S	Case=Nom|Number=Sing	8	conj	4:ccomp|8:conj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	15	punct	15:punct	_
+14	mina	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	15:nsubj	_
+15	kaon	kaduma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	4:ccomp|8:conj	_
+16	kuueks	kuus	NUM	N	Case=Tra|NumForm=Word|NumType=Card|Number=Sing	17	nummod	17:nummod	_
+17	päevaks	päev	NOUN	S	Case=Tra|Number=Sing	15	obl	15:obl	_
+18	orbiidilt	orbiit	NOUN	S	Case=Abl|Number=Sing	15	obl	15:obl	_
+19	ja	ja	CCONJ	J	_	23	cc	23:cc	_
+20	mitte	mitte	ADV	D	Polarity=Neg	21	advmod	21:advmod	_
+21	keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	23	nsubj	23:nsubj	_
+22	ei	ei	AUX	V	Polarity=Neg	23	aux	23:aux	_
+23	leia	leidma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	4:ccomp|8:conj	_
+24	mind	mina	PRON	P	Case=Par|Number=Sing|Person=1|PronType=Prs	23	obj	23:obj	SpaceAfter=No
+25	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_ee199920_1551
+# text = Tänan intervjuu eest, härra Greenaway!
+1	Tänan	tänama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	intervjuu	intervjuu	NOUN	S	Case=Gen|Number=Sing	1	obl	1:obl	_
+3	eest	eest	ADP	K	AdpType=Post	2	case	2:case	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	härra	härra	NOUN	S	Case=Nom|Number=Sing	1	advcl	1:advcl	_
+6	Greenaway	Greenaway	PROPN	S	Case=Nom|Number=Sing	5	vocative	5:vocative	NE=B-Per|SpaceAfter=No
+7	!	!	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ilu_kivirahk_259
+# text = ("Palun, maestro, ma jätsin maiuse teile!
+1	(	(	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+3	Palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	8:nsubj	_
+8	jätsin	jätma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+9	maiuse	maius	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj	_
+10	teile	sina	PRON	P	Case=All|Number=Plur|Person=2|PronType=Prs	8	obl	8:obl	SpaceAfter=No
+11	!	!	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_kivirahk_467
+# text = "Teeme nii, Pierre!" ütles Ott Urmasele ja nad läksid lahku.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Teeme	tegema	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
+3	nii	nii	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	Pierre	Pierre	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+6	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	2	punct	2:punct	_
+8	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	Ott	Ott	PROPN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	NE=B-Per
+10	Urmasele	Urmas	PROPN	S	Case=All|Number=Sing	8	obl	8:obl	NE=B-Per
+11	ja	ja	CCONJ	J	_	13	cc	13:cc	_
+12	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
+13	läksid	minema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	8:conj|0:root	_
+14	lahku	lahku	ADV	D	_	13	compound:prt	13:compound	SpaceAfter=No
+15	.	.	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ilu_kanep_296
+# text = "Kuule, Kristikene, meil jäi midagi autosse," ütlesin murduval häälel.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Kuule	kuulma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	12:ccomp	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	Kristikene	Kristikene	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	7	obl	7:obl	_
+7	jäi	jääma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+8	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	7	nsubj	7:nsubj	_
+9	autosse	auto	NOUN	S	Case=Ill|Number=Sing	7	obl	7:obl	SpaceAfter=No
+10	,	,	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+11	"	"	PUNCT	Z	_	2	punct	2:punct	_
+12	ütlesin	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	murduval	murduv	ADJ	A	Case=Ade|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	14:acl	_
+14	häälel	hääl	NOUN	S	Case=Ade|Number=Sing	12	obl	12:obl	SpaceAfter=No
+15	.	.	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = ilu_kivirahk_354
+# text = Su rüppe heidan unele, mu püha Eestimaa!"
+1	Su	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod	2:nmod	_
+2	rüppe	rüpp	NOUN	S	Case=Add|Number=Sing	3	obl	3:obl	_
+3	heidan	heitma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	unele	uni	NOUN	S	Case=All|Number=Sing	3	obl	3:obl	SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nmod	8:nmod	_
+7	püha	püha	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	amod	8:amod	_
+8	Eestimaa	Eesti_maa	PROPN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	NE=B-Gep|SpaceAfter=No
+9	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+10	"	"	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_pm19980926_436
+# text = oi te poisid kuis küll põleb rind
+1	oi	oi	INTJ	I	_	6	discourse	6:discourse	_
+2	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	vocative	6:vocative	_
+3	poisid	poiss	NOUN	S	Case=Nom|Number=Plur	2	appos	2:appos	_
+4	kuis	kuis	ADV	D	_	6	advmod	6:advmod	_
+5	küll	küll	ADV	D	_	6	advmod	6:advmod	_
+6	põleb	põlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+7	rind	rind	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
+
+# sent_id = ilu_ruben_28
+# text = "Kui sina, tegelinski, keeldud alla kirjutamast, siis koostame protokolli, et kodanik alla ei kirjutanud ja manukad panevad lihtsalt käed alla," ütles peatoimetaja kuivalt ja väga rangelt.
+1	"	"	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+2	Kui	kui	SCONJ	J	_	7	mark	7:mark	_
+3	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj|9:nsubj	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	tegelinski	tegelinski	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	punct	5:punct	_
+7	keeldud	keelduma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	_
+8	alla	alla	ADV	D	_	9	compound:prt	9:compound	_
+9	kirjutamast	kirjutama	VERB	V	Case=Ela|VerbForm=Sup|Voice=Act	7	xcomp	7:xcomp	SpaceAfter=No
+10	,	,	PUNCT	Z	_	7	punct	7:punct	_
+11	siis	siis	ADV	D	_	12	advmod	12:advmod	_
+12	koostame	koostama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	28:ccomp	_
+13	protokolli	protokoll	NOUN	S	Case=Gen|Number=Sing	12	obj	12:obj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	19	punct	19:punct	_
+15	et	et	SCONJ	J	_	19	mark	19:mark	_
+16	kodanik	kodanik	NOUN	S	Case=Nom|Number=Sing	19	nsubj	19:nsubj	_
+17	alla	alla	ADV	D	_	19	compound:prt	19:compound	_
+18	ei	ei	AUX	V	Polarity=Neg	19	aux	19:aux	_
+19	kirjutanud	kirjutama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl	13:acl	_
+20	ja	ja	CCONJ	J	_	22	cc	22:cc	_
+21	manukad	manukas	NOUN	S	Case=Nom|Number=Plur	22	nsubj	22:nsubj	_
+22	panevad	panema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	12:conj|28:ccomp	_
+23	lihtsalt	lihtsalt	ADV	D	_	22	advmod	22:advmod	_
+24	käed	käsi	NOUN	S	Case=Nom|Number=Plur	22	obj	22:obj	_
+25	alla	alla	ADV	D	_	22	compound:prt	22:compound	SpaceAfter=No
+26	,	,	PUNCT	Z	_	12	punct	12:punct	SpaceAfter=No
+27	"	"	PUNCT	Z	_	12	punct	12:punct	_
+28	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+29	peatoimetaja	pea_toimetaja	NOUN	S	Case=Nom|Number=Sing	28	nsubj	28:nsubj	_
+30	kuivalt	kuivalt	ADV	D	_	28	advmod	28:advmod	_
+31	ja	ja	CCONJ	J	_	33	cc	33:cc	_
+32	väga	väga	ADV	D	_	33	advmod	33:advmod	_
+33	rangelt	rangelt	ADV	D	_	30	conj	28:advmod|30:conj	SpaceAfter=No
+34	.	.	PUNCT	Z	_	28	punct	28:punct	_
+
+# sent_id = ilu_kivirahk_221
+# text = "Ei või, taadike, süda hakkaks mul verd tilkuma, kui peaksin su siia abitult maha jätma!" rääkis Petrov.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Ei	ei	AUX	V	Polarity=Neg	3	aux	3:aux	_
+3	või	võima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	ccomp	22:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	taadike	taadi=ke	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	süda	süda	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj|11:nsubj	_
+8	hakkaks	hakkama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+9	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	11	obl	11:obl	_
+10	verd	veri	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+11	tilkuma	tilkuma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	8	xcomp	8:xcomp	SpaceAfter=No
+12	,	,	PUNCT	Z	_	19	punct	19:punct	_
+13	kui	kui	SCONJ	J	_	19	mark	19:mark	_
+14	peaksin	pidama	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	19:aux	_
+15	su	sina	PRON	P	Case=Gen|Number=Sing|Person=2|PronType=Prs	19	obj	19:obj	_
+16	siia	siia	ADV	D	_	19	advmod	19:advmod	_
+17	abitult	abitult	ADV	D	_	19	advmod	19:advmod	_
+18	maha	maha	ADV	D	_	19	compound:prt	19:compound	_
+19	jätma	jätma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	8	advcl	8:advcl	SpaceAfter=No
+20	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+21	"	"	PUNCT	Z	_	3	punct	3:punct	_
+22	rääkis	rääkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+23	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	22	nsubj	22:nsubj	NE=B-Per|SpaceAfter=No
+24	.	.	PUNCT	Z	_	22	punct	22:punct	_
+
+# sent_id = ilu_kivirahk_511
+# text = "Kui lähete vasakule, üllad rüütlid, ei juhtu teiega midagi ning te pöördute sama targalt tagasi koju.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Kui	kui	SCONJ	J	_	3	mark	3:mark	_
+3	lähete	minema	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	10:advcl	_
+4	vasakule	vasakule	ADV	D	_	3	advmod	3:advmod	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	üllad	üllas	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	7	amod	7:amod	_
+7	rüütlid	rüütel	NOUN	S	Case=Nom|Number=Plur	3	vocative	3:vocative	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	ei	ei	AUX	V	Polarity=Neg	10	aux	10:aux	_
+10	juhtu	juhtuma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	teiega	sina	PRON	P	Case=Com|Number=Plur|Person=2|PronType=Prs	10	obl	10:obl	_
+12	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	10	nsubj	10:nsubj	_
+13	ning	ning	CCONJ	J	_	15	cc	15:cc	_
+14	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	15:nsubj	_
+15	pöördute	pöörduma	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	0:root|10:conj	_
+16	sama	sama	ADV	D	_	17	advmod	17:advmod	_
+17	targalt	targalt	ADV	D	_	15	advmod	15:advmod	_
+18	tagasi	tagasi	ADV	D	_	15	compound:prt	15:compound	_
+19	koju	kodu	NOUN	S	Case=Add|Number=Sing	15	obl	15:obl	SpaceAfter=No
+20	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = ilu_kivirahk_701
+# text = Ole õnnistatud, vapper mees, sest just tänu sinule lõppes mu uni!
+1	Ole	olema	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
+2	õnnistatud	õnnistama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	vapper	vapper	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	mees	mees	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	11	punct	11:punct	_
+7	sest	sest	SCONJ	J	_	11	mark	11:mark	_
+8	just	just	ADV	D	_	10	advmod	10:advmod	_
+9	tänu	tänu	ADP	K	AdpType=Prep	10	case	10:case	_
+10	sinule	sina	PRON	P	Case=All|Number=Sing|Person=2|PronType=Prs	11	obl	11:obl	_
+11	lõppes	lõppema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	_
+12	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	13	nmod	13:nmod	_
+13	uni	uni	NOUN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	SpaceAfter=No
+14	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_pm19980926_437
+# text = neiu ma ei jäta sind
+1	neiu	neiu	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	_
+2	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	jäta	jätma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	sind	sina	PRON	P	Case=Par|Number=Sing|Person=2|PronType=Prs	4	obj	4:obj	_
+
+# sent_id = ilu_maailm_57
+# text = Võib-olla muutuks ta korralikuks, kui talle naine võtta, mis sa arvad, Madis? "
+1	Võib-olla	võib-olla	ADV	D	_	2	advmod	2:advmod	_
+2	muutuks	muutuma	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|4:nsubj	_
+4	korralikuks	korralik	ADJ	A	Case=Tra|Degree=Pos|Number=Sing	2	xcomp	2:xcomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	9	punct	9:punct	_
+6	kui	kui	SCONJ	J	_	9	mark	9:mark	_
+7	talle	tema	PRON	P	Case=All|Number=Sing|Person=3|PronType=Prs	9	obl	9:obl	_
+8	naine	naine	NOUN	S	Case=Nom|Number=Sing	9	obj	9:obj	_
+9	võtta	võtma	VERB	V	VerbForm=Inf	2	advcl	2:advcl	SpaceAfter=No
+10	,	,	PUNCT	Z	_	13	punct	13:punct	_
+11	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	13	obj	13:obj	_
+12	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	_
+13	arvad	arvama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
+14	,	,	PUNCT	Z	_	15	punct	15:punct	_
+15	Madis	Madis	PROPN	S	Case=Nom|Number=Sing	13	vocative	13:vocative	NE=B-Per|SpaceAfter=No
+16	?	?	PUNCT	Z	_	2	punct	2:punct	_
+17	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_vilep_252
+# text = "Tule siia, mu nupuke!"
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Tule	tulema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	siia	siia	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod	6:nmod	_
+6	nupuke	nupuke	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+7	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+8	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_maailm_71
+# text = " Mine ära, Ronald.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	_
+2	Mine	minema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	ära	ära	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	Ronald	Ronald	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_kivirahk_312
+# text = Astu rongkäiku, sõber!"
+1	Astu	astuma	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	rongkäiku	rong_käik	NOUN	S	Case=Add|Number=Sing	1	obl	1:obl	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	sõber	sõber	NOUN	S	Case=Nom|Number=Sing	1	vocative	1:vocative	SpaceAfter=No
+5	!	!	PUNCT	Z	_	1	punct	1:punct	SpaceAfter=No
+6	"	"	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ilu_vilep_160
+# text = "Tule, kallis, ma söödan sul kõhukese täis!"
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Tule	tulema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	kallis	kallis	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	7:nsubj	_
+7	söödan	söötma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+8	sul	sina	PRON	P	Case=Ade|Number=Sing|Person=2|PronType=Prs	7	obl	7:obl	_
+9	kõhukese	kõhu=ke	NOUN	S	Case=Gen|Number=Sing	7	obj	7:obj	_
+10	täis	täis	ADV	D	_	7	compound:prt	7:compound	SpaceAfter=No
+11	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+12	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_kanep_207
+# text = Nende ahvatlused ei tööta, ema.
+1	Nende	tema	PRON	P	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod	2:nmod	_
+2	ahvatlused	ahvatlus	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	tööta	töötama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	ema	ema	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+7	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_orlau_77
+# text = "Tule, Kristin, lähme sõidame!" haaras Juudas tüdrukul käest.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Tule	tulema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	Kristin	Kristin	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	lähme	minema	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+7	sõidame	sõitma	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
+8	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+9	"	"	PUNCT	Z	_	2	punct	2:punct	_
+10	haaras	haarama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	Juudas	Juudas	PROPN	S	Case=Nom|Number=Sing	10	nsubj	10:nsubj	NE=B-Per
+12	tüdrukul	tüdruk	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
+13	käest	käsi	NOUN	S	Case=Ela|Number=Sing	10	obl	10:obl	SpaceAfter=No
+14	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
+# sent_id = aja_ee200110_3213
+# text = Ma olen ka avastanud, et tuleb mingi idee ja siis, ah sa kurat, näen, et juba tuleb telekast samasugune!
+1	Ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+2	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
+3	ka	ka	ADV	D	_	4	advmod	4:advmod	_
+4	avastanud	avastama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	et	et	SCONJ	J	_	7	mark	7:mark	_
+7	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	4:ccomp	_
+8	mingi	mingi	DET	P	Case=Nom|Number=Sing|PronType=Ind	9	det	9:det	_
+9	idee	idee	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
+10	ja	ja	CCONJ	J	_	17	cc	17:cc	_
+11	siis	siis	ADV	D	_	17	advmod	17:advmod	SpaceAfter=No
+12	,	,	PUNCT	Z	_	15	punct	15:punct	_
+13	ah	ah	INTJ	I	_	15	discourse	15:discourse	_
+14	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	vocative	15:vocative	_
+15	kurat	kurat	NOUN	S	Case=Nom|Number=Sing	17	parataxis	17:parataxis	SpaceAfter=No
+16	,	,	PUNCT	Z	_	15	punct	15:punct	_
+17	näen	nägema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	4:ccomp|7:conj	SpaceAfter=No
+18	,	,	PUNCT	Z	_	21	punct	21:punct	_
+19	et	et	SCONJ	J	_	21	mark	21:mark	_
+20	juba	juba	ADV	D	_	21	advmod	21:advmod	_
+21	tuleb	tulema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	17:ccomp	_
+22	telekast	telekas	NOUN	S	Case=Ela|Number=Sing	21	obl	21:obl	_
+23	samasugune	sama_sugune	PRON	P	Case=Nom|Number=Sing|PronType=Dem	21	nsubj	21:nsubj	SpaceAfter=No
+24	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_ee199920_340
+# text = Poiss olla ainult irvitanud ja teatanud, et õhtuks on ta niikuinii väljas ning "sa vanamees veel kahetsed seda politsei kutsumist".
+1	Poiss	poiss	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj|6:nsubj	_
+2	olla	olema	AUX	V	VerbForm=Inf	4	aux	4:aux	_
+3	ainult	ainult	ADV	D	_	4	advmod	4:advmod	_
+4	irvitanud	irvitama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+5	ja	ja	CCONJ	J	_	6	cc	6:cc	_
+6	teatanud	teatama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	et	et	SCONJ	J	_	9	mark	9:mark	_
+9	õhtuks	õhtu	NOUN	S	Case=Tra|Number=Sing	6	ccomp	6:ccomp	_
+10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
+11	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj:cop	9:nsubj	_
+12	niikuinii	nii_kui_nii	ADV	D	_	9	advmod	9:advmod	_
+13	väljas	väljas	ADV	D	_	9	advmod	9:advmod	_
+14	ning	ning	CCONJ	J	_	19	cc	19:cc	_
+15	"	"	PUNCT	Z	_	19	punct	19:punct	SpaceAfter=No
+16	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	19	nsubj	19:nsubj	_
+17	vanamees	vana_mees	NOUN	S	Case=Nom|Number=Sing	16	vocative	16:vocative	_
+18	veel	veel	ADV	D	_	19	advmod	19:advmod	_
+19	kahetsed	kahetsema	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	6:ccomp|9:conj	_
+20	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	22	nmod	22:nmod	_
+21	politsei	politsei	NOUN	S	Case=Gen|Number=Sing	22	nmod	22:nmod	_
+22	kutsumist	kutsumine	NOUN	S	Case=Par|Number=Sing	19	obj	19:obj	SpaceAfter=No
+23	"	"	PUNCT	Z	_	19	punct	19:punct	SpaceAfter=No
+24	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_kivirahk_253
+# text = Päris ahv oled sa, Petrov, ahv, mis ahv!"
+1	Päris	päris	ADJ	A	Degree=Pos	2	amod	2:amod	_
+2	ahv	ahv	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
+3	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+4	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj:cop	2:nsubj|8:nsubj|11:nsubj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+7	,	,	PUNCT	Z	_	8	punct	8:punct	_
+8	ahv	ahv	NOUN	S	Case=Nom|Number=Sing	2	conj	0:root|2:conj	SpaceAfter=No
+9	,	,	PUNCT	Z	_	11	punct	11:punct	_
+10	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nmod	11:nmod	_
+11	ahv	ahv	NOUN	S	Case=Nom|Number=Sing	8	conj	0:root|8:conj	SpaceAfter=No
+12	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+13	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_orlau_102
+# text = Juudas ajas end oiates üles: "Kristin?"
+1	Juudas	Juudas	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
+2	ajas	ajama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	2	obj	2:obj	_
+4	oiates	oigama	VERB	V	VerbForm=Conv	2	advcl	2:advcl	_
+5	üles	üles	ADV	D	_	2	compound:prt	2:compound	SpaceAfter=No
+6	:	:	PUNCT	Z	_	8	punct	8:punct	_
+7	"	"	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+8	Kristin	Kristin	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+9	?	?	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+10	"	"	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = ilu_maailm_535
+# text = Muuseas, Filoloog, kas teie Joogaga viisite rõdult minema tühja taara, sel ajal kui meie Vladimiri ja Tarmoga kolhoosis olime? "
+1	Muuseas	muu_seas	ADV	D	_	8	advmod	8:advmod	SpaceAfter=No
+2	,	,	PUNCT	Z	_	8	punct	8:punct	_
+3	Filoloog	Filoloog	PROPN	S	Case=Nom|Number=Sing	8	vocative	8:vocative	NE=B-Per|SpaceAfter=No
+4	,	,	PUNCT	Z	_	8	punct	8:punct	_
+5	kas	kas	ADV	D	_	8	advmod	8:advmod	_
+6	teie	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	8:nsubj	_
+7	Joogaga	Jooga	PROPN	S	Case=Com|Number=Sing	6	nmod	6:nmod	NE=B-Per
+8	viisite	viima	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	rõdult	rõdu	NOUN	S	Case=Abl|Number=Sing	8	obl	8:obl	_
+10	minema	minema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	8	xcomp	8:xcomp	_
+11	tühja	tühi	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	12:amod	_
+12	taara	taara	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj|10:nsubj	SpaceAfter=No
+13	,	,	PUNCT	Z	_	21	punct	21:punct	_
+14	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	15	det	15:det	_
+15	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	21	obl	21:obl	_
+16	kui	kui	SCONJ	J	_	21	mark	21:mark	_
+17	meie	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj:cop	21:nsubj	_
+18	Vladimiri	Vladimir	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Per
+19	ja	ja	CCONJ	J	_	20	cc	20:cc	_
+20	Tarmoga	Tarmo	PROPN	S	Case=Com|Number=Sing	18	conj	17:nmod|18:conj	NE=B-Per
+21	kolhoosis	kolhoos	NOUN	S	Case=Ine|Number=Sing	8	advcl	8:advcl	_
+22	olime	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	SpaceAfter=No
+23	?	?	PUNCT	Z	_	8	punct	8:punct	_
+24	"	"	PUNCT	Z	_	8	punct	8:punct	_
+
+# sent_id = aja_ee200110_2097
+# text = Kui ta, pime naine, vahepeal kellegi käe leiab, võtab ta sellest kõvasti kinni ja küsib: " Kas sina, Urveke!
+1	Kui	kui	SCONJ	J	_	10	mark	10:mark	_
+2	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	SpaceAfter=No
+3	,	,	PUNCT	Z	_	5	punct	5:punct	_
+4	pime	pime	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	naine	naine	NOUN	S	Case=Nom|Number=Sing	2	appos	2:appos	SpaceAfter=No
+6	,	,	PUNCT	Z	_	10	punct	10:punct	_
+7	vahepeal	vahe_peal	ADV	D	_	10	advmod	10:advmod	_
+8	kellegi	keegi	PRON	P	Case=Gen|Number=Sing|PronType=Ind	9	nmod	9:nmod	_
+9	käe	käsi	NOUN	S	Case=Gen|Number=Sing	10	obj	10:obj	_
+10	leiab	leidma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	12:advcl	SpaceAfter=No
+11	,	,	PUNCT	Z	_	10	punct	10:punct	_
+12	võtab	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+13	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	_
+14	sellest	see	PRON	P	Case=Ela|Number=Sing|PronType=Dem	12	obl	12:obl	_
+15	kõvasti	kõvasti	ADV	D	_	12	advmod	12:advmod	_
+16	kinni	kinni	ADV	D	_	12	compound:prt	12:compound	_
+17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+18	küsib	küsima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	0:root|12:conj	SpaceAfter=No
+19	:	:	PUNCT	Z	_	22	punct	22:punct	_
+20	"	"	PUNCT	Z	_	22	punct	22:punct	_
+21	Kas	kas	ADV	D	_	22	advmod	22:advmod	_
+22	sina	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	parataxis	18:parataxis	SpaceAfter=No
+23	,	,	PUNCT	Z	_	24	punct	24:punct	_
+24	Urveke	Urveke	PROPN	S	Case=Nom|Number=Sing	22	vocative	22:vocative	NE=B-Per|SpaceAfter=No
+25	!	!	PUNCT	Z	_	12	punct	12:punct	_
+
+# sent_id = aja_pm19980926_445
+# text = Kamme ma ei jäta sind
+1	Kamme	Kamme	PROPN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	NE=B-Per
+2	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	jäta	jätma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	sind	sina	PRON	P	Case=Par|Number=Sing|Person=2|PronType=Prs	4	obj	4:obj	_
+
+# sent_id = aja_pm19980926_398
+# text = “ Oh, pole midagi, kulla Sherlock.
+1	“	“	PUNCT	Z	_	4	punct	4:punct	_
+2	Oh	oh	INTJ	I	_	4	discourse	4:discourse	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	pole	olema	VERB	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	8:punct	_
+7	kulla	kulla	ADJ	A	Degree=Pos	8	amod	8:amod	_
+8	Sherlock	Sherlock	PROPN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	NE=B-Per|SpaceAfter=No
+9	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_indrikson_60
+# text = Kõik on õige, poiss, korrigeeris ta samas ja astus taksopeatusse.
+1	Kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	3	nsubj:cop	3:nsubj	_
+2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	õige	õige	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	poiss	poiss	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	korrigeeris	korrigeerima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+8	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj|11:nsubj	_
+9	samas	samas	ADV	D	_	7	advmod	7:advmod	_
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	astus	astuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
+12	taksopeatusse	takso_peatus	NOUN	S	Case=Add|Number=Sing	11	obl	11:obl	SpaceAfter=No
+13	.	.	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_kivirahk_284
+# text = Kuid kui kunagi vabadusvõitlejate tee stepirohus mu hauast viib üle, siis hobused trampige, trampige, et ärkaksin uuesti üles!
+1	Kuid	kuid	CCONJ	J	_	9	cc	9:cc	_
+2	kui	kui	SCONJ	J	_	9	mark	9:mark	_
+3	kunagi	kunagi	ADV	D	_	9	advmod	9:advmod	_
+4	vabadusvõitlejate	vabadus_võitleja	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
+5	tee	tee	NOUN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
+6	stepirohus	stepi_rohi	NOUN	S	Case=Ine|Number=Sing	5	nmod	5:nmod	_
+7	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nmod	8:nmod	_
+8	hauast	haud	NOUN	S	Case=Ela|Number=Sing	9	obl	9:obl	_
+9	viib	viima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	14:advcl	_
+10	üle	üle	ADV	D	_	9	compound:prt	9:compound	SpaceAfter=No
+11	,	,	PUNCT	Z	_	9	punct	9:punct	_
+12	siis	siis	ADV	D	_	14	advmod	14:advmod	_
+13	hobused	hobune	NOUN	S	Case=Nom|Number=Plur	14	vocative	14:vocative	_
+14	trampige	trampima	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+15	,	,	PUNCT	Z	_	16	punct	16:punct	_
+16	trampige	trampima	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	0:root|14:conj	SpaceAfter=No
+17	,	,	PUNCT	Z	_	19	punct	19:punct	_
+18	et	et	SCONJ	J	_	19	mark	19:mark	_
+19	ärkaksin	ärkama	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+20	uuesti	uuesti	ADV	D	_	19	advmod	19:advmod	_
+21	üles	üles	ADV	D	_	19	compound:prt	19:compound	SpaceAfter=No
+22	!	!	PUNCT	Z	_	14	punct	14:punct	_
+
+# sent_id = aja_ee200110_607
+# text = "Ütle, Anne, kas sa tahad Soome tagasi minna?"
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Ütle	ütlema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	Anne	Anne	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+5	,	,	PUNCT	Z	_	8	punct	8:punct	_
+6	kas	kas	ADV	D	_	8	advmod	8:advmod	_
+7	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	8:nsubj|11:nsubj	_
+8	tahad	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+9	Soome	Soome	PROPN	S	Case=Add|Number=Sing	11	obl	11:obl	NE=B-Loc
+10	tagasi	tagasi	ADV	D	_	11	compound:prt	11:compound	_
+11	minna	minema	VERB	V	VerbForm=Inf	8	xcomp	8:xcomp	SpaceAfter=No
+12	?	?	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+13	"	"	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_kivirahk_277
+# text = Vabandage, noorhärra, et te sääraseid inetuid asju kuulma ja nägema peate, aga mis teha, ma pole omas majas enam peremees.
+1	Vabandage	vabandama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	Z	_	3	punct	3:punct	_
+3	noorhärra	noor_härra	NOUN	S	Case=Nom|Number=Sing	1	vocative	1:vocative	SpaceAfter=No
+4	,	,	PUNCT	Z	_	10	punct	10:punct	_
+5	et	et	SCONJ	J	_	10	mark	10:mark	_
+6	te	sina	PRON	P	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	10:nsubj|12:nsubj	_
+7	sääraseid	säärane	DET	P	Case=Par|Number=Plur|PronType=Dem	9	det	9:det	_
+8	inetuid	inetu	ADJ	A	Case=Par|Degree=Pos|Number=Plur	9	amod	9:amod	_
+9	asju	asi	NOUN	S	Case=Par|Number=Plur	10	obj	10:obj	_
+10	kuulma	kuulma	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	1	advcl	1:advcl	_
+11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
+12	nägema	nägema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	10	conj	1:advcl|10:conj	_
+13	peate	pidama	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	10:aux	SpaceAfter=No
+14	,	,	PUNCT	Z	_	17	punct	17:punct	_
+15	aga	aga	CCONJ	J	_	17	cc	17:cc	_
+16	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	17	obj	17:obj	_
+17	teha	tegema	VERB	V	VerbForm=Inf	1	conj	0:root|1:conj	SpaceAfter=No
+18	,	,	PUNCT	Z	_	24	punct	24:punct	_
+19	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj:cop	24:nsubj	_
+20	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	24:cop	_
+21	omas	oma	PRON	P	Case=Ine|Number=Sing|Poss=Yes|PronType=Prs	22	nmod	22:nmod	_
+22	majas	maja	NOUN	S	Case=Ine|Number=Sing	24	obl	24:obl	_
+23	enam	enam	ADV	D	_	24	advmod	24:advmod	_
+24	peremees	pere_mees	NOUN	S	Case=Nom|Number=Sing	1	conj	0:root|1:conj	SpaceAfter=No
+25	.	.	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = ilu_maailm_336
+# text = "Ise koristab, kui paki maha paneb," arvas Jooga, "eks ole, Ivo."
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Ise	ise	ADV	D	_	3	advmod	3:advmod	_
+3	koristab	koristama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	ccomp	11:ccomp	SpaceAfter=No
+4	,	,	PUNCT	Z	_	8	punct	8:punct	_
+5	kui	kui	SCONJ	J	_	8	mark	8:mark	_
+6	paki	pakk	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj	_
+7	maha	maha	ADV	D	_	8	compound:prt	8:compound	_
+8	paneb	panema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	SpaceAfter=No
+9	,	,	PUNCT	Z	_	8	punct	8:punct	SpaceAfter=No
+10	"	"	PUNCT	Z	_	8	punct	8:punct	_
+11	arvas	arvama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+12	Jooga	Jooga	PROPN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	NE=B-Per|SpaceAfter=No
+13	,	,	PUNCT	Z	_	11	punct	11:punct	_
+14	"	"	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+15	eks	eks	ADV	D	_	16	advmod	16:advmod	_
+16	ole	olema	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	11:parataxis	SpaceAfter=No
+17	,	,	PUNCT	Z	_	18	punct	18:punct	_
+18	Ivo	Ivo	PROPN	S	Case=Nom|Number=Sing	16	vocative	16:vocative	NE=B-Per|SpaceAfter=No
+19	.	.	PUNCT	Z	_	11	punct	11:punct	SpaceAfter=No
+20	"	"	PUNCT	Z	_	11	punct	11:punct	_
+
+# sent_id = ilu_vilep_84
+# text = " Mul ei ole veel skleroosi, kallis poeg.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	_
+2	Mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
+3	ei	ei	AUX	V	Polarity=Neg	2	aux	2:aux	_
+4	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
+5	veel	veel	ADV	D	_	2	advmod	2:advmod	_
+6	skleroosi	skleroos	NOUN	S	Case=Par|Number=Sing	2	nsubj:cop	2:nsubj	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	kallis	kallis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	9	amod	9:amod	_
+9	poeg	poeg	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+10	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_kivirahk_107
+# text = Tule minu juurde, mu poeg!"
+1	Tule	tulema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	minu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	obl	1:obl	_
+3	juurde	juurde	ADP	K	AdpType=Post	2	case	2:case	SpaceAfter=No
+4	,	,	PUNCT	Z	_	6	punct	6:punct	_
+5	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod	6:nmod	_
+6	poeg	poeg	NOUN	S	Case=Nom|Number=Sing	1	vocative	1:vocative	SpaceAfter=No
+7	!	!	PUNCT	Z	_	1	punct	1:punct	SpaceAfter=No
+8	"	"	PUNCT	Z	_	1	punct	1:punct	_
+
+# sent_id = aja_sloleht20071217_1032
+# text = Jututubades käijad, ettevaatust!
+1	Jututubades	jutu_tuba	NOUN	S	Case=Ine|Number=Plur	2	nmod	2:nmod	_
+2	käijad	käija	NOUN	S	Case=Nom|Number=Plur	4	vocative	4:vocative	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	punct	2:punct	_
+4	ettevaatust	ette_vaatus	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
+5	!	!	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_kivirahk_129
+# text = "maestro, maestro!" ütles Ram millegipärast krigiseva häälega, nagu üritaks ta tuvi moodi kudrutada.
+1	"	"	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
+2	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	7	vocative	7:vocative	SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	4:punct	_
+4	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+5	!	!	PUNCT	Z	_	7	punct	7:punct	SpaceAfter=No
+6	"	"	PUNCT	Z	_	7	punct	7:punct	_
+7	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+8	Ram	Ram	PROPN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	NE=B-Per
+9	millegipärast	millegi_pärast	ADV	D	_	7	advmod	7:advmod	_
+10	krigiseva	krigise=v	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	acl	11:acl	_
+11	häälega	hääl	NOUN	S	Case=Com|Number=Sing	7	obl	7:obl	SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	14:punct	_
+13	nagu	nagu	SCONJ	J	_	14	mark	14:mark	_
+14	üritaks	üritama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	_
+15	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj|18:nsubj	_
+16	tuvi	tuvi	NOUN	S	Case=Gen|Number=Sing	18	obl	18:obl	_
+17	moodi	moodi	ADP	K	AdpType=Post	16	case	16:case	_
+18	kudrutada	kudrutama	VERB	V	VerbForm=Inf	14	xcomp	14:xcomp	SpaceAfter=No
+19	.	.	PUNCT	Z	_	7	punct	7:punct	_
+
+# sent_id = ilu_kivirahk_330
+# text = "Kõik on korras, taadike!" rahustas teda Petrov, haaras kääbuse käest tõrviku ja surus selle Tõnule pihku, sosistades ise:
+1	"	"	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+2	Kõik	kõik	PRON	P	Case=Nom|Number=Sing|PronType=Tot	4	nsubj:cop	4:nsubj	_
+3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
+4	korras	korras	ADJ	A	Degree=Pos	9	ccomp	9:ccomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	taadike	taadi=ke	NOUN	S	Case=Nom|Number=Sing	4	vocative	4:vocative	SpaceAfter=No
+7	!	!	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+8	"	"	PUNCT	Z	_	4	punct	4:punct	_
+9	rahustas	rahustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+10	teda	tema	PRON	P	Case=Par|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_
+11	Petrov	Petrov	PROPN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj|13:nsubj|18:nsubj|23:nsubj	NE=B-Per|SpaceAfter=No
+12	,	,	PUNCT	Z	_	13	punct	13:punct	_
+13	haaras	haarama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	9:conj|0:root	_
+14	kääbuse	kääbus	NOUN	S	Case=Gen|Number=Sing	13	obl	13:obl	_
+15	käest	käest	ADP	K	AdpType=Post	14	case	14:case	_
+16	tõrviku	tõrvik	NOUN	S	Case=Gen|Number=Sing	13	obj	13:obj	_
+17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
+18	surus	suruma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	13:conj|9:conj|0:root	_
+19	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	18	obj	18:obj	_
+20	Tõnule	Tõnu	PROPN	S	Case=All|Number=Sing	18	obl	18:obl	NE=B-Per
+21	pihku	pihk	NOUN	S	Case=Add|Number=Sing	18	obl	18:obl	SpaceAfter=No
+22	,	,	PUNCT	Z	_	23	punct	23:punct	_
+23	sosistades	sosistama	VERB	V	VerbForm=Conv	18	advcl	18:advcl	_
+24	ise	ise	ADV	D	_	23	advmod	23:advmod	SpaceAfter=No
+25	:	:	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = aja_ee200110_1055
+# text = "Keegi ei taha teiega seksida, kuradi pederastid!"
+1	"	"	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+2	Keegi	keegi	PRON	P	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	4:nsubj|6:nsubj	_
+3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
+4	taha	tahtma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	teiega	sina	PRON	P	Case=Com|Number=Plur|Person=2|PronType=Prs	6	obl	6:obl	_
+6	seksida	seksima	VERB	V	VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
+7	,	,	PUNCT	Z	_	9	punct	9:punct	_
+8	kuradi	kuradi	ADJ	A	Degree=Pos	9	amod	9:amod	_
+9	pederastid	pederast	NOUN	S	Case=Nom|Number=Plur	4	vocative	4:vocative	SpaceAfter=No
+10	!	!	PUNCT	Z	_	4	punct	4:punct	SpaceAfter=No
+11	"	"	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = ilu_kivirahk_175
+# text = "Ärge rääkige nii, maestro!" palus ta.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Ärge	ära	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
+3	rääkige	rääkima	VERB	V	Connegative=Yes|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	_
+4	nii	nii	ADV	D	_	3	advmod	3:advmod	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+7	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+8	"	"	PUNCT	Z	_	3	punct	3:punct	_
+9	palus	paluma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+10	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	SpaceAfter=No
+11	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = ilu_vilep_195
+# text = " Hea küll, kallis!
+1	"	"	PUNCT	Z	_	2	punct	2:punct	_
+2	Hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	_
+3	küll	küll	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	kallis	kallis	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = ilu_maailm_538
+# text = " Hea küll, Tamur, " ütles Kala ja vinnas oma luise kere püsti, " kus toas me kaarte mängime, kas meil või teil?
+1	"	"	PUNCT	Z	_	2	punct	2:punct	_
+2	Hea	hea	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	8	ccomp	8:ccomp	_
+3	küll	küll	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	Tamur	Tamur	PROPN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	NE=B-Per|SpaceAfter=No
+6	,	,	PUNCT	Z	_	2	punct	2:punct	_
+7	"	"	PUNCT	Z	_	2	punct	2:punct	_
+8	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	Kala	Kala	PROPN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	NE=B-Per
+10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
+11	vinnas	vinnama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	0:root|8:conj	_
+12	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	14	nmod	14:nmod	_
+13	luise	luine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	14	amod	14:amod	_
+14	kere	kere	NOUN	S	Case=Gen|Number=Sing	11	obj	11:obj	_
+15	püsti	püsti	ADV	D	_	11	advmod	11:advmod	SpaceAfter=No
+16	,	,	PUNCT	Z	_	22	punct	22:punct	_
+17	"	"	PUNCT	Z	_	22	punct	22:punct	_
+18	kus	kus	ADV	D	_	22	mark	22:mark	_
+19	toas	tuba	NOUN	S	Case=Ine|Number=Sing	22	advcl	22:advcl	_
+20	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	22:nsubj	_
+21	kaarte	kaart	NOUN	S	Case=Par|Number=Plur	22	obj	22:obj	_
+22	mängime	mängima	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	8:parataxis	SpaceAfter=No
+23	,	,	PUNCT	Z	_	25	punct	25:punct	_
+24	kas	kas	ADV	D	_	25	cc:preconj	25:cc	_
+25	meil	mina	PRON	P	Case=Ade|Number=Plur|Person=1|PronType=Prs	22	obl	22:obl	_
+26	või	või	CCONJ	J	_	27	cc	27:cc	_
+27	teil	sina	PRON	P	Case=Ade|Number=Plur|Person=2|PronType=Prs	25	conj	22:obl|25:conj	SpaceAfter=No
+28	?	?	PUNCT	Z	_	22	punct	22:punct	_
+
+# sent_id = ilu_kivirahk_324
+# text = "Oleme lauluväljakul, maestro!"
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Oleme	olema	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	_
+3	lauluväljakul	laulu_väljak	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	maestro	maestro	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+6	!	!	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+7	"	"	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_maailm_667
+# text = Kas sa ka veini tahad, Gerda? "
+1	Kas	kas	ADV	D	_	5	advmod	5:advmod	_
+2	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	_
+3	ka	ka	ADV	D	_	5	advmod	5:advmod	_
+4	veini	vein	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
+5	tahad	tahtma	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	Gerda	Gerda	PROPN	S	Case=Nom|Number=Sing	5	vocative	5:vocative	NE=B-Per|SpaceAfter=No
+8	?	?	PUNCT	Z	_	5	punct	5:punct	_
+9	"	"	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ilu_kivirahk_138
+# text = "Ülekohtune olete, papake, oi, kui ülekohtune!" soigus kääbus ja vahtis Ernesaksa nii orjalikult lömitava pilguga, et Tõnul hakkas imelik.
+1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+2	Ülekohtune	üle_kohtune	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	ccomp	13:ccomp	_
+3	olete	olema	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	SpaceAfter=No
+4	,	,	PUNCT	Z	_	5	punct	5:punct	_
+5	papake	papa=ke	NOUN	S	Case=Nom|Number=Sing	2	vocative	2:vocative	SpaceAfter=No
+6	,	,	PUNCT	Z	_	10	punct	10:punct	_
+7	oi	oi	INTJ	I	_	10	discourse	10:discourse	SpaceAfter=No
+8	,	,	PUNCT	Z	_	10	punct	10:punct	_
+9	kui	kui	ADV	D	_	10	mark	10:mark	_
+10	ülekohtune	üle_kohtune	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	2	conj	0:root|2:conj	SpaceAfter=No
+11	!	!	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
+12	"	"	PUNCT	Z	_	2	punct	2:punct	_
+13	soigus	soiguma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	kääbus	kääbus	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj|16:nsubj	_
+15	ja	ja	CCONJ	J	_	16	cc	16:cc	_
+16	vahtis	vahtima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	13:conj|0:root	_
+17	Ernesaksa	Erne_saks	PROPN	S	Case=Par|Number=Sing	16	obj	16:obj	NE=B-Per
+18	nii	nii	ADV	D	_	19	advmod	19:advmod	_
+19	orjalikult	orjaliku=lt	ADV	D	_	20	advmod	20:advmod	_
+20	lömitava	lömitav	ADJ	A	Case=Gen|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	acl	21:acl	_
+21	pilguga	pilk	NOUN	S	Case=Com|Number=Sing	16	obl	16:obl	SpaceAfter=No
+22	,	,	PUNCT	Z	_	25	punct	25:punct	_
+23	et	et	SCONJ	J	_	25	mark	25:mark	_
+24	Tõnul	Tõnu	PROPN	S	Case=Ade|Number=Sing	25	obl	25:obl	NE=B-Per
+25	hakkas	hakkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	_
+26	imelik	imelik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	25	xcomp	25:xcomp	SpaceAfter=No
+27	.	.	PUNCT	Z	_	13	punct	13:punct	_
+
+# sent_id = ilu_kivirahk_306
+# text = "Mis maakonnast sa oled, laulupeoline?" küsis ta.
+1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+2	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	3	nmod	3:nmod	_
+3	maakonnast	maakond	NOUN	S	Case=Ela|Number=Sing	10	ccomp	10:ccomp	_
+4	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj:cop	3:nsubj	_
+5	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	3:cop	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	laulupeoline	laulu_peo=line	NOUN	S	Case=Nom|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
+8	?	?	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
+9	"	"	PUNCT	Z	_	3	punct	3:punct	_
+10	küsis	küsima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	SpaceAfter=No
+12	.	.	PUNCT	Z	_	10	punct	10:punct	_
+
