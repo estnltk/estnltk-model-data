@@ -1,0 +1,167 @@
+# sent_id = aja_luup200009_79
+# cut_word_ids = 9
+# ud_version = 2.11
+# text = Üks võttis mingi mütsilätu , pillas sõnnikurenni : näe , lüpsjad käivad nüüd kübaratega ! ”
+1	Üks	üks	P	P	sg=sg|nom=nom	2	nsubj	_	_
+2	võttis	võtma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	mingi	mingi	P	P	sg=sg|nom=nom	4	det	_	_
+4	mütsilätu	mütsilätu	S	S	com=com|sg=sg|nom=nom	2	obj	_	_
+5	,	,	Z	Z	_	6	punct	_	_
+6	pillas	pillama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	conj	_	_
+7	sõnnikurenni	sõnnikurenn	S	S	com=com|sg=sg|adit=adit	6	obj	_	_
+8	:	:	Z	Z	_	9	punct	_	_
+9	näe	nägema	V	V	mod=mod|indic=indic|pres=pres|ps=ps|neg=neg	6	parataxis	_	_
+10	,	,	Z	Z	_	12	punct	_	_
+11	lüpsjad	lüpsja	S	S	com=com|pl=pl|nom=nom	12	nsubj	_	_
+12	käivad	käima	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	9	conj	_	_
+13	nüüd	nüüd	D	D	_	12	advmod	_	_
+14	kübaratega	kübar	S	S	com=com|pl=pl|kom=kom	12	obl	_	_
+15	!	!	Z	Z	_	2	punct	_	_
+16	”	”	Z	Z	_	2	punct	_	_
+
+
+# sent_id = aja_luup200009_231
+# cut_word_ids = 2
+# ud_version = 2.11
+# text = “ siis hakkas tulema neid jobisid .
+1	“	“	Z	Z	_	3	punct	_	_
+2	siis	siis	D	D	_	3	advmod	_	_
+3	hakkas	hakkama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	tulema	tulema	V	V	main=main|sup=sup|ps=ps|ill=ill	3	xcomp	_	_
+5	neid	see	P	P	pl=pl|part=part	6	det	_	_
+6	jobisid	jobi	S	S	com=com|pl=pl|part=part	3	nsubj	_	_
+7	.	.	Z	Z	_	3	punct	_	_
+
+
+# sent_id = aja_luup200009_240
+# cut_word_ids = 2
+# ud_version = 2.11
+# text = “ kust ma võtan , mul pole omalgi .
+1	“	“	Z	Z	_	4	punct	_	_
+2	kust	kust	D	D	_	4	mark	_	_
+3	ma	mina	P	P	sg=sg|nom=nom	4	nsubj	_	_
+4	võtan	võtma	V	V	main=main|indic=indic|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+5	,	,	Z	Z	_	6	punct	_	_
+6	mul	mina	P	P	sg=sg|ad=ad	4	conj	_	_
+7	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	6	cop	_	_
+8	omalgi	oma	S	S	com=com|sg=sg|ad=ad	6	obl	_	_
+9	.	.	Z	Z	_	4	punct	_	_
+
+
+# sent_id = ilu_ruben_37
+# cut_word_ids = 1
+# ud_version = 2.11
+# text = kuhu see kõlbab ?
+1	kuhu	kuhu	D	D	_	3	mark	_	_
+2	see	see	P	P	sg=sg|nom=nom	3	nsubj	_	_
+3	kõlbab	kõlbama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	?	?	Z	Z	_	3	punct	_	_
+
+
+# sent_id = aja_luup200009_211
+# cut_word_ids = 14
+# ud_version = 2.11
+# text = “ Kui hakkasime rääkima , kui palju see ökonoomilist efekti annab , siis kurat , nii ja naa palju ! ”
+1	“	“	Z	Z	_	3	punct	_	_
+2	Kui	kui	D	D	_	3	mark	_	_
+3	hakkasime	hakkama	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|pl=pl|ps=ps|af=af	0	root	_	_
+4	rääkima	rääkima	V	V	main=main|sup=sup|ps=ps|ill=ill	3	xcomp	_	_
+5	,	,	Z	Z	_	7	punct	_	_
+6	kui	kui	D	D	_	7	mark	_	_
+7	palju	palju	D	D	_	11	advcl	_	_
+8	see	see	P	P	sg=sg|nom=nom	11	nsubj	_	_
+9	ökonoomilist	ökonoomiline	A	A	pos=pos|sg=sg|part=part	10	amod	_	_
+10	efekti	efekt	S	S	com=com|sg=sg|part=part	11	obj	_	_
+11	annab	andma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	ccomp	_	_
+12	,	,	Z	Z	_	11	punct	_	_
+13	siis	siis	J	J	sub=sub|crd=crd	19	cc	_	_
+14	kurat	kurat	I	I	_	16	discourse	_	_
+15	,	,	Z	Z	_	16	punct	_	_
+16	nii	nii	D	D	_	19	advmod	_	_
+17	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
+18	naa	naa	D	D	_	19	advmod	_	_
+19	palju	palju	D	D	_	11	conj	_	_
+20	!	!	Z	Z	_	11	punct	_	_
+21	”	”	Z	Z	_	11	punct	_	_
+
+
+# sent_id = aja_luup200009_211
+# cut_word_ids = 15
+# ud_version = 2.11
+# text = “ Kui hakkasime rääkima , kui palju see ökonoomilist efekti annab , siis oi , nii ja naa palju ! ”
+1	“	“	Z	Z	_	3	punct	_	_
+2	Kui	kui	D	D	_	3	mark	_	_
+3	hakkasime	hakkama	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|pl=pl|ps=ps|af=af	0	root	_	_
+4	rääkima	rääkima	V	V	main=main|sup=sup|ps=ps|ill=ill	3	xcomp	_	_
+5	,	,	Z	Z	_	7	punct	_	_
+6	kui	kui	D	D	_	7	mark	_	_
+7	palju	palju	D	D	_	11	advcl	_	_
+8	see	see	P	P	sg=sg|nom=nom	11	nsubj	_	_
+9	ökonoomilist	ökonoomiline	A	A	pos=pos|sg=sg|part=part	10	amod	_	_
+10	efekti	efekt	S	S	com=com|sg=sg|part=part	11	obj	_	_
+11	annab	andma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	ccomp	_	_
+12	,	,	Z	Z	_	19	punct	_	_
+13	siis	siis	J	J	sub=sub|crd=crd	19	cc	_	_
+14	oi	oi	I	I	_	19	discourse	_	_
+15	,	,	Z	Z	_	16	punct	_	_
+16	nii	nii	D	D	_	19	advmod	_	_
+17	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
+18	naa	naa	D	D	_	19	advmod	_	_
+19	palju	palju	D	D	_	11	conj	_	_
+20	!	!	Z	Z	_	11	punct	_	_
+21	”	”	Z	Z	_	11	punct	_	_
+
+
+# sent_id = ilu_orlau_89
+# cut_word_ids = 4
+# ud_version = 2.11
+# text = " Juudas , ära tee ! " hüüatas Kris peaaegu tahtmatult , kui nad ühest järsemast kurvist peaaegu välja oleksid lennanud .
+1	"	"	Z	Z	_	5	punct	_	_
+2	Juudas	juudas	S	S	com=com|sg=sg|nom=nom	5	vocative	_	_
+3	,	,	Z	Z	_	5	punct	_	_
+4	ära	ära	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	5	aux	_	_
+5	tee	tegema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	0	root	_	_
+6	!	!	Z	Z	_	5	punct	_	_
+7	"	"	Z	Z	_	5	punct	_	_
+8	hüüatas	hüüatama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	parataxis	_	_
+9	Kris	Kris	S	S	prop=prop|sg=sg|nom=nom	8	nsubj	_	_
+10	peaaegu	peaaegu	D	D	_	11	advmod	_	_
+11	tahtmatult	tahtmatult	D	D	_	8	advmod	_	_
+12	,	,	Z	Z	_	21	punct	_	_
+13	kui	kui	J	J	sub=sub|crd=crd	21	mark	_	_
+14	nad	tema	P	P	pl=pl|nom=nom	21	nsubj	_	_
+15	ühest	üks	N	N	card=card|sg=sg|el=el|l=l	17	nummod	_	_
+16	järsemast	järsem	A	A	comp=comp|sg=sg|el=el	17	amod	_	_
+17	kurvist	kurv	S	S	com=com|sg=sg|el=el	21	obl	_	_
+18	peaaegu	peaaegu	D	D	_	21	advmod	_	_
+19	välja	välja	D	D	_	21	compound:prt	_	_
+20	oleksid	olema	V	V	mod=mod|cond=cond|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	21	aux	_	_
+21	lennanud	lendama	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	8	advcl	_	_
+22	.	.	Z	Z	_	5	punct	_	_
+
+
+# sent_id = aja_luup200009_656
+# cut_word_ids = 1
+# ud_version = 2.11
+# text = iseloomustage Putinit ja tema võimalikku poliitikat lähemalt .
+1	iseloomustage	iseloomustama	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|pl=pl|ps=ps|af=af	0	root	_	_
+2	Putinit	Putin	S	S	prop=prop|sg=sg|part=part	1	obj	_	_
+3	ja	ja	J	J	sub=sub|crd=crd	6	cc	_	_
+4	tema	tema	P	P	sg=sg|gen=gen	6	nmod	_	_
+5	võimalikku	võimalik	A	A	pos=pos|sg=sg|part=part	6	amod	_	_
+6	poliitikat	poliitika	S	S	com=com|sg=sg|part=part	2	conj	_	_
+7	lähemalt	lähemalt	D	D	_	1	advmod	_	_
+8	.	.	Z	Z	_	1	punct	_	_
+
+
+# sent_id = aja_ml200247_1737
+# cut_word_ids = 1
+# ud_version = 2.11
+# text = see ongi uus poliitika .
+1	see	see	P	P	sg=sg|nom=nom	4	nsubj:cop	_	_
+2	ongi	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
+3	uus	uus	A	A	pos=pos|sg=sg|nom=nom	4	amod	_	_
+4	poliitika	poliitika	S	S	com=com|sg=sg|nom=nom	0	root	_	_
+5	.	.	Z	Z	_	4	punct	_	_
+
+

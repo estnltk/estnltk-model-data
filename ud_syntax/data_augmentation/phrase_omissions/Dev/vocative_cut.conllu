@@ -1,0 +1,91 @@
+# sent_id = ilu_orlau_106
+# cut_word_ids = 1,2,3,4
+# ud_version = 2.11
+# text = paanilises hirmus raputas Juudas tüdrukut õlgadest ...
+1	paanilises	paaniline	A	A	pos=pos|sg=sg|in=in	2	amod	_	_
+2	hirmus	hirm	S	S	com=com|sg=sg|in=in	3	obl	_	_
+3	raputas	raputama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	Juudas	juudas	S	S	com=com|sg=sg|nom=nom	3	nsubj	_	_
+5	tüdrukut	tüdruk	S	S	com=com|sg=sg|part=part	3	obj	_	_
+6	õlgadest	õlg	S	S	com=com|pl=pl|el=el	3	obl	_	_
+7	...	...	Z	Z	_	3	punct	_	_
+
+
+# sent_id = aja_ee199920_1551
+# cut_word_ids = 6
+# ud_version = 2.11
+# text = Tänan intervjuu eest , härra !
+1	Tänan	tänama	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+2	intervjuu	intervjuu	S	S	com=com|sg=sg|gen=gen	1	obl	_	_
+3	eest	eest	K	K	post=post	2	case	_	_
+4	,	,	Z	Z	_	5	punct	_	_
+5	härra	härra	S	S	com=com|sg=sg|nom=nom	1	vocative	_	_
+6	!	!	Z	Z	_	1	punct	_	_
+
+
+# sent_id = ilu_ruben_28
+# cut_word_ids = 4,5,6
+# ud_version = 2.11
+# text = " Kui sina keeldud alla kirjutamast , siis koostame protokolli , et kodanik alla ei kirjutanud ja manukad panevad lihtsalt käed alla , " ütles peatoimetaja kuivalt ja väga rangelt .
+1	"	"	Z	Z	_	4	punct	_	_
+2	Kui	kui	D	D	_	4	mark	_	_
+3	sina	sina	P	P	sg=sg|nom=nom	4	nsubj	_	_
+4	keeldud	keelduma	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	9	advcl	_	_
+5	alla	alla	D	D	_	6	compound:prt	_	_
+6	kirjutamast	kirjutama	V	V	aux=aux|sup=sup|ps=ps|el=el	4	xcomp	_	_
+7	,	,	Z	Z	_	4	punct	_	_
+8	siis	siis	J	J	sub=sub|crd=crd	9	advmod	_	_
+9	koostame	koostama	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	0	root	_	_
+10	protokolli	protokoll	S	S	com=com|sg=sg|gen=gen	9	obj	_	_
+11	,	,	Z	Z	_	16	punct	_	_
+12	et	et	J	J	sub=sub|crd=crd	16	mark	_	_
+13	kodanik	kodanik	S	S	com=com|sg=sg|nom=nom	16	nsubj	_	_
+14	alla	alla	D	D	_	16	compound:prt	_	_
+15	ei	ei	V	V	aux=aux|neg=neg	16	aux	_	_
+16	kirjutanud	kirjutama	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	10	acl	_	_
+17	ja	ja	J	J	sub=sub|crd=crd	19	cc	_	_
+18	manukad	manukas	S	S	com=com|pl=pl|nom=nom	19	nsubj	_	_
+19	panevad	panema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	16	conj	_	_
+20	lihtsalt	lihtsalt	D	D	_	19	advmod	_	_
+21	käed	käsi	S	S	com=com|pl=pl|nom=nom	19	obj	_	_
+22	alla	alla	D	D	_	19	compound:prt	_	_
+23	,	,	Z	Z	_	9	punct	_	_
+24	"	"	Z	Z	_	9	punct	_	_
+25	ütles	ütlema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	parataxis	_	_
+26	peatoimetaja	peatoimetaja	S	S	com=com|sg=sg|nom=nom	25	nsubj	_	_
+27	kuivalt	kuivalt	D	D	_	25	advmod	_	_
+28	ja	ja	J	J	sub=sub|crd=crd	30	cc	_	_
+29	väga	väga	D	D	_	30	advmod	_	_
+30	rangelt	rangelt	D	D	_	27	conj	_	_
+31	.	.	Z	Z	_	9	punct	_	_
+
+
+# sent_id = ilu_orlau_77
+# cut_word_ids = 3,4
+# ud_version = 2.11
+# text = " Tule , lähme sõidame ! " haaras Juudas tüdrukul käest .
+1	"	"	Z	Z	_	2	punct	_	_
+2	Tule	tulema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
+3	,	,	Z	Z	_	4	punct	_	_
+4	lähme	minema	V	V	main=main|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	2	conj	_	_
+5	sõidame	sõitma	V	V	aux=aux|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	4	advcl	_	_
+6	!	!	Z	Z	_	2	punct	_	_
+7	"	"	Z	Z	_	2	punct	_	_
+8	haaras	haarama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	parataxis	_	_
+9	Juudas	Juudas	S	S	prop=prop|sg=sg|nom=nom	8	nsubj	_	_
+10	tüdrukul	tüdruk	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
+11	käest	käsi	S	S	com=com|sg=sg|el=el	8	obl	_	_
+12	.	.	Z	Z	_	2	punct	_	_
+
+
+# sent_id = ilu_orlau_102
+# cut_word_ids = 6,7,8,9,10
+# ud_version = 2.11
+# text = Juudas ajas end oiates üles
+1	Juudas	juudas	S	S	com=com|sg=sg|nom=nom	2	nsubj	_	_
+2	ajas	ajama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	end	ise	P	P	sg=sg|part=part	2	obj	_	_
+4	oiates	oigama	V	V	main=main|ger=ger	2	advcl	_	_
+5	üles	üles	D	D	_	2	compound:prt	_	_
+
+

@@ -388,15 +388,6 @@
 24	lambaks	lammas	NOUN	S	Case=Tra|Number=Sing	19	xcomp	19:xcomp	SpaceAfter=No
 25	.	.	PUNCT	Z	_	9	punct	9:punct	_
 
-# sent_id = aja_luup200009_179
-# text = “ Mul oli sõber Värskast.
-1	“	“	PUNCT	Z	_	2	punct	2:punct	_
-2	Mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	0:root	_
-3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-4	sõber	sõber	NOUN	S	Case=Nom|Number=Sing	2	nsubj:cop	2:nsubj	_
-5	Värskast	Värska	PROPN	S	Case=Ela|Number=Sing	4	nmod	4:nmod	NE=B-Loc|SpaceAfter=No
-6	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
 # sent_id = aja_ml200247_791
 # text = "On valiku küsimus, kas maksta kinni eelmise perioodi kahjud või kasutada raha tulevikule mõeldes - turu-uuringuteks ja reklaamiks."
 1	"	"	PUNCT	Z	_	2	punct	2:punct	SpaceAfter=No
@@ -445,16 +436,6 @@
 12	nõukogu	nõu_kogu	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
 13	liige	liige	NOUN	S	Case=Nom|Number=Sing	10	conj	2:csubj|10:conj	SpaceAfter=No
 14	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_ee199920_1773
-# text = Ja seda Juri Dõrini maalid väljendavadki.
-1	Ja	ja	CCONJ	J	_	6	cc	6:cc	_
-2	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	6	obj	6:obj	_
-3	Juri	Juri	PROPN	S	Case=Nom|Number=Sing	5	nmod	5:nmod	NE=B-Per
-4	Dõrini	Dõrin	PROPN	S	Case=Gen|Number=Sing	3	flat	3:flat	NE=I-Per
-5	maalid	maal	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
-6	väljendavadki	väljendama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-7	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
 # sent_id = ilu_valton_541
 # text = "See on lumi," ütlesid vanad kanad, kes tema ehmatust märkasid.
@@ -553,33 +534,6 @@
 17	tagaakna	taga_aken	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	_
 18	juurde	juurde	ADP	K	AdpType=Post	17	case	17:case	SpaceAfter=No
 19	.	.	PUNCT	Z	_	8	punct	8:punct	_
-
-# sent_id = tea_eesti_arst_2004_357
-# text = Binswangeri tõbe põhjustab üldine väikeste ajuarterioolide ahenemine, mis viib ebastabiilse hemodünaamika ja vererõhu kõikumise korral nn mittetäielike infarktide tekkeni (16).
-1	Binswangeri	Binswanger	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Per
-2	tõbe	tõbi	NOUN	S	Case=Par|Number=Sing	3	obj	3:obj	_
-3	põhjustab	põhjustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	üldine	üldine	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	amod	7:amod	_
-5	väikeste	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	6	amod	6:amod	_
-6	ajuarterioolide	aju_arteriool	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
-7	ahenemine	ahenemine	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj|10:nsubj	SpaceAfter=No
-8	,	,	PUNCT	Z	_	10	punct	10:punct	_
-9	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	10	nsubj	7:ref	_
-10	viib	viima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
-11	ebastabiilse	eba_stabiilne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	12	amod	12:amod	_
-12	hemodünaamika	hemo_dünaamika	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
-13	ja	ja	CCONJ	J	_	15	cc	15:cc	_
-14	vererõhu	vere_rõhk	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
-15	kõikumise	kõikumine	NOUN	S	Case=Gen|Number=Sing	12	conj	10:obl|12:conj	_
-16	korral	korral	ADP	K	AdpType=Post	12	case	12:case	_
-17	nn	nn	ADJ	Y	Abbr=Yes	19	amod	19:amod	_
-18	mittetäielike	mitte_täielik	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	19	amod	19:amod	_
-19	infarktide	infarkt	NOUN	S	Case=Gen|Number=Plur	20	nmod	20:nmod	_
-20	tekkeni	teke	NOUN	S	Case=Ter|Number=Sing	10	obl	10:obl	_
-21	(	(	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
-22	16	16	NUM	N	NumForm=Digit|NumType=Card	3	parataxis	3:parataxis	SpaceAfter=No
-23	)	)	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
-24	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = aja_ml200247_2342
 # text = Väikesed projektisummad annavad võimaluse midagi teha, kogeda ja õppida, sellelt pinnalt on võimalik edasi minna ja lõpuks kas või oma firma asutada.
@@ -1085,76 +1039,6 @@
 8	%	%	SYM	X	_	3	obl	3:obl	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
-# sent_id = aja_ml200247_1532
-# text = Eessõnas teatab autor Berta Björklund, et laotab lugeja ette ühe väikese osa oma elust, mis oli täis rõõmutuid päevi, ja soovib, et inimeste suhtumine üksteisesse oleks inimväärne.
-1	Eessõnas	ees_sõna	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
-2	teatab	teatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	autor	autor	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|24:nsubj	_
-4	Berta	Berta	PROPN	S	Case=Nom|Number=Sing	3	appos	3:appos	NE=B-Per
-5	Björklund	Björklund	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	NE=I-Per|SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	et	et	SCONJ	J	_	8	mark	8:mark	_
-8	laotab	laotama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
-9	lugeja	lugeja	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
-10	ette	ette	ADP	K	AdpType=Post	9	case	9:case	_
-11	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	13	det	13:det	_
-12	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	13:amod	_
-13	osa	osa	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj|21:nsubj:cop	_
-14	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	15:nmod	_
-15	elust	elu	NOUN	S	Case=Ela|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
-16	,	,	PUNCT	Z	_	21	punct	21:punct	_
-17	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	21	nsubj:cop	13:ref	_
-18	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
-19	täis	täis	ADV	D	_	21	advmod	21:advmod	_
-20	rõõmutuid	rõõmutu	ADJ	A	Case=Par|Degree=Pos|Number=Plur	21	amod	21:amod	_
-21	päevi	päev	NOUN	S	Case=Par|Number=Plur	13	acl:relcl	13:acl:relcl	SpaceAfter=No
-22	,	,	PUNCT	Z	_	24	punct	24:punct	_
-23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
-24	soovib	soovima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	2:ccomp|8:conj	SpaceAfter=No
-25	,	,	PUNCT	Z	_	31	punct	31:punct	_
-26	et	et	SCONJ	J	_	31	mark	31:mark	_
-27	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	28	nmod	28:nmod	_
-28	suhtumine	suhtumine	NOUN	S	Case=Nom|Number=Sing	31	nsubj:cop	31:nsubj	_
-29	üksteisesse	üks_teise	PRON	P	Case=Ill|Number=Sing|PronType=Dem|Reflex=Yes	28	nmod	28:nmod	_
-30	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	31:cop	_
-31	inimväärne	inim_väärne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	24	ccomp	24:ccomp	SpaceAfter=No
-32	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_ml200247_1532
-# text = Eessõnas teatab autor Berta Björklund, et laotab lugeja ette ühe väikese osa oma elust, mis oli täis rõõmutuid päevi, ja soovib, et inimeste suhtumine üksteisesse oleks inimväärne.
-1	Eessõnas	ees_sõna	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
-2	teatab	teatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	autor	autor	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|24:nsubj	_
-4	Berta	Berta	PROPN	S	Case=Nom|Number=Sing	3	appos	3:appos	NE=B-Per
-5	Björklund	Björklund	PROPN	S	Case=Nom|Number=Sing	4	flat	4:flat	NE=I-Per|SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	et	et	SCONJ	J	_	8	mark	8:mark	_
-8	laotab	laotama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
-9	lugeja	lugeja	NOUN	S	Case=Gen|Number=Sing	8	obl	8:obl	_
-10	ette	ette	ADP	K	AdpType=Post	9	case	9:case	_
-11	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	13	det	13:det	_
-12	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	13	amod	13:amod	_
-13	osa	osa	NOUN	S	Case=Gen|Number=Sing	8	obj	8:obj|21:nsubj:cop	_
-14	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	15:nmod	_
-15	elust	elu	NOUN	S	Case=Ela|Number=Sing	13	nmod	13:nmod	SpaceAfter=No
-16	,	,	PUNCT	Z	_	21	punct	21:punct	_
-17	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	21	nsubj:cop	13:ref	_
-18	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	21:cop	_
-19	täis	täis	ADV	D	_	21	advmod	21:advmod	_
-20	rõõmutuid	rõõmutu	ADJ	A	Case=Par|Degree=Pos|Number=Plur	21	amod	21:amod	_
-21	päevi	päev	NOUN	S	Case=Par|Number=Plur	13	acl:relcl	13:acl:relcl	SpaceAfter=No
-22	,	,	PUNCT	Z	_	24	punct	24:punct	_
-23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
-24	soovib	soovima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	2:ccomp|8:conj	SpaceAfter=No
-25	,	,	PUNCT	Z	_	31	punct	31:punct	_
-26	et	et	SCONJ	J	_	31	mark	31:mark	_
-27	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	28	nmod	28:nmod	_
-28	suhtumine	suhtumine	NOUN	S	Case=Nom|Number=Sing	31	nsubj:cop	31:nsubj	_
-29	üksteisesse	üks_teise	PRON	P	Case=Ill|Number=Sing|PronType=Dem|Reflex=Yes	28	nmod	28:nmod	_
-30	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	31:cop	_
-31	inimväärne	inim_väärne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	24	ccomp	24:ccomp	SpaceAfter=No
-32	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
 # sent_id = aja_luup200106_1526
 # text = Iga päevaga risustab meie elektroonilist postkasti üha enam rämpspost ehk spämm.
 1	Iga	iga	DET	P	Case=Gen|Number=Sing|PronType=Tot	2	det	2:det	_
@@ -1199,44 +1083,6 @@
 25	Allan	Allan	PROPN	S	Case=Nom|Number=Sing	24	appos	24:appos	NE=B-Per
 26	Dorbek	Dorbek	PROPN	S	Case=Nom|Number=Sing	25	flat	25:flat	NE=I-Per|SpaceAfter=No
 27	.	.	PUNCT	Z	_	22	punct	22:punct	_
-
-# sent_id = aja_ml200247_1764
-# text = 1960. a Brasiilias tapetud emase anakonda pikkus oli 8,45 m ja keha ümbermõõt 1,11 m.
-1	1960.	1960.	ADJ	N	NumForm=Digit|NumType=Ord	2	amod	2:amod	_
-2	a	a	NOUN	Y	Abbr=Yes	4	obl	4:obl	_
-3	Brasiilias	Brasiilia	PROPN	S	Case=Ine|Number=Sing	4	obl	4:obl	NE=B-Loc
-4	tapetud	tapetud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	_
-5	emase	emane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	6	amod	6:amod	_
-6	anakonda	anakonda	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	pikkus	pikkus	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
-8	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
-9	8,45	8,45	NUM	N	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
-10	m	m	NOUN	Y	Abbr=Yes	0	root	0:root	_
-11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
-12	keha	keha	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
-13	ümbermõõt	ümber_mõõt	NOUN	S	Case=Nom|Number=Sing	15	nsubj:cop	15:nsubj	_
-14	1,11	1,11	NUM	N	NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
-15	m	m	NOUN	Y	Abbr=Yes	10	conj	0:root|10:conj	SpaceAfter=No
-16	.	.	PUNCT	Z	_	10	punct	10:punct	_
-
-# sent_id = aja_ml200247_1764
-# text = 1960. a Brasiilias tapetud emase anakonda pikkus oli 8,45 m ja keha ümbermõõt 1,11 m.
-1	1960.	1960.	ADJ	N	NumForm=Digit|NumType=Ord	2	amod	2:amod	_
-2	a	a	NOUN	Y	Abbr=Yes	4	obl	4:obl	_
-3	Brasiilias	Brasiilia	PROPN	S	Case=Ine|Number=Sing	4	obl	4:obl	NE=B-Loc
-4	tapetud	tapetud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	6:acl	_
-5	emase	emane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	6	amod	6:amod	_
-6	anakonda	anakonda	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	pikkus	pikkus	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
-8	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
-9	8,45	8,45	NUM	N	NumForm=Digit|NumType=Card	10	nummod	10:nummod	_
-10	m	m	NOUN	Y	Abbr=Yes	0	root	0:root	_
-11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
-12	keha	keha	NOUN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	_
-13	ümbermõõt	ümber_mõõt	NOUN	S	Case=Nom|Number=Sing	15	nsubj:cop	15:nsubj	_
-14	1,11	1,11	NUM	N	NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
-15	m	m	NOUN	Y	Abbr=Yes	10	conj	0:root|10:conj	SpaceAfter=No
-16	.	.	PUNCT	Z	_	10	punct	10:punct	_
 
 # sent_id = tea_eesti_arst_2004_1433
 # text = Läbivaatusel ilmneb, et tegemist on füüsiliselt ja vaimselt hästi säilinud aktiivse eluhoiakuga naisega.
@@ -1612,26 +1458,6 @@
 5	Põhja-Jäämeres	Põhja-Jää_meri	PROPN	S	Case=Ine|Number=Sing	4	nmod	4:nmod	NE=B-Loc|SpaceAfter=No
 6	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
-# sent_id = aja_ee199920_1728
-# text = Tõelise arvamustevahetuse põhjustas film Komimaast, mis kätkes hiilgavat operaatoritööd, kauneid loodusvõtteid ja teravat allteksti.
-1	Tõelise	tõeline	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	2:amod	_
-2	arvamustevahetuse	arvamuste_vahetus	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj	_
-3	põhjustas	põhjustama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	film	film	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj|8:nsubj	_
-5	Komimaast	Komi_maa	PROPN	S	Case=Ela|Number=Sing	4	nmod	4:nmod	NE=B-Loc|SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	4:ref	_
-8	kätkes	kätkema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	_
-9	hiilgavat	hiilgav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
-10	operaatoritööd	operaatori_töö	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	SpaceAfter=No
-11	,	,	PUNCT	Z	_	13	punct	13:punct	_
-12	kauneid	kaunis	ADJ	A	Case=Par|Degree=Pos|Number=Plur	13	amod	13:amod	_
-13	loodusvõtteid	loodus_võte	NOUN	S	Case=Par|Number=Plur	10	conj	8:obj|10:conj	_
-14	ja	ja	CCONJ	J	_	16	cc	16:cc	_
-15	teravat	terav	ADJ	A	Case=Par|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	allteksti	all_tekst	NOUN	S	Case=Par|Number=Sing	10	conj	8:obj|10:conj	SpaceAfter=No
-17	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
 # sent_id = tea_dr8047_417
 # text = Samasugust ω-linoleenhappe suurenemistendentsi on täheldatud ka 15% linaseemnete söötmise korral (Jiang et al., 1992), kuid samas nenditakse ka 36%-l keedetud katsemunadel ebameeldivat kõrvalmaitset.
 1	Samasugust	sama_sugune	ADJ	P	Case=Par|Number=Sing|PronType=Dem	3	amod	3:amod	_
@@ -1733,22 +1559,6 @@
 10	registrid	register	NOUN	S	Case=Nom|Number=Plur	5	obj	5:obj	SpaceAfter=No
 11	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_luup200009_176
-# text = Kuulus NKVD kaptenile, kes läks tuliveearmastuse tõttu 60ndate algul teise ilma.
-1	Kuulus	kuuluma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	NKVD	NKVD	PROPN	Y	Abbr=Yes	3	nmod	3:nmod	NE=B-Org
-3	kaptenile	kapten	NOUN	S	Case=All|Number=Sing	1	obl	1:obl|6:nsubj	SpaceAfter=No
-4	,	,	PUNCT	Z	_	6	punct	6:punct	_
-5	kes	kes	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	6	nsubj	3:ref	_
-6	läks	minema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
-7	tuliveearmastuse	tuli_vee_armastus	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
-8	tõttu	tõttu	ADP	K	AdpType=Post	7	case	7:case	_
-9	60ndate	60=s	ADJ	N	Case=Gen|Number=Plur|NumType=Ord	6	obl	6:obl	_
-10	algul	algul	ADP	K	AdpType=Post	9	case	9:case	_
-11	teise	teine	DET	P	Case=Add|Number=Sing|PronType=Dem	12	det	12:det	_
-12	ilma	ilm	NOUN	S	Case=Add|Number=Sing	6	obl	6:obl	SpaceAfter=No
-13	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = aja_pm19980926_532
 # text = Mis sobiks paremini hullutama meie seitset meelt lehtede langemise ajal, kui igipõline patuvili õun.
 1	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	nsubj	2:nsubj	_
@@ -1779,29 +1589,6 @@
 7	külavanemaid	küla_vanem	NOUN	S	Case=Par|Number=Plur	8	obj	8:obj	_
 8	valima	valima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	5	xcomp	5:xcomp	SpaceAfter=No
 9	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_ee199920_1647
-# text = Nüüd, eluõhtusse jõudnuna, teeb ta arutu otsuse, mis viib tema ja ta noored kaaslased selgesse hukatusse.
-1	Nüüd	nüüd	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
-2	,	,	PUNCT	Z	_	4	punct	4:punct	_
-3	eluõhtusse	elu_õhtu	NOUN	S	Case=Ill|Number=Sing	4	nmod	4:nmod	_
-4	jõudnuna	jõud=nu	NOUN	S	Case=Ess|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	obl	6:obl	SpaceAfter=No
-5	,	,	PUNCT	Z	_	6	punct	6:punct	_
-6	teeb	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-7	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	6:nsubj	_
-8	arutu	arutu	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	9	amod	9:amod	_
-9	otsuse	otsus	NOUN	S	Case=Gen|Number=Sing	6	obj	6:obj|12:nsubj	SpaceAfter=No
-10	,	,	PUNCT	Z	_	12	punct	12:punct	_
-11	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	12	nsubj	9:ref	_
-12	viib	viima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	_
-13	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj	_
-14	ja	ja	CCONJ	J	_	17	cc	17:cc	_
-15	ta	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	nmod	17:nmod	_
-16	noored	noor	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	17	amod	17:amod	_
-17	kaaslased	kaaslane	NOUN	S	Case=Nom|Number=Plur	13	conj	12:obj|13:conj	_
-18	selgesse	selge	ADJ	A	Case=Ill|Degree=Pos|Number=Sing	19	amod	19:amod	_
-19	hukatusse	hukatu	NOUN	S	Case=Ill|Number=Sing	12	obl	12:obl	SpaceAfter=No
-20	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
 # sent_id = aja_ee199920_631
 # text = Kummalisel kombel aga saatis kaitsejõudude peastaap teate vaid kaitseministrile.
@@ -2066,18 +1853,6 @@
 14	lapse	laps	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
 15	heaolu	hea_olu	NOUN	S	Case=Nom|Number=Sing	12	nsubj:cop	12:nsubj	SpaceAfter=No
 16	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
-# sent_id = aja_epl20070812_76
-# text = Tules hävis maja katus ja osaliselt vahelaed.
-1	Tules	tuli	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
-2	hävis	hävima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	maja	maja	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-4	katus	katus	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
-5	ja	ja	CCONJ	J	_	7	cc	6.1:cc	_
-6	osaliselt	osaliselt	ADV	D	_	7	orphan	6.1:advmod	_
-6.1	hävisid	hävima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	_	_	2:conj	Empty=6.1|Place=7
-7	vahelaed	vahe_lagi	NOUN	S	Case=Nom|Number=Plur	4	conj	6.1:nsubj	SpaceAfter=No
-8	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = arborest_134
 # text = Hääl tuli piklikust tuhmi peegli moodi metallplaadist, mis moodustas osa parempoolesest seinast.
@@ -2496,25 +2271,6 @@
 6	väga	väga	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
 7	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
-# sent_id = aja_ee199920_1797
-# text = Vaadake või nende kommet millegi tähtsa sooritamise järel algul vaikida ja alles siis ennast näidata.
-1	Vaadake	vaatama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	või	või	ADV	D	_	1	advmod	1:advmod	_
-3	nende	see	PRON	P	Case=Gen|Number=Plur|PronType=Dem	4	nmod	4:nmod	_
-4	kommet	komme	NOUN	S	Case=Par|Number=Sing	1	obj	1:obj	_
-5	millegi	miski	PRON	P	Case=Gen|Number=Sing|PronType=Ind	7	nmod	7:nmod	_
-6	tähtsa	tähtis	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
-7	sooritamise	sooritamine	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
-8	järel	järel	ADP	K	AdpType=Post	7	case	7:case	_
-9	algul	algul	ADV	D	_	10	advmod	10:advmod	_
-10	vaikida	vaikima	VERB	V	VerbForm=Inf	4	acl	4:acl	_
-11	ja	ja	CCONJ	J	_	15	cc	15:cc	_
-12	alles	alles	ADV	D	_	15	advmod	15:advmod	_
-13	siis	siis	ADV	D	_	15	advmod	15:advmod	_
-14	ennast	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	15	obj	15:obj	_
-15	näidata	näitama	VERB	V	VerbForm=Inf	10	conj	4:acl|10:conj	SpaceAfter=No
-16	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = aja_ee199920_766
 # text = "Kirjandite kirjutamisega on teinekord raskusi, ma ei oska alati kõiki oma mõtteid väljendada, aga siis kirjutan nii, nagu oskan," ütleb Tanja.
 1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
@@ -2679,63 +2435,6 @@
 26	sealt	sealt	ADV	D	_	25	advmod	25:advmod	_
 27	koopiaid	koopia	NOUN	S	Case=Par|Number=Plur	25	obj	25:obj	SpaceAfter=No
 28	.	.	PUNCT	Z	_	21	punct	21:punct	_
-
-# sent_id = aja_luup200009_44
-# text = Pea kõik 5. oktoobril 1949 kilinad-kulinad rinda saanud rabasid tööd teha Udeva mõisa vanas laudas.
-1	Pea	pea	ADV	D	_	2	advmod	2:advmod	_
-2	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	8	det	8:det	_
-3	5.	5.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	4	amod	4:amod	_
-4	oktoobril	oktoober	NOUN	S	Case=Ade|Number=Sing	8	nmod	8:nmod	_
-5	1949	1949	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-6	kilinad-kulinad	kilina+d-kulin	NOUN	S	Case=Nom|Number=Plur	8	obj	8:obj	_
-7	rinda	rind	NOUN	S	Case=Add|Number=Sing	8	nmod	8:nmod	_
-8	saanud	saanu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	nsubj	9:nsubj|11:nsubj	_
-9	rabasid	rabama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-10	tööd	töö	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
-11	teha	tegema	VERB	V	VerbForm=Inf	9	xcomp	9:xcomp	_
-12	Udeva	Udeva	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Loc
-13	mõisa	mõis	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=I-Loc
-14	vanas	vana	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	15	amod	15:amod	_
-15	laudas	laut	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	SpaceAfter=No
-16	.	.	PUNCT	Z	_	9	punct	9:punct	_
-
-# sent_id = aja_luup200009_44
-# text = Pea kõik 5. oktoobril 1949 kilinad-kulinad rinda saanud rabasid tööd teha Udeva mõisa vanas laudas.
-1	Pea	pea	ADV	D	_	2	advmod	2:advmod	_
-2	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	8	det	8:det	_
-3	5.	5.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	4	amod	4:amod	_
-4	oktoobril	oktoober	NOUN	S	Case=Ade|Number=Sing	8	nmod	8:nmod	_
-5	1949	1949	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-6	kilinad-kulinad	kilina+d-kulin	NOUN	S	Case=Nom|Number=Plur	8	obj	8:obj	_
-7	rinda	rind	NOUN	S	Case=Add|Number=Sing	8	nmod	8:nmod	_
-8	saanud	saanu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	nsubj	9:nsubj|11:nsubj	_
-9	rabasid	rabama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-10	tööd	töö	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
-11	teha	tegema	VERB	V	VerbForm=Inf	9	xcomp	9:xcomp	_
-12	Udeva	Udeva	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Loc
-13	mõisa	mõis	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=I-Loc
-14	vanas	vana	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	15	amod	15:amod	_
-15	laudas	laut	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	SpaceAfter=No
-16	.	.	PUNCT	Z	_	9	punct	9:punct	_
-
-# sent_id = aja_luup200009_44
-# text = Pea kõik 5. oktoobril 1949 kilinad-kulinad rinda saanud rabasid tööd teha Udeva mõisa vanas laudas.
-1	Pea	pea	ADV	D	_	2	advmod	2:advmod	_
-2	kõik	kõik	DET	P	Case=Nom|Number=Plur|PronType=Tot	8	det	8:det	_
-3	5.	5.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	4	amod	4:amod	_
-4	oktoobril	oktoober	NOUN	S	Case=Ade|Number=Sing	8	nmod	8:nmod	_
-5	1949	1949	NUM	N	NumForm=Digit|NumType=Card	4	nummod	4:nummod	_
-6	kilinad-kulinad	kilina+d-kulin	NOUN	S	Case=Nom|Number=Plur	8	obj	8:obj	_
-7	rinda	rind	NOUN	S	Case=Add|Number=Sing	8	nmod	8:nmod	_
-8	saanud	saanu	NOUN	S	Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	nsubj	9:nsubj|11:nsubj	_
-9	rabasid	rabama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-10	tööd	töö	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
-11	teha	tegema	VERB	V	VerbForm=Inf	9	xcomp	9:xcomp	_
-12	Udeva	Udeva	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Loc
-13	mõisa	mõis	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=I-Loc
-14	vanas	vana	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	15	amod	15:amod	_
-15	laudas	laut	NOUN	S	Case=Ine|Number=Sing	9	obl	9:obl	SpaceAfter=No
-16	.	.	PUNCT	Z	_	9	punct	9:punct	_
 
 # sent_id = ilu_remsu_262
 # text = Kas mu tegevus oli liiga rassistlik, kui ma püüdsin loobuja näojoonte ja silmade eripära uurides selgusele jõuda, kas ta on uiguur või hiinlane?
@@ -3261,23 +2960,6 @@
 18	"	"	PUNCT	Z	_	15	punct	15:punct	_
 19	all	all	ADP	K	AdpType=Post	8	case	8:case	SpaceAfter=No
 20	.	.	PUNCT	Z	_	5	punct	5:punct	_
-
-# sent_id = aja_luup200009_374
-# text = Ka liigne pusimine seadustega tundub mõttetu, paljud olulised seadused oleks tulnud importida.
-1	Ka	ka	ADV	D	_	3	advmod	3:advmod	_
-2	liigne	liigne	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	3	amod	3:amod	_
-3	pusimine	pusimine	NOUN	S	Case=Nom|Number=Sing	5	nsubj	5:nsubj|6:nsubj	_
-4	seadustega	seadus	NOUN	S	Case=Com|Number=Plur	3	nmod	3:nmod	_
-5	tundub	tunduma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-6	mõttetu	mõttetu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	xcomp	5:xcomp	SpaceAfter=No
-7	,	,	PUNCT	Z	_	12	punct	12:punct	_
-8	paljud	palju	PRON	P	Case=Nom|Number=Plur|PronType=Ind	10	nmod	10:nmod	_
-9	olulised	oluline	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	10	amod	10:amod	_
-10	seadused	seadus	NOUN	S	Case=Nom|Number=Plur	13	obj	13:obj	_
-11	oleks	olema	AUX	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
-12	tulnud	tulema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	_
-13	importida	importima	VERB	V	VerbForm=Inf	12	csubj	12:csubj	SpaceAfter=No
-14	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = aja_pm20001004_633
 # text = Harju maavalitsuse pressiesindaja Kristina Männi sõnul on maavanem TOPi juhtkonna kaebusega tutvunud, kuid hinnangut sellele veel antud pole.
@@ -4693,36 +4375,6 @@
 24	harjumist	harjumine	NOUN	S	Case=Par|Number=Sing	23	obj	23:obj	SpaceAfter=No
 25	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = ilu_ruben_245
-# text = See oli suure seitsme skulptuuri ots, mis meie korruseni ulatus.
-1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj	_
-2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
-3	suure	suur	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	4:amod	_
-4	seitsme	seitse	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	5	nmod	5:nmod	_
-5	skulptuuri	skulptuur	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	ots	ots	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|11:nsubj	SpaceAfter=No
-7	,	,	PUNCT	Z	_	11	punct	11:punct	_
-8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	6:ref	_
-9	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	nmod	10:nmod	_
-10	korruseni	korrus	NOUN	S	Case=Ter|Number=Sing	11	obl	11:obl	_
-11	ulatus	ulatuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	SpaceAfter=No
-12	.	.	PUNCT	Z	_	6	punct	6:punct	_
-
-# sent_id = ilu_ruben_245
-# text = See oli suure seitsme skulptuuri ots, mis meie korruseni ulatus.
-1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	6:nsubj	_
-2	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
-3	suure	suur	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	4:amod	_
-4	seitsme	seitse	NUM	N	Case=Gen|Number=Sing|NumForm=Word|NumType=Card	5	nmod	5:nmod	_
-5	skulptuuri	skulptuur	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	ots	ots	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|11:nsubj	SpaceAfter=No
-7	,	,	PUNCT	Z	_	11	punct	11:punct	_
-8	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	11	nsubj	6:ref	_
-9	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	nmod	10:nmod	_
-10	korruseni	korrus	NOUN	S	Case=Ter|Number=Sing	11	obl	11:obl	_
-11	ulatus	ulatuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	SpaceAfter=No
-12	.	.	PUNCT	Z	_	6	punct	6:punct	_
-
 # sent_id = ilu_maailm_161
 # text = Madis - sama, kes soovitas mul ära minna - hirmutas mind natuke, sest mäletasin Jooga sõnu kellestki Madisest, kes olevat vampiir.
 1	Madis	Madis	PROPN	S	Case=Nom|Number=Sing	11	nsubj	11:nsubj	NE=B-Per
@@ -4808,17 +4460,6 @@
 25	juhitav	juhitav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	conj	4:advcl|20:conj	SpaceAfter=No
 26	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = aja_ee199920_1962
-# text = Tegemist on ilmeka näitega Itaalia veiniklassifikatsiooni omapärast.
-1	Tegemist	tegemine	NOUN	S	Case=Par|Number=Sing	4	nsubj:cop	4:nsubj	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
-3	ilmeka	ilmekas	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	4	amod	4:amod	_
-4	näitega	näide	NOUN	S	Case=Com|Number=Sing	0	root	0:root	_
-5	Itaalia	Itaalia	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Loc
-6	veiniklassifikatsiooni	veini_klassifikatsioon	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	omapärast	oma_pära	NOUN	S	Case=Ela|Number=Sing	4	nmod	4:nmod	SpaceAfter=No
-8	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = ilu_kanep_381
 # text = Vaata pärast ise, kuhu oma peene ja nõrga varre topid.
 1	Vaata	vaatama	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
@@ -4834,82 +4475,6 @@
 11	topid	toppima	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
 12	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
-# sent_id = ilu_ruben_171
-# text = Selle külgedel on kujutatud mitmesuguseid vaalapüügiepisoode: suured kalad ujuvad sabade vongeldes, mõni satub ka ranniku ja paatide juurde, kus neid ootavad tublid ja tugevad vaalakütid, ahingud õieli ja pinge lihastes.
-1	Selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	2	nmod	2:nmod	_
-2	külgedel	külg	NOUN	S	Case=Ade|Number=Plur	4	obl	4:obl	_
-3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
-4	kujutatud	kujutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-5	mitmesuguseid	mitme_sugune	PRON	P	Case=Par|Number=Plur|PronType=Ind	6	nmod	6:nmod	_
-6	vaalapüügiepisoode	vaala_püügi_episood	NOUN	S	Case=Par|Number=Plur	4	obj	4:obj	SpaceAfter=No
-7	:	:	PUNCT	Z	_	10	punct	10:punct	_
-8	suured	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
-9	kalad	kala	NOUN	S	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
-10	ujuvad	ujuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
-11	sabade	saba	NOUN	S	Case=Gen|Number=Plur	12	obl	12:obl	_
-12	vongeldes	vonklema	VERB	V	VerbForm=Conv	10	advcl	10:advcl	SpaceAfter=No
-13	,	,	PUNCT	Z	_	15	punct	15:punct	_
-14	mõni	mõni	PRON	P	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	15:nsubj	_
-15	satub	sattuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	4:parataxis|10:conj	_
-16	ka	ka	ADV	D	_	15	advmod	15:advmod	_
-17	ranniku	rannik	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	_
-18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
-19	paatide	paat	NOUN	S	Case=Gen|Number=Plur	17	conj	15:obl|17:conj	_
-20	juurde	juurde	ADP	K	AdpType=Post	17	case	17:case	SpaceAfter=No
-21	,	,	PUNCT	Z	_	24	punct	24:punct	_
-22	kus	kus	ADV	D	_	24	mark	24:mark	_
-23	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	24	obj	24:obj	_
-24	ootavad	ootama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl	17:acl	_
-25	tublid	tubli	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	28	amod	28:amod	_
-26	ja	ja	CCONJ	J	_	27	cc	27:cc	_
-27	tugevad	tugev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	25	conj	25:conj|28:amod	_
-28	vaalakütid	vaala_kütt	NOUN	S	Case=Nom|Number=Plur	24	nsubj	24:nsubj	SpaceAfter=No
-29	,	,	PUNCT	Z	_	24	punct	24:punct	_
-30	ahingud	ahing	NOUN	S	Case=Nom|Number=Plur	31	nsubj:cop	31:nsubj	_
-31	õieli	õieli	ADV	D	_	24	advcl	24:advcl	_
-32	ja	ja	CCONJ	J	_	34	cc	34:cc	_
-33	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	34	nsubj:cop	34:nsubj	_
-34	lihastes	lihas	NOUN	S	Case=Ine|Number=Plur	31	conj	24:advcl|31:conj	SpaceAfter=No
-35	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
-# sent_id = ilu_ruben_171
-# text = Selle külgedel on kujutatud mitmesuguseid vaalapüügiepisoode: suured kalad ujuvad sabade vongeldes, mõni satub ka ranniku ja paatide juurde, kus neid ootavad tublid ja tugevad vaalakütid, ahingud õieli ja pinge lihastes.
-1	Selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	2	nmod	2:nmod	_
-2	külgedel	külg	NOUN	S	Case=Ade|Number=Plur	4	obl	4:obl	_
-3	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
-4	kujutatud	kujutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-5	mitmesuguseid	mitme_sugune	PRON	P	Case=Par|Number=Plur|PronType=Ind	6	nmod	6:nmod	_
-6	vaalapüügiepisoode	vaala_püügi_episood	NOUN	S	Case=Par|Number=Plur	4	obj	4:obj	SpaceAfter=No
-7	:	:	PUNCT	Z	_	10	punct	10:punct	_
-8	suured	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	9	amod	9:amod	_
-9	kalad	kala	NOUN	S	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
-10	ujuvad	ujuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	4:parataxis	_
-11	sabade	saba	NOUN	S	Case=Gen|Number=Plur	12	obl	12:obl	_
-12	vongeldes	vonklema	VERB	V	VerbForm=Conv	10	advcl	10:advcl	SpaceAfter=No
-13	,	,	PUNCT	Z	_	15	punct	15:punct	_
-14	mõni	mõni	PRON	P	Case=Nom|Number=Sing|PronType=Ind	15	nsubj	15:nsubj	_
-15	satub	sattuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	4:parataxis|10:conj	_
-16	ka	ka	ADV	D	_	15	advmod	15:advmod	_
-17	ranniku	rannik	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	_
-18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
-19	paatide	paat	NOUN	S	Case=Gen|Number=Plur	17	conj	15:obl|17:conj	_
-20	juurde	juurde	ADP	K	AdpType=Post	17	case	17:case	SpaceAfter=No
-21	,	,	PUNCT	Z	_	24	punct	24:punct	_
-22	kus	kus	ADV	D	_	24	mark	24:mark	_
-23	neid	see	PRON	P	Case=Par|Number=Plur|PronType=Dem	24	obj	24:obj	_
-24	ootavad	ootama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl	17:acl	_
-25	tublid	tubli	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	28	amod	28:amod	_
-26	ja	ja	CCONJ	J	_	27	cc	27:cc	_
-27	tugevad	tugev	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	25	conj	25:conj|28:amod	_
-28	vaalakütid	vaala_kütt	NOUN	S	Case=Nom|Number=Plur	24	nsubj	24:nsubj	SpaceAfter=No
-29	,	,	PUNCT	Z	_	24	punct	24:punct	_
-30	ahingud	ahing	NOUN	S	Case=Nom|Number=Plur	31	nsubj:cop	31:nsubj	_
-31	õieli	õieli	ADV	D	_	24	advcl	24:advcl	_
-32	ja	ja	CCONJ	J	_	34	cc	34:cc	_
-33	pinge	pinge	NOUN	S	Case=Nom|Number=Sing	34	nsubj:cop	34:nsubj	_
-34	lihastes	lihas	NOUN	S	Case=Ine|Number=Plur	31	conj	24:advcl|31:conj	SpaceAfter=No
-35	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = aja_epl20061216_553
 # text = Pärast kümneaastast vaidlust on Los Angeleses asuv J. Paul Getty muuseum nõus tagastama Kreekale kaks antiikeset, mis on enne nende ostmist väidetavalt Kreekast varastatud.
 1	Pärast	pärast	ADP	K	AdpType=Prep	3	case	3:case	_
@@ -4967,30 +4532,6 @@
 24	Kreekast	Kreeka	PROPN	S	Case=Ela|Number=Sing	25	obl	25:obl	NE=B-Loc
 25	varastatud	varastama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 26	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
-# sent_id = tea_eesti_arst_2004_10
-# text = Eesti Arsti osa arstide kvalifikatsiooni tõstmisel ja säilitamisel ning arstiabi kvaliteedi tagamisel on tunnustanud nii Sotsiaalministeerium kui ka Eesti Haigekassa.
-1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Prod
-2	Arsti	Arst	PROPN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	NE=I-Prod
-3	osa	osa	NOUN	S	Case=Par|Number=Sing	14	obj	14:obj	_
-4	arstide	arst	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
-5	kvalifikatsiooni	kvalifikatsioon	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	tõstmisel	tõstmine	NOUN	S	Case=Ade|Number=Sing	3	nmod	3:nmod	_
-7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
-8	säilitamisel	säilitamine	NOUN	S	Case=Ade|Number=Sing	6	conj	3:nmod|6:conj	_
-9	ning	ning	CCONJ	J	_	12	cc	12:cc	_
-10	arstiabi	arsti_abi	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	kvaliteedi	kvaliteet	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
-12	tagamisel	tagamine	NOUN	S	Case=Ade|Number=Sing	6	conj	3:nmod|6:conj	_
-13	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
-14	tunnustanud	tunnustama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-15	nii	nii	ADV	D	_	16	cc:preconj	16:cc	_
-16	Sotsiaalministeerium	Sotsiaal_ministeerium	PROPN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	NE=B-Org
-17	kui	kui	CCONJ	J	_	20	cc	20:cc	_
-18	ka	ka	ADV	D	_	20	advmod	20:advmod	_
-19	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	NE=B-Org
-20	Haigekassa	Haige_kassa	PROPN	S	Case=Nom|Number=Sing	16	conj	14:nsubj|16:conj	NE=I-Org|SpaceAfter=No
-21	.	.	PUNCT	Z	_	14	punct	14:punct	_
 
 # sent_id = aja_ee199920_533
 # text = Kauplustes pakendatud toiduaineid ja valmisroogi valides teeb tarbija valiku aga kaubamärgist lähtudes: võibolla on tal sellenimelise tootega head kogemused, võibolla meeldis reklaam ajalehes, televisioonis või reklaamplakatil.
@@ -5024,40 +4565,6 @@
 28	või	või	CCONJ	J	_	29	cc	29:cc	_
 29	reklaamplakatil	reklaam_plakat	NOUN	S	Case=Ade|Number=Sing	25	conj	24:nmod|25:conj	SpaceAfter=No
 30	.	.	PUNCT	Z	_	7	punct	7:punct	_
-
-# sent_id = ilu_ruben_207
-# text = Ta pooleldi istus, pooleldi põlvitas saapanina juures, juuksed üle parema õla, tegi viimase sõlme ja liigutas end nii järsult, et tema kõrgele laubale kukkus õhuke tukk.
-1	Ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj|6:nsubj|15:nsubj|19:nsubj	_
-2	pooleldi	pooleldi	ADV	D	_	3	advmod	3:advmod	_
-3	istus	istuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-4	,	,	PUNCT	Z	_	6	punct	6:punct	_
-5	pooleldi	pooleldi	ADV	D	_	6	advmod	6:advmod	_
-6	põlvitas	põlvitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
-7	saapanina	saapa_nina	NOUN	S	Case=Gen|Number=Sing	6	obl	6:obl	_
-8	juures	juures	ADP	K	AdpType=Post	7	case	7:case	SpaceAfter=No
-9	,	,	PUNCT	Z	_	13	punct	13:punct	_
-10	juuksed	juus	NOUN	S	Case=Nom|Number=Plur	13	nsubj:cop	13:nsubj	_
-11	üle	üle	ADP	K	AdpType=Prep	13	case	13:case	_
-12	parema	parem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	13	amod	13:amod	_
-13	õla	õlg	NOUN	S	Case=Gen|Number=Sing	6	advcl	6:advcl	SpaceAfter=No
-14	,	,	PUNCT	Z	_	15	punct	15:punct	_
-15	tegi	tegema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
-16	viimase	viimane	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	17	amod	17:amod	_
-17	sõlme	sõlm	NOUN	S	Case=Gen|Number=Sing	15	obj	15:obj	_
-18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
-19	liigutas	liigutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	0:root|3:conj	_
-20	end	ise	PRON	P	Case=Par|Number=Sing|PronType=Prs|Reflex=Yes	19	obj	19:obj	_
-21	nii	nii	ADV	D	_	22	advmod	22:advmod	_
-22	järsult	järsult	ADV	D	_	19	advmod	19:advmod	SpaceAfter=No
-23	,	,	PUNCT	Z	_	28	punct	28:punct	_
-24	et	et	SCONJ	J	_	28	mark	28:mark	_
-25	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	27	nmod	27:nmod	_
-26	kõrgele	kõrge	ADJ	A	Case=All|Degree=Pos|Number=Sing	27	amod	27:amod	_
-27	laubale	laup	NOUN	S	Case=All|Number=Sing	28	obl	28:obl	_
-28	kukkus	kukkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	22	advcl	22:advcl	_
-29	õhuke	õhuke	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	30	amod	30:amod	_
-30	tukk	tukk	NOUN	S	Case=Nom|Number=Sing	28	nsubj	28:nsubj	SpaceAfter=No
-31	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = aja_ee200110_890
 # text = "Tean Eestit just briljantse ja kuulsa astronoomi Ernst Öpiku kaudu," ütleb Havaii ülikooli astronoom David Jewitt, kes möödunud aastal avaldas ajakirjas Nature artikli meid taevast ähvardavatest ohtudest.
@@ -5204,23 +4711,6 @@
 34	aineid	aine	NOUN	S	Case=Par|Number=Plur	26	nsubj	26:nsubj	SpaceAfter=No
 35	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
-# sent_id = ilu_ruben_57
-# text = Missugune sooda sa oled - sa ajad segamini veinide nimed hispaania veinieksperti intervjueerides!
-1	Missugune	mis_sugune	DET	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	det	2:det	_
-2	sooda	sooda	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	_
-3	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj:cop	2:nsubj	_
-4	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-5	-	-	PUNCT	Z	_	7	punct	7:punct	_
-6	sa	sina	PRON	P	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	7:nsubj	_
-7	ajad	ajama	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	2:parataxis	_
-8	segamini	segamini	ADV	D	_	7	advmod	7:advmod	_
-9	veinide	vein	NOUN	S	Case=Gen|Number=Plur	10	nmod	10:nmod	_
-10	nimed	nimi	NOUN	S	Case=Nom|Number=Plur	7	obj	7:obj	_
-11	hispaania	hispaania	ADJ	G	_	12	amod	12:amod	_
-12	veinieksperti	veini_ekspert	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
-13	intervjueerides	intervjueerima	VERB	V	VerbForm=Conv	7	advcl	7:advcl	SpaceAfter=No
-14	!	!	PUNCT	Z	_	2	punct	2:punct	_
-
 # sent_id = aja_luup200106_552
 # text = Näks pole legendaarse siseministriga päri: “ Teatud arv kuritegusid sooritatakse ühiskonnas ikka.
 1	Näks	Näks	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
@@ -5287,23 +4777,6 @@
 11	tšetšeeni	tšetšeen	NOUN	S	Case=Par|Number=Sing	6	nsubj	6:nsubj	SpaceAfter=No
 12	!	!	PUNCT	Z	_	6	punct	6:punct	_
 
-# sent_id = aja_ee199920_1549
-# text = Vaadake Bernini "Püha Teresa ekstaasi", see on ju puhas kitš!
-1	Vaadake	vaatama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	Bernini	Bernini	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=B-Per
-3	"	"	PUNCT	Z	_	6	punct	6:punct	NE=B-Prod|SpaceAfter=No
-4	Püha	püha	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	5	amod	5:amod	NE=I-Prod
-5	Teresa	Teresa	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Prod
-6	ekstaasi	ekstaas	NOUN	S	Case=Par|Number=Sing	1	obj	1:obj	NE=I-Prod|SpaceAfter=No
-7	"	"	PUNCT	Z	_	6	punct	6:punct	NE=I-Prod|SpaceAfter=No
-8	,	,	PUNCT	Z	_	13	punct	13:punct	_
-9	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	13:nsubj	_
-10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
-11	ju	ju	ADV	D	_	13	advmod	13:advmod	_
-12	puhas	puhas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	13	amod	13:amod	_
-13	kitš	kitš	NOUN	S	Case=Nom|Number=Sing	1	parataxis	1:parataxis	SpaceAfter=No
-14	!	!	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = ilu_remsu_268
 # text = Võib-olla oli tal keelatud jootraha võtta, et tõsta hotelli renomeed ja ta kartis kolleegi enda kõrval, kes oleks võinud ju ülemusi informeerida?
 1	Võib-olla	võib-olla	ADV	D	_	4	advmod	4:advmod	_
@@ -5343,22 +4816,6 @@
 7	põie	põis	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
 8	sulgurlihas	sulgur_lihas	NOUN	S	Case=Nom|Number=Sing	6	nsubj	6:nsubj	SpaceAfter=No
 9	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
-# sent_id = aja_ee199920_1713
-# text = Tema maalinäituse "Metsade ema" avamine toimus 6. mail Chaplini Kunstikeskuses.
-1	Tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	2	nmod	2:nmod	_
-2	maalinäituse	maali_näitus	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Eve
-3	"	"	PUNCT	Z	_	5	punct	5:punct	NE=I-Eve|SpaceAfter=No
-4	Metsade	mets	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	NE=I-Eve
-5	ema	ema	NOUN	S	Case=Nom|Number=Sing	2	appos	2:appos	NE=I-Eve|SpaceAfter=No
-6	"	"	PUNCT	Z	_	5	punct	5:punct	NE=I-Eve
-7	avamine	avamine	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
-8	toimus	toimuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	6.	6.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	10	amod	10:amod	_
-10	mail	mai	NOUN	S	Case=Ade|Number=Sing	8	obl	8:obl	_
-11	Chaplini	Chaplin	PROPN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	NE=B-Org
-12	Kunstikeskuses	Kunsti_keskus	PROPN	S	Case=Ine|Number=Sing	8	obl	8:obl	NE=I-Org|SpaceAfter=No
-13	.	.	PUNCT	Z	_	8	punct	8:punct	_
 
 # sent_id = tea_toohoive_388
 # text = Teenindussektor, mille osakaal hõives küll tunduvalt tõusis, ei andnud siiski suurt tööhõive juurdekasvu absoluutnäitajais (va väike tõus 1994. a paiku).
@@ -5815,64 +5272,6 @@
 22	Väike-Aasiasse	Väike-Aasia	PROPN	S	Case=Ill|Number=Sing	21	nmod	21:nmod	NE=B-Loc|SpaceAfter=No
 23	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
-# sent_id = aja_luup200009_888
-# text = Kuna Seawolf oli liiga kallis asendamaks vananevaid Los Angeles-klassi allveelaevu ja samuti oli poliitiline olukord maailmas muutunud, tekkis vajadus uue ja odavama klassi järele.
-1	Kuna	kuna	SCONJ	J	_	5	mark	5:mark	_
-2	Seawolf	Seawolf	PROPN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	NE=B-Prod
-3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-4	liiga	liiga	ADV	D	_	5	advmod	5:advmod	_
-5	kallis	kallis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	advcl	19:advcl	_
-6	asendamaks	asendama	VERB	V	Case=Tra|VerbForm=Sup|Voice=Act	5	advcl	5:advcl	_
-7	vananevaid	vananev	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
-8	Los	Los_Angeles_klass	PROPN	S	Case=Gen|Number=Sing|Typo=Yes	10	nmod	10:nmod	CorrectForm=LosAngeles-klassi
-9	Angeles-klassi	_	X	_	_	8	goeswith	8:goeswith	_
-10	allveelaevu	all_vee_laev	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
-11	ja	ja	CCONJ	J	_	17	cc	17:cc	_
-12	samuti	samuti	ADV	D	_	17	advmod	17:advmod	_
-13	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
-14	poliitiline	poliitiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	15	amod	15:amod	_
-15	olukord	olu_kord	NOUN	S	Case=Nom|Number=Sing	17	nsubj	17:nsubj	_
-16	maailmas	maa_ilm	NOUN	S	Case=Ine|Number=Sing	15	nmod	15:nmod	_
-17	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	5	conj	5:conj|19:advcl	SpaceAfter=No
-18	,	,	PUNCT	Z	_	19	punct	19:punct	_
-19	tekkis	tekkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-20	vajadus	vajadus	NOUN	S	Case=Nom|Number=Sing	19	nsubj	19:nsubj	_
-21	uue	uus	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	24	amod	24:amod	_
-22	ja	ja	CCONJ	J	_	23	cc	23:cc	_
-23	odavama	odavam	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	21	conj	21:conj|24:amod	_
-24	klassi	klass	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-25	järele	järele	ADP	K	AdpType=Post	24	case	24:case	SpaceAfter=No
-26	.	.	PUNCT	Z	_	19	punct	19:punct	_
-
-# sent_id = aja_luup200009_888
-# text = Kuna Seawolf oli liiga kallis asendamaks vananevaid Los Angeles-klassi allveelaevu ja samuti oli poliitiline olukord maailmas muutunud, tekkis vajadus uue ja odavama klassi järele.
-1	Kuna	kuna	SCONJ	J	_	5	mark	5:mark	_
-2	Seawolf	Seawolf	PROPN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	NE=B-Prod
-3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-4	liiga	liiga	ADV	D	_	5	advmod	5:advmod	_
-5	kallis	kallis	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	19	advcl	19:advcl	_
-6	asendamaks	asendama	VERB	V	Case=Tra|VerbForm=Sup|Voice=Act	5	advcl	5:advcl	_
-7	vananevaid	vananev	ADJ	A	Case=Par|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	acl	10:acl	_
-8	Los	Los_Angeles_klass	PROPN	S	Case=Gen|Number=Sing|Typo=Yes	10	nmod	10:nmod	CorrectForm=LosAngeles-klassi
-9	Angeles-klassi	_	X	_	_	8	goeswith	8:goeswith	_
-10	allveelaevu	all_vee_laev	NOUN	S	Case=Par|Number=Plur	6	obj	6:obj	_
-11	ja	ja	CCONJ	J	_	17	cc	17:cc	_
-12	samuti	samuti	ADV	D	_	17	advmod	17:advmod	_
-13	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	17:aux	_
-14	poliitiline	poliitiline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	15	amod	15:amod	_
-15	olukord	olu_kord	NOUN	S	Case=Nom|Number=Sing	17	nsubj	17:nsubj	_
-16	maailmas	maa_ilm	NOUN	S	Case=Ine|Number=Sing	15	nmod	15:nmod	_
-17	muutunud	muutuma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	5	conj	5:conj|19:advcl	SpaceAfter=No
-18	,	,	PUNCT	Z	_	19	punct	19:punct	_
-19	tekkis	tekkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-20	vajadus	vajadus	NOUN	S	Case=Nom|Number=Sing	19	nsubj	19:nsubj	_
-21	uue	uus	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	24	amod	24:amod	_
-22	ja	ja	CCONJ	J	_	23	cc	23:cc	_
-23	odavama	odavam	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	21	conj	21:conj|24:amod	_
-24	klassi	klass	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-25	järele	järele	ADP	K	AdpType=Post	24	case	24:case	SpaceAfter=No
-26	.	.	PUNCT	Z	_	19	punct	19:punct	_
-
 # sent_id = tea_geofyysika_640
 # text = Maa pöörlemiskiiruse muutumisel on rohkem põhjusi kui neid tavapäraselt välja on toodud.
 1	Maa	Maa	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Loc
@@ -6266,111 +5665,6 @@
 24	1992	1992	NUM	N	NumForm=Digit|NumType=Card	21	parataxis	21:parataxis	SpaceAfter=No
 25	)	)	PUNCT	Z	_	21	punct	21:punct	SpaceAfter=No
 26	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = tea_eesti_arst_2004_370
-# text = Vaimse seisundi miniuuring ei ole paraku sub-kortikaalse dementsuse diagnoosimisel piisavalt tundlik, kuna kahjustatud on sel puhul eeskätt sihipärane tegutsemine.
-1	Vaimse	vaimne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	2	amod	2:amod	_
-2	seisundi	seisund	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-3	miniuuring	mini_uuring	NOUN	S	Case=Nom|Number=Sing	11	nsubj:cop	11:nsubj	_
-4	ei	ei	AUX	V	Polarity=Neg	11	aux	11:aux	_
-5	ole	olema	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
-6	paraku	paraku	ADV	D	_	11	advmod	11:advmod	_
-7	sub-kortikaalse	sub-kortikaalne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	8	amod	8:amod	_
-8	dementsuse	dementsus	NOUN	S	Case=Gen|Number=Sing	9	nmod	9:nmod	_
-9	diagnoosimisel	diagnoosi=mine	NOUN	S	Case=Ade|Number=Sing	11	obl	11:obl	_
-10	piisavalt	piisavalt	ADV	D	_	11	advmod	11:advmod	_
-11	tundlik	tundlik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
-12	,	,	PUNCT	Z	_	14	punct	14:punct	_
-13	kuna	kuna	SCONJ	J	_	14	mark	14:mark	_
-14	kahjustatud	kahjusta=tud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	11	advcl	11:advcl	_
-15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	14:cop	_
-16	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	17	det	17:det	_
-17	puhul	puhk	NOUN	S	Case=Ade|Number=Sing	14	obl	14:obl	_
-18	eeskätt	ees_kätt	ADV	D	_	20	advmod	20:advmod	_
-19	sihipärane	sihi_pärane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	20	amod	20:amod	_
-20	tegutsemine	tegutsemine	NOUN	S	Case=Nom|Number=Sing	14	nsubj:cop	14:nsubj	SpaceAfter=No
-21	.	.	PUNCT	Z	_	11	punct	11:punct	_
-
-# sent_id = aja_luup200009_990
-# text = Kui saare moslemi usku elanikud jälgivad teraselt, keda hamba alla panna, siis kristlastel pole mingeid tabusid nn mittepuhaste loomade söömise osas.
-1	Kui	kui	SCONJ	J	_	6	mark	6:mark	_
-2	saare	saar	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-3	moslemi	moslem	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-4	usku	usk	NOUN	S	Case=Par|Number=Sing	5	nmod	5:nmod	_
-5	elanikud	elanik	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
-6	jälgivad	jälgima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
-7	teraselt	teraselt	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
-8	,	,	PUNCT	Z	_	12	punct	12:punct	_
-9	keda	kes	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	12	obj	12:obj	_
-10	hamba	hammas	NOUN	S	Case=Gen|Number=Sing	12	obl	12:obl	_
-11	alla	alla	ADP	K	AdpType=Post	10	case	10:case	_
-12	panna	panema	VERB	V	VerbForm=Inf	6	ccomp	6:ccomp	SpaceAfter=No
-13	,	,	PUNCT	Z	_	12	punct	12:punct	_
-14	siis	siis	ADV	D	_	15	advmod	15:advmod	_
-15	kristlastel	kristlane	NOUN	S	Case=Ade|Number=Plur	0	root	0:root	_
-16	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
-17	mingeid	mingi	DET	P	Case=Par|Number=Plur|PronType=Ind	18	det	18:det	_
-18	tabusid	tabu	NOUN	S	Case=Par|Number=Plur	15	nsubj:cop	15:nsubj	_
-19	nn	nn	ADJ	Y	Abbr=Yes	20	obl	20:obl	_
-20	mittepuhaste	mitte_puhas	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	21	amod	21:amod	_
-21	loomade	loom	NOUN	S	Case=Gen|Number=Plur	22	nmod	22:nmod	_
-22	söömise	söömine	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-23	osas	osas	ADP	K	AdpType=Post	22	case	22:case	SpaceAfter=No
-24	.	.	PUNCT	Z	_	15	punct	15:punct	_
-
-# sent_id = aja_luup200009_990
-# text = Kui saare moslemi usku elanikud jälgivad teraselt, keda hamba alla panna, siis kristlastel pole mingeid tabusid nn mittepuhaste loomade söömise osas.
-1	Kui	kui	SCONJ	J	_	6	mark	6:mark	_
-2	saare	saar	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-3	moslemi	moslem	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-4	usku	usk	NOUN	S	Case=Par|Number=Sing	5	nmod	5:nmod	_
-5	elanikud	elanik	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
-6	jälgivad	jälgima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
-7	teraselt	teraselt	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
-8	,	,	PUNCT	Z	_	12	punct	12:punct	_
-9	keda	kes	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	12	obj	12:obj	_
-10	hamba	hammas	NOUN	S	Case=Gen|Number=Sing	12	obl	12:obl	_
-11	alla	alla	ADP	K	AdpType=Post	10	case	10:case	_
-12	panna	panema	VERB	V	VerbForm=Inf	6	ccomp	6:ccomp	SpaceAfter=No
-13	,	,	PUNCT	Z	_	12	punct	12:punct	_
-14	siis	siis	ADV	D	_	15	advmod	15:advmod	_
-15	kristlastel	kristlane	NOUN	S	Case=Ade|Number=Plur	0	root	0:root	_
-16	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
-17	mingeid	mingi	DET	P	Case=Par|Number=Plur|PronType=Ind	18	det	18:det	_
-18	tabusid	tabu	NOUN	S	Case=Par|Number=Plur	15	nsubj:cop	15:nsubj	_
-19	nn	nn	ADJ	Y	Abbr=Yes	20	obl	20:obl	_
-20	mittepuhaste	mitte_puhas	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	21	amod	21:amod	_
-21	loomade	loom	NOUN	S	Case=Gen|Number=Plur	22	nmod	22:nmod	_
-22	söömise	söömine	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-23	osas	osas	ADP	K	AdpType=Post	22	case	22:case	SpaceAfter=No
-24	.	.	PUNCT	Z	_	15	punct	15:punct	_
-
-# sent_id = aja_luup200009_990
-# text = Kui saare moslemi usku elanikud jälgivad teraselt, keda hamba alla panna, siis kristlastel pole mingeid tabusid nn mittepuhaste loomade söömise osas.
-1	Kui	kui	SCONJ	J	_	6	mark	6:mark	_
-2	saare	saar	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-3	moslemi	moslem	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-4	usku	usk	NOUN	S	Case=Par|Number=Sing	5	nmod	5:nmod	_
-5	elanikud	elanik	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
-6	jälgivad	jälgima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	15:advcl	_
-7	teraselt	teraselt	ADV	D	_	6	advmod	6:advmod	SpaceAfter=No
-8	,	,	PUNCT	Z	_	12	punct	12:punct	_
-9	keda	kes	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	12	obj	12:obj	_
-10	hamba	hammas	NOUN	S	Case=Gen|Number=Sing	12	obl	12:obl	_
-11	alla	alla	ADP	K	AdpType=Post	10	case	10:case	_
-12	panna	panema	VERB	V	VerbForm=Inf	6	ccomp	6:ccomp	SpaceAfter=No
-13	,	,	PUNCT	Z	_	12	punct	12:punct	_
-14	siis	siis	ADV	D	_	15	advmod	15:advmod	_
-15	kristlastel	kristlane	NOUN	S	Case=Ade|Number=Plur	0	root	0:root	_
-16	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
-17	mingeid	mingi	DET	P	Case=Par|Number=Plur|PronType=Ind	18	det	18:det	_
-18	tabusid	tabu	NOUN	S	Case=Par|Number=Plur	15	nsubj:cop	15:nsubj	_
-19	nn	nn	ADJ	Y	Abbr=Yes	20	obl	20:obl	_
-20	mittepuhaste	mitte_puhas	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	21	amod	21:amod	_
-21	loomade	loom	NOUN	S	Case=Gen|Number=Plur	22	nmod	22:nmod	_
-22	söömise	söömine	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-23	osas	osas	ADP	K	AdpType=Post	22	case	22:case	SpaceAfter=No
-24	.	.	PUNCT	Z	_	15	punct	15:punct	_
 
 # sent_id = tea_dr8047_381
 # text = Kalaõli söötmise mõju munarebu ω-3-rasvhapete sisaldusele, % üldlipiididest (Leeson, 1999)
@@ -6868,17 +6162,6 @@
 9	olevat	olema	AUX	V	Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	SpaceAfter=No
 10	.	.	PUNCT	Z	_	8	punct	8:punct	_
 
-# sent_id = aja_luup200009_169
-# text = Mõne kuldtähe edasimüümiseks kulub Heidmetsal vahel aasta.
-1	Mõne	mõni	DET	P	Case=Gen|Number=Sing|PronType=Ind	2	det	2:det	_
-2	kuldtähe	kuld_täht	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-3	edasimüümiseks	edasi_müümine	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	_
-4	kulub	kuluma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	Heidmetsal	Heid_mets	PROPN	S	Case=Ade|Number=Sing	4	obl	4:obl	NE=B-Per
-6	vahel	vahel	ADV	D	_	4	advmod	4:advmod	_
-7	aasta	aasta	NOUN	S	Case=Nom|Number=Sing	4	nsubj	4:nsubj	SpaceAfter=No
-8	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = aja_ee199920_731
 # text = Praegu küsivad poisid iga päev Indreku emalt ja õelt, missugune on nende koomas oleva sõbra seisund, sest peale sugulaste ei lasta kedagi tema juurde.
 1	Praegu	praegu	ADV	D	_	2	advmod	2:advmod	_
@@ -7151,92 +6434,6 @@
 22	midagi	miski	PRON	P	Case=Par|Number=Sing|PronType=Ind	19	obj	19:obj	SpaceAfter=No
 23	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
-# sent_id = aja_ee199920_1783
-# text = Oulus elav Helsingi ülikooli kirjandusprofessor Kari Sallamaa pani etnofuturismi juubeliürituse lõpus Rõuges kõigile südamele, et me kirjutaks, kirjutaks ja kirjutaks ja levitaks etnofuturismi rõõmusõnumit igale poole.
-1	Oulus	Oulu	PROPN	S	Case=Ine|Number=Sing	2	obl	2:obl	NE=B-Loc
-2	elav	elav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	5:acl	_
-3	Helsingi	Helsingi	PROPN	S	Case=Nom|Number=Sing	4	nmod	4:nmod	NE=B-Org
-4	ülikooli	üli_kool	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=I-Org
-5	kirjandusprofessor	kirjandus_professor	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
-6	Kari	Kari	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Per
-7	Sallamaa	Sallamaa	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Per
-8	pani	panema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	etnofuturismi	etno_futurism	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
-10	juubeliürituse	juubeli_üritus	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	lõpus	lõpp	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
-12	Rõuges	Rõuge	PROPN	S	Case=Ine|Number=Sing	8	obl	8:obl	NE=B-Loc
-13	kõigile	kõik	PRON	P	Case=All|Number=Plur|PronType=Tot	8	obl	8:obl	_
-14	südamele	süda	NOUN	S	Case=All|Number=Sing	8	obl	8:obl	SpaceAfter=No
-15	,	,	PUNCT	Z	_	18	punct	18:punct	_
-16	et	et	SCONJ	J	_	18	mark	18:mark	_
-17	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	_
-18	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
-19	,	,	PUNCT	Z	_	20	punct	20:punct	_
-20	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	8:ccomp|18:conj	_
-21	ja	ja	CCONJ	J	_	22	cc	22:cc	_
-22	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	8:ccomp|18:conj	_
-23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
-24	levitaks	levima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	8:ccomp|18:conj	_
-25	etnofuturismi	etno_futurism	NOUN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	_
-26	rõõmusõnumit	rõõmu_sõnum	NOUN	S	Case=Par|Number=Sing	24	obj	24:obj	_
-27	igale	iga	PRON	P	Case=All|Number=Sing|PronType=Tot	24	obl	24:obl	_
-28	poole	poole	ADV	D	_	27	fixed	27:fixed	SpaceAfter=No
-29	.	.	PUNCT	Z	_	8	punct	8:punct	_
-
-# sent_id = aja_ee199920_1783
-# text = Oulus elav Helsingi ülikooli kirjandusprofessor Kari Sallamaa pani etnofuturismi juubeliürituse lõpus Rõuges kõigile südamele, et me kirjutaks, kirjutaks ja kirjutaks ja levitaks etnofuturismi rõõmusõnumit igale poole.
-1	Oulus	Oulu	PROPN	S	Case=Ine|Number=Sing	2	obl	2:obl	NE=B-Loc
-2	elav	elav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	5:acl	_
-3	Helsingi	Helsingi	PROPN	S	Case=Nom|Number=Sing	4	nmod	4:nmod	NE=B-Org
-4	ülikooli	üli_kool	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=I-Org
-5	kirjandusprofessor	kirjandus_professor	NOUN	S	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
-6	Kari	Kari	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Per
-7	Sallamaa	Sallamaa	PROPN	S	Case=Nom|Number=Sing	6	flat	6:flat	NE=I-Per
-8	pani	panema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-9	etnofuturismi	etno_futurism	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
-10	juubeliürituse	juubeli_üritus	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	lõpus	lõpp	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
-12	Rõuges	Rõuge	PROPN	S	Case=Ine|Number=Sing	8	obl	8:obl	NE=B-Loc
-13	kõigile	kõik	PRON	P	Case=All|Number=Plur|PronType=Tot	8	obl	8:obl	_
-14	südamele	süda	NOUN	S	Case=All|Number=Sing	8	obl	8:obl	SpaceAfter=No
-15	,	,	PUNCT	Z	_	18	punct	18:punct	_
-16	et	et	SCONJ	J	_	18	mark	18:mark	_
-17	me	mina	PRON	P	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	18:nsubj	_
-18	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	SpaceAfter=No
-19	,	,	PUNCT	Z	_	20	punct	20:punct	_
-20	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	8:ccomp|18:conj	_
-21	ja	ja	CCONJ	J	_	22	cc	22:cc	_
-22	kirjutaks	kirjutama	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	8:ccomp|18:conj	_
-23	ja	ja	CCONJ	J	_	24	cc	24:cc	_
-24	levitaks	levima	VERB	V	Mood=Cnd|Tense=Pres|VerbForm=Fin|Voice=Pass	18	conj	8:ccomp|18:conj	_
-25	etnofuturismi	etno_futurism	NOUN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	_
-26	rõõmusõnumit	rõõmu_sõnum	NOUN	S	Case=Par|Number=Sing	24	obj	24:obj	_
-27	igale	iga	PRON	P	Case=All|Number=Sing|PronType=Tot	24	obl	24:obl	_
-28	poole	poole	ADV	D	_	27	fixed	27:fixed	SpaceAfter=No
-29	.	.	PUNCT	Z	_	8	punct	8:punct	_
-
-# sent_id = aja_ee199920_1777
-# text = Ei mingit hingelist painet, ohvritunnet, depressiivsust ega suitsiidi meeleolu, neid meie noorema kunsti trendikaid nähtusi.
-1	Ei	ei	ADV	D	_	2	advmod	2:advmod	_
-2	mingit	mingi	DET	P	Case=Par|Number=Sing|PronType=Ind	4	det	4:det	_
-3	hingelist	hingeline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	4	amod	4:amod	_
-4	painet	paine	NOUN	S	Case=Par|Number=Sing	0	root	0:root	SpaceAfter=No
-5	,	,	PUNCT	Z	_	6	punct	6:punct	_
-6	ohvritunnet	ohvri_tunne	NOUN	S	Case=Par|Number=Sing	4	conj	0:root|4:conj	SpaceAfter=No
-7	,	,	PUNCT	Z	_	8	punct	8:punct	_
-8	depressiivsust	depressiiv=sus	NOUN	S	Case=Par|Number=Sing	4	conj	0:root|4:conj	_
-9	ega	ega	CCONJ	J	Polarity=Neg	11	cc	11:cc	_
-10	suitsiidi	suitsiid	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	meeleolu	meele_olu	NOUN	S	Case=Par|Number=Sing	4	conj	0:root|4:conj	SpaceAfter=No
-12	,	,	PUNCT	Z	_	18	punct	18:punct	_
-13	neid	see	DET	P	Case=Par|Number=Plur|PronType=Dem	18	det	18:det	_
-14	meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	nmod	16:nmod	_
-15	noorema	noorem	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	16	amod	16:amod	_
-16	kunsti	kunst	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-17	trendikaid	trendikas	ADJ	A	Case=Par|Degree=Pos|Number=Plur	18	amod	18:amod	_
-18	nähtusi	nähtus	NOUN	S	Case=Par|Number=Plur	4	appos	4:appos	SpaceAfter=No
-19	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = tea_geofyysika_505
 # text = Maa ülessulamise seletuseks on väga ahvatlev Schmidti pakututest suuremate planetesimaalide kokkupõrkumine.
 1	Maa	Maa	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Loc
@@ -7251,18 +6448,6 @@
 10	planetesimaalide	planetesi_maal	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
 11	kokkupõrkumine	kokku_põrku=mine	NOUN	S	Case=Nom|Number=Sing	6	nsubj:cop	6:nsubj	SpaceAfter=No
 12	.	.	PUNCT	Z	_	6	punct	6:punct	_
-
-# sent_id = aja_luup200009_244
-# text = Kaigi 45 aastasse Eesti raudteel mahtusid paljud auruvedurimargid.
-1	Kaigi	Kaik	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Per
-2	45	45	NUM	N	NumForm=Digit|NumType=Card	3	nummod	3:nummod	_
-3	aastasse	aasta	NOUN	S	Case=Ill|Number=Sing	6	obl	6:obl	_
-4	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=B-Gep
-5	raudteel	raud_tee	NOUN	S	Case=Ade|Number=Sing	3	nmod	3:nmod	_
-6	mahtusid	mahtuma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-7	paljud	palju	PRON	P	Case=Nom|Number=Plur|PronType=Ind	8	nmod	8:nmod	_
-8	auruvedurimargid	auru_veduri_mark	NOUN	S	Case=Nom|Number=Plur	6	nsubj	6:nsubj	SpaceAfter=No
-9	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
 # sent_id = aja_sloleht20071217_744
 # text = Kurtna küla kolm noormeest Kuldar Keskküla, Üllar Ahu ja Kunnar Paiste tõid kolm inimest välja vanast põlevast mõisahoonest.
@@ -8011,27 +7196,6 @@
 27	tagasi	tagasi	ADV	D	_	23	compound:prt	23:compound	SpaceAfter=No
 28	.	.	PUNCT	Z	_	23	punct	23:punct	SpaceAfter=No
 29	"	"	PUNCT	Z	_	23	punct	23:punct	_
-
-# sent_id = aja_ee199920_1863
-# text = Peagi jõuab lugejateni Jüri Ehlvesti novellikogu "Elumask", mida Laid Šemjeir hakkas mari keelde tõlkima.
-1	Peagi	peagi	ADV	D	_	2	advmod	2:advmod	_
-2	jõuab	jõudma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	lugejateni	lugeja	NOUN	S	Case=Ter|Number=Plur	2	obl	2:obl	_
-4	Jüri	Jüri	PROPN	S	Case=Nom|Number=Sing	6	nmod	6:nmod	NE=B-Per
-5	Ehlvesti	Ehlvest	PROPN	S	Case=Gen|Number=Sing	4	flat	4:flat	NE=I-Per
-6	novellikogu	novelli_kogu	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj|17:obj	NE=B-Prod
-7	"	"	PUNCT	Z	_	8	punct	8:punct	NE=I-Prod|SpaceAfter=No
-8	Elumask	elu_mask	NOUN	S	Case=Nom|Number=Sing	6	appos	6:appos	NE=I-Prod|SpaceAfter=No
-9	"	"	PUNCT	Z	_	8	punct	8:punct	NE=I-Prod|SpaceAfter=No
-10	,	,	PUNCT	Z	_	14	punct	14:punct	_
-11	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	17	obj	6:ref	_
-12	Laid	Laid	PROPN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj|17:nsubj	NE=B-Per
-13	Šemjeir	Šemjeir	PROPN	S	Case=Nom|Number=Sing	12	flat	12:flat	NE=I-Per
-14	hakkas	hakkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	_
-15	mari	mari	NOUN	S	Case=Gen|Number=Sing	16	nmod	16:nmod	_
-16	keelde	keel	NOUN	S	Case=Add|Number=Sing	17	obl	17:obl	_
-17	tõlkima	tõlkima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	14	xcomp	14:xcomp	SpaceAfter=No
-18	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = aja_horisont2000_830
 # text = Seletus on lihtne: vähem jääd ja lund, vähem soojust nende sulatamiseks ning kevadel saab päike kohe maad kuumutama hakata.
@@ -8906,21 +8070,6 @@
 15	seletada	seletama	VERB	V	VerbForm=Inf	10	xcomp	10:xcomp	SpaceAfter=No
 16	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = aja_ee199920_1882
-# text = Otsustatakse, et neil miksidel muud vastust polegi kui inimeste rumalus.
-1	Otsustatakse	otsustama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
-2	,	,	PUNCT	Z	_	5	punct	5:punct	_
-3	et	et	SCONJ	J	_	5	mark	5:mark	_
-4	neil	see	DET	P	Case=Ade|Number=Plur|PronType=Dem	5	det	5:det	_
-5	miksidel	miksi	NOUN	S	Case=Ade|Number=Plur	1	ccomp	1:ccomp	_
-6	muud	muu	DET	P	Case=Par|Number=Sing|PronType=Ind	7	det	7:det	_
-7	vastust	vastus	NOUN	S	Case=Par|Number=Sing	5	nsubj:cop	5:nsubj	_
-8	polegi	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-9	kui	kui	SCONJ	J	_	11	mark	11:mark	_
-10	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
-11	rumalus	rumalus	NOUN	S	Case=Nom|Number=Sing	5	advcl	5:advcl	SpaceAfter=No
-12	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = arborest_337
 # text = Mõne aja pärast sõitsin ühega paljudest Pekka autodest Helsingisse.
 1	Mõne	mõni	DET	P	Case=Gen|Number=Sing|PronType=Ind	2	det	2:det	_
@@ -9099,24 +8248,6 @@
 14	võrk	võrk	NOUN	S	Case=Nom|Number=Sing	9	obj	9:obj	SpaceAfter=No
 15	.	.	PUNCT	Z	_	1	punct	1:punct	_
 
-# sent_id = aja_ee199920_1737
-# text = Mängiti maha stseen kirjaniku esmakohtumisest oma raamatuga, mille käigus autor valas hulgaliselt võltspisaraid.
-1	Mängiti	mängima	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-2	maha	maha	ADV	D	_	1	compound:prt	1:compound	_
-3	stseen	stseen	NOUN	S	Case=Nom|Number=Sing	1	obj	1:obj|12:obl	_
-4	kirjaniku	kirjanik	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-5	esmakohtumisest	esma_kohtumine	NOUN	S	Case=Ela|Number=Sing	3	nmod	3:nmod	_
-6	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	7:nmod	_
-7	raamatuga	raamat	NOUN	S	Case=Com|Number=Sing	5	nmod	5:nmod	SpaceAfter=No
-8	,	,	PUNCT	Z	_	12	punct	12:punct	_
-9	mille	mis	PRON	P	Case=Gen|Number=Sing|PronType=Int,Rel	12	obl	3:ref	_
-10	käigus	käigus	ADP	K	AdpType=Post	9	case	9:case	_
-11	autor	autor	NOUN	S	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
-12	valas	valama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	_
-13	hulgaliselt	hulgaliselt	ADV	D	_	12	advmod	12:advmod	_
-14	võltspisaraid	võlts_pisar	NOUN	S	Case=Par|Number=Plur	12	obj	12:obj	SpaceAfter=No
-15	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = aja_pm19980926_127
 # text = Sama mees on viie palliga zhongleerides läbinud ka täispikkuses New Yorgi maratoni ning kolme palli käes hüpitades tõusnud 18 ja poole minutiga 107korruselise New Yorgi World Trade Center'i tippu.
 1	Sama	sama	DET	P	Case=Nom|Number=Sing|PronType=Dem	2	det	2:det	_
@@ -9215,84 +8346,6 @@
 28	Center'i	Center	PROPN	S	Case=Gen|Number=Sing	26	flat	26:flat	NE=I-Prod
 29	tippu	tipp	NOUN	S	Case=Add|Number=Sing	18	obl	18:obl	SpaceAfter=No
 30	.	.	PUNCT	Z	_	7	punct	7:punct	_
-
-# sent_id = aja_epl20070812_47
-# text = Missiooni juhib Kaitsejõudude Peastaabi relvastuskontrolli grupi ülem major Villu Tamul, tema asetäitjaks ja ühtlasi Soome vaatlejategrupi ülemaks on kolonel Arto Kupiainen.
-1	Missiooni	missioon	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
-2	juhib	juhtima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	Kaitsejõudude	kaitse_jõud	NOUN	S	Case=Gen|Number=Plur	4	nmod	4:nmod	NE=B-Org
-4	Peastaabi	pea_staap	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
-5	relvastuskontrolli	relvastus_kontroll	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	grupi	grupp	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	ülem	ülem	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
-8	major	major	NOUN	S	Case=Nom|Number=Sing	7	appos	7:appos	_
-9	Villu	Villu	PROPN	S	Case=Nom|Number=Sing	8	appos	8:appos	NE=B-Per
-10	Tamul	Tamul	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per|SpaceAfter=No
-11	,	,	PUNCT	Z	_	13	punct	13:punct	_
-12	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod	_
-13	asetäitjaks	ase_täitja	NOUN	S	Case=Tra|Number=Sing	2	conj	0:root|2:conj	_
-14	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-15	ühtlasi	ühtlasi	ADV	D	_	18	advmod	18:advmod	_
-16	Soome	Soome	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Gep
-17	vaatlejategrupi	vaatle=ja+te_grupp	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-18	ülemaks	ülem	NOUN	S	Case=Tra|Number=Sing	13	conj	0:root|13:conj	_
-19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
-20	kolonel	kolonel	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	13:nsubj|18:nsubj	_
-21	Arto	Arto	PROPN	S	Case=Nom|Number=Sing	20	appos	20:appos	NE=B-Per
-22	Kupiainen	Kupiainen	PROPN	S	Case=Nom|Number=Sing	21	flat	21:flat	NE=I-Per|SpaceAfter=No
-23	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_epl20070812_47
-# text = Missiooni juhib Kaitsejõudude Peastaabi relvastuskontrolli grupi ülem major Villu Tamul, tema asetäitjaks ja ühtlasi Soome vaatlejategrupi ülemaks on kolonel Arto Kupiainen.
-1	Missiooni	missioon	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
-2	juhib	juhtima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	Kaitsejõudude	kaitse_jõud	NOUN	S	Case=Gen|Number=Plur	4	nmod	4:nmod	NE=B-Org
-4	Peastaabi	pea_staap	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
-5	relvastuskontrolli	relvastus_kontroll	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	grupi	grupp	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	ülem	ülem	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
-8	major	major	NOUN	S	Case=Nom|Number=Sing	7	appos	7:appos	_
-9	Villu	Villu	PROPN	S	Case=Nom|Number=Sing	8	appos	8:appos	NE=B-Per
-10	Tamul	Tamul	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per|SpaceAfter=No
-11	,	,	PUNCT	Z	_	13	punct	13:punct	_
-12	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod	_
-13	asetäitjaks	ase_täitja	NOUN	S	Case=Tra|Number=Sing	2	conj	0:root|2:conj	_
-14	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-15	ühtlasi	ühtlasi	ADV	D	_	18	advmod	18:advmod	_
-16	Soome	Soome	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Gep
-17	vaatlejategrupi	vaatle=ja+te_grupp	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-18	ülemaks	ülem	NOUN	S	Case=Tra|Number=Sing	13	conj	0:root|13:conj	_
-19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
-20	kolonel	kolonel	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	13:nsubj|18:nsubj	_
-21	Arto	Arto	PROPN	S	Case=Nom|Number=Sing	20	appos	20:appos	NE=B-Per
-22	Kupiainen	Kupiainen	PROPN	S	Case=Nom|Number=Sing	21	flat	21:flat	NE=I-Per|SpaceAfter=No
-23	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_epl20070812_47
-# text = Missiooni juhib Kaitsejõudude Peastaabi relvastuskontrolli grupi ülem major Villu Tamul, tema asetäitjaks ja ühtlasi Soome vaatlejategrupi ülemaks on kolonel Arto Kupiainen.
-1	Missiooni	missioon	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	_
-2	juhib	juhtima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	Kaitsejõudude	kaitse_jõud	NOUN	S	Case=Gen|Number=Plur	4	nmod	4:nmod	NE=B-Org
-4	Peastaabi	pea_staap	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
-5	relvastuskontrolli	relvastus_kontroll	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	grupi	grupp	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	ülem	ülem	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
-8	major	major	NOUN	S	Case=Nom|Number=Sing	7	appos	7:appos	_
-9	Villu	Villu	PROPN	S	Case=Nom|Number=Sing	8	appos	8:appos	NE=B-Per
-10	Tamul	Tamul	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per|SpaceAfter=No
-11	,	,	PUNCT	Z	_	13	punct	13:punct	_
-12	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod	13:nmod	_
-13	asetäitjaks	ase_täitja	NOUN	S	Case=Tra|Number=Sing	2	conj	0:root|2:conj	_
-14	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-15	ühtlasi	ühtlasi	ADV	D	_	18	advmod	18:advmod	_
-16	Soome	Soome	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Gep
-17	vaatlejategrupi	vaatle=ja+te_grupp	NOUN	S	Case=Gen|Number=Sing	18	nmod	18:nmod	_
-18	ülemaks	ülem	NOUN	S	Case=Tra|Number=Sing	13	conj	0:root|13:conj	_
-19	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
-20	kolonel	kolonel	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	13:nsubj|18:nsubj	_
-21	Arto	Arto	PROPN	S	Case=Nom|Number=Sing	20	appos	20:appos	NE=B-Per
-22	Kupiainen	Kupiainen	PROPN	S	Case=Nom|Number=Sing	21	flat	21:flat	NE=I-Per|SpaceAfter=No
-23	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = aja_ee200110_1465
 # text = Lõpetuseks läbivaatus metalliotsijaga
@@ -9356,26 +8409,6 @@
 19	masstoodang	mass_toodang	NOUN	S	Case=Nom|Number=Sing	8	conj	0:root|8:conj	SpaceAfter=No
 20	.	.	PUNCT	Z	_	8	punct	8:punct	_
 
-# sent_id = ilu_ruben_152
-# text = Ütlesin, jah, "tuntsin", sest mu keel ei kuulanud enam hästi sõna.
-1	Ütlesin	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-2	,	,	PUNCT	Z	_	1	punct	1:punct	_
-3	jah	jah	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
-4	,	,	PUNCT	Z	_	6	punct	6:punct	_
-5	"	"	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-6	tuntsin	tundma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
-7	"	"	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
-8	,	,	PUNCT	Z	_	13	punct	13:punct	_
-9	sest	sest	SCONJ	J	_	13	mark	13:mark	_
-10	mu	mina	PRON	P	Case=Gen|Number=Sing|Person=1|PronType=Prs	11	nmod	11:nmod	_
-11	keel	keel	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	_
-12	ei	ei	AUX	V	Polarity=Neg	13	aux	13:aux	_
-13	kuulanud	kuulama	VERB	V	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
-14	enam	enam	ADV	D	_	13	advmod	13:advmod	_
-15	hästi	hästi	ADV	D	_	13	advmod	13:advmod	_
-16	sõna	sõna	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	SpaceAfter=No
-17	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
 # sent_id = ilu_valton_40
 # text = Aga enne kui meie tibu puuriidaasjus suuremale selgusele jõudis või seda paika oma sünnikoha ja koduna omaks võttis, mindi siit ära veelgi laiemasse maailma.
 1	Aga	aga	CCONJ	J	_	9	cc	9:cc	_
@@ -9433,50 +8466,6 @@
 24	laiemasse	laiem	ADJ	A	Case=Ill|Degree=Cmp|Number=Sing	25	amod	25:amod	_
 25	maailma	maa_ilm	NOUN	S	Case=Add|Number=Sing	20	obl	20:obl	SpaceAfter=No
 26	.	.	PUNCT	Z	_	20	punct	20:punct	_
-
-# sent_id = aja_luup200009_835
-# text = USA mereväe salarelv - allveelaev Seawolf on ülivõimas nähtamatu ja liikuv sõjaväebaas, mida on pea võimatu avastada.
-1	USA	USA	PROPN	Y	Abbr=Yes	2	nmod	2:nmod	NE=B-Gep
-2	mereväe	mere_vägi	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-3	salarelv	sala_relv	NOUN	S	Case=Nom|Number=Sing	12	nsubj:cop	12:nsubj	_
-4	-	-	PUNCT	Z	_	5	punct	5:punct	_
-5	allveelaev	all_vee_laev	NOUN	S	Case=Nom|Number=Sing	3	appos	3:appos	_
-6	Seawolf	Seawolf	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Prod
-7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-8	ülivõimas	üli_võimas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-9	nähtamatu	nähtamatu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
-11	liikuv	liikuv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	9:conj|12:amod	_
-12	sõjaväebaas	sõja_väe_baas	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|18:obj	SpaceAfter=No
-13	,	,	PUNCT	Z	_	17	punct	17:punct	_
-14	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	18	obj	12:ref	_
-15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
-16	pea	pea	ADV	D	_	17	advmod	17:advmod	_
-17	võimatu	võimatu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	acl:relcl	12:acl:relcl	_
-18	avastada	avastama	VERB	V	VerbForm=Inf	17	csubj:cop	17:csubj	SpaceAfter=No
-19	.	.	PUNCT	Z	_	12	punct	12:punct	_
-
-# sent_id = aja_luup200009_835
-# text = USA mereväe salarelv - allveelaev Seawolf on ülivõimas nähtamatu ja liikuv sõjaväebaas, mida on pea võimatu avastada.
-1	USA	USA	PROPN	Y	Abbr=Yes	2	nmod	2:nmod	NE=B-Gep
-2	mereväe	mere_vägi	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-3	salarelv	sala_relv	NOUN	S	Case=Nom|Number=Sing	12	nsubj:cop	12:nsubj	_
-4	-	-	PUNCT	Z	_	5	punct	5:punct	_
-5	allveelaev	all_vee_laev	NOUN	S	Case=Nom|Number=Sing	3	appos	3:appos	_
-6	Seawolf	Seawolf	PROPN	S	Case=Nom|Number=Sing	5	appos	5:appos	NE=B-Prod
-7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-8	ülivõimas	üli_võimas	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-9	nähtamatu	nähtamatu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-10	ja	ja	CCONJ	J	_	11	cc	11:cc	_
-11	liikuv	liikuv	ADJ	A	Case=Nom|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	conj	9:conj|12:amod	_
-12	sõjaväebaas	sõja_väe_baas	NOUN	S	Case=Nom|Number=Sing	0	root	0:root|18:obj	SpaceAfter=No
-13	,	,	PUNCT	Z	_	17	punct	17:punct	_
-14	mida	mis	PRON	P	Case=Par|Number=Sing|PronType=Int,Rel	18	obj	12:ref	_
-15	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
-16	pea	pea	ADV	D	_	17	advmod	17:advmod	_
-17	võimatu	võimatu	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	acl:relcl	12:acl:relcl	_
-18	avastada	avastama	VERB	V	VerbForm=Inf	17	csubj:cop	17:csubj	SpaceAfter=No
-19	.	.	PUNCT	Z	_	12	punct	12:punct	_
 
 # sent_id = aja_ee200110_744
 # text = Vene Draamateatri keldris, endistes restoran Astoria ruumides on ennast sisse seadnud Monte-Carlo kasiino.
@@ -9946,33 +8935,6 @@
 13	juhtida	juhtima	VERB	V	VerbForm=Inf	4	advcl	4:advcl	SpaceAfter=No
 14	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = tea_eesti_arst_2004_410
-# text = PET- ja SPECT-uuringud toovad esile verevoolu vähenemise ja ainevahetuse muutused infarktikoldes ning sellega funktsionaalselt seotud olulistes ajupiirkondades (diaskiis) (24).
-1	PET-	PET	NOUN	Y	Abbr=Yes|Hyph=Yes	4	nsubj	4:nsubj	_
-2	ja	ja	CCONJ	J	_	3	cc	3:cc	_
-3	SPECT-uuringud	SPECT-uuring	NOUN	S	Case=Nom|Number=Plur	1	conj	1:conj|4:nsubj	_
-4	toovad	tooma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	esile	esile	ADV	D	_	4	compound:prt	4:compound	_
-6	verevoolu	vere_vool	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	vähenemise	vähenemine	NOUN	S	Case=Gen|Number=Sing	4	obj	4:obj	_
-8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
-9	ainevahetuse	aine_vahetus	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
-10	muutused	muutus	NOUN	S	Case=Nom|Number=Plur	7	conj	4:obj|7:conj	_
-11	infarktikoldes	infarkti_kolle	NOUN	S	Case=Ine|Number=Sing	10	nmod	10:nmod	_
-12	ning	ning	CCONJ	J	_	17	cc	17:cc	_
-13	sellega	see	PRON	P	Case=Com|Number=Sing|PronType=Dem	15	obl	15:obl	_
-14	funktsionaalselt	funktsionaalse=lt	ADV	D	_	15	advmod	15:advmod	_
-15	seotud	seotud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	17:acl	_
-16	olulistes	oluline	ADJ	A	Case=Ine|Degree=Pos|Number=Plur	17	amod	17:amod	_
-17	ajupiirkondades	aju_piirkond	NOUN	S	Case=Ine|Number=Plur	11	conj	10:nmod|11:conj	_
-18	(	(	PUNCT	Z	_	19	punct	19:punct	SpaceAfter=No
-19	diaskiis	diaskiis	NOUN	S	Case=Nom|Number=Sing	10	parataxis	10:parataxis	SpaceAfter=No
-20	)	)	PUNCT	Z	_	19	punct	19:punct	_
-21	(	(	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
-22	24	24	NUM	N	NumForm=Digit|NumType=Card	4	parataxis	4:parataxis	SpaceAfter=No
-23	)	)	PUNCT	Z	_	22	punct	22:punct	SpaceAfter=No
-24	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = aja_pm20001004_340
 # text = Politsei viis mehe arestimaja kainestuskambrisse välja magama.
 1	Politsei	politsei	NOUN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	_
@@ -10362,14 +9324,6 @@
 25	valimisteta	valimine	NOUN	S	Case=Abe|Number=Plur	22	obl	22:obl	SpaceAfter=No
 26	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
-# sent_id = aja_ee199920_1843
-# text = Meie uid sai filosoofiaks!
-1	Meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod	_
-2	uid	uid	NOUN	S	Case=Nom|Number=Sing	3	nsubj	3:nsubj|4:nsubj	_
-3	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	filosoofiaks	filosoofia	NOUN	S	Case=Tra|Number=Sing	3	xcomp	3:xcomp	SpaceAfter=No
-5	!	!	PUNCT	Z	_	3	punct	3:punct	_
-
 # sent_id = aja_pm20001004_954
 # text = Lisaks süüdistati Hürdenit maksuametile tahtlikult moonutatud andmete esitamises.
 1	Lisaks	lisa	NOUN	S	Case=Tra|Number=Sing	2	obl	2:obl	_
@@ -10629,39 +9583,6 @@
 21	toksilisi	toksiline	ADJ	A	Case=Par|Degree=Pos|Number=Plur	18	conj	18:conj|22:acl	_
 22	ühendeid	ühend	NOUN	S	Case=Par|Number=Plur	13	obj	13:obj	SpaceAfter=No
 23	.	.	PUNCT	Z	_	6	punct	6:punct	_
-
-# sent_id = tea_eesti_arst_2004_26
-# text = Olemata spetsialist turunduse ja reklaami alal, olen veendunud, et ravimireklaam ei toimi samadel põhimõtetel nagu näiteks pesupulbri reklaam - olgu pidevalt silmade ees, vedelegu või põrandal.
-1	Olemata	olema	AUX	V	Case=Abe|VerbForm=Sup|Voice=Act	2	cop	2:cop	_
-2	spetsialist	spetsialist	NOUN	S	Case=Nom|Number=Sing	9	advcl	9:advcl	_
-3	turunduse	turundus	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
-5	reklaami	reklaami	NOUN	S	Case=Gen|Number=Sing	3	conj	3:conj|6:nmod	_
-6	alal	alal	NOUN	S	Case=Ade|Number=Sing	2	nmod	2:nmod	SpaceAfter=No
-7	,	,	PUNCT	Z	_	9	punct	9:punct	_
-8	olen	olema	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	9:cop	_
-9	veendunud	veendu=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
-10	,	,	PUNCT	Z	_	14	punct	14:punct	_
-11	et	et	SCONJ	J	_	14	mark	14:mark	_
-12	ravimireklaam	ravimi_reklaam	NOUN	S	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
-13	ei	ei	AUX	V	Polarity=Neg	14	aux	14:aux	_
-14	toimi	toimima	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	_
-15	samadel	sama	DET	P	Case=Ade|Number=Plur|PronType=Dem	16	det	16:det	_
-16	põhimõtetel	põhi_mõte	NOUN	S	Case=Ade|Number=Plur	14	obl	14:obl	_
-17	nagu	nagu	SCONJ	J	_	20	mark	20:mark	_
-18	näiteks	näiteks	ADV	D	_	19	advmod	19:advmod	_
-19	pesupulbri	pesu_pulber	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-20	reklaam	reklaam	NOUN	S	Case=Nom|Number=Sing	14	advcl	14:advcl	_
-21	-	-	PUNCT	Z	_	24	punct	24:punct	_
-22	olgu	olema	AUX	V	Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	cop	14:cop	_
-23	pidevalt	pidevalt	ADV	D	_	24	advmod	24:advmod	_
-24	silmade	silm	NOUN	S	Case=Gen|Number=Plur	14	parataxis	14:parataxis	_
-25	ees	ees	ADP	K	AdpType=Post	24	case	24:case	SpaceAfter=No
-26	,	,	PUNCT	Z	_	27	punct	27:punct	_
-27	vedelegu	vedelema	VERB	V	Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	14:parataxis|24:conj	_
-28	või	või	ADV	D	_	29	advmod	29:advmod	_
-29	põrandal	põrand	NOUN	S	Case=Ade|Number=Sing	27	obl	27:obl	SpaceAfter=No
-30	.	.	PUNCT	Z	_	9	punct	9:punct	_
 
 # sent_id = ilu_remsu_234
 # text = Minu meelest pakub pikema ajalooperioodi vaatlus kinnitust riigikesksele ideoloogiale – pärast Teist maailmasõda taassünnitati Euroopa majandus riigi valvsa pilgu all, nagu seda Skandinaavia maades on kogu aeg tehtud.
@@ -11178,166 +10099,6 @@
 40	mereks	meri	NOUN	S	Case=Tra|Number=Sing	37	conj	35:xcomp|37:conj	NE=I-Loc|SpaceAfter=No
 41	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = aja_luup200009_1003
-# text = Dumoga turul kohtab kõiki elajaid, keda tabudeta kristlased armastavad.
-1	Dumoga	Dumoga	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
-2	turul	turg	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
-3	kohtab	kohtama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	kõiki	kõik	DET	P	Case=Par|Number=Plur|PronType=Tot	5	det	5:det	_
-5	elajaid	elajas	NOUN	S	Case=Par|Number=Plur	3	obj	3:obj|10:obj	SpaceAfter=No
-6	,	,	PUNCT	Z	_	10	punct	10:punct	_
-7	keda	kes	PRON	P	Case=Par|Number=Plur|PronType=Int,Rel	10	obj	5:ref	_
-8	tabudeta	tabu	NOUN	S	Case=Abe|Number=Plur	9	nmod	9:nmod	_
-9	kristlased	kristlane	NOUN	S	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
-10	armastavad	armastama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	SpaceAfter=No
-11	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
-# sent_id = aja_ml200247_1534
-# text = Kirjutatud on nii pildilikult, et seda lugedes tõuseb tihti silme ette justkui filmilint väikese alevi argipäevadest või inimeste rõõmutust elust Karjalas.
-1	Kirjutatud	kirjutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	nii	nii	ADV	D	_	4	advmod	4:advmod	_
-4	pildilikult	pildi=likult	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
-5	,	,	PUNCT	Z	_	9	punct	9:punct	_
-6	et	et	SCONJ	J	_	9	mark	9:mark	_
-7	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
-8	lugedes	lugema	VERB	V	VerbForm=Conv	9	advcl	9:advcl	_
-9	tõuseb	tõusma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
-10	tihti	tihti	ADV	D	_	9	advmod	9:advmod	_
-11	silme	silm	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	_
-12	ette	ette	ADP	K	AdpType=Post	11	case	11:case	_
-13	justkui	just_kui	SCONJ	J	_	14	mark	14:mark	_
-14	filmilint	filmi_lint	NOUN	S	Case=Nom|Number=Sing	9	advcl	9:advcl	_
-15	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	alevi	alev	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
-17	argipäevadest	argi_päev	NOUN	S	Case=Ela|Number=Plur	14	nmod	14:nmod	_
-18	või	või	CCONJ	J	_	21	cc	21:cc	_
-19	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	21	nmod	21:nmod	_
-20	rõõmutust	rõõmutu	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	21	amod	21:amod	_
-21	elust	elu	NOUN	S	Case=Ela|Number=Sing	17	conj	14:nmod|17:conj	_
-22	Karjalas	Karjala	PROPN	S	Case=Ine|Number=Sing	21	nmod	21:nmod	NE=B-Loc|SpaceAfter=No
-23	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ml200247_1534
-# text = Kirjutatud on nii pildilikult, et seda lugedes tõuseb tihti silme ette justkui filmilint väikese alevi argipäevadest või inimeste rõõmutust elust Karjalas.
-1	Kirjutatud	kirjutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	nii	nii	ADV	D	_	4	advmod	4:advmod	_
-4	pildilikult	pildi=likult	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
-5	,	,	PUNCT	Z	_	9	punct	9:punct	_
-6	et	et	SCONJ	J	_	9	mark	9:mark	_
-7	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
-8	lugedes	lugema	VERB	V	VerbForm=Conv	9	advcl	9:advcl	_
-9	tõuseb	tõusma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
-10	tihti	tihti	ADV	D	_	9	advmod	9:advmod	_
-11	silme	silm	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	_
-12	ette	ette	ADP	K	AdpType=Post	11	case	11:case	_
-13	justkui	just_kui	SCONJ	J	_	14	mark	14:mark	_
-14	filmilint	filmi_lint	NOUN	S	Case=Nom|Number=Sing	9	advcl	9:advcl	_
-15	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	alevi	alev	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
-17	argipäevadest	argi_päev	NOUN	S	Case=Ela|Number=Plur	14	nmod	14:nmod	_
-18	või	või	CCONJ	J	_	21	cc	21:cc	_
-19	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	21	nmod	21:nmod	_
-20	rõõmutust	rõõmutu	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	21	amod	21:amod	_
-21	elust	elu	NOUN	S	Case=Ela|Number=Sing	17	conj	14:nmod|17:conj	_
-22	Karjalas	Karjala	PROPN	S	Case=Ine|Number=Sing	21	nmod	21:nmod	NE=B-Loc|SpaceAfter=No
-23	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ml200247_1534
-# text = Kirjutatud on nii pildilikult, et seda lugedes tõuseb tihti silme ette justkui filmilint väikese alevi argipäevadest või inimeste rõõmutust elust Karjalas.
-1	Kirjutatud	kirjutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	nii	nii	ADV	D	_	4	advmod	4:advmod	_
-4	pildilikult	pildi=likult	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
-5	,	,	PUNCT	Z	_	9	punct	9:punct	_
-6	et	et	SCONJ	J	_	9	mark	9:mark	_
-7	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
-8	lugedes	lugema	VERB	V	VerbForm=Conv	9	advcl	9:advcl	_
-9	tõuseb	tõusma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
-10	tihti	tihti	ADV	D	_	9	advmod	9:advmod	_
-11	silme	silm	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	_
-12	ette	ette	ADP	K	AdpType=Post	11	case	11:case	_
-13	justkui	just_kui	SCONJ	J	_	14	mark	14:mark	_
-14	filmilint	filmi_lint	NOUN	S	Case=Nom|Number=Sing	9	advcl	9:advcl	_
-15	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	alevi	alev	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
-17	argipäevadest	argi_päev	NOUN	S	Case=Ela|Number=Plur	14	nmod	14:nmod	_
-18	või	või	CCONJ	J	_	21	cc	21:cc	_
-19	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	21	nmod	21:nmod	_
-20	rõõmutust	rõõmutu	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	21	amod	21:amod	_
-21	elust	elu	NOUN	S	Case=Ela|Number=Sing	17	conj	14:nmod|17:conj	_
-22	Karjalas	Karjala	PROPN	S	Case=Ine|Number=Sing	21	nmod	21:nmod	NE=B-Loc|SpaceAfter=No
-23	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ml200247_1534
-# text = Kirjutatud on nii pildilikult, et seda lugedes tõuseb tihti silme ette justkui filmilint väikese alevi argipäevadest või inimeste rõõmutust elust Karjalas.
-1	Kirjutatud	kirjutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	nii	nii	ADV	D	_	4	advmod	4:advmod	_
-4	pildilikult	pildi=likult	ADV	D	_	1	advmod	1:advmod	SpaceAfter=No
-5	,	,	PUNCT	Z	_	9	punct	9:punct	_
-6	et	et	SCONJ	J	_	9	mark	9:mark	_
-7	seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	8	obj	8:obj	_
-8	lugedes	lugema	VERB	V	VerbForm=Conv	9	advcl	9:advcl	_
-9	tõuseb	tõusma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	1:advcl	_
-10	tihti	tihti	ADV	D	_	9	advmod	9:advmod	_
-11	silme	silm	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	_
-12	ette	ette	ADP	K	AdpType=Post	11	case	11:case	_
-13	justkui	just_kui	SCONJ	J	_	14	mark	14:mark	_
-14	filmilint	filmi_lint	NOUN	S	Case=Nom|Number=Sing	9	advcl	9:advcl	_
-15	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	alevi	alev	NOUN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	_
-17	argipäevadest	argi_päev	NOUN	S	Case=Ela|Number=Plur	14	nmod	14:nmod	_
-18	või	või	CCONJ	J	_	21	cc	21:cc	_
-19	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	21	nmod	21:nmod	_
-20	rõõmutust	rõõmutu	ADJ	A	Case=Ela|Degree=Pos|Number=Sing	21	amod	21:amod	_
-21	elust	elu	NOUN	S	Case=Ela|Number=Sing	17	conj	14:nmod|17:conj	_
-22	Karjalas	Karjala	PROPN	S	Case=Ine|Number=Sing	21	nmod	21:nmod	NE=B-Loc|SpaceAfter=No
-23	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ml200247_1524
-# text = Nad kogunevad kusagil, et võtta kott selga ja marssida õppuse kava kohaselt 10 kilomeetrit Valga piirivalvelinnakusse.
-1	Nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
-2	kogunevad	kogunema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	kusagil	kusagil	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
-4	,	,	PUNCT	Z	_	6	punct	6:punct	_
-5	et	et	SCONJ	J	_	6	mark	6:mark	_
-6	võtta	võtma	VERB	V	VerbForm=Inf	2	advcl	2:advcl	_
-7	kott	kott	NOUN	S	Case=Nom|Number=Sing	6	obj	6:obj	_
-8	selga	selg	NOUN	S	Case=Add|Number=Sing	6	obl	6:obl	_
-9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
-10	marssida	marssima	VERB	V	VerbForm=Inf	6	conj	2:advcl|6:conj	_
-11	õppuse	õppus	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
-12	kava	kava	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
-13	kohaselt	kohaselt	ADP	K	AdpType=Post	12	case	12:case	_
-14	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
-15	kilomeetrit	kilo_meeter	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
-16	Valga	Valga	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Loc
-17	piirivalvelinnakusse	piiri_valve_linnak	NOUN	S	Case=Ill|Number=Sing	10	obl	10:obl	NE=I-Loc|SpaceAfter=No
-18	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_ml200247_1524
-# text = Nad kogunevad kusagil, et võtta kott selga ja marssida õppuse kava kohaselt 10 kilomeetrit Valga piirivalvelinnakusse.
-1	Nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
-2	kogunevad	kogunema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	kusagil	kusagil	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
-4	,	,	PUNCT	Z	_	6	punct	6:punct	_
-5	et	et	SCONJ	J	_	6	mark	6:mark	_
-6	võtta	võtma	VERB	V	VerbForm=Inf	2	advcl	2:advcl	_
-7	kott	kott	NOUN	S	Case=Nom|Number=Sing	6	obj	6:obj	_
-8	selga	selg	NOUN	S	Case=Add|Number=Sing	6	obl	6:obl	_
-9	ja	ja	CCONJ	J	_	10	cc	10:cc	_
-10	marssida	marssima	VERB	V	VerbForm=Inf	6	conj	2:advcl|6:conj	_
-11	õppuse	õppus	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
-12	kava	kava	NOUN	S	Case=Gen|Number=Sing	10	obl	10:obl	_
-13	kohaselt	kohaselt	ADP	K	AdpType=Post	12	case	12:case	_
-14	10	10	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	15	nummod	15:nummod	_
-15	kilomeetrit	kilo_meeter	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
-16	Valga	Valga	PROPN	S	Case=Gen|Number=Sing	17	nmod	17:nmod	NE=B-Loc
-17	piirivalvelinnakusse	piiri_valve_linnak	NOUN	S	Case=Ill|Number=Sing	10	obl	10:obl	NE=I-Loc|SpaceAfter=No
-18	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
 # sent_id = aja_luup200106_674
 # text = Teisisõnu - enamik neist ei paigutanud ennast poliitilisel skaalal vasakule, valdavaks sai hoopis parempoolne orientatsioon, mis langes ka kokku ühiskonna üldiste hoiakutega.
 1	Teisisõnu	teisi_sõnu	ADV	D	_	6	advmod	6:advmod	_
@@ -11729,41 +10490,6 @@
 14	peldikusse	peldik	NOUN	S	Case=Ill|Number=Sing	11	obl	11:obl	SpaceAfter=No
 15	.	.	PUNCT	Z	_	6	punct	6:punct	_
 
-# sent_id = aja_epl20070812_17
-# text = "Ärge kahelge piiri ületada proovivate inimeste suhtes kasutada tulirelva, isegi juhul kui põgenikeks on naised või lapsed," seisab Stasi dokumendis, mis kannab kuupäeva 1. oktoober 1973.
-1	"	"	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
-2	Ärge	ära	AUX	V	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	3:aux	_
-3	kahelge	kahtlema	VERB	V	Connegative=Yes|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	22	csubj	22:csubj	_
-4	piiri	piir	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
-5	ületada	ületama	VERB	V	VerbForm=Inf	6	xcomp	6:xcomp	_
-6	proovivate	proovi=v	ADJ	A	Case=Gen|Degree=Pos|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
-7	inimeste	inimene	NOUN	S	Case=Gen|Number=Plur	9	obl	9:obl	_
-8	suhtes	suhtes	ADP	K	AdpType=Post	7	case	7:case	_
-9	kasutada	kasutama	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	_
-10	tulirelva	tuli_relv	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	SpaceAfter=No
-11	,	,	PUNCT	Z	_	15	punct	15:punct	_
-12	isegi	isegi	ADV	D	_	15	advmod	15:advmod	_
-13	juhul	juht	NOUN	S	Case=Ade|Number=Sing	15	obl	15:obl	_
-14	kui	kui	SCONJ	J	_	15	mark	15:mark	_
-15	põgenikeks	põgenik	NOUN	S	Case=Tra|Number=Plur	3	advcl	3:advcl	_
-16	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	15:cop	_
-17	naised	naine	NOUN	S	Case=Nom|Number=Plur	15	nsubj:cop	15:nsubj	_
-18	või	või	CCONJ	J	_	19	cc	19:cc	_
-19	lapsed	laps	NOUN	S	Case=Nom|Number=Plur	17	conj	15:nsubj|17:conj	SpaceAfter=No
-20	,	,	PUNCT	Z	_	3	punct	3:punct	SpaceAfter=No
-21	"	"	PUNCT	Z	_	3	punct	3:punct	_
-22	seisab	seisma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-23	Stasi	Stasi	PROPN	S	Case=Gen|Number=Sing	24	nmod	24:nmod	NE=B-Org
-24	dokumendis	dokument	NOUN	S	Case=Ine|Number=Sing	22	obl	22:obl|27:nsubj	SpaceAfter=No
-25	,	,	PUNCT	Z	_	27	punct	27:punct	_
-26	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Rel	27	nsubj	24:ref	_
-27	kannab	kandma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	24:acl:relcl	_
-28	kuupäeva	kuu_päev	NOUN	S	Case=Gen|Number=Sing	27	obj	27:obj	_
-29	1.	1.	ADJ	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Ord	28	amod	28:amod	_
-30	oktoober	oktoober	NOUN	S	Case=Nom|Number=Sing	29	flat	29:flat	_
-31	1973	1973	NUM	N	NumForm=Digit|NumType=Card	29	flat	29:flat	SpaceAfter=No
-32	.	.	PUNCT	Z	_	22	punct	22:punct	_
-
 # sent_id = tea_AA_05_6_1090
 # text = Sellega on raskemad kohad Sudoku raamistikus täidetud ja meil jääb vaid jälgida kaheauguliste üksuste täitmise ideoloogiat.
 1	Sellega	see	PRON	P	Case=Com|Number=Sing|PronType=Dem	7	obl	7:obl	_
@@ -12051,27 +10777,6 @@
 18	sõlmjad	sõlmjas	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	19	amod	19:amod	_
 19	moodustised	moodustis	NOUN	S	Case=Nom|Number=Plur	15	nsubj	15:nsubj	SpaceAfter=No
 20	.	.	PUNCT	Z	_	10	punct	10:punct	_
-
-# sent_id = tea_eesti_arst_2004_470
-# text = Ravimiuuringutes kasutatakse siiani NINDS-AIREN kriteeriume, mis koostati 1991. a ja publitseeriti 1993. a (34).
-1	Ravimiuuringutes	ravimi_uuring	NOUN	S	Case=Ine|Number=Plur	2	obl	2:obl	_
-2	kasutatakse	kasutama	VERB	V	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	siiani	siiani	ADV	D	_	2	advmod	2:advmod	_
-4	NINDS-AIREN	NINDS-Airen	PROPN	S	Case=Nom|Number=Sing	5	nmod	5:nmod	NE=B-Prod
-5	kriteeriume	kriteerium	NOUN	S	Case=Par|Number=Plur	2	obj	2:obj|8:obj|12:obj	SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	mis	mis	PRON	P	Case=Nom|Number=Plur|PronType=Int,Rel	8	obj	5:ref	_
-8	koostati	koostama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	5	acl:relcl	5:acl:relcl	_
-9	1991.	1991.	ADJ	N	NumForm=Digit|NumType=Ord	10	amod	10:amod	_
-10	a	a	NOUN	Y	Abbr=Yes	8	obl	8:obl	_
-11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
-12	publitseeriti	publitseerima	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	8	conj	5:acl:relcl|8:conj	_
-13	1993.	1993.	ADJ	N	NumForm=Digit|NumType=Ord	14	amod	14:amod	_
-14	a	a	NOUN	Y	Abbr=Yes	12	obl	12:obl	_
-15	(	(	PUNCT	Z	_	16	punct	16:punct	SpaceAfter=No
-16	34	34	NUM	N	NumForm=Digit|NumType=Card	2	parataxis	2:parataxis	SpaceAfter=No
-17	)	)	PUNCT	Z	_	16	punct	16:punct	SpaceAfter=No
-18	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = aja_ee200110_192
 # text = Nüüd on mitmed Eesti suured ettevõtted välja tulnud projektiga, mille eesmärk on, et aastaks 2003 oleks Eesti internetikasutuse osas Soomest ees ja seega selles vallas esimene riik maailmas.
@@ -12388,32 +11093,6 @@
 20	kodanikuks	kodanik	NOUN	S	Case=Tra|Number=Sing	21	xcomp	21:xcomp	_
 21	saada	saama	VERB	V	VerbForm=Inf	15	conj	13:ccomp|15:conj	SpaceAfter=No
 22	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
-# sent_id = aja_luup200009_173
-# text = “ N Liidu kangelase kuldtähte oled käes hoidnud? ”
-1	“	“	PUNCT	Z	_	8	punct	8:punct	_
-2	N	N	PROPN	Y	Abbr=Yes	3	nmod	3:nmod	NE=B-Gep
-3	Liidu	Liit	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=I-Gep
-4	kangelase	kangelane	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-5	kuldtähte	kuld_täht	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
-6	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
-7	käes	käsi	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
-8	hoidnud	hoidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
-9	?	?	PUNCT	Z	_	8	punct	8:punct	_
-10	”	”	PUNCT	Z	_	8	punct	8:punct	_
-
-# sent_id = aja_luup200009_173
-# text = “ N Liidu kangelase kuldtähte oled käes hoidnud? ”
-1	“	“	PUNCT	Z	_	8	punct	8:punct	_
-2	N	N	PROPN	Y	Abbr=Yes	3	nmod	3:nmod	NE=B-Gep
-3	Liidu	Liit	PROPN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	NE=I-Gep
-4	kangelase	kangelane	NOUN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	_
-5	kuldtähte	kuld_täht	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
-6	oled	olema	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
-7	käes	käsi	NOUN	S	Case=Ine|Number=Sing	8	obl	8:obl	_
-8	hoidnud	hoidma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
-9	?	?	PUNCT	Z	_	8	punct	8:punct	_
-10	”	”	PUNCT	Z	_	8	punct	8:punct	_
 
 # sent_id = tea_toohoive_1078
 # text = Kui jõupingutused, sh innovatsioon ei ole suunatud kulude, sh tööjõu kokkuhoidmisele, siis võib see hilisemal perioodil, kui kallinemine muutub tõsiseks probleemiks, anda tagasilöögi.
@@ -13502,51 +12181,6 @@
 11	venivat	venima	VERB	V	Mood=Qot|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	SpaceAfter=No
 12	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = ilu_orlau_120
-# text = Seda mustemana näis aga veri, mis kattis ta paremat põske ning tilkus mööda pikki heledaid juukseid alla.
-1	Seda	see	PRON	P	Case=Par|Number=Sing|PronType=Dem	2	obl	2:obl	_
-2	mustemana	mustem	ADJ	A	Case=Ess|Degree=Cmp|Number=Sing	3	xcomp	3:xcomp	_
-3	näis	näima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	aga	aga	ADV	D	_	3	advmod	3:advmod	_
-5	veri	veri	NOUN	S	Case=Nom|Number=Sing	3	nsubj	2:nsubj|3:nsubj|8:nsubj|13:nsubj	SpaceAfter=No
-6	,	,	PUNCT	Z	_	8	punct	8:punct	_
-7	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	8	nsubj	5:ref	_
-8	kattis	katma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
-9	ta	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod	11:nmod	_
-10	paremat	parem	ADJ	A	Case=Par|Degree=Cmp|Number=Sing	11	amod	11:amod	_
-11	põske	põsk	NOUN	S	Case=Par|Number=Sing	8	obj	8:obj	_
-12	ning	ning	CCONJ	J	_	13	cc	13:cc	_
-13	tilkus	tilkuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	5:acl:relcl|8:conj	_
-14	mööda	mööda	ADP	K	AdpType=Prep	17	case	17:case	_
-15	pikki	pikk	ADJ	A	Case=Par|Degree=Pos|Number=Plur	17	amod	17:amod	_
-16	heledaid	hele	ADJ	A	Case=Par|Degree=Pos|Number=Plur	17	amod	17:amod	_
-17	juukseid	juus	NOUN	S	Case=Par|Number=Plur	13	obl	13:obl	_
-18	alla	alla	ADV	D	_	13	compound:prt	13:advmod	SpaceAfter=No
-19	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
-# sent_id = aja_luup200009_464
-# text = “ Eesti võib granditaotluste rahuldamise määra - 0 protsenti - poolest Guinnessi rekordite raamatusse kanda, ” soovitab Rahu.
-1	“	“	PUNCT	Z	_	15	punct	15:punct	_
-2	Eesti	Eesti	PROPN	S	Case=Nom|Number=Sing	15	obj	15:obj	NE=B-Gep
-3	võib	võima	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
-4	granditaotluste	grandi_taotlus	NOUN	S	Case=Gen|Number=Plur	5	nmod	5:nmod	_
-5	rahuldamise	rahuldamine	NOUN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	_
-6	määra	määr	NOUN	S	Case=Gen|Number=Sing	15	obl	15:obl	_
-7	-	-	PUNCT	Z	_	9	punct	9:punct	_
-8	0	0	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	9	nummod	9:nummod	_
-9	protsenti	protsent	NOUN	S	Case=Par|Number=Sing	6	nmod	6:nmod	_
-10	-	-	PUNCT	Z	_	9	punct	9:punct	_
-11	poolest	poolest	ADP	K	AdpType=Post	6	case	6:case	_
-12	Guinnessi	Guinness	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Prod
-13	rekordite	rekord	NOUN	S	Case=Gen|Number=Plur	14	nmod	14:nmod	NE=I-Prod
-14	raamatusse	raamat	NOUN	S	Case=Ill|Number=Sing	15	obl	15:obl	NE=I-Prod
-15	kanda	kandma	VERB	V	VerbForm=Inf	18	ccomp	18:ccomp	SpaceAfter=No
-16	,	,	PUNCT	Z	_	15	punct	15:punct	_
-17	”	”	PUNCT	Z	_	15	punct	15:punct	_
-18	soovitab	soovitama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-19	Rahu	Rahu	PROPN	S	Case=Nom|Number=Sing	18	nsubj	18:nsubj	NE=B-Per|SpaceAfter=No
-20	.	.	PUNCT	Z	_	18	punct	18:punct	_
-
 # sent_id = tea_eesti_arst_2004_919
 # text = Kirjeldatud on ka kaalu- ja kasvupeetust, seedetrakti verejooksu, valgukaotusenteropaatiat, malabsorptsioonisündroomi (6, 7).
 1	Kirjeldatud	kirjeldama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
@@ -13568,23 +12202,6 @@
 17	7	7	NUM	N	NumForm=Digit|NumType=Card	15	conj	1:parataxis|15:conj	SpaceAfter=No
 18	)	)	PUNCT	Z	_	15	punct	15:punct	SpaceAfter=No
 19	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ee199920_1836
-# text = Oma ettekandes kirjeldasin Eesti Kostabi Seltsi ja Võro Keele ja Kultuuri Fondi saavutusi.
-1	Oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	2	nmod	2:nmod	_
-2	ettekandes	ette_kanne	NOUN	S	Case=Ine|Number=Sing	3	obl	3:obl	_
-3	kirjeldasin	kirjeldama	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	5	nmod	5:nmod	NE=B-Org
-5	Kostabi	Kostabi	PROPN	S	Case=Gen|Number=Sing	6	nmod	6:nmod	NE=I-Org
-6	Seltsi	Selts	PROPN	S	Case=Par|Number=Sing	3	obj	3:obj	NE=I-Org
-7	ja	ja	CCONJ	J	_	13	cc	13:cc	_
-8	Võro	Võro	PROPN	S	Case=Nom|Number=Sing	9	nmod	9:nmod	NE=B-Org
-9	Keele	Keel	PROPN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	NE=I-Org
-10	ja	ja	CCONJ	J	_	11	cc	11:cc	NE=I-Org
-11	Kultuuri	Kultuur	PROPN	S	Case=Gen|Number=Sing	9	conj	9:conj|12:nmod	NE=I-Org
-12	Fondi	Fond	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=I-Org
-13	saavutusi	saavutus	NOUN	S	Case=Par|Number=Plur	6	conj	3:obj|6:conj	SpaceAfter=No
-14	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = ilu_kivirahk_695
 # text = "Sina oled kõige parem rüütel terves maailmas, kes on elanud oma elu vaguralt ja Issandale meelepäraselt!" rääkis orav.
@@ -13611,39 +12228,6 @@
 21	rääkis	rääkima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 22	orav	orav	NOUN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj	SpaceAfter=No
 23	.	.	PUNCT	Z	_	21	punct	21:punct	_
-
-# sent_id = ilu_ruben_81
-# text = Mõtlesin - endiselt koondamisotsust oodates - et lähen alla baari ja teen seal närvide rahustuseks ühe pisikese tripitski.
-1	Mõtlesin	mõtlema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-2	-	-	PUNCT	Z	_	1	punct	1:punct	_
-3	endiselt	endiselt	ADV	D	_	5	advmod	5:advmod	_
-4	koondamisotsust	koondamis_otsus	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
-5	oodates	ootama	VERB	V	VerbForm=Conv	1	advcl	1:advcl	_
-6	-	-	PUNCT	Z	_	8	punct	8:punct	_
-7	et	et	SCONJ	J	_	8	mark	8:mark	_
-8	lähen	minema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	_
-9	alla	alla	ADV	D	_	10	advmod	10:advmod	_
-10	baari	baar	NOUN	S	Case=Add|Number=Sing	8	obl	8:obl	_
-11	ja	ja	CCONJ	J	_	12	cc	12:cc	_
-12	teen	tegema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	1:ccomp|8:conj	_
-13	seal	seal	ADV	D	_	12	advmod	12:advmod	_
-14	närvide	närv	NOUN	S	Case=Gen|Number=Plur	15	nmod	15:nmod	_
-15	rahustuseks	rahustus	NOUN	S	Case=Tra|Number=Sing	12	obl	12:obl	_
-16	ühe	üks	DET	P	Case=Gen|Number=Sing|PronType=Ind	18	det	18:det	_
-17	pisikese	pisike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	18	amod	18:amod	_
-18	tripitski	tripitski	NOUN	S	Case=Gen|Number=Sing	12	obj	12:obj	SpaceAfter=No
-19	.	.	PUNCT	Z	_	1	punct	1:punct	_
-
-# sent_id = aja_ee199920_1970
-# text = Nii tagame pastatoodete ja lisandite hea kvaliteedi.
-1	Nii	nii	ADV	D	_	2	advmod	2:advmod	_
-2	tagame	tagama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	pastatoodete	pasta_toode	NOUN	S	Case=Gen|Number=Plur	7	nmod	7:nmod	_
-4	ja	ja	CCONJ	J	_	5	cc	5:cc	_
-5	lisandite	lisand	NOUN	S	Case=Gen|Number=Plur	3	conj	3:conj|7:nmod	_
-6	hea	hea	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	7	amod	7:amod	_
-7	kvaliteedi	kvaliteet	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj	SpaceAfter=No
-8	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = tea_eesti_arst_2004_1394
 # text = Juba pea aasta on Euroopa Liidu võõrtöötajate sotsiaalkindlustuse halduskomisjon töötanud määrusesse tehtavate muudatustega.
@@ -14558,24 +13142,6 @@
 30	)	)	PUNCT	Z	_	28	punct	28:punct	SpaceAfter=No
 31	?	?	PUNCT	Z	_	6	punct	6:punct	_
 
-# sent_id = aja_luup200009_456
-# text = Nördinud teadlased ei tee oma pahameelest saladust, vaid valavad selle ametnike peale välja.
-1	Nördinud	nördi=nud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	acl	2:acl	_
-2	teadlased	teadlane	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj|10:nsubj	_
-3	ei	ei	AUX	V	Polarity=Neg	4	aux	4:aux	_
-4	tee	tegema	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-5	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	6	nmod	6:nmod	_
-6	pahameelest	paha_meel	NOUN	S	Case=Ela|Number=Sing	4	obl	4:obl	_
-7	saladust	saladus	NOUN	S	Case=Par|Number=Sing	4	obj	4:obj	SpaceAfter=No
-8	,	,	PUNCT	Z	_	10	punct	10:punct	_
-9	vaid	vaid	CCONJ	J	_	10	cc	10:cc	_
-10	valavad	valama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
-11	selle	see	PRON	P	Case=Gen|Number=Sing|PronType=Dem	10	obj	10:obj	_
-12	ametnike	ametnik	NOUN	S	Case=Gen|Number=Plur	10	obl	10:obl	_
-13	peale	peale	ADP	K	AdpType=Post	12	case	12:case	_
-14	välja	välja	ADV	D	_	10	compound:prt	10:compound	SpaceAfter=No
-15	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
 # sent_id = aja_ee200110_1684
 # text = Jaamapuhveti kohv on läila ja lahja.
 1	Jaamapuhveti	jaama_puhvet	NOUN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	_
@@ -14879,38 +13445,6 @@
 8	probleemideta	probleem	NOUN	S	Case=Abe|Number=Plur	5	obl	5:obl	SpaceAfter=No
 9	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_luup200009_1035
-# text = Muide, 15. septembril 1186 oli sektori avanemisnurk vaid 11° ning alles hiljuti, 5. veebruaril 1962, oli koondumine samuti tunduvalt tihedam kui nüüd - 16 kraadi.
-1	Muide	muide	ADV	D	_	10	advmod	10:advmod	SpaceAfter=No
-2	,	,	PUNCT	Z	_	10	punct	10:punct	_
-3	15.	15.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	4	amod	4:amod	_
-4	septembril	september	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	_
-5	1186	1186	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	4	flat	4:flat	_
-6	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
-7	sektori	sektor	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
-8	avanemisnurk	avanemis_nurk	NOUN	S	Case=Nom|Number=Sing	10	nsubj:cop	10:nsubj	_
-9	vaid	vaid	ADV	D	_	10	advmod	10:advmod	_
-10	11°	11°	SYM	Y	Abbr=Yes	0	root	0:root	_
-11	ning	ning	CCONJ	J	_	23	cc	23:cc	_
-12	alles	alles	ADV	D	_	13	advmod	13:advmod	_
-13	hiljuti	hiljuti	ADV	D	_	23	advmod	23:advmod	SpaceAfter=No
-14	,	,	PUNCT	Z	_	16	punct	16:punct	_
-15	5.	5.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	16	amod	16:amod	_
-16	veebruaril	veebruar	NOUN	S	Case=Ade|Number=Sing	13	conj	13:conj|23:obl	_
-17	1962	1962	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	16	nummod	16:nummod	SpaceAfter=No
-18	,	,	PUNCT	Z	_	23	punct	23:punct	_
-19	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	23:cop	_
-20	koondumine	koondumine	NOUN	S	Case=Nom|Number=Sing	23	nsubj:cop	23:nsubj	_
-21	samuti	samuti	ADV	D	_	23	advmod	23:advmod	_
-22	tunduvalt	tunduvalt	ADV	D	_	23	advmod	23:advmod	_
-23	tihedam	tihedam	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	10	conj	0:root|10:conj	_
-24	kui	kui	SCONJ	J	_	25	mark	25:mark	_
-25	nüüd	nüüd	ADV	D	_	23	advcl	23:advcl	_
-26	-	-	PUNCT	Z	_	28	punct	28:punct	_
-27	16	16	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	28	nummod	28:nummod	_
-28	kraadi	kraad	NOUN	S	Case=Par|Number=Sing	23	obl	23:obl	SpaceAfter=No
-29	.	.	PUNCT	Z	_	10	punct	10:punct	_
-
 # sent_id = aja_ee199920_600
 # text = Need on kantud kehamaalingutena lauljate ja tantsijate kehadele, kinnitavad Jahmastol ja Vahva.
 1	Need	see	PRON	P	Case=Nom|Number=Plur|PronType=Dem	3	obj	3:obj	_
@@ -14980,25 +13514,6 @@
 26	sekka	sekka	ADP	K	AdpType=Post	25	case	25:case	SpaceAfter=No
 27	.	.	PUNCT	Z	_	13	punct	13:punct	_
 
-# sent_id = ilu_orlau_105
-# text = Uksepiidal, kohas, kuhu ta oli oma pea ära löönud, paistis määrdunud jälg.
-1	Uksepiidal	ukse_piit	NOUN	S	Case=Ade|Number=Sing	13	obl	13:obl	SpaceAfter=No
-2	,	,	PUNCT	Z	_	1	punct	1:punct	_
-3	kohas	koht	NOUN	S	Case=Ine|Number=Sing	1	appos	1:appos	SpaceAfter=No
-4	,	,	PUNCT	Z	_	11	punct	11:punct	_
-5	kuhu	kuhu	ADV	D	_	11	mark	11:mark	_
-6	ta	tema	PRON	P	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	_
-7	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
-8	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	9	nmod	9:nmod	_
-9	pea	pea	NOUN	S	Case=Gen|Number=Sing	11	obj	11:obj	_
-10	ära	ära	ADV	D	_	11	compound:prt	11:compound	_
-11	löönud	lööma	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	3	acl	3:acl	SpaceAfter=No
-12	,	,	PUNCT	Z	_	11	punct	11:punct	_
-13	paistis	paistma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-14	määrdunud	määrdunud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Act	15	acl	15:acl	_
-15	jälg	jälg	NOUN	S	Case=Nom|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No
-16	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
 # sent_id = aja_ee199920_395
 # text = 1998. aasta lõpus müüs Feer oma osa Väike-Munamäe Arendusest firmale Panthera Unica, praeguse nimega OÜ Baltic International Services, jäädes ise võlausaldaja rolli.
 1	1998.	1998.	ADJ	N	NumForm=Digit|NumType=Ord	2	amod	2:amod	_
@@ -15063,99 +13578,6 @@
 8	autot	auto	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	SpaceAfter=No
 9	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
-# sent_id = aja_ee199920_1781
-# text = Kui püüda hetkeks unustada oma kõrgeltharitud maitse ja üleolekutunne nondest väärtustest, tekitavad Dõrini maalid kaasaelamist ja empaatiat, pakkudes ühtlasi sissevaate väikese ja vapra rahva hingeellu.
-1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
-2	püüda	püüdma	VERB	V	VerbForm=Inf	13	advcl	13:advcl	_
-3	hetkeks	hetk	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	_
-4	unustada	unustama	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	7:nmod	_
-6	kõrgeltharitud	kõrgelt_haritud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
-7	maitse	maitse	NOUN	S	Case=Nom|Number=Sing	4	obj	4:obj	_
-8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-9	üleolekutunne	üle_oleku_tunne	NOUN	S	Case=Nom|Number=Sing	7	conj	4:obj|7:conj	_
-10	nondest	too	DET	P	Case=Ela|Number=Plur|PronType=Dem	11	det	11:det	_
-11	väärtustest	väärtus	NOUN	S	Case=Ela|Number=Plur	9	nmod	9:nmod	SpaceAfter=No
-12	,	,	PUNCT	Z	_	2	punct	2:punct	_
-13	tekitavad	tekitama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-14	Dõrini	Dõrin	PROPN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Per
-15	maalid	maal	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
-16	kaasaelamist	kaasa_elamine	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
-17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-18	empaatiat	empaatia	NOUN	S	Case=Par|Number=Sing	16	conj	13:obj|16:conj	SpaceAfter=No
-19	,	,	PUNCT	Z	_	13	punct	13:punct	_
-20	pakkudes	pakkuma	VERB	V	VerbForm=Conv	13	advcl	13:advcl	_
-21	ühtlasi	ühtlasi	ADV	D	_	20	advmod	20:advmod	_
-22	sissevaate	sisse_vaade	NOUN	S	Case=Gen|Number=Sing	20	obj	20:obj	_
-23	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
-25	vapra	vapper	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	conj	23:conj|26:amod	_
-26	rahva	rahvas	NOUN	S	Case=Gen|Number=Sing	27	nmod	27:nmod	_
-27	hingeellu	hinge_elu	NOUN	S	Case=Add|Number=Sing	22	nmod	22:nmod	SpaceAfter=No
-28	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
-# sent_id = aja_ee199920_1781
-# text = Kui püüda hetkeks unustada oma kõrgeltharitud maitse ja üleolekutunne nondest väärtustest, tekitavad Dõrini maalid kaasaelamist ja empaatiat, pakkudes ühtlasi sissevaate väikese ja vapra rahva hingeellu.
-1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
-2	püüda	püüdma	VERB	V	VerbForm=Inf	13	advcl	13:advcl	_
-3	hetkeks	hetk	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	_
-4	unustada	unustama	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	7:nmod	_
-6	kõrgeltharitud	kõrgelt_haritud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
-7	maitse	maitse	NOUN	S	Case=Nom|Number=Sing	4	obj	4:obj	_
-8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-9	üleolekutunne	üle_oleku_tunne	NOUN	S	Case=Nom|Number=Sing	7	conj	4:obj|7:conj	_
-10	nondest	too	DET	P	Case=Ela|Number=Plur|PronType=Dem	11	det	11:det	_
-11	väärtustest	väärtus	NOUN	S	Case=Ela|Number=Plur	9	nmod	9:nmod	SpaceAfter=No
-12	,	,	PUNCT	Z	_	2	punct	2:punct	_
-13	tekitavad	tekitama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-14	Dõrini	Dõrin	PROPN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Per
-15	maalid	maal	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
-16	kaasaelamist	kaasa_elamine	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
-17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-18	empaatiat	empaatia	NOUN	S	Case=Par|Number=Sing	16	conj	13:obj|16:conj	SpaceAfter=No
-19	,	,	PUNCT	Z	_	13	punct	13:punct	_
-20	pakkudes	pakkuma	VERB	V	VerbForm=Conv	13	advcl	13:advcl	_
-21	ühtlasi	ühtlasi	ADV	D	_	20	advmod	20:advmod	_
-22	sissevaate	sisse_vaade	NOUN	S	Case=Gen|Number=Sing	20	obj	20:obj	_
-23	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
-25	vapra	vapper	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	conj	23:conj|26:amod	_
-26	rahva	rahvas	NOUN	S	Case=Gen|Number=Sing	27	nmod	27:nmod	_
-27	hingeellu	hinge_elu	NOUN	S	Case=Add|Number=Sing	22	nmod	22:nmod	SpaceAfter=No
-28	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
-# sent_id = aja_ee199920_1781
-# text = Kui püüda hetkeks unustada oma kõrgeltharitud maitse ja üleolekutunne nondest väärtustest, tekitavad Dõrini maalid kaasaelamist ja empaatiat, pakkudes ühtlasi sissevaate väikese ja vapra rahva hingeellu.
-1	Kui	kui	SCONJ	J	_	2	mark	2:mark	_
-2	püüda	püüdma	VERB	V	VerbForm=Inf	13	advcl	13:advcl	_
-3	hetkeks	hetk	NOUN	S	Case=Tra|Number=Sing	4	obl	4:obl	_
-4	unustada	unustama	VERB	V	VerbForm=Inf	2	xcomp	2:xcomp	_
-5	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	7	nmod	7:nmod	_
-6	kõrgeltharitud	kõrgelt_haritud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	7:acl	_
-7	maitse	maitse	NOUN	S	Case=Nom|Number=Sing	4	obj	4:obj	_
-8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-9	üleolekutunne	üle_oleku_tunne	NOUN	S	Case=Nom|Number=Sing	7	conj	4:obj|7:conj	_
-10	nondest	too	DET	P	Case=Ela|Number=Plur|PronType=Dem	11	det	11:det	_
-11	väärtustest	väärtus	NOUN	S	Case=Ela|Number=Plur	9	nmod	9:nmod	SpaceAfter=No
-12	,	,	PUNCT	Z	_	2	punct	2:punct	_
-13	tekitavad	tekitama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-14	Dõrini	Dõrin	PROPN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=B-Per
-15	maalid	maal	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
-16	kaasaelamist	kaasa_elamine	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	_
-17	ja	ja	CCONJ	J	_	18	cc	18:cc	_
-18	empaatiat	empaatia	NOUN	S	Case=Par|Number=Sing	16	conj	13:obj|16:conj	SpaceAfter=No
-19	,	,	PUNCT	Z	_	13	punct	13:punct	_
-20	pakkudes	pakkuma	VERB	V	VerbForm=Conv	13	advcl	13:advcl	_
-21	ühtlasi	ühtlasi	ADV	D	_	20	advmod	20:advmod	_
-22	sissevaate	sisse_vaade	NOUN	S	Case=Gen|Number=Sing	20	obj	20:obj	_
-23	väikese	väike	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
-25	vapra	vapper	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	conj	23:conj|26:amod	_
-26	rahva	rahvas	NOUN	S	Case=Gen|Number=Sing	27	nmod	27:nmod	_
-27	hingeellu	hinge_elu	NOUN	S	Case=Add|Number=Sing	22	nmod	22:nmod	SpaceAfter=No
-28	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
 # sent_id = aja_ee199920_786
 # text = Tüdrukud ise on veendunud, et ei ole oma rahvusidentiteeti kaotanud.
 1	Tüdrukud	tüdruk	NOUN	S	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
@@ -15214,30 +13636,6 @@
 24	sõjatandriks	sõja_tander	NOUN	S	Case=Tra|Number=Sing	16	xcomp	16:xcomp	SpaceAfter=No
 25	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_luup200009_31
-# text = Eesti riigi üks tippametnikke oli ühes nendega läinud ...
-1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
-2	riigi	riik	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-3	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	4	det	4:det	_
-4	tippametnikke	tipp_ametnik	NOUN	S	Case=Par|Number=Plur	8	nsubj	8:nsubj	_
-5	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
-6	ühes	ühes	ADP	K	AdpType=Prep	7	case	7:case	_
-7	nendega	tema	PRON	P	Case=Com|Number=Plur|Person=3|PronType=Prs	8	obl	8:obl	_
-8	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-9	...	...	PUNCT	Z	_	8	punct	8:punct	_
-
-# sent_id = aja_luup200009_31
-# text = Eesti riigi üks tippametnikke oli ühes nendega läinud ...
-1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
-2	riigi	riik	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-3	üks	üks	DET	P	Case=Nom|Number=Sing|PronType=Ind	4	det	4:det	_
-4	tippametnikke	tipp_ametnik	NOUN	S	Case=Par|Number=Plur	8	nsubj	8:nsubj	_
-5	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	8:aux	_
-6	ühes	ühes	ADP	K	AdpType=Prep	7	case	7:case	_
-7	nendega	tema	PRON	P	Case=Com|Number=Plur|Person=3|PronType=Prs	8	obl	8:obl	_
-8	läinud	minema	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-9	...	...	PUNCT	Z	_	8	punct	8:punct	_
-
 # sent_id = tea_geofyysika_386
 # text = Igal religioonil oli oma versioon ka maailma loomise kohta ja selles kahelda või selle ümber targutada polnud kombeks.
 1	Igal	iga	DET	P	Case=Ade|Number=Sing|PronType=Tot	2	det	2:det	_
@@ -15275,52 +13673,6 @@
 11	Haana	Haana	PROPN	S	Case=Nom|Number=Sing	10	appos	10:appos	NE=B-Per
 12	Zuba	Zuba	PROPN	S	Case=Nom|Number=Sing	11	flat	11:flat	NE=I-Per|SpaceAfter=No
 13	.	.	PUNCT	Z	_	9	punct	9:punct	_
-
-# sent_id = ilu_orlau_100
-# text = Vaikus, mis peale mürtsatuse läbilõikavat rauakriginat maad võttis, oli nii sügav, et mõjus peaaegu kõrvulukustavalt.
-1	Vaikus	vaikus	NOUN	S	Case=Nom|Number=Sing	13	nsubj:cop	9:nsubj|13:nsubj	SpaceAfter=No
-2	,	,	PUNCT	Z	_	9	punct	9:punct	_
-3	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	9	nsubj	1:ref	_
-4	peale	peale	ADP	K	AdpType=Prep	7	case	7:case	_
-5	mürtsatuse	mürtsatus	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-6	läbilõikavat	läbi_lõikav	ADJ	A	Case=Par|Degree=Pos|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	7:acl	_
-7	rauakriginat	raua_krigin	NOUN	S	Case=Par|Number=Sing	9	obl	9:obl	_
-8	maad	maa	NOUN	S	Case=Par|Number=Sing	9	obj	9:obj	_
-9	võttis	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	SpaceAfter=No
-10	,	,	PUNCT	Z	_	9	punct	9:punct	_
-11	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
-12	nii	nii	ADV	D	_	13	advmod	13:advmod	_
-13	sügav	sügav	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
-14	,	,	PUNCT	Z	_	16	punct	16:punct	_
-15	et	et	SCONJ	J	_	16	mark	16:mark	_
-16	mõjus	mõjuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	_
-17	peaaegu	pea_aegu	ADV	D	_	18	advmod	18:advmod	_
-18	kõrvulukustavalt	kõrvu_lukustavalt	ADV	D	_	16	advmod	16:advmod	SpaceAfter=No
-19	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
-# sent_id = aja_luup200009_555
-# text = “ Ühel kaptenite kursusel kasutati seda intsidenti kui näidet sellest, kuidas ei tohi teha, ” ütles mereväe suhtekorraldusülem.
-1	“	“	PUNCT	Z	_	5	punct	5:punct	_
-2	Ühel	üks	DET	P	Case=Ade|Number=Sing|PronType=Ind	4	det	4:det	_
-3	kaptenite	kapten	NOUN	S	Case=Gen|Number=Plur	4	nmod	4:nmod	_
-4	kursusel	kursus	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl	_
-5	kasutati	kasutama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	18	ccomp	18:ccomp	_
-6	seda	see	DET	P	Case=Par|Number=Sing|PronType=Dem	7	det	7:det	_
-7	intsidenti	intsident	NOUN	S	Case=Par|Number=Sing	5	obj	5:obj	_
-8	kui	kui	SCONJ	J	_	9	mark	9:mark	_
-9	näidet	näide	NOUN	S	Case=Par|Number=Sing	5	advcl	5:advcl	_
-10	sellest	see	DET	P	Case=Ela|Number=Sing|PronType=Dem	9	nmod	9:nmod	SpaceAfter=No
-11	,	,	PUNCT	Z	_	15	punct	15:punct	_
-12	kuidas	kuidas	ADV	D	_	15	mark	15:mark	_
-13	ei	ei	AUX	V	Polarity=Neg	15	aux	15:aux	_
-14	tohi	tohtima	AUX	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	15:aux	_
-15	teha	tegema	VERB	V	VerbForm=Inf	10	acl	10:acl	SpaceAfter=No
-16	,	,	PUNCT	Z	_	5	punct	5:punct	_
-17	”	”	PUNCT	Z	_	5	punct	5:punct	_
-18	ütles	ütlema	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-19	mereväe	mere_vägi	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-20	suhtekorraldusülem	suhte_korraldus_ülem	NOUN	S	Case=Nom|Number=Sing	18	nsubj	18:nsubj	SpaceAfter=No
-21	.	.	PUNCT	Z	_	18	punct	18:punct	_
 
 # sent_id = aja_pm20001004_1115
 # text = Palestiina liidrid soovivad, et Iisraeli käitumist konfliktis asuks uurima rahvusvaheline komisjon ning et ÜRO Julgeolekunõukogu võtaks vastu resolutsiooni, kus juudiriik teravalt hukka mõistetakse.
@@ -15402,37 +13754,6 @@
 5	õieti	õieti	ADV	D	_	6	advmod	6:advmod	_
 6	juhtus	juhtuma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 7	?	?	PUNCT	Z	_	6	punct	6:punct	_
-
-# sent_id = tea_eesti_arst_2004_134
-# text = Meie patsient oli noor 24aastane, mistõttu järglaste saamine on veel võimalik, kuigi nendel naistel on suurem risk saada vaimse alaarenguga järglasi kui normaalse karüotüübiga naistel.
-1	Meie	mina	PRON	P	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod	2:nmod	_
-2	patsient	patsient	NOUN	S	Case=Nom|Number=Sing	5	nsubj:cop	5:nsubj	_
-3	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-4	noor	noor	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
-5	24aastane	24_aastane	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	0	root	0:root	SpaceAfter=No
-6	,	,	PUNCT	Z	_	12	punct	12:punct	_
-7	mistõttu	mis_tõttu	ADV	D	_	12	advmod	12:advmod	_
-8	järglaste	järglane	NOUN	S	Case=Gen|Number=Plur	9	nmod	9:nmod	_
-9	saamine	saamine	NOUN	S	Case=Nom|Number=Sing	12	nsubj:cop	12:nsubj	_
-10	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	12:cop	_
-11	veel	veel	ADV	D	_	12	advmod	12:advmod	_
-12	võimalik	võimalik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	advcl	5:advcl	SpaceAfter=No
-13	,	,	PUNCT	Z	_	16	punct	16:punct	_
-14	kuigi	kuigi	SCONJ	J	_	16	mark	16:mark	_
-15	nendel	see	DET	P	Case=Ade|Number=Plur|PronType=Dem	16	det	16:det	_
-16	naistel	naine	NOUN	S	Case=Ade|Number=Plur	12	advcl	12:advcl	_
-17	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
-18	suurem	suurem	ADJ	A	Case=Nom|Degree=Cmp|Number=Sing	19	amod	19:amod	_
-19	risk	risk	NOUN	S	Case=Nom|Number=Sing	16	nsubj:cop	16:nsubj:cop	_
-20	saada	saama	VERB	V	VerbForm=Inf	19	acl	19:acl	_
-21	vaimse	vaimne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	22	amod	22:amod	_
-22	alaarenguga	ala_areng	NOUN	S	Case=Com|Number=Sing	23	nmod	23:nmod	_
-23	järglasi	järglane	NOUN	S	Case=Par|Number=Plur	20	obj	20:obj	_
-24	kui	kui	SCONJ	J	_	27	mark	27:mark	_
-25	normaalse	normaalne	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-26	karüotüübiga	karüo_tüüp	NOUN	S	Case=Com|Number=Sing	27	nmod	27:nmod	_
-27	naistel	naine	NOUN	S	Case=Ade|Number=Plur	19	advcl	19:advcl	SpaceAfter=No
-28	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
 # sent_id = ilu_maailm_538
 # text = " Hea küll, Tamur, " ütles Kala ja vinnas oma luise kere püsti, " kus toas me kaarte mängime, kas meil või teil?
@@ -15547,21 +13868,6 @@
 14	üldises	üldine	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	15	amod	15:amod	_
 15	paremtsentristlikkuses	parem_tsentr=istlikkus	NOUN	S	Case=Ine|Number=Sing	12	obl	12:obl	SpaceAfter=No
 16	.	.	PUNCT	Z	_	12	punct	12:punct	_
-
-# sent_id = aja_luup200009_1010
-# text = Vardasse ja kohe süte kohale - sellised on kohalike kristlaste tavad.
-1	Vardasse	varras	NOUN	S	Case=Ill|Number=Sing	7	obl	7:obl	_
-2	ja	ja	CCONJ	J	_	4	cc	4:cc	_
-3	kohe	kohe	ADV	D	_	4	advmod	4:advmod	_
-4	süte	süsi	NOUN	S	Case=Gen|Number=Plur	1	conj	1:conj|7:obl	_
-5	kohale	kohale	ADP	K	AdpType=Post	4	case	4:case	_
-6	-	-	PUNCT	Z	_	7	punct	7:punct	_
-7	sellised	selline	ADJ	P	Case=Nom|Number=Plur|PronType=Dem	0	root	0:root	_
-8	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
-9	kohalike	kohalik	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	10	amod	10:amod	_
-10	kristlaste	kristlane	NOUN	S	Case=Gen|Number=Plur	11	nmod	11:nmod	_
-11	tavad	tava	NOUN	S	Case=Nom|Number=Plur	7	nsubj:cop	7:nsubj	SpaceAfter=No
-12	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
 # sent_id = aja_ee200110_2653
 # text = Kati Murutar oma online-päevikus mega.ee-s
@@ -15785,68 +14091,6 @@
 8	sügisel	sügis	NOUN	S	Case=Ade|Number=Sing	5	obl	5:obl	SpaceAfter=No
 9	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_luup200009_792
-# text = Eesti Linuxi-kasutajad andsid 3. veebruaril Norra suursaadikule Eestis Kai Olaf Liele üle 84 allkirjaga avaliku kirja, milles väljendati muret Norra võimude senise ja edasise tegevuse pärast.
-1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
-2	Linuxi-kasutajad	Linuxi-kasutaja	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
-3	andsid	andma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	3.	3.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	5	amod	5:amod	_
-5	veebruaril	veebruar	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
-6	Norra	Norra	PROPN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Gep
-7	suursaadikule	suur_saadik	NOUN	S	Case=All|Number=Sing	3	obl	3:obl	_
-8	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	7	nmod	7:nmod	NE=B-Loc
-9	Kai	Kai	PROPN	S	Case=Nom|Number=Sing	7	appos	7:appos	NE=B-Per
-10	Olaf	Olaf	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per
-11	Liele	Lie	PROPN	S	Case=All|Number=Sing	9	flat	9:flat	NE=I-Per
-12	üle	üle	ADV	D	_	3	compound:prt	3:compound	_
-13	84	84	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
-14	allkirjaga	all_kiri	NOUN	S	Case=Com|Number=Sing	16	nmod	16:nmod	_
-15	avaliku	avalik	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	kirja	kiri	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj|19:obl	SpaceAfter=No
-17	,	,	PUNCT	Z	_	19	punct	19:punct	_
-18	milles	mis	PRON	P	Case=Ine|Number=Sing|PronType=Int,Rel	19	obl	16:ref	_
-19	väljendati	väljendama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	16	acl:relcl	16:acl:relcl	_
-20	muret	mure	NOUN	S	Case=Par|Number=Sing	19	obj	19:obj	_
-21	Norra	Norra	PROPN	S	Case=Gen|Number=Sing	22	nmod	22:nmod	NE=B-Gep
-22	võimude	võim	NOUN	S	Case=Gen|Number=Plur	26	nmod	26:nmod	_
-23	senise	senine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
-25	edasise	edasine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	conj	23:conj|26:amod	_
-26	tegevuse	tegevus	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-27	pärast	pärast	ADP	K	AdpType=Post	26	case	26:case	SpaceAfter=No
-28	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
-# sent_id = aja_luup200009_792
-# text = Eesti Linuxi-kasutajad andsid 3. veebruaril Norra suursaadikule Eestis Kai Olaf Liele üle 84 allkirjaga avaliku kirja, milles väljendati muret Norra võimude senise ja edasise tegevuse pärast.
-1	Eesti	Eesti	PROPN	S	Case=Gen|Number=Sing	2	nmod	2:nmod	NE=B-Gep
-2	Linuxi-kasutajad	Linuxi-kasutaja	NOUN	S	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
-3	andsid	andma	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	3.	3.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	5	amod	5:amod	_
-5	veebruaril	veebruar	NOUN	S	Case=Ade|Number=Sing	3	obl	3:obl	_
-6	Norra	Norra	PROPN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	NE=B-Gep
-7	suursaadikule	suur_saadik	NOUN	S	Case=All|Number=Sing	3	obl	3:obl	_
-8	Eestis	Eesti	PROPN	S	Case=Ine|Number=Sing	7	nmod	7:nmod	NE=B-Loc
-9	Kai	Kai	PROPN	S	Case=Nom|Number=Sing	7	appos	7:appos	NE=B-Per
-10	Olaf	Olaf	PROPN	S	Case=Nom|Number=Sing	9	flat	9:flat	NE=I-Per
-11	Liele	Lie	PROPN	S	Case=All|Number=Sing	9	flat	9:flat	NE=I-Per
-12	üle	üle	ADV	D	_	3	compound:prt	3:compound	_
-13	84	84	NUM	N	Case=Gen|Number=Sing|NumForm=Digit|NumType=Card	14	nummod	14:nummod	_
-14	allkirjaga	all_kiri	NOUN	S	Case=Com|Number=Sing	16	nmod	16:nmod	_
-15	avaliku	avalik	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	16	amod	16:amod	_
-16	kirja	kiri	NOUN	S	Case=Gen|Number=Sing	3	obj	3:obj|19:obl	SpaceAfter=No
-17	,	,	PUNCT	Z	_	19	punct	19:punct	_
-18	milles	mis	PRON	P	Case=Ine|Number=Sing|PronType=Int,Rel	19	obl	16:ref	_
-19	väljendati	väljendama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	16	acl:relcl	16:acl:relcl	_
-20	muret	mure	NOUN	S	Case=Par|Number=Sing	19	obj	19:obj	_
-21	Norra	Norra	PROPN	S	Case=Gen|Number=Sing	22	nmod	22:nmod	NE=B-Gep
-22	võimude	võim	NOUN	S	Case=Gen|Number=Plur	26	nmod	26:nmod	_
-23	senise	senine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	26	amod	26:amod	_
-24	ja	ja	CCONJ	J	_	25	cc	25:cc	_
-25	edasise	edasine	ADJ	A	Case=Gen|Degree=Pos|Number=Sing	23	conj	23:conj|26:amod	_
-26	tegevuse	tegevus	NOUN	S	Case=Gen|Number=Sing	20	nmod	20:nmod	_
-27	pärast	pärast	ADP	K	AdpType=Post	26	case	26:case	SpaceAfter=No
-28	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
 # sent_id = tea_AA_05_6_290
 # text = Mis puutub multiskalaarse protsessori mälusüsteemi, siis seda vaadeldakse kui tervikut, mille moodustavad vastava protsessorelemendi registrikogum ja protsessorelemendile eraldatud individuaalne mälulülitus ehk andmepank AP.
 1	Mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	2	nsubj	2:nsubj	_
@@ -15976,72 +14220,6 @@
 31	3	3	NUM	N	NumForm=Digit|NumType=Card	16	parataxis	16:parataxis	SpaceAfter=No
 32	)	)	PUNCT	Z	_	31	punct	31:punct	SpaceAfter=No
 33	.	.	PUNCT	Z	_	16	punct	16:punct	_
-
-# sent_id = aja_ml200247_1739
-# text = Igal retsil on Tartus korralik ase ja lobikauss ees, aga Tartu linna teine uhkus - üliõpilased - elavad juba Gustaf II Adolfi ajast saadik mitme kaupa ühes väikeses ühiselamutoakeses.
-1	Igal	iga	DET	P	Case=Ade|Number=Sing|PronType=Tot	2	det	2:det	_
-2	retsil	rets	NOUN	S	Case=Ade|Number=Sing	0	root	0:root	_
-3	on	olema	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-4	Tartus	Tartu	PROPN	S	Case=Ine|Number=Sing	2	obl	2:obl	NE=B-Loc
-5	korralik	korralik	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	6	amod	6:amod	_
-6	ase	ase	NOUN	S	Case=Nom|Number=Sing	2	nsubj:cop	2:nsubj	_
-7	ja	ja	CCONJ	J	_	8	cc	8:cc	_
-8	lobikauss	lobi_kauss	NOUN	S	Case=Nom|Number=Sing	6	conj	2:nsubj|6:conj	_
-9	ees	ees	ADV	D	_	8	advmod	8:advmod	SpaceAfter=No
-10	,	,	PUNCT	Z	_	19	punct	19:punct	_
-11	aga	aga	CCONJ	J	_	19	cc	19:cc	_
-12	Tartu	Tartu	PROPN	S	Case=Gen|Number=Sing	13	nmod	13:nmod	NE=B-Loc
-13	linna	linn	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	NE=I-Loc
-14	teine	teine	ADJ	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Ord	15	amod	15:amod	_
-15	uhkus	uhkus	NOUN	S	Case=Nom|Number=Sing	19	nsubj	19:nsubj	_
-16	-	-	PUNCT	Z	_	17	punct	17:punct	_
-17	üliõpilased	üli_õpilane	NOUN	S	Case=Nom|Number=Plur	15	appos	15:appos	_
-18	-	-	PUNCT	Z	_	17	punct	17:punct	_
-19	elavad	elama	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
-20	juba	juba	ADV	D	_	19	advmod	19:advmod	_
-21	Gustaf	Gustaf	PROPN	S	Case=Nom|Number=Sing	24	nmod	24:nmod	NE=B-Per
-22	II	II	ADJ	N	Case=Gen|Number=Sing|NumForm=Roman|NumType=Ord	21	amod	21:amod	NE=I-Per
-23	Adolfi	Adolf	PROPN	S	Case=Gen|Number=Sing	21	flat	21:flat	NE=I-Per
-24	ajast	aeg	NOUN	S	Case=Ela|Number=Sing	19	obl	19:obl	_
-25	saadik	saadik	ADP	K	_	24	case	24:case	_
-26	mitme	mitu	PRON	P	Case=Gen|Number=Sing|PronType=Ind	19	obl	19:obl	_
-27	kaupa	kaupa	ADP	K	AdpType=Post	26	case	26:case	_
-28	ühes	üks	NUM	N	Case=Ine|Number=Sing|NumForm=Word|NumType=Card	30	nummod	30:nummod	_
-29	väikeses	väike	ADJ	A	Case=Ine|Degree=Pos|Number=Sing	30	amod	30:amod	_
-30	ühiselamutoakeses	ühis_elamu_toa=ke	NOUN	S	Case=Ine|Number=Sing	19	obl	19:obl	SpaceAfter=No
-31	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_epl20070812_8
-# text = Valimised kuulutati välja lootuses lõpetada riigi presidendi ja peaministri pooldajate omavaheline vastasseis.
-1	Valimised	valimine	NOUN	S	Case=Nom|Number=Plur	2	obj	2:obj	_
-2	kuulutati	kuulutama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	välja	välja	ADV	D	_	2	compound:prt	2:compound	_
-4	lootuses	lootus	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
-5	lõpetada	lõpetama	VERB	V	VerbForm=Inf	4	acl	4:acl	_
-6	riigi	riik	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	presidendi	president	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
-8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-9	peaministri	pea_minister	NOUN	S	Case=Gen|Number=Sing	7	conj	7:conj|10:nmod	_
-10	pooldajate	pooldaja	NOUN	S	Case=Gen|Number=Plur	12	nmod	12:nmod	_
-11	omavaheline	oma_vaheline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-12	vastasseis	vastas_seis	NOUN	S	Case=Nom|Number=Sing	5	obj	5:obj	SpaceAfter=No
-13	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_epl20070812_8
-# text = Valimised kuulutati välja lootuses lõpetada riigi presidendi ja peaministri pooldajate omavaheline vastasseis.
-1	Valimised	valimine	NOUN	S	Case=Nom|Number=Plur	2	obj	2:obj	_
-2	kuulutati	kuulutama	VERB	V	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	_
-3	välja	välja	ADV	D	_	2	compound:prt	2:compound	_
-4	lootuses	lootus	NOUN	S	Case=Ine|Number=Sing	2	obl	2:obl	_
-5	lõpetada	lõpetama	VERB	V	VerbForm=Inf	4	acl	4:acl	_
-6	riigi	riik	NOUN	S	Case=Gen|Number=Sing	7	nmod	7:nmod	_
-7	presidendi	president	NOUN	S	Case=Gen|Number=Sing	10	nmod	10:nmod	_
-8	ja	ja	CCONJ	J	_	9	cc	9:cc	_
-9	peaministri	pea_minister	NOUN	S	Case=Gen|Number=Sing	7	conj	7:conj|10:nmod	_
-10	pooldajate	pooldaja	NOUN	S	Case=Gen|Number=Plur	12	nmod	12:nmod	_
-11	omavaheline	oma_vaheline	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	12	amod	12:amod	_
-12	vastasseis	vastas_seis	NOUN	S	Case=Nom|Number=Sing	5	obj	5:obj	SpaceAfter=No
-13	.	.	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = aja_luup200106_687
 # text = 1995. aasta Riigikogu valimistega toimus pööre parempoolsuselt poliitilise tsentri suunas.
@@ -16537,26 +14715,6 @@
 9	imet	ime	NOUN	S	Case=Par|Number=Sing	10	obj	10:obj	_
 10	teha	tegema	VERB	V	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 11	.	.	PUNCT	Z	_	10	punct	10:punct	_
-
-# sent_id = ilu_ruben_246
-# text = Ja see helendas ikka nii nagu seitse isegi oli helendanud sel ajal, mil ma tulin.
-1	Ja	ja	CCONJ	J	_	3	cc	3:cc	_
-2	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-3	helendas	helendama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	ikka	ikka	ADV	D	_	3	advmod	3:advmod	_
-5	nii	nii	ADV	D	_	10	advmod	10:advmod	_
-6	nagu	nagu	ADV	D	_	5	fixed	5:fixed	_
-7	seitse	seitse	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	10	nsubj	10:nsubj	_
-8	isegi	ise	PRON	P	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	7	nmod	7:nmod	_
-9	oli	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	10:aux	_
-10	helendanud	helendama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	3	advcl	3:advcl	_
-11	sel	see	DET	P	Case=Ade|Number=Sing|PronType=Dem	12	det	12:det	_
-12	ajal	aeg	NOUN	S	Case=Ade|Number=Sing	10	obl	10:obl	SpaceAfter=No
-13	,	,	PUNCT	Z	_	16	punct	16:punct	_
-14	mil	mil	ADV	D	_	16	mark	16:mark	_
-15	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	16:nsubj	_
-16	tulin	tulema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	12:acl	SpaceAfter=No
-17	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = aja_ee200110_1581
 # text = Samaaegselt küsiti referendumil ka shveitslaste arvamust Euroopa Liiduga ühinemise kohta.
@@ -18137,32 +16295,6 @@
 5	ω-6-rasvhapped	ω-6-rasv_hape	NOUN	S	Case=Nom|Number=Plur	4	nsubj:cop	4:nsubj	SpaceAfter=No
 6	.	.	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = ilu_ruben_252
-# text = Teatud kohast paistab seitse alati nullina ja suured ning tähtsad inimesed võivad – nagu näha – oma alluvaid koondades tunduda täielike lojustena.
-1	Teatud	teatud	ADJ	A	Degree=Pos|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	2:acl	_
-2	kohast	koht	NOUN	S	Case=Ela|Number=Sing	3	obl	3:obl	_
-3	paistab	paistma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	seitse	seitse	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	3	nsubj	3:nsubj	_
-5	alati	alati	ADV	D	_	3	advmod	3:advmod	_
-6	nullina	null	NUM	N	Case=Ess|Number=Sing|NumForm=Word|NumType=Card	3	nummod	3:nummod	_
-7	ja	ja	CCONJ	J	_	20	cc	20:cc	_
-8	suured	suur	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	11	amod	11:amod	_
-9	ning	ning	CCONJ	J	_	10	cc	10:cc	_
-10	tähtsad	tähtis	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	8	conj	8:conj|11:amod	_
-11	inimesed	inimene	NOUN	S	Case=Nom|Number=Plur	20	nsubj	20:nsubj|22:nsubj	_
-12	võivad	võima	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
-13	–	-	PUNCT	Z	_	15	punct	15:punct	_
-14	nagu	nagu	SCONJ	J	_	15	mark	15:mark	_
-15	näha	nägema	VERB	V	VerbForm=Inf	20	advcl	20:advcl	_
-16	–	-	PUNCT	Z	_	15	punct	15:punct	_
-17	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	18	nmod	18:nmod	_
-18	alluvaid	alluv	NOUN	S	Case=Par|Number=Plur	19	obj	19:obj	_
-19	koondades	koondama	VERB	V	VerbForm=Conv	20	advcl	20:advcl	_
-20	tunduda	tunduma	VERB	V	VerbForm=Inf	3	conj	0:root|3:conj	_
-21	täielike	täielik	ADJ	A	Case=Gen|Degree=Pos|Number=Plur	22	amod	22:amod	_
-22	lojustena	lojus	NOUN	S	Case=Ess|Number=Plur	20	xcomp	20:xcomp	SpaceAfter=No
-23	.	.	PUNCT	Z	_	3	punct	3:punct	_
-
 # sent_id = ilu_vilep_54
 # text = "Siiski, kardinad meie akende ees on teised ..."
 1	"	"	PUNCT	Z	_	9	punct	9:punct	SpaceAfter=No
@@ -18606,44 +16738,6 @@
 32	vanasõnadesse	vana_sõna	NOUN	S	Case=Ill|Number=Plur	31	nmod	31:nmod	SpaceAfter=No
 33	?	?	PUNCT	Z	_	4	punct	4:punct	_
 
-# sent_id = aja_epl20070812_136
-# text = Asmer sõitis välja ka kogu võistluse kiireima ringi 1.15,943, mis sündis kihutamise kaheksandal ringil.
-1	Asmer	Asmer	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
-2	sõitis	sõitma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	välja	välja	ADV	D	_	2	compound:prt	2:compound	_
-4	ka	ka	ADV	D	_	2	advmod	2:advmod	_
-5	kogu	kogu	DET	A	PronType=Tot	6	det	6:det	_
-6	võistluse	võistlus	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
-7	kiireima	kiireim	ADJ	A	Case=Gen|Degree=Sup|Number=Sing	8	amod	8:amod	_
-8	ringi	ring	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj|14:nsubj	_
-9	1.15,943	1.15,943	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	SpaceAfter=No
-10	,	,	PUNCT	Z	_	12	punct	12:punct	_
-11	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	8:ref	_
-12	sündis	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
-13	kihutamise	kihutamine	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
-14	kaheksandal	kaheksas	ADJ	N	Case=Ade|Number=Sing|NumForm=Word|NumType=Ord	15	amod	15:amod	_
-15	ringil	ring	NOUN	S	Case=Ade|Number=Sing	12	obl	12:obl	SpaceAfter=No
-16	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
-# sent_id = aja_epl20070812_136
-# text = Asmer sõitis välja ka kogu võistluse kiireima ringi 1.15,943, mis sündis kihutamise kaheksandal ringil.
-1	Asmer	Asmer	PROPN	S	Case=Nom|Number=Sing	2	nsubj	2:nsubj	NE=B-Per
-2	sõitis	sõitma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	välja	välja	ADV	D	_	2	compound:prt	2:compound	_
-4	ka	ka	ADV	D	_	2	advmod	2:advmod	_
-5	kogu	kogu	DET	A	PronType=Tot	6	det	6:det	_
-6	võistluse	võistlus	NOUN	S	Case=Gen|Number=Sing	8	nmod	8:nmod	_
-7	kiireima	kiireim	ADJ	A	Case=Gen|Degree=Sup|Number=Sing	8	amod	8:amod	_
-8	ringi	ring	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj|14:nsubj	_
-9	1.15,943	1.15,943	NUM	N	NumForm=Digit|NumType=Card	8	nummod	8:nummod	SpaceAfter=No
-10	,	,	PUNCT	Z	_	12	punct	12:punct	_
-11	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	8:ref	_
-12	sündis	sündima	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	8:acl:relcl	_
-13	kihutamise	kihutamine	NOUN	S	Case=Gen|Number=Sing	15	nmod	15:nmod	_
-14	kaheksandal	kaheksas	ADJ	N	Case=Ade|Number=Sing|NumForm=Word|NumType=Ord	15	amod	15:amod	_
-15	ringil	ring	NOUN	S	Case=Ade|Number=Sing	12	obl	12:obl	SpaceAfter=No
-16	.	.	PUNCT	Z	_	2	punct	2:punct	_
-
 # sent_id = aja_pm20001004_579
 # text = Mare Tommingase töö on temast teinud äärmiselt sümpaatse ja inimliku printsi, kelle verbaalselt öeldud fraas kutsub esile publiku kõige heatahtlikuma naerupahvaku.
 1	Mare	Mare	PROPN	S	Case=Nom|Number=Sing	3	nmod	3:nmod	NE=B-Per
@@ -18669,26 +16763,6 @@
 21	heatahtlikuma	hea_tahtliku=m	ADJ	A	Case=Gen|Degree=Cmp|Number=Sing	22	amod	22:amod	_
 22	naerupahvaku	naeru_pahvak	NOUN	S	Case=Gen|Number=Sing	17	obj	17:obj	SpaceAfter=No
 23	.	.	PUNCT	Z	_	6	punct	6:punct	_
-
-# sent_id = aja_luup200009_434
-# text = See ka suigutas, sest omanik on ju huvitatud kasumi maksimeerimisest ega taha oma ettevõttele halba.
-1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-2	ka	ka	ADV	D	_	3	advmod	3:advmod	_
-3	suigutas	suigutama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-4	,	,	PUNCT	Z	_	9	punct	9:punct	_
-5	sest	sest	SCONJ	J	_	9	mark	9:mark	_
-6	omanik	omanik	NOUN	S	Case=Nom|Number=Sing	9	obj	9:nsubj|13:nsubj	_
-7	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
-8	ju	ju	ADV	D	_	9	advmod	9:advmod	_
-9	huvitatud	huvitama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	3	advcl	3:advcl	_
-10	kasumi	kasum	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	maksimeerimisest	maksimeeri=mine	NOUN	S	Case=Ela|Number=Sing	9	obl	9:obl	_
-12	ega	ega	CCONJ	J	Polarity=Neg	13	cc	13:cc	_
-13	taha	tahtma	VERB	V	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	3:advcl|9:conj	_
-14	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	15	nmod	15:nmod	_
-15	ettevõttele	ette_võte	NOUN	S	Case=All|Number=Sing	13	obl	13:obl	_
-16	halba	halb	NOUN	S	Case=Par|Number=Sing	13	obj	13:obj	SpaceAfter=No
-17	.	.	PUNCT	Z	_	3	punct	3:punct	_
 
 # sent_id = aja_ml200247_235
 # text = Just selle tõttu oleks praegu võimalik laiendada oluliselt Eestis looduspuhaste toiduainete tootmist.
@@ -19338,36 +17412,6 @@
 32	rahandusministeerium	rahandus_ministeerium	NOUN	S	Case=Nom|Number=Sing	21	nsubj	21:nsubj|22:nsubj	SpaceAfter=No
 33	.	.	PUNCT	Z	_	5	punct	5:punct	_
 
-# sent_id = aja_luup200009_449
-# text = Sotsiaalministeeriumi rahvatervise osakonna juhataja Piret Laur tunnistab, et konkursi väljakuulutamise hetkel polnud tõesti 100 protsenti kindel, kas taotluste rahuldamiseks vajalikud rahad tulevad või mitte.
-1	Sotsiaalministeeriumi	sotsiaal_ministeerium	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-2	rahvatervise	rahva_tervis	NOUN	S	Case=Gen|Number=Sing	3	nmod	3:nmod	_
-3	osakonna	osakond	NOUN	S	Case=Gen|Number=Sing	4	nmod	4:nmod	_
-4	juhataja	juhataja	NOUN	S	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
-5	Piret	Piret	PROPN	S	Case=Nom|Number=Sing	4	appos	4:appos	NE=B-Per
-6	Laur	Laur	PROPN	S	Case=Nom|Number=Sing	5	flat	5:flat	NE=I-Per
-7	tunnistab	tunnistama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-8	,	,	PUNCT	Z	_	17	punct	17:punct	_
-9	et	et	SCONJ	J	_	17	mark	17:mark	_
-10	konkursi	konkurss	NOUN	S	Case=Gen|Number=Sing	11	nmod	11:nmod	_
-11	väljakuulutamise	välja_kuulutamine	NOUN	S	Case=Gen|Number=Sing	12	nmod	12:nmod	_
-12	hetkel	hetk	NOUN	S	Case=Ade|Number=Sing	17	obl	17:obl	_
-13	polnud	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	17:cop	_
-14	tõesti	tõesti	ADV	D	_	17	advmod	17:advmod	_
-15	100	100	NUM	N	Case=Nom|Number=Sing|NumForm=Digit|NumType=Card	16	nummod	16:nummod	_
-16	protsenti	protsent	NOUN	S	Case=Par|Number=Sing	17	obl	17:obl	_
-17	kindel	kindel	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	7	ccomp	7:ccomp	SpaceAfter=No
-18	,	,	PUNCT	Z	_	24	punct	24:punct	_
-19	kas	kas	ADV	D	_	24	advmod	24:advmod	_
-20	taotluste	taotlus	NOUN	S	Case=Gen|Number=Plur	21	nmod	21:nmod	_
-21	rahuldamiseks	rahuldamine	NOUN	S	Case=Tra|Number=Sing	22	obl	22:obl	_
-22	vajalikud	vajalik	ADJ	A	Case=Nom|Degree=Pos|Number=Plur	23	amod	23:amod	_
-23	rahad	raha	NOUN	S	Case=Nom|Number=Plur	24	nsubj	24:nsubj	_
-24	tulevad	tulema	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	csubj:cop	17:csubj	_
-25	või	või	CCONJ	J	_	26	cc	26:cc	_
-26	mitte	mitte	ADV	D	Polarity=Neg	24	conj	17:csubj|24:conj	SpaceAfter=No
-27	.	.	PUNCT	Z	_	7	punct	7:punct	_
-
 # sent_id = aja_sloleht20071217_1033
 # text = See, keda teie peate flirtivaks vastassoo esindajaks, võib tegelikult olla arvutiprogramm.
 1	See	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	13:nsubj|5:obj|8:nsubj	SpaceAfter=No
@@ -19384,82 +17428,6 @@
 12	olla	olema	AUX	V	VerbForm=Inf	13	cop	13:cop	_
 13	arvutiprogramm	arvuti_programm	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
 14	.	.	PUNCT	Z	_	13	punct	13:punct	_
-
-# sent_id = aja_ee199920_1690
-# text = Mingitpidi on ju see teema läbi hekseldatud ja ära nämmutatud, Peeter Sauteri novell "Kõhuvalu", mis selle diskussiooni algatas, sai Tuglase preemia juba 1995. aastal, seega neli aastat tagasi.
-1	Mingitpidi	mingitpidi	ADV	D	_	7	advmod	7:advmod	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
-3	ju	ju	ADV	D	_	7	advmod	7:advmod	_
-4	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
-5	teema	teema	NOUN	S	Case=Nom|Number=Sing	7	obj	10:obj	_
-6	läbi	läbi	ADV	D	_	7	compound:prt	7:compound	_
-7	hekseldatud	hekseldama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
-9	ära	ära	ADV	D	_	10	advmod	10:advmod	_
-10	nämmutatud	nämmutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	0:root|7:conj	SpaceAfter=No
-11	,	,	PUNCT	Z	_	14	punct	14:punct	_
-12	Peeter	Peeter	PROPN	S	Case=Nom|Number=Sing	14	nmod	14:nmod	NE=B-Per
-13	Sauteri	Sauter	PROPN	S	Case=Gen|Number=Sing	12	flat	12:flat	NE=I-Per
-14	novell	novell	NOUN	S	Case=Nom|Number=Sing	24	nsubj	24:nsubj	NE=B-Prod
-15	"	"	PUNCT	Z	_	16	punct	16:punct	NE=I-Prod|SpaceAfter=No
-16	Kõhuvalu	kõhu_valu	NOUN	S	Case=Nom|Number=Sing	14	appos	14:appos|22:nsubj	NE=I-Prod|SpaceAfter=No
-17	"	"	PUNCT	Z	_	16	punct	16:punct	NE=I-Prod|SpaceAfter=No
-18	,	,	PUNCT	Z	_	22	punct	22:punct	_
-19	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	22	nsubj	16:ref	_
-20	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	21	det	21:det	_
-21	diskussiooni	diskussioon	NOUN	S	Case=Gen|Number=Sing	22	obj	22:obj	_
-22	algatas	algatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	SpaceAfter=No
-23	,	,	PUNCT	Z	_	24	punct	24:punct	_
-24	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	0:root|7:conj	_
-25	Tuglase	Tuglas	PROPN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	NE=B-Prod
-26	preemia	preemia	NOUN	S	Case=Nom|Number=Sing	24	obj	24:obj	NE=I-Prod
-27	juba	juba	ADV	D	_	28	advmod	28:advmod	_
-28	1995.	1995.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	29	amod	29:amod	_
-29	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	24	obl	24:obl	SpaceAfter=No
-30	,	,	PUNCT	Z	_	33	punct	33:punct	_
-31	seega	seega	ADV	D	_	33	advmod	33:advmod	_
-32	neli	neli	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	33	nummod	33:nummod	_
-33	aastat	aasta	NOUN	S	Case=Par|Number=Sing	24	obl	24:obl	_
-34	tagasi	tagasi	ADP	K	AdpType=Post	33	case	33:case	SpaceAfter=No
-35	.	.	PUNCT	Z	_	7	punct	7:punct	_
-
-# sent_id = aja_ee199920_1690
-# text = Mingitpidi on ju see teema läbi hekseldatud ja ära nämmutatud, Peeter Sauteri novell "Kõhuvalu", mis selle diskussiooni algatas, sai Tuglase preemia juba 1995. aastal, seega neli aastat tagasi.
-1	Mingitpidi	mingitpidi	ADV	D	_	7	advmod	7:advmod	_
-2	on	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
-3	ju	ju	ADV	D	_	7	advmod	7:advmod	_
-4	see	see	DET	P	Case=Nom|Number=Sing|PronType=Dem	5	det	5:det	_
-5	teema	teema	NOUN	S	Case=Nom|Number=Sing	7	obj	10:obj	_
-6	läbi	läbi	ADV	D	_	7	compound:prt	7:compound	_
-7	hekseldatud	hekseldama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	_
-8	ja	ja	CCONJ	J	_	10	cc	10:cc	_
-9	ära	ära	ADV	D	_	10	advmod	10:advmod	_
-10	nämmutatud	nämmutama	VERB	V	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	0:root|7:conj	SpaceAfter=No
-11	,	,	PUNCT	Z	_	14	punct	14:punct	_
-12	Peeter	Peeter	PROPN	S	Case=Nom|Number=Sing	14	nmod	14:nmod	NE=B-Per
-13	Sauteri	Sauter	PROPN	S	Case=Gen|Number=Sing	12	flat	12:flat	NE=I-Per
-14	novell	novell	NOUN	S	Case=Nom|Number=Sing	24	nsubj	24:nsubj	NE=B-Prod
-15	"	"	PUNCT	Z	_	16	punct	16:punct	NE=I-Prod|SpaceAfter=No
-16	Kõhuvalu	kõhu_valu	NOUN	S	Case=Nom|Number=Sing	14	appos	14:appos|22:nsubj	NE=I-Prod|SpaceAfter=No
-17	"	"	PUNCT	Z	_	16	punct	16:punct	NE=I-Prod|SpaceAfter=No
-18	,	,	PUNCT	Z	_	22	punct	22:punct	_
-19	mis	mis	PRON	P	Case=Nom|Number=Sing|PronType=Int,Rel	22	nsubj	16:ref	_
-20	selle	see	DET	P	Case=Gen|Number=Sing|PronType=Dem	21	det	21:det	_
-21	diskussiooni	diskussioon	NOUN	S	Case=Gen|Number=Sing	22	obj	22:obj	_
-22	algatas	algatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	SpaceAfter=No
-23	,	,	PUNCT	Z	_	24	punct	24:punct	_
-24	sai	saama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	0:root|7:conj	_
-25	Tuglase	Tuglas	PROPN	S	Case=Gen|Number=Sing	26	nmod	26:nmod	NE=B-Prod
-26	preemia	preemia	NOUN	S	Case=Nom|Number=Sing	24	obj	24:obj	NE=I-Prod
-27	juba	juba	ADV	D	_	28	advmod	28:advmod	_
-28	1995.	1995.	ADJ	N	Case=Ade|Number=Sing|NumForm=Digit|NumType=Ord	29	amod	29:amod	_
-29	aastal	aasta	NOUN	S	Case=Ade|Number=Sing	24	obl	24:obl	SpaceAfter=No
-30	,	,	PUNCT	Z	_	33	punct	33:punct	_
-31	seega	seega	ADV	D	_	33	advmod	33:advmod	_
-32	neli	neli	NUM	N	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	33	nummod	33:nummod	_
-33	aastat	aasta	NOUN	S	Case=Par|Number=Sing	24	obl	24:obl	_
-34	tagasi	tagasi	ADP	K	AdpType=Post	33	case	33:case	SpaceAfter=No
-35	.	.	PUNCT	Z	_	7	punct	7:punct	_
 
 # sent_id = tea_toohoive_60
 # text = Majanduskasvu ja tehnoloogia mõju töötusele ja tööhõivele
@@ -20721,16 +18689,6 @@
 30	3b	3b	NUM	N	Case=Nom|Number=Sing|NumType=Card	28	parataxis	28:parataxis	SpaceAfter=No
 31	)	)	PUNCT	Z	_	30	punct	30:punct	SpaceAfter=No
 32	.	.	PUNCT	Z	_	4	punct	4:punct	_
-
-# sent_id = aja_luup200009_81
-# text = “ Tegin oma igapäevast tööd. ”
-1	“	“	PUNCT	Z	_	2	punct	2:punct	_
-2	Tegin	tegema	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	oma	oma	PRON	P	Case=Gen|Number=Sing|Poss=Yes|PronType=Prs	5	nmod	5:nmod	_
-4	igapäevast	iga_päevane	ADJ	A	Case=Par|Degree=Pos|Number=Sing	5	amod	5:amod	_
-5	tööd	töö	NOUN	S	Case=Par|Number=Sing	2	obj	2:obj	SpaceAfter=No
-6	.	.	PUNCT	Z	_	2	punct	2:punct	_
-7	”	”	PUNCT	Z	_	2	punct	2:punct	_
 
 # sent_id = aja_pm20000218_1370
 # text = Läti välisministeerium kinnitas eile, et neil ei ole andmeid, nagu värvataks riigi linnades palgasõdureid Tshetsheenia sõtta.

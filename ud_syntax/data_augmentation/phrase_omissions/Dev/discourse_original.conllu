@@ -1,0 +1,149 @@
+# sent_id = aja_luup200009_79
+# text = Üks võttis mingi mütsilätu, pillas sõnnikurenni: no näe, lüpsjad käivad nüüd kübaratega! ”
+1	Üks	üks	PRON	P	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	6:nsubj|13:nsubj	_
+2	võttis	võtma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	mingi	mingi	DET	P	Case=Gen|Number=Sing|PronType=Ind	4	det	4:det	_
+4	mütsilätu	mütsi_lätu	NOUN	S	Case=Gen|Number=Sing	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	6:punct	_
+6	pillas	pillama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+7	sõnnikurenni	sõnniku_renn	NOUN	S	Case=Add|Number=Sing	6	obl	6:obl	SpaceAfter=No
+8	:	:	PUNCT	Z	_	10	punct	10:punct	_
+9	no	no	INTJ	I	_	10	discourse	10:discourse	_
+10	näe	nägema	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	6:ccomp	SpaceAfter=No
+11	,	,	PUNCT	Z	_	13	punct	13:punct	_
+12	lüpsjad	lüpsja	NOUN	S	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
+13	käivad	käima	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	6:ccomp|10:conj	_
+14	nüüd	nüüd	ADV	D	_	13	advmod	13:advmod	_
+15	kübaratega	kübar	NOUN	S	Case=Com|Number=Plur	13	obl	13:obl	SpaceAfter=No
+16	!	!	PUNCT	Z	_	2	punct	2:punct	_
+17	”	”	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_luup200009_231
+# text = “ No siis hakkas tulema neid jobisid.
+1	“	“	PUNCT	Z	_	4	punct	4:punct	_
+2	No	no	INTJ	I	_	4	discourse	4:discourse	_
+3	siis	siis	ADV	D	_	4	advmod	4:advmod	_
+4	hakkas	hakkama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	tulema	tulema	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	4	xcomp	4:xcomp	_
+6	neid	see	DET	P	Case=Par|Number=Plur|PronType=Dem	7	det	7:det	_
+7	jobisid	jobi	NOUN	S	Case=Par|Number=Plur	4	nsubj	4:nsubj|5:nsubj	SpaceAfter=No
+8	.	.	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200009_240
+# text = “ No kust ma võtan, mul pole omalgi.
+1	“	“	PUNCT	Z	_	5	punct	5:punct	_
+2	No	no	INTJ	I	_	5	discourse	5:discourse	_
+3	kust	kust	ADV	D	_	5	mark	5:mark	_
+4	ma	mina	PRON	P	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	_
+5	võtan	võtma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	7:punct	_
+7	mul	mina	PRON	P	Case=Ade|Number=Sing|Person=1|PronType=Prs	5	conj	0:root|5:conj	_
+8	pole	olema	AUX	V	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
+9	omalgi	oma	PRON	P	Case=Ade|Number=Sing|Poss=Yes|PronType=Prs	7	obl	7:obl	SpaceAfter=No
+10	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
+# sent_id = ilu_ruben_37
+# text = No kuhu see kõlbab?
+1	No	no	INTJ	I	_	4	discourse	4:discourse	_
+2	kuhu	kuhu	ADV	D	_	4	mark	4:mark	_
+3	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
+4	kõlbab	kõlbama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+5	?	?	PUNCT	Z	_	4	punct	4:punct	_
+
+# sent_id = aja_luup200009_211
+# text = “ Kui hakkasime rääkima, kui palju see ökonoomilist efekti annab, siis oi kurat, nii ja naa palju! ”
+1	“	“	PUNCT	Z	_	3	punct	3:punct	_
+2	Kui	kui	SCONJ	J	_	3	mark	3:mark	_
+3	hakkasime	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	rääkima	rääkima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	kui	kui	ADV	D	_	7	mark	7:mark	_
+7	palju	palju	ADV	D	_	11	advcl	11:advcl	_
+8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	_
+9	ökonoomilist	ökonoomiline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	efekti	efekt	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+11	annab	andma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
+12	,	,	PUNCT	Z	_	13	punct	13:punct	_
+13	siis	siis	ADV	D	_	11	advmod	11:advmod	_
+14	oi	oi	INTJ	I	_	13	discourse	13:discourse	_
+15	kurat	kurat	INTJ	I	_	13	discourse	13:discourse	SpaceAfter=No
+16	,	,	PUNCT	Z	_	20	punct	20:punct	_
+17	nii	nii	ADV	D	_	20	advmod	20:advmod	_
+18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+19	naa	naa	ADV	D	_	17	conj	17:conj|20:advmod	_
+20	palju	palju	ADV	D	_	11	parataxis	11:parataxis	SpaceAfter=No
+21	!	!	PUNCT	Z	_	3	punct	3:punct	_
+22	”	”	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = aja_luup200009_211
+# text = “ Kui hakkasime rääkima, kui palju see ökonoomilist efekti annab, siis oi kurat, nii ja naa palju! ”
+1	“	“	PUNCT	Z	_	3	punct	3:punct	_
+2	Kui	kui	SCONJ	J	_	3	mark	3:mark	_
+3	hakkasime	hakkama	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	rääkima	rääkima	VERB	V	Case=Ill|VerbForm=Sup|Voice=Act	3	xcomp	3:xcomp	SpaceAfter=No
+5	,	,	PUNCT	Z	_	7	punct	7:punct	_
+6	kui	kui	ADV	D	_	7	mark	7:mark	_
+7	palju	palju	ADV	D	_	11	advcl	11:advcl	_
+8	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	11:nsubj	_
+9	ökonoomilist	ökonoomiline	ADJ	A	Case=Par|Degree=Pos|Number=Sing	10	amod	10:amod	_
+10	efekti	efekt	NOUN	S	Case=Par|Number=Sing	11	obj	11:obj	_
+11	annab	andma	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	SpaceAfter=No
+12	,	,	PUNCT	Z	_	13	punct	13:punct	_
+13	siis	siis	ADV	D	_	11	advmod	11:advmod	_
+14	oi	oi	INTJ	I	_	13	discourse	13:discourse	_
+15	kurat	kurat	INTJ	I	_	13	discourse	13:discourse	SpaceAfter=No
+16	,	,	PUNCT	Z	_	20	punct	20:punct	_
+17	nii	nii	ADV	D	_	20	advmod	20:advmod	_
+18	ja	ja	CCONJ	J	_	19	cc	19:cc	_
+19	naa	naa	ADV	D	_	17	conj	17:conj|20:advmod	_
+20	palju	palju	ADV	D	_	11	parataxis	11:parataxis	SpaceAfter=No
+21	!	!	PUNCT	Z	_	3	punct	3:punct	_
+22	”	”	PUNCT	Z	_	3	punct	3:punct	_
+
+# sent_id = ilu_orlau_89
+# text = "Juudas, palun ära tee!" hüüatas Kris peaaegu tahtmatult, kui nad ühest järsemast kurvist peaaegu välja oleksid lennanud.
+1	"	"	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+2	Juudas	Juudas	PROPN	S	Case=Nom|Number=Sing	6	vocative	6:vocative	NE=B-Per|SpaceAfter=No
+3	,	,	PUNCT	Z	_	6	punct	6:punct	_
+4	palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	discourse	6:discourse	_
+5	ära	ära	AUX	V	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+6	tee	tegema	VERB	V	Connegative=Yes|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	SpaceAfter=No
+7	!	!	PUNCT	Z	_	6	punct	6:punct	SpaceAfter=No
+8	"	"	PUNCT	Z	_	6	punct	6:punct	_
+9	hüüatas	hüüatama	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
+10	Kris	Kris	PROPN	S	Case=Nom|Number=Sing	9	nsubj	9:nsubj	NE=B-Per
+11	peaaegu	pea_aegu	ADV	D	_	12	advmod	12:advmod	_
+12	tahtmatult	tahtmatult	ADV	D	_	9	advmod	9:advmod	SpaceAfter=No
+13	,	,	PUNCT	Z	_	22	punct	22:punct	_
+14	kui	kui	SCONJ	J	_	22	mark	22:mark	_
+15	nad	tema	PRON	P	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	22:nsubj	_
+16	ühest	üks	DET	P	Case=Ela|Number=Sing|PronType=Ind	18	det	18:det	_
+17	järsemast	järsem	ADJ	A	Case=Ela|Degree=Cmp|Number=Sing	18	amod	18:amod	_
+18	kurvist	kurv	NOUN	S	Case=Ela|Number=Sing	22	obl	22:obl	_
+19	peaaegu	pea_aegu	ADV	D	_	22	advmod	22:advmod	_
+20	välja	välja	ADV	D	_	22	compound:prt	22:compound	_
+21	oleksid	olema	AUX	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	22:aux	_
+22	lennanud	lendama	VERB	V	Tense=Past|VerbForm=Part|Voice=Act	9	advcl	9:advcl	SpaceAfter=No
+23	.	.	PUNCT	Z	_	9	punct	9:punct	_
+
+# sent_id = aja_luup200009_656
+# text = Palun iseloomustage Putinit ja tema võimalikku poliitikat lähemalt.
+1	Palun	paluma	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	discourse	2:discourse	_
+2	iseloomustage	ise_loomustama	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	Putinit	Putin	PROPN	S	Case=Par|Number=Sing	2	obj	2:obj	NE=B-Per
+4	ja	ja	CCONJ	J	_	7	cc	7:cc	_
+5	tema	tema	PRON	P	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	nmod	7:nmod	_
+6	võimalikku	võimalik	ADJ	A	Case=Par|Degree=Pos|Number=Sing	7	amod	7:amod	_
+7	poliitikat	poliitika	NOUN	S	Case=Par|Number=Sing	3	conj	2:obj|3:conj	_
+8	lähemalt	lähemalt	ADV	D	_	2	advmod	2:advmod	SpaceAfter=No
+9	.	.	PUNCT	Z	_	2	punct	2:punct	_
+
+# sent_id = aja_ml200247_1737
+# text = Vaat see ongi uus poliitika.
+1	Vaat	vaat	INTJ	I	_	2	discourse	2:discourse	_
+2	see	see	PRON	P	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	5:nsubj	_
+3	ongi	olema	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
+4	uus	uus	ADJ	A	Case=Nom|Degree=Pos|Number=Sing	5	amod	5:amod	_
+5	poliitika	poliitika	NOUN	S	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	5:punct	_
+
