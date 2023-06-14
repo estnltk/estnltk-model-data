@@ -14890,14 +14890,14 @@
 18	(	(	Z	Z	_	19	punct	_	_
 19	w	w	Y	Y	nominal=nominal	16	parataxis	_	_
 20	i	i	Y	Y	nominal=nominal	19	flat	_	_
-21			Z	Z	_	19	flat	_	_
+21	=	=	Z	Z	_	19	flat	_	_
 22	f	f	Y	Y	nominal=nominal	19	flat	_	_
 23	(	(	Z	Z	_	19	punct	_	_
 24	wi-1	wi-1	N	N	card=card|<?>=<?>|digit=digit	19	flat	_	_
 25	)	)	Z	Z	_	19	punct	_	_
 26	/	/	Z	Z	_	19	punct	_	_
 27	i	i	Y	Y	nominal=nominal	19	flat	_	_
-28			Z	Z	_	27	punct	_	_
+28	=	=	Z	Z	_	27	punct	_	_
 29	1	1	N	N	card=card|<?>=<?>|digit=digit	19	flat	_	_
 30	,	,	Z	Z	_	19	punct	_	_
 31	...	...	Z	Z	_	19	punct	_	_

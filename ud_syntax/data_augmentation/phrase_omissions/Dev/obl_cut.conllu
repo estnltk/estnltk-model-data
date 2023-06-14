@@ -178,7 +178,7 @@
 22	piirkonnas	piirkond	S	S	com=com|sg=sg|in=in	20	nmod	_	_
 23	(	(	Z	Z	_	24	punct	_	_
 24	p	p	Y	Y	nominal=nominal	22	parataxis	_	_
-25			Z	Z	_	24	flat	_	_
+25	=	=	Z	Z	_	24	flat	_	_
 26	0,054	0,054	N	N	card=card|<?>=<?>|digit=digit	24	flat	_	_
 27	)	)	Z	Z	_	24	punct	_	_
 28	ning	ning	J	J	sub=sub|crd=crd	31	cc	_	_
@@ -187,7 +187,7 @@
 31	piiratus	piiratus	S	S	com=com|sg=sg|nom=nom	20	conj	_	_
 32	(	(	Z	Z	_	33	punct	_	_
 33	p	p	Y	Y	nominal=nominal	31	parataxis	_	_
-34			Z	Z	_	33	punct	_	_
+34	=	=	Z	Z	_	33	punct	_	_
 35	0,056	0,056	N	N	card=card|<?>=<?>|digit=digit	33	nummod	_	_
 36	)	)	Z	Z	_	33	punct	_	_
 37	.	.	Z	Z	_	7	punct	_	_
