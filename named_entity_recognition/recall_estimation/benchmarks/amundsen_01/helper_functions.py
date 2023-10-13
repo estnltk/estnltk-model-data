@@ -11,7 +11,7 @@ from estnltk.taggers import Tagger
 from estnltk_core.taggers import MultiLayerTagger
 
 
-def corpus_statistics(datafolder='data', description_file='data_description.csv'):
+def corpus_statistics(description_file='data_description.csv'):
     '''Calculates the estimated number of positive cases in the corpus (along with 
        95% CI) based on numbers of all detected occurrences, manually labelled 
        occurrences and positive instances. 
@@ -45,11 +45,11 @@ def corpus_statistics(datafolder='data', description_file='data_description.csv'
     return desc
 
 
-def load_evaluation_data(datafolder='data', description_file='data_description.csv'):
+def load_evaluation_data(description_file='data_description.csv'):
     gold_standard = pd.DataFrame(columns=('text','population'))
     desc = read_csv(description_file)
     for filename, population, positive in zip(desc.file, desc.population, desc.positive):
-        data = read_csv(datafolder+'/'+filename)
+        data = read_csv(filename)
         assert len(data.text) == positive
         for text_str, span in zip(data.text, data.span):
             text_obj = Text(text_str)
@@ -109,12 +109,11 @@ def evaluate_benchmark(benchmark_data, tagger, auto_layer=None,
     return results
 
 
-def find_recall_estimate(eval_results, datafolder='data', description_file='data_description.csv'):
+def find_recall_estimate(eval_results, description_file='data_description.csv'):
     '''
     Finds recall estimate based on the given sub-sample evaluation results. 
     
-    TODO:
-    
+    TODO: Detailed description:
     Finds standard dev for each fraction estimate
     Combine stabndard deviation for the linear combination
     Find CI based on this estimate
@@ -137,7 +136,7 @@ def find_recall_estimate(eval_results, datafolder='data', description_file='data
             populations.append(pop)
     #print(populations)
     # Find corpus statistics
-    corpus_stats = corpus_statistics(datafolder=datafolder, description_file=description_file)
+    corpus_stats = corpus_statistics(description_file=description_file)
     # Observed positives -> estimated positives -> total estimated positives
     total_positives = corpus_stats['estimated_positives'].sum()
     # Construct weight vector
