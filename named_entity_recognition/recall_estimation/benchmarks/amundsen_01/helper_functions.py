@@ -1,4 +1,5 @@
 import ast
+from collections import defaultdict
 
 import numpy as np
 import pandas as pd
@@ -131,9 +132,18 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
     '''
     # Collect populations used in the evaluation
     populations = []
+    populations_count = defaultdict(int)
+    last_pop = None
     for pop in eval_results.population:
         if pop not in populations:
             populations.append(pop)
+        populations_count[pop] += 1
+        if populations_count[pop] > 1 and last_pop != pop:
+            # Validate that all examples of a population are consecutive. 
+            # (If not, then our weight calculations do not work)
+            raise ValueError(f'(!) Non-consecutive examples of the population {pop!r}: '+
+                             f'unexpectedly previous example is from another population {last_pop!r}.')
+        last_pop = pop
     #print(populations)
     # Find corpus statistics
     corpus_stats = corpus_statistics(description_file=description_file)
