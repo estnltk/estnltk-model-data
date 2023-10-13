@@ -1,4 +1,5 @@
 import ast
+import os.path
 from collections import defaultdict
 
 import numpy as np
@@ -10,6 +11,47 @@ from tqdm import tqdm
 from estnltk import Text, Layer
 from estnltk.taggers import Tagger
 from estnltk_core.taggers import MultiLayerTagger
+
+
+def validate_evaluation_data(description_file='data_description.csv'):
+    '''
+    Validates recall benchmark evaluation data:
+    * No duplicates in the files;
+    * Input files are in the same format;
+    * Data description is in right format;
+    * Data description is consistent with the benchmark files;
+    Throws an exception in case of detected inconsistencies.
+    '''
+    desc = read_csv(description_file)
+    seen_files = set()
+    for filename, population, positive in zip(desc.file, desc.population, desc.positive):
+        if filename in seen_files:
+            raise ValueError(f'(!) Duplicate file {filename!r} in evaluation benchmark {description_file!r}.')
+        if not os.path.isfile(filename):
+            raise Exception(f'(!) Non-existent or bad file name {filename!r} in evaluation benchmark {description_file!r}.')
+        try:
+            data = read_csv(filename)
+        except Exception as csv_parsing_err:
+            raise ValueError(f'(!) Bad file format: unable to open {filename!r} as a CSV file.') from csv_parsing_err
+        if len(data.text) != positive:
+            raise ValueError(f'(!) Number of samples in file {filename!r} ({len(data.text)}) does '+\
+                             f'not match with the number of samples in {description_file!r} ({positive}).')
+        index = 0
+        for text_str, span in zip(data.text, data.span):
+            span = ast.literal_eval( span )
+            # "{'start': 0, 'end': 13, 'text': 'Inglise kanal', 'labels': ['LOC']}"
+            assert 'start' in span,  f'(!) {filename!r}:{index}: span is missing "start" attribute'
+            assert 'end' in span,    f'(!) {filename!r}:{index}: span is missing "end" attribute'
+            assert 'labels' in span, f'(!) {filename!r}:{index}: span is missing "labels" attribute'
+            assert 'text' in span,   f'(!) {filename!r}:{index}: span is missing "text" attribute'
+            assert isinstance(span['labels'], list), f'(!) {filename!r}:{index}: span "labels" is not a list'
+            ner_phrase = text_str[span['start']:span['end']]
+            if len(span['text']) > 0 and ner_phrase != span['text']:
+                raise Exception(f'(!) {filename!r}:{index}: span.text ({span["text"]}!r) != text@span_location ({ner_phrase}!r).')
+            elif len(span['text']) == 0:
+                raise Exception(f'(!) {filename!r}:{index}: span.text cannot be "".')
+            index += 1
+        seen_files.add( filename )
 
 
 def corpus_statistics(description_file='data_description.csv'):
@@ -46,7 +88,9 @@ def corpus_statistics(description_file='data_description.csv'):
     return desc
 
 
-def load_evaluation_data(description_file='data_description.csv'):
+def load_evaluation_data(description_file='data_description.csv', validate=True):
+    if validate:
+        validate_evaluation_data(description_file=description_file)
     gold_standard = pd.DataFrame(columns=('text','population'))
     desc = read_csv(description_file)
     for filename, population, positive in zip(desc.file, desc.population, desc.positive):
