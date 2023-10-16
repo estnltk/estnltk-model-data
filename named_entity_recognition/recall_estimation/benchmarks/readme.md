@@ -5,11 +5,11 @@
 
 | Model | Description | Paper  | Code |
 |-------|-------------|--------|------|
-| EstNLTK-default-NER | CRF-based system (traditional ML) | [Tkachenko et al. (2013)](https://aclanthology.org/W13-2412/) | [estnltk-ner](https://github.com/estnltk/estnltk/tree/main/estnltk/estnltk/taggers/standard/ner) |
-| EstBertNER-v1-estnltk_words | EstBERT finetuned for NER (v1), using EstNLTK's words tokenization | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER](https://huggingface.co/tartuNLP/EstBERT_NER) |
-| EstBertNER-v1-bert_tokens   | EstBERT finetuned for NER (v1), using Bert's original tokenization | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER](https://huggingface.co/tartuNLP/EstBERT_NER) |
-| EstBertNER-v2-estnltk_words | EstBERT finetuned for NER (v2), using EstNLTK's words tokenization | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER_v2](https://huggingface.co/tartuNLP/EstBERT_NER_v2)  |
-| EstBertNER-v2-bert_tokens | EstBERT finetuned for NER (v2), using Bert's original tokenization | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER_v2](https://huggingface.co/tartuNLP/EstBERT_NER_v2)  |
+| EstNLTK-default-NER | CRF-based system (traditional ML). Recognizes three types of entities: PER, LOC, ORG. | [Tkachenko et al. (2013)](https://aclanthology.org/W13-2412/) | [estnltk-ner](https://github.com/estnltk/estnltk/tree/main/estnltk/estnltk/taggers/standard/ner) |
+| EstBertNER-v1-estnltk_words | EstBERT finetuned for NER (v1), using EstNLTK's words tokenization. Recognizes three types of entities: PER, LOC, ORG. | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER](https://huggingface.co/tartuNLP/EstBERT_NER) |
+| EstBertNER-v1-bert_tokens   | EstBERT finetuned for NER (v1), using Bert's original tokenization. Recognizes three types of entities: PER, LOC, ORG. | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER](https://huggingface.co/tartuNLP/EstBERT_NER) |
+| EstBertNER-v2-estnltk_words | EstBERT finetuned for NER (v2), using EstNLTK's words tokenization. Recognizes 11 types of entities: PER, LOC, ORG, GPE, MONEY, PERCENT, PROD, TITLE, DATE, TIME and EVENT. | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER_v2](https://huggingface.co/tartuNLP/EstBERT_NER_v2)  |
+| EstBertNER-v2-bert_tokens | EstBERT finetuned for NER (v2), using Bert's original tokenization. Recognizes 11 types of entities: PER, LOC, ORG, GPE, MONEY, PERCENT, PROD, TITLE, DATE, TIME and EVENT. | [Kairit Sirts (2023)](https://openreview.net/pdf?id=4CTnlIc1rhw) | [https://huggingface.co/tartuNLP/EstBERT_NER_v2](https://huggingface.co/tartuNLP/EstBERT_NER_v2)  |
 
 ## Calculations
 
