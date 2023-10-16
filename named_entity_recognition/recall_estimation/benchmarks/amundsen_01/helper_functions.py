@@ -1,5 +1,5 @@
 import ast
-import os.path
+import os, os.path
 from collections import defaultdict
 
 import numpy as np
@@ -12,6 +12,122 @@ from estnltk import Text, Layer
 from estnltk.taggers import Tagger
 from estnltk_core.taggers import MultiLayerTagger
 
+
+class RecallEstimator:
+    '''Recall estimator for named entity recognizers.
+    '''
+
+    def __init__(self, description_file, method='precise_recall', add_correct_count=True):
+        '''
+        Loads evaluation benchmark data based on given data description_file. 
+        Validates data (via the function validate_evaluation_data(...) below) 
+        and throws an exception in case of any issues.
+        
+        Parameters
+        ----------
+        description_file: str
+            Name of the file describing evaluation sub samples and corresponding statistics. 
+            Must be a CSV format file.
+        method: str
+            Evaluation method. Currently, only one method has been implemented: 'precise_recall';
+        add_correct_count: bool
+            If True (default), then counts of correct/incorrect spans will be added to the 
+            evaluation results. Otherwise, evaluation results contains only 'Recall' and 
+            'Recall-95CI%'. 
+            Default: True.
+        '''
+        if not os.path.isfile(description_file):
+            raise Exception(f'(!) Non-existent or bad description file name {description_file!r}.')
+        self.description_file = description_file
+        self.gold_standard = \
+            load_evaluation_data(description_file=self.description_file, validate=True)
+        print(f'Loaded evaluation benchmark of size {len(self.gold_standard)}.')
+        self.all_eval_results = {}
+        self.eval_counter = 0
+        self.add_correct_count = add_correct_count
+        supported_methods = ['precise_recall']
+        if method not in supported_methods:
+            raise ValueError(f'(!) Unexpected method={method!r}. Supported methods: {supported_methods!r}')
+        self.method = method
+        self.gold_layer = '_gold_ner'
+
+    def evaluate_tagger(self, tagger, eval_name=None, auto_layer=None, overwrite_existing=True):
+        '''
+        Evaluates tagger on different sub samples, calculates recall on each sub sample, 
+        and a weighted average of recalls as the estimate of the recall of the tagger. 
+        Records evaluation results under eval_name and returns a dictionary with the 
+        results. 
+        
+        Parameters
+        ----------
+        tagger: Union[Tagger, MultiLayerTagger]
+            Tagger to be evaluated on the benchmark data.
+        eval_name: str
+            Name/description of tagger's evaluation. If not provided (default), then 
+            defaults to f'{tagger.output_layer}_#{evaluation_count}', where 
+            {evaluation_count} is the number of evaluations performed so far. 
+        auto_layer: str
+            (Optional) Name of the tagger's output layer. If not provided (default), 
+            then attempts to detect the layer name automagically. 
+        overwrite_existing: bool
+            Whether existing layers will be removed in case the benchmark data has 
+            already been tagged by this tagger. If set to False and the benchmark 
+            data has already been annotated, an Exception will be thrown because an 
+            attempt to add duplicate layers.
+            Default: True.
+
+        Returns
+        -------
+        Dict
+            A dictionary with evaluation results (minimum keys: 'Recall', 'Recall-95CI%'). 
+        '''
+        # Evaluate tagger on sub-samples
+        eval_result = evaluate_benchmark(self.gold_standard, tagger, auto_layer=auto_layer, 
+                                         gold_layer=self.gold_layer, method=self.method, 
+                                         overwrite_existing=overwrite_existing)
+        self.eval_counter += 1
+        eval_name = self._construct_eval_name(tagger, eval_name)
+        # Find & record recall estimate
+        self.all_eval_results[eval_name] = \
+            find_recall_estimate(eval_result, description_file=self.description_file)
+        if self.add_correct_count:
+            # Add correct/incorrect counts
+            self.all_eval_results[eval_name]['correct'] = \
+                eval_result['correct'].value_counts()['yes']
+            self.all_eval_results[eval_name]['incorrect'] = \
+                eval_result['correct'].value_counts()['no']
+        return self.all_eval_results[eval_name].copy()
+
+    def _construct_eval_name(self, tagger, eval_name):
+        ''' [Internal] Constructs the name of tagger's evaluation if eval_name is None. '''
+        if isinstance(eval_name, str):
+            return eval_name
+        else:
+            # Construct eval_name based on tagger's output layer name and counter
+            if isinstance(tagger, Tagger):
+                eval_name = tagger.output_layer
+            elif isinstance(tagger, MultiLayerTagger):
+                eval_name = tagger.output_layers[0]
+            else:
+                raise TypeError(f'(!) Unexpected tagger type {type(tagger)!r}, '+\
+                                 'unable to detect name of the output layer.')
+            return f'{eval_name}_#{self.eval_counter}'
+
+    def leaderboard(self, order_by_recall=True):
+        '''Returns leaderboard of the evaluation (pandas.DataFrame). 
+           If order_by_recall is True (default), then the table is 
+           sorted by column 'Recall'.
+        '''
+        leaderboard = pd.DataFrame.from_dict(self.all_eval_results, orient='index')
+        if order_by_recall and not leaderboard.empty:
+            leaderboard = \
+                leaderboard.sort_values( by='Recall', ascending=False )
+        return leaderboard
+
+
+# =================================================================
+#  Validate and summarize evaluation data
+# =================================================================
 
 def validate_evaluation_data(description_file='data_description.csv'):
     '''
@@ -36,7 +152,17 @@ def validate_evaluation_data(description_file='data_description.csv'):
         raise ValueError(f'(!) CSV file {description_file!r} is missing columns {missing_columns!r}.')
     # Validate data description's content
     seen_files = set()
+    last_population = None
+    populations_count = defaultdict(int)
     for filename, population, positive in zip(desc.file, desc.population, desc.positive):
+        # Validate population files ordering
+        populations_count[population] += 1
+        if populations_count[population] > 1 and last_population != population:
+            # Validate that all examples of a population are consecutive. 
+            # (If not, then our weight calculations do not work as expected)
+            raise ValueError(f'(!) Non-consecutive files of the population {population!r}: '+
+                             f'unexpectedly previous file is from another population {last_population!r} '+
+                             f'in {description_file!r}.')
         # Validate input files
         if filename in seen_files:
             raise ValueError(f'(!) Duplicate file {filename!r} in evaluation benchmark {description_file!r}.')
@@ -66,6 +192,7 @@ def validate_evaluation_data(description_file='data_description.csv'):
                 raise Exception(f'(!) {filename!r}:{index}: span.text cannot be "".')
             index += 1
         seen_files.add( filename )
+        last_population = population
 
 
 def corpus_statistics(description_file='data_description.csv'):
@@ -101,6 +228,10 @@ def corpus_statistics(description_file='data_description.csv'):
     #print(total_estimated_positives)
     return desc
 
+
+# =================================================================
+#  Load evaluation data, perform evaluation and estimate recall    
+# =================================================================
 
 def load_evaluation_data(description_file='data_description.csv', validate=True):
     if validate:
@@ -172,7 +303,7 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
     '''
     Finds recall estimate based on the given sub-sample evaluation results. 
     
-    TODO: Detailed description:
+    TODO: Add more detailed description:
     Finds standard dev for each fraction estimate
     Combine stabndard deviation for the linear combination
     Find CI based on this estimate
