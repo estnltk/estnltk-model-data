@@ -16,15 +16,28 @@ from estnltk_core.taggers import MultiLayerTagger
 def validate_evaluation_data(description_file='data_description.csv'):
     '''
     Validates recall benchmark evaluation data:
-    * No duplicates in the files;
-    * Input files are in the same format;
     * Data description is in right format;
     * Data description is consistent with the benchmark files;
+    * No duplicates in the files;
+    * Input files are in the same format;
     Throws an exception in case of detected inconsistencies.
     '''
-    desc = read_csv(description_file)
+    # Validate data description's format
+    try:
+        desc = read_csv(description_file)
+    except Exception as csv_parsing_err:
+        raise ValueError(f'(!) Bad description file format: unable to open {description_file!r} as a CSV file: ') from csv_parsing_err
+    required_columns = ['file', 'population', 'occurences', 'labelled', 'positive']
+    missing_columns = []
+    for req_col in required_columns:
+        if req_col not in desc.columns:
+            missing_columns.append(req_col)
+    if missing_columns:
+        raise ValueError(f'(!) CSV file {description_file!r} is missing columns {missing_columns!r}.')
+    # Validate data description's content
     seen_files = set()
     for filename, population, positive in zip(desc.file, desc.population, desc.positive):
+        # Validate input files
         if filename in seen_files:
             raise ValueError(f'(!) Duplicate file {filename!r} in evaluation benchmark {description_file!r}.')
         if not os.path.isfile(filename):
@@ -32,14 +45,15 @@ def validate_evaluation_data(description_file='data_description.csv'):
         try:
             data = read_csv(filename)
         except Exception as csv_parsing_err:
-            raise ValueError(f'(!) Bad file format: unable to open {filename!r} as a CSV file.') from csv_parsing_err
+            raise ValueError(f'(!) Bad input file format: unable to open {filename!r} as a CSV file: ') from csv_parsing_err
         if len(data.text) != positive:
             raise ValueError(f'(!) Number of samples in file {filename!r} ({len(data.text)}) does '+\
                              f'not match with the number of samples in {description_file!r} ({positive}).')
         index = 0
+        # Validate NE annotations
         for text_str, span in zip(data.text, data.span):
             span = ast.literal_eval( span )
-            # "{'start': 0, 'end': 13, 'text': 'Inglise kanal', 'labels': ['LOC']}"
+            # Example span: "{'start': 0, 'end': 13, 'text': 'Inglise kanal', 'labels': ['LOC']}"
             assert 'start' in span,  f'(!) {filename!r}:{index}: span is missing "start" attribute'
             assert 'end' in span,    f'(!) {filename!r}:{index}: span is missing "end" attribute'
             assert 'labels' in span, f'(!) {filename!r}:{index}: span is missing "labels" attribute'
