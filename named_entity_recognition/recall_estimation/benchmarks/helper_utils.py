@@ -53,8 +53,9 @@ class RecallEstimator:
 
     def evaluate_tagger(self, tagger, eval_name=None, auto_layer=None, overwrite_existing=True):
         '''
-        Evaluates tagger on different sub samples, calculates recall on each sub sample, 
-        and a weighted average of recalls as the estimate of the recall of the tagger. 
+        Evaluates tagger on different sub samples / populations, calculates recall on 
+        each sub sample, and a weighted average of recalls as the estimate of the recall 
+        of the tagger. 
         Records evaluation results under eval_name and returns a dictionary with the 
         results. 
         
@@ -303,12 +304,17 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
     '''
     Finds recall estimate based on the given sub-sample evaluation results. 
     
-    TODO: Add more detailed description:
-    Finds standard dev for each fraction estimate
-    Combine stabndard deviation for the linear combination
-    Find CI based on this estimate
-
-    based on:
+    First, calculates weight for each item in a population, following the formula:
+    estimated_positives_in_population/(observed_positives_in_population*
+    total_estimated_positives_over_all_populations).
+    Second, finds a sample mean by calculating a dot product of the weight vector and 
+    the correct vector (binomial encoding of the eval_results: 1==match, 0==mismatch). 
+    This is the recall estimate. 
+    Finally, estimates the standard error of the sample mean, and finds confidence 
+    intervals (assuming 95% confidence level) for the estimated recall.
+    Returns a dictionary with estimated variable values ('Recall' and 'Recall-95CI%').
+    
+    Based on:
     https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Standard_error_of_a_proportion_estimation_when_using_weighted_data
 
     TODO: Correct and hard version
@@ -347,11 +353,12 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
         #print(pop, pop_weight, int(positives))
         weight_vector += ([pop_weight] * positives)
     # Construct correct assignments vector
+    # Assume binomial distribution (1==match, 0==mismatch)
     correct_vector = []
     for correct in eval_results.correct:
         correct_vector.append( 1 if correct=='yes' else 0 )
     correct_vector = np.array(correct_vector)
-    # Calculate sample mean and conf interval
+    # Calculate sample mean and conf interval (for a 95% confidence level)
     sample_mean = np.matmul(weight_vector, correct_vector)
     standard_error = np.sqrt(sample_mean * (1-sample_mean) * np.sum(np.square(weight_vector)))
     confidence_interval = (sample_mean - standard_error * 1.96, sample_mean + standard_error * 1.96)
