@@ -87,3 +87,15 @@ def load_term_subpopulations(subpop_dir='config/subpopulations', remove_substr='
                 if len(line.strip()) > 0:
                     subpop_terms[fname].add(line.strip())
     return subpop_terms
+
+
+def count_terms_by_subpopulations(sampler, subpopulations_dir='config/subpopulations'):
+    raw_term_counts = sampler.get_attribute_counts()
+    term_subpopulations = load_term_subpopulations(subpopulations_dir)
+    subpopulation_counts = { k: 0 for k in term_subpopulations.keys() }
+    for (term, term_count) in raw_term_counts:
+        for subpop in term_subpopulations.keys():
+            if term in term_subpopulations[subpop]:
+                subpopulation_counts[subpop] += term_count
+                break
+    return subpopulation_counts
