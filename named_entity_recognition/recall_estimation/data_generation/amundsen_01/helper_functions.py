@@ -1,5 +1,7 @@
 import configparser
 import os, os.path
+import ast
+
 from estnltk.storage.postgres import PostgresStorage
 
 
@@ -99,3 +101,43 @@ def count_terms_by_subpopulations(sampler, subpopulations_dir='config/subpopulat
                 subpopulation_counts[subpop] += term_count
                 break
     return subpopulation_counts
+
+
+class DuplicatesChecker:
+    '''Validates that recall_set items are in correct format and do not contain duplicates.'''
+
+    def __init__(self, validate=True):
+        self.seen_text_annotations=dict()
+        self.validate=validate
+
+    def validate_entry(self, text, span):
+        assert isinstance(text, str), f'(!) text is not string, but {type(text)}.'
+        assert isinstance(span, str), f'(!) span is not string, but {type(span)}.'
+        span = ast.literal_eval( span )
+        assert 'start' in span,  f'(!) {span}: span is missing "start" attribute'
+        assert 'end' in span,    f'(!) {span}: span is missing "end" attribute'
+        assert 'labels' in span, f'(!) {span}: span is missing "labels" attribute'
+        assert 'text' in span,   f'(!) {span}: span is missing "text" attribute'
+        assert isinstance(span['labels'], list), f'(!) {span}: span "labels" is not a list'
+        ner_phrase = text[span['start']:span['end']]
+        if len(span['text']) > 0 and ner_phrase != span['text']:
+            raise Exception(f'(!) Annotation mismatch: span.text ({span["text"]}!r) != text@span_location ({ner_phrase}!r).')
+        elif len(span['text']) == 0:
+            raise Exception(f'(!) Annotation error: span.text cannot be empty string.')
+
+    def check_for_duplicates(self, text, span):
+        if self.validate:
+            self.validate_entry(text, span)
+        span = ast.literal_eval( span )
+        if text not in self.seen_text_annotations:
+            self.seen_text_annotations[text] = []
+        assert span not in self.seen_text_annotations[text], \
+             f'(!) duplicate entry: {span} already annotated for {text!r}'
+        # Check for matching location but different labels
+        for prev_span in self.seen_text_annotations[text]:
+            if prev_span['start'] == span['start'] and \
+               prev_span['end'] == span['end'] and \
+               prev_span['labels'] != span['labels']:
+                raise ValueError(f'(!) span {span["text"]!r} annotated with different labels: '+\
+                                 f'{span["labels"]!r} vs {prev_span["labels"]!r}.')
+        self.seen_text_annotations[text].append(span)
