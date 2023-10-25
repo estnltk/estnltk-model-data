@@ -1,5 +1,5 @@
 import configparser
-import os
+import os, os.path
 from estnltk.storage.postgres import PostgresStorage
 
 
@@ -62,12 +62,12 @@ def load_local_configuration(config_file):
     if len(config.read(file_name)) != 1:
         raise ValueError("File {file} is not accessible or is not in valid INI format".format(file=config_file))
 
-    for option in ["host", "port", "database", "username", "password", "schema", "collection"]:
-        if not config.has_option('target_database', option):
+    for option in ["sqlite_file"]:
+        if not config.has_option('local_database', option):
             prelude = "Error in file {}\n".format(file_name) if len(file_name) > 0 else ""
             raise ValueError(
                 "{prelude}Missing option {option} in the section [{section}]".format(
-                    prelude=prelude, option=option, section='target_database'
+                    prelude=prelude, option=option, section='local_database'
                 )
             )
 
@@ -75,23 +75,15 @@ def load_local_configuration(config_file):
     
     return config
 
-def connect_to_local_database(config):
-    
-    dbname = config['target_database']['database']
-    user = config['target_database']['username']
-    password = config['target_database']['password']
-    host = config['target_database']['host']
-    port = config['target_database']['port']
-    schema = config['target_database']['schema']
-    collection = config['target_database']['collection']
 
-    localstorage = PostgresStorage(host=host,
-                              port=int(port),
-                              dbname=dbname,
-                              user=user,
-                              password=password,
-                              schema=schema,
-                              role=None,
-                              temporary=False)
-    
-    return localstorage
+def load_term_subpopulations(subpop_dir='config/subpopulations', remove_substr='_suffix_words.txt'):
+    subpop_terms = {}
+    for fname in os.listdir(subpop_dir):
+        with open(os.path.join(subpop_dir, fname), 'r', encoding='UTF-8') as in_f:
+            if remove_substr is not None and len(remove_substr)>0:
+                fname = fname.replace(remove_substr, '')
+            subpop_terms[fname] = set()
+            for line in in_f:
+                if len(line.strip()) > 0:
+                    subpop_terms[fname].add(line.strip())
+    return subpop_terms

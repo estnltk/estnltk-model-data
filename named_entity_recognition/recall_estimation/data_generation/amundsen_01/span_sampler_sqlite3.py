@@ -1,6 +1,7 @@
 from random import Random
 from random import sample, choices
 import sqlite3
+import warnings
 
 from tqdm import tqdm
 
@@ -64,6 +65,8 @@ class SpanSampler:
                     self._cursor.executemany(
                         "INSERT INTO attribute_locations (layer_id, attribute_value, span_index, total_spans) VALUES (?, ?, ?, ?)", rows )
                     self._connection.commit()
+        else:
+            warnings.warn(f'(!) {self._db_file_name!r} already contains attribute_locations table. Skipping the table creation.')
 
     # Find counts of all attribute values
     def get_attribute_counts(self):
@@ -73,7 +76,7 @@ class SpanSampler:
         return self._cursor.fetchall()
 
     # Find counts of attribute values grouped by layer_id (each layer counted only once)
-    @deprecated
+    #@deprecated
     def get_attribute_counts_by_layer_id(self):
         if not self.attribute_locations_table_exists():
             raise Exception('(!) attribute_locations table has not been generated yet.')
