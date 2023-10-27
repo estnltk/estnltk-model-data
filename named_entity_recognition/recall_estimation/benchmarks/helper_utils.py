@@ -304,7 +304,7 @@ def evaluate_benchmark(benchmark_data, tagger, auto_layer=None,
             tagger.tag(eval_sentence)
         except Exception as ex:
             if ignore_errors:
-                warnings.warn(f'(!) Faild processing {eval_sentence.text!r} due to an error:\n {ex}')
+                warnings.warn(f'(!) Failed processing {eval_sentence.text!r} due to an error:\n {ex}')
                 # Create empty output layers
                 # (like tagger detected nothing)
                 empty_layers = _create_empty_layers(tagger)
