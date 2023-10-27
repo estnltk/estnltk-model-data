@@ -1,4 +1,5 @@
 import ast
+import warnings
 import os, os.path
 from collections import defaultdict
 
@@ -51,7 +52,8 @@ class RecallEstimator:
         self.method = method
         self.gold_layer = '_gold_ner'
 
-    def evaluate_tagger(self, tagger, eval_name=None, auto_layer=None, overwrite_existing=True):
+    def evaluate_tagger(self, tagger, eval_name=None, auto_layer=None, overwrite_existing=True, 
+                              ignore_errors=False):
         '''
         Evaluates tagger on different sub samples / populations, calculates recall on 
         each sub sample, and a weighted average of recalls as the estimate of the recall 
@@ -76,6 +78,10 @@ class RecallEstimator:
             data has already been annotated, an Exception will be thrown because an 
             attempt to add duplicate layers.
             Default: True.
+        ignore_errors: bool
+            If True, then ignores tagger errors/exceptions. A text causing in a tagger error 
+            will be considered as a text where no entities were found by the tagger. 
+            If False (default), then a tagger error will break the evaluation process.
 
         Returns
         -------
@@ -85,7 +91,8 @@ class RecallEstimator:
         # Evaluate tagger on sub-samples
         eval_result = evaluate_benchmark(self.gold_standard, tagger, auto_layer=auto_layer, 
                                          gold_layer=self.gold_layer, method=self.method, 
-                                         overwrite_existing=overwrite_existing)
+                                         overwrite_existing=overwrite_existing, 
+                                         ignore_errors=ignore_errors)
         self.eval_counter += 1
         eval_name = self._construct_eval_name(tagger, eval_name)
         # Find & record recall estimate
@@ -252,10 +259,19 @@ def load_evaluation_data(description_file='data_description.csv', validate=True)
             gold_standard.loc[len(gold_standard)] = {'text':text_obj, 'population':population}
     return gold_standard
 
+def _create_empty_layers(tagger):
+    if isinstance(tagger, Tagger):
+        return [tagger.get_layer_template()]
+    elif isinstance(tagger, MultiLayerTagger):
+        empty_layers = []
+        for output_layer in tagger.output_layers:
+            attribs = tagger.output_layers_to_attributes.get(output_layer, ())
+            empty_layers.append(Layer(output_layer, attributes=attribs))
+        return empty_layers
 
 def evaluate_benchmark(benchmark_data, tagger, auto_layer=None, 
                        gold_layer='_gold_ner', method='precise_recall', 
-                       overwrite_existing=True):
+                       overwrite_existing=True, ignore_errors=False):
     if auto_layer is None:
         # Try to detect name of the ner layer automatically
         if isinstance(tagger, Tagger):
@@ -273,6 +289,7 @@ def evaluate_benchmark(benchmark_data, tagger, auto_layer=None,
                                                total=len(benchmark_data.text) ):
         # Add prerequisite layers
         eval_sentence.tag_layer()
+        
         # Remove existing layer(s) (if required)
         if overwrite_existing:
             if isinstance(tagger, Tagger):
@@ -283,7 +300,20 @@ def evaluate_benchmark(benchmark_data, tagger, auto_layer=None,
                     if output_layer in eval_sentence.layers:
                         eval_sentence.pop_layer(output_layer)
         # Add new layer
-        tagger.tag(eval_sentence)
+        try:
+            tagger.tag(eval_sentence)
+        except Exception as ex:
+            if ignore_errors:
+                warnings.warn(f'(!) Faild processing {eval_sentence.text!r} due to an error:\n {ex}')
+                # Create empty output layers
+                # (like tagger detected nothing)
+                empty_layers = _create_empty_layers(tagger)
+                for empty_layer in empty_layers:
+                    eval_sentence.add_layer(empty_layer)
+            else:
+                # Halt the evaluation, raise the exception
+                raise ex
+        
         if auto_layer not in eval_sentence.layers:
             raise ValueError(f' (!) Tagger {tagger} did not create layer '+\
                              f'{auto_layer!r}. Unable to evaluate output.')
