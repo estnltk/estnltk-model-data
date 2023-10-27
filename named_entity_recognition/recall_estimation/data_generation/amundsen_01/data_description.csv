@@ -1,0 +1,4 @@
+,population,occurences,labelled,positive,occurence_ratio,detection_ratio,relative_frequency,file
+0,levinumad,84822,1000,350,0.24055335609678627,0.35,0.4732873025640018,amundsen_01/data/recall_sets/koond_1000_levinumad.csv
+1,mitmetahenduslikud,81893,1000,13,0.23224677549260944,0.013,0.016972211451050753,amundsen_01/data/recall_sets/koond_1000_mitmetahenduslikud.csv
+2,ulejaanud,185897,1000,172,0.5271998684106043,0.172,0.5097404859849474,amundsen_01/data/recall_sets/koond_1000_ulejaanud.csv
