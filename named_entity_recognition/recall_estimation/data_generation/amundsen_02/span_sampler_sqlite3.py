@@ -10,6 +10,9 @@ from estnltk.storage.postgres import PgCollection
 
 
 class SpanSampler:
+    """
+    SpanSampler that creates subsamples based on partofspeech tags of words preceding (geographical) terms. 
+    """
 
     def __init__(self, collection, layer, attribute, termsfile, db_file_name='geo_terms_pos_sample.db', seed=1, verbose=False):
         self.verbose = verbose
