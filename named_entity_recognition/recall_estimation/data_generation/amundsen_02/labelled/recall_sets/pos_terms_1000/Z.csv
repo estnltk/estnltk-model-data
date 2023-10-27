@@ -1,0 +1,4 @@
+id,text,span
+0,Mullu detsembris Calais' väinas koos 3000 luksusautoga põhja läinud ning laevaliiklust ohustanud Norra autopraam tõstetakse merepõhjast välja - teisipäeval alanud ja ligi 40 miljonit dollarit maksev operatsioon loodetakse lõpetada oktoobriks .,"{'start': 17, 'end': 31, 'text': ""Calais' väinas"", 'labels': ['LOC']}"
+1,Croix' saarelt .,"{'start': 0, 'end': 14, 'text': ""Croix' saarelt"", 'labels': ['LOC']}"
+2,"Cape Fear' jõe teisel kaldal New Hanoveri maakonnas sadas üle 40 cm vihma , mis muutis läbimatuks üle saja tee .","{'start': 5, 'end': 14, 'text': ""Fear' jõe"", 'labels': ['LOC']}"

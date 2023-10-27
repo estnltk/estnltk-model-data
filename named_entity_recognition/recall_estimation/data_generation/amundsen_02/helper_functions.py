@@ -75,3 +75,13 @@ def load_local_configuration(config_file):
     config.read(file_name)
     
     return config
+
+
+def count_terms_by_postags(sampler):
+    raw_term_counts = sampler.get_attribute_pos_counts()
+    postag_counts = {}
+    for (pos,term,count) in raw_term_counts:
+        if pos not in postag_counts:
+            postag_counts[pos]=0
+        postag_counts[pos]+=count
+    return postag_counts
