@@ -1,0 +1,6 @@
+id,text,span
+0,MK-sarja etapil 1998. aasta olümpiapaigas Hakubas võidutsesid neljapäeval K-120 mäel austerlased .,"{'start': 74, 'end': 84, 'text': 'K-120 mäel', 'labels': ['LOC']}"
+1,"Pärast hüppeid K-120 mäelt oli Pikkor 13. ja Teder 23. , kuid taibuka ja hea sõiduga parandasid oma kohta .","{'start': 15, 'end': 26, 'text': 'K-120 mäelt', 'labels': ['LOC']}"
+2,"« Ei hea ega halb , » ütles Hein samad sõnad , mis ka K-120 mäe võistluse järel .","{'start': 54, 'end': 63, 'text': 'K-120 mäe', 'labels': ['LOC']}"
+3,"K-116 mäelt peetud suusahüpete kvalifikatsioonivõistlustel oli eestlane Joukko Hein 86 , 5-ga viimane .","{'start': 0, 'end': 11, 'text': 'K-116 mäelt', 'labels': ['LOC']}"
+4,"Enne 47 . nelja hüppemäe turnee viimast võistlust Austrias Bischofshofeni K-120 mäel juhtis jaapanlane Noriaki Kasai , kes edestas Ahoneni kõigest 0 , 4 punktiga .","{'start': 74, 'end': 84, 'text': 'K-120 mäel', 'labels': ['LOC']}"

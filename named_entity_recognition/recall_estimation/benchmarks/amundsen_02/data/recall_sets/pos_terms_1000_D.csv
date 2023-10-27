@@ -1,0 +1,6 @@
+id,text,span
+0,"Kui sellist käiku võis aimata , haarasid mehed kartuleid ja muud toidumoona nädalaks kaasa ja sõitsid varju Sorgu saarele .","{'start': 108, 'end': 121, 'text': 'Sorgu saarele', 'labels': ['LOC']}"
+1,Neeruti mägede vahel istuval Seaküla Simsoni loodud Kalevipojal,"{'start': 0, 'end': 14, 'text': 'Neeruti mägede', 'labels': ['LOC']}"
+2,""" Puhuti tundus eesmärk reaalsena , osalt tänu sellele , et Lahti mäed tähendavad Eesti hüppajaile sisuliselt koduväljakut .","{'start': 60, 'end': 70, 'text': 'Lahti mäed', 'labels': ['LOC']}"
+3,"Trendiajakirja korrespondent on õnnelik , et saab Lennuki skipperilt  Mart Saarsoolt  e-maili teel vastused otse Vaikselt ookeanilt , kusagilt Tonga saare lähedalt .","{'start': 113, 'end': 131, 'text': 'Vaikselt ookeanilt', 'labels': ['LOC']}"
+4,"Ja kui te paari aasta pärast meid üles ei leia , peate otsima kolme väikese Balti riigi välisministreid Vaikselt ookeanilt , kus nad ringi seilavad , et sõlmida diplomaatilisi suhteid kõigi sealsete ÜRO liikmetega ! ”","{'start': 104, 'end': 122, 'text': 'Vaikselt ookeanilt', 'labels': ['LOC']}"

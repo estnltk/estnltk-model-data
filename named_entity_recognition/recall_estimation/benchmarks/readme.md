@@ -14,7 +14,7 @@
 ## Evaluation/estimation
 
 The recall is estimated on a sample of named entity phrases, which was (randomly) drawn from a large corpus and manually corrected.  
-The sample has been divided into subsamples (populations) based on the frequency/ambiguity of terms appearing in subsamples.   
+The sample has been divided into subsamples (sub populations) based on different criteria (e.g. in the `amundsen_01` benchmark, based on the frequency/ambiguity of geographical terms appearing in subsamples).   
 A tagger/model is evaluated on each of these subsamples and a weighted average of the results is the estimate of the recall. 
 
 Recall estimations are based on: https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Standard_error_of_a_proportion_estimation_when_using_weighted_data
@@ -25,3 +25,4 @@ This standard error calculation assumes that the probability of each sample is e
 ## Results
 
 * [leaderboard_amundsen_01.csv](leaderboard_amundsen_01.csv) ( corresponding code: [evaluate_benchmark_amundsen_01.ipynb](evaluate_benchmark_amundsen_01.ipynb) )
+* [leaderboard_amundsen_02.csv](leaderboard_amundsen_02.csv) ( corresponding code: [evaluate_benchmark_amundsen_02.ipynb](evaluate_benchmark_amundsen_02.ipynb) )
