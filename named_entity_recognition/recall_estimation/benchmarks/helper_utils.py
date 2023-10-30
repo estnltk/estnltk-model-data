@@ -79,8 +79,8 @@ class RecallEstimator:
             attempt to add duplicate layers.
             Default: True.
         ignore_errors: bool
-            If True, then ignores tagger errors/exceptions. A text causing in a tagger error 
-            will be considered as a text where no entities were found by the tagger. 
+            If True, then ignores tagger errors/exceptions. A text causing a tagger error 
+            will be taken as a text where no entities were detected by the tagger. 
             If False (default), then a tagger error will break the evaluation process.
 
         Returns
