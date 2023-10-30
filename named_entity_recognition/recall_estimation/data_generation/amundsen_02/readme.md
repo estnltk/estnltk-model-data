@@ -1,7 +1,17 @@
 # Workflow to create recall benchmark for geographic locations
 
 This benchmark considers only geographic locations that end with specific suffix words (listed in [geo_terms.txt](geo_terms.txt)), and make up two word phrases with a preceding word. 
-Sub populations are created by dividing phrases into classes by part of speech tags of preceding words.
+Sub populations are created by dividing phrases into classes by (automatically assigned) part of speech tags of preceding words.
+
+Some examples:
+
+|Subpopulation | Description | Examples |
+|:--- |:---|:---|
+|A    | geographic location phrases where the first word is adjective (A) | Vaikse ookeani, Mustast merest, Kollase mere |
+|H    | geographic location phrases where the first word is proper noun (H) | Pärnu lahelt, Fidzhi saartega, Viljandi järve     |
+|S    | geographic location phrases where the first word is common noun (S) | Rohuneeme poolsaare, Pühajärve randa, Kolka neeme |
+|...  | ... | ... |
+
 
 ## I. Setup
 
@@ -16,5 +26,5 @@ Sub populations are created by dividing phrases into classes by part of speech t
 * Use [02_prepare_for_labelling.ipynb](02_prepare_for_labelling.ipynb) to extend randomly chosen annotations into 2 word phrases and to extract a small subset of sentences for the first phase of annotation. We picked 100 samples from each sub population sample for the first phase of manual annotation.
 * Import data into [labelstudio](https://labelstud.io/) and use it for the first phase of manual annotation. The goal of manual labelling is to determine whether sampled phrases represent a named entity (NE). More specifically, annotators are  given choices for evaluating the match with NE: 'partial match', 'full match' ja 'no'. In our case, 1 annotator completed the work, following [the Estonian NE annotation guidelines](https://docs.google.com/document/d/1gZcNHmSEK3ua6EwsGJJgRUbfOTzSSa6LuQaDvgNThM4/) by Laura Katrin Leman and Kairit Sirts.
 * Use [03_prepare_for_labelling_(phase_2).ipynb](03_prepare_for_labelling_(phase_2).ipynb) to prepare data for the second annotation phase. Exclude populations that did not contain any matches in the first annotation, also exclude sentences that have already been annotated in the first phase;
-* Use [04_update_benchmark.ipynb](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/04_update_benchmark.ipynb) to first post-process manual annotations (remove duplicates, take out positive cases, merge phase 1 & phase 2 annotations and save into [recall_sets](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/labelled/recall_sets) CSV files), and to create a dataset description CSV file (example [description file](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/data_description.csv)).
-* Finally, copy [recall_sets](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/labelled/recall_sets) and the [description file](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/data_description.csv) into [the benchmarks folder](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/benchmarks), following the example of existing benchmarks.
+* Use [04_update_benchmark.ipynb](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/04_update_benchmark.ipynb) to post-process manual annotations (remove duplicates, take out positive cases, merge annotations of the first & second phase and save into [recall_sets](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/labelled/recall_sets) CSV files), and to create a dataset description CSV file (example [description file](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/data_description.csv)).
+* Finally, copy [recall_sets](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/labelled/recall_sets) and the [description file](https://github.com/estnltk/estnltk-model-data/blob/main/named_entity_recognition/recall_estimation/data_generation/amundsen_02/data_description.csv) into [the benchmarks folder](https://github.com/estnltk/estnltk-model-data/tree/main/named_entity_recognition/recall_estimation/benchmarks), following the structure of existing benchmarks (amundsen_01, amundsen_02).
