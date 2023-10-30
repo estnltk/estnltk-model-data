@@ -4,3 +4,4 @@ id,text,span
 2,""" Puhuti tundus eesmärk reaalsena , osalt tänu sellele , et Lahti mäed tähendavad Eesti hüppajaile sisuliselt koduväljakut .","{'start': 60, 'end': 70, 'text': 'Lahti mäed', 'labels': ['LOC']}"
 3,"Trendiajakirja korrespondent on õnnelik , et saab Lennuki skipperilt  Mart Saarsoolt  e-maili teel vastused otse Vaikselt ookeanilt , kusagilt Tonga saare lähedalt .","{'start': 113, 'end': 131, 'text': 'Vaikselt ookeanilt', 'labels': ['LOC']}"
 4,"Ja kui te paari aasta pärast meid üles ei leia , peate otsima kolme väikese Balti riigi välisministreid Vaikselt ookeanilt , kus nad ringi seilavad , et sõlmida diplomaatilisi suhteid kõigi sealsete ÜRO liikmetega ! ”","{'start': 104, 'end': 122, 'text': 'Vaikselt ookeanilt', 'labels': ['LOC']}"
+5,Dali oli Vovaga sageli Lahti jõe ääres mängimas käinud .,"{'start': 23, 'end': 32, 'text': 'Lahti jõe', 'labels': ['LOC']}"
