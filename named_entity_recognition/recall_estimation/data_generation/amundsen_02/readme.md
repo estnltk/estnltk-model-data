@@ -1,7 +1,7 @@
 # Workflow to create recall benchmark for geographic locations (amundsen_02)
 
-This benchmark considers only geographic locations that end with specific suffix words (listed in [geo_terms.txt](geo_terms.txt)), and make up two word phrases with a preceding word. 
-Sub populations are created by dividing phrases into classes by (automatically assigned) part of speech tags of preceding words.
+This benchmark considers two word geographic location phrases that end with specific suffix words (listed in [geo_terms.txt](geo_terms.txt)).  
+Sub populations are created by dividing phrases into classes by (automatically assigned) part of speech tags of first words of phrases.
 
 |Subpopulation | Description | Examples |
 |:--- |:---|:---|
