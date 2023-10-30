@@ -3,19 +3,17 @@
 This benchmark considers only geographic locations that end with specific suffix words (listed in [geo_terms.txt](geo_terms.txt)), and make up two word phrases with a preceding word. 
 Sub populations are created by dividing phrases into classes by (automatically assigned) part of speech tags of preceding words.
 
-Some examples:
-
 |Subpopulation | Description | Examples |
 |:--- |:---|:---|
-|A    | geographic location phrases where the first word is adjective (A) | Vaikse ookeani, Mustast merest, Kollase mere |
-|H    | geographic location phrases where the first word is proper noun (H) | Pärnu lahelt, Fidzhi saartega, Viljandi järve     |
-|S    | geographic location phrases where the first word is common noun (S) | Rohuneeme poolsaare, Pühajärve randa, Kolka neeme |
+|A    | Geographic locations starting with an adjective (A) | Vaikse ookeani, Mustast merest, Kollase mere |
+|H    | Geographic locations starting with a proper noun (H) | Pärnu lahelt, Fidzhi saartega, Viljandi järve     |
+|S    | Geographic locations starting with a common noun (S) | Rohuneeme poolsaare, Pühajärve randa, Kolka neeme |
 |...  | ... | ... |
 
 
 ## I. Setup
 
-* For the input, you first need a corpus in EstNLTK's PostgreSQL database. The corpus/text collection needs to be stored at the sentence level, that is, each Text object in the collection must be a sentence. We used the Koondkorpus database, which creation scripts are [here](https://github.com/estnltk/estnltk-workflows/tree/master/estnltk_workflows/koondkorpus_and_ettenten_to_postgres) and scripts for splitting the corpus into sentences are [here](https://github.com/estnltk/syntax_experiments/tree/syntax_consistency/collection_splitting);
+* For the input, you first need a corpus in EstNLTK's PostgreSQL database. The corpus/text collection needs to be stored at the sentence level, that is, each Text object in the collection must be a sentence. We used the Koondkorpus database, which creation scripts are [here](https://github.com/estnltk/estnltk-workflows/tree/master/estnltk_workflows/koondkorpus_and_ettenten_to_postgres) and sentence-splitting scripts are [here](https://github.com/estnltk/syntax_experiments/tree/syntax_consistency/collection_splitting);
 * You need a layer marking all the sentences containing given geographical terms. Use the script [extract_geo_sentences.p](https://github.com/estnltk/estnltk-model-training/blob/main/statistical_ner_labelling/scripts/extract_geo_sentences.py) for creating that layer;
 * Once previous points have been completed, create a configuration INI file in [config/](config) folder;
 * Use [00_validate_setup.ipynb](00_validate_setup.ipynb) to check the setup/configuration; 
