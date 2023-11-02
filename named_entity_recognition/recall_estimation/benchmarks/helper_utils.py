@@ -236,6 +236,66 @@ def corpus_statistics(description_file='data_description.csv'):
     #print(total_estimated_positives)
     return desc
 
+# =================================================================
+#  Detect overlaps between evaluation datasets
+# =================================================================
+
+def detect_evaluation_sets_overlaps(root_dir='.', description_file='data_description.csv', output_duplicates=True):
+    eval_sets = {}
+    for root, dirs, files in os.walk(root_dir):
+        if description_file in files:
+            fpath = os.path.join(root, description_file)
+            eval_sets[root] = load_evaluation_data(description_file=fpath)
+            print(f'Loaded evaluation set {root!r} of size {len(eval_sets[root])}.')
+    all_texts = 0
+    all_text_annotations = 0
+    duplicate_texts = 0
+    duplicate_text_annotations = 0
+    seen_texts = set()
+    seen_text_annotations = dict()
+    confirmed_duplicates = dict()
+    for set_name in sorted( eval_sets.keys() ):
+        for sent_text_obj, population in zip(eval_sets[set_name].text, eval_sets[set_name].population):
+            all_texts += 1
+            sent_str = sent_text_obj.text
+            if sent_str not in seen_texts:
+                seen_texts.add(sent_str)
+                seen_text_annotations[sent_str] = []
+                for span in sent_text_obj['_gold_ner']:
+                    all_text_annotations += 1
+                    annotation = (span.start, span.end, span.text, span.annotations[0]['labels'], population, set_name)
+                    seen_text_annotations[sent_str].append( annotation )
+            else:
+                duplicate_texts += 1
+                for span in sent_text_obj['_gold_ner']:
+                    all_text_annotations += 1
+                    annotation = (span.start, span.end, span.text, span.annotations[0]['labels'], population, set_name)
+                    # Check for the annotation duplicate
+                    for prev_annotation in seen_text_annotations[sent_str]:
+                        if annotation[:-2] == prev_annotation[:-2]:
+                            if sent_str not in confirmed_duplicates:
+                                confirmed_duplicates[sent_str] = {}
+                            ann_key = str(annotation[:-2])
+                            if ann_key not in confirmed_duplicates[sent_str]:
+                                confirmed_duplicates[sent_str][ann_key] = [prev_annotation]
+                            confirmed_duplicates[sent_str][ann_key].append(annotation)
+                            duplicate_text_annotations += 1
+                    seen_text_annotations[sent_str].append( annotation )
+    if output_duplicates:
+        print()
+        for sent_str in confirmed_duplicates.keys():
+            print(f'* {sent_str!r} has been annotated in multiple evaluation sets:')
+            for ann_key in confirmed_duplicates[sent_str].keys():
+                for annotation in confirmed_duplicates[sent_str][ann_key]:
+                    print(f'   {ann_key} in {annotation[-1]!r} subpopulation {annotation[-2]!r}')
+            print()
+    print()
+    per_dup_texts = (duplicate_texts/all_texts)*100.0
+    print(f' Total duplicate sentences:             {duplicate_texts!r} / {all_texts!r} ({per_dup_texts:.2f}%)')
+    per_dup_text_annotations = (duplicate_text_annotations/all_text_annotations)*100.0
+    print(f' Total duplicate sentence annotations:  {duplicate_text_annotations!r} / {all_text_annotations!r} ({per_dup_text_annotations:.2f}%)')
+
+
 
 # =================================================================
 #  Load evaluation data, perform evaluation and estimate recall    
