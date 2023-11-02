@@ -240,7 +240,7 @@ def corpus_statistics(description_file='data_description.csv'):
 #  Detect overlaps between evaluation datasets
 # =================================================================
 
-def detect_evaluation_sets_overlaps(root_dir='.', description_file='data_description.csv', output_duplicates=True):
+def detect_evaluation_sets_overlaps(root_dir='.', description_file='data_description.csv', verbose=True):
     eval_sets = {}
     for root, dirs, files in os.walk(root_dir):
         if description_file in files:
@@ -272,29 +272,30 @@ def detect_evaluation_sets_overlaps(root_dir='.', description_file='data_descrip
                     annotation = (span.start, span.end, span.text, span.annotations[0]['labels'], population, set_name)
                     # Check for the annotation duplicate
                     for prev_annotation in seen_text_annotations[sent_str]:
-                        if annotation[:-2] == prev_annotation[:-2]:
+                        if annotation[:-3] == prev_annotation[:-3]:
                             if sent_str not in confirmed_duplicates:
                                 confirmed_duplicates[sent_str] = {}
-                            ann_key = str(annotation[:-2])
+                            ann_key = str(annotation[:-3])
                             if ann_key not in confirmed_duplicates[sent_str]:
                                 confirmed_duplicates[sent_str][ann_key] = [prev_annotation]
                             confirmed_duplicates[sent_str][ann_key].append(annotation)
                             duplicate_text_annotations += 1
                     seen_text_annotations[sent_str].append( annotation )
-    if output_duplicates:
+    if verbose:
         print()
         for sent_str in confirmed_duplicates.keys():
             print(f'* {sent_str!r} has been annotated in multiple evaluation sets:')
             for ann_key in confirmed_duplicates[sent_str].keys():
                 for annotation in confirmed_duplicates[sent_str][ann_key]:
-                    print(f'   {ann_key} in {annotation[-1]!r} subpopulation {annotation[-2]!r}')
+                    ann_key_with_label = f'{ann_key[:-1]}, {annotation[-3]})'
+                    print(f'   {ann_key_with_label} in {annotation[-1]!r} subpopulation {annotation[-2]!r}')
             print()
-    print()
-    per_dup_texts = (duplicate_texts/all_texts)*100.0
-    print(f' Total duplicate sentences:             {duplicate_texts!r} / {all_texts!r} ({per_dup_texts:.2f}%)')
-    per_dup_text_annotations = (duplicate_text_annotations/all_text_annotations)*100.0
-    print(f' Total duplicate sentence annotations:  {duplicate_text_annotations!r} / {all_text_annotations!r} ({per_dup_text_annotations:.2f}%)')
-
+        print()
+        per_dup_texts = (duplicate_texts/all_texts)*100.0
+        print(f' Total duplicate sentences:             {duplicate_texts!r} / {all_texts!r} ({per_dup_texts:.2f}%)')
+        per_dup_text_annotations = (duplicate_text_annotations/all_text_annotations)*100.0
+        print(f' Total duplicate sentence annotations:  {duplicate_text_annotations!r} / {all_text_annotations!r} ({per_dup_text_annotations:.2f}%)')
+    return confirmed_duplicates
 
 
 # =================================================================
