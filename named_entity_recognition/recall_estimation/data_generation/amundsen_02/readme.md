@@ -13,7 +13,7 @@ Sub populations are created by dividing phrases into classes by (automatically a
 
 ## I. Setup
 
-* For the input, you first need a corpus in EstNLTK's PostgreSQL database. The corpus/text collection needs to be stored at the sentence level, that is, each Text object in the collection must be a sentence. We used the Koondkorpus database, which creation scripts are [here](https://github.com/estnltk/estnltk-workflows/tree/master/estnltk_workflows/koondkorpus_and_ettenten_to_postgres) and sentence-splitting scripts are [here](https://github.com/estnltk/syntax_experiments/tree/syntax_consistency/collection_splitting);
+* For the input, you first need a corpus in EstNLTK's PostgreSQL database. The corpus/text collection needs to be stored at the sentence level, that is, each Text object in the collection must be a sentence. We used the Koondkorpus database, which was created with workflows from [https://github.com/estnltk/estnltk-workflows/tree/master/koondkorpus_workflows](https://github.com/estnltk/estnltk-workflows/tree/master/koondkorpus_workflows);
 * You need a layer marking all the sentences containing given geographical terms. Use the script [extract_geo_sentences.p](https://github.com/estnltk/estnltk-model-training/blob/main/statistical_ner_labelling/scripts/extract_geo_sentences.py) for creating that layer;
 * Once previous points have been completed, create a configuration INI file in [config/](config) folder;
 * Use [00_validate_setup.ipynb](00_validate_setup.ipynb) to check the setup/configuration; 
