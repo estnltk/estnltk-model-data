@@ -1,4 +1,4 @@
-# Shortened sentences of EstUD Treebank
+# Shortened sentences from the EstUD Treebank
 
 ## Data description
 
