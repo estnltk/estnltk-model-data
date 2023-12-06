@@ -5,7 +5,7 @@
 
 This folder contains various augmentations of [EstUD Treebank](https://github.com/EstSyntax/EstUD).
 Most of them are manually curated but some of them can be fully automatic.
-See the documentation in each folder.
+Exact methodology is described for each folder separately.
 
 ## Motivation
 
@@ -17,10 +17,13 @@ The same is true when one removes free modifers from the sentence.
 More formally, a syntactical invariant is a sentence modification rule together with 
 a syntax modification rule such that when applicable the modified sentence has indeed
 the predicted syntax tree.
-
 We apply these transformations on manually annotated sentences to get additional 
 training data for enforcing consistency against syntactical invariants.
 
+## Methods
+
+Omitted phrases are subtrees of a syntax tree. Its type is defined by the dependency 
+relation of the root node. See the documentation of [UD dependency relations](https://universaldependencies.org/u/dep/).
 
 
 
