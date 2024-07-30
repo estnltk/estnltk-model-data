@@ -2,3 +2,5 @@
 ChatGPT 3.5 on tokenized sentences,0.541,0.492,[0.    0.532 0.541],[0.    0.578 0.492],535,465,455,543
 ChatGPT 3.5 on untokenized sentences,0.546,0.706,[0.    0.581 0.546],[0.    0.408 0.706],557,443,647,351
 TartuNLP Grammatical Error Correction untokenized sentences,0.537,0.526,[0.535 0.537],[0.546 0.526],536,464,490,510
+EstRoberta model e20b16lr3e6w000001 cp1183,0.615,0.064,[0.506 0.615],[0.96  0.064],512,488,52,948
+NerTagger (phrase is LOC or timex -> free),0.607,0.13,[0.513 0.607],[0.916 0.13 ],523,477,107,893

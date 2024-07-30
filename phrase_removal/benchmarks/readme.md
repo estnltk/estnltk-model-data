@@ -5,6 +5,7 @@
 
 * ChatGPT 3.5
 * TartuNLP Grammatical Error Correction
+* EstRoberta model
 
 ## Evaluation/estimation
 
