@@ -1,4 +1,4 @@
-,Precision pos class,Recall pos class,Precision,Recall,correct,incorrect,predicted yes,predicted no
+model,Precision pos class,Recall pos class,Precision,Recall,correct,incorrect,predicted yes,predicted no
 ChatGPT 3.5 on tokenized sentences,0.541,0.492,[0.    0.532 0.541],[0.    0.578 0.492],535,465,455,543
 ChatGPT 3.5 on untokenized sentences,0.546,0.706,[0.    0.581 0.546],[0.    0.408 0.706],557,443,647,351
 TartuNLP Grammatical Error Correction untokenized sentences,0.537,0.526,[0.535 0.537],[0.546 0.526],536,464,490,510
