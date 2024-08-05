@@ -1,0 +1,12 @@
+combo,pos_label_pred_overlap,pos_label_pred_overlap_correct,general_label_pred_overlap,general_label_pred_overlap_correct
+all,2,1,250,134
+nertag + bertner,106,64,992,522
+nertag + timeloclemma,57,38,763,407
+nertag + oblcase,45,24,517,267
+nertag + elus,49,26,686,357
+bertner + timeloclemma,59,40,761,409
+bertner + oblcase,49,28,519,271
+bertner + elus,51,28,684,359
+timeloclemma + oblcase,115,64,520,271
+timeloclemma + elus,19,9,489,261
+oblcase + elus,142,73,513,256
