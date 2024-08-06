@@ -9,3 +9,5 @@ Rule: phrase or word in phrase is in time/loc lemma list,0.557,0.272,[0.519 0.55
 Rule: verb oblcase (default remove value 0),0.494,0.46,[0.494 0.494],[0.528 0.46 ],494,506,466,534
 Rule: verb oblcase (default remove value 1),0.494,0.522,[0.494 0.494],[0.466 0.522],494,506,528,472
 Rule: elusolend (if phrase/word in phrase is in elusolendid list -> bound),0.508,0.31,[0.504 0.508],[0.7  0.31],505,495,305,695
+EstBertNER_v2 + timeloc lemma list,0.53,0.594,[0.539 0.53 ],[0.474 0.594],534,466,560,440
+EstBertNER_v2 + elusolend list,0.569,0.156,[0.511 0.569],[0.882 0.156],519,481,137,863
