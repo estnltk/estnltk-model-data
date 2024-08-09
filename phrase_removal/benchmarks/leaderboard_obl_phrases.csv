@@ -15,4 +15,6 @@ EstBertNER_v2 + elusolend list,0.569,0.156,[0.511 0.569],[0.882 0.156],519,481,1
 EstRoberta model estbertner_v2,0.594,0.164,[0.515 0.594],[0.888 0.164],526,474,138,862,e20b16lr3e6w000001 cp27615. Trained on 14725+14725 examples that were labelled by EstBertNER_v2
 EstRoberta model estbertner_v2,0.604,0.18,[0.518 0.604],[0.882 0.18 ],531,469,149,851,e20b16lr7e6w0001 cp27615. Trained on 14725+14725 examples that were labelled by EstBertNER_v2
 Estroberta model timeloc lemma,0.545,0.328,[0.519 0.545],[0.726 0.328],527,473,301,699,e20b16lr3e6w000001 cp18350. Trained on 29357+29357 examples that were labelled using timeloc lemma list
-Estroberta model nertagger,0.614,0.124,[0.513 0.614],[0.922 0.124],523,477,101,899,e20b16lr7e6w0001 . Trained on 13981+13981 examples that were labelled by nertagger
+Estroberta model nertagger,0.614,0.124,[0.513 0.614],[0.922 0.124],523,477,101,899,e20b16lr7e6w0001 cp5244. Trained on 13981+13981 examples that were labelled by nertagger
+Estroberta model elusolend,0.5,0.676,[0.5 0.5],[0.324 0.676],500,500,676,324,e20b16lr7e6w0001 cp54488. Trained on 15567+15567 examples that were labelled using elusolendid list
+Estroberta model verbobl,0.516,0.878,[0.591 0.516],[0.176 0.878],527,473,851,149,e20b16lr7e6w0001 cp1875. Trained on 15000+15000 examples that were labelled using verboblcase 
