@@ -5,16 +5,16 @@ TartuNLP Grammatical Error Correction,0.537,0.526,[0.535 0.537],[0.546 0.526],53
 EstRoberta model 1,0.615,0.064,[0.506 0.615],[0.96  0.064],512,488,52,948,e20b16lr3e6w000001 cp1183
 EstRoberta model 2,0.634,0.142,[0.517 0.634],[0.918 0.142],530,470,112,888,e20b16lr7e6w0001_cp1001
 NerTagger,0.607,0.13,[0.513 0.607],[0.916 0.13 ],523,477,107,893, (phrase is LOC or timex -> free)
+Estroberta model nertagger,0.614,0.124,[0.513 0.614],[0.922 0.124],523,477,101,899,e20b16lr7e6w0001 cp5244. Trained on 13981+13981 examples that were labelled by nertagger
 EstBertNER_v2,0.628,0.142,[0.516 0.628],[0.916 0.142],529,471,113,887, (phrase is LOC or timex -> free)
-Rule: time/loc lemma list,0.557,0.272,[0.519 0.557],[0.784 0.272],528,472,244,756,phrase or word in phrase is in time/loc lemma list
-Rule: verb oblcase v1,0.494,0.46,[0.494 0.494],[0.528 0.46 ],494,506,466,534, (default remove value 0)
-Rule: verb oblcase v2,0.494,0.522,[0.494 0.494],[0.466 0.522],494,506,528,472, (default remove value 1)
-Rule: elusolend,0.508,0.31,[0.504 0.508],[0.7  0.31],505,495,305,695, (if phrase/word in phrase is not in elusolendid list -> free)
-EstBertNER_v2 + timeloc lemma list,0.53,0.594,[0.539 0.53 ],[0.474 0.594],534,466,560,440,
-EstBertNER_v2 + elusolend list,0.569,0.156,[0.511 0.569],[0.882 0.156],519,481,137,863,
 EstRoberta model estbertner_v2,0.594,0.164,[0.515 0.594],[0.888 0.164],526,474,138,862,e20b16lr3e6w000001 cp27615. Trained on 14725+14725 examples that were labelled by EstBertNER_v2
 EstRoberta model estbertner_v2,0.604,0.18,[0.518 0.604],[0.882 0.18 ],531,469,149,851,e20b16lr7e6w0001 cp27615. Trained on 14725+14725 examples that were labelled by EstBertNER_v2
+Rule: time/loc lemma list,0.557,0.272,[0.519 0.557],[0.784 0.272],528,472,244,756,phrase or word in phrase is in time/loc lemma list
 Estroberta model timeloc lemma,0.545,0.328,[0.519 0.545],[0.726 0.328],527,473,301,699,e20b16lr3e6w000001 cp18350. Trained on 29357+29357 examples that were labelled using timeloc lemma list
-Estroberta model nertagger,0.614,0.124,[0.513 0.614],[0.922 0.124],523,477,101,899,e20b16lr7e6w0001 cp5244. Trained on 13981+13981 examples that were labelled by nertagger
+Rule: verb oblcase v1,0.494,0.46,[0.494 0.494],[0.528 0.46 ],494,506,466,534, (default remove value 0)
+Rule: verb oblcase v2,0.494,0.522,[0.494 0.494],[0.466 0.522],494,506,528,472, (default remove value 1)
+Estroberta model verb oblcase,0.516,0.878,[0.591 0.516],[0.176 0.878],527,473,851,149,e20b16lr7e6w0001 cp1875. Trained on 15000+15000 examples that were labelled using verboblcase 
+Rule: elusolend,0.508,0.31,[0.504 0.508],[0.7  0.31],505,495,305,695, (if phrase/word in phrase is not in elusolendid list -> free)
 Estroberta model elusolend,0.5,0.676,[0.5 0.5],[0.324 0.676],500,500,676,324,e20b16lr7e6w0001 cp54488. Trained on 15567+15567 examples that were labelled using elusolendid list
-Estroberta model verbobl,0.516,0.878,[0.591 0.516],[0.176 0.878],527,473,851,149,e20b16lr7e6w0001 cp1875. Trained on 15000+15000 examples that were labelled using verboblcase 
+EstBertNER_v2 + timeloc lemma list,0.53,0.594,[0.539 0.53 ],[0.474 0.594],534,466,560,440,
+EstBertNER_v2 + elusolend list,0.569,0.156,[0.511 0.569],[0.882 0.156],519,481,137,863,
