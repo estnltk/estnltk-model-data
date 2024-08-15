@@ -17,6 +17,11 @@ Estroberta model verb oblcase,0.516,0.878,,[0.591 0.516],[0.176 0.878],527,473,8
 Rule: elusolend,0.508,0.31,0.496,[0.504 0.508],[0.7  0.31],505,495,305,695, (if phrase/word in phrase is not in elusolendid list -> free)
 Estroberta model elusolend,0.5,0.676,,[0.5 0.5],[0.324 0.676],500,500,676,324,e20b16lr7e6w0001 cp54488. Trained on 15567+15567 examples that were labelled using elusolendid list
 Rule: kohakääne,0.526,0.524,0.474,[0.526 0.526],[0.528 0.524],526,474,498,502,phrase has a word with locative case in it
+Rule: kohakääne + lisa käänded,0.525,0.648,,[0.54  0.525],[0.414 0.648],531,469,617,383,"in addition to locative cases saav,rajav,olev,ilmaütlev,kaasaütlev can be removed"
+Rule: limited kohakääne,0.479,0.27,,[0.492 0.479],[0.706 0.27 ],488,512,282,718,only sisse/sees/seestütlev can be removed
+Rule: not olema + obl,0.506,0.936,,[0.573 0.506],[0.086 0.936],511,489,925,75,if verb is not a form of ’olema’ then obl can be removed
+Rule: obl + verb list,,,,,,,,,,TODO
 kohakääne + elusolend,0.503,0.466,0.497,[0.503 0.503],[0.54  0.466],503,497,463,537,
 EstBertNER_v2 + timeloc lemma list,0.53,0.594,,[0.539 0.53 ],[0.474 0.594],534,466,560,440,
 EstBertNER_v2 + elusolend list,0.569,0.156,,[0.511 0.569],[0.882 0.156],519,481,137,863,
+EstBertNER_v2 + olema,0.568,0.216,,[0.516 0.568],[0.836 0.216],526,474,190,810,if phrase is ner/timex and verb is not olema -> free
