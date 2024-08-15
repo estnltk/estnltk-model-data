@@ -1,6 +1,7 @@
 model,Precision pos class,Recall pos class,Precision neg class,Precision,Recall,correct,incorrect,predicted yes,predicted no,comment
 ChatGPT 3.5 tokenized sentences,0.541,0.492,,[0.    0.532 0.541],[0.    0.578 0.492],535,465,455,543,
 ChatGPT 3.5 untokenized sentences,0.546,0.706,,[0.    0.581 0.546],[0.    0.408 0.706],557,443,647,351,
+ChatGPT 4 tokenized sentences,0.523,0.954,,[0.    0.741 0.523],[0.    0.126 0.954],540,460,912,85,
 TartuNLP Grammatical Error Correction,0.537,0.526,,[0.535 0.537],[0.546 0.526],536,464,490,510, untokenized sentences
 EstRoberta model 1,0.615,0.064,,[0.506 0.615],[0.96  0.064],512,488,52,948,e20b16lr3e6w000001 cp1183
 EstRoberta model 2,0.634,0.142,,[0.517 0.634],[0.918 0.142],530,470,112,888,e20b16lr7e6w0001_cp1001
