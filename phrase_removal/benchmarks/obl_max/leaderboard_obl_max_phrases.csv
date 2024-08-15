@@ -1,0 +1,10 @@
+model,Precision pos class,Recall pos class,Precision neg class,Precision,Recall,correct,incorrect,predicted yes,predicted no,comment
+NerTagger,0.644,0.136,,[0.527 0.644],[0.928 0.136],1318,1126,253,2191, (phrase is LOC or timex -> free)
+EstBertNER_v2,0.663,0.151,,[0.531 0.663],[0.926 0.151],1334,1110,273,2171, (phrase is LOC or timex -> free)
+Rule: time/loc lemma list,0.534,0.258,0.466,[0.523 0.534],[0.783 0.258],1284,1160,579,1865,phrase or word in phrase is in time/loc lemma list
+Rule: verb oblcase v1,0.488,0.45,0.507,[0.507 0.488],[0.545 0.45 ],1226,1218,1107,1337, (default remove value 0)
+Rule: elusolend,0.506,0.323,0.494,[0.516 0.506],[0.696 0.323],1254,1190,765,1679, (if phrase/word in phrase is not in elusolendid list -> free)
+Rule: kohakääne,0.501,0.511,0.499,[0.52  0.501],[0.509 0.511],1247,1197,1224,1220,phrase has a word with locative case in it
+kohakääne + elusolend,0.489,0.47,0.511,[0.508 0.489],[0.526 0.47 ],1219,1225,1154,1290,
+EstBertNER_v2 + timeloc lemma list,0.517,0.587,,[0.542 0.517],[0.471 0.587],1290,1154,1363,1081,
+EstBertNER_v2 + elusolend list,0.617,0.165,,[0.528 0.617],[0.901 0.165],1320,1124,321,2123,
