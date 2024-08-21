@@ -1,0 +1,6 @@
+freq,adv_type,free_p,bound_p
+199,other,0.48,0.52
+56,event,0.41,0.59
+197,loc,0.55,0.45
+56,time,0.71,0.29
+1,loc,1.0,0.0
