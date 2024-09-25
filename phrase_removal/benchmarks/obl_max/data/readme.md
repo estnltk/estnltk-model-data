@@ -12,6 +12,6 @@ The metrics are calculated based on model predictions vs manual annotation.
 The manual annotations categorize phrases as free or bound. For evaluation, free phrase is categorized as removetype "yes" and bound as removetype "no".
 In case the model categorizes the sentence as grammatically correct or doesn't suggest any corrections, the answer is considered to be removetype "yes", otherwise "no".
 
-The test corpus contains 2444 sentences, 1199 with free and 1245 with bound phrases.
+The test corpus contains 2744 sentences, which are labeled as free, bound, dubious, unnatural, redundant comma, redundant punct.
 
 ## Results
