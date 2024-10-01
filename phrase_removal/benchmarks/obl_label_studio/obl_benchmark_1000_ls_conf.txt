@@ -1,0 +1,18 @@
+
+<View>
+    <Labels name="label" toName="text">
+	<Label value="obl_phrases" background="#B53F48"/> 
+
+</Labels>
+<Text name="text" value="$text"/>
+<Header value="Is the entity free, bound, incorrect or causes unnatural sentence?"/>
+<Choices name="review" toName="text">
+    <Choice value="free"/>
+    <Choice value="bound"/>
+    <Choice value="unnatural"/>
+    <Choice value="incorrect"/>
+    <Choice value="dubious"/>
+    <Choice value="redundant comma"/>
+    <Choice value="other redundant punctuation"/>
+</Choices>
+</View>
