@@ -1,21 +1,14 @@
 
-#  Precision and recall estimation on benchmarks
+# Description
 
-## Algorithms/models
+*_phrases folders contain files for benchmarks. 
 
-* ChatGPT 3.5
-* TartuNLP Grammatical Error Correction
-* EstRoberta model
-* different rule based approaches
+Includes: labeling guides, label-studio, evaluation, data and result files.
 
-## Evaluation/estimation
 
-The metrics are calculated based on model predictions vs manual annotation.  
-The manual annotations categorize phrases as free or bound. For evaluation, free phrase is categorized as removetype "yes" and bound as removetype "no".
-In case the model categorizes the sentence as grammatically correct or doesn't suggest any corrections, the answer is considered to be removetype "yes", otherwise "no".
 
 ## Files
 
-File *labeling_rules.md* contains rules for relabeling the obl phrases.
+File *time_loc_labeling_rules.md* contains rules for relabeling the phrases to categorize them as time, location or other.
 
 
