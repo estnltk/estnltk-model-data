@@ -41,7 +41,8 @@ The benchmark also contains additional annotations about location phrases.
 
 ## Annotation quides
 
-[link to obl hand annotation guide](../labeling_guides/labelling_instructions.md) 
+[link to obl hand annotation guide](../labeling_guides/labelling_instruction.md)
+ 
 [link to time/location annotation guide](../../time_loc_labeling_rules.md)
 
 
