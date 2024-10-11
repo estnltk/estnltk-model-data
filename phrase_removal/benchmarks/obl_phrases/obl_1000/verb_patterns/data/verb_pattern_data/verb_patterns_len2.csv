@@ -1,34 +1,46 @@
-,word,government_with_case,member1_wrd1,member1_wrd2,member2_wrd1,member2_wrd2
-0,abistama,p + in,p,,in,
-1,aitama,ad + p teha,ad,,p,teha.v
-2,ette heitma,all + p,all,,p,
-3,informeerima,p + el,p,,el,
-4,jagama,p + kom,p,,kom,
-5,keelama,ad + p teha,ad,,p,teha.v
-6,kleepima,all + g peale,all,,g,peale.adp
-7,kohtlema,p + kuidas,p,,kuidas.?,
-8,kokku leppima,kom + in,kom,,in,
-9,käskima,ad + p teha,ad,,p,teha.v
-10,küsima,abl + p,abl,,p,
-11,küsima,g käest + p,g,käest.adp,g,
-12,laskma,ad + p teha,ad,,p,teha.v
-13,lubama,ad + p teha,ad,,p,teha.v
-14,läbi rääkima,kom + g suhtes,kom,,g,suhtes.adp
-15,nappima,ad + tr,ad,,tr,
-16,paluma,ad + p teha,ad,,p,teha.v
-17,pidama,p + tr,p,,tr,
-18,piisama,all + el,all,,el,
-19,soovima,all + p,all,,p,
-20,soovitama,ad + p teha,ad,,p,teha.v
-21,sundima,p + p tegema,p,,p,tegema.v
-22,takistama,ad + p teha,ad,,p,teha.v
-23,teavitama,p + el,p,,el,
-24,tooma,all + kom,all,,kom,
-25,tooma,abl + all,abl,,all,
-26,tulema,ad + p teha,ad,,p,teha.v
-27,tunduma,nom + es,nom,,es,
-28,täiendama,p + kom,p,,kom,
-29,tõlkima,nom keelest + nom keelde,nom,keelest.?,nom,keelde.?
-30,vedama,all + kom,all,,kom,
-31,viima,abl + all,abl,,all,
-32,võimaldama,ad + p teha,ad,,p,teha.v
+,word,verb_word,verb_compound,government_with_case,member1_case,member1_adp,member1_other,member2_case,member2_adp,member2_verb,member2_other
+0,abistama,abistama,,part + in,part,,,in,,,
+1,aitama,aitama,,ad + part teha,ad,,,part,,teha,
+2,alla kirjutama,kirjutama,alla,part gen,part,,,gen,,,
+3,ette heitma,heitma,ette,all + part,all,,,part,,,
+4,informeerima,informeerima,,part + el,part,,,el,,,
+5,jagama,jagama,,part + kom,part,,,kom,,,
+6,kaasa lööma,lööma,kaasa,ad in,ad,,,in,,,
+7,kaasa tegema,tegema,kaasa,ad in,ad,,,in,,,
+8,kannatama,kannatama,,gen all,gen,,,all,,,
+9,keelama,keelama,,ad + part teha,ad,,,part,,teha,
+10,kleepima,kleepima,,all + gen peale,all,,,gen,peale,,
+11,kohtlema,kohtlema,,part + kuidas,part,,,,,,kuidas
+12,kokku leppima,leppima,kokku,kom + in,kom,,,in,,,
+13,käskima,käskima,,ad + part teha,ad,,,part,,teha,
+14,kõrvale jääma,jääma,kõrvale,el abl,el,,,abl,,,
+15,küsima,küsima,,abl + part,abl,,,part,,,
+16,küsima,küsima,,gen käest + part,gen,käest,,part,,,
+17,laskma,laskma,,ad + part teha,ad,,,part,,teha,
+18,lubama,lubama,,ad + part teha,ad,,,part,,teha,
+19,läbi rääkima,rääkima,läbi,kom + gen suhtes,kom,,,gen,suhtes,,
+20,mugandama,mugandama,,all kom,all,,,kom,,,
+21,nappima,nappima,,ad + tr,ad,,,tr,,,
+22,nimetama,nimetama,,part tr,part,,,tr,,,
+23,näima,näima,,nom es,nom,,,es,,,
+24,ostma,ostma,,part gen,part,,,gen,,,
+25,paluma,paluma,,ad + part teha,ad,,,part,,teha,
+26,pidama,pidama,,part + tr,part,,,tr,,,
+27,piisama,piisama,,all + el,all,,,el,,,
+28,soovima,soovima,,all + part,all,,,part,,,
+29,soovitama,soovitama,,ad + part teha,ad,,,part,,teha,
+30,sundima,sundima,,part + part tegema,part,,,part,,tegema,
+31,takistama,takistama,,ad + part teha,ad,,,part,,teha,
+32,teada saama,"teada,saama",,el gen kohta,el,,,gen,kohta,,
+33,teavitama,teavitama,,part + el,part,,,el,,,
+34,tooma,tooma,,all + kom,all,,,kom,,,
+35,tooma,tooma,,abl + all,abl,,,all,,,
+36,tulema,tulema,,ad + part teha,ad,,,part,,teha,
+37,tunduma,tunduma,,nom + es,nom,,,es,,,
+38,täiendama,täiendama,,part + kom,part,,,kom,,,
+39,tõlkima,tõlkima,,nom keelest + nom keelde,nom,,keelest,nom,,,keelde
+40,vedama,vedama,,all + kom,all,,,kom,,,
+41,viima,viima,,abl + all,abl,,,all,,,
+42,võimaldama,võimaldama,,ad + part teha,ad,,,part,,teha,
+43,ära harjutama,harjutama,ära,ad part,ad,,,part,,,
+44,ära harjutama,harjutama,ära,part el,part,,,el,,,
