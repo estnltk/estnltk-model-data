@@ -2,7 +2,7 @@
 # Dataset description
 
 The test corpus contains 1000 sentences, 500 with free and 500 with bound phrases.
-The code for creating the benchmark dataset is located at [phrase removal](https://github.com/estnltk/estnltk-model-data/blob/main/phrase_removal/data_generation/obl/01_create%20dataset.ipynb).
+The code for creating the benchmark dataset is located at [data generation](https://github.com/estnltk/estnltk-model-data/blob/main/phrase_removal/data_generation/obl/01_create%20dataset.ipynb).
 
 
 ## Files
