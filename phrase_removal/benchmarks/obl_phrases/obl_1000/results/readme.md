@@ -6,9 +6,9 @@
 
 * `obl_1000_leaderboard.csv`: contains the precision and recall results for all the models.
 
-* `adv_type_removability_summary_locative.csv`: contains ...
+* `adv_type_removability_summary_locative.csv`: contains frequencies of different advmod types in file `obl_1000_verb_lem_adv.csv` and support for each advmod type among bound and free phrases having a word in locative case as root.
 
-* `adv_type_removability_summary.csv`: contains ...
+* `adv_type_removability_summary.csv`: contains frequencies of different advmod types in file `obl_1000_verb_lem_adv.csv` and support for each advmod type among all bound and free phrases.
 
 
 
