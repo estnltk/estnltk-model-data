@@ -22,29 +22,12 @@ In case the model categorizes the sentence as grammatically correct or doesn't s
 
 [leaderboard_obl_1000_phrases.csv](results/obl_1000_leaderboard.csv) 
 
-corresponding code for calculating precision and recall: 
-
-[chatgpt 3.5 eval](evaluation/chatgpt35_eval.ipynb)
-
-[Grammatical Error Correction eval](evaluation/grammatical_error_correction_eval.ipynb)
-
-[BERT model eval](evaluation/model_eval_template.ipynb) 
-
-[Creating the benchmark graph](evaluation/benchmark_graph.ipynb) 
+Corresponding code for calculating precision and recall can be found in the [evaluation folder](evaluation/). The code for creating benchmark graph is also in the evaluation folder.
 
 
 ## Additional annotations
 
-The benchmark also contains additional annotations about location phrases.
-
-
-
-## Annotation quides
-
-[link to obl hand annotation guide](../labeling_guides/labelling_instruction.md)
- 
-[link to time/location annotation guide](../../time_loc_labeling_rules.md)
-
+The benchmark also contains additional annotations about location phrases. The annotation guides can be found [here](../labeling_guides/).
 
 
 
