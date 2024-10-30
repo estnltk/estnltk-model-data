@@ -1,7 +1,7 @@
 
 <View>
     <Labels name="label" toName="text">
-	<Label value="obl_phrases" background="#B53F48"/> 
+	<Label value="obl" background="#B53F48"/> 
 
 </Labels>
 <Text name="text" value="$text"/>
