@@ -347,6 +347,13 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
         if sense_matching_auto_fid is None and full_matching_auto_fid is None and len(evoking_verb_matching_auto_fids) == 0:
             # A missing frame: has no matching auto frames found
             results['frame_missing'] = results.setdefault('frame_missing', 0) + 1
+            # Record exact lemma of a missing verb + count its occurrences
+            results.setdefault('frame_missing_verb_lemmas', dict())
+            results['frame_missing_verb_lemmas'][ gold_frame['verb_lemma'] ] = \
+                results['frame_missing_verb_lemmas'].setdefault( gold_frame['verb_lemma'], 0 ) + 1
+            # Record exact missing verb sentences
+            results.setdefault('frame_missing_sentences', set())
+            results['frame_missing_sentences'].add( f'{gold_frame["verb_lemma"]}|{sentence_conll.enclosing_text}' )
     # Check for totally redundant frames (no matching verb lemma in gold standard)
     for fid, auto_frame in enumerate( auto_semantic_roles ):
         verb_lemma = re.sub( '_[0-9]+$', '', auto_frame.annotations[0]['sense_id'] )
@@ -359,6 +366,12 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
             results['frame_redundant'] = results.setdefault('frame_redundant', 0) + 1
     results['sentences'] = results.setdefault('sentences', 0) + 1
 
+
+def sorted_frame_missing_verb_lemmas( eval_results: dict ):
+    '''Returns sorted list of missing verb lemmas and corresponding frequencies from eval_results.'''
+    frame_missing_verb_lemmas = eval_results['frame_missing_verb_lemmas']
+    sorted_lemmas = sorted(frame_missing_verb_lemmas.keys(), key=frame_missing_verb_lemmas.get, reverse=True)
+    return [(lemma, frame_missing_verb_lemmas[lemma] ) for lemma in sorted_lemmas]
 
 
 def summarize_eval_accuracies( eval_results: dict, return_dataframes: bool=False ):
