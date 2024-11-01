@@ -6,5 +6,4 @@ This repository contains resources for building a lexicon for [PropBankPreannota
 
 * [`02_convert_conllu_to_estnltk_json.ipynb`](02_convert_conllu_to_estnltk_json.ipynb) -- Converts conllu files with semantic role annotations to EstNLTK Text objects, splits into sentences and saves as JSON objects. This is a preprocessing step required for evaluation of PropBankPreannotator's performance.
 
-
-* [`03_eval_propbank_preannotator_edt_gold.ipynb`](03_eval_propbank_preannotator_edt_gold.ipynb)
+* [`03_eval_propbank_preannotator_edt_gold.ipynb`](03_eval_propbank_preannotator_edt_gold.ipynb) -- Evaluates  PropBankPreannotator on (JSON format) EDT corpus files. 

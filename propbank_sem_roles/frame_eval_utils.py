@@ -251,11 +251,13 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
                                                   auto_arg_base_spans) )
                     all_matching_auto_frames.add( fid )
         # 1) Evaluate auto frame that has a matching sense
+        evoking_verb_matching_auto_fids = []
         sense_matching_auto_fid = None
         full_matching_auto_fid = None
         for fid, (_, auto_verb_span, auto_verb_sense, auto_arg_spans) in enumerate(matching_auto_frames):
             if auto_verb_sense == verb_with_sense:
                 # Sense of the auto frame matches that of the golden frame
+                evoking_verb_matching_auto_fids.append( fid )
                 sense_matching_auto_fid = fid
                 results['frame_verb_sense_match'] = results.setdefault('frame_verb_sense_match', 0) + 1
                 # Compare arguments
@@ -304,6 +306,10 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
                     results['frame_full_match'] = results.setdefault('frame_full_match', 0) + 1
                     full_matching_auto_fid = fid
             else:
+                # Check whether we have an evoking verb match
+                auto_verb_lemma = re.sub( '_[0-9]+$', '', auto_verb_sense )
+                if auto_verb_lemma == gold_frame['verb_lemma']:
+                    evoking_verb_matching_auto_fids.append( fid )
                 # This was a redundant auto frame (verb location is correct, but sense is wrong)
                 results['frame_verb_sense_redundant'] = results.setdefault('frame_verb_sense_redundant', 0) + 1
         if sense_matching_auto_fid is not None and len(matching_auto_frames) > 1:
@@ -335,7 +341,10 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
                             if contained == len(auto_arg_spans):
                                 results['frame_verb_sense_redundant_contained_full_match'] = \
                                     results.setdefault('frame_verb_sense_redundant_contained_full_match', 0) + 1
-        if sense_matching_auto_fid is None and full_matching_auto_fid is None:
+        if len(evoking_verb_matching_auto_fids) > 0:
+            # Record evoking verb match (we know that this verb should evoke some kind of a frame)
+            results['frame_evoking_verb_match'] = results.setdefault('frame_evoking_verb_match', 0) + 1
+        if sense_matching_auto_fid is None and full_matching_auto_fid is None and len(evoking_verb_matching_auto_fids) == 0:
             # A missing frame: has no matching auto frames found
             results['frame_missing'] = results.setdefault('frame_missing', 0) + 1
     # Check for totally redundant frames (no matching verb lemma in gold standard)
@@ -361,21 +370,24 @@ def summarize_eval_accuracies( eval_results: dict, return_dataframes: bool=False
        Returns frame_results, arg_results.
     '''
     # Results on frame annotation
-    discarded_gold_frames = eval_results.get('discarded_gold_frames', 0)
-    frame_auto_total      = eval_results.get('frame_auto_total', 0)
-    frame_gold_total      = eval_results.get('frame_gold_total', 0)
-    frame_missing         = eval_results.get('frame_missing', 0)
-    frame_redundant       = eval_results.get('frame_redundant', 0)
-    frame_full_match      = eval_results.get('frame_full_match', 0)
-    frame_sense_match     = eval_results.get('frame_verb_sense_match', 0)
-    frame_sense_redundant = eval_results.get('frame_verb_sense_redundant', 0)
+    discarded_gold_frames    = eval_results.get('discarded_gold_frames', 0)
+    frame_auto_total         = eval_results.get('frame_auto_total', 0)
+    frame_gold_total         = eval_results.get('frame_gold_total', 0)
+    frame_missing            = eval_results.get('frame_missing', 0)
+    frame_redundant          = eval_results.get('frame_redundant', 0)
+    frame_full_match         = eval_results.get('frame_full_match', 0)
+    frame_sense_match        = eval_results.get('frame_verb_sense_match', 0)
+    frame_evoking_verb_match = eval_results.get('frame_evoking_verb_match', 0)
+    frame_sense_redundant    = eval_results.get('frame_verb_sense_redundant', 0)
     frame_results = OrderedDict()
     if frame_gold_total > 0:
-        frame_results['full match accuracy']  = f'{(frame_full_match/frame_gold_total*100.0):.2f}'
+        frame_results['full frame match accuracy']  = f'{(frame_full_match/frame_gold_total*100.0):.2f}'
         frame_results['sense match accuracy'] = f'{(frame_sense_match/frame_gold_total*100.0):.2f}'
+        frame_results['evoking verb match accuracy'] = f'{(frame_evoking_verb_match/frame_gold_total*100.0):.2f}'
     else:
-        frame_results['full match accuracy'] = f'N/A'
+        frame_results['full frame match accuracy'] = f'N/A'
         frame_results['sense match accuracy'] = f'N/A'
+        frame_results['evoking verb match accuracy'] = f'N/A'
     if frame_auto_total > 0:
         frame_results['redundant senses %'] = f'{(frame_sense_redundant/frame_auto_total*100.0):.2f}%'
         frame_results['redundant frames %'] = f'{(frame_redundant/frame_auto_total*100.0):.2f}%'
@@ -388,6 +400,7 @@ def summarize_eval_accuracies( eval_results: dict, return_dataframes: bool=False
         frame_results['missing frames %'] = f'N/A'
     frame_results['fully matching'] = frame_full_match
     frame_results['sense matching'] = frame_sense_match
+    frame_results['evoking verb matching'] = frame_evoking_verb_match
     frame_results['redundant senses'] = frame_sense_redundant
     frame_results['redundant frames'] = frame_redundant
     frame_results['missing frames']   = frame_missing
