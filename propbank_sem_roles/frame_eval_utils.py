@@ -1,5 +1,5 @@
 #
-#    Functions for evaluating (and debugging) automatic verb frame and semantic 
+#    Functions for evaluating and debugging automatic verb frame and semantic 
 #   role detection performance. 
 #
 
@@ -365,6 +365,33 @@ def eval_propbank_preannotator_on_sentence_conll( sentence_conll: 'Layer', auto_
             # This was a redundant auto frame
             results['frame_redundant'] = results.setdefault('frame_redundant', 0) + 1
     results['sentences'] = results.setdefault('sentences', 0) + 1
+
+
+def format_matching_gold_and_auto_annotations_as_str( sentence_conll, gold_frame, matching_auto_frames ):
+    '''Formats gold_frame and corresponding matching_auto_frames as an annotated sentence string.
+       ( for debugging purposes )'''
+    word_max_len = 0
+    for word in sentence_conll:
+        word_max_len = len(word.text) if len(word.text) > word_max_len else word_max_len
+    res_str = []
+    gold_arg_base_spans = \
+        [ (gold_arg['arg'], gold_arg['base_span']) for gold_arg in gold_frame['args'] ]
+    for word in sentence_conll:
+        annotation = word.annotations[0]
+        res_str.append( ('{:'+str(word_max_len+1)+'}').format(word.text) )
+        if word.base_span == gold_frame['verb_base_span']:
+            res_str[-1] += f'|gold: {gold_frame["verb"]}'
+        for gold_arg in gold_frame['args']:
+            if word.base_span == gold_arg['base_span']:
+                res_str[-1] += f'|gold: {gold_frame["verb"]} {gold_arg["arg"]}'
+        for (_, auto_verb_span, auto_verb_sense, auto_arg_spans) in matching_auto_frames:
+            if word.base_span == auto_verb_span:
+                res_str[-1] += f'|auto: {auto_verb_sense}'
+            for (auto_argn, auto_base_spans) in auto_arg_spans:
+                for auto_base_span in auto_base_spans:
+                    if word.base_span == auto_base_span:
+                        res_str[-1] += f'|auto: {auto_verb_sense} {auto_argn}'
+    return '\n'.join( res_str )
 
 
 def sorted_frame_missing_verb_lemmas( eval_results: dict ):
