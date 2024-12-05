@@ -8,4 +8,4 @@ This repository contains resources for building a lexicon for [PropBankPreannota
 
 * [`03_eval_propbank_preannotator_edt_gold.ipynb`](03_eval_propbank_preannotator_edt_gold.ipynb) -- Evaluates  PropBankPreannotator on (JSON format) EDT corpus files. 
 
-* [`04_convert_propbank_frames_to_verb_patterns_db.ipynb`](04_convert_propbank_frames_to_verb_patterns_db.ipynb) -- Converts a subset of PropBankPreannotator's lexicon (`'propbank_frames.jl'`) to [verb patterns](https://github.com/estnltk/syntax_experiments/blob/verb_templates/verb_patterns/vp_data2_documentation/patterns.md) sqlite3 database.   
+* [`04_convert_propbank_frames_to_verb_patterns_db.ipynb`](04_convert_propbank_frames_to_verb_patterns_db.ipynb) -- Converts PropBankPreannotator's lexicon (`'propbank_frames.jl'`) to [verb patterns](https://github.com/estnltk/syntax_experiments/blob/verb_templates/verb_patterns/vp_data2_documentation/patterns.md) sqlite3 database.   
