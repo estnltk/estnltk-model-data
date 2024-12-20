@@ -3,7 +3,7 @@
 # ud_version = 2.11
 # text = Muljet süvendasid veelgi järsu nurga all langev kõrge otsaesine , pügatud tumedad juuksed ning teravalt esiletungiv lõug .
 1	Muljet	Muljet	S	S	prop=prop|sg=sg|nom=nom	2	obj	_	_
-2	süvendasid	süvendama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+2	süvendasid	süvendama	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 3	veelgi	veelgi	D	D	_	4	advmod	_	_
 4	järsu	järsk	A	A	pos=pos|sg=sg|gen=gen	5	amod	_	_
 5	nurga	nurk	S	S	com=com|sg=sg|gen=gen	7	obl	_	_
@@ -12,7 +12,7 @@
 8	kõrge	kõrge	A	A	pos=pos|sg=sg|nom=nom	9	amod	_	_
 9	otsaesine	otsaesine	S	S	com=com|sg=sg|nom=nom	2	nsubj	_	_
 10	,	,	Z	Z	_	13	punct	_	_
-11	pügatud	pügatud	A	A	pos=pos|pl=pl|nom=nom	13	acl	_	_
+11	pügatud	pügama	V	V	aux=aux|partic=partic|past=past|imps=imps	13	acl	_	_
 12	tumedad	tume	A	A	pos=pos|pl=pl|nom=nom	13	amod	_	_
 13	juuksed	juus	S	S	com=com|pl=pl|nom=nom	9	conj	_	_
 14	ning	ning	J	J	sub=sub|crd=crd	17	cc	_	_
@@ -26,31 +26,31 @@
 # cut_word_ids = 9,10,11
 # ud_version = 2.11
 # text = Tal on õpitud abituse sündroom : ta teab , et ta on vilets , aga tal on lihtsam , kui temaga suheldakse kui jobuga .
-1	Tal	tema	P	P	sg=sg|ad=ad	3	obl	_	_
-2	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	aux	_	_
-3	õpitud	õppima	V	V	mod=mod|indic=indic|impf=impf|imps=imps|neg=neg	0	root	_	_
+1	Tal	tema	P	P	sg=sg|ad=ad	0	root	_	_
+2	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	1	cop	_	_
+3	õpitud	õppima	V	V	aux=aux|indic=indic|impf=impf|imps=imps|neg=neg	4	acl	_	_
 4	abituse	abitus	S	S	com=com|sg=sg|gen=gen	5	nmod	_	_
-5	sündroom	sündroom	S	S	com=com|sg=sg|nom=nom	3	obj	_	_
+5	sündroom	sündroom	S	S	com=com|sg=sg|nom=nom	1	nsubj:cop	_	_
 6	:	:	Z	Z	_	8	punct	_	_
 7	ta	tema	P	P	sg=sg|nom=nom	8	nsubj	_	_
-8	teab	teadma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	parataxis	_	_
+8	teab	teadma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	1	parataxis	_	_
 9	,	,	Z	Z	_	13	punct	_	_
 10	et	et	J	J	sub=sub|crd=crd	13	mark	_	_
 11	ta	tema	P	P	sg=sg|nom=nom	13	nsubj:cop	_	_
-12	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	13	cop	_	_
+12	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	13	cop	_	_
 13	vilets	vilets	A	A	pos=pos|sg=sg|nom=nom	8	ccomp	_	_
 14	,	,	Z	Z	_	18	punct	_	_
 15	aga	aga	J	J	sub=sub|crd=crd	18	cc	_	_
 16	tal	tema	P	P	sg=sg|ad=ad	18	obl	_	_
-17	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	18	cop	_	_
+17	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	18	cop	_	_
 18	lihtsam	lihtsam	A	A	comp=comp|sg=sg|nom=nom	13	conj	_	_
 19	,	,	Z	Z	_	22	punct	_	_
-20	kui	kui	J	J	sub=sub|crd=crd	22	mark	_	_
+20	kui	kui	D	D	_	22	mark	_	_
 21	temaga	tema	P	P	sg=sg|kom=kom	22	obl	_	_
 22	suheldakse	suhtlema	V	V	aux=aux|indic=indic|pres=pres|imps=imps|af=af	18	advcl	_	_
 23	kui	kui	J	J	sub=sub|crd=crd	24	mark	_	_
 24	jobuga	jobu	S	S	com=com|sg=sg|kom=kom	22	advcl	_	_
-25	.	.	Z	Z	_	3	punct	_	_
+25	.	.	Z	Z	_	1	punct	_	_
 
 
 # sent_id = aja_ml200247_1665
@@ -58,7 +58,7 @@
 # ud_version = 2.11
 # text = - Politsei suunas Tallinna tänavaile rohkem patrulle .
 1	-	-	Z	Z	_	7	punct	_	_
-2	Politsei	politsei	S	S	com=com|sg=sg|gen=gen	7	nmod	_	_
+2	Politsei	politsei	S	S	com=com|sg=sg|gen=gen	7	obl	_	_
 3	suunas	suunas	K	K	post=post	2	case	_	_
 4	Tallinna	Tallinn	S	S	prop=prop|sg=sg|gen=gen	5	nmod	_	_
 5	tänavaile	tänav	S	S	com=com|pl=pl|all=all	7	nmod	_	_
@@ -72,12 +72,12 @@
 # ud_version = 2.11
 # text = Kell pool viis hommikul tuli kohal olla .
 1	Kell	kell	S	S	com=com|sg=sg|nom=nom	5	obl	_	_
-2	pool	pool	N	N	card=card|sg=sg|nom=nom|l=l	3	nummod	_	_
-3	viis	viis	N	N	card=card|sg=sg|nom=nom|l=l	5	nsubj	_	_
-4	hommikul	hommik	S	S	com=com|sg=sg|ad=ad	3	nmod	_	_
-5	tuli	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+2	pool	pool	N	N	card=card|sg=sg|nom=nom|l=l	1	nummod	_	_
+3	viis	viis	N	N	card=card|sg=sg|nom=nom|l=l	4	nummod	_	_
+4	hommikul	hommik	S	S	com=com|sg=sg|ad=ad	1	nmod	_	_
+5	tuli	tulema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 6	kohal	kohal	D	D	_	5	compound:prt	_	_
-7	olla	olema	V	V	mod=mod|inf=inf	5	csubj	_	_
+7	olla	olema	V	V	main=main|inf=inf	5	csubj	_	_
 8	.	.	Z	Z	_	5	punct	_	_
 
 
@@ -86,16 +86,16 @@
 # ud_version = 2.11
 # text = Tomahawk lendab väga pinnalähedaselt ja teda on radaritega väga raske avastada .
 1	Tomahawk	Tomahawk	S	S	prop=prop|sg=sg|nom=nom	2	nsubj	_	_
-2	lendab	lendama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+2	lendab	lendama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 3	väga	väga	D	D	_	4	advmod	_	_
 4	pinnalähedaselt	pinnalähedane	S	S	com=com|sg=sg|abl=abl	2	obl	_	_
 5	ja	ja	J	J	sub=sub|crd=crd	10	cc	_	_
 6	teda	tema	P	P	sg=sg|part=part	11	obj	_	_
-7	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	10	cop	_	_
+7	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	10	cop	_	_
 8	radaritega	radar	S	S	com=com|pl=pl|kom=kom	10	obl	_	_
 9	väga	väga	D	D	_	10	advmod	_	_
 10	raske	raske	A	A	pos=pos|sg=sg|nom=nom	2	conj	_	_
-11	avastada	avastama	V	V	main=main|inf=inf	10	csubj:cop	_	_
+11	avastada	avastama	V	V	aux=aux|inf=inf	10	csubj:cop	_	_
 12	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -104,18 +104,18 @@
 # ud_version = 2.11
 # text = Tomahawk lendab väga pinnalähedaselt u 900 km/h ja teda on väga raske avastada .
 1	Tomahawk	Tomahawk	S	S	prop=prop|sg=sg|nom=nom	2	nsubj	_	_
-2	lendab	lendama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+2	lendab	lendama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 3	väga	väga	D	D	_	4	advmod	_	_
 4	pinnalähedaselt	pinnalähedane	S	S	com=com|sg=sg|abl=abl	2	obl	_	_
-5	u	u	Y	Y	nominal=nominal	6	nmod	_	_
+5	u	u	Y	Y	nominal=nominal	7	nmod	_	_
 6	900	900	N	N	card=card|<?>=<?>|digit=digit	7	nummod	_	_
 7	km/h	km/h	Y	Y	nominal=nominal	2	obl	_	_
 8	ja	ja	J	J	sub=sub|crd=crd	12	cc	_	_
 9	teda	tema	P	P	sg=sg|part=part	13	obj	_	_
-10	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	12	cop	_	_
+10	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	12	cop	_	_
 11	väga	väga	D	D	_	12	advmod	_	_
 12	raske	raske	A	A	pos=pos|sg=sg|nom=nom	2	conj	_	_
-13	avastada	avastama	V	V	mod=mod|inf=inf	12	csubj:cop	_	_
+13	avastada	avastama	V	V	aux=aux|inf=inf	12	csubj:cop	_	_
 14	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -127,14 +127,14 @@
 2	Eestis	Eesti	S	S	prop=prop|sg=sg|in=in	5	obl	_	_
 3	võis	võima	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	aux	_	_
 4	aktsiahullust	aktsiahullus	S	S	com=com|sg=sg|part=part	5	obj	_	_
-5	põhjendada	põhjendama	V	V	aux=aux|inf=inf	10	advcl	_	_
+5	põhjendada	põhjendama	V	V	main=main|inf=inf	10	advcl	_	_
 6	,	,	Z	Z	_	5	punct	_	_
 7	siis	siis	J	J	sub=sub|crd=crd	10	advmod	_	_
 8	USAs	USA	Y	Y	nominal=nominal|sg=sg|in=in	9	obl	_	_
 9	toimuv	toimuv	A	A	pos=pos|sg=sg|nom=nom	10	nsubj	_	_
-10	meenutab	meenutama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+10	meenutab	meenutama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 11	kerkivate	kerkiv	A	A	pos=pos|pl=pl|gen=gen	12	acl	_	_
-12	panustega	panus	S	S	com=com|pl=pl|kom=kom	13	nmod	_	_
+12	panustega	panus	S	S	com=com|pl=pl|kom=kom	10	obl	_	_
 13	pokkerit	pokker	S	S	com=com|sg=sg|part=part	10	obj	_	_
 14	.	.	Z	Z	_	10	punct	_	_
 
@@ -142,8 +142,8 @@
 # sent_id = ilu_orlau_99
 # cut_word_ids = 1,2
 # ud_version = 2.11
-# text = paistis suur hall kivi .
-1	paistis	paistma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+# text = Paistis suur hall kivi .
+1	Paistis	paistma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 2	suur	suur	A	A	pos=pos|sg=sg|nom=nom	4	amod	_	_
 3	hall	hall	A	A	pos=pos|sg=sg|nom=nom	4	amod	_	_
 4	kivi	kivi	S	S	com=com|sg=sg|nom=nom	1	nsubj	_	_
@@ -160,7 +160,7 @@
 4	raskemale	raskem	A	A	comp=comp|sg=sg|all=all	6	amod	_	_
 5	kliinilisele	kliiniline	A	A	pos=pos|sg=sg|all=all	6	amod	_	_
 6	algseisundile	algseisund	S	S	com=com|sg=sg|all=all	7	obl	_	_
-7	vähenes	vähenema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+7	vähenes	vähenema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 8	neil	tema	P	P	pl=pl|ad=ad	7	obl	_	_
 9	paravertebraalsete	paravertebraalne	A	A	pos=pos|pl=pl|gen=gen	10	amod	_	_
 10	punktide	punkt	S	S	com=com|pl=pl|gen=gen	11	nmod	_	_
@@ -171,7 +171,7 @@
 15	ambulatoorsete	ambulatoorne	A	A	pos=pos|pl=pl|gen=gen	16	amod	_	_
 16	haigetega	haige	S	S	com=com|pl=pl|kom=kom	7	obl	_	_
 17	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
-18	vähenes	vähenema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	7	conj	_	_
+18	vähenes	vähenema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	7	conj	_	_
 19	ka	ka	D	D	_	20	advmod	_	_
 20	valu	valu	S	S	com=com|sg=sg|nom=nom	18	nsubj	_	_
 21	lülisamba	lülisammas	S	S	com=com|sg=sg|gen=gen	22	nmod	_	_
@@ -179,7 +179,7 @@
 23	(	(	Z	Z	_	24	punct	_	_
 24	p	p	Y	Y	nominal=nominal	22	parataxis	_	_
 25	=	=	Z	Z	_	24	flat	_	_
-26	0,054	0,054	N	N	card=card|<?>=<?>|digit=digit	24	flat	_	_
+26	0,054	0,054	N	N	card=card|<?>=<?>|digit=digit	24	nummod	_	_
 27	)	)	Z	Z	_	24	punct	_	_
 28	ning	ning	J	J	sub=sub|crd=crd	31	cc	_	_
 29	pea	pea	S	S	com=com|sg=sg|gen=gen	30	nmod	_	_
@@ -187,7 +187,7 @@
 31	piiratus	piiratus	S	S	com=com|sg=sg|nom=nom	20	conj	_	_
 32	(	(	Z	Z	_	33	punct	_	_
 33	p	p	Y	Y	nominal=nominal	31	parataxis	_	_
-34	=	=	Z	Z	_	33	punct	_	_
+34	=	=	Z	Z	_	33	flat	_	_
 35	0,056	0,056	N	N	card=card|<?>=<?>|digit=digit	33	nummod	_	_
 36	)	)	Z	Z	_	33	punct	_	_
 37	.	.	Z	Z	_	7	punct	_	_
@@ -197,20 +197,20 @@
 # cut_word_ids = 4,5,6,7
 # ud_version = 2.11
 # text = Liisis omal ajal korralikud seadmed , mida piima praeguse hinnaga pole lootustki tasa teenida .
-1	Liisis	liisima	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+1	Liisis	liisima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 2	omal	oma	P	P	sg=sg|ad=ad	3	nmod	_	_
 3	ajal	aeg	S	S	com=com|sg=sg|ad=ad	1	obl	_	_
 4	korralikud	korralik	A	A	pos=pos|pl=pl|nom=nom	5	amod	_	_
 5	seadmed	seade	S	S	com=com|pl=pl|nom=nom	1	nsubj	_	_
 6	,	,	Z	Z	_	10	punct	_	_
-7	mida	mis	P	P	sg=sg|part=part	10	nmod	_	_
-8	piima	piim	S	S	com=com|sg=sg|part=part	10	nmod	_	_
+7	mida	mis	P	P	sg=sg|part=part	10	nsubj:cop	_	_
+8	piima	piim	S	S	com=com|sg=sg|part=part	10	nsubj:cop	_	_
 9	praeguse	praegune	A	A	pos=pos|sg=sg|gen=gen	10	amod	_	_
 10	hinnaga	hind	S	S	com=com|sg=sg|kom=kom	5	acl:relcl	_	_
-11	pole	olema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	10	cop	_	_
+11	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	10	cop	_	_
 12	lootustki	lootus	S	S	com=com|sg=sg|part=part	10	nsubj:cop	_	_
-13	tasa	tasa	D	D	_	14	compound:prt	_	_
-14	teenida	teenima	V	V	mod=mod|inf=inf	12	acl	_	_
+13	tasa	tasa	D	D	_	14	advmod	_	_
+14	teenida	teenima	V	V	aux=aux|inf=inf	12	acl	_	_
 15	.	.	Z	Z	_	1	punct	_	_
 
 
@@ -218,7 +218,7 @@
 # cut_word_ids = 12,13,14
 # ud_version = 2.11
 # text = Liisis omal ajal 700 000 krooni eest korralikud seadmed , mida pole lootustki tasa teenida .
-1	Liisis	liisima	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+1	Liisis	liisima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 2	omal	oma	P	P	sg=sg|ad=ad	3	nmod	_	_
 3	ajal	aeg	S	S	com=com|sg=sg|ad=ad	1	obl	_	_
 4	700	700	N	N	card=card|<?>=<?>|digit=digit	5	compound	_	_
@@ -226,13 +226,13 @@
 6	krooni	kroon	S	S	com=com|sg=sg|gen=gen	1	obl	_	_
 7	eest	eest	K	K	post=post	6	case	_	_
 8	korralikud	korralik	A	A	pos=pos|pl=pl|nom=nom	9	amod	_	_
-9	seadmed	seade	S	S	com=com|pl=pl|nom=nom	1	obj	_	_
+9	seadmed	seade	S	S	com=com|pl=pl|nom=nom	1	nsubj	_	_
 10	,	,	Z	Z	_	12	punct	_	_
-11	mida	mis	P	P	pl=pl|part=part	15	obj	_	_
-12	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	9	acl:relcl	_	_
+11	mida	mis	P	P	sg=sg|part=part	15	obj	_	_
+12	pole	olema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	9	acl:relcl	_	_
 13	lootustki	lootus	S	S	com=com|sg=sg|part=part	12	nsubj	_	_
-14	tasa	tasa	D	D	_	15	compound:prt	_	_
-15	teenida	teenima	V	V	aux=aux|inf=inf	13	acl	_	_
+14	tasa	tasa	D	D	_	15	advmod	_	_
+15	teenida	teenima	V	V	main=main|inf=inf	13	acl	_	_
 16	.	.	Z	Z	_	1	punct	_	_
 
 
@@ -245,11 +245,11 @@
 3	ravi	ravi	S	S	com=com|sg=sg|gen=gen	4	nmod	_	_
 4	võimaluseks	võimalus	S	S	com=com|sg=sg|tr=tr	6	xcomp	_	_
 5	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	6	aux	_	_
-6	kahjustatud	kahjustama	V	V	aux=aux|indic=indic|impf=impf|imps=imps|neg=neg	0	root	_	_
+6	kahjustatud	kahjustatud	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 7	rakkude	rakk	S	S	com=com|pl=pl|gen=gen	8	nmod	_	_
 8	õppimisvõime	õppimisvõime	S	S	com=com|sg=sg|gen=gen	9	nmod	_	_
 9	parandamine	parandamine	S	S	com=com|sg=sg|nom=nom	6	obj	_	_
-10	kaltsiumi	kaltsium	S	S	com=com|sg=sg|part=part	11	nmod	_	_
+10	kaltsiumi	kaltsium	S	S	com=com|sg=sg|part=part	12	obj	_	_
 11	homeostaasi	homeostaas	S	S	com=com|sg=sg|adit=adit	12	obj	_	_
 12	reguleerides	reguleerima	V	V	mod=mod|ger=ger	6	advcl	_	_
 13	.	.	Z	Z	_	6	punct	_	_
@@ -264,7 +264,7 @@
 3	kehvavõitu	kehvavõitu	D	D	_	0	root	_	_
 4	,	,	Z	Z	_	6	punct	_	_
 5	aga	aga	J	J	sub=sub|crd=crd	6	cc	_	_
-6	sain	saama	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	3	conj	_	_
+6	sain	saama	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	3	conj	_	_
 7	jagu	jagu	S	S	com=com|sg=sg|part=part	6	obj	_	_
 8	.	.	Z	Z	_	3	punct	_	_
 
@@ -273,7 +273,7 @@
 # cut_word_ids = 12,13
 # ud_version = 2.11
 # text = Antiagregandid ( aspiriin , tiklopidiin , klopidogreel , dipüridamool ) aitavad nii suurte kui väikeste veresoonte kahjustusest põhjustatud VD korral .
-1	Antiagregandid	Antiagregand	S	S	prop=prop|pl=pl|nom=nom	11	nsubj	_	_
+1	Antiagregandid	Antiagregandi	S	S	prop=prop|pl=pl|nom=nom	11	nsubj	_	_
 2	(	(	Z	Z	_	3	punct	_	_
 3	aspiriin	aspiriin	S	S	com=com|sg=sg|nom=nom	1	parataxis	_	_
 4	,	,	Z	Z	_	5	punct	_	_
@@ -283,15 +283,15 @@
 8	,	,	Z	Z	_	9	punct	_	_
 9	dipüridamool	dipüridamool	S	S	com=com|sg=sg|nom=nom	3	conj	_	_
 10	)	)	Z	Z	_	3	punct	_	_
-11	aitavad	aitama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+11	aitavad	aitama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 12	nii	nii	D	D	_	13	cc:preconj	_	_
 13	suurte	suur	A	A	pos=pos|pl=pl|gen=gen	16	amod	_	_
-14	kui	kui	J	J	sub=sub|crd=crd	15	cc	_	_
+14	kui	kui	D	D	_	15	cc	_	_
 15	väikeste	väikene	A	A	pos=pos|pl=pl|gen=gen	13	conj	_	_
 16	veresoonte	veresoon	S	S	com=com|pl=pl|gen=gen	17	nmod	_	_
 17	kahjustusest	kahjustus	S	S	com=com|sg=sg|el=el	18	obl	_	_
-18	põhjustatud	põhjustama	V	V	mod=mod|partic=partic|past=past|imps=imps	11	xcomp	_	_
-19	VD	VD	Y	Y	nominal=nominal	18	obl	_	_
+18	põhjustatud	põhjustama	V	V	mod=mod|partic=partic|past=past|imps=imps	19	acl	_	_
+19	VD	VD	Y	Y	nominal=nominal	11	obl	_	_
 20	korral	korral	K	K	post=post	19	case	_	_
 21	.	.	Z	Z	_	11	punct	_	_
 
@@ -300,7 +300,7 @@
 # cut_word_ids = 14,15,16,17,18,19,20,21,22
 # ud_version = 2.11
 # text = Antiagregandid ( aspiriin , tiklopidiin , klopidogreel , dipüridamool ) aitavad sekundaarseks preventsiooniks .
-1	Antiagregandid	Antiagregand	S	S	prop=prop|pl=pl|nom=nom	11	nsubj	_	_
+1	Antiagregandid	Antiagregandi	S	S	prop=prop|pl=pl|nom=nom	11	nsubj	_	_
 2	(	(	Z	Z	_	3	punct	_	_
 3	aspiriin	aspiriin	S	S	com=com|sg=sg|nom=nom	1	parataxis	_	_
 4	,	,	Z	Z	_	5	punct	_	_
@@ -310,7 +310,7 @@
 8	,	,	Z	Z	_	9	punct	_	_
 9	dipüridamool	dipüridamool	S	S	com=com|sg=sg|nom=nom	3	conj	_	_
 10	)	)	Z	Z	_	3	punct	_	_
-11	aitavad	aitama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+11	aitavad	aitama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 12	sekundaarseks	sekundaarne	A	A	pos=pos|sg=sg|tr=tr	13	amod	_	_
 13	preventsiooniks	preventsioon	S	S	com=com|sg=sg|tr=tr	11	xcomp	_	_
 14	.	.	Z	Z	_	11	punct	_	_
@@ -320,7 +320,7 @@
 # cut_word_ids = 17,18,19,20,21,22
 # ud_version = 2.11
 # text = Selgus , et kompleksne ravi Eesti sanatoorsetes raviasutustes , sealhulgas 6päevane ravikuur , on hea efektiga , vähendades valu ja parandades liigeste funktsiooni ning haigete elukvaliteeti .
-1	Selgus	selguma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+1	Selgus	selguma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 2	,	,	Z	Z	_	16	punct	_	_
 3	et	et	J	J	sub=sub|crd=crd	16	mark	_	_
 4	kompleksne	kompleksne	A	A	pos=pos|sg=sg|nom=nom	5	amod	_	_
@@ -337,15 +337,15 @@
 15	hea	hea	A	A	pos=pos|sg=sg|gen=gen	16	amod	_	_
 16	efektiga	efekt	S	S	com=com|sg=sg|kom=kom	1	csubj	_	_
 17	,	,	Z	Z	_	18	punct	_	_
-18	vähendades	vähendama	V	V	mod=mod|ger=ger	16	advcl	_	_
+18	vähendades	vähendama	V	V	main=main|ger=ger	16	advcl	_	_
 19	valu	valu	S	S	com=com|sg=sg|part=part	18	obj	_	_
 20	ja	ja	J	J	sub=sub|crd=crd	21	cc	_	_
-21	parandades	parandama	V	V	mod=mod|ger=ger	18	conj	_	_
+21	parandades	parandama	V	V	aux=aux|ger=ger	18	conj	_	_
 22	liigeste	liiges	S	S	com=com|pl=pl|gen=gen	23	nmod	_	_
-23	funktsiooni	funktsioon	S	S	com=com|sg=sg|gen=gen	21	obj	_	_
-24	ning	ning	J	J	sub=sub|crd=crd	26	cc	_	_
-25	haigete	haige	S	S	com=com|pl=pl|gen=gen	26	nmod	_	_
-26	elukvaliteeti	elukvaliteet	S	S	com=com|sg=sg|part=part	23	conj	_	_
+23	funktsiooni	funktsioon	S	S	com=com|sg=sg|gen=gen	26	nmod	_	_
+24	ning	ning	J	J	sub=sub|crd=crd	25	cc	_	_
+25	haigete	haige	S	S	com=com|pl=pl|gen=gen	23	conj	_	_
+26	elukvaliteeti	elukvaliteet	S	S	com=com|sg=sg|part=part	21	obj	_	_
 27	.	.	Z	Z	_	1	punct	_	_
 
 
@@ -353,7 +353,7 @@
 # cut_word_ids = 2,3
 # ud_version = 2.11
 # text = Tõukas üles .
-1	Tõukas	tõukama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+1	Tõukas	tõukama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 2	üles	üles	D	D	_	1	compound:prt	_	_
 3	.	.	Z	Z	_	1	punct	_	_
 
@@ -373,23 +373,23 @@
 # text = Lähed , ütleme hetkeks baarist läbi , et nelja sentiliitriga väheke stressi maandada , aga ärkad kusagil kummalises kohas alles siis , kui järgmine tööpäev juba koidab .
 1	Lähed	minema	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 2	,	,	Z	Z	_	3	punct	_	_
-3	ütleme	ütlema	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
+3	ütleme	ütlema	V	V	aux=aux|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
 4	hetkeks	hetk	S	S	com=com|sg=sg|tr=tr	3	obl	_	_
 5	baarist	baar	S	S	com=com|sg=sg|el=el	3	obl	_	_
 6	läbi	läbi	D	D	_	3	compound:prt	_	_
 7	,	,	Z	Z	_	13	punct	_	_
 8	et	et	J	J	sub=sub|crd=crd	13	mark	_	_
 9	nelja	neli	N	N	card=card|sg=sg|gen=gen|l=l	10	nummod	_	_
-10	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	13	obl	_	_
-11	väheke	väheke	S	S	com=com|sg=sg|nom=nom	13	obj	_	_
+10	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	11	nmod	_	_
+11	väheke	väheke	S	S	com=com|sg=sg|nom=nom	13	nsubj	_	_
 12	stressi	stress	S	S	com=com|sg=sg|part=part	13	obj	_	_
-13	maandada	maandama	V	V	mod=mod|inf=inf	3	ccomp	_	_
+13	maandada	maandama	V	V	aux=aux|inf=inf	3	ccomp	_	_
 14	,	,	Z	Z	_	16	punct	_	_
 15	aga	aga	J	J	sub=sub|crd=crd	16	cc	_	_
 16	ärkad	ärkama	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	13	conj	_	_
 17	kusagil	kusagil	D	D	_	16	advmod	_	_
 18	kummalises	kummaline	A	A	pos=pos|sg=sg|in=in	19	amod	_	_
-19	kohas	koht	S	S	com=com|sg=sg|in=in	16	obl	_	_
+19	kohas	koha	S	S	com=com|sg=sg|in=in	16	obl	_	_
 20	alles	alles	D	D	_	21	advmod	_	_
 21	siis	siis	D	D	_	16	advmod	_	_
 22	,	,	Z	Z	_	27	punct	_	_
@@ -405,7 +405,7 @@
 # cut_word_ids = 7
 # ud_version = 2.11
 # text = Lähed , ütleme , pärast tööd baarist läbi , et nelja sentiliitriga väheke stressi maandada , aga ärkad kusagil kummalises kohas alles siis , kui järgmine tööpäev juba koidab .
-1	Lähed	minema	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+1	Lähed	minema	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 2	,	,	Z	Z	_	3	punct	_	_
 3	ütleme	ütlema	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
 4	,	,	Z	Z	_	6	punct	_	_
@@ -416,24 +416,24 @@
 9	,	,	Z	Z	_	15	punct	_	_
 10	et	et	J	J	sub=sub|crd=crd	15	mark	_	_
 11	nelja	neli	N	N	card=card|sg=sg|gen=gen|l=l	12	nummod	_	_
-12	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	15	obl	_	_
-13	väheke	väheke	S	S	com=com|sg=sg|nom=nom	15	obj	_	_
+12	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	13	nmod	_	_
+13	väheke	väheke	S	S	com=com|sg=sg|nom=nom	15	nsubj	_	_
 14	stressi	stress	S	S	com=com|sg=sg|part=part	15	obj	_	_
 15	maandada	maandama	V	V	aux=aux|inf=inf	3	ccomp	_	_
 16	,	,	Z	Z	_	18	punct	_	_
 17	aga	aga	J	J	sub=sub|crd=crd	18	cc	_	_
-18	ärkad	ärkama	V	V	aux=aux|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	15	conj	_	_
+18	ärkad	ärkama	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	15	conj	_	_
 19	kusagil	kusagil	D	D	_	18	advmod	_	_
 20	kummalises	kummaline	A	A	pos=pos|sg=sg|in=in	21	amod	_	_
-21	kohas	koha	S	S	com=com|sg=sg|in=in	18	obl	_	_
+21	kohas	koht	S	S	com=com|sg=sg|in=in	18	obl	_	_
 22	alles	alles	D	D	_	23	advmod	_	_
 23	siis	siis	D	D	_	18	advmod	_	_
-24	,	,	Z	Z	_	26	punct	_	_
-25	kui	kui	D	D	_	26	mark	_	_
+24	,	,	Z	Z	_	29	punct	_	_
+25	kui	kui	J	J	sub=sub|crd=crd	29	mark	_	_
 26	järgmine	järgmine	A	A	pos=pos|sg=sg|nom=nom	27	amod	_	_
 27	tööpäev	tööpäev	S	S	com=com|sg=sg|nom=nom	29	nsubj	_	_
 28	juba	juba	D	D	_	29	advmod	_	_
-29	koidab	koitma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	18	advcl	_	_
+29	koidab	koitma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	18	advcl	_	_
 30	.	.	Z	Z	_	1	punct	_	_
 
 
@@ -441,26 +441,26 @@
 # cut_word_ids = 12,13
 # ud_version = 2.11
 # text = Lähed , ütleme , pärast tööd hetkeks baarist läbi , et väheke stressi maandada , aga ärkad kusagil kummalises kohas alles siis , kui järgmine tööpäev juba koidab .
-1	Lähed	minema	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+1	Lähed	minema	V	V	aux=aux|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 2	,	,	Z	Z	_	3	punct	_	_
 3	ütleme	ütlema	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
-4	,	,	Z	Z	_	3	punct	_	_
+4	,	,	Z	Z	_	6	punct	_	_
 5	pärast	pärast	K	K	post=post	6	case	_	_
 6	tööd	töö	S	S	com=com|sg=sg|part=part	3	obl	_	_
 7	hetkeks	hetk	S	S	com=com|sg=sg|tr=tr	3	obl	_	_
-8	baarist	baar	S	S	com=com|sg=sg|el=el	9	obl	_	_
+8	baarist	baar	S	S	com=com|sg=sg|el=el	3	obl	_	_
 9	läbi	läbi	D	D	_	3	compound:prt	_	_
 10	,	,	Z	Z	_	14	punct	_	_
 11	et	et	J	J	sub=sub|crd=crd	14	mark	_	_
-12	väheke	väheke	S	S	com=com|sg=sg|nom=nom	14	nsubj	_	_
+12	väheke	väheke	S	S	com=com|sg=sg|nom=nom	14	obj	_	_
 13	stressi	stress	S	S	com=com|sg=sg|part=part	14	obj	_	_
-14	maandada	maandama	V	V	main=main|inf=inf	3	ccomp	_	_
+14	maandada	maandama	V	V	mod=mod|inf=inf	3	ccomp	_	_
 15	,	,	Z	Z	_	17	punct	_	_
 16	aga	aga	J	J	sub=sub|crd=crd	17	cc	_	_
-17	ärkad	ärkama	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	14	conj	_	_
+17	ärkad	ärkama	V	V	aux=aux|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	1	conj	_	_
 18	kusagil	kusagil	D	D	_	17	advmod	_	_
 19	kummalises	kummaline	A	A	pos=pos|sg=sg|in=in	20	amod	_	_
-20	kohas	koht	S	S	com=com|sg=sg|in=in	17	obl	_	_
+20	kohas	koha	S	S	com=com|sg=sg|in=in	17	obl	_	_
 21	alles	alles	D	D	_	22	advmod	_	_
 22	siis	siis	D	D	_	17	advmod	_	_
 23	,	,	Z	Z	_	28	punct	_	_
@@ -476,10 +476,10 @@
 # cut_word_ids = 20,21,22
 # ud_version = 2.11
 # text = Lähed , ütleme , pärast tööd hetkeks baarist läbi , et nelja sentiliitriga väheke stressi maandada , aga ärkad alles siis , kui järgmine tööpäev juba koidab .
-1	Lähed	minema	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+1	Lähed	minema	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 2	,	,	Z	Z	_	3	punct	_	_
-3	ütleme	ütlema	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
-4	,	,	Z	Z	_	3	punct	_	_
+3	ütleme	ütlema	V	V	aux=aux|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	1	conj	_	_
+4	,	,	Z	Z	_	6	punct	_	_
 5	pärast	pärast	K	K	post=post	6	case	_	_
 6	tööd	töö	S	S	com=com|sg=sg|part=part	3	obl	_	_
 7	hetkeks	hetk	S	S	com=com|sg=sg|tr=tr	3	obl	_	_
@@ -488,17 +488,17 @@
 10	,	,	Z	Z	_	16	punct	_	_
 11	et	et	J	J	sub=sub|crd=crd	16	mark	_	_
 12	nelja	neli	N	N	card=card|sg=sg|gen=gen|l=l	13	nummod	_	_
-13	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	16	obl	_	_
-14	väheke	väheke	S	S	com=com|sg=sg|nom=nom	16	obj	_	_
+13	sentiliitriga	sentiliiter	S	S	com=com|sg=sg|kom=kom	14	nmod	_	_
+14	väheke	väheke	S	S	com=com|sg=sg|nom=nom	16	nsubj	_	_
 15	stressi	stress	S	S	com=com|sg=sg|part=part	16	obj	_	_
 16	maandada	maandama	V	V	mod=mod|inf=inf	3	ccomp	_	_
 17	,	,	Z	Z	_	19	punct	_	_
 18	aga	aga	J	J	sub=sub|crd=crd	19	cc	_	_
-19	ärkad	ärkama	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	16	conj	_	_
+19	ärkad	ärkama	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	16	conj	_	_
 20	alles	alles	D	D	_	21	advmod	_	_
 21	siis	siis	D	D	_	19	advmod	_	_
 22	,	,	Z	Z	_	27	punct	_	_
-23	kui	kui	J	J	sub=sub|crd=crd	27	mark	_	_
+23	kui	kui	D	D	_	27	mark	_	_
 24	järgmine	järgmine	A	A	pos=pos|sg=sg|nom=nom	25	amod	_	_
 25	tööpäev	tööpäev	S	S	com=com|sg=sg|nom=nom	27	nsubj	_	_
 26	juba	juba	D	D	_	27	advmod	_	_
@@ -511,9 +511,9 @@
 # ud_version = 2.11
 # text = See ületab lubatud kvoodi .
 1	See	see	P	P	sg=sg|nom=nom	2	nsubj	_	_
-2	ületab	ületama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
-3	lubatud	lubama	V	V	mod=mod|indic=indic|impf=impf|imps=imps|neg=neg	2	xcomp	_	_
-4	kvoodi	kvoot	S	S	com=com|sg=sg|gen=gen	3	obj	_	_
+2	ületab	ületama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	lubatud	lubama	V	V	aux=aux|partic=partic|past=past|imps=imps	4	acl	_	_
+4	kvoodi	kvoot	S	S	com=com|sg=sg|gen=gen	2	obj	_	_
 5	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -521,21 +521,21 @@
 # cut_word_ids = 4
 # ud_version = 2.11
 # text = Lapsepõlves ei meeldinud lilligi viia , saati siis võhivõõrale ligi astuda ja juttu puhuma hakata .
-1	Lapsepõlves	lapsepõlv	S	S	com=com|sg=sg|in=in	3	obl	_	_
+1	Lapsepõlves	lapsepõli	S	S	com=com|sg=sg|in=in	3	obl	_	_
 2	ei	ei	V	V	aux=aux|neg=neg	3	aux	_	_
-3	meeldinud	meeldima	V	V	mod=mod|partic=partic|past=past|ps=ps	0	root	_	_
+3	meeldinud	meeldima	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	0	root	_	_
 4	lilligi	lill	S	S	com=com|pl=pl|part=part	5	obj	_	_
-5	viia	viima	V	V	aux=aux|inf=inf	3	csubj	_	_
+5	viia	viima	V	V	main=main|inf=inf	3	csubj	_	_
 6	,	,	Z	Z	_	11	punct	_	_
 7	saati	saati	D	D	_	11	advmod	_	_
 8	siis	siis	D	D	_	11	advmod	_	_
 9	võhivõõrale	võhivõõras	S	S	com=com|sg=sg|all=all	11	obl	_	_
 10	ligi	ligi	D	D	_	11	compound:prt	_	_
-11	astuda	astuma	V	V	main=main|inf=inf	5	conj	_	_
+11	astuda	astuma	V	V	mod=mod|inf=inf	5	conj	_	_
 12	ja	ja	J	J	sub=sub|crd=crd	15	cc	_	_
-13	juttu	jutt	S	S	com=com|sg=sg|part=part	15	obj	_	_
-14	puhuma	puhuma	V	V	mod=mod|sup=sup|ps=ps|ill=ill	15	xcomp	_	_
-15	hakata	hakkama	V	V	main=main|inf=inf	5	conj	_	_
+13	juttu	jutt	S	S	com=com|sg=sg|part=part	14	obj	_	_
+14	puhuma	puhuma	V	V	aux=aux|sup=sup|ps=ps|ill=ill	15	xcomp	_	_
+15	hakata	hakkama	V	V	aux=aux|inf=inf	5	conj	_	_
 16	.	.	Z	Z	_	3	punct	_	_
 
 
@@ -543,25 +543,25 @@
 # cut_word_ids = 18,19
 # ud_version = 2.11
 # text = Olin mingis avaras hämaras ruumis , millest mu silmad algul midagi ei seletanud , justnagu oleksin äsja sisse astunud .
-1	Olin	olema	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	5	cop	_	_
+1	Olin	olema	V	V	aux=aux|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	5	cop	_	_
 2	mingis	mingi	P	P	sg=sg|in=in	5	det	_	_
 3	avaras	avar	A	A	pos=pos|sg=sg|in=in	5	amod	_	_
 4	hämaras	hämar	A	A	pos=pos|sg=sg|in=in	5	amod	_	_
 5	ruumis	ruum	S	S	com=com|sg=sg|in=in	0	root	_	_
 6	,	,	Z	Z	_	13	punct	_	_
-7	millest	mis	P	P	sg=sg|el=el	13	obl	_	_
+7	millest	mis	P	P	pl=pl|el=el	13	obl	_	_
 8	mu	mina	P	P	sg=sg|gen=gen	9	nmod	_	_
 9	silmad	silm	S	S	com=com|pl=pl|nom=nom	13	nsubj	_	_
 10	algul	algul	D	D	_	13	advmod	_	_
 11	midagi	miski	P	P	sg=sg|part=part	13	obj	_	_
 12	ei	ei	V	V	aux=aux|neg=neg	13	aux	_	_
-13	seletanud	seletama	V	V	aux=aux|partic=partic|past=past|ps=ps	5	acl:relcl	_	_
+13	seletanud	seletanud	A	A	pos=pos|pl=pl|nom=nom	5	acl:relcl	_	_
 14	,	,	Z	Z	_	19	punct	_	_
 15	justnagu	justnagu	D	D	_	19	advmod	_	_
-16	oleksin	olema	V	V	mod=mod|cond=cond|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	19	aux	_	_
+16	oleksin	olema	V	V	aux=aux|cond=cond|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	19	aux	_	_
 17	äsja	äsja	D	D	_	19	advmod	_	_
 18	sisse	sisse	D	D	_	19	compound:prt	_	_
-19	astunud	astuma	V	V	aux=aux|partic=partic|past=past|ps=ps	13	conj	_	_
+19	astunud	astuma	V	V	mod=mod|partic=partic|past=past|ps=ps	13	conj	_	_
 20	.	.	Z	Z	_	5	punct	_	_
 
 
@@ -578,10 +578,10 @@
 7	Association	Association	S	S	prop=prop|sg=sg|nom=nom	5	flat	_	_
 8	of	of	S	S	prop=prop	5	flat	_	_
 9	America	America	S	S	prop=prop|sg=sg|gen=gen	5	flat	_	_
-10	-	-	Z	Z	_	5	punct	_	_
-11	MPAA	MPAA	Y	Y	nominal=nominal	5	appos	_	_
+10	-	-	Z	Z	_	11	punct	_	_
+11	MPAA	MPAA	Y	Y	nominal=nominal	5	conj	_	_
 12	)	)	Z	Z	_	5	punct	_	_
-13	algatas	algatama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+13	algatas	algatama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 14	mitu	mitu	P	P	sg=sg|nom=nom	15	det	_	_
 15	kohtuasja	kohtuasi	S	S	com=com|sg=sg|gen=gen	13	obj	_	_
 16	.	.	Z	Z	_	13	punct	_	_
@@ -595,17 +595,17 @@
 2	ja	ja	J	J	sub=sub|crd=crd	3	cc	_	_
 3	Soome	Soome	S	S	prop=prop|sg=sg|nom=nom	1	conj	_	_
 4	korraldavad	korraldama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
-5	Avatud	avama	V	V	main=main|partic=partic|past=past|imps=imps	4	xcomp	_	_
+5	Avatud	avatud	A	A	pos=pos|pl=pl|nom=nom	6	acl	_	_
 6	Taeva	taevas	S	S	com=com|sg=sg|gen=gen	7	nmod	_	_
 7	lepingu	leping	S	S	com=com|sg=sg|gen=gen	11	nmod	_	_
 8	(	(	Z	Z	_	9	punct	_	_
 9	ATL	ATL	Y	Y	nominal=nominal	7	appos	_	_
 10	)	)	Z	Z	_	9	punct	_	_
-11	alusel	alune	S	S	com=com|sg=sg|ad=ad	5	obl	_	_
+11	alusel	alune	S	S	com=com|sg=sg|ad=ad	4	obl	_	_
 12	ühise	ühine	A	A	pos=pos|sg=sg|gen=gen	13	amod	_	_
-13	vaatluslennu	vaatluslend	S	S	com=com|sg=sg|gen=gen	5	obj	_	_
+13	vaatluslennu	vaatluslend	S	S	com=com|sg=sg|gen=gen	4	obj	_	_
 14	Vene	Vene	S	S	prop=prop|sg=sg|gen=gen	15	nmod	_	_
-15	Föderatsiooni	Föderatsiooni	S	S	prop=prop|sg=sg|gen=gen	13	appos	_	_
+15	Föderatsiooni	Föderatsioon	S	S	prop=prop|sg=sg|gen=gen	4	obj	_	_
 16	.	.	Z	Z	_	4	punct	_	_
 
 
@@ -613,17 +613,17 @@
 # cut_word_ids = 7,8,9,10,11,12,13
 # ud_version = 2.11
 # text = Eesti ja Soome korraldavad 13-17. augustini ühise vaatluslennu Vene Föderatsiooni .
-1	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	4	obl	_	_
+1	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	4	nsubj	_	_
 2	ja	ja	J	J	sub=sub|crd=crd	3	cc	_	_
 3	Soome	Soome	S	S	prop=prop|sg=sg|gen=gen	1	conj	_	_
-4	korraldavad	korraldav	A	A	pos=pos|pl=pl|nom=nom	6	acl	_	_
+4	korraldavad	korraldav	A	A	pos=pos|pl=pl|nom=nom	0	root	_	_
 5	13-17.	13-17.	N	N	ord=ord|<?>=<?>|digit=digit	6	amod	_	_
-6	augustini	august	S	S	com=com|sg=sg|term=term	0	root	_	_
+6	augustini	august	S	S	com=com|sg=sg|term=term	4	obl	_	_
 7	ühise	ühine	A	A	pos=pos|sg=sg|gen=gen	8	amod	_	_
-8	vaatluslennu	vaatluslend	S	S	com=com|sg=sg|gen=gen	10	nmod	_	_
+8	vaatluslennu	vaatluslend	S	S	com=com|sg=sg|gen=gen	4	obj	_	_
 9	Vene	Vene	S	S	prop=prop|sg=sg|gen=gen	10	nmod	_	_
-10	Föderatsiooni	Föderatsiooni	S	S	prop=prop|sg=sg|gen=gen	6	nmod	_	_
-11	.	.	Z	Z	_	6	punct	_	_
+10	Föderatsiooni	Föderatsiooni	S	S	prop=prop|sg=sg|gen=gen	4	obl	_	_
+11	.	.	Z	Z	_	4	punct	_	_
 
 
 # sent_id = aja_luup200009_693
@@ -649,7 +649,7 @@
 17	kohalikud	kohalik	A	A	pos=pos|pl=pl|nom=nom	18	amod	_	_
 18	tippspetsialistid	tippspetsialist	S	S	com=com|pl=pl|nom=nom	20	nsubj	_	_
 19	välismaale	välismaa	S	S	com=com|sg=sg|all=all	20	obl	_	_
-20	kolida	kolima	V	V	mod=mod|inf=inf	0	root	_	_
+20	kolida	kolima	V	V	aux=aux|inf=inf	0	root	_	_
 21	.	.	Z	Z	_	20	punct	_	_
 
 
@@ -658,8 +658,8 @@
 # ud_version = 2.11
 # text = 1950 tulid esimesed iseliikuvad kombainid .
 1	1950	1950	N	N	card=card|<?>=<?>|digit=digit	2	obl	_	_
-2	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
-3	esimesed	esimene	N	N	ord=ord|pl=pl|nom=nom|roman=roman	5	amod	_	_
+2	tulid	tulema	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+3	esimesed	esimene	N	N	ord=ord|pl=pl|nom=nom|l=l	5	amod	_	_
 4	iseliikuvad	iseliikuv	A	A	pos=pos|pl=pl|nom=nom	5	acl	_	_
 5	kombainid	kombain	S	S	com=com|pl=pl|nom=nom	2	nsubj	_	_
 6	.	.	Z	Z	_	2	punct	_	_
@@ -674,19 +674,19 @@
 3	nö	nö	Y	Y	nominal=nominal	4	nmod	_	_
 4	riigiusku	riigiusk	S	S	com=com|sg=sg|part=part	5	nmod	_	_
 5	alamad	alam	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
-6	ummistasid	ummistama	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+6	ummistasid	ummistama	V	V	aux=aux|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 7	tänavaid	tänav	S	S	com=com|pl=pl|part=part	6	obj	_	_
 8	,	,	Z	Z	_	10	punct	_	_
 9	ülempreester	ülempreester	S	S	com=com|sg=sg|nom=nom	10	nsubj	_	_
-10	seisis	seisma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
+10	seisis	seisma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
 11	ja	ja	J	J	sub=sub|crd=crd	13	cc	_	_
 12	imelik	imelik	A	A	pos=pos|sg=sg|nom=nom	13	nsubj	_	_
-13	hakkas	hakkama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
+13	hakkas	hakkama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
 14	sellel	see	P	P	sg=sg|ad=ad	13	obl	_	_
-15	,	,	Z	Z	_	16	punct	_	_
+15	,	,	Z	Z	_	19	punct	_	_
 16	kellel	kes	P	P	pl=pl|ad=ad	14	acl:relcl	_	_
-17	ei	ei	V	V	aux=aux|neg=neg	16	aux	_	_
-18	olnud	olema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	16	cop	_	_
+17	ei	ei	V	V	aux=aux|neg=neg	19	aux	_	_
+18	olnud	olnud	A	A	pos=pos|sg=sg|nom=nom	16	cop	_	_
 19	käes	käsi	S	S	com=com|sg=sg|in=in	14	acl:relcl	_	_
 20	Norra	Norra	S	S	prop=prop|sg=sg|gen=gen	21	nmod	_	_
 21	lipukest	lipuke	S	S	com=com|sg=sg|part=part	19	nsubj:cop	_	_
@@ -702,11 +702,11 @@
 3	nö	nö	Y	Y	nominal=nominal	4	nmod	_	_
 4	riigiusku	riigiusk	S	S	com=com|sg=sg|part=part	5	nmod	_	_
 5	alamad	alam	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
-6	ummistasid	ummistama	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+6	ummistasid	ummistama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 7	tänavaid	tänav	S	S	com=com|pl=pl|part=part	6	obj	_	_
 8	,	,	Z	Z	_	10	punct	_	_
 9	ülempreester	ülempreester	S	S	com=com|sg=sg|nom=nom	10	nsubj	_	_
-10	seisis	seisma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
+10	seisis	seisma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
 11	oma	oma	P	P	sg=sg|gen=gen	12	nmod	_	_
 12	lossi	loss	S	S	com=com|sg=sg|gen=gen	13	nmod	_	_
 13	rõdul	rõdu	S	S	com=com|sg=sg|ad=ad	10	obl	_	_
@@ -715,9 +715,9 @@
 16	hakkas	hakkama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	conj	_	_
 17	sellel	see	P	P	sg=sg|ad=ad	16	obl	_	_
 18	,	,	Z	Z	_	19	punct	_	_
-19	kellel	kes	P	P	pl=pl|ad=ad	17	acl:relcl	_	_
+19	kellel	kes	P	P	sg=sg|ad=ad	17	acl:relcl	_	_
 20	ei	ei	V	V	aux=aux|neg=neg	19	aux	_	_
-21	olnud	olema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	19	cop	_	_
+21	olnud	olnud	A	A	pos=pos|sg=sg|nom=nom	19	cop	_	_
 22	Norra	Norra	S	S	prop=prop|sg=sg|gen=gen	23	nmod	_	_
 23	lipukest	lipuke	S	S	com=com|sg=sg|part=part	19	nsubj:cop	_	_
 24	.	.	Z	Z	_	6	punct	_	_
@@ -726,20 +726,20 @@
 # sent_id = aja_luup200009_782
 # cut_word_ids = 1
 # ud_version = 2.11
-# text = tarbijate õiguste eest võitlev mittetulundusühing EFF ( Electronic Frontier Foundation ) on asunud ka DVD tulevaste kasutajate õiguste kaitsele .
-1	tarbijate	tarbija	S	S	com=com|pl=pl|gen=gen	2	nmod	_	_
+# text = Tarbijate õiguste eest võitlev mittetulundusühing EFF ( Electronic Frontier Foundation ) on asunud ka DVD tulevaste kasutajate õiguste kaitsele .
+1	Tarbijate	Tarbija	S	S	prop=prop|pl=pl|gen=gen	2	nmod	_	_
 2	õiguste	õigus	S	S	com=com|pl=pl|gen=gen	4	obl	_	_
 3	eest	eest	K	K	post=post	2	case	_	_
 4	võitlev	võitlev	A	A	pos=pos|sg=sg|nom=nom	5	acl	_	_
 5	mittetulundusühing	mittetulundusühing	S	S	com=com|sg=sg|nom=nom	13	nsubj	_	_
 6	EFF	EFF	Y	Y	nominal=nominal	5	appos	_	_
 7	(	(	Z	Z	_	8	punct	_	_
-8	Electronic	Electronic	S	S	prop=prop|sg=sg|nom=nom	6	appos	_	_
+8	Electronic	Electronic	S	S	prop=prop|sg=sg|nom=nom	5	appos	_	_
 9	Frontier	Frontier	S	S	prop=prop|sg=sg|nom=nom	8	flat	_	_
 10	Foundation	Foundation	S	S	prop=prop|sg=sg|nom=nom	8	flat	_	_
 11	)	)	Z	Z	_	8	punct	_	_
 12	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	13	aux	_	_
-13	asunud	asuma	V	V	aux=aux|partic=partic|past=past|ps=ps	0	root	_	_
+13	asunud	asunud	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 14	ka	ka	D	D	_	19	advmod	_	_
 15	DVD	DVD	Y	Y	nominal=nominal	17	nmod	_	_
 16	tulevaste	tulevane	A	A	pos=pos|pl=pl|gen=gen	17	amod	_	_
@@ -756,7 +756,7 @@
 1	Kliiniliste	kliiniline	A	A	pos=pos|pl=pl|gen=gen	2	amod	_	_
 2	haigussümptomite	haigussümptom	S	S	com=com|pl=pl|gen=gen	3	nmod	_	_
 3	tugevus	tugevus	S	S	com=com|sg=sg|nom=nom	4	nsubj	_	_
-4	vähenes	vähenema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	vähenes	vähenema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 5	tõepäraselt	tõepäraselt	D	D	_	4	advmod	_	_
 6	mõlemas	mõlema	P	P	sg=sg|in=in	7	det	_	_
 7	rühmas	rühm	S	S	com=com|sg=sg|in=in	4	obl	_	_
@@ -770,9 +770,9 @@
 1	Kui	kui	J	J	sub=sub|crd=crd	6	mark	_	_
 2	saare	saar	S	S	com=com|sg=sg|gen=gen	3	nmod	_	_
 3	moslemi	moslem	S	S	com=com|sg=sg|gen=gen	4	nmod	_	_
-4	usku	usk	S	S	com=com|sg=sg|part=part	5	nmod	_	_
+4	usku	usk	S	S	com=com|sg=sg|part=part	6	obj	_	_
 5	elanikud	elanik	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
-6	jälgivad	jälgima	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	advcl	_	_
+6	jälgivad	jälgima	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	advcl	_	_
 7	teraselt	teraselt	D	D	_	6	advmod	_	_
 8	,	,	Z	Z	_	12	punct	_	_
 9	keda	kes	P	P	pl=pl|part=part	12	obj	_	_
@@ -782,7 +782,7 @@
 13	,	,	Z	Z	_	12	punct	_	_
 14	siis	siis	J	J	sub=sub|crd=crd	15	advmod	_	_
 15	kristlastel	kristlane	S	S	com=com|pl=pl|ad=ad	0	root	_	_
-16	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	15	cop	_	_
+16	pole	olema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	15	cop	_	_
 17	mingeid	mingi	P	P	pl=pl|part=part	18	det	_	_
 18	tabusid	tabu	S	S	com=com|pl=pl|part=part	15	nsubj:cop	_	_
 19	mittepuhaste	mittepuhas	A	A	pos=pos|pl=pl|gen=gen	20	amod	_	_
@@ -797,54 +797,54 @@
 # ud_version = 2.11
 # text = Sõiduauto MB juht ja kaassõitja , 1971. aastal sündinud Viktoria , paiskusid autost välja ning hukkusid , tagaistmel istunud 2-aastane poiss toimetati Rakvere haiglasse ja sealt edasi Tallinna Lastehaiglasse .
 1	Sõiduauto	sõiduauto	S	S	com=com|sg=sg|gen=gen	3	nmod	_	_
-2	MB	MB	Y	Y	nominal=nominal	3	nmod	_	_
-3	juht	juht	S	S	com=com|sg=sg|nom=nom	9	nsubj	_	_
+2	MB	MB	Y	Y	nominal=nominal	1	appos	_	_
+3	juht	juht	S	S	com=com|sg=sg|nom=nom	12	nsubj	_	_
 4	ja	ja	J	J	sub=sub|crd=crd	5	cc	_	_
 5	kaassõitja	kaassõitja	S	S	com=com|sg=sg|nom=nom	3	conj	_	_
-6	,	,	Z	Z	_	9	punct	_	_
-7	1971.	1971.	N	N	ord=ord|<?>=<?>|roman=roman	8	amod	_	_
+6	,	,	Z	Z	_	10	punct	_	_
+7	1971.	1971.	N	N	ord=ord|<?>=<?>|digit=digit	8	amod	_	_
 8	aastal	aasta	S	S	com=com|sg=sg|ad=ad	9	obl	_	_
-9	sündinud	sündima	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	0	root	_	_
-10	Viktoria	Viktoria	S	S	prop=prop|sg=sg|nom=nom	9	nsubj	_	_
+9	sündinud	sündinud	A	A	pos=pos|pl=pl|nom=nom	10	acl	_	_
+10	Viktoria	Viktoria	S	S	prop=prop|sg=sg|nom=nom	3	conj	_	_
 11	,	,	Z	Z	_	12	punct	_	_
-12	paiskusid	paiskuma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	9	conj	_	_
+12	paiskusid	paiskuma	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 13	autost	auto	S	S	com=com|sg=sg|el=el	12	obl	_	_
 14	välja	välja	D	D	_	12	compound:prt	_	_
 15	ning	ning	J	J	sub=sub|crd=crd	16	cc	_	_
-16	hukkusid	hukkuma	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	9	conj	_	_
-17	,	,	Z	Z	_	19	punct	_	_
+16	hukkusid	hukkuma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	12	conj	_	_
+17	,	,	Z	Z	_	22	punct	_	_
 18	tagaistmel	tagaiste	S	S	com=com|sg=sg|ad=ad	19	obl	_	_
-19	istunud	istuma	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	9	conj	_	_
+19	istunud	istunud	A	A	pos=pos	21	acl	_	_
 20	2-aastane	2aastane	A	A	pos=pos|sg=sg|nom=nom	21	amod	_	_
 21	poiss	poiss	S	S	com=com|sg=sg|nom=nom	22	obj	_	_
-22	toimetati	toimetama	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	19	conj	_	_
+22	toimetati	toimetama	V	V	main=main|indic=indic|impf=impf|imps=imps|af=af	12	conj	_	_
 23	Rakvere	Rakvere	S	S	prop=prop|sg=sg|gen=gen	24	nmod	_	_
 24	haiglasse	haigla	S	S	com=com|sg=sg|ill=ill	22	obl	_	_
 25	ja	ja	J	J	sub=sub|crd=crd	29	cc	_	_
 26	sealt	sealt	D	D	_	29	advmod	_	_
-27	edasi	edasi	D	D	_	29	orphan	_	_
+27	edasi	edasi	D	D	_	29	advmod	_	_
 28	Tallinna	Tallinn	S	S	prop=prop|sg=sg|gen=gen	29	nmod	_	_
-29	Lastehaiglasse	lastehaigla	S	S	com=com|sg=sg|ill=ill	22	obl	_	_
-30	.	.	Z	Z	_	9	punct	_	_
+29	Lastehaiglasse	lastehaigla	S	S	com=com|sg=sg|ill=ill	24	conj	_	_
+30	.	.	Z	Z	_	12	punct	_	_
 
 
 # sent_id = aja_luup200009_1049
 # cut_word_ids = 7
 # ud_version = 2.11
 # text = Teiste sõnadega , kui Kuu oleks 10 korda kaugemal kui praegu , oleks tema tõmme 100 korda nõrgem , loodejõud aga 1000 korda nõrgem .
-1	Teiste	teine	P	P	pl=pl|gen=gen	2	det	_	_
+1	Teiste	teine	N	N	ord=ord|pl=pl|gen=gen|roman=roman	2	det	_	_
 2	sõnadega	sõna	S	S	com=com|pl=pl|kom=kom	18	obl	_	_
-3	,	,	Z	Z	_	5	punct	_	_
-4	kui	kui	D	D	_	5	mark	_	_
+3	,	,	Z	Z	_	9	punct	_	_
+4	kui	kui	J	J	sub=sub|crd=crd	9	mark	_	_
 5	Kuu	Kuu	S	S	prop=prop|sg=sg|gen=gen	9	nsubj:cop	_	_
-6	oleks	olema	V	V	mod=mod|cond=cond|pres=pres|ps=ps|af=af	9	cop	_	_
+6	oleks	olema	V	V	aux=aux|cond=cond|pres=pres|ps=ps|neg=neg	9	cop	_	_
 7	10	10	N	N	card=card|<?>=<?>|digit=digit	8	nummod	_	_
 8	korda	kord	S	S	com=com|sg=sg|part=part	9	obl	_	_
-9	kaugemal	kaugemal	D	D	_	2	acl	_	_
+9	kaugemal	kaugemal	D	D	_	18	advcl	_	_
 10	kui	kui	D	D	_	11	mark	_	_
 11	praegu	praegu	D	D	_	9	advcl	_	_
 12	,	,	Z	Z	_	9	punct	_	_
-13	oleks	olema	V	V	mod=mod|cond=cond|pres=pres|ps=ps|af=af	18	cop	_	_
+13	oleks	olema	V	V	aux=aux|cond=cond|pres=pres|ps=ps|neg=neg	18	cop	_	_
 14	tema	tema	P	P	sg=sg|gen=gen	15	nmod	_	_
 15	tõmme	tõmme	S	S	com=com|sg=sg|nom=nom	18	nsubj:cop	_	_
 16	100	100	N	N	card=card|<?>=<?>|digit=digit	17	nummod	_	_
@@ -852,7 +852,7 @@
 18	nõrgem	nõrgem	A	A	comp=comp|sg=sg|nom=nom	0	root	_	_
 19	,	,	Z	Z	_	24	punct	_	_
 20	loodejõud	loodejõud	S	S	com=com|sg=sg|nom=nom	24	nsubj:cop	_	_
-21	aga	aga	J	J	sub=sub|crd=crd	24	cc	_	_
+21	aga	aga	J	J	sub=sub|crd=crd	24	advmod	_	_
 22	1000	1000	N	N	card=card|<?>=<?>|digit=digit	23	nummod	_	_
 23	korda	kord	S	S	com=com|sg=sg|part=part	24	obl	_	_
 24	nõrgem	nõrgem	A	A	comp=comp|sg=sg|nom=nom	18	conj	_	_
@@ -863,26 +863,26 @@
 # cut_word_ids = 10
 # ud_version = 2.11
 # text = Mehel ei olnud raha kaasas ja nii jäi ta võlgu .
-1	Mehel	mees	S	S	com=com|sg=sg|ad=ad	5	obl	_	_
-2	ei	ei	V	V	aux=aux|neg=neg	5	aux	_	_
-3	olnud	olema	V	V	mod=mod|partic=partic|past=past|ps=ps	5	cop	_	_
-4	raha	raha	S	S	com=com|sg=sg|part=part	5	nsubj:cop	_	_
-5	kaasas	kaasas	D	D	_	0	root	_	_
+1	Mehel	mees	S	S	com=com|sg=sg|ad=ad	0	root	_	_
+2	ei	ei	V	V	aux=aux|neg=neg	1	aux	_	_
+3	olnud	olema	V	V	mod=mod|partic=partic|past=past|ps=ps	1	cop	_	_
+4	raha	raha	S	S	com=com|sg=sg|part=part	1	nsubj:cop	_	_
+5	kaasas	kaasas	D	D	_	1	advmod	_	_
 6	ja	ja	J	J	sub=sub|crd=crd	8	cc	_	_
 7	nii	nii	D	D	_	8	advmod	_	_
-8	jäi	jääma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	conj	_	_
+8	jäi	jääma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	1	conj	_	_
 9	ta	tema	P	P	sg=sg|nom=nom	8	nsubj	_	_
 10	võlgu	võlgu	D	D	_	8	compound:prt	_	_
-11	.	.	Z	Z	_	5	punct	_	_
+11	.	.	Z	Z	_	1	punct	_	_
 
 
 # sent_id = aja_luup200009_804
 # cut_word_ids = 1,2
 # ud_version = 2.11
-# text = saabuvad uudised meenutavad vägisi “ ameerika mägede ” atraktsiooni lõbustuspargis .
-1	saabuvad	saabuma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
-2	uudised	uudis	S	S	com=com|pl=pl|nom=nom	1	nsubj	_	_
-3	meenutavad	meenutama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	1	conj	_	_
+# text = Saabuvad uudised meenutavad vägisi “ ameerika mägede ” atraktsiooni lõbustuspargis .
+1	Saabuvad	saabuv	A	A	pos=pos|pl=pl|nom=nom	2	acl	_	_
+2	uudised	uudis	S	S	com=com|pl=pl|nom=nom	3	nsubj	_	_
+3	meenutavad	meenutama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 4	vägisi	vägisi	D	D	_	3	advmod	_	_
 5	“	“	Z	Z	_	7	punct	_	_
 6	ameerika	ameerika	G	G	_	7	amod	_	_
@@ -890,14 +890,14 @@
 8	”	”	Z	Z	_	7	punct	_	_
 9	atraktsiooni	atraktsioon	S	S	com=com|sg=sg|gen=gen	10	nmod	_	_
 10	lõbustuspargis	lõbustuspark	S	S	com=com|sg=sg|in=in	3	obl	_	_
-11	.	.	Z	Z	_	1	punct	_	_
+11	.	.	Z	Z	_	3	punct	_	_
 
 
 # sent_id = aja_luup200009_435
 # cut_word_ids = 2,3
 # ud_version = 2.11
 # text = Elate Tuula külas .
-1	Elate	elama	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|pl=pl|ps=ps|af=af	0	root	_	_
+1	Elate	elama	V	V	aux=aux|indic=indic|pres=pres|ps2=ps2|pl=pl|ps=ps|af=af	0	root	_	_
 2	Tuula	Tuula	S	S	prop=prop|sg=sg|gen=gen	3	nmod	_	_
 3	külas	küla	S	S	com=com|sg=sg|in=in	1	obl	_	_
 4	.	.	Z	Z	_	1	punct	_	_
@@ -917,7 +917,7 @@
 # cut_word_ids = 12,13
 # ud_version = 2.11
 # text = Nördinud teadlased ei tee oma pahameelest saladust , vaid valavad selle välja .
-1	Nördinud	nördima	V	V	aux=aux|partic=partic|past=past|ps=ps	4	advcl	_	_
+1	Nördinud	nördinud	A	A	pos=pos|sg=sg|nom=nom	2	acl	_	_
 2	teadlased	teadlane	S	S	com=com|pl=pl|nom=nom	4	nsubj	_	_
 3	ei	ei	V	V	aux=aux|neg=neg	4	aux	_	_
 4	tee	tegema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	0	root	_	_
@@ -926,7 +926,7 @@
 7	saladust	saladus	S	S	com=com|sg=sg|part=part	4	obj	_	_
 8	,	,	Z	Z	_	10	punct	_	_
 9	vaid	vaid	J	J	sub=sub|crd=crd	10	cc	_	_
-10	valavad	valama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	4	conj	_	_
+10	valavad	valama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	4	conj	_	_
 11	selle	see	P	P	sg=sg|gen=gen	10	obj	_	_
 12	välja	välja	D	D	_	10	compound:prt	_	_
 13	.	.	Z	Z	_	4	punct	_	_
@@ -940,10 +940,10 @@
 2	mosaiikse	mosaiikne	A	A	pos=pos|sg=sg|gen=gen	3	amod	_	_
 3	vormi	vorm	S	S	com=com|sg=sg|gen=gen	8	obl	_	_
 4	puhul	puhul	K	K	post=post	3	case	_	_
-5	nagu	nagu	D	D	_	7	advmod	_	_
+5	nagu	nagu	J	J	sub=sub|crd=crd	7	mark	_	_
 6	meie	mina	P	P	pl=pl|gen=gen	7	nmod	_	_
 7	patsiendil	patsient	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
-8	esineb	esinema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+8	esineb	esinema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 9	ka	ka	D	D	_	13	advmod	_	_
 10	normaalne	normaalne	A	A	pos=pos|sg=sg|nom=nom	13	amod	_	_
 11	kahe	kaks	N	N	card=card|sg=sg|gen=gen|l=l	12	nummod	_	_
@@ -957,10 +957,10 @@
 # ud_version = 2.11
 # text = Ei varja , et tahtis saada kangelaseks ja parimaks mehhanisaatoriks .
 1	Ei	ei	V	V	aux=aux|neg=neg	2	aux	_	_
-2	varja	varjama	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
+2	varja	varjama	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
 3	,	,	Z	Z	_	5	punct	_	_
 4	et	et	J	J	sub=sub|crd=crd	5	mark	_	_
-5	tahtis	tahtma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
+5	tahtis	tahtma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
 6	saada	saama	V	V	mod=mod|inf=inf	5	xcomp	_	_
 7	kangelaseks	kangelane	S	S	com=com|sg=sg|tr=tr	6	xcomp	_	_
 8	ja	ja	J	J	sub=sub|crd=crd	10	cc	_	_
@@ -973,16 +973,16 @@
 # cut_word_ids = 5,6
 # ud_version = 2.11
 # text = Kais ja Vesik teenisid 360 EM-punkti ning 3000 Euro suuruse auhinnaraha .
-1	Kais	kai	S	S	com=com|sg=sg|in=in	4	nsubj	_	_
+1	Kais	kai	S	S	com=com|sg=sg|in=in	4	obl	_	_
 2	ja	ja	J	J	sub=sub|crd=crd	3	cc	_	_
 3	Vesik	vesik	S	S	com=com|sg=sg|nom=nom	1	conj	_	_
-4	teenisid	teenima	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+4	teenisid	teenima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 5	360	360	N	N	card=card|<?>=<?>|digit=digit	6	nummod	_	_
 6	EM-punkti	EM-punkt	S	S	com=com|sg=sg|part=part	4	obj	_	_
 7	ning	ning	J	J	sub=sub|crd=crd	11	cc	_	_
 8	3000	3000	N	N	card=card|<?>=<?>|digit=digit	9	nummod	_	_
-9	Euro	euro	S	S	com=com|sg=sg|nom=nom	10	nmod	_	_
-10	suuruse	suurus	S	S	com=com|sg=sg|gen=gen	11	nmod	_	_
+9	Euro	euro	S	S	com=com|sg=sg|nom=nom	10	obl	_	_
+10	suuruse	suurus	S	S	com=com|sg=sg|gen=gen	11	amod	_	_
 11	auhinnaraha	auhinnaraha	S	S	com=com|sg=sg|nom=nom	6	conj	_	_
 12	.	.	Z	Z	_	4	punct	_	_
 
@@ -993,7 +993,7 @@
 # text = Kodune lest üllatab .
 1	Kodune	kodune	A	A	pos=pos|sg=sg|nom=nom	2	amod	_	_
 2	lest	lest	S	S	com=com|sg=sg|nom=nom	3	nsubj	_	_
-3	üllatab	üllatama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	üllatab	üllatama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	.	.	Z	Z	_	3	punct	_	_
 
 
@@ -1005,9 +1005,9 @@
 2	pole	olema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	3	cop	_	_
 3	hull	hull	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 4	,	,	Z	Z	_	7	punct	_	_
-5	kui	kui	D	D	_	7	mark	_	_
+5	kui	kui	J	J	sub=sub|crd=crd	7	mark	_	_
 6	ei	ei	V	V	aux=aux|neg=neg	7	aux	_	_
-7	tülitaks	tülitama	V	V	mod=mod|cond=cond|pres=pres|ps=ps|neg=neg	3	advcl	_	_
+7	tülitaks	tülitama	V	V	aux=aux|cond=cond|pres=pres|ps=ps|neg=neg	3	advcl	_	_
 8	KGB	KGB	Y	Y	nominal=nominal	7	nsubj	_	_
 9	.	.	Z	Z	_	3	punct	_	_
 
@@ -1018,24 +1018,24 @@
 # text = Aga ma peaksin vist pihtima , et ma ei tea , mida interaktiivne meedia täpselt kujutab , mida ta annab .
 1	Aga	aga	J	J	sub=sub|crd=crd	5	cc	_	_
 2	ma	mina	P	P	sg=sg|nom=nom	5	nsubj	_	_
-3	peaksin	pidama	V	V	mod=mod|cond=cond|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	5	aux	_	_
+3	peaksin	pidama	V	V	aux=aux|cond=cond|pres=pres|ps1=ps1|sg=sg|ps=ps|af=af	5	aux	_	_
 4	vist	vist	D	D	_	5	advmod	_	_
-5	pihtima	pihtima	V	V	aux=aux|sup=sup|ps=ps|ill=ill	0	root	_	_
+5	pihtima	pihtima	V	V	mod=mod|sup=sup|ps=ps|ill=ill	0	root	_	_
 6	,	,	Z	Z	_	10	punct	_	_
 7	et	et	J	J	sub=sub|crd=crd	10	mark	_	_
 8	ma	mina	P	P	sg=sg|nom=nom	10	nsubj	_	_
 9	ei	ei	V	V	aux=aux|neg=neg	10	aux	_	_
-10	tea	teadma	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	5	ccomp	_	_
+10	tea	teadma	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	5	ccomp	_	_
 11	,	,	Z	Z	_	16	punct	_	_
-12	mida	mis	P	P	sg=sg|part=part	16	obj	_	_
+12	mida	mis	P	P	pl=pl|part=part	16	obj	_	_
 13	interaktiivne	interaktiivne	A	A	pos=pos|sg=sg|nom=nom	14	amod	_	_
 14	meedia	meedia	S	S	com=com|sg=sg|nom=nom	16	nsubj	_	_
 15	täpselt	täpselt	D	D	_	16	advmod	_	_
 16	kujutab	kujutama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	10	ccomp	_	_
 17	,	,	Z	Z	_	20	punct	_	_
-18	mida	mis	P	P	pl=pl|part=part	20	obj	_	_
+18	mida	mis	P	P	sg=sg|part=part	20	obj	_	_
 19	ta	tema	P	P	sg=sg|nom=nom	20	nsubj	_	_
-20	annab	andma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	16	conj	_	_
+20	annab	andma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	16	conj	_	_
 21	.	.	Z	Z	_	5	punct	_	_
 
 
@@ -1046,18 +1046,18 @@
 1	Mul	mina	P	P	sg=sg|ad=ad	0	root	_	_
 2	oli	olema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	1	cop	_	_
 3	võimalus	võimalus	S	S	com=com|sg=sg|nom=nom	1	nsubj:cop	_	_
-4	näha	nägema	V	V	main=main|inf=inf	3	acl	_	_
+4	näha	nägema	V	V	aux=aux|inf=inf	3	acl	_	_
 5	end	ise	P	P	sg=sg|part=part	4	obj	_	_
 6	peeglist	peegel	S	S	com=com|sg=sg|el=el	4	obl	_	_
 7	,	,	Z	Z	_	11	punct	_	_
-8	millest	mis	P	P	sg=sg|el=el	11	obl	_	_
+8	millest	mis	P	P	pl=pl|el=el	11	obl	_	_
 9	end	ise	P	P	sg=sg|part=part	11	obj	_	_
 10	harilikult	harilikult	D	D	_	11	advmod	_	_
-11	vaatab	vaatama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	acl:relcl	_	_
+11	vaatab	vaatama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	acl:relcl	_	_
 12	tüdruk	tüdruk	S	S	com=com|sg=sg|nom=nom	11	nsubj	_	_
 13	,	,	Z	Z	_	19	punct	_	_
-14	kui	kui	J	J	sub=sub|crd=crd	19	mark	_	_
-15	ta	tema	P	P	sg=sg|gen=gen	19	nsubj	_	_
+14	kui	kui	D	D	_	19	mark	_	_
+15	ta	tema	P	P	sg=sg|gen=gen	16	nmod	_	_
 16	käed	käsi	S	S	com=com|pl=pl|nom=nom	19	obj	_	_
 17	kavalalt	kavalalt	D	D	_	19	advmod	_	_
 18	juukseid	juus	S	S	com=com|pl=pl|part=part	19	obj	_	_
@@ -1070,7 +1070,7 @@
 # ud_version = 2.11
 # text = Häda on selles , et jõuluahv - Sulawesi tuttmakaak - kuulub haruldasimate liikide hulka .
 1	Häda	häda	S	S	com=com|sg=sg|nom=nom	3	nsubj:cop	_	_
-2	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	cop	_	_
+2	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	cop	_	_
 3	selles	see	P	P	sg=sg|in=in	0	root	_	_
 4	,	,	Z	Z	_	11	punct	_	_
 5	et	et	J	J	sub=sub|crd=crd	11	mark	_	_
@@ -1079,7 +1079,7 @@
 8	Sulawesi	Sulawesi	S	S	prop=prop|sg=sg|gen=gen	9	nmod	_	_
 9	tuttmakaak	tuttmakaak	S	S	com=com|sg=sg|nom=nom	6	appos	_	_
 10	-	-	Z	Z	_	9	punct	_	_
-11	kuulub	kuuluma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	acl	_	_
+11	kuulub	kuuluma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	acl	_	_
 12	haruldasimate	haruldasim	A	A	super=super|pl=pl|gen=gen	13	amod	_	_
 13	liikide	liik	S	S	com=com|pl=pl|gen=gen	11	obl	_	_
 14	hulka	hulka	K	K	post=post	13	case	_	_
@@ -1089,8 +1089,8 @@
 # sent_id = aja_luup200009_386
 # cut_word_ids = 1,2
 # ud_version = 2.11
-# text = osalesin tudengite majandusõpikute tõlkimises .
-1	osalesin	osalema	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+# text = Osalesin tudengite majandusõpikute tõlkimises .
+1	Osalesin	osalema	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 2	tudengite	tudeng	S	S	com=com|pl=pl|gen=gen	3	nmod	_	_
 3	majandusõpikute	majandusõpik	S	S	com=com|pl=pl|gen=gen	4	nmod	_	_
 4	tõlkimises	tõlkimine	S	S	com=com|sg=sg|in=in	1	obl	_	_
@@ -1106,7 +1106,7 @@
 3	üksisilmi	üksisilmi	D	D	_	1	advmod	_	_
 4	ning	ning	J	J	sub=sub|crd=crd	6	cc	_	_
 5	mind	mina	P	P	sg=sg|part=part	6	obj	_	_
-6	läbisid	läbima	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	1	conj	_	_
+6	läbisid	läbima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	1	conj	_	_
 7	kummalised	kummaline	A	A	pos=pos|pl=pl|nom=nom	8	amod	_	_
 8	tunded	tunne	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
 9	—	-	Z	Z	_	10	punct	_	_
@@ -1115,19 +1115,19 @@
 12	mis	mis	P	P	sg=sg|nom=nom	21	nsubj	_	_
 13	kunagi	kunagi	D	D	_	21	advmod	_	_
 14	varem	varem	D	D	_	21	advmod	_	_
-15	ühtegi	üks	N	N	card=card|sg=sg|part=part|l=l	17	nummod	_	_
-16	temataolist	temataoline	P	P	sg=sg|part=part	17	det	_	_
+15	ühtegi	üks	N	N	card=card|sg=sg|part=part|l=l	17	det	_	_
+16	temataolist	temataoline	P	P	sg=sg|part=part	17	amod	_	_
 17	meesolevust	meesolevus	S	S	com=com|sg=sg|part=part	18	obj	_	_
 18	nähes	nägema	V	V	aux=aux|ger=ger	21	advcl	_	_
-19	mõttessegi	mõte	S	S	com=com|sg=sg|ill=ill	21	obl	_	_
+19	mõttessegi	mõte	S	S	com=com|sg=sg|ill=ill	18	obl	_	_
 20	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	21	aux	_	_
-21	tulnud	tulema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	10	acl:relcl	_	_
+21	tulnud	tulema	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	10	acl:relcl	_	_
 22	,	,	Z	Z	_	27	punct	_	_
 23	kuid	kuid	J	J	sub=sub|crd=crd	27	cc	_	_
 24	mis	mis	P	P	sg=sg|nom=nom	27	nsubj	_	_
 25	sel	see	P	P	sg=sg|ad=ad	26	det	_	_
 26	hetkel	hetk	S	S	com=com|sg=sg|ad=ad	27	obl	_	_
-27	näisid	näima	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	21	conj	_	_
+27	näisid	näima	V	V	main=main|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	21	conj	_	_
 28	täiesti	täiesti	D	D	_	29	advmod	_	_
 29	loomulikena	loomulik	A	A	pos=pos|pl=pl|es=es	27	xcomp	_	_
 30	.	.	Z	Z	_	1	punct	_	_
@@ -1137,33 +1137,33 @@
 # cut_word_ids = 20
 # ud_version = 2.11
 # text = Jälgisin teda üksisilmi ning mind läbisid kummalised tunded — tunded , mis mulle kunagi varem ühtegi temataolist meesolevust nähes pole tulnud , kuid mis sel hetkel näisid täiesti loomulikena .
-1	Jälgisin	jälgima	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+1	Jälgisin	jälgima	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 2	teda	tema	P	P	sg=sg|part=part	1	obj	_	_
 3	üksisilmi	üksisilmi	D	D	_	1	advmod	_	_
 4	ning	ning	J	J	sub=sub|crd=crd	6	cc	_	_
 5	mind	mina	P	P	sg=sg|part=part	6	obj	_	_
-6	läbisid	läbima	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	1	conj	_	_
+6	läbisid	läbima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	1	conj	_	_
 7	kummalised	kummaline	A	A	pos=pos|pl=pl|nom=nom	8	amod	_	_
 8	tunded	tunne	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
 9	—	-	Z	Z	_	10	punct	_	_
 10	tunded	tunne	S	S	com=com|pl=pl|nom=nom	8	appos	_	_
 11	,	,	Z	Z	_	21	punct	_	_
-12	mis	mis	P	P	sg=sg|nom=nom	21	nsubj	_	_
+12	mis	mis	P	P	pl=pl|nom=nom	21	nsubj	_	_
 13	mulle	mina	P	P	sg=sg|all=all	21	obl	_	_
 14	kunagi	kunagi	D	D	_	21	advmod	_	_
 15	varem	varem	D	D	_	21	advmod	_	_
-16	ühtegi	üks	P	P	sg=sg|part=part	18	det	_	_
+16	ühtegi	üks	N	N	card=card|sg=sg|part=part|l=l	18	det	_	_
 17	temataolist	temataoline	P	P	sg=sg|part=part	18	amod	_	_
 18	meesolevust	meesolevus	S	S	com=com|sg=sg|part=part	19	obj	_	_
 19	nähes	nägema	V	V	mod=mod|ger=ger	21	advcl	_	_
 20	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	21	aux	_	_
-21	tulnud	tulema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	10	acl:relcl	_	_
+21	tulnud	tulema	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	10	acl:relcl	_	_
 22	,	,	Z	Z	_	27	punct	_	_
 23	kuid	kuid	J	J	sub=sub|crd=crd	27	cc	_	_
-24	mis	mis	P	P	sg=sg|nom=nom	27	nsubj	_	_
+24	mis	mis	P	P	pl=pl|nom=nom	27	nsubj	_	_
 25	sel	see	P	P	sg=sg|ad=ad	26	det	_	_
 26	hetkel	hetk	S	S	com=com|sg=sg|ad=ad	27	obl	_	_
-27	näisid	näima	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	21	conj	_	_
+27	näisid	näima	V	V	main=main|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	21	conj	_	_
 28	täiesti	täiesti	D	D	_	29	advmod	_	_
 29	loomulikena	loomulik	A	A	pos=pos|pl=pl|es=es	27	xcomp	_	_
 30	.	.	Z	Z	_	1	punct	_	_
@@ -1173,18 +1173,18 @@
 # cut_word_ids = 26,27
 # ud_version = 2.11
 # text = Jälgisin teda üksisilmi ning mind läbisid kummalised tunded — tunded , mis mulle kunagi varem ühtegi temataolist meesolevust nähes mõttessegi pole tulnud , kuid mis näisid täiesti loomulikena .
-1	Jälgisin	jälgima	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+1	Jälgisin	jälgima	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 2	teda	tema	P	P	sg=sg|part=part	1	obj	_	_
 3	üksisilmi	üksisilmi	D	D	_	1	advmod	_	_
 4	ning	ning	J	J	sub=sub|crd=crd	6	cc	_	_
 5	mind	mina	P	P	sg=sg|part=part	6	obj	_	_
-6	läbisid	läbima	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	1	conj	_	_
+6	läbisid	läbima	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	1	conj	_	_
 7	kummalised	kummaline	A	A	pos=pos|pl=pl|nom=nom	8	amod	_	_
 8	tunded	tunne	S	S	com=com|pl=pl|nom=nom	6	nsubj	_	_
 9	—	-	Z	Z	_	10	punct	_	_
 10	tunded	tunne	S	S	com=com|pl=pl|nom=nom	8	appos	_	_
 11	,	,	Z	Z	_	22	punct	_	_
-12	mis	mis	P	P	sg=sg|nom=nom	22	nsubj	_	_
+12	mis	mis	P	P	pl=pl|nom=nom	22	nsubj	_	_
 13	mulle	mina	P	P	sg=sg|all=all	22	obl	_	_
 14	kunagi	kunagi	D	D	_	22	advmod	_	_
 15	varem	varem	D	D	_	22	advmod	_	_
@@ -1197,8 +1197,8 @@
 22	tulnud	tulema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	10	acl:relcl	_	_
 23	,	,	Z	Z	_	26	punct	_	_
 24	kuid	kuid	J	J	sub=sub|crd=crd	26	cc	_	_
-25	mis	mis	P	P	sg=sg|nom=nom	26	nsubj	_	_
-26	näisid	näima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	22	conj	_	_
+25	mis	mis	P	P	pl=pl|nom=nom	26	nsubj	_	_
+26	näisid	näima	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	22	conj	_	_
 27	täiesti	täiesti	D	D	_	28	advmod	_	_
 28	loomulikena	loomulik	A	A	pos=pos|pl=pl|es=es	26	xcomp	_	_
 29	.	.	Z	Z	_	1	punct	_	_
@@ -1215,7 +1215,7 @@
 5	,	,	Z	Z	_	7	punct	_	_
 6	ehkki	ehkki	J	J	sub=sub|crd=crd	7	mark	_	_
 7	seal	seal	D	D	_	3	advcl	_	_
-8	oli	olema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	7	cop	_	_
+8	oli	olema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	7	cop	_	_
 9	võimalus	võimalus	S	S	com=com|sg=sg|nom=nom	7	nsubj:cop	_	_
 10	oma	oma	P	P	sg=sg|gen=gen	11	nmod	_	_
 11	näitusi	näitus	S	S	com=com|pl=pl|part=part	12	obj	_	_
@@ -1227,20 +1227,20 @@
 # cut_word_ids = 6
 # ud_version = 2.11
 # text = Leidnud ise selliseid , mis huvi pakuvad , või maalinud fotode järgi , tellimise peale .
-1	Leidnud	leidma	V	V	aux=aux|partic=partic|past=past|ps=ps	0	root	_	_
-2	ise	ise	P	P	pl=pl|nom=nom	1	obl	_	_
+1	Leidnud	leidma	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	0	root	_	_
+2	ise	ise	P	P	pl=pl|nom=nom	1	advmod	_	_
 3	selliseid	selline	P	P	pl=pl|part=part	1	obj	_	_
 4	,	,	Z	Z	_	7	punct	_	_
 5	mis	mis	P	P	pl=pl|nom=nom	7	nsubj	_	_
 6	huvi	huvi	S	S	com=com|sg=sg|nom=nom	7	obj	_	_
-7	pakuvad	pakkuma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	acl:relcl	_	_
-8	,	,	Z	Z	_	11	punct	_	_
-9	või	või	J	J	sub=sub|crd=crd	11	cc	_	_
-10	maalinud	maalinud	A	A	pos=pos|pl=pl|nom=nom	11	acl	_	_
-11	fotode	foto	S	S	com=com|pl=pl|gen=gen	7	obl	_	_
+7	pakuvad	pakkuma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	acl:relcl	_	_
+8	,	,	Z	Z	_	10	punct	_	_
+9	või	või	J	J	sub=sub|crd=crd	10	cc	_	_
+10	maalinud	maalima	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	7	conj	_	_
+11	fotode	foto	S	S	com=com|pl=pl|gen=gen	10	obl	_	_
 12	järgi	järgi	K	K	post=post	11	case	_	_
 13	,	,	Z	Z	_	14	punct	_	_
-14	tellimise	tellimine	S	S	com=com|sg=sg|gen=gen	1	obl	_	_
+14	tellimise	tellimine	S	S	com=com|sg=sg|gen=gen	10	obl	_	_
 15	peale	peale	K	K	post=post	14	case	_	_
 16	.	.	Z	Z	_	1	punct	_	_
 
@@ -1250,8 +1250,8 @@
 # ud_version = 2.11
 # text = Peagi tulid esimesed rollipakkumised ning läbilöök saabus kahe filmiga - " Suur Waldo Pepper " ja " The Rocky Horror Picture Show " .
 1	Peagi	peagi	D	D	_	2	advmod	_	_
-2	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
-3	esimesed	esimene	N	N	ord=ord|pl=pl|nom=nom|roman=roman	4	amod	_	_
+2	tulid	tulema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+3	esimesed	esimene	N	N	ord=ord|pl=pl|nom=nom|l=l	4	amod	_	_
 4	rollipakkumised	rollipakkumine	S	S	com=com|pl=pl|nom=nom	2	nsubj	_	_
 5	ning	ning	J	J	sub=sub|crd=crd	7	cc	_	_
 6	läbilöök	läbilöök	S	S	com=com|sg=sg|nom=nom	7	nsubj	_	_
@@ -1268,7 +1268,7 @@
 17	"	"	Z	Z	_	18	punct	_	_
 18	The	The	S	S	prop=prop|sg=sg|nom=nom	12	conj	_	_
 19	Rocky	Rocky	S	S	prop=prop|sg=sg|nom=nom	18	flat	_	_
-20	Horror	Horror	S	S	prop=prop|sg=sg|nom=nom	18	flat:foreign	_	_
+20	Horror	Horror	S	S	prop=prop|sg=sg|nom=nom	18	flat	_	_
 21	Picture	Picture	S	S	prop=prop|sg=sg|nom=nom	18	flat:foreign	_	_
 22	Show	Show	S	S	prop=prop|sg=sg|nom=nom	18	flat	_	_
 23	"	"	Z	Z	_	18	punct	_	_
@@ -1280,12 +1280,12 @@
 # ud_version = 2.11
 # text = Peagi tulid esimesed rollipakkumised ning läbilöök saabus 1975. aastal .
 1	Peagi	peagi	D	D	_	2	advmod	_	_
-2	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+2	tulid	tulema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 3	esimesed	esimene	N	N	ord=ord|pl=pl|nom=nom|roman=roman	4	amod	_	_
 4	rollipakkumised	rollipakkumine	S	S	com=com|pl=pl|nom=nom	2	nsubj	_	_
 5	ning	ning	J	J	sub=sub|crd=crd	7	cc	_	_
 6	läbilöök	läbilöök	S	S	com=com|sg=sg|nom=nom	7	nsubj	_	_
-7	saabus	saabuma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	conj	_	_
+7	saabus	saabuma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	conj	_	_
 8	1975.	1975.	N	N	ord=ord|<?>=<?>|roman=roman	9	amod	_	_
 9	aastal	aasta	S	S	com=com|sg=sg|ad=ad	7	obl	_	_
 10	.	.	Z	Z	_	2	punct	_	_
@@ -1296,20 +1296,20 @@
 # ud_version = 2.11
 # text = " võib üldiselt rahule jääda , kuid viimane kaotus jääb veidi kripeldada , " võttis turniiri kokku Kais .
 1	"	"	Z	Z	_	5	punct	_	_
-2	võib	võima	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	aux	_	_
+2	võib	võima	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	aux	_	_
 3	üldiselt	üldiselt	D	D	_	5	advmod	_	_
 4	rahule	rahule	D	D	_	5	compound:prt	_	_
-5	jääda	jääma	V	V	aux=aux|inf=inf	0	root	_	_
+5	jääda	jääma	V	V	mod=mod|inf=inf	0	root	_	_
 6	,	,	Z	Z	_	10	punct	_	_
 7	kuid	kuid	J	J	sub=sub|crd=crd	10	cc	_	_
 8	viimane	viimane	A	A	pos=pos|sg=sg|nom=nom	9	amod	_	_
 9	kaotus	kaotus	S	S	com=com|sg=sg|nom=nom	10	nsubj	_	_
-10	jääb	jääma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	conj	_	_
+10	jääb	jääma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	conj	_	_
 11	veidi	veidi	D	D	_	12	advmod	_	_
-12	kripeldada	kripeldama	V	V	mod=mod|inf=inf	10	xcomp	_	_
+12	kripeldada	kripeldama	V	V	main=main|inf=inf	10	xcomp	_	_
 13	,	,	Z	Z	_	5	punct	_	_
 14	"	"	Z	Z	_	5	punct	_	_
-15	võttis	võtma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	parataxis	_	_
+15	võttis	võtma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	parataxis	_	_
 16	turniiri	turniir	S	S	com=com|sg=sg|gen=gen	15	nsubj	_	_
 17	kokku	kokku	D	D	_	15	compound:prt	_	_
 18	Kais	kai	S	S	com=com|sg=sg|in=in	15	obl	_	_
@@ -1320,11 +1320,11 @@
 # cut_word_ids = 3,4,5
 # ud_version = 2.11
 # text = Kui Arnold Bushi juurde jõudis , siis mäletas USA president vaimukat Eesti välisministrit ja vedas Rüütli sellesama gloobuse juurde : näete , mis mister Meri tegi !
-1	Kui	kui	J	J	sub=sub|crd=crd	5	mark	_	_
-2	Arnold	Arnold	S	S	prop=prop|sg=sg|nom=nom	5	obl	_	_
+1	Kui	kui	D	D	_	5	mark	_	_
+2	Arnold	Arnold	S	S	prop=prop|sg=sg|nom=nom	5	nsubj	_	_
 3	Bushi	Bush	S	S	prop=prop|sg=sg|gen=gen	2	flat	_	_
 4	juurde	juurde	K	K	post=post	2	case	_	_
-5	jõudis	jõudma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	8	advcl	_	_
+5	jõudis	jõudma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	8	advcl	_	_
 6	,	,	Z	Z	_	5	punct	_	_
 7	siis	siis	J	J	sub=sub|crd=crd	8	advmod	_	_
 8	mäletas	mäletama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
@@ -1334,7 +1334,7 @@
 12	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	13	nmod	_	_
 13	välisministrit	välisminister	S	S	com=com|sg=sg|part=part	8	obj	_	_
 14	ja	ja	J	J	sub=sub|crd=crd	15	cc	_	_
-15	vedas	vedama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	8	conj	_	_
+15	vedas	vedama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	8	conj	_	_
 16	Rüütli	Rüütel	S	S	prop=prop|sg=sg|gen=gen	15	obj	_	_
 17	sellesama	seesama	P	P	sg=sg|gen=gen	18	det	_	_
 18	gloobuse	gloobus	S	S	com=com|sg=sg|gen=gen	15	obl	_	_
@@ -1342,32 +1342,32 @@
 20	:	:	Z	Z	_	21	punct	_	_
 21	näete	nägema	V	V	main=main|indic=indic|pres=pres|ps2=ps2|pl=pl|ps=ps|af=af	15	parataxis	_	_
 22	,	,	Z	Z	_	26	punct	_	_
-23	mis	mis	P	P	pl=pl|nom=nom	26	obj	_	_
+23	mis	mis	P	P	sg=sg|nom=nom	24	nmod	_	_
 24	mister	mister	S	S	com=com|sg=sg|nom=nom	26	nsubj	_	_
 25	Meri	Meri	S	S	prop=prop|sg=sg|nom=nom	24	appos	_	_
-26	tegi	tegema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	21	ccomp	_	_
+26	tegi	tegema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	21	ccomp	_	_
 27	!	!	Z	Z	_	8	punct	_	_
 
 
 # sent_id = tea_eesti_arst_2004_66
 # cut_word_ids = 1
 # ud_version = 2.11
-# text = gonosoomide arvuanomaaliaid esineb 2,8 - 7,5 % juhtudel ning autosoomide struktuurianomaaliaid 2,1 - 2,3 % juhtudel ( 4 , 5 ) .
-1	gonosoomide	gonosoom	S	S	com=com|pl=pl|gen=gen	2	nmod	_	_
+# text = Gonosoomide arvuanomaaliaid esineb 2,8 - 7,5 % juhtudel ning autosoomide struktuurianomaaliaid 2,1 - 2,3 % juhtudel ( 4 , 5 ) .
+1	Gonosoomide	Gonosoomi	S	S	prop=prop|pl=pl|gen=gen	2	nmod	_	_
 2	arvuanomaaliaid	arvuanomaalia	S	S	com=com|pl=pl|part=part	3	nsubj	_	_
-3	esineb	esinema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	esineb	esinema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	2,8	2,8	N	N	card=card|<?>=<?>|digit=digit	7	nummod	_	_
 5	-	-	Z	Z	_	6	punct	_	_
 6	7,5	7,5	N	N	card=card|<?>=<?>|digit=digit	4	conj	_	_
-7	%	%	Y	Y	nominal=nominal	3	obl	_	_
-8	juhtudel	juht	S	S	com=com|pl=pl|ad=ad	7	nmod	_	_
+7	%	%	Y	Y	nominal=nominal	8	advmod	_	_
+8	juhtudel	juht	S	S	com=com|pl=pl|ad=ad	3	obl	_	_
 9	ning	ning	J	J	sub=sub|crd=crd	11	cc	_	_
 10	autosoomide	autosoom	S	S	com=com|pl=pl|gen=gen	11	nmod	_	_
-11	struktuurianomaaliaid	struktuurianomaalia	S	S	com=com|pl=pl|part=part	7	conj	_	_
-12	2,1	2,1	N	N	card=card|<?>=<?>|digit=digit	11	nummod	_	_
+11	struktuurianomaaliaid	struktuurianomaalia	S	S	com=com|pl=pl|part=part	3	conj	_	_
+12	2,1	2,1	N	N	card=card|<?>=<?>|digit=digit	15	nummod	_	_
 13	-	-	Z	Z	_	14	punct	_	_
 14	2,3	2,3	N	N	card=card|<?>=<?>|digit=digit	12	conj	_	_
-15	%	%	Y	Y	nominal=nominal	16	nmod	_	_
+15	%	%	Y	Y	nominal=nominal	16	advmod	_	_
 16	juhtudel	juht	S	S	com=com|pl=pl|ad=ad	11	nmod	_	_
 17	(	(	Z	Z	_	18	punct	_	_
 18	4	4	N	N	card=card|<?>=<?>|digit=digit	3	parataxis	_	_
@@ -1383,12 +1383,12 @@
 # text = Selle tõttu on hinnatud 3-4nädalase sanatoorse ravi toimet mitmesuguste reumaatiliste haiguste korral erinevate sanatoorse ravi komplekside ja ravimudade kasutamisel ning uuringutes on leitud alati positiivne ravitulemus .
 1	Selle	see	P	P	sg=sg|gen=gen	4	obl	_	_
 2	tõttu	tõttu	K	K	post=post	1	case	_	_
-3	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
-4	hinnatud	hinnatud	A	A	pos=pos	0	root	_	_
+3	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	aux	_	_
+4	hinnatud	hindama	V	V	aux=aux|partic=partic|past=past|imps=imps	0	root	_	_
 5	3-4nädalase	3-4nädalane	A	A	pos=pos|sg=sg|gen=gen	7	amod	_	_
 6	sanatoorse	sanatoorne	A	A	pos=pos|sg=sg|gen=gen	7	amod	_	_
 7	ravi	ravi	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
-8	toimet	toime	S	S	com=com|sg=sg|part=part	4	nsubj:cop	_	_
+8	toimet	toime	S	S	com=com|sg=sg|part=part	4	obj	_	_
 9	mitmesuguste	mitmesugune	P	P	pl=pl|gen=gen	11	det	_	_
 10	reumaatiliste	reumaatiline	A	A	pos=pos|pl=pl|gen=gen	11	amod	_	_
 11	haiguste	haigus	S	S	com=com|pl=pl|gen=gen	8	nmod	_	_
@@ -1402,8 +1402,8 @@
 19	kasutamisel	kasutamine	S	S	com=com|sg=sg|ad=ad	8	nmod	_	_
 20	ning	ning	J	J	sub=sub|crd=crd	23	cc	_	_
 21	uuringutes	uuring	S	S	com=com|pl=pl|in=in	23	obl	_	_
-22	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	23	aux	_	_
-23	leitud	leidma	V	V	aux=aux|partic=partic|past=past|imps=imps	4	conj	_	_
+22	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	23	aux	_	_
+23	leitud	leitud	A	A	pos=pos|pl=pl|nom=nom	4	conj	_	_
 24	alati	alati	D	D	_	23	advmod	_	_
 25	positiivne	positiivne	A	A	pos=pos|sg=sg|nom=nom	26	amod	_	_
 26	ravitulemus	ravitulemus	S	S	com=com|sg=sg|nom=nom	23	obj	_	_
@@ -1414,15 +1414,15 @@
 # cut_word_ids = 26
 # ud_version = 2.11
 # text = Selle tõttu on varasematel aastatel tehtud arvukates uuringutes hinnatud 3-4nädalase sanatoorse ravi toimet mitmesuguste reumaatiliste haiguste korral erinevate sanatoorse ravi komplekside ja ravimudade kasutamisel ning on leitud alati positiivne ravitulemus .
-1	Selle	see	P	P	sg=sg|gen=gen	6	obl	_	_
+1	Selle	see	P	P	sg=sg|gen=gen	9	obl	_	_
 2	tõttu	tõttu	K	K	post=post	1	case	_	_
-3	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	aux	_	_
+3	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	9	aux	_	_
 4	varasematel	varasem	A	A	comp=comp|pl=pl|ad=ad	5	amod	_	_
 5	aastatel	aasta	S	S	com=com|pl=pl|ad=ad	6	obl	_	_
-6	tehtud	tegema	V	V	mod=mod|partic=partic|past=past|imps=imps	0	root	_	_
+6	tehtud	tehtud	A	A	pos=pos|pl=pl|nom=nom	8	acl	_	_
 7	arvukates	arvukas	A	A	pos=pos|pl=pl|in=in	8	amod	_	_
 8	uuringutes	uuring	S	S	com=com|pl=pl|in=in	9	obl	_	_
-9	hinnatud	hindama	V	V	mod=mod|indic=indic|impf=impf|imps=imps|neg=neg	6	xcomp	_	_
+9	hinnatud	hindama	V	V	main=main|partic=partic|past=past|imps=imps	0	root	_	_
 10	3-4nädalase	3-4nädalane	A	A	pos=pos|sg=sg|gen=gen	12	amod	_	_
 11	sanatoorse	sanatoorne	A	A	pos=pos|sg=sg|gen=gen	12	amod	_	_
 12	ravi	ravi	S	S	com=com|sg=sg|gen=gen	13	nmod	_	_
@@ -1439,12 +1439,12 @@
 23	ravimudade	ravimuda	S	S	com=com|pl=pl|gen=gen	21	conj	_	_
 24	kasutamisel	kasutamine	S	S	com=com|sg=sg|ad=ad	13	nmod	_	_
 25	ning	ning	J	J	sub=sub|crd=crd	27	cc	_	_
-26	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	27	aux	_	_
-27	leitud	leidma	V	V	main=main|partic=partic|past=past|imps=imps	6	conj	_	_
+26	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	27	aux	_	_
+27	leitud	leidma	V	V	mod=mod|partic=partic|past=past|imps=imps	9	conj	_	_
 28	alati	alati	D	D	_	27	advmod	_	_
 29	positiivne	positiivne	A	A	pos=pos|sg=sg|nom=nom	30	amod	_	_
 30	ravitulemus	ravitulemus	S	S	com=com|sg=sg|nom=nom	27	obj	_	_
-31	.	.	Z	Z	_	6	punct	_	_
+31	.	.	Z	Z	_	9	punct	_	_
 
 
 # sent_id = tea_eesti_arst_2004_190
@@ -1459,14 +1459,14 @@
 6	sest	sest	J	J	sub=sub|crd=crd	13	mark	_	_
 7	5-12päevane	5-12päevane	A	A	pos=pos|sg=sg|nom=nom	8	amod	_	_
 8	ravi	ravi	S	S	com=com|sg=sg|nom=nom	13	nsubj:cop	_	_
-9	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	13	cop	_	_
+9	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	13	cop	_	_
 10	eeldatavasti	eeldatavasti	D	D	_	13	advmod	_	_
 11	liiga	liiga	D	D	_	12	advmod	_	_
 12	lühike	lühike	A	A	pos=pos|sg=sg|nom=nom	13	amod	_	_
 13	aeg	aeg	S	S	com=com|sg=sg|nom=nom	2	advcl	_	_
 14	oluliste	oluline	A	A	pos=pos|pl=pl|gen=gen	15	amod	_	_
 15	muutuste	muutus	S	S	com=com|pl=pl|gen=gen	16	nmod	_	_
-16	toimumiseks	toimumine	S	S	com=com|sg=sg|tr=tr	13	obl	_	_
+16	toimumiseks	toimumine	S	S	com=com|sg=sg|tr=tr	13	nmod	_	_
 17	funktsionaalses	funktsionaalne	A	A	pos=pos|sg=sg|in=in	18	amod	_	_
 18	võimekuses	võimekus	S	S	com=com|sg=sg|in=in	16	nmod	_	_
 19	.	.	Z	Z	_	2	punct	_	_
@@ -1477,13 +1477,13 @@
 # ud_version = 2.11
 # text = Ja milleks kõhelda , kui tunned end nagu kala vees .
 1	Ja	ja	J	J	sub=sub|crd=crd	3	cc	_	_
-2	milleks	mis	P	P	sg=sg|tr=tr	3	xcomp	_	_
-3	kõhelda	kõhelema	V	V	mod=mod|inf=inf	0	root	_	_
+2	milleks	mis	P	P	pl=pl|tr=tr	3	mark	_	_
+3	kõhelda	kõhelema	V	V	aux=aux|inf=inf	0	root	_	_
 4	,	,	Z	Z	_	6	punct	_	_
-5	kui	kui	D	D	_	6	mark	_	_
-6	tunned	tundma	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	3	ccomp	_	_
+5	kui	kui	J	J	sub=sub|crd=crd	6	mark	_	_
+6	tunned	tundma	V	V	main=main|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	3	advcl	_	_
 7	end	ise	P	P	sg=sg|part=part	6	obj	_	_
-8	nagu	nagu	J	J	sub=sub|crd=crd	10	mark	_	_
+8	nagu	nagu	D	D	_	10	mark	_	_
 9	kala	kala	S	S	com=com|sg=sg|gen=gen	10	nmod	_	_
 10	vees	vesi	S	S	com=com|sg=sg|in=in	6	advcl	_	_
 11	.	.	Z	Z	_	3	punct	_	_
@@ -1494,7 +1494,7 @@
 # ud_version = 2.11
 # text = Kuldtäht anti Paabule 1979. aastal Moskvas .
 1	Kuldtäht	kuldtäht	S	S	com=com|sg=sg|nom=nom	2	obj	_	_
-2	anti	andma	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
+2	anti	andma	V	V	mod=mod|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
 3	Paabule	paabu	S	S	com=com|sg=sg|all=all	2	obl	_	_
 4	1979.	1979.	N	N	ord=ord|<?>=<?>|digit=digit	5	amod	_	_
 5	aastal	aasta	S	S	com=com|sg=sg|ad=ad	2	obl	_	_
@@ -1507,7 +1507,7 @@
 # ud_version = 2.11
 # text = Kuldtäht anti Paabule kätte Moskvas .
 1	Kuldtäht	kuldtäht	S	S	com=com|sg=sg|nom=nom	2	obj	_	_
-2	anti	andma	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
+2	anti	andma	V	V	main=main|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
 3	Paabule	paabu	S	S	com=com|sg=sg|all=all	2	obl	_	_
 4	kätte	käsi	S	S	com=com|sg=sg|adit=adit	2	obl	_	_
 5	Moskvas	Moskva	S	S	prop=prop|sg=sg|in=in	2	obl	_	_
@@ -1522,7 +1522,7 @@
 2	anti	andma	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
 3	Paabule	paabu	S	S	com=com|sg=sg|all=all	2	obl	_	_
 4	kätte	käsi	S	S	com=com|sg=sg|adit=adit	2	obl	_	_
-5	1979.	1979.	N	N	ord=ord|<?>=<?>|digit=digit	6	amod	_	_
+5	1979.	1979.	N	N	ord=ord|<?>=<?>|roman=roman	6	amod	_	_
 6	aastal	aasta	S	S	com=com|sg=sg|ad=ad	2	obl	_	_
 7	.	.	Z	Z	_	2	punct	_	_
 
@@ -1534,13 +1534,13 @@
 1	Igal	iga	P	P	sg=sg|ad=ad	3	det	_	_
 2	neljandal	neljas	N	N	ord=ord|sg=sg|ad=ad|l=l	3	amod	_	_
 3	päeval	päev	S	S	com=com|sg=sg|ad=ad	6	obl	_	_
-4	pidi	pidama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	aux	_	_
+4	pidi	pidama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	aux	_	_
 5	sõnnikut	sõnnik	S	S	com=com|sg=sg|part=part	6	obj	_	_
 6	koristama	koristama	V	V	aux=aux|sup=sup|ps=ps|ill=ill	0	root	_	_
 7	ja	ja	J	J	sub=sub|crd=crd	10	cc	_	_
 8	loomade	loom	S	S	com=com|pl=pl|gen=gen	9	nmod	_	_
 9	poegimist	poegimine	S	S	com=com|sg=sg|part=part	10	obj	_	_
-10	jälgima	jälgima	V	V	mod=mod|sup=sup|ps=ps|ill=ill	6	conj	_	_
+10	jälgima	jälgima	V	V	aux=aux|sup=sup|ps=ps|ill=ill	6	conj	_	_
 11	.	.	Z	Z	_	6	punct	_	_
 
 
@@ -1550,14 +1550,14 @@
 # text = Kumbki ei taha tagurdada ja teist mööda lasta - kulub ju bensiini .
 1	Kumbki	kumbki	P	P	sg=sg|nom=nom	3	nsubj	_	_
 2	ei	ei	V	V	aux=aux|neg=neg	3	aux	_	_
-3	taha	tahtma	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
-4	tagurdada	tagurdama	V	V	main=main|inf=inf	3	xcomp	_	_
+3	taha	tahtma	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+4	tagurdada	tagurdama	V	V	mod=mod|inf=inf	3	xcomp	_	_
 5	ja	ja	J	J	sub=sub|crd=crd	8	cc	_	_
-6	teist	teine	N	N	ord=ord|sg=sg|part=part|roman=roman	8	obj	_	_
+6	teist	teine	N	N	ord=ord|sg=sg|part=part|l=l	8	obj	_	_
 7	mööda	mööda	D	D	_	8	compound:prt	_	_
-8	lasta	laskma	V	V	mod=mod|inf=inf	4	conj	_	_
+8	lasta	laskma	V	V	aux=aux|inf=inf	4	conj	_	_
 9	-	-	Z	Z	_	10	punct	_	_
-10	kulub	kuluma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	parataxis	_	_
+10	kulub	kuluma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	parataxis	_	_
 11	ju	ju	D	D	_	10	advmod	_	_
 12	bensiini	bensiin	S	S	com=com|sg=sg|part=part	10	nsubj	_	_
 13	.	.	Z	Z	_	3	punct	_	_
@@ -1569,19 +1569,19 @@
 # text = Kunagi hiljem pole enam raha antud , " on juubilar rõõmus , et maamõõtjapõli kulges ausalt ja õiglaselt .
 1	Kunagi	kunagi	D	D	_	2	advmod	_	_
 2	hiljem	hiljem	D	D	_	6	advmod	_	_
-3	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	6	aux	_	_
+3	pole	olema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	6	aux	_	_
 4	enam	enam	D	D	_	6	advmod	_	_
 5	raha	raha	S	S	com=com|sg=sg|part=part	6	obj	_	_
-6	antud	andma	V	V	mod=mod|partic=partic|past=past|imps=imps	0	root	_	_
+6	antud	antud	A	A	pos=pos	0	root	_	_
 7	,	,	Z	Z	_	6	punct	_	_
-8	"	"	Z	Z	_	11	punct	_	_
-9	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	11	cop	_	_
+8	"	"	Z	Z	_	6	punct	_	_
+9	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	11	cop	_	_
 10	juubilar	juubilar	S	S	com=com|sg=sg|nom=nom	11	nsubj:cop	_	_
 11	rõõmus	rõõmus	A	A	pos=pos|sg=sg|nom=nom	6	parataxis	_	_
 12	,	,	Z	Z	_	15	punct	_	_
 13	et	et	J	J	sub=sub|crd=crd	15	mark	_	_
 14	maamõõtjapõli	maamõõtjapõli	S	S	com=com|sg=sg|nom=nom	15	nsubj	_	_
-15	kulges	kulgema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	11	ccomp	_	_
+15	kulges	kulgema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	11	advcl	_	_
 16	ausalt	ausalt	D	D	_	15	advmod	_	_
 17	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
 18	õiglaselt	õiglaselt	D	D	_	16	conj	_	_
@@ -1594,11 +1594,11 @@
 # text = Ühel oktoobriõhtul tuli ta väsinult ja imestas : raadiomees ootab toas .
 1	Ühel	üks	P	P	sg=sg|ad=ad	2	det	_	_
 2	oktoobriõhtul	oktoobriõhtu	S	S	com=com|sg=sg|ad=ad	3	obl	_	_
-3	tuli	tulema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	tuli	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	ta	tema	P	P	sg=sg|nom=nom	3	nsubj	_	_
 5	väsinult	väsinult	D	D	_	3	advmod	_	_
 6	ja	ja	J	J	sub=sub|crd=crd	7	cc	_	_
-7	imestas	imestama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	3	conj	_	_
+7	imestas	imestama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	3	conj	_	_
 8	:	:	Z	Z	_	10	punct	_	_
 9	raadiomees	raadiomees	S	S	com=com|sg=sg|nom=nom	10	nsubj	_	_
 10	ootab	ootama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	7	parataxis	_	_
@@ -1612,12 +1612,12 @@
 # text = Sulawesi põhjaosas elavad minhassalased tähistavad Kristuse sündi .
 1	Sulawesi	Sulawesi	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	põhjaosas	põhjaosa	S	S	com=com|sg=sg|in=in	3	obl	_	_
-3	elavad	elama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
-4	minhassalased	minhassalas	S	S	com=com|pl=pl|nom=nom	3	nsubj	_	_
-5	tähistavad	tähistama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	conj	_	_
+3	elavad	elama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	4	acl	_	_
+4	minhassalased	minhassalas	S	S	com=com|pl=pl|nom=nom	5	nsubj	_	_
+5	tähistavad	tähistama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 6	Kristuse	Kristus	S	S	prop=prop|sg=sg|gen=gen	7	nmod	_	_
 7	sündi	sünd	S	S	com=com|sg=sg|part=part	5	obj	_	_
-8	.	.	Z	Z	_	3	punct	_	_
+8	.	.	Z	Z	_	5	punct	_	_
 
 
 # sent_id = aja_luup200009_318
@@ -1625,16 +1625,16 @@
 # ud_version = 2.11
 # text = Seni on peetud just tema teeneks , et USA majandus on stabiilne olnud .
 1	Seni	seni	D	D	_	3	advmod	_	_
-2	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	aux	_	_
-3	peetud	pidama	V	V	mod=mod|indic=indic|impf=impf|imps=imps|neg=neg	0	root	_	_
-4	just	just	I	I	_	6	advmod	_	_
+2	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	aux	_	_
+3	peetud	peetud	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
+4	just	just	D	D	_	6	advmod	_	_
 5	tema	tema	P	P	sg=sg|gen=gen	6	nmod	_	_
 6	teeneks	teene	S	S	com=com|sg=sg|tr=tr	3	xcomp	_	_
 7	,	,	Z	Z	_	12	punct	_	_
 8	et	et	J	J	sub=sub|crd=crd	12	mark	_	_
 9	USA	USA	Y	Y	nominal=nominal	10	nmod	_	_
 10	majandus	majandus	S	S	com=com|sg=sg|nom=nom	12	nsubj:cop	_	_
-11	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	12	aux	_	_
+11	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	12	aux	_	_
 12	stabiilne	stabiilne	A	A	pos=pos|sg=sg|nom=nom	6	acl	_	_
 13	olnud	olema	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	12	cop	_	_
 14	.	.	Z	Z	_	3	punct	_	_
@@ -1643,17 +1643,17 @@
 # sent_id = aja_ee199920_1836
 # cut_word_ids = 1,2
 # ud_version = 2.11
-# text = kirjeldasin Eesti Kostabi Seltsi ja Võro Keele ja Kultuuri Fondi saavutusi .
-1	kirjeldasin	kirjeldama	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
-2	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	4	nmod	_	_
+# text = Kirjeldasin Eesti Kostabi Seltsi ja Võro Keele ja Kultuuri Fondi saavutusi .
+1	Kirjeldasin	kirjeldama	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+2	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	3	nmod	_	_
 3	Kostabi	Kostabi	S	S	prop=prop|sg=sg|gen=gen	4	nmod	_	_
 4	Seltsi	Seltsi	S	S	prop=prop|sg=sg|gen=gen	10	nmod	_	_
-5	ja	ja	J	J	sub=sub|crd=crd	7	cc	_	_
-6	Võro	Võro	S	S	prop=prop|sg=sg|gen=gen	7	nmod	_	_
+5	ja	ja	J	J	sub=sub|crd=crd	6	cc	_	_
+6	Võro	Võro	S	S	prop=prop|sg=sg|gen=gen	4	conj	_	_
 7	Keele	keel	S	S	com=com|sg=sg|gen=gen	4	conj	_	_
 8	ja	ja	J	J	sub=sub|crd=crd	9	cc	_	_
-9	Kultuuri	kultuur	S	S	com=com|sg=sg|gen=gen	7	conj	_	_
-10	Fondi	font	S	S	com=com|sg=sg|gen=gen	11	nmod	_	_
+9	Kultuuri	kultuur	S	S	com=com|sg=sg|gen=gen	4	conj	_	_
+10	Fondi	fond	S	S	com=com|sg=sg|gen=gen	11	nmod	_	_
 11	saavutusi	saavutus	S	S	com=com|pl=pl|part=part	1	obj	_	_
 12	.	.	Z	Z	_	1	punct	_	_
 
@@ -1666,23 +1666,23 @@
 2	Riho	Riho	S	S	prop=prop|sg=sg|nom=nom	1	appos	_	_
 3	Terrase	Terras	S	S	prop=prop|sg=sg|gen=gen	2	flat	_	_
 4	sõnul	sõna	S	S	com=com|pl=pl|ad=ad	8	obl	_	_
-5	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	8	cop	_	_
+5	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	8	cop	_	_
 6	NATO	NATO	Y	Y	nominal=nominal	7	nmod	_	_
 7	treeningmissiooni	treeningmissioon	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
 8	peaeesmärgiks	peaeesmärk	S	S	com=com|sg=sg|tr=tr	0	root	_	_
 9	Iraagi	Iraak	S	S	prop=prop|sg=sg|gen=gen	10	nmod	_	_
 10	julgeolekujõudude	julgeolekujõud	S	S	com=com|pl=pl|gen=gen	11	nmod	_	_
-11	juhtimissüsteemi	juhtimissüsteem	S	S	com=com|sg=sg|adit=adit	8	obl	_	_
+11	juhtimissüsteemi	juhtimissüsteem	S	S	com=com|sg=sg|adit=adit	8	nsubj:cop	_	_
 12	,	,	Z	Z	_	16	punct	_	_
-13	sealhulgas	sealhulgas	D	D	_	14	advmod	_	_
+13	sealhulgas	sealhulgas	D	D	_	16	advmod	_	_
 14	staabiprotseduuride	staabiprotseduur	S	S	com=com|pl=pl|gen=gen	11	conj	_	_
 15	,	,	Z	Z	_	16	punct	_	_
 16	arendamine	arendamine	S	S	com=com|sg=sg|nom=nom	11	conj	_	_
 17	tasemele	tase	S	S	com=com|sg=sg|all=all	16	nmod	_	_
 18	,	,	Z	Z	_	20	punct	_	_
-19	mis	mis	P	P	sg=sg|nom=nom	20	nsubj	_	_
-20	võimaldab	võimaldama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	17	acl:relcl	_	_
-21	planeerida	planeerima	V	V	main=main|inf=inf	20	xcomp	_	_
+19	mis	mis	P	P	pl=pl|nom=nom	20	nsubj	_	_
+20	võimaldab	võimaldama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	17	acl:relcl	_	_
+21	planeerida	planeerima	V	V	aux=aux|inf=inf	20	xcomp	_	_
 22	ja	ja	J	J	sub=sub|crd=crd	24	cc	_	_
 23	läbi	läbi	D	D	_	24	compound:prt	_	_
 24	viia	viima	V	V	mod=mod|inf=inf	21	conj	_	_
@@ -1701,28 +1701,28 @@
 2	Riho	Riho	S	S	prop=prop|sg=sg|nom=nom	1	appos	_	_
 3	Terrase	Terras	S	S	prop=prop|sg=sg|gen=gen	2	flat	_	_
 4	sõnul	sõna	S	S	com=com|pl=pl|ad=ad	8	obl	_	_
-5	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	8	cop	_	_
+5	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	8	cop	_	_
 6	NATO	NATO	Y	Y	nominal=nominal	7	nmod	_	_
 7	treeningmissiooni	treeningmissioon	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
 8	peaeesmärgiks	peaeesmärk	S	S	com=com|sg=sg|tr=tr	0	root	_	_
 9	Iraagi	Iraak	S	S	prop=prop|sg=sg|gen=gen	10	nmod	_	_
 10	julgeolekujõudude	julgeolekujõud	S	S	com=com|pl=pl|gen=gen	11	nmod	_	_
-11	juhtimissüsteemi	juhtimissüsteem	S	S	com=com|sg=sg|adit=adit	8	obl	_	_
+11	juhtimissüsteemi	juhtimissüsteem	S	S	com=com|sg=sg|adit=adit	8	nsubj:cop	_	_
 12	,	,	Z	Z	_	16	punct	_	_
-13	sealhulgas	sealhulgas	D	D	_	14	advmod	_	_
+13	sealhulgas	sealhulgas	D	D	_	16	advmod	_	_
 14	staabiprotseduuride	staabiprotseduur	S	S	com=com|pl=pl|gen=gen	11	conj	_	_
 15	,	,	Z	Z	_	16	punct	_	_
 16	arendamine	arendamine	S	S	com=com|sg=sg|nom=nom	11	conj	_	_
 17	tasemele	tase	S	S	com=com|sg=sg|all=all	16	nmod	_	_
 18	,	,	Z	Z	_	20	punct	_	_
 19	mis	mis	P	P	sg=sg|nom=nom	20	nsubj	_	_
-20	võimaldab	võimaldama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	17	acl:relcl	_	_
+20	võimaldab	võimaldama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	17	acl:relcl	_	_
 21	Iraagil	Iraak	S	S	prop=prop|sg=sg|ad=ad	20	obl	_	_
 22	endal	ise	P	P	sg=sg|ad=ad	23	obl	_	_
-23	planeerida	planeerima	V	V	mod=mod|inf=inf	20	xcomp	_	_
+23	planeerida	planeerima	V	V	aux=aux|inf=inf	20	xcomp	_	_
 24	ja	ja	J	J	sub=sub|crd=crd	26	cc	_	_
 25	läbi	läbi	D	D	_	26	compound:prt	_	_
-26	viia	viima	V	V	aux=aux|inf=inf	23	conj	_	_
+26	viia	viima	V	V	mod=mod|inf=inf	23	conj	_	_
 27	sõjalisi	sõjaline	A	A	pos=pos|pl=pl|part=part	28	amod	_	_
 28	operatsioone	operatsioon	S	S	com=com|pl=pl|part=part	26	obj	_	_
 29	.	.	Z	Z	_	8	punct	_	_
@@ -1742,7 +1742,7 @@
 8	uurida	uurima	V	V	mod=mod|inf=inf	7	acl	_	_
 9	,	,	Z	Z	_	10	punct	_	_
 10	milline	milline	P	P	sg=sg|nom=nom	8	ccomp	_	_
-11	võis	võima	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	10	aux	_	_
+11	võis	võima	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	10	aux	_	_
 12	olla	olema	V	V	aux=aux|inf=inf	10	cop	_	_
 13	planeet	planeet	S	S	com=com|sg=sg|nom=nom	10	nsubj:cop	_	_
 14	Maa	maa	S	S	com=com|sg=sg|gen=gen	15	nmod	_	_
@@ -1755,9 +1755,9 @@
 # ud_version = 2.11
 # text = Winston hakkas üles minema .
 1	Winston	Winston	S	S	prop=prop|sg=sg|nom=nom	2	nsubj	_	_
-2	hakkas	hakkama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+2	hakkas	hakkama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 3	üles	üles	D	D	_	4	compound:prt	_	_
-4	minema	minema	V	V	main=main|sup=sup|ps=ps|ill=ill	2	xcomp	_	_
+4	minema	minema	V	V	aux=aux|sup=sup|ps=ps|ill=ill	2	xcomp	_	_
 5	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -1766,11 +1766,11 @@
 # ud_version = 2.11
 # text = Kord nägin , kuidas välk lõi .
 1	Kord	kord	D	D	_	2	advmod	_	_
-2	nägin	nägema	V	V	aux=aux|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+2	nägin	nägema	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 3	,	,	Z	Z	_	6	punct	_	_
 4	kuidas	kuidas	D	D	_	6	mark	_	_
 5	välk	välk	S	S	com=com|sg=sg|nom=nom	6	nsubj	_	_
-6	lõi	lööma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
+6	lõi	looma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
 7	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -1779,20 +1779,20 @@
 # ud_version = 2.11
 # text = Kord nägin , kuidas välk lõi metsalagendikul seisvasse tamme , mis leegimöllus ragisedes maha põles .
 1	Kord	kord	D	D	_	2	advmod	_	_
-2	nägin	nägema	V	V	aux=aux|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+2	nägin	nägema	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 3	,	,	Z	Z	_	6	punct	_	_
 4	kuidas	kuidas	D	D	_	6	mark	_	_
 5	välk	välk	S	S	com=com|sg=sg|nom=nom	6	nsubj	_	_
-6	lõi	lööma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
+6	lõi	looma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
 7	metsalagendikul	metsalagendik	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
 8	seisvasse	seisev	A	A	pos=pos|sg=sg|ill=ill	9	acl	_	_
 9	tamme	tamm	S	S	com=com|sg=sg|part=part	6	obj	_	_
 10	,	,	Z	Z	_	15	punct	_	_
 11	mis	mis	P	P	pl=pl|nom=nom	15	nsubj	_	_
 12	leegimöllus	leegimöll	S	S	com=com|sg=sg|in=in	13	obl	_	_
-13	ragisedes	ragisema	V	V	mod=mod|ger=ger	15	advcl	_	_
+13	ragisedes	ragisema	V	V	aux=aux|ger=ger	15	advcl	_	_
 14	maha	maha	D	D	_	15	compound:prt	_	_
-15	põles	põlema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	acl:relcl	_	_
+15	põles	põlema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	acl:relcl	_	_
 16	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -1801,19 +1801,19 @@
 # ud_version = 2.11
 # text = Kord nägin , kuidas välk lõi metsalagendikul seisvasse tamme , mis sealsamas paigas ragisedes maha põles .
 1	Kord	kord	D	D	_	2	advmod	_	_
-2	nägin	nägema	V	V	aux=aux|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
+2	nägin	nägema	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	0	root	_	_
 3	,	,	Z	Z	_	6	punct	_	_
 4	kuidas	kuidas	D	D	_	6	mark	_	_
 5	välk	välk	S	S	com=com|sg=sg|nom=nom	6	nsubj	_	_
-6	lõi	lööma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
+6	lõi	lööma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	ccomp	_	_
 7	metsalagendikul	metsalagendik	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
 8	seisvasse	seisev	A	A	pos=pos|sg=sg|ill=ill	9	acl	_	_
 9	tamme	tamm	S	S	com=com|sg=sg|part=part	6	obj	_	_
 10	,	,	Z	Z	_	16	punct	_	_
-11	mis	mis	P	P	pl=pl|nom=nom	16	nsubj	_	_
-12	sealsamas	sealsamas	D	D	_	16	advmod	_	_
+11	mis	mis	P	P	sg=sg|nom=nom	16	nsubj	_	_
+12	sealsamas	sealsamas	D	D	_	14	advmod	_	_
 13	paigas	paik	S	S	com=com|sg=sg|in=in	14	obl	_	_
-14	ragisedes	ragisema	V	V	main=main|ger=ger	16	advcl	_	_
+14	ragisedes	ragisema	V	V	mod=mod|ger=ger	16	advcl	_	_
 15	maha	maha	D	D	_	16	compound:prt	_	_
 16	põles	põlema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	acl:relcl	_	_
 17	.	.	Z	Z	_	2	punct	_	_
@@ -1824,14 +1824,14 @@
 # ud_version = 2.11
 # text = Täna pandi punkt Baltikumi ja Soome purjelaudurite olulisimale võistlussarjale Audi Neilpryde Baltic Cup'ile , kus eestlased Erno Kaasik ja Martin Ervin tulid tihedas konkurentsis teiseks ja kolmandaks .
 1	Täna	täna	D	D	_	2	advmod	_	_
-2	pandi	panema	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
+2	pandi	panema	V	V	main=main|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
 3	punkt	punkt	S	S	com=com|sg=sg|nom=nom	2	obj	_	_
 4	Baltikumi	Baltikum	S	S	prop=prop|sg=sg|gen=gen	7	nmod	_	_
 5	ja	ja	J	J	sub=sub|crd=crd	6	cc	_	_
 6	Soome	Soome	S	S	prop=prop|sg=sg|gen=gen	4	conj	_	_
 7	purjelaudurite	purjelaudur	S	S	com=com|pl=pl|gen=gen	9	nmod	_	_
 8	olulisimale	olulisim	A	A	super=super|sg=sg|all=all	9	amod	_	_
-9	võistlussarjale	võistlussari	S	S	com=com|sg=sg|all=all	3	nmod	_	_
+9	võistlussarjale	võistlussari	S	S	com=com|sg=sg|all=all	2	obl	_	_
 10	Audi	Audi	S	S	prop=prop|sg=sg|nom=nom	9	appos	_	_
 11	Neilpryde	Neilpryde	S	S	prop=prop|sg=sg|nom=nom	10	flat	_	_
 12	Baltic	Baltic	S	S	prop=prop|sg=sg|nom=nom	10	flat	_	_
@@ -1844,10 +1844,10 @@
 19	ja	ja	J	J	sub=sub|crd=crd	20	cc	_	_
 20	Martin	Martin	S	S	prop=prop|sg=sg|nom=nom	17	conj	_	_
 21	Ervin	Ervin	S	S	prop=prop|sg=sg|nom=nom	20	flat	_	_
-22	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	2	advcl	_	_
+22	tulid	tulema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	2	advcl	_	_
 23	tihedas	tihe	A	A	pos=pos|sg=sg|in=in	24	amod	_	_
 24	konkurentsis	konkurents	S	S	com=com|sg=sg|in=in	22	obl	_	_
-25	teiseks	teine	N	N	ord=ord|sg=sg|tr=tr|l=l	22	xcomp	_	_
+25	teiseks	teine	P	P	sg=sg|tr=tr	22	xcomp	_	_
 26	ja	ja	J	J	sub=sub|crd=crd	27	cc	_	_
 27	kolmandaks	kolmas	N	N	ord=ord|sg=sg|tr=tr|l=l	25	conj	_	_
 28	.	.	Z	Z	_	2	punct	_	_
@@ -1865,7 +1865,7 @@
 6	Soome	Soome	S	S	prop=prop|sg=sg|gen=gen	4	conj	_	_
 7	purjelaudurite	purjelaudur	S	S	com=com|pl=pl|gen=gen	9	nmod	_	_
 8	olulisimale	olulisim	A	A	super=super|sg=sg|all=all	9	amod	_	_
-9	võistlussarjale	võistlussari	S	S	com=com|sg=sg|all=all	3	nmod	_	_
+9	võistlussarjale	võistlussari	S	S	com=com|sg=sg|all=all	2	obl	_	_
 10	Audi	Audi	S	S	prop=prop|sg=sg|nom=nom	9	appos	_	_
 11	Neilpryde	Neilpryde	S	S	prop=prop|sg=sg|nom=nom	10	flat	_	_
 12	Baltic	Baltic	S	S	prop=prop|sg=sg|nom=nom	10	flat	_	_
@@ -1878,7 +1878,7 @@
 19	ja	ja	J	J	sub=sub|crd=crd	20	cc	_	_
 20	Martin	Martin	S	S	prop=prop|sg=sg|nom=nom	17	conj	_	_
 21	Ervin	Ervin	S	S	prop=prop|sg=sg|nom=nom	20	flat	_	_
-22	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	2	advcl	_	_
+22	tulid	tulema	V	V	aux=aux|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	2	advcl	_	_
 23	sarja	sari	S	S	com=com|sg=sg|gen=gen	24	nmod	_	_
 24	üldarvestuses	üldarvestus	S	S	com=com|sg=sg|in=in	22	obl	_	_
 25	teiseks	teiseks	D	D	_	22	advmod	_	_
@@ -1892,11 +1892,11 @@
 # ud_version = 2.11
 # text = Autod tulevad ja kõmakad hakkavad käima .
 1	Autod	auto	S	S	com=com|pl=pl|nom=nom	2	nsubj	_	_
-2	tulevad	tulema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
+2	tulevad	tulema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 3	ja	ja	J	J	sub=sub|crd=crd	5	cc	_	_
 4	kõmakad	kõmakas	S	S	com=com|pl=pl|nom=nom	5	nsubj	_	_
 5	hakkavad	hakkama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	2	conj	_	_
-6	käima	käima	V	V	mod=mod|sup=sup|ps=ps|ill=ill	5	xcomp	_	_
+6	käima	käima	V	V	aux=aux|sup=sup|ps=ps|ill=ill	5	xcomp	_	_
 7	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -1906,16 +1906,16 @@
 # text = Laia silmaringi ja jumala poolt antud tähelepanuvõimega on Eha huvitav vestleja .
 1	Laia	lai	A	A	pos=pos|sg=sg|gen=gen	2	amod	_	_
 2	silmaringi	silmaring	S	S	com=com|sg=sg|gen=gen	6	obl	_	_
-3	ja	ja	J	J	sub=sub|crd=crd	4	cc	_	_
-4	jumala	jumal	S	S	com=com|sg=sg|gen=gen	2	conj	_	_
-5	poolt	poolt	K	K	post=post	2	case	_	_
-6	antud	andma	V	V	mod=mod|partic=partic|past=past|imps=imps	0	root	_	_
-7	tähelepanuvõimega	tähelepanuvõime	S	S	com=com|sg=sg|kom=kom	6	obl	_	_
-8	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	aux	_	_
+3	ja	ja	J	J	sub=sub|crd=crd	7	cc	_	_
+4	jumala	jumal	S	S	com=com|sg=sg|gen=gen	6	obl	_	_
+5	poolt	poolt	K	K	post=post	4	case	_	_
+6	antud	andma	V	V	mod=mod|partic=partic|past=past|imps=imps	7	acl	_	_
+7	tähelepanuvõimega	tähelepanuvõime	S	S	com=com|sg=sg|kom=kom	0	root	_	_
+8	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	7	cop	_	_
 9	Eha	Eha	S	S	prop=prop|sg=sg|nom=nom	11	nmod	_	_
 10	huvitav	huvitav	A	A	pos=pos|sg=sg|nom=nom	11	acl	_	_
-11	vestleja	vestleja	S	S	com=com|sg=sg|nom=nom	6	obj	_	_
-12	.	.	Z	Z	_	6	punct	_	_
+11	vestleja	vestleja	S	S	com=com|sg=sg|nom=nom	7	nsubj:cop	_	_
+12	.	.	Z	Z	_	7	punct	_	_
 
 
 # sent_id = aja_luup200009_431
@@ -1923,7 +1923,7 @@
 # ud_version = 2.11
 # text = Ei kanna , aga oli kummaline , et suhteliselt hea klient , kes maksis õigel ajal ja kellega polnud probleeme , suruti lihtsalt vastu seina .
 1	Ei	ei	V	V	aux=aux|neg=neg	2	aux	_	_
-2	kanna	kandma	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
+2	kanna	kandma	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 3	,	,	Z	Z	_	6	punct	_	_
 4	aga	aga	J	J	sub=sub|crd=crd	6	cc	_	_
 5	oli	olema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	cop	_	_
@@ -1935,15 +1935,15 @@
 11	klient	klient	S	S	com=com|sg=sg|nom=nom	22	obj	_	_
 12	,	,	Z	Z	_	14	punct	_	_
 13	kes	kes	P	P	sg=sg|nom=nom	14	nsubj	_	_
-14	maksis	maksma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	11	acl:relcl	_	_
+14	maksis	maksma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	11	acl:relcl	_	_
 15	õigel	õige	A	A	pos=pos|sg=sg|ad=ad	16	amod	_	_
 16	ajal	aeg	S	S	com=com|sg=sg|ad=ad	14	obl	_	_
 17	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
-18	kellega	kes	P	P	sg=sg|kom=kom	14	conj	_	_
-19	polnud	olema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	18	cop	_	_
+18	kellega	kes	P	P	pl=pl|kom=kom	14	conj	_	_
+19	polnud	olema	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	18	cop	_	_
 20	probleeme	probleem	S	S	com=com|pl=pl|part=part	18	nsubj:cop	_	_
 21	,	,	Z	Z	_	22	punct	_	_
-22	suruti	suruma	V	V	main=main|indic=indic|impf=impf|imps=imps|af=af	6	csubj:cop	_	_
+22	suruti	suruma	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	2	conj	_	_
 23	lihtsalt	lihtsalt	D	D	_	22	advmod	_	_
 24	vastu	vastu	K	K	post=post	25	case	_	_
 25	seina	sein	S	S	com=com|sg=sg|part=part	22	obl	_	_
@@ -1955,13 +1955,13 @@
 # ud_version = 2.11
 # text = Ei kanna , aga selle firma taustal oli kummaline , et suhteliselt hea klient , kes maksis ja kellega polnud probleeme , suruti lihtsalt vastu seina .
 1	Ei	ei	V	V	aux=aux|neg=neg	2	aux	_	_
-2	kanna	kandma	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
+2	kanna	kandma	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	0	root	_	_
 3	,	,	Z	Z	_	9	punct	_	_
 4	aga	aga	J	J	sub=sub|crd=crd	9	cc	_	_
 5	selle	see	P	P	sg=sg|gen=gen	6	det	_	_
 6	firma	firma	S	S	com=com|sg=sg|gen=gen	7	nmod	_	_
 7	taustal	taust	S	S	com=com|sg=sg|ad=ad	9	obl	_	_
-8	oli	olema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	cop	_	_
+8	oli	olema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	9	cop	_	_
 9	kummaline	kummaline	A	A	pos=pos|sg=sg|nom=nom	2	conj	_	_
 10	,	,	Z	Z	_	23	punct	_	_
 11	et	et	J	J	sub=sub|crd=crd	23	mark	_	_
@@ -1969,11 +1969,11 @@
 13	hea	hea	A	A	pos=pos|sg=sg|nom=nom	14	amod	_	_
 14	klient	klient	S	S	com=com|sg=sg|nom=nom	23	obj	_	_
 15	,	,	Z	Z	_	17	punct	_	_
-16	kes	kes	P	P	sg=sg|nom=nom	17	nsubj	_	_
-17	maksis	maksma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	14	acl:relcl	_	_
+16	kes	kes	P	P	pl=pl|nom=nom	17	nsubj	_	_
+17	maksis	maksma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	14	acl:relcl	_	_
 18	ja	ja	J	J	sub=sub|crd=crd	19	cc	_	_
-19	kellega	kes	P	P	sg=sg|kom=kom	17	conj	_	_
-20	polnud	olema	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	19	cop	_	_
+19	kellega	kes	P	P	pl=pl|kom=kom	17	conj	_	_
+20	polnud	olema	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	19	cop	_	_
 21	probleeme	probleem	S	S	com=com|pl=pl|part=part	19	nsubj:cop	_	_
 22	,	,	Z	Z	_	23	punct	_	_
 23	suruti	suruma	V	V	mod=mod|indic=indic|impf=impf|imps=imps|af=af	9	csubj:cop	_	_
@@ -1989,7 +1989,7 @@
 # text = Kõige sagedamini esineb sugukromosoomide arvuanomaaliaid ( 3,7 % ) , kuid sagedased on ka autosoomide struktuurianomaaliad ( 2,4 % ) ( 4 - 6 ) .
 1	Kõige	kõige	D	D	_	2	advmod	_	_
 2	sagedamini	sagedamini	D	D	_	3	advmod	_	_
-3	esineb	esinema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	esineb	esinema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	sugukromosoomide	sugukromosoom	S	S	com=com|pl=pl|gen=gen	5	nmod	_	_
 5	arvuanomaaliaid	arvuanomaalia	S	S	com=com|pl=pl|part=part	3	nsubj	_	_
 6	(	(	Z	Z	_	8	punct	_	_
@@ -1999,7 +1999,7 @@
 10	,	,	Z	Z	_	12	punct	_	_
 11	kuid	kuid	J	J	sub=sub|crd=crd	12	cc	_	_
 12	sagedased	sagedane	A	A	pos=pos|pl=pl|nom=nom	3	conj	_	_
-13	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	12	cop	_	_
+13	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	12	cop	_	_
 14	ka	ka	D	D	_	16	advmod	_	_
 15	autosoomide	autosoom	S	S	com=com|pl=pl|gen=gen	16	nmod	_	_
 16	struktuurianomaaliad	struktuurianomaalia	S	S	com=com|pl=pl|nom=nom	12	nsubj:cop	_	_
@@ -2009,7 +2009,7 @@
 20	)	)	Z	Z	_	19	punct	_	_
 21	(	(	Z	Z	_	22	punct	_	_
 22	4	4	N	N	card=card|<?>=<?>|digit=digit	3	parataxis	_	_
-23	-	-	Z	Z	_	24	punct	_	_
+23	-	-	Z	Z	_	22	punct	_	_
 24	6	6	N	N	card=card|<?>=<?>|digit=digit	22	conj	_	_
 25	)	)	Z	Z	_	22	punct	_	_
 26	.	.	Z	Z	_	3	punct	_	_
@@ -2019,17 +2019,17 @@
 # cut_word_ids = 4,5,6
 # ud_version = 2.11
 # text = Alzheimeri tõveks nimetati ainult harva esinevaid dementsusjuhte , kui haigus algas nooremas keskeas .
-1	Alzheimeri	Alzheimer	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
+1	Alzheimeri	Alzheimeri	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	tõveks	tõbi	S	S	com=com|sg=sg|tr=tr	3	xcomp	_	_
-3	nimetati	nimetama	V	V	mod=mod|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
-4	ainult	ainult	D	D	_	7	advmod	_	_
+3	nimetati	nimetama	V	V	aux=aux|indic=indic|impf=impf|imps=imps|af=af	0	root	_	_
+4	ainult	ainult	D	D	_	5	advmod	_	_
 5	harva	harva	D	D	_	6	advmod	_	_
 6	esinevaid	esinev	A	A	pos=pos|pl=pl|part=part	7	acl	_	_
 7	dementsusjuhte	dementsusjuht	S	S	com=com|pl=pl|part=part	3	obj	_	_
 8	,	,	Z	Z	_	11	punct	_	_
-9	kui	kui	J	J	sub=sub|crd=crd	11	mark	_	_
+9	kui	kui	D	D	_	11	mark	_	_
 10	haigus	haigus	S	S	com=com|sg=sg|nom=nom	11	nsubj	_	_
-11	algas	algama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	3	advcl	_	_
+11	algas	algama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	3	advcl	_	_
 12	nooremas	noorem	A	A	comp=comp|sg=sg|in=in	13	amod	_	_
 13	keskeas	keskiga	S	S	com=com|sg=sg|in=in	11	obl	_	_
 14	.	.	Z	Z	_	3	punct	_	_
@@ -2039,49 +2039,49 @@
 # cut_word_ids = 24
 # ud_version = 2.11
 # text = Jagada riigid sellisteks , kus valitseb riigiideoloogia ( sealhulgas Eesti ) , ja sellisteks , kus millessegi uskumine on inimese eraasi , on lausa ehmatavalt primitiivne .
-1	Jagada	jagama	V	V	mod=mod|inf=inf	26	csubj:cop	_	_
+1	Jagada	jagama	V	V	main=main|inf=inf	0	root	_	_
 2	riigid	riik	S	S	com=com|pl=pl|nom=nom	1	obj	_	_
-3	sellisteks	selline	P	P	pl=pl|tr=tr	1	xcomp	_	_
+3	sellisteks	selline	P	P	pl=pl|tr=tr	1	obl	_	_
 4	,	,	Z	Z	_	6	punct	_	_
 5	kus	kus	D	D	_	6	mark	_	_
-6	valitseb	valitsema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	acl	_	_
+6	valitseb	valitsema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	acl	_	_
 7	riigiideoloogia	riigiideoloogia	S	S	com=com|sg=sg|gen=gen	6	nsubj	_	_
 8	(	(	Z	Z	_	10	punct	_	_
 9	sealhulgas	sealhulgas	D	D	_	10	advmod	_	_
 10	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	7	parataxis	_	_
 11	)	)	Z	Z	_	10	punct	_	_
-12	,	,	Z	Z	_	26	punct	_	_
+12	,	,	Z	Z	_	14	punct	_	_
 13	ja	ja	J	J	sub=sub|crd=crd	14	cc	_	_
 14	sellisteks	selline	P	P	pl=pl|tr=tr	26	obl	_	_
 15	,	,	Z	Z	_	21	punct	_	_
 16	kus	kus	D	D	_	21	mark	_	_
 17	millessegi	miski	P	P	sg=sg|ill=ill	18	nmod	_	_
 18	uskumine	uskumine	S	S	com=com|sg=sg|nom=nom	21	nsubj:cop	_	_
-19	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	21	cop	_	_
+19	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	21	cop	_	_
 20	inimese	inimene	S	S	com=com|sg=sg|gen=gen	21	nmod	_	_
 21	eraasi	eraasi	S	S	com=com|sg=sg|nom=nom	14	acl	_	_
 22	,	,	Z	Z	_	21	punct	_	_
-23	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	26	cop	_	_
+23	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	26	cop	_	_
 24	lausa	lausa	D	D	_	25	advmod	_	_
 25	ehmatavalt	ehmatavalt	D	D	_	26	advmod	_	_
-26	primitiivne	primitiivne	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
-27	.	.	Z	Z	_	26	punct	_	_
+26	primitiivne	primitiivne	A	A	pos=pos|sg=sg|nom=nom	1	conj	_	_
+27	.	.	Z	Z	_	1	punct	_	_
 
 
 # sent_id = aja_luup200009_550
 # cut_word_ids = 4
 # ud_version = 2.11
 # text = Häbitunne ei ole kadunud , ta on üksnes nihkunud teise fookusesse .
-1	Häbitunne	häbitunne	S	S	com=com|sg=sg|nom=nom	4	nsubj:cop	_	_
+1	Häbitunne	häbitunne	S	S	com=com|sg=sg|nom=nom	4	nsubj	_	_
 2	ei	ei	V	V	aux=aux|neg=neg	4	aux	_	_
-3	ole	olema	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	4	cop	_	_
-4	kadunud	kadunud	A	A	pos=pos	0	root	_	_
+3	ole	olema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	4	aux	_	_
+4	kadunud	kaduma	V	V	aux=aux|partic=partic|past=past|ps=ps	0	root	_	_
 5	,	,	Z	Z	_	9	punct	_	_
 6	ta	tema	P	P	sg=sg|nom=nom	9	nsubj	_	_
-7	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	9	aux	_	_
+7	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	9	aux	_	_
 8	üksnes	üksnes	D	D	_	9	advmod	_	_
-9	nihkunud	nihkuma	V	V	mod=mod|indic=indic|impf=impf|ps=ps|neg=neg	4	conj	_	_
-10	teise	teine	N	N	ord=ord|sg=sg|adit=adit|roman=roman	11	amod	_	_
+9	nihkunud	nihkuma	V	V	aux=aux|partic=partic|past=past|ps=ps	4	conj	_	_
+10	teise	teine	N	N	ord=ord|sg=sg|adit=adit|l=l	11	amod	_	_
 11	fookusesse	fookus	S	S	com=com|sg=sg|ill=ill	9	obl	_	_
 12	.	.	Z	Z	_	4	punct	_	_
 
@@ -2091,12 +2091,12 @@
 # ud_version = 2.11
 # text = " Tule , Kristin , lähme sõidame ! " haaras Juudas käest .
 1	"	"	Z	Z	_	2	punct	_	_
-2	Tule	tulema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	0	root	_	_
+2	Tule	tulema	V	V	main=main|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 3	,	,	Z	Z	_	4	punct	_	_
 4	Kristin	Kristin	S	S	prop=prop|sg=sg|nom=nom	2	vocative	_	_
 5	,	,	Z	Z	_	6	punct	_	_
 6	lähme	minema	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	2	conj	_	_
-7	sõidame	sõitma	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	6	advcl	_	_
+7	sõidame	sõitma	V	V	main=main|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	2	conj	_	_
 8	!	!	Z	Z	_	2	punct	_	_
 9	"	"	Z	Z	_	2	punct	_	_
 10	haaras	haarama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	2	parataxis	_	_
@@ -2110,14 +2110,14 @@
 # ud_version = 2.11
 # text = Teisalt hävitab kultuurilise rippumatuse väljavaated etnomineviklikkus , mis seostab idasmugri olemuse pelgalt põllundusliku maakultuuriga .
 1	Teisalt	teisalt	D	D	_	2	advmod	_	_
-2	hävitab	hävitama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+2	hävitab	hävitama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 3	kultuurilise	kultuuriline	A	A	pos=pos|sg=sg|gen=gen	4	amod	_	_
 4	rippumatuse	rippumatus	S	S	com=com|sg=sg|gen=gen	5	nmod	_	_
 5	väljavaated	väljavaade	S	S	com=com|pl=pl|nom=nom	2	nsubj	_	_
-6	etnomineviklikkus	etnomineviklikkus	S	S	com=com|sg=sg|nom=nom	2	obj	_	_
+6	etnomineviklikkus	etnomineviklikkus	S	S	com=com|sg=sg|nom=nom	2	nsubj	_	_
 7	,	,	Z	Z	_	9	punct	_	_
-8	mis	mis	P	P	sg=sg|nom=nom	9	nsubj	_	_
-9	seostab	seostama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	acl:relcl	_	_
+8	mis	mis	P	P	pl=pl|nom=nom	9	nsubj	_	_
+9	seostab	seostama	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	acl:relcl	_	_
 10	idasmugri	idasmugri	G	G	_	11	amod	_	_
 11	olemuse	olemus	S	S	com=com|sg=sg|gen=gen	9	obj	_	_
 12	pelgalt	pelgalt	D	D	_	13	advmod	_	_
@@ -2131,14 +2131,14 @@
 # ud_version = 2.11
 # text = Korraga on käsil mitu pilti , sest nad vajavad pikka kuivamisaega .
 1	Korraga	korraga	D	D	_	3	advmod	_	_
-2	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	cop	_	_
+2	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	3	cop	_	_
 3	käsil	käsil	D	D	_	0	root	_	_
 4	mitu	mitu	P	P	sg=sg|nom=nom	5	det	_	_
 5	pilti	pilt	S	S	com=com|sg=sg|part=part	3	nsubj:cop	_	_
 6	,	,	Z	Z	_	9	punct	_	_
 7	sest	sest	J	J	sub=sub|crd=crd	9	mark	_	_
 8	nad	tema	P	P	pl=pl|nom=nom	9	nsubj	_	_
-9	vajavad	vajama	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	advcl	_	_
+9	vajavad	vajama	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	advcl	_	_
 10	pikka	pikk	A	A	pos=pos|sg=sg|part=part	11	amod	_	_
 11	kuivamisaega	kuivamisaeg	S	S	com=com|sg=sg|part=part	9	obj	_	_
 12	.	.	Z	Z	_	3	punct	_	_
@@ -2155,9 +2155,9 @@
 5	kui	kui	D	D	_	8	mark	_	_
 6	nad	tema	P	P	pl=pl|nom=nom	8	nsubj	_	_
 7	kirglikult	kirglikult	D	D	_	8	advmod	_	_
-8	suudlesid	suudlema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	3	acl	_	_
+8	suudlesid	suudlema	V	V	main=main|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	1	advcl	_	_
 9	,	,	Z	Z	_	10	punct	_	_
-10	teadmata	teadma	V	V	aux=aux|sup=sup|ps=ps|abes=abes	8	advcl	_	_
+10	teadmata	teadma	V	V	aux=aux|sup=sup|ps=ps|abes=abes	1	advcl	_	_
 11	,	,	Z	Z	_	13	punct	_	_
 12	et	et	J	J	sub=sub|crd=crd	13	mark	_	_
 13	autos	auto	S	S	com=com|sg=sg|in=in	10	ccomp	_	_
@@ -2172,20 +2172,20 @@
 # ud_version = 2.11
 # text = Lihamenüü esimeseks käiguks on Parma sink , mille originaalne kuivamisel tekkiv kontsentreeritud maitse on kuulus .
 1	Lihamenüü	lihamenüü	S	S	com=com|sg=sg|gen=gen	3	nmod	_	_
-2	esimeseks	esimene	N	N	ord=ord|sg=sg|tr=tr|l=l	3	amod	_	_
+2	esimeseks	esimene	N	N	ord=ord|sg=sg|tr=tr|roman=roman	3	amod	_	_
 3	käiguks	käik	S	S	com=com|sg=sg|tr=tr	0	root	_	_
 4	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	3	cop	_	_
-5	Parma	Parma	S	S	prop=prop|sg=sg|nom=nom	3	nsubj:cop	_	_
-6	sink	sink	S	S	com=com|sg=sg|nom=nom	5	flat	_	_
+5	Parma	Parma	S	S	prop=prop|sg=sg|nom=nom	6	nmod	_	_
+6	sink	sink	S	S	com=com|sg=sg|nom=nom	3	nsubj:cop	_	_
 7	,	,	Z	Z	_	10	punct	_	_
-8	mille	mis	P	P	sg=sg|gen=gen	10	nmod	_	_
-9	originaalne	originaalne	A	A	pos=pos|sg=sg|nom=nom	10	amod	_	_
+8	mille	mis	P	P	pl=pl|gen=gen	10	nmod	_	_
+9	originaalne	originaalne	A	A	pos=pos|sg=sg|nom=nom	13	amod	_	_
 10	kuivamisel	kuivamine	S	S	com=com|sg=sg|ad=ad	11	obl	_	_
 11	tekkiv	tekkiv	A	A	pos=pos|sg=sg|nom=nom	13	acl	_	_
-12	kontsentreeritud	kontsentreerima	V	V	main=main|partic=partic|past=past|imps=imps	5	acl:relcl	_	_
+12	kontsentreeritud	kontsentreeritud	A	A	pos=pos	13	acl	_	_
 13	maitse	maitse	S	S	com=com|sg=sg|nom=nom	15	nsubj:cop	_	_
-14	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	15	cop	_	_
-15	kuulus	kuulus	A	A	pos=pos|sg=sg|nom=nom	5	acl:relcl	_	_
+14	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	cop	_	_
+15	kuulus	kuulus	A	A	pos=pos|sg=sg|nom=nom	6	acl:relcl	_	_
 16	.	.	Z	Z	_	3	punct	_	_
 
 
@@ -2193,11 +2193,11 @@
 # cut_word_ids = 8,9
 # ud_version = 2.11
 # text = Üks asi näikse selge olevat : kui rahvas või väga suur osa rahvast enam ei oska , ei taha , ei viitsi , ei julge ( häbeneb ) tööd teha , siis pole sellel rahval mingit väljavaadet üha karmistuvas konkurentsis ellu jääda .
-1	Üks	üks	P	P	sg=sg|nom=nom	2	det	_	_
+1	Üks	üks	N	N	card=card|sg=sg|nom=nom|l=l	2	det	_	_
 2	asi	asi	S	S	com=com|sg=sg|nom=nom	3	nsubj	_	_
-3	näikse	näiksema	V	V	main=main|af=af	0	root	_	_
-4	selge	selge	A	A	pos=pos|sg=sg|nom=nom	3	xcomp	_	_
-5	olevat	olema	V	V	aux=aux|quot=quot|pres=pres|ps=ps|af=af	3	xcomp	_	_
+3	näikse	näiksema	V	V	main=main|af=af	4	obl	_	_
+4	selge	selge	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
+5	olevat	olema	V	V	main=main|quot=quot|pres=pres|ps=ps|neg=neg	4	cop	_	_
 6	:	:	Z	Z	_	16	punct	_	_
 7	kui	kui	J	J	sub=sub|crd=crd	16	mark	_	_
 8	rahvas	rahvas	S	S	com=com|sg=sg|nom=nom	16	nsubj	_	_
@@ -2205,31 +2205,31 @@
 10	väga	väga	D	D	_	11	advmod	_	_
 11	suur	suur	A	A	pos=pos|sg=sg|nom=nom	12	amod	_	_
 12	osa	osa	S	S	com=com|sg=sg|nom=nom	8	conj	_	_
-13	rahvast	rahvas	S	S	com=com|sg=sg|part=part	8	conj	_	_
+13	rahvast	rahvas	S	S	com=com|sg=sg|part=part	16	obj	_	_
 14	enam	enam	D	D	_	16	advmod	_	_
 15	ei	ei	V	V	aux=aux|neg=neg	16	aux	_	_
-16	oska	oskama	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	25	advcl	_	_
+16	oska	oskama	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	4	advcl	_	_
 17	,	,	Z	Z	_	19	punct	_	_
 18	ei	ei	V	V	aux=aux|neg=neg	19	aux	_	_
-19	taha	tahtma	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	16	conj	_	_
+19	taha	tahtma	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	16	conj	_	_
 20	,	,	Z	Z	_	22	punct	_	_
 21	ei	ei	V	V	aux=aux|neg=neg	22	aux	_	_
-22	viitsi	viitsima	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	16	conj	_	_
+22	viitsi	viitsima	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	16	conj	_	_
 23	,	,	Z	Z	_	25	punct	_	_
 24	ei	ei	V	V	aux=aux|neg=neg	25	aux	_	_
-25	julge	julgema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	3	conj	_	_
+25	julge	julgema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	16	conj	_	_
 26	(	(	Z	Z	_	27	punct	_	_
-27	häbeneb	häbenema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	25	parataxis	_	_
+27	häbeneb	häbenema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	25	parataxis	_	_
 28	)	)	Z	Z	_	27	punct	_	_
 29	tööd	töö	S	S	com=com|sg=sg|part=part	30	obj	_	_
-30	teha	tegema	V	V	main=main|inf=inf	25	xcomp	_	_
+30	teha	tegema	V	V	aux=aux|inf=inf	25	xcomp	_	_
 31	,	,	Z	Z	_	35	punct	_	_
 32	siis	siis	D	D	_	35	advmod	_	_
 33	pole	olema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	35	cop	_	_
 34	sellel	see	P	P	sg=sg|ad=ad	35	det	_	_
 35	rahval	rahvas	S	S	com=com|sg=sg|ad=ad	3	conj	_	_
 36	mingit	mingi	P	P	sg=sg|part=part	37	det	_	_
-37	väljavaadet	väljavaade	S	S	com=com|sg=sg|part=part	42	obj	_	_
+37	väljavaadet	väljavaade	S	S	com=com|sg=sg|part=part	42	nsubj	_	_
 38	üha	üha	D	D	_	39	advmod	_	_
 39	karmistuvas	karmistuv	A	A	pos=pos|sg=sg|in=in	40	acl	_	_
 40	konkurentsis	konkurents	S	S	com=com|sg=sg|in=in	42	obl	_	_
@@ -2242,47 +2242,47 @@
 # cut_word_ids = 40,41,42
 # ud_version = 2.11
 # text = Üks asi näikse selge olevat : kui mõnes riigis rahvas või väga suur osa rahvast enam ei oska , ei taha , ei viitsi , ei julge ( häbeneb ) tööd teha , siis pole sellel rahval mingit väljavaadet ellu jääda .
-1	Üks	üks	P	P	sg=sg|nom=nom	2	det	_	_
+1	Üks	üks	N	N	card=card|sg=sg|nom=nom|l=l	2	det	_	_
 2	asi	asi	S	S	com=com|sg=sg|nom=nom	3	nsubj	_	_
-3	näikse	näiksema	V	V	main=main|af=af	0	root	_	_
-4	selge	selge	A	A	pos=pos|sg=sg|nom=nom	3	xcomp	_	_
-5	olevat	olema	V	V	aux=aux|quot=quot|pres=pres|ps=ps|af=af	3	xcomp	_	_
+3	näikse	näiksema	V	V	main=main|af=af	4	obl	_	_
+4	selge	selge	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
+5	olevat	olema	V	V	main=main|quot=quot|pres=pres|ps=ps|af=af	4	cop	_	_
 6	:	:	Z	Z	_	18	punct	_	_
-7	kui	kui	J	J	sub=sub|crd=crd	18	mark	_	_
+7	kui	kui	D	D	_	18	mark	_	_
 8	mõnes	mõni	P	P	sg=sg|in=in	9	det	_	_
 9	riigis	riik	S	S	com=com|sg=sg|in=in	18	obl	_	_
 10	rahvas	rahvas	S	S	com=com|sg=sg|nom=nom	18	nsubj	_	_
 11	või	või	J	J	sub=sub|crd=crd	14	cc	_	_
 12	väga	väga	D	D	_	13	advmod	_	_
 13	suur	suur	A	A	pos=pos|sg=sg|nom=nom	14	amod	_	_
-14	osa	osa	S	S	com=com|sg=sg|nom=nom	15	nmod	_	_
+14	osa	osa	S	S	com=com|sg=sg|nom=nom	10	conj	_	_
 15	rahvast	rahvas	S	S	com=com|sg=sg|part=part	18	obj	_	_
 16	enam	enam	D	D	_	18	advmod	_	_
 17	ei	ei	V	V	aux=aux|neg=neg	18	aux	_	_
-18	oska	oskama	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	21	advcl	_	_
+18	oska	oskama	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	4	advcl	_	_
 19	,	,	Z	Z	_	21	punct	_	_
 20	ei	ei	V	V	aux=aux|neg=neg	21	aux	_	_
-21	taha	tahtma	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	3	conj	_	_
+21	taha	tahtma	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	18	conj	_	_
 22	,	,	Z	Z	_	24	punct	_	_
 23	ei	ei	V	V	aux=aux|neg=neg	24	aux	_	_
-24	viitsi	viitsima	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	18	conj	_	_
+24	viitsi	viitsima	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	18	conj	_	_
 25	,	,	Z	Z	_	27	punct	_	_
 26	ei	ei	V	V	aux=aux|neg=neg	27	aux	_	_
-27	julge	julgema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	21	conj	_	_
+27	julge	julgema	V	V	mod=mod|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	18	conj	_	_
 28	(	(	Z	Z	_	29	punct	_	_
-29	häbeneb	häbenema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	27	parataxis	_	_
+29	häbeneb	häbenema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	27	parataxis	_	_
 30	)	)	Z	Z	_	29	punct	_	_
 31	tööd	töö	S	S	com=com|sg=sg|part=part	32	obj	_	_
 32	teha	tegema	V	V	main=main|inf=inf	27	xcomp	_	_
 33	,	,	Z	Z	_	37	punct	_	_
 34	siis	siis	D	D	_	37	advmod	_	_
-35	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	37	cop	_	_
+35	pole	olema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	37	cop	_	_
 36	sellel	see	P	P	sg=sg|ad=ad	37	det	_	_
-37	rahval	rahvas	S	S	com=com|sg=sg|ad=ad	27	conj	_	_
+37	rahval	rahvas	S	S	com=com|sg=sg|ad=ad	3	parataxis	_	_
 38	mingit	mingi	P	P	sg=sg|part=part	39	det	_	_
-39	väljavaadet	väljavaade	S	S	com=com|sg=sg|part=part	41	obj	_	_
+39	väljavaadet	väljavaade	S	S	com=com|sg=sg|part=part	41	nsubj	_	_
 40	ellu	elu	S	S	com=com|sg=sg|adit=adit	41	obl	_	_
-41	jääda	jääma	V	V	aux=aux|inf=inf	37	csubj:cop	_	_
+41	jääda	jääma	V	V	main=main|inf=inf	37	csubj:cop	_	_
 42	.	.	Z	Z	_	3	punct	_	_
 
 
@@ -2307,21 +2307,21 @@
 # cut_word_ids = 13
 # ud_version = 2.11
 # text = Olin läbinud palju vähem , kui hommikul oletasin , aga olin ikkagi väsinud ja näljane .
-1	Olin	olema	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	2	aux	_	_
-2	läbinud	läbima	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	0	root	_	_
+1	Olin	olema	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	2	aux	_	_
+2	läbinud	läbima	V	V	mod=mod|partic=partic|past=past|ps=ps	0	root	_	_
 3	palju	palju	D	D	_	4	advmod	_	_
 4	vähem	vähem	D	D	_	2	advmod	_	_
 5	,	,	Z	Z	_	8	punct	_	_
 6	kui	kui	J	J	sub=sub|crd=crd	8	mark	_	_
 7	hommikul	hommik	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
-8	oletasin	oletama	V	V	mod=mod|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	2	advcl	_	_
+8	oletasin	oletama	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	2	advcl	_	_
 9	,	,	Z	Z	_	13	punct	_	_
 10	aga	aga	J	J	sub=sub|crd=crd	13	cc	_	_
 11	olin	olema	V	V	main=main|indic=indic|impf=impf|ps1=ps1|sg=sg|ps=ps|af=af	13	cop	_	_
 12	ikkagi	ikkagi	D	D	_	13	advmod	_	_
-13	väsinud	väsinud	A	A	pos=pos	8	conj	_	_
+13	väsinud	väsinud	A	A	pos=pos|pl=pl|nom=nom	2	conj	_	_
 14	ja	ja	J	J	sub=sub|crd=crd	15	cc	_	_
-15	näljane	näljane	A	A	pos=pos|sg=sg|nom=nom	8	conj	_	_
+15	näljane	näljane	A	A	pos=pos|sg=sg|nom=nom	13	conj	_	_
 16	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -2329,11 +2329,11 @@
 # cut_word_ids = 2,3
 # ud_version = 2.11
 # text = Tule ! " ta sirutas käed .
-1	Tule	tulema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	0	root	_	_
+1	Tule	tulema	V	V	main=main|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
 2	!	!	Z	Z	_	1	punct	_	_
 3	"	"	Z	Z	_	1	punct	_	_
 4	ta	tema	P	P	sg=sg|nom=nom	5	nsubj	_	_
-5	sirutas	sirutama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	1	parataxis	_	_
+5	sirutas	sirutama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	1	parataxis	_	_
 6	käed	käsi	S	S	com=com|pl=pl|nom=nom	5	obj	_	_
 7	.	.	Z	Z	_	1	punct	_	_
 
@@ -2343,15 +2343,15 @@
 # ud_version = 2.11
 # text = See on sulle endale ka kasulik : kui tööleping lõpetatakse töötaja vääritu teo või siis usalduse kaotamise tõttu , siis sa mingit raha ei näe , kui aga lõpetame poolte kokkuleppel , siis saad ju hüvitist . "
 1	See	see	P	P	sg=sg|nom=nom	6	nsubj:cop	_	_
-2	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	cop	_	_
+2	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	6	cop	_	_
 3	sulle	sina	P	P	sg=sg|all=all	6	obl	_	_
 4	endale	ise	P	P	sg=sg|all=all	6	obl	_	_
 5	ka	ka	D	D	_	6	advmod	_	_
 6	kasulik	kasulik	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 7	:	:	Z	Z	_	10	punct	_	_
-8	kui	kui	J	J	sub=sub|crd=crd	10	mark	_	_
+8	kui	kui	D	D	_	10	mark	_	_
 9	tööleping	tööleping	S	S	com=com|sg=sg|nom=nom	10	obj	_	_
-10	lõpetatakse	lõpetama	V	V	aux=aux|indic=indic|pres=pres|imps=imps|af=af	25	advcl	_	_
+10	lõpetatakse	lõpetama	V	V	main=main|indic=indic|pres=pres|imps=imps|af=af	34	advcl	_	_
 11	töötaja	töötaja	S	S	com=com|sg=sg|gen=gen	13	nmod	_	_
 12	vääritu	vääritu	A	A	pos=pos|sg=sg|gen=gen	13	amod	_	_
 13	teo	tegu	S	S	com=com|sg=sg|gen=gen	10	obl	_	_
@@ -2361,25 +2361,25 @@
 17	kaotamise	kaotamine	S	S	com=com|sg=sg|gen=gen	13	conj	_	_
 18	tõttu	tõttu	K	K	post=post	13	case	_	_
 19	,	,	Z	Z	_	25	punct	_	_
-20	siis	siis	J	J	sub=sub|crd=crd	25	cc	_	_
+20	siis	siis	J	J	sub=sub|crd=crd	25	advmod	_	_
 21	sa	sina	P	P	sg=sg|nom=nom	25	nsubj	_	_
 22	mingit	mingi	P	P	sg=sg|part=part	23	det	_	_
 23	raha	raha	S	S	com=com|sg=sg|part=part	25	obj	_	_
 24	ei	ei	V	V	aux=aux|neg=neg	25	aux	_	_
-25	näe	nägema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	6	conj	_	_
+25	näe	nägema	V	V	main=main|indic=indic|pres=pres|ps=ps|neg=neg	6	parataxis	_	_
 26	,	,	Z	Z	_	29	punct	_	_
-27	kui	kui	D	D	_	29	mark	_	_
-28	aga	aga	J	J	sub=sub|crd=crd	29	cc	_	_
-29	lõpetame	lõpetama	V	V	main=main|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	25	ccomp	_	_
+27	kui	kui	J	J	sub=sub|crd=crd	29	mark	_	_
+28	aga	aga	J	J	sub=sub|crd=crd	29	advmod	_	_
+29	lõpetame	lõpetama	V	V	mod=mod|indic=indic|pres=pres|ps1=ps1|pl=pl|ps=ps|af=af	34	advcl	_	_
 30	poolte	pool	S	S	com=com|pl=pl|gen=gen	31	nmod	_	_
 31	kokkuleppel	kokkulepe	S	S	com=com|sg=sg|ad=ad	29	obl	_	_
 32	,	,	Z	Z	_	34	punct	_	_
-33	siis	siis	J	J	sub=sub|crd=crd	34	cc	_	_
-34	saad	saama	V	V	mod=mod|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	25	conj	_	_
+33	siis	siis	J	J	sub=sub|crd=crd	34	advmod	_	_
+34	saad	saama	V	V	aux=aux|indic=indic|pres=pres|ps2=ps2|sg=sg|ps=ps|af=af	25	conj	_	_
 35	ju	ju	D	D	_	34	advmod	_	_
 36	hüvitist	hüvitis	S	S	com=com|sg=sg|part=part	34	obj	_	_
-37	.	.	Z	Z	_	6	punct	_	_
-38	"	"	Z	Z	_	6	punct	_	_
+37	.	.	Z	Z	_	25	punct	_	_
+38	"	"	Z	Z	_	25	punct	_	_
 
 
 # sent_id = aja_epl20070812_72
@@ -2388,10 +2388,10 @@
 # text = Mõksi külas põles täna öösel puust elumaja , leekides hukkus kaks meesterahvast .
 1	Mõksi	Mõks	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	külas	küla	S	S	com=com|sg=sg|in=in	3	obl	_	_
-3	põles	põlema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	põles	põlema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	täna	täna	D	D	_	3	advmod	_	_
 5	öösel	öösel	D	D	_	3	advmod	_	_
-6	puust	puu	S	S	com=com|sg=sg|el=el	7	nmod	_	_
+6	puust	puu	S	S	com=com|sg=sg|el=el	3	obl	_	_
 7	elumaja	elumaja	S	S	com=com|sg=sg|part=part	3	nsubj	_	_
 8	,	,	Z	Z	_	10	punct	_	_
 9	leekides	leek	S	S	com=com|pl=pl|in=in	10	obl	_	_
@@ -2407,7 +2407,7 @@
 # text = Võru maakonnas põles täna öösel puust elumaja , leekides hukkus kaks meesterahvast .
 1	Võru	Võru	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	maakonnas	maakond	S	S	com=com|sg=sg|in=in	3	obl	_	_
-3	põles	põlema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	põles	põlema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	täna	täna	D	D	_	3	advmod	_	_
 5	öösel	öösel	D	D	_	3	advmod	_	_
 6	puust	puu	S	S	com=com|sg=sg|el=el	3	obl	_	_
@@ -2426,15 +2426,15 @@
 # text = Võru maakonnas Mõksi külas põles täna öösel puust elumaja , hukkus kaks meesterahvast .
 1	Võru	Võru	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	maakonnas	maakond	S	S	com=com|sg=sg|in=in	5	obl	_	_
-3	Mõksi	Mõks	S	S	prop=prop|sg=sg|gen=gen	4	nmod	_	_
+3	Mõksi	Mõksi	S	S	prop=prop|sg=sg|gen=gen	4	nmod	_	_
 4	külas	küla	S	S	com=com|sg=sg|in=in	5	obl	_	_
 5	põles	põlema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 6	täna	täna	D	D	_	5	advmod	_	_
 7	öösel	öösel	D	D	_	5	advmod	_	_
-8	puust	puu	S	S	com=com|sg=sg|el=el	9	nmod	_	_
+8	puust	puu	S	S	com=com|sg=sg|el=el	5	obl	_	_
 9	elumaja	elumaja	S	S	com=com|sg=sg|part=part	5	nsubj	_	_
 10	,	,	Z	Z	_	11	punct	_	_
-11	hukkus	hukkuma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	conj	_	_
+11	hukkus	hukkuma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	conj	_	_
 12	kaks	kaks	N	N	card=card|sg=sg|nom=nom|l=l	13	nummod	_	_
 13	meesterahvast	meesterahvas	S	S	com=com|sg=sg|part=part	11	nsubj	_	_
 14	.	.	Z	Z	_	5	punct	_	_
@@ -2447,11 +2447,11 @@
 1	Haapsalu	Haapsalu	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
 2	näitus	näitus	S	S	com=com|sg=sg|nom=nom	8	nsubj	_	_
 3	,	,	Z	Z	_	6	punct	_	_
-4	mis	mis	P	P	pl=pl|nom=nom	6	nsubj:cop	_	_
+4	mis	mis	P	P	sg=sg|nom=nom	6	nsubj:cop	_	_
 5	järjekorras	järjekord	S	S	com=com|sg=sg|in=in	6	obl	_	_
 6	kolmeteistkümnes	kolmeteistkümnes	N	N	ord=ord|sg=sg|nom=nom|roman=roman	2	acl:relcl	_	_
 7	,	,	Z	Z	_	6	punct	_	_
-8	jääb	jääma	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+8	jääb	jääma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 9	sellisel	selline	P	P	sg=sg|ad=ad	10	det	_	_
 10	kujul	kuju	S	S	com=com|sg=sg|ad=ad	8	obl	_	_
 11	viimaseks	viimane	A	A	pos=pos|sg=sg|tr=tr	8	xcomp	_	_
@@ -2461,20 +2461,20 @@
 # sent_id = aja_ml200247_1763
 # cut_word_ids = 1
 # ud_version = 2.11
-# text = raskeim madu on Lõuna-Ameerikas ja Trinidadis elav anakonda ( Eunectes murinus ) .
-1	raskeim	raskeim	A	A	super=super|sg=sg|nom=nom	2	amod	_	_
-2	madu	madu	S	S	com=com|sg=sg|part=part	8	nsubj:cop	_	_
-3	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	8	cop	_	_
+# text = Raskeim madu on Lõuna-Ameerikas ja Trinidadis elav anakonda ( Eunectes murinus ) .
+1	Raskeim	raskeim	A	A	super=super|sg=sg|nom=nom	2	amod	_	_
+2	madu	madu	S	S	com=com|sg=sg|part=part	0	root	_	_
+3	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	2	cop	_	_
 4	Lõuna-Ameerikas	Lõuna-Ameerika	S	S	prop=prop|sg=sg|in=in	7	obl	_	_
 5	ja	ja	J	J	sub=sub|crd=crd	6	cc	_	_
 6	Trinidadis	Trinidad	S	S	prop=prop|sg=sg|in=in	4	conj	_	_
 7	elav	elav	A	A	pos=pos|sg=sg|nom=nom	8	acl	_	_
-8	anakonda	anakonda	S	S	com=com|sg=sg|nom=nom	0	root	_	_
+8	anakonda	anakonda	S	S	com=com|sg=sg|nom=nom	2	nsubj:cop	_	_
 9	(	(	Z	Z	_	10	punct	_	_
-10	Eunectes	Eunecte	S	S	prop=prop|sg=sg|in=in	8	appos	_	_
-11	murinus	murinu	S	S	com=com|sg=sg|in=in	10	flat	_	_
+10	Eunectes	Eunecte	S	S	prop=prop|sg=sg|in=in	8	parataxis	_	_
+11	murinus	murinu	S	S	com=com|sg=sg|in=in	10	flat:foreign	_	_
 12	)	)	Z	Z	_	10	punct	_	_
-13	.	.	Z	Z	_	8	punct	_	_
+13	.	.	Z	Z	_	2	punct	_	_
 
 
 # sent_id = aja_pm20001004_1236
@@ -2485,17 +2485,17 @@
 2	sai	saama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 3	sihipärasema	sihipärasem	A	A	comp=comp|sg=sg|gen=gen	4	amod	_	_
 4	väljundi	väljund	S	S	com=com|sg=sg|gen=gen	2	obj	_	_
-5	60ndatel	60.	N	N	ord=ord|pl=pl|ad=ad|l=l	6	amod	_	_
+5	60ndatel	60.	N	N	ord=ord|pl=pl|ad=ad|roman=roman	6	amod	_	_
 6	aastatel	aasta	S	S	com=com|pl=pl|ad=ad	2	obl	_	_
 7	,	,	Z	Z	_	10	punct	_	_
 8	mil	mil	D	D	_	10	mark	_	_
 9	ta	tema	P	P	sg=sg|nom=nom	10	nsubj	_	_
-10	osales	osalema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	acl	_	_
+10	osales	osalema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	6	acl	_	_
 11	Vietnami	Vietnam	S	S	prop=prop|sg=sg|gen=gen	12	nmod	_	_
-12	sõja	sõda	S	S	com=com|sg=sg|gen=gen	15	nmod	_	_
+12	sõja	sõda	S	S	com=com|sg=sg|gen=gen	10	obl	_	_
 13	ja	ja	J	J	sub=sub|crd=crd	14	cc	_	_
-14	inimõiguste	inimõigus	S	S	com=com|pl=pl|gen=gen	12	conj	_	_
-15	rikkumise	rikkumine	S	S	com=com|sg=sg|gen=gen	10	obl	_	_
+14	inimõiguste	inimõigus	S	S	com=com|pl=pl|gen=gen	15	nmod	_	_
+15	rikkumise	rikkumine	S	S	com=com|sg=sg|gen=gen	12	conj	_	_
 16	vastastes	vastane	A	A	pos=pos|pl=pl|in=in	17	amod	_	_
 17	demonstratsioonides	demonstratsioon	S	S	com=com|pl=pl|in=in	10	obl	_	_
 18	.	.	Z	Z	_	2	punct	_	_
@@ -2505,15 +2505,15 @@
 # cut_word_ids = 6,7,8
 # ud_version = 2.11
 # text = Subkortikaalset VDd on võimalik eristada ka neuropsühholoogilise uuringu alusel .
-1	Subkortikaalset	Subkortikaalset	S	S	prop=prop|sg=sg|nom=nom	2	nmod	_	_
+1	Subkortikaalset	Subkortikaalset	S	S	prop=prop|sg=sg|nom=nom	2	amod	_	_
 2	VDd	VD	Y	Y	nominal=nominal|sg=sg|part=part	5	obj	_	_
-3	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
+3	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
 4	võimalik	võimalik	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
-5	eristada	eristama	V	V	aux=aux|inf=inf	4	csubj:cop	_	_
+5	eristada	eristama	V	V	mod=mod|inf=inf	4	csubj:cop	_	_
 6	ka	ka	D	D	_	9	advmod	_	_
 7	neuropsühholoogilise	neuropsühholoogiline	A	A	pos=pos|sg=sg|gen=gen	8	amod	_	_
 8	uuringu	uuring	S	S	com=com|sg=sg|gen=gen	9	nmod	_	_
-9	alusel	alus	S	S	com=com|sg=sg|ad=ad	5	obl	_	_
+9	alusel	alune	S	S	com=com|sg=sg|ad=ad	5	obl	_	_
 10	.	.	Z	Z	_	4	punct	_	_
 
 
@@ -2521,11 +2521,11 @@
 # cut_word_ids = 9,10,11,12
 # ud_version = 2.11
 # text = Subkortikaalset VDd on võimalik eristada teistest dementsuse vormidest .
-1	Subkortikaalset	Subkortikaalset	S	S	prop=prop|sg=sg|nom=nom	2	nmod	_	_
+1	Subkortikaalset	Subkortikaalset	S	S	prop=prop|sg=sg|nom=nom	2	amod	_	_
 2	VDd	VD	Y	Y	nominal=nominal|sg=sg|part=part	5	obj	_	_
-3	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
+3	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	4	cop	_	_
 4	võimalik	võimalik	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
-5	eristada	eristama	V	V	aux=aux|inf=inf	4	csubj:cop	_	_
+5	eristada	eristama	V	V	mod=mod|inf=inf	4	csubj:cop	_	_
 6	teistest	teine	P	P	pl=pl|el=el	8	det	_	_
 7	dementsuse	dementsus	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
 8	vormidest	vorm	S	S	com=com|pl=pl|el=el	5	obl	_	_
@@ -2538,20 +2538,20 @@
 # text = Ta profiil oli niivõrd lõikav , et tundus , nagu õngitseks terava kongus nokaga röövlind viinapudeli kallal .
 1	Ta	tema	P	P	sg=sg|gen=gen	2	nmod	_	_
 2	profiil	profiil	S	S	com=com|sg=sg|nom=nom	5	nsubj:cop	_	_
-3	oli	olema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	cop	_	_
+3	oli	olema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	cop	_	_
 4	niivõrd	niivõrd	D	D	_	5	advmod	_	_
 5	lõikav	lõikav	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 6	,	,	Z	Z	_	8	punct	_	_
 7	et	et	J	J	sub=sub|crd=crd	8	mark	_	_
-8	tundus	tunduma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	advcl	_	_
+8	tundus	tunduma	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	5	advcl	_	_
 9	,	,	Z	Z	_	11	punct	_	_
-10	nagu	nagu	D	D	_	11	advmod	_	_
-11	õngitseks	õngitsema	V	V	main=main|cond=cond|pres=pres|ps=ps|neg=neg	8	advcl	_	_
+10	nagu	nagu	D	D	_	11	mark	_	_
+11	õngitseks	õngitsema	V	V	main=main|cond=cond|pres=pres|ps=ps|af=af	8	advcl	_	_
 12	terava	terav	A	A	pos=pos|sg=sg|gen=gen	14	amod	_	_
 13	kongus	kongus	A	A	pos=pos	14	amod	_	_
 14	nokaga	nokk	S	S	com=com|sg=sg|kom=kom	15	nmod	_	_
 15	röövlind	röövlind	S	S	com=com|sg=sg|nom=nom	11	nsubj	_	_
-16	viinapudeli	viinapudel	S	S	com=com|sg=sg|gen=gen	11	obl	_	_
+16	viinapudeli	viinapudel	S	S	com=com|sg=sg|gen=gen	15	nmod	_	_
 17	kallal	kallal	K	K	post=post	16	case	_	_
 18	.	.	Z	Z	_	5	punct	_	_
 
@@ -2563,7 +2563,7 @@
 1	Välisminister	välisminister	S	S	com=com|sg=sg|nom=nom	4	nsubj	_	_
 2	Urmas	Urmas	S	S	prop=prop|sg=sg|nom=nom	1	appos	_	_
 3	Paet	Paet	S	S	prop=prop|sg=sg|nom=nom	2	flat	_	_
-4	kirjutas	kirjutama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	kirjutas	kirjutama	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 5	alla	alla	D	D	_	4	compound:prt	_	_
 6	.	.	Z	Z	_	4	punct	_	_
 
@@ -2575,19 +2575,19 @@
 1	Välisminister	välisminister	S	S	com=com|sg=sg|nom=nom	4	nsubj	_	_
 2	Urmas	Urmas	S	S	prop=prop|sg=sg|nom=nom	1	appos	_	_
 3	Paet	Paet	S	S	prop=prop|sg=sg|nom=nom	2	flat	_	_
-4	kirjutas	kirjutama	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+4	kirjutas	kirjutama	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 5	alla	alla	D	D	_	4	compound:prt	_	_
 6	käskkirjale	käskkiri	S	S	com=com|sg=sg|all=all	4	obl	_	_
 7	,	,	Z	Z	_	10	punct	_	_
 8	mille	mis	P	P	sg=sg|gen=gen	10	obl	_	_
 9	kohaselt	kohaselt	K	K	post=post	8	case	_	_
-10	eraldatakse	eraldama	V	V	mod=mod|indic=indic|pres=pres|imps=imps|af=af	6	acl:relcl	_	_
+10	eraldatakse	eraldama	V	V	main=main|indic=indic|pres=pres|imps=imps|af=af	6	acl:relcl	_	_
 11	see	see	P	P	sg=sg|nom=nom	12	det	_	_
 12	summa	summa	S	S	com=com|sg=sg|nom=nom	10	obj	_	_
 13	arengu-	areng	S	S	com=com|sg=sg|gen=gen	16	obl	_	_
 14	ja	ja	J	J	sub=sub|crd=crd	15	cc	_	_
 15	humanitaarabiks	humanitaarabi	S	S	com=com|sg=sg|tr=tr	13	conj	_	_
-16	ettenähtud	ettenähtud	A	A	pos=pos|sg=sg|nom=nom	17	acl	_	_
+16	ettenähtud	ettenähtud	A	A	pos=pos|pl=pl|nom=nom	17	acl	_	_
 17	vahenditest	vahend	S	S	com=com|pl=pl|el=el	10	obl	_	_
 18	.	.	Z	Z	_	4	punct	_	_
 
@@ -2598,7 +2598,7 @@
 # text = Sellest hoolimata jäi mässumeelsust .
 1	Sellest	see	P	P	sg=sg|el=el	3	obl	_	_
 2	hoolimata	hoolimata	K	K	post=post	1	case	_	_
-3	jäi	jääma	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
+3	jäi	jääma	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	0	root	_	_
 4	mässumeelsust	mässumeelsus	S	S	com=com|sg=sg|part=part	3	nsubj	_	_
 5	.	.	Z	Z	_	3	punct	_	_
 
@@ -2607,22 +2607,22 @@
 # cut_word_ids = 6,7
 # ud_version = 2.11
 # text = Seawolfi vastased , kes on üritanud projekti takistada , on väitnud , et sellist allveelaeva pole enam vaja , kuna külm sõda on läbi ja tulevikus tekivad konfliktid madalas vees ja kalda lähedal .
-1	Seawolfi	Seawolf	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
-2	vastased	vastane	S	S	com=com|pl=pl|nom=nom	11	nsubj:cop	_	_
+1	Seawolfi	Seawolfi	S	S	prop=prop|sg=sg|gen=gen	2	nmod	_	_
+2	vastased	vastane	S	S	com=com|pl=pl|nom=nom	11	nsubj	_	_
 3	,	,	Z	Z	_	6	punct	_	_
-4	kes	kes	P	P	pl=pl|nom=nom	6	nsubj	_	_
-5	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	6	aux	_	_
+4	kes	kes	P	P	sg=sg|nom=nom	6	nsubj	_	_
+5	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	6	aux	_	_
 6	üritanud	üritama	V	V	aux=aux|indic=indic|impf=impf|ps=ps|neg=neg	2	acl:relcl	_	_
 7	projekti	projekt	S	S	com=com|sg=sg|part=part	8	obj	_	_
-8	takistada	takistama	V	V	mod=mod|inf=inf	6	xcomp	_	_
+8	takistada	takistama	V	V	main=main|inf=inf	6	xcomp	_	_
 9	,	,	Z	Z	_	6	punct	_	_
-10	on	olema	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	11	cop	_	_
-11	väitnud	väitnud	A	A	pos=pos	0	root	_	_
+10	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	11	aux	_	_
+11	väitnud	väitnud	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 12	,	,	Z	Z	_	16	punct	_	_
 13	et	et	J	J	sub=sub|crd=crd	16	mark	_	_
 14	sellist	selline	P	P	sg=sg|part=part	15	det	_	_
 15	allveelaeva	allveelaev	S	S	com=com|sg=sg|part=part	16	nsubj	_	_
-16	pole	olema	V	V	aux=aux|indic=indic|pres=pres|ps=ps|neg=neg	11	csubj:cop	_	_
+16	pole	olema	V	V	aux=aux|imper=imper|pres=pres|ps2=ps2|sg=sg|ps=ps|neg=neg	11	ccomp	_	_
 17	enam	enam	D	D	_	16	advmod	_	_
 18	vaja	vaja	D	D	_	16	compound:prt	_	_
 19	,	,	Z	Z	_	24	punct	_	_
@@ -2633,7 +2633,7 @@
 24	läbi	läbi	D	D	_	16	advcl	_	_
 25	ja	ja	J	J	sub=sub|crd=crd	27	cc	_	_
 26	tulevikus	tulevik	S	S	com=com|sg=sg|in=in	27	obl	_	_
-27	tekivad	tekkima	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	24	conj	_	_
+27	tekivad	tekkima	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	24	conj	_	_
 28	konfliktid	konflikt	S	S	com=com|pl=pl|nom=nom	27	nsubj	_	_
 29	madalas	madal	A	A	pos=pos|sg=sg|in=in	30	amod	_	_
 30	vees	vesi	S	S	com=com|sg=sg|in=in	27	obl	_	_
@@ -2664,10 +2664,10 @@
 # text = Muide , 15. septembril 1186 oli sektori avanemisnurk vaid 11° ning alles hiljuti , 5. veebruaril 1962 , oli koondumine samuti tunduvalt tihedam kui nüüd .
 1	Muide	muide	D	D	_	10	advmod	_	_
 2	,	,	Z	Z	_	10	punct	_	_
-3	15.	15.	N	N	ord=ord|<?>=<?>|roman=roman	4	amod	_	_
+3	15.	15.	N	N	ord=ord|<?>=<?>|digit=digit	4	amod	_	_
 4	septembril	september	S	S	com=com|sg=sg|ad=ad	10	obl	_	_
 5	1186	1186	N	N	card=card|<?>=<?>|digit=digit	4	nummod	_	_
-6	oli	olema	V	V	mod=mod|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	10	cop	_	_
+6	oli	olema	V	V	main=main|indic=indic|impf=impf|ps3=ps3|sg=sg|ps=ps|af=af	10	cop	_	_
 7	sektori	sektor	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
 8	avanemisnurk	avanemisnurk	S	S	com=com|sg=sg|nom=nom	10	nsubj:cop	_	_
 9	vaid	vaid	D	D	_	10	advmod	_	_
@@ -2703,7 +2703,7 @@
 7	ainsa	ainus	A	A	pos=pos|sg=sg|gen=gen	8	amod	_	_
 8	eestlannana	eestlanna	S	S	com=com|sg=sg|es=es	10	obl	_	_
 9	konkurentsi	konkurents	S	S	com=com|sg=sg|part=part	10	obj	_	_
-10	jäänud	jäänud	A	A	pos=pos	11	acl	_	_
+10	jäänud	jääma	V	V	main=main|indic=indic|impf=impf|ps=ps|neg=neg	13	acl	_	_
 11	Olga	Olga	S	S	prop=prop|sg=sg|nom=nom	13	nmod	_	_
 12	Aleksejeva	Aleksejeva	S	S	prop=prop|sg=sg|gen=gen	11	flat	_	_
 13	naiste	naine	S	S	com=com|pl=pl|gen=gen	14	nmod	_	_
@@ -2728,8 +2728,8 @@
 7	ainsa	ainus	A	A	pos=pos|sg=sg|gen=gen	8	amod	_	_
 8	eestlannana	eestlanna	S	S	com=com|sg=sg|es=es	10	obl	_	_
 9	konkurentsi	konkurents	S	S	com=com|sg=sg|part=part	10	obj	_	_
-10	jäänud	jäänud	A	A	pos=pos	11	acl	_	_
-11	Olga	Olga	S	S	prop=prop|sg=sg|nom=nom	6	nsubj	_	_
+10	jäänud	jääma	V	V	main=main|partic=partic|past=past|ps=ps	13	acl	_	_
+11	Olga	Olga	S	S	prop=prop|sg=sg|nom=nom	13	nmod	_	_
 12	Aleksejeva	Aleksejeva	S	S	prop=prop|sg=sg|gen=gen	11	flat	_	_
 13	naiste	naine	S	S	com=com|pl=pl|gen=gen	14	nmod	_	_
 14	epeevehklemises	epeevehklemine	S	S	com=com|sg=sg|in=in	6	obl	_	_
@@ -2747,22 +2747,22 @@
 # text = Kuna teda juhivad mitu erinevat süsteemi ( k.a GPS ) , siis on Tomahawk võimeline sisse lendama heinaküüni pärani lahti uksest , iseasi kas nii puhtal sisenemisel siis enam mingit mõtet on ...
 1	Kuna	kuna	J	J	sub=sub|crd=crd	3	mark	_	_
 2	teda	tema	P	P	sg=sg|part=part	3	obj	_	_
-3	juhivad	juhtima	V	V	mod=mod|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	advcl	_	_
+3	juhivad	juhtima	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	advcl	_	_
 4	mitu	mitu	P	P	sg=sg|nom=nom	6	det	_	_
 5	erinevat	erinev	A	A	pos=pos|sg=sg|part=part	6	acl	_	_
-6	süsteemi	süsteem	S	S	com=com|sg=sg|part=part	3	nsubj	_	_
-7	(	(	Z	Z	_	9	punct	_	_
-8	k.a	k.a	Y	Y	nominal=nominal	9	advmod	_	_
-9	GPS	GPS	Y	Y	nominal=nominal	6	parataxis	_	_
-10	)	)	Z	Z	_	9	punct	_	_
-11	,	,	Z	Z	_	3	punct	_	_
+6	süsteemi	süsteem	S	S	com=com|sg=sg|part=part	3	obj	_	_
+7	(	(	Z	Z	_	8	punct	_	_
+8	k.a	k.a	Y	Y	nominal=nominal	6	parataxis	_	_
+9	GPS	GPS	Y	Y	nominal=nominal	8	flat:foreign	_	_
+10	)	)	Z	Z	_	8	punct	_	_
+11	,	,	Z	Z	_	8	punct	_	_
 12	siis	siis	D	D	_	15	advmod	_	_
-13	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	15	cop	_	_
+13	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	15	cop	_	_
 14	Tomahawk	Tomahawk	S	S	prop=prop|sg=sg|nom=nom	15	nsubj:cop	_	_
 15	võimeline	võimeline	A	A	pos=pos|sg=sg|nom=nom	0	root	_	_
 16	sisse	sisse	D	D	_	17	compound:prt	_	_
 17	lendama	lendama	V	V	mod=mod|sup=sup|ps=ps|ill=ill	15	xcomp	_	_
-18	heinaküüni	heinaküün	S	S	com=com|sg=sg|gen=gen	17	obj	_	_
+18	heinaküüni	heinaküün	S	S	com=com|sg=sg|gen=gen	17	obl	_	_
 19	pärani	pärani	D	D	_	17	advmod	_	_
 20	lahti	lahti	D	D	_	17	compound:prt	_	_
 21	uksest	uks	S	S	com=com|sg=sg|el=el	17	obl	_	_
@@ -2776,7 +2776,7 @@
 29	enam	enam	D	D	_	27	advmod	_	_
 30	mingit	mingi	P	P	sg=sg|part=part	31	det	_	_
 31	mõtet	mõte	S	S	com=com|sg=sg|part=part	27	nsubj:cop	_	_
-32	on	olema	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	27	cop	_	_
+32	on	olema	V	V	main=main|indic=indic|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	27	cop	_	_
 33	...	...	Z	Z	_	15	punct	_	_
 
 
@@ -2811,7 +2811,7 @@
 7	millega	mis	P	P	sg=sg|kom=kom	10	obl	_	_
 8	ta	tema	P	P	sg=sg|nom=nom	10	nsubj	_	_
 9	emotsioone	emotsioon	S	S	com=com|pl=pl|part=part	10	obj	_	_
-10	püüab	püüdma	V	V	aux=aux|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	acl:relcl	_	_
+10	püüab	püüdma	V	V	main=main|indic=indic|pres=pres|ps3=ps3|sg=sg|ps=ps|af=af	5	acl:relcl	_	_
 11	.	.	Z	Z	_	2	punct	_	_
 
 
@@ -2819,12 +2819,12 @@
 # cut_word_ids = 2
 # ud_version = 2.11
 # text = Hankigu sellised kaunid kleebised , kirjutagu juba varakult nimi ja aadress sisse , ja baari pisikesele napsule minnes kleepigu kohe otsaette .
-1	Hankigu	hankima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	0	root	_	_
+1	Hankigu	hankima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	0	root	_	_
 2	sellised	selline	P	P	pl=pl|nom=nom	4	det	_	_
 3	kaunid	kaunis	A	A	pos=pos|pl=pl|nom=nom	4	amod	_	_
 4	kleebised	kleebis	S	S	com=com|pl=pl|nom=nom	1	obj	_	_
 5	,	,	Z	Z	_	6	punct	_	_
-6	kirjutagu	kirjutama	V	V	mod=mod|imper=imper|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	1	conj	_	_
+6	kirjutagu	kirjutama	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	1	conj	_	_
 7	juba	juba	D	D	_	8	advmod	_	_
 8	varakult	varakult	D	D	_	6	advmod	_	_
 9	nimi	nimi	S	S	com=com|sg=sg|nom=nom	6	obj	_	_
@@ -2836,8 +2836,8 @@
 15	baari	baar	S	S	com=com|sg=sg|adit=adit	18	obl	_	_
 16	pisikesele	pisike	A	A	pos=pos|sg=sg|all=all	17	amod	_	_
 17	napsule	naps	S	S	com=com|sg=sg|all=all	18	obl	_	_
-18	minnes	minema	V	V	aux=aux|ger=ger	19	advcl	_	_
-19	kleepigu	kleepima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	1	conj	_	_
+18	minnes	minema	V	V	main=main|ger=ger	19	advcl	_	_
+19	kleepigu	kleepima	V	V	aux=aux|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	1	conj	_	_
 20	kohe	kohe	D	D	_	19	advmod	_	_
 21	otsaette	otsaette	D	D	_	19	advmod	_	_
 22	.	.	Z	Z	_	1	punct	_	_
@@ -2847,13 +2847,13 @@
 # cut_word_ids = 16
 # ud_version = 2.11
 # text = Hankigu endale sellised kaunid kleebised , kirjutagu juba varakult nimi ja aadress sisse , ja pisikesele napsule minnes kleepigu kohe otsaette .
-1	Hankigu	hankima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	0	root	_	_
+1	Hankigu	hankima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	0	root	_	_
 2	endale	ise	P	P	sg=sg|all=all	1	obl	_	_
 3	sellised	selline	P	P	pl=pl|nom=nom	5	det	_	_
 4	kaunid	kaunis	A	A	pos=pos|pl=pl|nom=nom	5	amod	_	_
 5	kleebised	kleebis	S	S	com=com|pl=pl|nom=nom	1	obj	_	_
 6	,	,	Z	Z	_	7	punct	_	_
-7	kirjutagu	kirjutama	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	1	conj	_	_
+7	kirjutagu	kirjutama	V	V	main=main|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	1	conj	_	_
 8	juba	juba	D	D	_	9	advmod	_	_
 9	varakult	varakult	D	D	_	7	advmod	_	_
 10	nimi	nimi	S	S	com=com|sg=sg|nom=nom	7	obj	_	_
@@ -2864,8 +2864,8 @@
 15	ja	ja	J	J	sub=sub|crd=crd	19	cc	_	_
 16	pisikesele	pisike	A	A	pos=pos|sg=sg|all=all	17	amod	_	_
 17	napsule	naps	S	S	com=com|sg=sg|all=all	18	obl	_	_
-18	minnes	minema	V	V	aux=aux|ger=ger	19	advcl	_	_
-19	kleepigu	kleepima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	1	conj	_	_
+18	minnes	minema	V	V	main=main|ger=ger	19	advcl	_	_
+19	kleepigu	kleepima	V	V	aux=aux|imper=imper|pres=pres|sg=sg|ps=ps|af=af	1	conj	_	_
 20	kohe	kohe	D	D	_	19	advmod	_	_
 21	otsaette	otsaette	D	D	_	19	advmod	_	_
 22	.	.	Z	Z	_	1	punct	_	_
@@ -2875,13 +2875,13 @@
 # cut_word_ids = 17,18
 # ud_version = 2.11
 # text = Hankigu endale sellised kaunid kleebised , kirjutagu juba varakult nimi ja aadress sisse , ja baari minnes kleepigu kohe otsaette .
-1	Hankigu	hankima	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|af=af	0	root	_	_
+1	Hankigu	hankima	V	V	main=main|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	0	root	_	_
 2	endale	ise	P	P	sg=sg|all=all	1	obl	_	_
 3	sellised	selline	P	P	pl=pl|nom=nom	5	det	_	_
 4	kaunid	kaunis	A	A	pos=pos|pl=pl|nom=nom	5	amod	_	_
 5	kleebised	kleebis	S	S	com=com|pl=pl|nom=nom	1	obj	_	_
 6	,	,	Z	Z	_	7	punct	_	_
-7	kirjutagu	kirjutama	V	V	mod=mod|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	1	conj	_	_
+7	kirjutagu	kirjutama	V	V	main=main|imper=imper|pres=pres|ps3=ps3|pl=pl|ps=ps|af=af	1	conj	_	_
 8	juba	juba	D	D	_	9	advmod	_	_
 9	varakult	varakult	D	D	_	7	advmod	_	_
 10	nimi	nimi	S	S	com=com|sg=sg|nom=nom	7	obj	_	_
@@ -2892,7 +2892,7 @@
 15	ja	ja	J	J	sub=sub|crd=crd	18	cc	_	_
 16	baari	baar	S	S	com=com|sg=sg|adit=adit	17	obl	_	_
 17	minnes	minema	V	V	mod=mod|ger=ger	18	advcl	_	_
-18	kleepigu	kleepima	V	V	aux=aux|imper=imper|pres=pres|ps3=ps3|pl=pl|ps=ps|neg=neg	1	conj	_	_
+18	kleepigu	kleepima	V	V	aux=aux|imper=imper|pres=pres|sg=sg|ps=ps|neg=neg	1	conj	_	_
 19	kohe	kohe	D	D	_	18	advmod	_	_
 20	otsaette	otsaette	D	D	_	18	advmod	_	_
 21	.	.	Z	Z	_	1	punct	_	_
@@ -2901,18 +2901,18 @@
 # sent_id = tea_eesti_arst_2004_196
 # cut_word_ids = 1
 # ud_version = 2.11
-# text = osalesid järgmised Eesti Kuurort- ja Taastusravi Liidu asutused : AS Heal , AS Kuressaare Sanatoorium , AS Haapsalu Kuurort , AS Pärnu Mudaravila , AS Toila Sanatoorium , AS Värska Sanatoorium , AS Sanatoorium Tervis , AS Taastusravikeskus Estonia , AS Taastusravikeskus Sõprus .
-1	osalesid	osalema	V	V	mod=mod|indic=indic|impf=impf|ps2=ps2|sg=sg|ps=ps|af=af	0	root	_	_
+# text = Osalesid järgmised Eesti Kuurort- ja Taastusravi Liidu asutused : AS Heal , AS Kuressaare Sanatoorium , AS Haapsalu Kuurort , AS Pärnu Mudaravila , AS Toila Sanatoorium , AS Värska Sanatoorium , AS Sanatoorium Tervis , AS Taastusravikeskus Estonia , AS Taastusravikeskus Sõprus .
+1	Osalesid	osalema	V	V	aux=aux|indic=indic|impf=impf|ps3=ps3|pl=pl|ps=ps|af=af	0	root	_	_
 2	järgmised	järgmine	A	A	pos=pos|pl=pl|nom=nom	8	amod	_	_
 3	Eesti	Eesti	S	S	prop=prop|sg=sg|gen=gen	4	nmod	_	_
-4	Kuurort-	kuurort	S	S	com=com|sg=sg|nom=nom	8	nmod	_	_
+4	Kuurort-	kuurort	S	S	com=com|sg=sg|nom=nom	7	nmod	_	_
 5	ja	ja	J	J	sub=sub|crd=crd	6	cc	_	_
-6	Taastusravi	taastusravi	S	S	com=com|sg=sg|gen=gen	7	nmod	_	_
-7	Liidu	liit	S	S	com=com|sg=sg|gen=gen	4	conj	_	_
+6	Taastusravi	taastusravi	S	S	com=com|sg=sg|gen=gen	4	conj	_	_
+7	Liidu	liit	S	S	com=com|sg=sg|gen=gen	8	nmod	_	_
 8	asutused	asutus	S	S	com=com|pl=pl|nom=nom	1	nsubj	_	_
 9	:	:	Z	Z	_	10	punct	_	_
 10	AS	AS	Y	Y	nominal=nominal	8	appos	_	_
-11	Heal	Heal	S	S	prop=prop|sg=sg|nom=nom	10	flat	_	_
+11	Heal	Heal	S	S	prop=prop|sg=sg|nom=nom	10	appos	_	_
 12	,	,	Z	Z	_	13	punct	_	_
 13	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 14	Kuressaare	Kuressaare	S	S	prop=prop|sg=sg|gen=gen	13	appos	_	_
@@ -2920,7 +2920,7 @@
 16	,	,	Z	Z	_	17	punct	_	_
 17	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 18	Haapsalu	Haapsalu	S	S	prop=prop|sg=sg|gen=gen	17	appos	_	_
-19	Kuurort	Kuurort	S	S	prop=prop|sg=sg|nom=nom	17	appos	_	_
+19	Kuurort	Kuurort	S	S	prop=prop|sg=sg|nom=nom	18	flat	_	_
 20	,	,	Z	Z	_	21	punct	_	_
 21	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 22	Pärnu	Pärnu	S	S	prop=prop|sg=sg|gen=gen	23	nmod	_	_
@@ -2928,15 +2928,15 @@
 24	,	,	Z	Z	_	25	punct	_	_
 25	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 26	Toila	Toila	S	S	prop=prop|sg=sg|gen=gen	25	appos	_	_
-27	Sanatoorium	Sanatoorium	S	S	prop=prop|sg=sg|nom=nom	25	appos	_	_
+27	Sanatoorium	Sanatoorium	S	S	prop=prop|sg=sg|nom=nom	26	flat	_	_
 28	,	,	Z	Z	_	29	punct	_	_
 29	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 30	Värska	Värska	S	S	prop=prop|sg=sg|nom=nom	29	appos	_	_
-31	Sanatoorium	Sanatoorium	S	S	prop=prop|sg=sg|nom=nom	29	flat	_	_
+31	Sanatoorium	Sanatoorium	S	S	prop=prop|sg=sg|nom=nom	30	flat	_	_
 32	,	,	Z	Z	_	33	punct	_	_
 33	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 34	Sanatoorium	Sanatoorium	S	S	prop=prop|sg=sg|nom=nom	33	appos	_	_
-35	Tervis	Tervis	S	S	prop=prop|sg=sg|nom=nom	33	flat	_	_
+35	Tervis	Tervis	S	S	prop=prop|sg=sg|nom=nom	34	flat	_	_
 36	,	,	Z	Z	_	37	punct	_	_
 37	AS	AS	Y	Y	nominal=nominal	10	conj	_	_
 38	Taastusravikeskus	Taastusravikeskus	S	S	prop=prop|sg=sg|nom=nom	37	appos	_	_
