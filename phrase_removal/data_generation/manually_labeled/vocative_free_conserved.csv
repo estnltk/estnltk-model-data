@@ -1,0 +1,29 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+71679;Dev/ilu_orlau_ud211.conllu;""" Kristin ! "" paanilises hirmus raputas Juudas tüdrukut õlgadest ...";0;13;""" Kristin ! """;free;paanilises hirmus raputas Juudas tüdrukut õlgadest ...;100.0;100.0;100.0
+71685;Train/ilu_vilep_ud211.conllu;""" Ära solvu , ema !";12;17;, ema;free;""" Ära solvu !";100.0;100.0;100.0
+71691;Train/ilu_kivirahk_ud211.conllu;"mu põrmust lilled õitsetad , mu isamaa , mu isamaa ! """;27;50;, mu isamaa , mu isamaa;free;"mu põrmust lilled õitsetad ! """;100.0;100.0;100.0
+71692;Train/ilu_kivirahk_ud211.conllu;"mu põrmust lilled õitsetad , mu isamaa , mu isamaa ! """;39;50;, mu isamaa;free;"mu põrmust lilled õitsetad , mu isamaa ! """;100.0;100.0;100.0
+71693;Train/ilu_vilep_ud211.conllu;""" Tere , tädi Alma ! """;7;18;, tädi Alma;free;""" Tere ! """;100.0;100.0;100.0
+71694;Train/ilu_kivirahk_ud211.conllu;""" Ole õnnistatud , vapper rüütel !";17;32;, vapper rüütel;free;""" Ole õnnistatud !";100.0;100.0;100.0
+71699;Train/aja_ee200110_osa_10_ud211.conllu;Kas sa oled elus , armas lugeja ?;17;31;, armas lugeja;free;Kas sa oled elus ?;100.0;100.0;100.0
+71712;Train/ilu_kivirahk_ud211.conllu;"( "" Palun , maestro , ma jätsin maiuse teile !";10;19;, maestro;free;"( "" Palun , ma jätsin maiuse teile !";100.0;100.0;100.0
+71719;Train/ilu_kivirahk_ud211.conllu;"Su rüppe heidan unele , mu püha Eestimaa ! """;22;40;, mu püha Eestimaa;free;"Su rüppe heidan unele ! """;100.0;100.0;100.0
+71722;Train/aja_pm19980926e_ud211.conllu;oi te poisid kuis küll põleb rind;3;12;te poisid;free;oi kuis küll põleb rind;100.0;100.0;100.0
+71730;Train/ilu_kivirahk_ud211.conllu;Ole õnnistatud , vapper mees , sest just tänu sinule lõppes mu uni !;15;28;, vapper mees;free;Ole õnnistatud , sest just tänu sinule lõppes mu uni !;100.0;100.0;100.0
+71731;Train/aja_pm19980926e_ud211.conllu;neiu ma ei jäta sind;0;4;neiu;free;ma ei jäta sind;100.0;100.0;100.0
+71734;Train/ilu_vilep_ud211.conllu;""" Tule siia , mu nupuke ! """;12;23;, mu nupuke;free;""" Tule siia ! """;100.0;100.0;100.0
+71735;Train/ilu_maailm_ud211.conllu;""" Mine ära , Ronald .";11;19;, Ronald;free;""" Mine ära .";100.0;100.0;100.0
+71745;Train/ilu_vilep_ud211.conllu;""" Tule , kallis , ma söödan sul kõhukese täis ! """;7;15;, kallis;free;""" Tule , ma söödan sul kõhukese täis ! """;100.0;100.0;100.0
+71746;Train/ilu_kanep_ud211.conllu;Nende ahvatlused ei tööta , ema .;26;31;, ema;free;Nende ahvatlused ei tööta .;100.0;100.0;100.0
+71759;Train/aja_ee200110_osa_7_ud211.conllu;"Kui ta , pime naine , vahepeal kellegi käe leiab , võtab ta sellest kõvasti kinni ja küsib : "" Kas sina , Urveke !";104;112;, Urveke;free;"Kui ta , pime naine , vahepeal kellegi käe leiab , võtab ta sellest kõvasti kinni ja küsib : "" Kas sina !";100.0;100.0;100.0
+71765;Train/aja_pm19980926e_ud211.conllu;Kamme ma ei jäta sind;0;5;Kamme;free;ma ei jäta sind;100.0;100.0;100.0
+71767;Train/aja_pm19980926e_ud211.conllu;“ Oh , pole midagi , kulla Sherlock .;19;35;, kulla Sherlock;free;“ Oh , pole midagi .;100.0;100.0;100.0
+71768;Train/ilu_indrikson_ud211.conllu;Kõik on õige , poiss , korrigeeris ta samas ja astus taksopeatusse .;13;20;, poiss;free;Kõik on õige , korrigeeris ta samas ja astus taksopeatusse .;100.0;100.0;100.0
+71773;Train/aja_ee200110_osa_3_ud211.conllu;""" Ütle , Anne , kas sa tahad Soome tagasi minna ? """;7;13;, Anne;free;""" Ütle , kas sa tahad Soome tagasi minna ? """;100.0;100.0;100.0
+71783;Train/ilu_vilep_ud211.conllu;""" Mul ei ole veel skleroosi , kallis poeg .";28;41;, kallis poeg;free;""" Mul ei ole veel skleroosi .";100.0;100.0;100.0
+71784;Train/ilu_kivirahk_ud211.conllu;"Tule minu juurde , mu poeg ! """;17;26;, mu poeg;free;"Tule minu juurde ! """;100.0;100.0;100.0
+71786;Train/aja_sloleht20071217_ud211.conllu;Jututubades käijad , ettevaatust !;0;20;Jututubades käijad ,;free;ettevaatust !;100.0;100.0;100.0
+71793;Train/aja_ee200110_osa_4_ud211.conllu;""" Keegi ei taha teiega seksida , kuradi pederastid ! """;31;50;, kuradi pederastid;free;""" Keegi ei taha teiega seksida ! """;100.0;100.0;100.0
+71801;Train/ilu_vilep_ud211.conllu;""" Hea küll , kallis !";11;19;, kallis;free;""" Hea küll !";100.0;100.0;100.0
+71803;Train/ilu_kivirahk_ud211.conllu;""" Oleme lauluväljakul , maestro ! """;22;31;, maestro;free;""" Oleme lauluväljakul ! """;100.0;100.0;100.0
+71805;Train/ilu_maailm_ud211.conllu;"Kas sa ka veini tahad , Gerda ? """;22;29;, Gerda;free;"Kas sa ka veini tahad ? """;100.0;100.0;100.0

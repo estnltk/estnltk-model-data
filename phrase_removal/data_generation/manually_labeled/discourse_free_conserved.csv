@@ -1,0 +1,30 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+71811;Train/ilu_vilep_ud211.conllu;""" Ema , ütle mulle mu aadress , palun !";30;37;, palun;free;""" Ema , ütle mulle mu aadress !";100.0;100.0;100.0
+71814;Train/ilu_vilep_ud211.conllu;""" Kurat , "" Postimeest "" siis veel polnud ju !";0;9;""" Kurat ,";free;""" Postimeest "" siis veel polnud ju !";100.0;100.0;100.0
+71823;Train/ilu_kivirahk_ud211.conllu;""" Ah soo ! "" naeris Ernesaks mürgiselt .";2;4;Ah;free;""" soo ! "" naeris Ernesaks mürgiselt .";100.0;100.0;100.0
+71848;Dev/aja_luup200009_ud211.conllu;“ No kust ma võtan , mul pole omalgi .;2;4;No;free;“ kust ma võtan , mul pole omalgi .;100.0;100.0;100.0
+71853;Train/aja_pm19980926e_ud211.conllu;“ No ma ei tea ...;2;4;No;free;“ ma ei tea ...;100.0;100.0;100.0
+71873;Train/ilu_kivirahk_ud211.conllu;""" Ah mulgimaa laulja !";2;4;Ah;free;""" mulgimaa laulja !";100.0;100.0;100.0
+71880;Train/ilu_vilep_ud211.conllu;""" Siin on minu postkast , näe !";24;29;, näe;free;""" Siin on minu postkast !";100.0;100.0;100.0
+71881;Dev/ilu_ruben_ud211.conllu;No kuhu see kõlbab ?;0;2;No;free;kuhu see kõlbab ?;100.0;100.0;100.0
+71887;Train/aja_ee200110_osa_3_ud211.conllu;"No need numbrid sain ma Vaiklatelt . """;0;2;No;free;"need numbrid sain ma Vaiklatelt . """;100.0;100.0;100.0
+71891;Train/ilu_vilep_ud211.conllu;""" Lase mind tagasi , palun !";19;26;, palun;free;""" Lase mind tagasi !";100.0;100.0;100.0
+71893;Train/ilu_kivirahk_ud211.conllu;""" Ah kohe armastab ! "" pilkas Ernesaks ja vaatas kääbusele otsa , suu viltu .";2;4;Ah;free;""" kohe armastab ! "" pilkas Ernesaks ja vaatas kääbusele otsa , suu viltu .";100.0;100.0;100.0
+71901;Train/ilu_kanep_ud211.conllu;Mulle väga meeldib siin , noh .;24;29;, noh;free;Mulle väga meeldib siin .;100.0;100.0;100.0
+71925;Train/ilu_valton_ud211.conllu;""" Kok , kok , kok . """;6;17;, kok , kok;free;""" Kok . """;100.0;100.0;100.0
+71926;Train/ilu_valton_ud211.conllu;""" Kok , kok , kok . """;12;17;, kok;free;""" Kok , kok . """;100.0;100.0;100.0
+71934;Train/ilu_kivirahk_ud211.conllu;Vaat Leemet , Mall , Saare Juhan , Kõrtsmik , Ungru krahv ...;0;4;Vaat;free;Leemet , Mall , Saare Juhan , Kõrtsmik , Ungru krahv ...;100.0;100.0;100.0
+71938;Dev/aja_luup200009_ud211.conllu;Palun iseloomustage Putinit ja tema võimalikku poliitikat lähemalt .;0;5;Palun;free;iseloomustage Putinit ja tema võimalikku poliitikat lähemalt .;100.0;100.0;100.0
+71940;Train/aja_ee200110_osa_7_ud211.conllu;Kui aga rinnad on väiksed , no siis tuleb midagi ette võtta ...;28;30;no;free;Kui aga rinnad on väiksed , siis tuleb midagi ette võtta ...;100.0;100.0;100.0
+71956;Train/ilu_vilep_ud211.conllu;""" Muutuski , näe ! """;11;16;, näe;free;""" Muutuski ! """;100.0;100.0;100.0
+71959;Train/aja_ee200110_osa_7_ud211.conllu;""" Ah õigus jah , Urve on mul küll ! """;2;4;Ah;free;""" õigus jah , Urve on mul küll ! """;100.0;100.0;100.0
+71975;Train/aja_pm20001004_osa_4_ud211.conllu;No mõelge , kes tollal tahtsid turgu endale ?;0;2;No;free;mõelge , kes tollal tahtsid turgu endale ?;100.0;100.0;100.0
+71980;Train/aja_ee200110_osa_8_ud211.conllu;"Keegi ei taha , seepeale Laine ohkab ja ütleb : "" No ma teen selle siis ära . """;50;52;No;free;"Keegi ei taha , seepeale Laine ohkab ja ütleb : "" ma teen selle siis ära . """;100.0;100.0;100.0
+71982;Train/ilu_kivirahk_ud211.conllu;Leemet , Mall , Saare Juhan , Kõrtsmik , Ungru krahv - vaat nende isa olen ma ka !;55;59;vaat;free;Leemet , Mall , Saare Juhan , Kõrtsmik , Ungru krahv - nende isa olen ma ka !;100.0;100.0;100.0
+71989;Train/ilu_kanep_ud211.conllu;No siis on hea .;0;2;No;free;siis on hea .;100.0;100.0;100.0
+72003;Train/ilu_kivirahk_ud211.conllu;""" No ajalehed ja ...";2;4;No;free;""" ajalehed ja ...";100.0;100.0;100.0
+72011;Dev/aja_ml200247_osa6_ud211.conllu;Vaat see ongi uus poliitika .;0;4;Vaat;free;see ongi uus poliitika .;100.0;100.0;100.0
+72019;Train/ilu_kanep_ud211.conllu;Seda , noh .;5;10;, noh;free;Seda .;100.0;100.0;100.0
+72027;Train/ilu_kanep_ud211.conllu;"No tule siis kähku siia """;0;2;No;free;"tule siis kähku siia """;100.0;100.0;100.0
+72043;Train/ilu_vilep_ud211.conllu;"Oh , issand , issand ! """;12;20;, issand;free;"Oh , issand ! """;100.0;100.0;100.0
+72056;Train/ilu_vilep_ud211.conllu;No me veel vaatame seda asja !;0;2;No;free;me veel vaatame seda asja !;100.0;100.0;100.0

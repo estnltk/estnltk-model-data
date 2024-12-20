@@ -1,0 +1,2 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+71720;Train/aja_ee200110_osa_10_ud211.conllu;"UNDERILE PüHENDATUD hilisluuletuses aga kinnitatakse "" siin kus / närbumata õitseb su veri / Marie "" .";93;98;Marie;other redundant punctuation;"UNDERILE PüHENDATUD hilisluuletuses aga kinnitatakse "" siin kus / närbumata õitseb su veri / "" .";93.8;93.8;93.8

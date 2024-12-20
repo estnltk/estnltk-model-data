@@ -1,0 +1,2 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+71737;Train/ilu_vilep_ud211.conllu;""" Kati ! "" pöördus ta mesimagusal häälel naise poole , tundes tillukest uhkust , et sai teda nimepidi kõnetada , ilma et oleks pidanud seda küsima .";0;10;""" Kati ! """;unnatural;pöördus ta mesimagusal häälel naise poole , tundes tillukest uhkust , et sai teda nimepidi kõnetada , ilma et oleks pidanud seda küsima .;95.8;95.8;100.0

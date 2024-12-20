@@ -1,0 +1,2 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+36969;Train/tea_AA_05_6_ud211.conllu;Kasutaja sooritab LRE keskkonnas otsingu , päring sooritatakse üle kõigi konsortsiumiga liitunud repositooriumide .;73;96;konsortsiumiga liitunud;dubious;Kasutaja sooritab LRE keskkonnas otsingu , päring sooritatakse üle kõigi repositooriumide .;100.0;100.0;100.0

@@ -1,0 +1,7 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+71822;Train/ilu_kivirahk_ud211.conllu;""" Ah soo ! "" naeris Ernesaks mürgiselt .";0;12;""" Ah soo ! """;unnatural;naeris Ernesaks mürgiselt .;100.0;100.0;100.0
+71838;Train/ilu_kivirahk_ud211.conllu;""" Oh , taadike ! "" vangutas Petrov pead .";0;18;""" Oh , taadike ! """;unnatural;vangutas Petrov pead .;100.0;100.0;100.0
+71953;Train/ilu_vilep_ud211.conllu;""" Palun ! "" tegi Jan anuva grimassi .";0;11;""" Palun ! """;unnatural;tegi Jan anuva grimassi .;100.0;100.0;100.0
+71994;Train/ilu_vilep_ud211.conllu;""" Tohoh ! "" ei saanud Jan enam millestki aru .";0;11;""" Tohoh ! """;unnatural;ei saanud Jan enam millestki aru .;100.0;100.0;100.0
+72015;Train/ilu_vilep_ud211.conllu;"Jeeee ! "" kraaksatas ta täiesti õnnelikult .";0;9;"Jeeee ! """;unnatural;kraaksatas ta täiesti õnnelikult .;100.0;100.0;100.0
+72039;Train/ilu_vilep_ud211.conllu;""" Mm ! "" püüdis ta kuidagi reageerida ja neelas suutäie tervelt alla .";0;8;""" Mm ! """;unnatural;püüdis ta kuidagi reageerida ja neelas suutäie tervelt alla .;100.0;100.0;100.0

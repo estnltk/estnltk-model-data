@@ -1,0 +1,2 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+73074;Train/aja_pm20001004_osa_3_ud211.conllu;Guznetsovi ( teist vahialust - toim ) ta ei tundnud .;31;35;toim;other redundant punctuation;Guznetsovi ( teist vahialust - ) ta ei tundnud .;100.0;100.0;100.0

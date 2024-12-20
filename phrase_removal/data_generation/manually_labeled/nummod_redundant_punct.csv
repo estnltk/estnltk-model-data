@@ -1,0 +1,3 @@
+id;fpath;sentence;remove_start;remove_end;removed;type;short_sent;cons_score;ual;la
+67320;Train/aja_luup200202_osa_1_ud211.conllu;Sama moodi kui keskmine aktiivravi voodipäeva pikkus - 5,1 .;55;58;5,1;other redundant punctuation;Sama moodi kui keskmine aktiivravi voodipäeva pikkus - .;55.6;55.6;66.7
+68957;Train/tea_toohoive.conllu;( Helemäe , Saar , Vöörmann , 1998 : 25 ) .;37;39;25;other redundant punctuation;( Helemäe , Saar , Vöörmann , 1998 : ) .;100.0;100.0;100.0
