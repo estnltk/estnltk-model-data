@@ -26,3 +26,7 @@ free modifiers. For each phrase type, we chose 1000 random phrases form the
 treebank and manually verified whether these phrases are indeed free modifiers
 and whether the resulting shortening is grammatically correct sentence.
 The exact workflow is in the [estnltk-model-training repo](https://github.com/estnltk/estnltk-model-training/tree/main/ud_treebank_data_augmentation/phrase_removal).
+
+## Post-processing
+
+Script `aggregate_datasets.py` aggregates all `train/*.conllu` and `dev/*.conllu` files into `cut_sentences_train.conllu` and `cut_sentences_dev.conllu` files that can be used as inputs in model training
