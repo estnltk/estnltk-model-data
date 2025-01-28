@@ -1,4 +1,4 @@
-# Manual annotations of potentially conflicting NER phrases and noun phrases
+# Potentially conflicting NER phrases and noun phrases
 
 There four potential placement patterns of noun and ner phrases:
 
