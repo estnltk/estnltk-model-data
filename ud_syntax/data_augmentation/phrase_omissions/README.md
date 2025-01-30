@@ -29,4 +29,6 @@ The exact workflow is in the [estnltk-model-training repo](https://github.com/es
 
 ## Post-processing
 
-Script `aggregate_datasets.py` aggregates all `train/*.conllu` and `dev/*.conllu` files into `cut_sentences_train.conllu` and `cut_sentences_dev.conllu` files that can be used as inputs in model training
+Script `aggregate_datasets.py` aggregates all `train/*_cut.conllu` and `dev/*_cut.conllu` files into `cut_sentences_train.conllu` and `cut_sentences_dev.conllu` files that can be used as inputs in model training. 
+
+Script `aggregate_datasets_original.py` aggregates all `train/*_original.conllu` and `dev/*_original.conllu` files into `original_sentences_train.conllu` and `original_sentences_dev.conllu` files. Note that `original_sentences_*.conllu` files will be using different morphological tagsets than `cut_sentences_*.conllu` files. 
