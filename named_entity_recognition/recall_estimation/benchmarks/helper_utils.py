@@ -1,6 +1,6 @@
 import ast
 import warnings
-import os, os.path
+import os, os.path, re
 from collections import defaultdict
 
 import numpy as np
@@ -101,9 +101,9 @@ class RecallEstimator:
         if self.add_correct_count:
             # Add correct/incorrect counts
             self.all_eval_results[eval_name]['correct'] = \
-                eval_result['correct'].value_counts()['yes']
+                int(eval_result['correct'].value_counts()['yes'])
             self.all_eval_results[eval_name]['incorrect'] = \
-                eval_result['correct'].value_counts()['no']
+                int(eval_result['correct'].value_counts()['no'])
         return self.all_eval_results[eval_name].copy()
 
     def _construct_eval_name(self, tagger, eval_name):
@@ -131,6 +131,45 @@ class RecallEstimator:
             leaderboard = \
                 leaderboard.sort_values( by='Recall', ascending=False )
         return leaderboard
+
+    def import_leaderboard_from_csv(self, csv_file, discard_warnings=False):
+        '''Loads evaluation benchmark results from the given csv_file. 
+           Results (evaluation/model names) that already exist in this 
+           estimator will skipped. 
+           Expects the csv_file data to be in the same format as the output 
+           data of the call: 
+               self.leaderboard(order_by_recall=False).to_csv( ... )
+        '''
+        leaderboard_data = read_csv(csv_file)
+        # Validate input
+        missing_columns = []
+        required_columns = ['Unnamed: 0', 'Recall', 'Recall-95CI%']
+        if self.add_correct_count:
+            required_columns.extend(['correct', 'incorrect'])
+        for req_col in required_columns:
+            if req_col not in leaderboard_data.columns:
+                missing_columns.append( req_col )
+        if missing_columns:
+            raise ValueError(f'(!) CSV file {csv_file!r} is missing columns {missing_columns!r}.')
+        for index, row in leaderboard_data.iterrows():
+            eval_name = row['Unnamed: 0']
+            recall = row['Recall']
+            recall_ci = row['Recall-95CI%'].strip('"')
+            if re.match(r'^\([0-9]+(\.[0-9]+)?, [0-9]+(\.[0-9]+)?\)$', recall_ci):
+                recall_ci = eval( recall_ci )
+            else:
+                raise Exception(f'(!) Unexpected "Recall-95CI%" value {recall_ci}. '+\
+                                 'Expected a tuple of 2 floats (confidence intervals).')
+            if eval_name in self.all_eval_results.keys():
+                if not discard_warnings:
+                    warnings.warn(f'(!) Model {eval_name} already listed in the current evaluation '+\
+                                   'results, skipping results from the CSV file.')
+                # Skip already existing result
+                continue
+            self.all_eval_results[eval_name] = {'Recall': recall, 'Recall-95CI%': recall_ci}
+            if self.add_correct_count:
+                self.all_eval_results[eval_name]['correct'] = row['correct']
+                self.all_eval_results[eval_name]['incorrect'] = row['incorrect']
 
 
 # =================================================================
@@ -452,6 +491,6 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
     # Calculate sample mean and conf interval (for a 95% confidence level)
     sample_mean = np.matmul(weight_vector, correct_vector)
     standard_error = np.sqrt(sample_mean * (1-sample_mean) * np.sum(np.square(weight_vector)))
-    confidence_interval = (sample_mean - standard_error * 1.96, sample_mean + standard_error * 1.96)
-    return { 'Recall': sample_mean, 'Recall-95CI%': confidence_interval }
+    confidence_interval = (float(sample_mean - standard_error * 1.96), float(sample_mean + standard_error * 1.96))
+    return { 'Recall': float(sample_mean), 'Recall-95CI%': confidence_interval }
 
