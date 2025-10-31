@@ -159,7 +159,7 @@ class RecallEstimator:
                 recall_ci = eval( recall_ci )
             else:
                 raise Exception(f'(!) Unexpected "Recall-95CI%" value {recall_ci}. '+\
-                                 'Expected a tuple of 2 floats (confidence intervals).')
+                                 'Expected a tuple of 2 floats (a confidence interval).')
             if eval_name in self.all_eval_results.keys():
                 if not discard_warnings:
                     warnings.warn(f'(!) Model {eval_name} already listed in the current evaluation '+\
