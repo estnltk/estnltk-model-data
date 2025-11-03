@@ -53,7 +53,7 @@ class RecallEstimator:
         self.gold_layer = '_gold_ner'
 
     def evaluate_tagger(self, tagger, eval_name=None, auto_layer=None, overwrite_existing=True, 
-                              ignore_errors=False):
+                              ignore_errors=False, verbose=False):
         '''
         Evaluates tagger on different sub samples / populations, calculates recall on 
         each sub sample, and a weighted average of recalls as the estimate of the recall 
@@ -82,6 +82,10 @@ class RecallEstimator:
             If True, then ignores tagger errors/exceptions. A text causing a tagger error 
             will be taken as a text where no entities were detected by the tagger. 
             If False (default), then a tagger error will break the evaluation process.
+        verbose: bool
+            If True, then prints out detailed information about populations, including the 
+            the number of correct results in each population.
+            Default: False
 
         Returns
         -------
@@ -97,7 +101,7 @@ class RecallEstimator:
         eval_name = self._construct_eval_name(tagger, eval_name)
         # Find & record recall estimate
         self.all_eval_results[eval_name] = \
-            find_recall_estimate(eval_result, description_file=self.description_file)
+            find_recall_estimate(eval_result, description_file=self.description_file, verbose=verbose)
         if self.add_correct_count:
             # Add correct/incorrect counts
             self.all_eval_results[eval_name]['correct'] = \
@@ -430,7 +434,7 @@ def evaluate_benchmark(benchmark_data, tagger, auto_layer=None,
     return results
 
 
-def find_recall_estimate(eval_results, description_file='data_description.csv'):
+def find_recall_estimate(eval_results, description_file='data_description.csv', verbose=False):
     '''
     Finds recall estimate based on the given sub-sample evaluation results. 
     
@@ -481,6 +485,13 @@ def find_recall_estimate(eval_results, description_file='data_description.csv'):
         estimated_positives = corpus_stats.loc[corpus_stats['population']==pop, 'estimated_positives'].iloc[0]
         pop_weight = estimated_positives/(positives*total_positives)
         #print(pop, pop_weight, int(positives))
+        if verbose:
+            # Print detailed information about the population, including the number of correctly detected entities
+            correct_labels = eval_results.correct.loc[len(weight_vector):len(weight_vector)+int(positives)-1]
+            assert int(positives) == len(correct_labels)
+            correct_count = (correct_labels.value_counts()).get('yes', 0)
+            correct_percentage = correct_count/(int(positives))*100.0
+            print(f' population: {pop!r} | weight: {pop_weight} | correct: {correct_count} / {int(positives)} ({correct_percentage:.1f}%)')
         weight_vector += ([pop_weight] * positives)
     # Construct correct assignments vector
     # Assume binomial distribution (1==match, 0==mismatch)
