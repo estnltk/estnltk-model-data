@@ -491,7 +491,10 @@ def find_recall_estimate(eval_results, description_file='data_description.csv', 
             assert int(positives) == len(correct_labels)
             correct_count = (correct_labels.value_counts()).get('yes', 0)
             correct_percentage = correct_count/(int(positives))*100.0
-            print(f' population: {pop!r} | weight: {pop_weight} | correct: {correct_count} / {int(positives)} ({correct_percentage:.1f}%)')
+            weighted_correct_percentage = (correct_count * pop_weight)*100.0
+            print(f' population: {pop!r} | weight: {pop_weight} | '+\
+                  f'raw correct: {correct_count} / {int(positives)} ({correct_percentage:.1f}%) | '+\
+                  f'weighted correct: {weighted_correct_percentage:.3f}%')
         weight_vector += ([pop_weight] * positives)
     # Construct correct assignments vector
     # Assume binomial distribution (1==match, 0==mismatch)
