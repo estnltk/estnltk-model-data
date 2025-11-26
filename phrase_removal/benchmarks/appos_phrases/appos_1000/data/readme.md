@@ -5,13 +5,11 @@ The test corpus contains 1000 sentences, 500 with free and 500 with bound phrase
 The code for creating the benchmark dataset is located at [data generation](https://github.com/estnltk/estnltk-model-data/blob/main/phrase_removal/data_generation/obl/01_create%20dataset.ipynb).
 
 
+
 ## Files
 
-* `obl_1000_benchmark.csv`: contains 1000 sentences with manual labeling.
+* `appos_benchmark_1000.csv`: contains 1000 sentences with manual labeling.
 
-* `obl_1000_syntax.conllu`: contains the original syntax for the 1000 sentences. In the conllu file benchmark_id refers to the column id in the obl_benchmark_1000.csv file.
+* `appos_benchmark_1000_original.conllu`: contains the original syntax for the 1000 sentences. In the conllu file benchmark_id refers to the column id in the benchmark_1000.csv file.
 
-* `obl_1000_verb_lem.csv`: contains sentences with additional information about the main word in phrase, phrase related verb and the verb lemma.
-
-* `obl_1000_verb_lem_adv.csv`: contains sentences with additional information if the phrase is time, location, event or other. Category time-loc is used for phrases that represent both time and location (an exception), category other is used for phrases that do not fit into any other category.
-
+* `appos_benchmark_1000_peasona_verb.csv`: contains sentences with additional information about the main word in phrase, phrase related verb and the verb lemma.
