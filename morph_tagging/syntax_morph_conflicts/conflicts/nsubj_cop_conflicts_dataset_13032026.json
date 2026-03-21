@@ -1,0 +1,38 @@
+[
+ {
+  "sentence_id": 359994,
+  "sentence": "Need kaks manifesti , eriti II ( mille koostas Paul Kurtz ) , on naturalistlike väidete käepärased kogud .",
+  "word_form": "manifesti",
+  "span": [
+   10,
+   19
+  ],
+  "current_deprel": "nsubj:cop",
+  "current_case": "gen",
+  "current_analysis": "com,gen,sg"
+ },
+ {
+  "sentence_id": 10460877,
+  "sentence": "Asi ei ole õige , Midri pole teab kui ebausklik mees , aga nüüd ta taganeb .",
+  "word_form": "Midri",
+  "span": [
+   18,
+   23
+  ],
+  "current_deprel": "nsubj:cop",
+  "current_case": "adit",
+  "current_analysis": "adit,prop,sg"
+ },
+ {
+  "sentence_id": 14983427,
+  "sentence": "Koreograafi- ja tantsijakalduvused on Eriku puhul pisut üllatavad , sest tegelikult on ta Tartu ülikooli filosoofiateaduskonna kolmanda kursuse tudeng , kes astus ülikooli 17aastasena , sest läks kooli 5aastaselt ja kohe teise klassi .",
+  "word_form": "Koreograafi-",
+  "span": [
+   0,
+   12
+  ],
+  "current_deprel": "nsubj:cop",
+  "current_case": "gen",
+  "current_analysis": "com,gen,sg"
+ }
+]

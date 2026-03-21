@@ -1,0 +1,1 @@
+Hetkel pole siin midagi.
