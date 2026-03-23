@@ -1,1 +1,1 @@
-Hetkel pole siin midagi.
+Data will be added later.
