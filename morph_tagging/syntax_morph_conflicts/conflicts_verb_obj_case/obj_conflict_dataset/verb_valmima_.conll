@@ -1,0 +1,349 @@
+# sent_id = 1150023
+# text = Täpselt samamoodi tee valmis kaks järgmist raami ja jälgi , et enne raami kohale kinnitamist oleks liim kuivanud .
+1	Täpselt	D	_	2	advmod	_
+2	samamoodi	D	_	3	advmod	_
+3	tee	S	sg=sg|n=n	0	root	_
+4	valmis	V	s=s	3	advmod	_
+5	kaks	N	sg=sg|n=n	7	nummod	_
+6	järgmist	A	sg=sg|p=p	7	amod	_
+7	raami	S	sg=sg|g=g	3	obj	CHECK
+8	ja	J	_	9	cc	_
+9	jälgi	S	pl=pl|p=p	7	conj	_
+10	,	Z	_	18	punct	_
+11	et	J	_	18	mark	_
+12	enne	K	_	15	case	_
+13	raami	S	sg=sg|g=g	15	nmod	_
+14	kohale	K	_	13	case	_
+15	kinnitamist	S	sg=sg|p=p	18	obl	_
+16	oleks	V	ks=ks	18	aux	_
+17	liim	S	sg=sg|n=n	18	nsubj	_
+18	kuivanud	A	sg=sg|n=n	9	acl	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 700275
+# text = Hea uudis on aga see , et mäng nimega Indiana Jones and the Infernal Machine valmib uue aastatuhande esimese aasta sügiseks PC-versioonis .
+1	Hea	A	sg=sg|n=n	2	amod	_
+2	uudis	S	sg=sg|n=n	0	root	_
+3	on	V	vad=vad	2	cop	_
+4	aga	J	_	2	advmod	_
+5	see	P	sg=sg|n=n	2	nsubj:cop	_
+6	,	Z	_	16	punct	_
+7	et	J	_	16	mark	_
+8	mäng	S	sg=sg|n=n	16	nsubj	_
+9	nimega	S	sg=sg|kom=kom	8	appos	_
+10	Indiana	H	sg=sg|n=n	9	appos	_
+11	Jones	H	sg=sg|n=n	10	flat	_
+12	and	S	sg=sg|n=n	10	flat	_
+13	the	S	sg=sg|n=n	10	flat	_
+14	Infernal	H	sg=sg|n=n	10	flat	_
+15	Machine	H	sg=sg|n=n	10	flat	_
+16	valmib	V	b=b	5	acl	_
+17	uue	A	sg=sg|g=g	18	amod	_
+18	aastatuhande	S	sg=sg|g=g	16	obj	CHECK
+19	esimese	O	sg=sg|g=g	20	amod	_
+20	aasta	S	sg=sg|g=g	21	nmod	_
+21	sügiseks	S	sg=sg|tr=tr	22	nmod	_
+22	PC-versioonis	S	sg=sg|in=in	16	obl	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 1018539
+# text = Valminud on ka valik infomaterjale ja üles seatakse mitmed püsinäitused .
+1	Valminud	A	_	0	root	_
+2	on	V	b=b	1	aux	_
+3	ka	D	_	1	advmod	_
+4	valik	S	sg=sg|n=n	5	nmod	_
+5	infomaterjale	S	pl=pl|p=p	1	nsubj	CHECK
+6	ja	J	_	8	cc	_
+7	üles	D	_	8	compound:prt	_
+8	seatakse	V	takse=takse	1	conj	_
+9	mitmed	P	pl=pl|n=n	10	det	_
+10	püsinäitused	S	pl=pl|n=n	8	obj	_
+11	.	Z	_	1	punct	_
+
+# sent_id = 2741395
+# text = Eesti taasiseseisvumise järgse aja vaieldamatu kassahitt on 2002. aastal valminud " Nimed marmortahvlil " , mis meelitas kinno üle 160 000 vaataja , lisaks on hulgaliselt müüdud ka filmi DVD- või VHS-versiooni , mille osakaal iga filmi tulude pooles on terves maailmas aasta-aastalt aina olulisemaks muutunud , kirjutab Postimees .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	taasiseseisvumise	S	sg=sg|g=g	6	nmod	_
+3	järgse	A	sg=sg|g=g	4	amod	_
+4	aja	S	sg=sg|g=g	5	obl	_
+5	vaieldamatu	A	sg=sg|n=n	6	amod	_
+6	kassahitt	S	sg=sg|n=n	0	root	_
+7	on	V	vad=vad	6	cop	_
+8	2002.	O	?=?	9	amod	_
+9	aastal	S	sg=sg|ad=ad	10	obl	_
+10	valminud	A	sg=sg|n=n	6	acl	_
+11	"	Z	_	12	punct	_
+12	Nimed	H	sg=sg|n=n	6	nsubj:cop	CHECK
+13	marmortahvlil	S	sg=sg|ad=ad	12	flat	_
+14	"	Z	_	12	punct	_
+15	,	Z	_	17	punct	_
+16	mis	P	pl=pl|n=n	17	nsubj	_
+17	meelitas	V	s=s	12	acl:relcl	_
+18	kinno	S	adt=adt	17	obj	_
+19	üle	D	_	20	case	_
+20	160 000	N	?=?	21	nummod	_
+21	vaataja	S	sg=sg|g=g	17	obl	_
+22	,	Z	_	26	punct	_
+23	lisaks	S	sg=sg|tr=tr	26	obl	_
+24	on	V	vad=vad	26	aux	_
+25	hulgaliselt	D	_	26	advmod	_
+26	müüdud	V	tud=tud	17	conj	_
+27	ka	D	_	28	advmod	_
+28	filmi	S	sg=sg|g=g	26	obj	_
+29	DVD-	Y	?=?	28	appos	_
+30	või	J	_	31	cc	_
+31	VHS-versiooni	S	sg=sg|g=g	29	conj	_
+32	,	Z	_	45	punct	_
+33	mille	P	sg=sg|g=g	34	nmod	_
+34	osakaal	S	sg=sg|n=n	45	nsubj	_
+35	iga	P	sg=sg|g=g	36	det	_
+36	filmi	S	sg=sg|g=g	37	nmod	_
+37	tulude	S	pl=pl|g=g	38	nmod	_
+38	pooles	S	sg=sg|in=in	34	nmod	_
+39	on	V	b=b	45	aux	_
+40	terves	A	sg=sg|in=in	41	amod	_
+41	maailmas	S	sg=sg|in=in	45	obl	_
+42	aasta-aastalt	D	_	45	advmod	_
+43	aina	D	_	44	advmod	_
+44	olulisemaks	C	sg=sg|tr=tr	45	advcl	_
+45	muutunud	A	_	31	acl:relcl	_
+46	,	Z	_	47	punct	_
+47	kirjutab	V	b=b	10	conj	_
+48	Postimees	H	sg=sg|n=n	47	nsubj	_
+49	.	Z	_	6	punct	_
+
+# sent_id = 2195267
+# text = President Arnold Rüütlil valmib peatselt Saaremaal oma sünnitalu lähedal suvekodu , kuhu ta kavatseb pensionipõlves elama minna .
+1	President	S	sg=sg|n=n	4	nsubj	_
+2	Arnold	H	sg=sg|n=n	1	appos	_
+3	Rüütlil	H	sg=sg|n=n	2	flat	_
+4	valmib	V	b=b	0	root	_
+5	peatselt	D	_	4	advmod	_
+6	Saaremaal	H	sg=sg|ad=ad	4	obl	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	sünnitalu	S	sg=sg|g=g	4	obl	_
+9	lähedal	K	_	8	case	_
+10	suvekodu	S	sg=sg|n=n	4	obl	CHECK
+11	,	Z	_	14	punct	_
+12	kuhu	D	_	14	mark	_
+13	ta	P	sg=sg|n=n	14	nsubj	_
+14	kavatseb	V	b=b	10	acl	_
+15	pensionipõlves	S	sg=sg|in=in	16	obj	_
+16	elama	V	ma=ma	17	xcomp	_
+17	minna	V	da=da	14	xcomp	_
+18	.	Z	_	4	punct	_
+
+# sent_id = 1673174
+# text = Suursaadik Craddocki Eestis töötamise ajal valmis Suurbritannia uus saatkonnahoone , toimus mitmeid kõrgetasemelisi visiite mõlemas suunas , teiste seas president Meri ametlik külaskäik Inglismaale .
+1	Suursaadik	S	sg=sg|n=n	6	nsubj	_
+2	Craddocki	H	sg=sg|n=n	1	appos	_
+3	Eestis	H	sg=sg|in=in	4	nmod	_
+4	töötamise	S	sg=sg|g=g	6	obl	_
+5	ajal	K	_	4	case	_
+6	valmis	V	s=s	11	advcl	_
+7	Suurbritannia	H	sg=sg|g=g	9	nmod	_
+8	uus	A	sg=sg|n=n	9	amod	_
+9	saatkonnahoone	S	sg=sg|n=n	6	obj	CHECK
+10	,	Z	_	11	punct	_
+11	toimus	V	s=s	0	root	_
+12	mitmeid	P	pl=pl|p=p	14	det	_
+13	kõrgetasemelisi	A	pl=pl|p=p	14	amod	_
+14	visiite	S	pl=pl|p=p	11	nsubj	_
+15	mõlemas	P	sg=sg|in=in	16	det	_
+16	suunas	S	sg=sg|in=in	11	obl	_
+17	,	Z	_	23	punct	_
+18	teiste	O	pl=pl|g=g	20	nmod	_
+19	seas	K	_	18	case	_
+20	president	S	sg=sg|n=n	23	nmod	_
+21	Meri	H	sg=sg|g=g	20	appos	_
+22	ametlik	A	sg=sg|n=n	23	amod	_
+23	külaskäik	S	sg=sg|n=n	11	obl	_
+24	Inglismaale	H	sg=sg|all=all	23	appos	_
+25	.	Z	_	11	punct	_
+
+# sent_id = 663141
+# text = Samal aastal valmis ka eesti läbi aegade paremaid komöödiafilme , Sulev Nõmmiku filmidebüüt " Mehed ei nuta " .
+1	Samal	P	sg=sg|ad=ad	2	det	_
+2	aastal	S	sg=sg|ad=ad	3	obl	_
+3	valmis	V	s=s	0	root	_
+4	ka	D	_	9	advmod	_
+5	eesti	G	_	7	amod	_
+6	läbi	K	_	7	case	_
+7	aegade	S	pl=pl|g=g	3	obl	_
+8	paremaid	C	pl=pl|p=p	9	amod	_
+9	komöödiafilme	S	pl=pl|p=p	3	nsubj	CHECK
+10	,	Z	_	13	punct	_
+11	Sulev	H	sg=sg|n=n	13	nmod	_
+12	Nõmmiku	H	sg=sg|g=g	11	flat	_
+13	filmidebüüt	S	sg=sg|n=n	9	conj	_
+14	"	Z	_	17	punct	_
+15	Mehed	S	pl=pl|n=n	17	nsubj	_
+16	ei	V	neg=neg	17	aux	_
+17	nuta	V	o=o	13	parataxis	_
+18	"	Z	_	17	punct	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 260216
+# text = Valminud on baastaseme õppekava ja juba teine versioon testiküsimustest selle õppekava põhjal .
+1	Valminud	V	nud=nud	0	root	_
+2	on	V	b=b	1	aux	_
+3	baastaseme	S	sg=sg|g=g	4	nmod	_
+4	õppekava	S	sg=sg|g=g	1	nsubj	CHECK
+5	ja	J	_	8	cc	_
+6	juba	D	_	8	advmod	_
+7	teine	O	sg=sg|n=n	8	amod	_
+8	versioon	S	sg=sg|n=n	4	conj	_
+9	testiküsimustest	S	pl=pl|el=el	8	nmod	_
+10	selle	P	sg=sg|g=g	11	det	_
+11	õppekava	S	sg=sg|g=g	8	nmod	_
+12	põhjal	K	_	11	case	_
+13	.	Z	_	1	punct	_
+
+# sent_id = 2507589
+# text = Põlevkivi veomahuks oli jaanuaris 0,35 miljonit tonni ehk poole vähem kui eelmisel aastal , mille põhjus on mullu valminud Eesti Põlevkivi oma raudteelõik Narva elektrijaamadeni .
+1	Põlevkivi	S	sg=sg|n=n	2	nmod	_
+2	veomahuks	S	sg=sg|tr=tr	4	nsubj:cop	_
+3	oli	V	s=s	4	cop	_
+4	jaanuaris	S	sg=sg|in=in	0	root	_
+5	0,35	N	?=?	6	compound	_
+6	miljonit	N	sg=sg|p=p	7	nummod	_
+7	tonni	S	sg=sg|p=p	4	nmod	_
+8	ehk	J	_	10	cc	_
+9	poole	K	_	7	conj	_
+10	vähem	D	_	7	conj	_
+11	kui	J	_	13	mark	_
+12	eelmisel	A	sg=sg|ad=ad	13	amod	_
+13	aastal	S	sg=sg|ad=ad	10	advcl	_
+14	,	Z	_	16	punct	_
+15	mille	P	sg=sg|g=g	16	nmod	_
+16	põhjus	S	sg=sg|n=n	19	nsubj	_
+17	on	V	vad=vad	19	aux	_
+18	mullu	D	_	19	advmod	_
+19	valminud	A	pl=pl|n=n	13	acl:relcl	_
+20	Eesti	H	sg=sg|g=g	21	nmod	_
+21	Põlevkivi	S	sg=sg|n=n	19	obl	_
+22	oma	P	sg=sg|g=g	23	nmod	_
+23	raudteelõik	S	sg=sg|n=n	19	obl	CHECK
+24	Narva	H	sg=sg|g=g	25	nmod	_
+25	elektrijaamadeni	S	pl=pl|ter=ter	23	nmod	_
+26	.	Z	_	10	punct	_
+
+# sent_id = 3416781
+# text = 150 000-kroonise aastapreemia eelneva nelja aasta jooksul valminud ja avaldatud parimate teadustööde eest määras valitsus :
+1	150	N	?=?	3	nummod	_
+2	000-kroonise	A	sg=sg|g=g	3	amod	_
+3	aastapreemia	S	sg=sg|g=g	14	nsubj	CHECK
+4	eelneva	A	sg=sg|g=g	5	amod	_
+5	nelja	N	sg=sg|g=g	6	nummod	_
+6	aasta	S	sg=sg|g=g	8	obl	_
+7	jooksul	K	_	6	case	_
+8	valminud	A	pl=pl|n=n	12	acl	_
+9	ja	J	_	10	cc	_
+10	avaldatud	A	_	8	conj	_
+11	parimate	U	pl=pl|g=g	12	amod	_
+12	teadustööde	S	pl=pl|g=g	3	nmod	_
+13	eest	K	_	12	case	_
+14	määras	V	s=s	0	root	_
+15	valitsus	S	sg=sg|n=n	14	nsubj	_
+16	:	Z	_	14	punct	_
+
+# sent_id = 4039312
+# text = Film valmis ETV 50. juubeli raames ning on üks kolmest 2005. aastal ekraanile jõudvast teleainelisest mängufilmist .
+1	Film	S	sg=sg|n=n	2	nsubj	_
+2	valmis	V	s=s	0	root	_
+3	ETV	Y	?=?	5	nmod	CHECK
+4	50.	O	?=?	5	amod	_
+5	juubeli	S	sg=sg|g=g	2	obl	_
+6	raames	K	_	5	case	_
+7	ning	J	_	9	cc	_
+8	on	V	vad=vad	9	cop	_
+9	üks	N	sg=sg|n=n	2	conj	_
+10	kolmest	N	sg=sg|el=el	16	nummod	_
+11	2005.	O	?=?	12	amod	_
+12	aastal	S	sg=sg|ad=ad	14	obl	_
+13	ekraanile	S	sg=sg|all=all	14	obl	_
+14	jõudvast	A	sg=sg|el=el	16	acl	_
+15	teleainelisest	A	sg=sg|el=el	16	amod	_
+16	mängufilmist	S	sg=sg|el=el	9	nsubj:cop	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 581594
+# text = Kuna Eesti valmib filme vähe , hõlmab auhind nii mängu- , dokumentaal- , anima- ja muusikafilme , kui ka telelavastusi .
+1	Kuna	J	_	3	mark	_
+2	Eesti	H	sg=sg|n=n	3	nsubj	_
+3	valmib	V	b=b	7	advcl	_
+4	filme	S	pl=pl|p=p	3	obj	CHECK
+5	vähe	D	_	3	advmod	_
+6	,	Z	_	3	punct	_
+7	hõlmab	V	b=b	0	root	_
+8	auhind	S	sg=sg|n=n	7	obj	_
+9	nii	D	_	10	cc:preconj	_
+10	mängu-	S	sg=sg|g=g	7	nsubj	_
+11	,	Z	_	12	punct	_
+12	dokumentaal-	S	sg=sg|n=n	10	conj	_
+13	,	Z	_	14	punct	_
+14	anima-	V	ma=ma	10	conj	_
+15	ja	J	_	16	cc	_
+16	muusikafilme	S	pl=pl|p=p	10	conj	_
+17	,	Z	_	20	punct	_
+18	kui	D	_	20	cc	_
+19	ka	D	_	20	advmod	_
+20	telelavastusi	S	pl=pl|p=p	10	conj	_
+21	.	Z	_	7	punct	_
+
+# sent_id = 1106370
+# text = Nimelt on see teine täispikk animafilm pärast kolm aastat tagasi valminud " Lumivalgekest ja seitset pöialpoissi " .
+1	Nimelt	D	_	6	advmod	_
+2	on	V	vad=vad	6	cop	_
+3	see	P	sg=sg|n=n	6	nsubj:cop	_
+4	teine	P	sg=sg|n=n	6	det	_
+5	täispikk	A	sg=sg|n=n	6	amod	_
+6	animafilm	S	sg=sg|n=n	0	root	_
+7	pärast	K	_	9	case	_
+8	kolm	N	sg=sg|n=n	9	nummod	_
+9	aastat	S	sg=sg|p=p	11	obl	_
+10	tagasi	K	_	9	case	_
+11	valminud	V	nud=nud	16	acl	_
+12	"	Z	_	13	punct	_
+13	Lumivalgekest	H	sg=sg|p=p	6	appos	CHECK
+14	ja	J	_	15	cc	_
+15	seitset	N	sg=sg|p=p	13	conj	_
+16	pöialpoissi	S	sg=sg|p=p	13	conj	_
+17	"	Z	_	16	punct	_
+18	.	Z	_	6	punct	_
+
+# sent_id = 3673033
+# text = Järgmise aasta juunis valmivat mitme funktsiooniga hoonet , mis sisaldab büroo- ja kaubanduspindu , spaad , panka ja restorani , peab Alver unikaalseks ja tõsiseks konstruktsiooniks , mis on võrreldav sillaehitusega .
+1	Järgmise	A	sg=sg|g=g	2	amod	_
+2	aasta	S	sg=sg|g=g	3	nmod	_
+3	juunis	S	sg=sg|in=in	4	obl	_
+4	valmivat	V	vat=vat	0	root	_
+5	mitme	P	sg=sg|g=g	6	det	_
+6	funktsiooniga	S	sg=sg|kom=kom	4	nsubj	_
+7	hoonet	S	sg=sg|p=p	4	nsubj	CHECK
+8	,	Z	_	10	punct	_
+9	mis	P	pl=pl|n=n	10	nsubj	_
+10	sisaldab	V	b=b	7	acl:relcl	_
+11	büroo-	S	sg=sg|g=g	10	obj	_
+12	ja	J	_	13	cc	_
+13	kaubanduspindu	S	pl=pl|p=p	11	conj	_
+14	,	Z	_	15	punct	_
+15	spaad	S	sg=sg|p=p	11	conj	_
+16	,	Z	_	17	punct	_
+17	panka	S	sg=sg|p=p	11	conj	_
+18	ja	J	_	19	cc	_
+19	restorani	S	sg=sg|p=p	11	conj	_
+20	,	Z	_	10	punct	_
+21	peab	V	b=b	4	conj	_
+22	Alver	H	sg=sg|n=n	21	nsubj	_
+23	unikaalseks	A	sg=sg|tr=tr	26	amod	_
+24	ja	J	_	25	cc	_
+25	tõsiseks	A	sg=sg|tr=tr	23	conj	_
+26	konstruktsiooniks	S	sg=sg|tr=tr	21	obj	_
+27	,	Z	_	30	punct	_
+28	mis	P	sg=sg|n=n	30	nsubj:cop	_
+29	on	V	b=b	30	cop	_
+30	võrreldav	A	sg=sg|n=n	26	acl:relcl	_
+31	sillaehitusega	S	sg=sg|kom=kom	30	obl	_
+32	.	Z	_	4	punct	_
+

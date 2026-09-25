@@ -1,0 +1,511 @@
+# sent_id = 171611
+# text = Käo rehabilitatsioonikeskus , kus lisaks mõõduka puudega lastele on ka raske ja sügava puudega lapsi , maadleb alles haridusministeeriumiga litsentsi pärast .
+1	Käo	H	sg=sg|g=g	17	nsubj	_
+2	rehabilitatsioonikeskus	S	sg=sg|n=n	17	obl	_
+3	,	Z	_	11	punct	_
+4	kus	D	_	11	mark	_
+5	lisaks	S	sg=sg|tr=tr	11	obl	_
+6	mõõduka	A	sg=sg|g=g	7	amod	_
+7	puudega	S	sg=sg|kom=kom	8	nmod	_
+8	lastele	S	pl=pl|all=all	5	nmod	_
+9	on	V	vad=vad	11	cop	_
+10	ka	D	_	11	advmod	_
+11	raske	A	sg=sg|n=n	2	acl	_
+12	ja	J	_	13	cc	_
+13	sügava	A	sg=sg|g=g	14	amod	_
+14	puudega	S	pl=pl|kom=kom	15	nmod	_
+15	lapsi	S	pl=pl|p=p	11	conj	_
+16	,	Z	_	11	punct	_
+17	maadleb	V	b=b	0	root	_
+18	alles	D	_	17	advmod	_
+19	haridusministeeriumiga	S	sg=sg|kom=kom	17	obj	_
+20	litsentsi	S	sg=sg|p=p	17	obl	CHECK
+21	pärast	D	_	20	case	_
+22	.	Z	_	17	punct	_
+
+# sent_id = 10026308
+# text = Ta ei maadle dilemmaga lavastaja-näitleja , kuid teatud aja möödudes tuleb ikkagi igatsus ise mängida .
+1	Ta	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	maadle	V	o=o	0	root	_
+4	dilemmaga	S	sg=sg|kom=kom	5	nmod	_
+5	lavastaja-näitleja	S	sg=sg|n=n	3	obj	CHECK
+6	,	Z	_	11	punct	_
+7	kuid	J	_	11	cc	_
+8	teatud	A	_	9	acl	_
+9	aja	S	sg=sg|g=g	10	obl	_
+10	möödudes	V	des=des	3	conj	_
+11	tuleb	V	b=b	3	conj	_
+12	ikkagi	D	_	11	advmod	_
+13	igatsus	S	sg=sg|n=n	15	nsubj	_
+14	ise	P	sg=sg|n=n	13	nmod	_
+15	mängida	V	da=da	11	csubj	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 10217897
+# text = Kursuse tuumik on kandvad rollid enda jaoks selgeks maadelnud , ehkki vananeva sitsiillase elumahla verinoorest eestlasest välja ei pigista , pressi ega auruta .
+1	Kursuse	S	sg=sg|g=g	2	nmod	_
+2	tuumik	S	sg=sg|n=n	9	nsubj	_
+3	on	V	vad=vad	9	aux	_
+4	kandvad	A	pl=pl|n=n	5	acl	_
+5	rollid	S	pl=pl|n=n	9	obj	CHECK
+6	enda	P	sg=sg|g=g	9	obl	_
+7	jaoks	K	_	6	case	_
+8	selgeks	A	sg=sg|tr=tr	9	xcomp	_
+9	maadelnud	V	nud=nud	0	root	_
+10	,	Z	_	19	punct	_
+11	ehkki	J	_	19	mark	_
+12	vananeva	A	sg=sg|g=g	13	acl	_
+13	sitsiillase	S	sg=sg|g=g	14	nmod	_
+14	elumahla	S	sg=sg|g=g	19	nsubj	_
+15	verinoorest	A	sg=sg|el=el	16	amod	_
+16	eestlasest	S	sg=sg|el=el	19	obj	_
+17	välja	D	_	19	compound:prt	_
+18	ei	V	neg=neg	19	aux	_
+19	pigista	V	o=o	9	advcl	_
+20	,	Z	_	21	punct	_
+21	pressi	S	sg=sg|g=g	19	conj	_
+22	ega	J	_	23	cc	_
+23	auruta	S	sg=sg|ab=ab	21	conj	_
+24	.	Z	_	9	punct	_
+
+# sent_id = 15149866
+# text = Pertelson kinnitas , medal kaelas : « Olümpial ma enam ei maadle , see on fakt . »
+1	Pertelson	H	sg=sg|n=n	2	nsubj	_
+2	kinnitas	V	s=s	0	root	_
+3	,	Z	_	4	punct	_
+4	medal	S	sg=sg|n=n	5	nmod	_
+5	kaelas	S	sg=sg|in=in	2	obj	_
+6	:	Z	_	12	punct	_
+7	«	Z	_	12	punct	_
+8	Olümpial	H	sg=sg|n=n	12	obj	CHECK
+9	ma	P	sg=sg|n=n	12	nsubj	_
+10	enam	D	_	12	advmod	_
+11	ei	V	neg=neg	12	aux	_
+12	maadle	V	o=o	2	parataxis	_
+13	,	Z	_	16	punct	_
+14	see	P	sg=sg|n=n	16	nsubj:cop	_
+15	on	V	b=b	16	cop	_
+16	fakt	S	sg=sg|n=n	12	conj	_
+17	.	Z	_	12	punct	_
+18	»	Z	_	12	punct	_
+
+# sent_id = 13223286
+# text = Vahepeal on Päntu maadelnud kännu , fotoaparaadikoti ja võilillega ; kallistanud puud , mille küljes kõigest paari meetri kõrgusel on kuldnokkade pesa ( linnud korra oma lendamisega isegi ehmatasid karu ) ; tõmmanud rõdukäsipuul lõuga ( Kaja : " Tüdrukud peaksid ikka kätekõverdusi tegema " ) ; korraldanud ekspeditsiooni kodusõraliste tara juurde .
+1	Vahepeal	D	_	4	advmod	_
+2	on	V	b=b	4	aux	_
+3	Päntu	H	sg=sg|n=n	4	nsubj	_
+4	maadelnud	A	sg=sg|n=n	0	root	_
+5	kännu	S	sg=sg|g=g	4	obj	CHECK
+6	,	Z	_	7	punct	_
+7	fotoaparaadikoti	S	sg=sg|g=g	5	conj	_
+8	ja	J	_	9	cc	_
+9	võilillega	S	sg=sg|kom=kom	5	conj	_
+10	;	Z	_	11	punct	_
+11	kallistanud	A	_	4	conj	_
+12	puud	S	sg=sg|n=n	11	obj	_
+13	,	Z	_	22	punct	_
+14	mille	P	pl=pl|g=g	19	obl	_
+15	küljes	K	_	14	case	_
+16	kõigest	D	_	17	advmod	_
+17	paari	N	sg=sg|g=g	18	nummod	_
+18	meetri	S	sg=sg|g=g	19	nmod	_
+19	kõrgusel	S	sg=sg|ad=ad	22	nsubj:cop	_
+20	on	V	b=b	22	cop	_
+21	kuldnokkade	S	pl=pl|g=g	22	nmod	_
+22	pesa	S	sg=sg|n=n	12	acl:relcl	_
+23	(	Z	_	29	punct	_
+24	linnud	S	pl=pl|n=n	29	nsubj	_
+25	korra	S	sg=sg|g=g	29	obl	_
+26	oma	P	sg=sg|g=g	27	nmod	_
+27	lendamisega	S	sg=sg|kom=kom	29	obj	_
+28	isegi	D	_	29	advmod	_
+29	ehmatasid	V	sid=sid	22	parataxis	_
+30	karu	S	sg=sg|n=n	29	obj	_
+31	)	Z	_	29	punct	_
+32	;	Z	_	33	punct	_
+33	tõmmanud	V	nud=nud	4	conj	_
+34	rõdukäsipuul	S	sg=sg|ad=ad	35	nmod	_
+35	lõuga	S	adt=adt	33	obj	_
+36	(	Z	_	37	punct	_
+37	Kaja	H	sg=sg|n=n	33	parataxis	_
+38	:	Z	_	44	punct	_
+39	"	Z	_	44	punct	_
+40	Tüdrukud	S	pl=pl|n=n	44	nsubj	_
+41	peaksid	V	ksid=ksid	44	aux	_
+42	ikka	D	_	44	advmod	_
+43	kätekõverdusi	S	pl=pl|p=p	44	obj	_
+44	tegema	V	ma=ma	37	parataxis	_
+45	"	Z	_	44	punct	_
+46	)	Z	_	44	punct	_
+47	;	Z	_	48	punct	_
+48	korraldanud	A	sg=sg|n=n	4	conj	_
+49	ekspeditsiooni	S	sg=sg|g=g	48	obj	_
+50	kodusõraliste	S	pl=pl|g=g	48	obj	_
+51	tara	S	sg=sg|g=g	48	obl	_
+52	juurde	K	_	51	case	_
+53	.	Z	_	4	punct	_
+
+# sent_id = 530503
+# text = Melbourne i mängudel 1956 maadles aga Rootsi värvides end olüm-piahõbedale Riguldist pärit rannarootslane Edvin Vesterby .
+1	Melbourne	H	sg=sg|n=n	3	nmod	_
+2	i	Y	?=?	1	flat	_
+3	mängudel	S	pl=pl|ad=ad	5	obl	_
+4	1956	N	?=?	3	nummod	_
+5	maadles	V	s=s	0	root	_
+6	aga	J	_	5	advmod	_
+7	Rootsi	H	sg=sg|g=g	8	nmod	_
+8	värvides	S	pl=pl|in=in	5	obj	_
+9	end	Y	?=?	5	obj	CHECK
+10	olüm-piahõbedale	S	sg=sg|all=all	12	obl	_
+11	Riguldist	H	sg=sg|el=el	10	appos	_
+12	pärit	X	_	13	advmod	_
+13	rannarootslane	S	sg=sg|n=n	5	nsubj	_
+14	Edvin	H	sg=sg|n=n	13	appos	_
+15	Vesterby	H	sg=sg|n=n	14	flat	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 12724225
+# text = Humanitaarsete huvidega poiss on kõik kooliaastad matemaatika ja keemiaga maadelnud .
+1	Humanitaarsete	H	pl=pl|g=g	2	amod	_
+2	huvidega	S	pl=pl|kom=kom	3	nmod	_
+3	poiss	S	sg=sg|n=n	10	nsubj	_
+4	on	V	b=b	10	aux	_
+5	kõik	P	sg=sg|n=n	6	det	_
+6	kooliaastad	S	pl=pl|n=n	7	nmod	CHECK
+7	matemaatika	S	sg=sg|g=g	10	obj	_
+8	ja	J	_	9	cc	_
+9	keemiaga	S	sg=sg|kom=kom	7	conj	_
+10	maadelnud	A	sg=sg|n=n	0	root	_
+11	.	Z	_	10	punct	_
+
+# sent_id = 22412
+# text = Praegugi maadleme Mikiveriga Verdi “ Maskiballi ” kallal , mis peaks aprillis välja tulema . ”
+1	Praegugi	D	_	2	advmod	_
+2	maadleme	V	me=me	0	root	_
+3	Mikiveriga	H	sg=sg|kom=kom	2	nsubj	_
+4	Verdi	H	sg=sg|g=g	3	flat	_
+5	“	Z	_	6	punct	_
+6	Maskiballi	S	sg=sg|g=g	2	obl	CHECK
+7	”	Z	_	6	punct	_
+8	kallal	K	_	6	case	_
+9	,	Z	_	14	punct	_
+10	mis	P	sg=sg|n=n	14	nsubj	_
+11	peaks	V	ks=ks	14	aux	_
+12	aprillis	S	sg=sg|in=in	14	obl	_
+13	välja	D	_	14	compound:prt	_
+14	tulema	V	ma=ma	6	acl:relcl	_
+15	.	Z	_	2	punct	_
+16	”	Z	_	2	punct	_
+
+# sent_id = 264297
+# text = Et mu noor sõber Jouko Vanhanen , kes oli valmis seda soome keelde tõlkima , oli parasjagu vaba võtma asja otse käsikirjast ette - ning et “ Kupar ” , tollal parasjagu ainus kirjanike kirjastuskooperatiiv Nõukogude Liidus - see oli ju aastal 1989 , eks ole - , maadles ellujäämismaadlust punabürokraatiaga , nii et tõlge ilmus tõesti enne kui originaal - aga selle hilinemise põhjused polnud enam tsensuurset laadi .
+1	Et	J	_	4	mark	_
+2	mu	P	sg=sg|g=g	4	nmod	_
+3	noor	A	sg=sg|n=n	4	amod	_
+4	sõber	S	sg=sg|n=n	19	nsubj	_
+5	Jouko	H	sg=sg|n=n	4	appos	_
+6	Vanhanen	H	sg=sg|n=n	5	flat	_
+7	,	Z	_	10	punct	_
+8	kes	P	sg=sg|n=n	10	nsubj:cop	_
+9	oli	V	s=s	10	cop	_
+10	valmis	A	_	5	acl:relcl	_
+11	seda	P	sg=sg|p=p	14	obj	_
+12	soome	G	_	13	amod	_
+13	keelde	S	adt=adt	14	obl	_
+14	tõlkima	V	ma=ma	10	conj	_
+15	,	Z	_	10	punct	_
+16	oli	V	s=s	19	aux	_
+17	parasjagu	D	_	18	advmod	_
+18	vaba	A	sg=sg|n=n	19	amod	_
+19	võtma	V	ma=ma	0	root	_
+20	asja	S	sg=sg|p=p	19	obj	_
+21	otse	D	_	22	advmod	_
+22	käsikirjast	S	sg=sg|el=el	19	obl	_
+23	ette	D	_	19	compound:prt	_
+24	-	Z	_	19	punct	_
+25	ning	J	_	28	cc	_
+26	et	J	_	28	mark	_
+27	“	Z	_	28	punct	_
+28	Kupar	H	sg=sg|n=n	19	conj	_
+29	”	Z	_	28	punct	_
+30	,	Z	_	35	punct	_
+31	tollal	D	_	35	advmod	_
+32	parasjagu	D	_	35	advmod	_
+33	ainus	A	sg=sg|n=n	34	amod	_
+34	kirjanike	S	pl=pl|g=g	35	nmod	_
+35	kirjastuskooperatiiv	S	sg=sg|n=n	28	conj	_
+36	Nõukogude	H	pl=pl|g=g	37	nmod	_
+37	Liidus	S	sg=sg|in=in	35	nmod	_
+38	-	Z	_	42	punct	_
+39	see	P	sg=sg|n=n	42	nsubj:cop	_
+40	oli	V	s=s	42	cop	_
+41	ju	D	_	42	advmod	_
+42	aastal	S	sg=sg|ad=ad	35	parataxis	_
+43	1989	N	?=?	42	nummod	_
+44	,	Z	_	46	punct	_
+45	eks	D	_	46	advmod	_
+46	ole	V	o=o	42	cop	_
+47	-	Z	_	46	punct	_
+48	,	Z	_	49	punct	_
+49	maadles	V	s=s	42	conj	_
+50	ellujäämismaadlust	S	sg=sg|p=p	51	nmod	CHECK
+51	punabürokraatiaga	S	sg=sg|kom=kom	49	obj	_
+52	,	Z	_	56	punct	_
+53	nii	D	_	56	advmod	_
+54	et	J	_	53	fixed	_
+55	tõlge	S	sg=sg|n=n	56	nsubj	_
+56	ilmus	V	s=s	49	advcl	_
+57	tõesti	D	_	56	advmod	_
+58	enne	D	_	56	advmod	_
+59	kui	J	_	58	fixed	_
+60	originaal	S	sg=sg|n=n	58	advcl	_
+61	-	Z	_	69	punct	_
+62	aga	J	_	69	cc	_
+63	selle	P	sg=sg|g=g	64	det	_
+64	hilinemise	S	sg=sg|g=g	65	nmod	_
+65	põhjused	S	pl=pl|n=n	69	nsubj:cop	_
+66	polnud	V	neg=neg|nud=nud	69	cop	_
+67	enam	D	_	69	advmod	_
+68	tsensuurset	A	sg=sg|p=p	69	amod	_
+69	laadi	S	sg=sg|p=p	56	conj	_
+70	.	Z	_	49	punct	_
+
+# sent_id = 535442
+# text = Hommiku ja kogu järgmise päeva maadles väike kallike palavikuga .
+1	Hommiku	S	sg=sg|g=g	6	obj	CHECK
+2	ja	J	_	5	cc	_
+3	kogu	A	_	5	det	_
+4	järgmise	A	sg=sg|g=g	5	amod	_
+5	päeva	S	sg=sg|g=g	1	conj	_
+6	maadles	V	s=s	0	root	_
+7	väike	A	sg=sg|n=n	8	amod	_
+8	kallike	S	sg=sg|n=n	6	nsubj	_
+9	palavikuga	S	sg=sg|kom=kom	6	nsubj	_
+10	.	Z	_	6	punct	_
+
+# sent_id = 2188313
+# text = Sarnaselt Eesti Energiat erastada püüdnud NRG Energyle maadleb ka Williams nüüdseks finantsraskustega .
+1	Sarnaselt	D	_	5	advmod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	Energiat	S	sg=sg|p=p	5	obj	_
+4	erastada	V	da=da	5	obj	_
+5	püüdnud	A	pl=pl|n=n	6	acl	_
+6	NRG	Y	?=?	8	nsubj	_
+7	Energyle	H	sg=sg|n=n	6	flat	_
+8	maadleb	V	b=b	0	root	_
+9	ka	D	_	8	advmod	_
+10	Williams	H	sg=sg|n=n	8	nsubj	CHECK
+11	nüüdseks	A	sg=sg|tr=tr	8	obl	_
+12	finantsraskustega	S	pl=pl|kom=kom	8	obj	_
+13	.	Z	_	8	punct	_
+
+# sent_id = 1365704
+# text = " Algus läks tal raskelt , kuid viimased kohtumised maadles Aleksei väga võimsalt , " kiitis Põhjala .
+1	"	Z	_	3	punct	_
+2	Algus	S	sg=sg|n=n	3	obl	_
+3	läks	V	s=s	0	root	_
+4	tal	P	sg=sg|ad=ad	3	nsubj	_
+5	raskelt	D	_	3	advmod	_
+6	,	Z	_	10	punct	_
+7	kuid	J	_	10	cc	_
+8	viimased	A	pl=pl|n=n	9	amod	_
+9	kohtumised	S	pl=pl|n=n	10	obl	_
+10	maadles	V	s=s	3	conj	_
+11	Aleksei	H	sg=sg|n=n	10	nsubj	CHECK
+12	väga	D	_	13	advmod	_
+13	võimsalt	D	_	10	advmod	_
+14	,	Z	_	3	punct	_
+15	"	Z	_	3	punct	_
+16	kiitis	V	s=s	3	parataxis	_
+17	Põhjala	H	sg=sg|n=n	16	nsubj	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 19419178
+# text = Brennen: missasja te raffas siin maadlete ???????????
+1	Brennen	H	sg=sg|n=n	0	root	_
+2	:	Z	_	7	punct	_
+3	missasja	S	adt=adt	7	obl	CHECK
+4	te	P	pl=pl|n=n	7	nsubj	_
+5	raffas	S	sg=sg|in=in	7	obj	_
+6	siin	D	_	7	advmod	_
+7	maadlete	V	te=te	1	parataxis	_
+8	???????????	Z	_	1	punct	_
+
+# sent_id = 856002
+# text = Glushkoviga olen varem maadelnud korra ja kaotasin täpselt samasuguse võttega , nagu ta nüüd tegi , " ütles Nikitin .
+1	Glushkoviga	H	sg=sg|kom=kom	4	nsubj	_
+2	olen	V	n=n	4	aux	_
+3	varem	D	_	4	advmod	_
+4	maadelnud	A	sg=sg|n=n	0	root	_
+5	korra	S	sg=sg|g=g	4	obl	CHECK
+6	ja	J	_	7	cc	_
+7	kaotasin	V	sin=sin	4	conj	_
+8	täpselt	D	_	9	advmod	_
+9	samasuguse	P	sg=sg|g=g	10	det	_
+10	võttega	S	sg=sg|kom=kom	7	obj	_
+11	,	Z	_	15	punct	_
+12	nagu	J	_	15	mark	_
+13	ta	P	sg=sg|n=n	15	nsubj	_
+14	nüüd	D	_	15	advmod	_
+15	tegi	V	s=s	7	advcl	_
+16	,	Z	_	4	punct	_
+17	"	Z	_	18	punct	_
+18	ütles	V	s=s	4	parataxis	_
+19	Nikitin	H	sg=sg|n=n	18	nsubj	_
+20	.	Z	_	4	punct	_
+
+# sent_id = 1811495
+# text = Ma pole maadelnud kuu aega , selline periood koguneb iga hooaja järel .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	pole	V	neg=neg|o=o	3	aux	_
+3	maadelnud	A	sg=sg|n=n	0	root	_
+4	kuu	S	sg=sg|g=g	5	nmod	_
+5	aega	S	sg=sg|p=p	3	obj	CHECK
+6	,	Z	_	9	punct	_
+7	selline	P	sg=sg|n=n	8	det	_
+8	periood	S	sg=sg|n=n	9	nsubj	_
+9	koguneb	V	b=b	3	conj	_
+10	iga	P	sg=sg|g=g	11	det	_
+11	hooaja	S	sg=sg|g=g	9	obl	_
+12	järel	K	_	11	case	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 6493254
+# text = Vähemalt viimased kaks kümnendit on EL maadelnud immigrantidega , kes teenivad liidu kodanike pahameele oma laiskuse ning riiklike sotsiaalsete garantiide kasutamisega .
+1	Vähemalt	D	_	2	advmod	_
+2	viimased	A	pl=pl|n=n	3	amod	_
+3	kaks	N	sg=sg|n=n	4	nummod	_
+4	kümnendit	S	sg=sg|p=p	7	obl	_
+5	on	V	b=b	7	aux	_
+6	EL	Y	?=?	7	nsubj	CHECK
+7	maadelnud	A	_	0	root	_
+8	immigrantidega	S	pl=pl|kom=kom	7	obj	_
+9	,	Z	_	11	punct	_
+10	kes	P	sg=sg|n=n	11	nsubj	_
+11	teenivad	V	vad=vad	8	acl:relcl	_
+12	liidu	S	sg=sg|g=g	13	nmod	_
+13	kodanike	S	pl=pl|g=g	11	obj	_
+14	pahameele	S	sg=sg|g=g	11	obj	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	laiskuse	S	sg=sg|g=g	11	obj	_
+17	ning	J	_	21	cc	_
+18	riiklike	A	pl=pl|g=g	20	amod	_
+19	sotsiaalsete	A	pl=pl|g=g	20	amod	_
+20	garantiide	S	pl=pl|g=g	21	nmod	_
+21	kasutamisega	S	sg=sg|kom=kom	16	conj	_
+22	.	Z	_	7	punct	_
+
+# sent_id = 20859943
+# text = musi: ma ei maadle uldse
+1	musi	S	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	maadle	V	o=o	1	parataxis	_
+6	uldse	S	pl=pl|p=p	5	obj	CHECK
+
+# sent_id = 16763924
+# text = kui vaid saaks Su läbi arvuti oma tuppa enesele abiks tõmmata Sinu eriala inimest oleks nii vaja ... ma ei tea terminitest mis 'õigust' puudutab mitte essugi maadle siin erinevate sõnastikega .. , ja samas prokurör lobiseb nii sama jõude miske ebaõiglus .
+1	kui	D	_	3	mark	_
+2	vaid	D	_	3	advmod	_
+3	saaks	V	ks=ks	11	aux	_
+4	Su	P	sg=sg|g=g	11	nsubj	_
+5	läbi	D	_	6	case	_
+6	arvuti	S	sg=sg|g=g	11	obl	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	tuppa	S	adt=adt	11	obl	_
+9	enesele	P	sg=sg|all=all	10	nmod	_
+10	abiks	S	sg=sg|tr=tr	11	obj	_
+11	tõmmata	V	da=da	0	root	_
+12	Sinu	P	sg=sg|g=g	13	nmod	_
+13	eriala	S	sg=sg|p=p	14	nmod	_
+14	inimest	S	sg=sg|p=p	11	obj	_
+15	oleks	V	ks=ks	11	aux	_
+16	nii	D	_	15	advmod	_
+17	vaja	D	_	11	compound:prt	_
+18	...	Z	_	21	punct	_
+19	ma	P	sg=sg|n=n	21	nsubj	_
+20	ei	V	neg=neg	21	aux	_
+21	tea	V	o=o	15	parataxis	_
+22	terminitest	S	pl=pl|el=el	21	obj	_
+23	mis	P	pl=pl|n=n	21	obj	_
+24	'	Z	_	25	punct	_
+25	õigust	S	sg=sg|p=p	22	conj	_
+26	'	Z	_	27	punct	_
+27	puudutab	V	b=b	21	conj	_
+28	mitte	D	_	29	advmod	_
+29	essugi	S	sg=sg|p=p	30	obj	CHECK
+30	maadle	V	o=o	27	conj	_
+31	siin	D	_	30	advmod	_
+32	erinevate	A	pl=pl|g=g	33	acl	_
+33	sõnastikega	S	pl=pl|kom=kom	30	obj	_
+34	..	Z	_	33	punct	_
+35	,	Z	_	39	punct	_
+36	ja	J	_	39	cc	_
+37	samas	P	sg=sg|in=in	38	det	_
+38	prokurör	S	sg=sg|n=n	39	nsubj	_
+39	lobiseb	V	b=b	21	conj	_
+40	nii	D	_	41	advmod	_
+41	sama	P	sg=sg|g=g	42	det	_
+42	jõude	S	pl=pl|p=p	39	nsubj	_
+43	miske	S	sg=sg|g=g	44	nmod	_
+44	ebaõiglus	S	sg=sg|n=n	39	nsubj	_
+45	.	Z	_	21	punct	_
+
+# sent_id = 1257043
+# text = Uue saate ekraanile tuleku üheks põhjuseks on filmisaate " Kaader 2 " saatejuhi Andrus Vaarikulahkumine Kanal 2st ( Vaarik kui ETV uue saate " Ööpanoraam " üks juht maadleb praegu skandaalse saate eetriprobleemidega - toim. ) .
+1	Uue	A	sg=sg|g=g	2	amod	_
+2	saate	S	sg=sg|g=g	4	nmod	_
+3	ekraanile	S	sg=sg|all=all	4	nmod	_
+4	tuleku	S	sg=sg|g=g	6	nmod	_
+5	üheks	N	sg=sg|tr=tr	6	det	_
+6	põhjuseks	S	sg=sg|tr=tr	0	root	_
+7	on	V	b=b	6	cop	_
+8	filmisaate	S	sg=sg|g=g	13	nmod	_
+9	"	Z	_	10	punct	_
+10	Kaader	H	sg=sg|n=n	8	appos	_
+11	2	N	?=?	10	flat	_
+12	"	Z	_	10	punct	_
+13	saatejuhi	S	sg=sg|g=g	6	nsubj:cop	_
+14	Andrus	H	sg=sg|n=n	13	appos	_
+15	Vaarikulahkumine	H	sg=sg|n=n	14	flat	_
+16	Kanal	S	sg=sg|n=n	14	flat	_
+17	2st	N	sg=sg|el=el	14	flat	_
+18	(	Z	_	19	punct	_
+19	Vaarik	H	sg=sg|n=n	23	nmod	_
+20	kui	J	_	19	flat	_
+21	ETV	Y	?=?	19	conj	_
+22	uue	A	sg=sg|g=g	23	amod	_
+23	saate	S	sg=sg|g=g	13	appos	_
+24	"	Z	_	25	punct	_
+25	Ööpanoraam	H	sg=sg|n=n	23	appos	_
+26	"	Z	_	25	punct	_
+27	üks	P	sg=sg|n=n	28	nummod	_
+28	juht	S	sg=sg|n=n	29	nsubj	_
+29	maadleb	V	b=b	23	parataxis	_
+30	praegu	D	_	29	advmod	_
+31	skandaalse	A	sg=sg|g=g	32	amod	_
+32	saate	V	te=te	33	acl	CHECK
+33	eetriprobleemidega	S	pl=pl|kom=kom	29	obj	_
+34	-	Z	_	35	punct	_
+35	toim.	Y	sg=sg|n=n	33	appos	_
+36	)	Z	_	29	punct	_
+37	.	Z	_	6	punct	_
+
+# sent_id = 5851536
+# text = Põhjala raevutses : maadelnuks Padar oma maadlust , liikunuks ta rahulikult finaali .
+1	Põhjala	H	sg=sg|n=n	2	nsubj	_
+2	raevutses	V	s=s	0	root	_
+3	:	Z	_	4	punct	_
+4	maadelnuks	V	nuks=nuks	2	parataxis	_
+5	Padar	H	sg=sg|n=n	4	nsubj	_
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	maadlust	S	sg=sg|p=p	4	obj	CHECK
+8	,	Z	_	9	punct	_
+9	liikunuks	V	nuks=nuks	4	conj	_
+10	ta	P	sg=sg|n=n	9	nsubj	_
+11	rahulikult	D	_	9	advmod	_
+12	finaali	S	sg=sg|g=g	9	obl	_
+13	.	Z	_	2	punct	_
+

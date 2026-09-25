@@ -1,0 +1,230 @@
+# sent_id = 1864282
+# text = Eks sinna suunda liigume me kõik .
+1	Eks	D	_	4	advmod	_
+2	sinna	D	_	3	advmod	_
+3	suunda	S	sg=sg|p=p	4	obl	_
+4	liigume	V	me=me	0	root	_
+5	me	P	pl=pl|n=n	4	nsubj	_
+6	kõik	P	sg=sg|n=n	4	obl	CHECK
+7	.	Z	_	4	punct	_
+
+# sent_id = 263195
+# text = Selge , et ajalooaineline tekst saab kasutada kujutatava ajastu ehedat keelt seda vähem , mida kaugemas ajas ta liigub .
+1	Selge	A	sg=sg|n=n	0	root	_
+2	,	Z	_	7	punct	_
+3	et	J	_	7	mark	_
+4	ajalooaineline	A	sg=sg|n=n	5	amod	_
+5	tekst	S	sg=sg|n=n	7	nsubj	_
+6	saab	V	b=b	7	aux	_
+7	kasutada	V	da=da	1	csubj	_
+8	kujutatava	A	sg=sg|g=g	9	acl	_
+9	ajastu	S	sg=sg|g=g	11	nmod	_
+10	ehedat	A	sg=sg|p=p	11	amod	_
+11	keelt	S	sg=sg|p=p	7	obj	_
+12	seda	P	sg=sg|p=p	13	obl	_
+13	vähem	D	_	7	advmod	_
+14	,	Z	_	19	punct	_
+15	mida	P	pl=pl|p=p	17	nmod	CHECK
+16	kaugemas	C	sg=sg|in=in	17	amod	_
+17	ajas	S	sg=sg|in=in	19	obl	_
+18	ta	P	sg=sg|n=n	19	nsubj	_
+19	liigub	V	b=b	7	advcl	_
+20	.	Z	_	1	punct	_
+
+# sent_id = 4168939
+# text = Korraga liikusid Aime hiiglaslikul töölaual kavandid ja maketid .
+1	Korraga	D	_	2	advmod	_
+2	liikusid	V	sid=sid	0	root	_
+3	Aime	H	sg=sg|n=n	2	nsubj	_
+4	hiiglaslikul	A	sg=sg|ad=ad	5	amod	_
+5	töölaual	S	sg=sg|ad=ad	2	obl	_
+6	kavandid	S	pl=pl|n=n	2	obl	CHECK
+7	ja	J	_	8	cc	_
+8	maketid	S	pl=pl|n=n	6	conj	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 542652
+# text = Novembri lõpupäevil põlve vigastanud ja Pariisis lõikuslaual käinud Ronaldo liikus pühal tseremoonial vaevamisi , pühendudes pigem neljandat kuud raseda Milene käe hoidmisele .
+1	Novembri	S	sg=sg|g=g	2	nmod	_
+2	lõpupäevil	S	pl=pl|ad=ad	4	obj	_
+3	põlve	S	adt=adt	4	obj	_
+4	vigastanud	A	sg=sg|n=n	9	acl	_
+5	ja	J	_	8	cc	_
+6	Pariisis	H	sg=sg|in=in	8	obl	_
+7	lõikuslaual	S	sg=sg|ad=ad	8	obl	_
+8	käinud	V	nud=nud	4	conj	_
+9	Ronaldo	H	sg=sg|n=n	10	nsubj	_
+10	liikus	V	s=s	0	root	_
+11	pühal	A	sg=sg|ad=ad	12	amod	_
+12	tseremoonial	S	sg=sg|ad=ad	13	nmod	_
+13	vaevamisi	S	pl=pl|p=p	10	obl	CHECK
+14	,	Z	_	15	punct	_
+15	pühendudes	V	des=des	10	conj	_
+16	pigem	D	_	15	advmod	_
+17	neljandat	O	sg=sg|p=p	18	amod	_
+18	kuud	S	sg=sg|p=p	15	obl	_
+19	raseda	S	sg=sg|g=g	21	nmod	_
+20	Milene	H	sg=sg|g=g	21	nmod	_
+21	käe	S	sg=sg|g=g	22	nmod	_
+22	hoidmisele	S	sg=sg|all=all	15	obl	_
+23	.	Z	_	10	punct	_
+
+# sent_id = 7876557
+# text = Nimelt on Itaalia päevade puhuks toodud kaasa tosinkond veini , mida meie poodides ei liigu ning mille seast leiab igale roale ideaalse partneri .
+1	Nimelt	D	_	6	advmod	_
+2	on	V	b=b	6	aux	_
+3	Itaalia	H	sg=sg|g=g	4	nmod	_
+4	päevade	S	pl=pl|g=g	5	nmod	_
+5	puhuks	S	sg=sg|tr=tr	6	obl	_
+6	toodud	A	pl=pl|n=n	0	root	_
+7	kaasa	D	_	6	compound:prt	_
+8	tosinkond	S	sg=sg|n=n	9	nmod	_
+9	veini	S	sg=sg|p=p	6	obj	_
+10	,	Z	_	15	punct	_
+11	mida	P	sg=sg|p=p	15	nsubj	CHECK
+12	meie	P	pl=pl|n=n	13	nmod	_
+13	poodides	S	pl=pl|in=in	15	obj	_
+14	ei	V	neg=neg	15	aux	_
+15	liigu	V	o=o	9	acl:relcl	_
+16	ning	J	_	19	cc	_
+17	mille	P	sg=sg|g=g	19	obl	_
+18	seast	K	_	17	case	_
+19	leiab	V	b=b	15	conj	_
+20	igale	P	sg=sg|all=all	21	det	_
+21	roale	S	sg=sg|all=all	19	nsubj	_
+22	ideaalse	A	sg=sg|g=g	23	amod	_
+23	partneri	S	sg=sg|g=g	19	obj	_
+24	.	Z	_	6	punct	_
+
+# sent_id = 695226
+# text = Tallinnas sai pühapäeva õhtul raskeid vigastusi peateel liikunud mootorrattur , kellele sõiduauto teed ei andnud .
+1	Tallinnas	H	sg=sg|in=in	2	nsubj	_
+2	sai	V	s=s	0	root	_
+3	pühapäeva	S	sg=sg|g=g	4	nmod	_
+4	õhtul	S	sg=sg|ad=ad	2	obl	_
+5	raskeid	A	pl=pl|p=p	9	amod	_
+6	vigastusi	S	pl=pl|p=p	8	obl	CHECK
+7	peateel	S	sg=sg|ad=ad	8	obl	_
+8	liikunud	A	pl=pl|n=n	9	acl	_
+9	mootorrattur	S	sg=sg|n=n	2	obj	_
+10	,	Z	_	15	punct	_
+11	kellele	P	pl=pl|all=all	15	nsubj	_
+12	sõiduauto	S	sg=sg|g=g	13	nmod	_
+13	teed	S	sg=sg|p=p	15	obj	_
+14	ei	V	neg=neg	15	aux	_
+15	andnud	A	sg=sg|n=n	9	acl:relcl	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 2738424
+# text = Dramatiseering liigub oma arengus selle loo lätete suunas - ammutas ju Kallas " Reigi õpetaja " kirjutamiseks andmeid ammustest kohtuprotokollidest .
+1	Dramatiseering	S	sg=sg|n=n	2	nsubj	_
+2	liigub	V	b=b	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	arengus	S	sg=sg|in=in	2	obl	_
+5	selle	P	sg=sg|g=g	6	det	_
+6	loo	S	sg=sg|g=g	2	obl	CHECK
+7	lätete	S	pl=pl|g=g	2	obl	_
+8	suunas	K	_	7	case	_
+9	-	Z	_	10	punct	_
+10	ammutas	V	s=s	2	parataxis	_
+11	ju	D	_	10	advmod	_
+12	Kallas	H	sg=sg|n=n	17	nmod	_
+13	"	Z	_	14	punct	_
+14	Reigi	H	sg=sg|n=n	15	nmod	_
+15	õpetaja	S	sg=sg|g=g	12	flat	_
+16	"	Z	_	15	punct	_
+17	kirjutamiseks	S	sg=sg|tr=tr	18	nmod	_
+18	andmeid	S	pl=pl|p=p	10	obj	_
+19	ammustest	A	pl=pl|el=el	20	amod	_
+20	kohtuprotokollidest	S	pl=pl|el=el	18	nmod	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 17405126
+# text = ha ha ha .... kui mul selline õpetaja oleks liiguks otsemat teed kuhugi lähima ajalehe poole ja koputaks veits .
+1	ha	Y	?=?	0	root	_
+2	ha	Y	?=?	1	flat	_
+3	ha	Y	?=?	1	flat	_
+4	....	Z	_	10	punct	_
+5	kui	D	_	10	mark	_
+6	mul	P	sg=sg|ad=ad	10	nsubj	_
+7	selline	P	sg=sg|n=n	8	det	_
+8	õpetaja	S	sg=sg|n=n	10	nsubj	_
+9	oleks	V	ks=ks	10	aux	_
+10	liiguks	V	ks=ks	1	advcl	_
+11	otsemat	C	sg=sg|p=p	12	amod	_
+12	teed	S	sg=sg|p=p	10	obl	CHECK
+13	kuhugi	D	_	14	advmod	_
+14	lähima	U	sg=sg|g=g	15	amod	_
+15	ajalehe	S	sg=sg|g=g	10	obl	_
+16	poole	K	_	15	case	_
+17	ja	J	_	18	cc	_
+18	koputaks	V	ks=ks	10	conj	_
+19	veits	S	sg=sg|n=n	18	obl	_
+20	.	Z	_	1	punct	_
+
+# sent_id = 1054928
+# text = Aktsiate hinnad Vene turul , liikusid suurema osa päevast ülespoole , kuid hakkasid paar tundi enne esmaspäevase kauplemisperioodi lõppu langema .
+1	Aktsiate	H	sg=sg|g=g	2	nmod	_
+2	hinnad	S	pl=pl|n=n	4	nmod	_
+3	Vene	H	sg=sg|g=g	4	nmod	_
+4	turul	S	sg=sg|ad=ad	6	obl	_
+5	,	Z	_	6	punct	_
+6	liikusid	V	sid=sid	0	root	_
+7	suurema	C	sg=sg|g=g	8	amod	_
+8	osa	S	sg=sg|g=g	9	nmod	CHECK
+9	päevast	S	sg=sg|el=el	6	obl	_
+10	ülespoole	D	_	6	advmod	_
+11	,	Z	_	13	punct	_
+12	kuid	J	_	13	cc	_
+13	hakkasid	V	sid=sid	6	conj	_
+14	paar	N	sg=sg|n=n	15	nummod	_
+15	tundi	S	sg=sg|p=p	13	obl	_
+16	enne	K	_	18	case	_
+17	esmaspäevase	A	sg=sg|g=g	18	amod	_
+18	kauplemisperioodi	S	sg=sg|g=g	19	nmod	_
+19	lõppu	S	sg=sg|p=p	20	obl	_
+20	langema	V	ma=ma	13	xcomp	_
+21	.	Z	_	6	punct	_
+
+# sent_id = 1612736
+# text = " Minu jaoks on New York üks turvalisemaid linnasid , aga ma ei liigu ka ringi agressiivselt meelestatuna , " ütles Kamille .
+1	"	Z	_	9	punct	_
+2	Minu	P	sg=sg|g=g	9	obl	_
+3	jaoks	K	_	2	case	_
+4	on	V	b=b	9	cop	_
+5	New	H	?=?	9	nsubj:cop	_
+6	York	H	sg=sg|n=n	5	flat	_
+7	üks	P	sg=sg|n=n	9	det	_
+8	turvalisemaid	C	pl=pl|p=p	9	amod	_
+9	linnasid	S	pl=pl|p=p	0	root	_
+10	,	Z	_	14	punct	_
+11	aga	J	_	14	cc	_
+12	ma	P	sg=sg|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	liigu	V	o=o	9	conj	_
+15	ka	D	_	14	advmod	_
+16	ringi	S	sg=sg|p=p	14	compound:prt	CHECK
+17	agressiivselt	D	_	14	advmod	_
+18	meelestatuna	S	sg=sg|es=es	14	obl	_
+19	,	Z	_	9	punct	_
+20	"	Z	_	9	punct	_
+21	ütles	V	s=s	9	parataxis	_
+22	Kamille	H	sg=sg|n=n	21	nsubj	_
+23	.	Z	_	9	punct	_
+
+# sent_id = 265209
+# text = Aga liikugem nüüd “ Keisri hullu ” omaaegsete “ tsensuurivalupunktide ” juurde .
+1	Aga	J	_	2	cc	_
+2	liikugem	V	gem=gem	0	root	_
+3	nüüd	D	_	2	advmod	_
+4	“	Z	_	5	punct	_
+5	Keisri	S	sg=sg|g=g	2	nsubj	_
+6	hullu	S	sg=sg|p=p	5	flat	CHECK
+7	”	Z	_	5	punct	_
+8	omaaegsete	A	pl=pl|g=g	10	amod	_
+9	“	Z	_	10	punct	_
+10	tsensuurivalupunktide	S	pl=pl|g=g	2	obl	_
+11	”	Z	_	10	punct	_
+12	juurde	K	_	10	case	_
+13	.	Z	_	2	punct	_
+

@@ -1,0 +1,521 @@
+# sent_id = 10842907
+# text = Kas loominguline erimeelsus eraellu ei kandu ?
+1	Kas	D	_	6	advmod	_
+2	loominguline	A	sg=sg|n=n	3	amod	_
+3	erimeelsus	S	sg=sg|n=n	6	obj	_
+4	eraellu	S	adt=adt	6	obj	CHECK
+5	ei	V	neg=neg	6	aux	_
+6	kandu	V	o=o	0	root	_
+7	?	Z	_	6	punct	_
+
+# sent_id = 10372790
+# text = Soosaare viimane katse kandus mullu hüpatud isikliku rekordi lähedase 7 .
+1	Soosaare	H	sg=sg|g=g	3	nmod	_
+2	viimane	A	sg=sg|n=n	3	amod	_
+3	katse	S	sg=sg|n=n	4	nsubj	_
+4	kandus	V	s=s	0	root	_
+5	mullu	D	_	6	advmod	_
+6	hüpatud	A	sg=sg|n=n	8	acl	_
+7	isikliku	A	sg=sg|g=g	8	amod	_
+8	rekordi	S	sg=sg|g=g	9	obj	_
+9	lähedase	A	sg=sg|g=g	10	amod	_
+10	7 .	O	?=?	4	obj	CHECK
+
+# sent_id = 4548326
+# text = Kahjuks polnud niisugune lahendus akustiliselt kuigi õnnestunud , sest vähemasti põranda viimastes ridades istudes valitses tunne , et koorilauljate hääled ei kandu küllalt hästi saali ( võimalik , et mujal istujale avanes teistsugune kõlapilt ) .
+1	Kahjuks	D	_	7	advmod	_
+2	polnud	V	neg=neg|nud=nud	7	aux	_
+3	niisugune	P	sg=sg|n=n	4	det	_
+4	lahendus	S	sg=sg|n=n	7	nsubj	_
+5	akustiliselt	D	_	7	advmod	_
+6	kuigi	D	_	7	advmod	_
+7	õnnestunud	A	sg=sg|n=n	0	root	_
+8	,	Z	_	15	punct	_
+9	sest	J	_	15	mark	_
+10	vähemasti	D	_	11	advmod	_
+11	põranda	S	sg=sg|g=g	13	nmod	_
+12	viimastes	A	pl=pl|in=in	13	amod	_
+13	ridades	S	pl=pl|in=in	14	obl	_
+14	istudes	V	des=des	15	advcl	_
+15	valitses	V	s=s	7	advcl	_
+16	tunne	S	sg=sg|n=n	15	nsubj	_
+17	,	Z	_	22	punct	_
+18	et	J	_	22	mark	_
+19	koorilauljate	S	pl=pl|g=g	20	nmod	_
+20	hääled	S	pl=pl|n=n	22	nsubj	_
+21	ei	V	neg=neg	22	aux	_
+22	kandu	V	o=o	16	acl	_
+23	küllalt	D	_	24	advmod	_
+24	hästi	D	_	22	advmod	_
+25	saali	S	sg=sg|p=p	22	obl	CHECK
+26	(	Z	_	27	punct	_
+27	võimalik	A	sg=sg|n=n	22	parataxis	_
+28	,	Z	_	32	punct	_
+29	et	J	_	32	mark	_
+30	mujal	D	_	31	advmod	_
+31	istujale	S	sg=sg|all=all	32	obl	_
+32	avanes	V	s=s	27	csubj:cop	_
+33	teistsugune	P	sg=sg|n=n	34	det	_
+34	kõlapilt	S	sg=sg|n=n	32	nsubj	_
+35	)	Z	_	27	punct	_
+36	.	Z	_	7	punct	_
+
+# sent_id = 3539016
+# text = Vastasseisu võitlustanner on kandunud politsei töömaile .
+1	Vastasseisu	S	sg=sg|g=g	4	obl	_
+2	võitlustanner	S	sg=sg|n=n	1	nmod	_
+3	on	V	b=b	4	aux	_
+4	kandunud	A	pl=pl|n=n	0	root	_
+5	politsei	S	sg=sg|g=g	4	nsubj	_
+6	töömaile	S	pl=pl|p=p	4	obl	CHECK
+7	.	Z	_	4	punct	_
+
+# sent_id = 999397
+# text = Tema sõnul on pokud tarnamätaste rahvapärase nimetusena kandunud juba botaanikute kõnepruukigi .
+1	Tema	P	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	8	obl	_
+3	on	V	b=b	8	aux	_
+4	pokud	S	sg=sg|n=n	5	nmod	_
+5	tarnamätaste	S	pl=pl|g=g	7	nmod	_
+6	rahvapärase	A	sg=sg|g=g	7	amod	_
+7	nimetusena	S	sg=sg|es=es	8	nsubj	_
+8	kandunud	A	sg=sg|n=n	0	root	_
+9	juba	D	_	8	advmod	_
+10	botaanikute	S	pl=pl|g=g	11	nmod	_
+11	kõnepruukigi	S	sg=sg|p=p	8	obl	CHECK
+12	.	Z	_	8	punct	_
+
+# sent_id = 6712258
+# text = Siinkohal avaldasid Valga linnavalitsuse esindajad muret selle üle , kas ajal , mil lätlased hakkavad oma jõeosa puhastama , ei kandu saaste Eesti poolele .
+1	Siinkohal	D	_	2	advmod	_
+2	avaldasid	V	sid=sid	0	root	_
+3	Valga	H	sg=sg|g=g	4	nmod	_
+4	linnavalitsuse	S	sg=sg|g=g	5	nmod	_
+5	esindajad	S	pl=pl|n=n	2	nsubj	_
+6	muret	S	sg=sg|p=p	2	obj	_
+7	selle	P	sg=sg|g=g	2	obl	_
+8	üle	K	_	7	case	_
+9	,	Z	_	21	punct	_
+10	kas	D	_	21	advmod	_
+11	ajal	S	sg=sg|ad=ad	21	obl	_
+12	,	Z	_	15	punct	_
+13	mil	D	_	15	mark	_
+14	lätlased	S	pl=pl|n=n	15	nsubj	_
+15	hakkavad	V	vad=vad	11	acl	_
+16	oma	P	sg=sg|g=g	17	nmod	_
+17	jõeosa	S	sg=sg|p=p	18	obj	_
+18	puhastama	V	ma=ma	15	xcomp	_
+19	,	Z	_	15	punct	_
+20	ei	V	neg=neg	21	aux	_
+21	kandu	V	o=o	2	conj	_
+22	saaste	S	sg=sg|g=g	21	obj	CHECK
+23	Eesti	H	sg=sg|g=g	24	nmod	_
+24	poolele	S	sg=sg|all=all	21	nsubj	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 11327880
+# text = Kastemäe sõnul on lahte sattunud masuut isoleeritud ning reostuse Stroomi randa ei kandu .
+1	Kastemäe	S	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	5	obl	_
+3	on	V	vad=vad	5	aux	_
+4	lahte	S	adt=adt	5	obl	_
+5	sattunud	V	nud=nud	0	root	_
+6	masuut	S	sg=sg|n=n	7	obj	_
+7	isoleeritud	V	tud=tud	5	csubj	_
+8	ning	J	_	13	cc	_
+9	reostuse	S	sg=sg|g=g	13	obj	CHECK
+10	Stroomi	H	sg=sg|g=g	11	nmod	_
+11	randa	S	adt=adt	13	obl	_
+12	ei	V	neg=neg	13	aux	_
+13	kandu	V	o=o	5	conj	_
+14	.	Z	_	5	punct	_
+
+# sent_id = 328313
+# text = Edasi kanduvad need klišeed  mutatis mutandis  1656. a. lauluraamatusse ( HHK III ) , so . esimesse eestikeelsesse värsslauluraamatusse , mille tõlkijad / mugandajad / värsistajad olid teatavasti  H. Göseken  ,  R. Brocmann  ,  G. Saleman  ja  M. Giläus  ; sealt võeti enamik neist üle 17. sajandi lõpul ilmunud redigeeringuisse ning edasi arvukate kordustrükkide kaudu kahe järgneva sajandi vältel võis osa neist kanduda ka eestlaste suulisse kõnepruuki .
+1	Edasi	D	_	2	advmod	_
+2	kanduvad	V	vad=vad	0	root	_
+3	need	P	pl=pl|n=n	6	det	_
+4	klišeed	S	sg=sg|p=p	5	nmod	CHECK
+5	mutatis	S	sg=sg|in=in	6	nmod	_
+6	mutandis	S	sg=sg|in=in	2	obj	_
+7	1656.	O	?=?	8	amod	_
+8	a.	Y	?=?	6	nmod	_
+9	lauluraamatusse	S	sg=sg|ill=ill	2	obj	_
+10	(	Z	_	11	punct	_
+11	HHK	Y	?=?	9	appos	_
+12	III	O	?=?	11	flat:foreign	_
+13	)	Z	_	11	punct	_
+14	,	Z	_	18	punct	_
+15	so .	Y	?=?	18	nmod	_
+16	esimesse	O	adt=adt	18	amod	_
+17	eestikeelsesse	A	sg=sg|ill=ill	18	amod	_
+18	värsslauluraamatusse	S	sg=sg|ill=ill	9	conj	_
+19	,	Z	_	25	punct	_
+20	mille	P	pl=pl|g=g	25	nsubj:cop	_
+21	tõlkijad	S	pl=pl|n=n	18	acl:relcl	_
+22	/	Z	_	23	punct	_
+23	mugandajad	S	pl=pl|n=n	21	conj	_
+24	/	Z	_	25	punct	_
+25	värsistajad	S	pl=pl|n=n	21	conj	_
+26	olid	V	sid=sid	25	cop	_
+27	teatavasti	D	_	28	advmod	_
+28	H. Göseken	H	sg=sg|n=n	25	nsubj:cop	_
+29	,	Z	_	30	punct	_
+30	R. Brocmann	H	sg=sg|n=n	28	conj	_
+31	,	Z	_	32	punct	_
+32	G. Saleman	H	sg=sg|n=n	28	conj	_
+33	ja	J	_	34	cc	_
+34	M. Giläus	H	?=?	28	conj	_
+35	;	Z	_	37	punct	_
+36	sealt	D	_	37	advmod	_
+37	võeti	V	ti=ti	2	conj	_
+38	enamik	S	sg=sg|n=n	37	nsubj	_
+39	neist	P	pl=pl|el=el	38	det	_
+40	üle	D	_	45	case	_
+41	17.	O	?=?	42	amod	_
+42	sajandi	S	sg=sg|g=g	43	nmod	_
+43	lõpul	S	sg=sg|ad=ad	44	obl	_
+44	ilmunud	A	sg=sg|n=n	45	acl	_
+45	redigeeringuisse	S	pl=pl|ill=ill	37	obj	_
+46	ning	J	_	58	cc	_
+47	edasi	D	_	48	advmod	_
+48	arvukate	A	pl=pl|g=g	49	amod	_
+49	kordustrükkide	S	pl=pl|g=g	58	obl	_
+50	kaudu	K	_	49	case	_
+51	kahe	N	sg=sg|g=g	53	nummod	_
+52	järgneva	A	sg=sg|g=g	53	acl	_
+53	sajandi	S	sg=sg|g=g	58	obl	_
+54	vältel	K	_	53	case	_
+55	võis	V	s=s	58	aux	_
+56	osa	S	sg=sg|n=n	58	obj	_
+57	neist	P	pl=pl|el=el	56	det	_
+58	kanduda	V	da=da	2	conj	_
+59	ka	D	_	62	advmod	_
+60	eestlaste	S	pl=pl|g=g	61	nmod	_
+61	suulisse	S	adt=adt	62	nmod	_
+62	kõnepruuki	S	sg=sg|p=p	58	obj	_
+63	.	Z	_	2	punct	_
+
+# sent_id = 664067
+# text = " On väheusutav , et võimalikust kriisist midagi siia kanduks , " sõnas Tarand .
+1	"	Z	_	3	punct	_
+2	On	V	b=b	3	cop	_
+3	väheusutav	A	sg=sg|n=n	0	root	_
+4	,	Z	_	10	punct	_
+5	et	J	_	10	mark	_
+6	võimalikust	A	sg=sg|el=el	7	amod	_
+7	kriisist	S	sg=sg|el=el	10	obj	_
+8	midagi	P	sg=sg|p=p	10	nsubj	CHECK
+9	siia	D	_	10	advmod	_
+10	kanduks	V	ks=ks	3	csubj:cop	_
+11	,	Z	_	3	punct	_
+12	"	Z	_	3	punct	_
+13	sõnas	V	s=s	3	parataxis	_
+14	Tarand	H	sg=sg|n=n	13	nsubj	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 312645
+# text = Ja teiseks : eesti kirjanduses sel tasemel talupojaromaani ju polnud , 1. köites kujutatud ajal polnud meie kirjandus veel omadega nii kaugel , et luua sünkroonset kunstilist üldistust omast ajast , ja vahepeal jälle kandus huvi mujale .
+1	Ja	J	_	2	cc	_
+2	teiseks	P	sg=sg|tr=tr	0	root	_
+3	:	Z	_	8	punct	_
+4	eesti	G	_	5	amod	_
+5	kirjanduses	S	sg=sg|in=in	8	nsubj:cop	_
+6	sel	P	sg=sg|ad=ad	7	det	_
+7	tasemel	S	sg=sg|ad=ad	8	nmod	_
+8	talupojaromaani	S	sg=sg|p=p	2	parataxis	_
+9	ju	D	_	8	advmod	_
+10	polnud	V	neg=neg|nud=nud	8	cop	_
+11	,	Z	_	22	punct	_
+12	1.	O	?=?	13	amod	_
+13	köites	S	pl=pl|in=in	14	obl	_
+14	kujutatud	A	sg=sg|n=n	15	acl	_
+15	ajal	S	sg=sg|ad=ad	22	obl	_
+16	polnud	V	neg=neg|nud=nud	22	cop	_
+17	meie	P	pl=pl|g=g	18	nmod	_
+18	kirjandus	S	sg=sg|n=n	22	nsubj:cop	_
+19	veel	D	_	22	advmod	_
+20	omadega	P	pl=pl|kom=kom	22	obl	_
+21	nii	D	_	22	advmod	_
+22	kaugel	D	_	8	conj	_
+23	,	Z	_	25	punct	_
+24	et	J	_	25	mark	_
+25	luua	V	da=da	22	advcl	_
+26	sünkroonset	A	sg=sg|p=p	28	amod	_
+27	kunstilist	A	sg=sg|p=p	28	amod	_
+28	üldistust	S	sg=sg|p=p	25	obj	_
+29	omast	P	sg=sg|el=el	30	nmod	_
+30	ajast	S	sg=sg|el=el	25	obl	_
+31	,	Z	_	35	punct	_
+32	ja	J	_	35	cc	_
+33	vahepeal	D	_	35	advmod	_
+34	jälle	D	_	35	advmod	_
+35	kandus	V	s=s	25	conj	_
+36	huvi	S	sg=sg|p=p	35	obj	CHECK
+37	mujale	D	_	35	advmod	_
+38	.	Z	_	2	punct	_
+
+# sent_id = 383793
+# text = Pärast juutide lahkumist Hispaaniast ja Portugalist kandus rikkalik luulepärand religioossete hümnide ja rahvalike laulude näol esmalt Türgi impeeriumi , kus see segunes kohalike muusikaliste traditsioonidega .
+1	Pärast	K	_	3	case	_
+2	juutide	S	pl=pl|g=g	3	nmod	_
+3	lahkumist	S	sg=sg|p=p	7	obl	_
+4	Hispaaniast	H	sg=sg|el=el	7	nsubj	_
+5	ja	J	_	6	cc	_
+6	Portugalist	H	sg=sg|el=el	4	conj	_
+7	kandus	V	s=s	0	root	_
+8	rikkalik	A	sg=sg|n=n	9	amod	_
+9	luulepärand	S	sg=sg|n=n	7	obj	_
+10	religioossete	A	pl=pl|g=g	11	amod	_
+11	hümnide	S	pl=pl|g=g	7	obj	_
+12	ja	J	_	14	cc	_
+13	rahvalike	A	pl=pl|g=g	14	amod	_
+14	laulude	S	pl=pl|g=g	11	conj	_
+15	näol	K	_	14	case	_
+16	esmalt	D	_	7	advmod	_
+17	Türgi	H	sg=sg|g=g	18	nmod	_
+18	impeeriumi	S	sg=sg|g=g	7	obj	CHECK
+19	,	Z	_	22	punct	_
+20	kus	D	_	22	mark	_
+21	see	P	sg=sg|n=n	22	nsubj	_
+22	segunes	V	s=s	18	acl	_
+23	kohalike	A	pl=pl|g=g	25	amod	_
+24	muusikaliste	A	pl=pl|g=g	25	amod	_
+25	traditsioonidega	S	pl=pl|kom=kom	22	obj	_
+26	.	Z	_	7	punct	_
+
+# sent_id = 582795
+# text = Enamik hulgimüüjaid ootab turu elavnemist , sest finantssektoris on positiivsed muudatused - laenuintresside alanemine , omafinantseerimise taseme langus ja laenusaamise lihtsustumine - juba toimunud ja analüütikute hinnangul kanduvad tavaliselt finantssektori muudatused kaubandusse üle poole aasta kuni aastaga .
+1	Enamik	S	sg=sg|n=n	2	nmod	_
+2	hulgimüüjaid	S	pl=pl|p=p	3	nsubj	_
+3	ootab	V	b=b	0	root	_
+4	turu	S	sg=sg|g=g	5	nmod	_
+5	elavnemist	S	sg=sg|p=p	3	obj	_
+6	,	Z	_	8	punct	_
+7	sest	J	_	8	mark	_
+8	finantssektoris	S	sg=sg|in=in	3	advcl	_
+9	on	V	b=b	8	cop	_
+10	positiivsed	A	pl=pl|n=n	11	amod	_
+11	muudatused	S	pl=pl|n=n	8	nsubj:cop	_
+12	-	Z	_	14	punct	_
+13	laenuintresside	S	pl=pl|g=g	14	nmod	_
+14	alanemine	S	sg=sg|n=n	11	appos	_
+15	,	Z	_	18	punct	_
+16	omafinantseerimise	S	sg=sg|g=g	17	nmod	_
+17	taseme	S	sg=sg|g=g	18	nmod	_
+18	langus	S	sg=sg|n=n	14	conj	_
+19	ja	J	_	20	cc	_
+20	laenusaamise	S	sg=sg|g=g	21	nmod	_
+21	lihtsustumine	S	sg=sg|n=n	14	conj	_
+22	-	Z	_	14	punct	_
+23	juba	D	_	24	advmod	_
+24	toimunud	A	_	27	acl	_
+25	ja	J	_	28	cc	_
+26	analüütikute	S	pl=pl|g=g	27	nmod	_
+27	hinnangul	S	sg=sg|ad=ad	28	nsubj	_
+28	kanduvad	V	vad=vad	3	conj	_
+29	tavaliselt	D	_	28	advmod	_
+30	finantssektori	S	sg=sg|g=g	31	nmod	_
+31	muudatused	S	pl=pl|n=n	28	obj	CHECK
+32	kaubandusse	S	adt=adt	28	nsubj	_
+33	üle	D	_	35	case	_
+34	poole	N	sg=sg|g=g	35	nummod	_
+35	aasta	S	sg=sg|g=g	28	obl	_
+36	kuni	K	_	37	case	_
+37	aastaga	S	sg=sg|kom=kom	35	nmod	_
+38	.	Z	_	3	punct	_
+
+# sent_id = 3586914
+# text = Edasi kandus see huvi erinevatele rahvamuusikatele .
+1	Edasi	D	_	2	advmod	_
+2	kandus	V	s=s	0	root	_
+3	see	P	sg=sg|n=n	4	det	_
+4	huvi	S	sg=sg|n=n	2	obj	CHECK
+5	erinevatele	A	pl=pl|all=all	6	acl	_
+6	rahvamuusikatele	S	pl=pl|all=all	2	obj	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 2941015
+# text = Köögivilju ja piimatooteid tarbitakse liiga vähe , " rääkis Maser ning avaldas lootust , et noorte tervisliku toitumise osas omandatud teadmised kanduvad üle kogu pere toiduvalikusse .
+1	Köögivilju	S	pl=pl|p=p	4	nsubj	_
+2	ja	J	_	3	cc	_
+3	piimatooteid	S	pl=pl|p=p	1	conj	_
+4	tarbitakse	V	takse=takse	0	root	_
+5	liiga	D	_	6	advmod	_
+6	vähe	D	_	4	advmod	_
+7	,	Z	_	4	punct	_
+8	"	Z	_	4	punct	_
+9	rääkis	V	s=s	4	parataxis	_
+10	Maser	H	sg=sg|n=n	9	nsubj	_
+11	ning	J	_	12	cc	_
+12	avaldas	V	s=s	9	conj	_
+13	lootust	S	sg=sg|p=p	12	obj	_
+14	,	Z	_	22	punct	_
+15	et	J	_	22	mark	_
+16	noorte	A	pl=pl|g=g	18	amod	_
+17	tervisliku	A	sg=sg|g=g	18	amod	_
+18	toitumise	S	sg=sg|g=g	20	obl	_
+19	osas	K	_	18	case	_
+20	omandatud	A	pl=pl|n=n	21	acl	_
+21	teadmised	S	pl=pl|n=n	22	nsubj	_
+22	kanduvad	V	vad=vad	13	acl	_
+23	üle	K	_	26	case	_
+24	kogu	A	_	25	det	_
+25	pere	S	sg=sg|g=g	22	nsubj	CHECK
+26	toiduvalikusse	S	sg=sg|ill=ill	22	obl	_
+27	.	Z	_	4	punct	_
+
+# sent_id = 85201
+# text = Diskuteerijate teine osa kinnitas aga kirglikult , et just presidendi tekstid oma ideekindluse ja nauditava kujundlikkusega tõusevad kindlalt üle praeguste päriskirjanike postmodernismis püherdavast produktsioonist ja et just Meri sütitav sõna on mõjuvamalt kui miski muu kandunud suure maailma teadvusse , pannes end kuulama , lugema ja tsiteerima kaugelt enam kui ükski teine meie kirjutaja kunagi varem .
+1	Diskuteerijate	S	pl=pl|g=g	3	nmod	_
+2	teine	P	sg=sg|n=n	3	amod	_
+3	osa	S	sg=sg|n=n	4	nsubj	_
+4	kinnitas	V	s=s	0	root	_
+5	aga	J	_	4	advmod	_
+6	kirglikult	D	_	4	advmod	_
+7	,	Z	_	17	punct	_
+8	et	J	_	17	mark	_
+9	just	D	_	10	advmod	_
+10	presidendi	S	sg=sg|g=g	11	nmod	_
+11	tekstid	S	pl=pl|n=n	17	nsubj	_
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	ideekindluse	S	sg=sg|g=g	11	nmod	_
+14	ja	J	_	16	cc	_
+15	nauditava	A	sg=sg|g=g	16	acl	_
+16	kujundlikkusega	S	sg=sg|kom=kom	11	conj	_
+17	tõusevad	V	vad=vad	4	ccomp	_
+18	kindlalt	D	_	17	advmod	_
+19	üle	D	_	24	case	_
+20	praeguste	A	pl=pl|g=g	21	amod	_
+21	päriskirjanike	S	pl=pl|g=g	22	nmod	_
+22	postmodernismis	S	sg=sg|in=in	23	obj	_
+23	püherdavast	A	sg=sg|el=el	24	acl	_
+24	produktsioonist	S	sg=sg|el=el	17	obl	_
+25	ja	J	_	36	cc	_
+26	et	J	_	36	mark	_
+27	just	I	_	28	advmod	_
+28	Meri	H	sg=sg|g=g	29	obl	_
+29	sütitav	A	sg=sg|n=n	30	acl	_
+30	sõna	S	sg=sg|n=n	36	nsubj	_
+31	on	V	b=b	36	aux	_
+32	mõjuvamalt	D	_	36	advmod	_
+33	kui	D	_	36	mark	_
+34	miski	P	sg=sg|n=n	35	det	_
+35	muu	P	sg=sg|g=g	36	nsubj	CHECK
+36	kandunud	A	sg=sg|n=n	4	conj	_
+37	suure	A	sg=sg|g=g	38	amod	_
+38	maailma	S	sg=sg|g=g	39	nmod	_
+39	teadvusse	S	adt=adt	36	obl	_
+40	,	Z	_	41	punct	_
+41	pannes	V	des=des	4	conj	_
+42	end	P	sg=sg|p=p	41	obj	_
+43	kuulama	V	ma=ma	41	obl	_
+44	,	Z	_	45	punct	_
+45	lugema	V	ma=ma	4	conj	_
+46	ja	J	_	47	cc	_
+47	tsiteerima	V	ma=ma	4	conj	_
+48	kaugelt	D	_	49	advmod	_
+49	enam	D	_	47	advmod	_
+50	kui	D	_	49	fixed	_
+51	ükski	N	sg=sg|n=n	52	det	_
+52	teine	O	sg=sg|n=n	49	advcl	_
+53	meie	P	pl=pl|g=g	54	nmod	_
+54	kirjutaja	S	sg=sg|n=n	47	advcl	_
+55	kunagi	D	_	56	advmod	_
+56	varem	D	_	47	advmod	_
+57	.	Z	_	4	punct	_
+
+# sent_id = 2846207
+# text = Küllaltki sageli kanduvad lõuna- või edelavoolus madalrõhkkonnad Eesti lähiümbrusse .
+1	Küllaltki	D	_	2	advmod	_
+2	sageli	D	_	3	advmod	_
+3	kanduvad	V	vad=vad	0	root	_
+4	lõuna-	S	sg=sg|g=g	7	nmod	_
+5	või	J	_	6	cc	_
+6	edelavoolus	S	sg=sg|in=in	4	conj	_
+7	madalrõhkkonnad	S	pl=pl|n=n	3	nsubj	_
+8	Eesti	H	sg=sg|g=g	9	nmod	_
+9	lähiümbrusse	S	adt=adt	3	obl	CHECK
+10	.	Z	_	3	punct	_
+
+# sent_id = 9611938
+# text = Uued regionaalsed jõuväljad kanduksid Rootsi ja Soome .
+1	Uued	A	pl=pl|n=n	3	amod	_
+2	regionaalsed	A	pl=pl|n=n	3	amod	_
+3	jõuväljad	S	pl=pl|n=n	4	obj	_
+4	kanduksid	V	ksid=ksid	0	root	_
+5	Rootsi	H	sg=sg|g=g	4	nsubj	CHECK
+6	ja	J	_	7	cc	_
+7	Soome	H	sg=sg|g=g	5	conj	_
+8	.	Z	_	4	punct	_
+
+# sent_id = 5965693
+# text = Rahvusvahelised organisatsioonid teevad Venemaal juba aastaid selgitustööd , et HI-viirus ei kandu endasi mingil muul viisil kui sugulisel teel või vere kaudu , kuid viirusekandjatesse suhtutakse endiselt kui paariatesse .
+1	Rahvusvahelised	A	pl=pl|n=n	2	amod	_
+2	organisatsioonid	S	pl=pl|n=n	3	obj	_
+3	teevad	V	vad=vad	0	root	_
+4	Venemaal	H	sg=sg|ad=ad	3	nsubj	_
+5	juba	D	_	6	advmod	_
+6	aastaid	S	pl=pl|p=p	3	obl	_
+7	selgitustööd	S	pl=pl|n=n	3	obj	_
+8	,	Z	_	12	punct	_
+9	et	J	_	12	mark	_
+10	HI-viirus	S	sg=sg|n=n	12	obj	_
+11	ei	V	neg=neg	12	aux	_
+12	kandu	V	o=o	7	acl	_
+13	endasi	S	pl=pl|p=p	12	obl	CHECK
+14	mingil	P	sg=sg|ad=ad	16	det	_
+15	muul	P	sg=sg|ad=ad	16	amod	_
+16	viisil	S	sg=sg|ad=ad	12	obl	_
+17	kui	J	_	19	mark	_
+18	sugulisel	A	sg=sg|ad=ad	19	amod	_
+19	teel	S	sg=sg|ad=ad	16	advcl	_
+20	või	J	_	21	cc	_
+21	vere	S	sg=sg|g=g	19	conj	_
+22	kaudu	K	_	19	case	_
+23	,	Z	_	26	punct	_
+24	kuid	J	_	26	cc	_
+25	viirusekandjatesse	S	pl=pl|ill=ill	26	nsubj	_
+26	suhtutakse	V	takse=takse	12	conj	_
+27	endiselt	D	_	26	advmod	_
+28	kui	D	_	29	mark	_
+29	paariatesse	S	pl=pl|ill=ill	27	advcl	_
+30	.	Z	_	3	punct	_
+
+# sent_id = 9308988
+# text = Kodu on mul metsa ääres , sinna ei kandu linna müra , akna alt kostab linnulaul .
+1	Kodu	S	sg=sg|n=n	3	nsubj:cop	_
+2	on	V	vad=vad	3	cop	_
+3	mul	P	sg=sg|ad=ad	0	root	_
+4	metsa	S	sg=sg|g=g	3	nmod	_
+5	ääres	K	_	4	case	_
+6	,	Z	_	9	punct	_
+7	sinna	D	_	9	advmod	_
+8	ei	V	neg=neg	9	aux	_
+9	kandu	V	o=o	3	conj	_
+10	linna	S	sg=sg|g=g	9	obj	_
+11	müra	S	sg=sg|g=g	9	nsubj	CHECK
+12	,	Z	_	15	punct	_
+13	akna	S	sg=sg|g=g	15	obl	_
+14	alt	K	_	13	case	_
+15	kostab	V	b=b	3	conj	_
+16	linnulaul	S	sg=sg|n=n	15	nsubj	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 13814588
+# text = " Kandugu ka siit kalmistult rahu ja leppimise sõnum , " lausus ta .
+1	"	Z	_	2	punct	_
+2	Kandugu	V	gu=gu	0	root	_
+3	ka	D	_	2	advmod	_
+4	siit	D	_	2	advmod	_
+5	kalmistult	S	sg=sg|abl=abl	2	obj	_
+6	rahu	S	sg=sg|g=g	9	nmod	_
+7	ja	J	_	8	cc	_
+8	leppimise	S	sg=sg|g=g	6	conj	_
+9	sõnum	S	sg=sg|n=n	2	obj	CHECK
+10	,	Z	_	2	punct	_
+11	"	Z	_	2	punct	_
+12	lausus	V	s=s	2	parataxis	_
+13	ta	P	sg=sg|n=n	12	nsubj	_
+14	.	Z	_	2	punct	_
+

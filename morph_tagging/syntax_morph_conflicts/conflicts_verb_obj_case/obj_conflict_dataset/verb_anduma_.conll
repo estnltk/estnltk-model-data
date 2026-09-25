@@ -1,0 +1,315 @@
+# sent_id = 20770230
+# text = tiigriplika15: kus sa andu elutsed
+1	tiigriplika15	Y	?=?	0	root	_
+2	:	Z	_	5	punct	_
+3	kus	D	_	5	mark	_
+4	sa	P	sg=sg|n=n	5	nsubj	_
+5	andu	V	o=o	1	parataxis	_
+6	elutsed	V	d=d	5	obj	CHECK
+
+# sent_id = 1964220
+# text = Andu Heinsoo 559 , 66.
+1	Andu	V	o=o	0	root	_
+2	Heinsoo	S	sg=sg|n=n	1	obj	CHECK
+3	559 , 66	N	?=?	1	obl	_
+4	.	Z	_	1	punct	_
+
+# sent_id = 8636960
+# text = ANDU KANGUR
+1	ANDU	V	o=o	0	root	_
+2	KANGUR	S	sg=sg|n=n	1	obj	CHECK
+
+# sent_id = 17800659
+# text = Stalinistlik arhitektuur Koplis on väga võimas , andu käigu kuradile .
+1	Stalinistlik	A	sg=sg|n=n	2	amod	_
+2	arhitektuur	S	sg=sg|n=n	6	nsubj:cop	_
+3	Koplis	H	sg=sg|in=in	2	nmod	_
+4	on	V	vad=vad	6	cop	_
+5	väga	D	_	6	advmod	_
+6	võimas	A	sg=sg|n=n	0	root	_
+7	,	Z	_	8	punct	_
+8	andu	V	o=o	6	conj	_
+9	käigu	S	sg=sg|g=g	8	obj	CHECK
+10	kuradile	S	sg=sg|all=all	8	advmod	_
+11	.	Z	_	6	punct	_
+
+# sent_id = 9957671
+# text = Andu Tõrva 68
+1	Andu	V	o=o	0	root	_
+2	Tõrva	S	adt=adt	1	obj	CHECK
+3	68	N	?=?	1	nummod	_
+
+# sent_id = 679944
+# text = Suusatamise MK-sarja Lahti etapil tuli Kristina Shmigun 10 km klassikas kaheksandaks ja Andus Veerpalu 15 km klassikas üheksandaks .
+1	Suusatamise	S	sg=sg|g=g	5	obl	_
+2	MK-sarja	S	sg=sg|g=g	4	nmod	_
+3	Lahti	D	_	4	case	_
+4	etapil	S	sg=sg|ad=ad	1	nmod	_
+5	tuli	V	s=s	0	root	_
+6	Kristina	H	sg=sg|g=g	5	nsubj	_
+7	Shmigun	H	sg=sg|n=n	6	flat	_
+8	10	N	?=?	9	nummod	_
+9	km	Y	?=?	10	nmod	_
+10	klassikas	S	sg=sg|in=in	5	obl	_
+11	kaheksandaks	D	_	5	advmod	_
+12	ja	J	_	13	cc	_
+13	Andus	V	s=s	5	conj	_
+14	Veerpalu	S	sg=sg|g=g	13	obj	CHECK
+15	15	N	?=?	16	nummod	_
+16	km	Y	?=?	17	nmod	_
+17	klassikas	S	sg=sg|in=in	13	obj	_
+18	üheksandaks	D	_	13	advmod	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 3626828
+# text = Antonio Carlos Jobimi traditsiooni andunud austaja ja tolleaegse Brasiilia muusika täieõiguslik kasvandik ja edasikandja - helilooja , kitarrist ja laulja Joyce naudib juba 40 aastat silmanähtavalt seda , mida teeb .
+1	Antonio	H	sg=sg|n=n	4	nmod	_
+2	Carlos	H	sg=sg|in=in	1	flat	_
+3	Jobimi	H	sg=sg|g=g	1	flat	_
+4	traditsiooni	S	sg=sg|g=g	5	obl	CHECK
+5	andunud	V	nud=nud	6	acl	_
+6	austaja	S	sg=sg|g=g	12	nmod	_
+7	ja	J	_	12	cc	_
+8	tolleaegse	A	sg=sg|g=g	10	amod	_
+9	Brasiilia	H	sg=sg|g=g	10	nmod	_
+10	muusika	S	sg=sg|g=g	12	nmod	_
+11	täieõiguslik	A	sg=sg|n=n	12	amod	_
+12	kasvandik	S	sg=sg|n=n	22	nsubj	_
+13	ja	J	_	14	cc	_
+14	edasikandja	S	sg=sg|n=n	12	conj	_
+15	-	Z	_	16	punct	_
+16	helilooja	S	sg=sg|n=n	12	appos	_
+17	,	Z	_	18	punct	_
+18	kitarrist	S	sg=sg|n=n	16	conj	_
+19	ja	J	_	20	cc	_
+20	laulja	S	sg=sg|n=n	16	conj	_
+21	Joyce	H	sg=sg|n=n	20	appos	_
+22	naudib	V	b=b	0	root	_
+23	juba	D	_	24	advmod	_
+24	40	N	?=?	25	nummod	_
+25	aastat	S	sg=sg|p=p	22	obl	_
+26	silmanähtavalt	D	_	22	advmod	_
+27	seda	P	sg=sg|p=p	22	nsubj	_
+28	,	Z	_	30	punct	_
+29	mida	P	pl=pl|p=p	30	nsubj	_
+30	teeb	V	b=b	27	acl:relcl	_
+31	.	Z	_	22	punct	_
+
+# sent_id = 1072895
+# text = Florida Seadusandlik kogu on andud 25 osariigi valijamehe hääled George W. Bushile .
+1	Florida	H	sg=sg|g=g	3	nmod	_
+2	Seadusandlik	A	sg=sg|n=n	3	amod	_
+3	kogu	S	sg=sg|n=n	5	obj	_
+4	on	V	vad=vad	5	aux	_
+5	andud	V	d=d	0	root	_
+6	25	N	?=?	7	nummod	_
+7	osariigi	S	sg=sg|g=g	8	nmod	_
+8	valijamehe	S	sg=sg|g=g	9	nmod	_
+9	hääled	S	pl=pl|n=n	5	obj	CHECK
+10	George	H	pl=pl|p=p	9	appos	_
+11	W. Bushile	H	sg=sg|all=all	10	flat	_
+12	.	Z	_	5	punct	_
+
+# sent_id = 10980074
+# text = Ma pole ELi fänn ega andunud vastane , ehk seepärast paistab nii ühe kui ka teise poole , s.t. nii jah kui ka ei propageerijate tulisus ja kompromissitus pisut lapsikuna , kui mitte pimeda fanatismina .
+1	Ma	P	sg=sg|n=n	4	nsubj:cop	_
+2	pole	V	neg=neg|o=o	4	cop	_
+3	ELi	Y	sg=sg|g=g	4	nmod	_
+4	fänn	S	sg=sg|n=n	0	root	_
+5	ega	J	_	6	cc	_
+6	andunud	A	sg=sg|n=n	4	conj	_
+7	vastane	S	sg=sg|n=n	6	obl	CHECK
+8	,	Z	_	11	punct	_
+9	ehk	J	_	11	cc	_
+10	seepärast	D	_	11	advmod	_
+11	paistab	V	b=b	4	conj	_
+12	nii	D	_	13	cc:preconj	_
+13	ühe	N	sg=sg|g=g	11	nsubj	_
+14	kui	D	_	16	cc	_
+15	ka	D	_	16	advmod	_
+16	teise	O	sg=sg|g=g	13	conj	_
+17	poole	K	_	13	case	_
+18	,	Z	_	25	punct	_
+19	s.t.	Y	?=?	25	nsubj	_
+20	nii	D	_	21	cc:preconj	_
+21	jah	D	_	25	advmod	_
+22	kui	J	_	25	mark	_
+23	ka	D	_	25	advmod	_
+24	ei	V	neg=neg	25	aux	_
+25	propageerijate	S	pl=pl|g=g	11	advcl	_
+26	tulisus	S	sg=sg|n=n	25	obj	_
+27	ja	J	_	28	cc	_
+28	kompromissitus	S	sg=sg|n=n	26	conj	_
+29	pisut	D	_	30	advmod	_
+30	lapsikuna	A	sg=sg|es=es	25	xcomp	_
+31	,	Z	_	35	punct	_
+32	kui	D	_	35	mark	_
+33	mitte	D	_	34	advmod	_
+34	pimeda	A	sg=sg|g=g	35	amod	_
+35	fanatismina	S	sg=sg|es=es	30	advcl	_
+36	.	Z	_	4	punct	_
+
+# sent_id = 68944
+# text = Publiku seas paistsid silma kaks piigat , kes andusid muusikale palja ülakehaga .
+1	Publiku	S	sg=sg|g=g	3	obl	_
+2	seas	K	_	1	case	_
+3	paistsid	V	sid=sid	0	root	_
+4	silma	S	adt=adt	3	nsubj	_
+5	kaks	N	sg=sg|n=n	6	nummod	_
+6	piigat	S	sg=sg|p=p	3	nsubj	_
+7	,	Z	_	9	punct	_
+8	kes	P	sg=sg|n=n	9	nsubj	_
+9	andusid	V	sid=sid	6	acl:relcl	_
+10	muusikale	S	pl=pl|p=p	9	obl	CHECK
+11	palja	A	sg=sg|g=g	12	amod	_
+12	ülakehaga	S	sg=sg|kom=kom	9	obj	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 275376
+# text = Nimetatud juhtudel polnud arstide konkreetsed teod üldsegi seotud nende protseduuridega , millele patsient oma nõusoleku oli andnud : patsient polnud andud oma nõusolekut konkreetse protseduuri raames mingiks üldistlaadi operatsiooniks .
+1	Nimetatud	A	sg=sg|n=n	2	acl	_
+2	juhtudel	S	pl=pl|ad=ad	8	obl	_
+3	polnud	V	neg=neg|nud=nud	8	aux	_
+4	arstide	S	pl=pl|g=g	6	nmod	_
+5	konkreetsed	A	pl=pl|n=n	6	amod	_
+6	teod	S	pl=pl|n=n	8	obj	_
+7	üldsegi	D	_	8	advmod	_
+8	seotud	A	sg=sg|n=n	0	root	_
+9	nende	P	pl=pl|g=g	10	det	_
+10	protseduuridega	S	pl=pl|kom=kom	8	obj	_
+11	,	Z	_	17	punct	_
+12	millele	P	sg=sg|all=all	17	nsubj	_
+13	patsient	S	sg=sg|n=n	17	nsubj	_
+14	oma	P	sg=sg|g=g	15	nmod	_
+15	nõusoleku	S	sg=sg|g=g	17	obj	_
+16	oli	V	s=s	17	aux	_
+17	andnud	V	nud=nud	10	acl:relcl	_
+18	:	Z	_	21	punct	_
+19	patsient	S	sg=sg|n=n	21	obj	_
+20	polnud	V	neg=neg|nud=nud	21	aux	_
+21	andud	V	d=d	17	parataxis	_
+22	oma	P	sg=sg|g=g	23	nmod	_
+23	nõusolekut	S	sg=sg|p=p	21	obj	CHECK
+24	konkreetse	A	sg=sg|g=g	25	amod	_
+25	protseduuri	S	sg=sg|g=g	21	obl	_
+26	raames	K	_	25	case	_
+27	mingiks	P	sg=sg|tr=tr	29	det	_
+28	üldistlaadi	S	sg=sg|g=g	29	nmod	_
+29	operatsiooniks	S	sg=sg|tr=tr	21	obl	_
+30	.	Z	_	8	punct	_
+
+# sent_id = 5817564
+# text = Ei kujuta teid ette mõne primitiivse seriaali andunud vaatajana .
+1	Ei	V	neg=neg	2	aux	_
+2	kujuta	V	o=o	0	root	_
+3	teid	S	pl=pl|p=p	2	obj	_
+4	ette	D	_	2	compound:prt	_
+5	mõne	P	sg=sg|g=g	9	det	_
+6	primitiivse	A	sg=sg|g=g	7	amod	_
+7	seriaali	S	sg=sg|g=g	8	obl	CHECK
+8	andunud	V	nud=nud	9	acl	_
+9	vaatajana	S	sg=sg|es=es	2	nsubj	_
+10	.	Z	_	2	punct	_
+
+# sent_id = 207856
+# text = Kokkuvõtvalt isiksuseomaduste ja juhtimisstiilide teooriad on andud olulise panuse juhtimisteaduse arengusse .
+1	Kokkuvõtvalt	D	_	7	advmod	_
+2	isiksuseomaduste	S	pl=pl|g=g	7	obl	_
+3	ja	J	_	4	cc	_
+4	juhtimisstiilide	S	pl=pl|g=g	2	conj	_
+5	teooriad	S	pl=pl|n=n	2	conj	_
+6	on	V	b=b	7	aux	_
+7	andud	V	d=d	0	root	_
+8	olulise	A	sg=sg|g=g	9	amod	_
+9	panuse	S	sg=sg|g=g	7	obj	CHECK
+10	juhtimisteaduse	S	sg=sg|g=g	11	nmod	_
+11	arengusse	S	sg=sg|ill=ill	9	nmod	_
+12	.	Z	_	7	punct	_
+
+# sent_id = 5972528
+# text = Teisisõnu : alati ei tea lepingule allkirja andunud töötaja oma tunnipalga või päevaraha suurust .
+1	Teisisõnu	D	_	5	advmod	_
+2	:	Z	_	5	punct	_
+3	alati	D	_	5	advmod	_
+4	ei	V	neg=neg	5	aux	_
+5	tea	V	o=o	0	root	_
+6	lepingule	S	sg=sg|all=all	7	nmod	_
+7	allkirja	S	sg=sg|p=p	8	obj	CHECK
+8	andunud	A	sg=sg|n=n	9	acl	_
+9	töötaja	S	sg=sg|n=n	5	nsubj	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	tunnipalga	S	sg=sg|g=g	5	obj	_
+12	või	J	_	14	cc	_
+13	päevaraha	S	sg=sg|g=g	14	nmod	_
+14	suurust	S	sg=sg|p=p	11	conj	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 2355357
+# text = Aastakümneid olid eestlased sama andunud harrastussuusatajad ja tugitoolisportlased nagu soomlased-rootslased .
+1	Aastakümneid	S	pl=pl|p=p	5	obl	_
+2	olid	V	sid=sid	5	aux	_
+3	eestlased	S	pl=pl|n=n	5	nsubj	_
+4	sama	P	sg=sg|n=n	5	advmod	_
+5	andunud	A	pl=pl|n=n	0	root	_
+6	harrastussuusatajad	S	pl=pl|n=n	5	obl	CHECK
+7	ja	J	_	8	cc	_
+8	tugitoolisportlased	S	pl=pl|n=n	6	conj	_
+9	nagu	J	_	10	mark	_
+10	soomlased-rootslased	S	pl=pl|n=n	8	advcl	_
+11	.	Z	_	5	punct	_
+
+# sent_id = 14681121
+# text = Täpsem info andu@ psych.ut.ee või murakas@ut.ee
+1	Täpsem	C	sg=sg|n=n	2	amod	_
+2	info	S	sg=sg|n=n	3	obj	_
+3	andu	V	o=o	0	root	_
+4	@	Y	?=?	3	nsubj	CHECK
+5	psych.ut.ee	H	?=?	4	flat	_
+6	või	J	_	7	cc	_
+7	murakas@ut.ee	H	?=?	4	conj	_
+
+# sent_id = 19275996
+# text = andu: sind
+1	andu	V	o=o	0	root	_
+2	:	Z	_	1	punct	_
+3	sind	P	sg=sg|p=p	1	parataxis	CHECK
+
+# sent_id = 9678283
+# text = ANDU KANGUR
+1	ANDU	V	o=o	0	root	_
+2	KANGUR	S	sg=sg|n=n	1	obj	CHECK
+
+# sent_id = 8783697
+# text = Kui Kivi oleks Karusoole hundipassi andud , oleks ta loonud halva pretsedendi .
+1	Kui	D	_	6	mark	_
+2	Kivi	H	sg=sg|n=n	6	obj	_
+3	oleks	V	ks=ks	6	aux	_
+4	Karusoole	H	sg=sg|g=g	6	obl	_
+5	hundipassi	S	adt=adt	6	obl	CHECK
+6	andud	V	d=d	10	advcl	_
+7	,	Z	_	6	punct	_
+8	oleks	V	ks=ks	10	aux	_
+9	ta	P	sg=sg|n=n	10	nsubj	_
+10	loonud	A	pl=pl|n=n	0	root	_
+11	halva	A	sg=sg|g=g	12	amod	_
+12	pretsedendi	S	sg=sg|g=g	10	obj	_
+13	.	Z	_	10	punct	_
+
+# sent_id = 471219
+# text = Kollapsi tulemusena ei saanud mängijad palka , sest valitsus ei andunud klubile lubatud raha .
+1	Kollapsi	S	sg=sg|g=g	2	nmod	_
+2	tulemusena	S	sg=sg|es=es	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	saanud	A	sg=sg|n=n	0	root	_
+5	mängijad	S	pl=pl|n=n	4	nsubj	_
+6	palka	S	sg=sg|p=p	4	obj	_
+7	,	Z	_	11	punct	_
+8	sest	J	_	11	mark	_
+9	valitsus	S	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	andunud	A	pl=pl|n=n	4	advcl	_
+12	klubile	S	sg=sg|all=all	13	obl	_
+13	lubatud	A	pl=pl|n=n	14	acl	_
+14	raha	S	sg=sg|p=p	11	obj	CHECK
+15	.	Z	_	4	punct	_
+

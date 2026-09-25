@@ -1,0 +1,557 @@
+# sent_id = 662133
+# text = " Kui mina oleksin haigusest paranenud , seisaksin ma raamatupidaja kõrval jalad harkis ja vaataks , kuidas ta minu pabereid täidab ning ümbrikusse paneb , " kinnitas Põiklik .
+1	"	Z	_	8	punct	_
+2	Kui	J	_	6	mark	_
+3	mina	S	sg=sg|n=n	6	nsubj	_
+4	oleksin	V	ksin=ksin	6	aux	_
+5	haigusest	S	sg=sg|el=el	6	obl	_
+6	paranenud	A	sg=sg|n=n	8	advcl	_
+7	,	Z	_	6	punct	_
+8	seisaksin	V	ksin=ksin	0	root	_
+9	ma	P	sg=sg|n=n	8	nsubj	_
+10	raamatupidaja	S	sg=sg|g=g	8	obl	_
+11	kõrval	K	_	10	case	_
+12	jalad	S	pl=pl|n=n	8	obl	CHECK
+13	harkis	D	_	8	compound:prt	_
+14	ja	J	_	15	cc	_
+15	vaataks	V	ks=ks	8	conj	_
+16	,	Z	_	21	punct	_
+17	kuidas	D	_	21	mark	_
+18	ta	P	sg=sg|n=n	21	nsubj	_
+19	minu	P	sg=sg|g=g	21	obj	_
+20	pabereid	S	pl=pl|p=p	21	obj	_
+21	täidab	V	b=b	15	ccomp	_
+22	ning	J	_	24	cc	_
+23	ümbrikusse	S	sg=sg|ill=ill	24	obj	_
+24	paneb	V	b=b	21	conj	_
+25	,	Z	_	8	punct	_
+26	"	Z	_	8	punct	_
+27	kinnitas	V	s=s	8	parataxis	_
+28	Põiklik	H	sg=sg|n=n	27	nsubj	_
+29	.	Z	_	8	punct	_
+
+# sent_id = 7896789
+# text = Ta jõuab pilgu sinna suunata , näeb Hildat tardunult seisvat , tegemas dramaatilist pausi , mida isegi Marlene Dietrich poleks mõjuvamalt esitada suutnud .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	jõuab	V	b=b	0	root	_
+3	pilgu	S	sg=sg|g=g	5	obj	_
+4	sinna	D	_	5	advmod	_
+5	suunata	V	da=da	2	advcl	_
+6	,	Z	_	7	punct	_
+7	näeb	V	b=b	2	conj	_
+8	Hildat	H	sg=sg|p=p	7	nsubj	CHECK
+9	tardunult	D	_	10	advmod	_
+10	seisvat	V	vat=vat	7	advcl	_
+11	,	Z	_	12	punct	_
+12	tegemas	V	mas=mas	2	conj	_
+13	dramaatilist	A	sg=sg|p=p	14	amod	_
+14	pausi	S	sg=sg|p=p	12	obj	_
+15	,	Z	_	23	punct	_
+16	mida	P	sg=sg|p=p	23	nsubj	_
+17	isegi	D	_	18	advmod	_
+18	Marlene	H	sg=sg|n=n	23	nsubj	_
+19	Dietrich	H	sg=sg|n=n	18	flat	_
+20	poleks	V	neg=neg|ks=ks	23	aux	_
+21	mõjuvamalt	D	_	23	advmod	_
+22	esitada	V	da=da	23	xcomp	_
+23	suutnud	A	pl=pl|n=n	14	acl:relcl	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 197755
+# text = Ent sel juhul seisab teine liiane tsentraalne komponent jõude , rakendudes tööle vaid põhiseadme rikke korral .
+1	Ent	J	_	4	cc	_
+2	sel	P	sg=sg|ad=ad	3	det	_
+3	juhul	S	sg=sg|ad=ad	4	obl	_
+4	seisab	V	b=b	0	root	_
+5	teine	P	sg=sg|n=n	9	det	_
+6	liiane	A	sg=sg|n=n	8	amod	_
+7	tsentraalne	A	sg=sg|n=n	8	amod	_
+8	komponent	S	sg=sg|n=n	9	nmod	_
+9	jõude	S	pl=pl|p=p	4	nsubj	CHECK
+10	,	Z	_	11	punct	_
+11	rakendudes	V	des=des	4	conj	_
+12	tööle	S	sg=sg|all=all	11	obj	_
+13	vaid	D	_	14	advmod	_
+14	põhiseadme	S	sg=sg|g=g	15	nmod	_
+15	rikke	S	sg=sg|g=g	11	obl	_
+16	korral	K	_	15	case	_
+17	.	Z	_	4	punct	_
+
+# sent_id = 12600818
+# text = Kui lehmad oleksid inimesed , siis seisnuksid nad ilmselt kõik Miss Vissi finaalis jalad ristis - tšempionide selgumise ajaks olid ligi 70 lehmiluduse udarad piimast lõhkemiseni pungil .
+1	Kui	J	_	4	mark	_
+2	lehmad	S	pl=pl|n=n	4	nsubj:cop	_
+3	oleksid	V	ksid=ksid	4	cop	_
+4	inimesed	S	pl=pl|n=n	7	advcl	_
+5	,	Z	_	7	punct	_
+6	siis	D	_	7	advmod	_
+7	seisnuksid	V	nuksid=nuksid	0	root	_
+8	nad	P	pl=pl|n=n	7	nsubj	_
+9	ilmselt	D	_	7	advmod	_
+10	kõik	P	pl=pl|n=n	11	det	_
+11	Miss	S	sg=sg|n=n	13	nmod	_
+12	Vissi	S	sg=sg|g=g	11	flat	_
+13	finaalis	S	sg=sg|in=in	7	obl	_
+14	jalad	S	pl=pl|n=n	7	obl	CHECK
+15	ristis	D	_	7	advmod	_
+16	-	Z	_	20	punct	_
+17	tšempionide	S	pl=pl|g=g	18	nmod	_
+18	selgumise	S	sg=sg|g=g	19	nmod	_
+19	ajaks	S	sg=sg|tr=tr	20	obl	_
+20	olid	V	sid=sid	7	parataxis	_
+21	ligi	K	_	22	advmod	_
+22	70	N	?=?	23	nummod	_
+23	lehmiluduse	S	sg=sg|g=g	24	nmod	_
+24	udarad	S	pl=pl|n=n	27	nsubj:cop	_
+25	piimast	S	sg=sg|el=el	26	nmod	_
+26	lõhkemiseni	S	sg=sg|ter=ter	27	obl	_
+27	pungil	D	_	20	compound:prt	_
+28	.	Z	_	7	punct	_
+
+# sent_id = 630499
+# text = Kui visiidid Türki , Kreekasse ja Venemaale välja arvata , reisis Tudjman harva ning kallis presidendilennuk seisis suurema osa ajast Zagrebi lennuväljal kasutamata .
+1	Kui	D	_	9	mark	_
+2	visiidid	S	pl=pl|n=n	9	obj	_
+3	Türki	H	adt=adt	9	nsubj	_
+4	,	Z	_	5	punct	_
+5	Kreekasse	H	sg=sg|ill=ill	3	conj	_
+6	ja	J	_	7	cc	_
+7	Venemaale	H	sg=sg|all=all	3	conj	_
+8	välja	D	_	9	compound:prt	_
+9	arvata	V	da=da	11	advcl	_
+10	,	Z	_	9	punct	_
+11	reisis	V	s=s	0	root	_
+12	Tudjman	H	sg=sg|n=n	11	nsubj	_
+13	harva	D	_	11	advmod	_
+14	ning	J	_	17	cc	_
+15	kallis	A	sg=sg|n=n	16	amod	_
+16	presidendilennuk	S	sg=sg|n=n	17	obl	_
+17	seisis	V	s=s	11	conj	_
+18	suurema	C	sg=sg|g=g	19	amod	_
+19	osa	S	sg=sg|g=g	17	nsubj	CHECK
+20	ajast	S	sg=sg|el=el	23	obl	_
+21	Zagrebi	H	sg=sg|g=g	22	nmod	_
+22	lennuväljal	S	sg=sg|ad=ad	23	obl	_
+23	kasutamata	V	mata=mata	17	advcl	_
+24	.	Z	_	11	punct	_
+
+# sent_id = 788081
+# text = Kultuuripärandi hooldmata jätmisega demonstreerib Eesti end seisvat väljaspool euroopalikku kultuurimälu kõrgelt väärtustavat mentaliteeti .
+1	Kultuuripärandi	S	sg=sg|g=g	2	nmod	_
+2	hooldmata	S	sg=sg|g=g	3	nmod	_
+3	jätmisega	S	sg=sg|kom=kom	4	obl	_
+4	demonstreerib	V	b=b	0	root	_
+5	Eesti	H	sg=sg|g=g	4	nsubj	_
+6	end	Y	?=?	7	obj	CHECK
+7	seisvat	V	vat=vat	4	xcomp	_
+8	väljaspool	K	_	10	case	_
+9	euroopalikku	A	adt=adt	10	amod	_
+10	kultuurimälu	S	sg=sg|g=g	12	obl	_
+11	kõrgelt	D	_	12	advmod	_
+12	väärtustavat	A	sg=sg|p=p	13	acl	_
+13	mentaliteeti	S	sg=sg|p=p	4	obl	_
+14	.	Z	_	4	punct	_
+
+# sent_id = 7467136
+# text = Näiteks kavandas ta järje “ Banco Unione ” klipile , kus hea suudlejana ja motorolleri juhina (  tempo magnifico !  ) tuntud Milano modell  Massimo Salvaggio  seisaks viimaseid kuid raseda naise kõrval , kuulataks kõhust tulevaid südamelööke ja ütleks naeratades : “ Deposito !
+1	Näiteks	S	sg=sg|tr=tr	2	advmod	_
+2	kavandas	V	s=s	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	järje	S	sg=sg|g=g	2	obj	_
+5	“	Z	_	6	punct	_
+6	Banco	H	sg=sg|n=n	4	appos	_
+7	Unione	H	sg=sg|g=g	6	flat	_
+8	”	Z	_	6	punct	_
+9	klipile	S	sg=sg|all=all	2	obj	_
+10	,	Z	_	27	punct	_
+11	kus	D	_	27	mark	_
+12	hea	A	sg=sg|g=g	13	amod	_
+13	suudlejana	S	sg=sg|es=es	22	obl	_
+14	ja	J	_	15	cc	_
+15	motorolleri	S	sg=sg|g=g	16	nmod	_
+16	juhina	S	sg=sg|es=es	13	conj	_
+17	(	Z	_	18	punct	_
+18	tempo	S	sg=sg|g=g	16	parataxis	_
+19	magnifico	S	sg=sg|n=n	18	appos	_
+20	!	Z	_	18	punct	_
+21	)	Z	_	19	punct	_
+22	tuntud	A	_	24	acl	_
+23	Milano	H	sg=sg|g=g	24	nmod	_
+24	modell	S	sg=sg|n=n	27	nsubj	_
+25	Massimo	H	sg=sg|n=n	24	appos	_
+26	Salvaggio	H	sg=sg|n=n	25	flat	_
+27	seisaks	V	ks=ks	9	acl	_
+28	viimaseid	A	pl=pl|p=p	30	amod	CHECK
+29	kuid	J	_	30	cc	_
+30	raseda	S	sg=sg|g=g	27	obl	_
+31	naise	S	sg=sg|g=g	27	obl	_
+32	kõrval	K	_	31	case	_
+33	,	Z	_	34	punct	_
+34	kuulataks	V	taks=taks	27	conj	_
+35	kõhust	S	sg=sg|el=el	34	obj	_
+36	tulevaid	A	pl=pl|p=p	37	acl	_
+37	südamelööke	S	pl=pl|p=p	34	obj	_
+38	ja	J	_	39	cc	_
+39	ütleks	V	ks=ks	27	conj	_
+40	naeratades	V	des=des	39	obj	_
+41	:	Z	_	43	punct	_
+42	“	Z	_	43	punct	_
+43	Deposito	H	sg=sg|n=n	39	parataxis	_
+44	!	Z	_	2	punct	_
+
+# sent_id = 1688169
+# text = Kõik , kes jaanuari esimestest päevadest saadik piiril seisid , lasti minema , ülejäänud jäid ootama ja see pull käib seal edasi , " ütles kolm päeva Ikla piiril oodanud autojuht Ove Meller .
+1	Kõik	P	pl=pl|n=n	11	nsubj	_
+2	,	Z	_	9	punct	_
+3	kes	P	sg=sg|n=n	9	nsubj	_
+4	jaanuari	S	sg=sg|p=p	6	nmod	CHECK
+5	esimestest	P	pl=pl|el=el	6	amod	_
+6	päevadest	S	pl=pl|el=el	9	obl	_
+7	saadik	K	_	6	case	_
+8	piiril	S	sg=sg|ad=ad	9	obl	_
+9	seisid	V	sid=sid	1	acl:relcl	_
+10	,	Z	_	9	punct	_
+11	lasti	V	ti=ti	0	root	_
+12	minema	V	ma=ma	11	xcomp	_
+13	,	Z	_	15	punct	_
+14	ülejäänud	S	pl=pl|n=n	15	nsubj	_
+15	jäid	V	sid=sid	11	conj	_
+16	ootama	V	ma=ma	15	nsubj	_
+17	ja	J	_	20	cc	_
+18	see	P	sg=sg|n=n	19	det	_
+19	pull	S	sg=sg|n=n	20	nsubj	_
+20	käib	V	b=b	11	conj	_
+21	seal	D	_	20	advmod	_
+22	edasi	D	_	20	compound:prt	_
+23	,	Z	_	11	punct	_
+24	"	Z	_	11	punct	_
+25	ütles	V	s=s	11	parataxis	_
+26	kolm	N	sg=sg|n=n	27	nummod	_
+27	päeva	S	sg=sg|p=p	30	obl	_
+28	Ikla	H	sg=sg|n=n	29	nmod	_
+29	piiril	S	sg=sg|ad=ad	30	obj	_
+30	oodanud	A	sg=sg|n=n	31	acl	_
+31	autojuht	S	sg=sg|n=n	25	nsubj	_
+32	Ove	H	sg=sg|n=n	31	appos	_
+33	Meller	H	sg=sg|n=n	32	flat	_
+34	.	Z	_	11	punct	_
+
+# sent_id = 8618740
+# text = See on nii jube , kui sind hüütakse võõra nimega , kui sulle tehakse midagi selgeks , millest sa silpigi aru ei saa - onu käsi olnud pikk , niiväga pikk , et ta seisnud palati teise äärde , sinnani Alfredi sõrmed ei küündinud - , ning onu seletas , et see oli hoopis nii , Hilda , MINA SEDA EI TEINUD , KAS SA SAAD ARU , ET MINA EI TEINUD .
+1	See	P	sg=sg|n=n	4	nsubj:cop	_
+2	on	V	vad=vad	4	cop	_
+3	nii	D	_	4	advmod	_
+4	jube	A	sg=sg|n=n	0	root	_
+5	,	Z	_	8	punct	_
+6	kui	J	_	8	mark	_
+7	sind	P	sg=sg|p=p	8	nsubj	_
+8	hüütakse	V	takse=takse	4	advcl	_
+9	võõra	A	sg=sg|g=g	10	amod	_
+10	nimega	S	sg=sg|kom=kom	8	obj	_
+11	,	Z	_	14	punct	_
+12	kui	D	_	14	mark	_
+13	sulle	P	sg=sg|all=all	14	nsubj	_
+14	tehakse	V	takse=takse	8	advcl	_
+15	midagi	P	sg=sg|p=p	14	obj	_
+16	selgeks	A	sg=sg|tr=tr	15	amod	_
+17	,	Z	_	23	punct	_
+18	millest	P	sg=sg|el=el	23	obj	_
+19	sa	P	sg=sg|n=n	23	nsubj	_
+20	silpigi	S	sg=sg|p=p	23	obl	_
+21	aru	S	sg=sg|p=p	23	obj	_
+22	ei	V	neg=neg	23	aux	_
+23	saa	V	o=o	28	aux	_
+24	-	Z	_	28	punct	_
+25	onu	S	sg=sg|n=n	28	nsubj:cop	_
+26	käsi	S	pl=pl|p=p	28	nsubj:cop	_
+27	olnud	A	_	28	cop	_
+28	pikk	A	sg=sg|n=n	14	parataxis	_
+29	,	Z	_	31	punct	_
+30	niiväga	D	_	31	advmod	_
+31	pikk	A	sg=sg|n=n	28	conj	_
+32	,	Z	_	35	punct	_
+33	et	J	_	35	mark	_
+34	ta	P	sg=sg|n=n	35	nsubj	_
+35	seisnud	A	pl=pl|n=n	28	advcl	_
+36	palati	S	sg=sg|g=g	35	obj	CHECK
+37	teise	O	sg=sg|g=g	35	obl	_
+38	äärde	K	_	37	case	_
+39	,	Z	_	44	punct	_
+40	sinnani	D	_	44	advmod	_
+41	Alfredi	H	sg=sg|g=g	44	nsubj	_
+42	sõrmed	S	pl=pl|n=n	44	obj	_
+43	ei	V	neg=neg	44	aux	_
+44	küündinud	A	pl=pl|n=n	35	conj	_
+45	-	Z	_	44	punct	_
+46	,	Z	_	49	punct	_
+47	ning	J	_	49	cc	_
+48	onu	S	sg=sg|n=n	49	nsubj	_
+49	seletas	V	s=s	44	conj	_
+50	,	Z	_	55	punct	_
+51	et	J	_	55	mark	_
+52	see	P	sg=sg|n=n	55	nsubj:cop	_
+53	oli	V	s=s	55	cop	_
+54	hoopis	D	_	55	advmod	_
+55	nii	D	_	49	ccomp	_
+56	,	Z	_	57	punct	_
+57	Hilda	H	sg=sg|n=n	55	conj	_
+58	,	Z	_	62	punct	_
+59	MINA	P	sg=sg|n=n	62	nsubj	_
+60	SEDA	P	sg=sg|p=p	62	nsubj	_
+61	EI	V	neg=neg	62	aux	_
+62	TEINUD	V	nud=nud	55	conj	_
+63	,	Z	_	66	punct	_
+64	KAS	D	_	66	advmod	_
+65	SA	P	sg=sg|n=n	66	nsubj	_
+66	SAAD	V	d=d	62	ccomp	_
+67	ARU	S	sg=sg|g=g	66	obj	_
+68	,	Z	_	72	punct	_
+69	ET	J	_	72	mark	_
+70	MINA	P	sg=sg|n=n	72	nsubj	_
+71	EI	V	neg=neg	72	aux	_
+72	TEINUD	A	pl=pl|n=n	66	advcl	_
+73	.	Z	_	4	punct	_
+
+# sent_id = 795196
+# text = Samuti said plekivigastusi hoovil seisnud kuus sõiduautot .
+1	Samuti	D	_	5	advmod	_
+2	said	V	sid=sid	5	aux	_
+3	plekivigastusi	S	pl=pl|p=p	4	nmod	CHECK
+4	hoovil	S	sg=sg|ad=ad	5	obl	_
+5	seisnud	A	pl=pl|n=n	0	root	_
+6	kuus	N	sg=sg|n=n	7	nummod	_
+7	sõiduautot	S	sg=sg|p=p	5	nsubj	_
+8	.	Z	_	5	punct	_
+
+# sent_id = 459968
+# text = Kahe aasta eest ühel vabaõhuüritusel hammustas mind hundikoer , kelle lällavat omanikku kõrval seisnud inimesed olid üritanud korrale kutsuda .
+1	Kahe	N	sg=sg|g=g	2	nummod	_
+2	aasta	S	sg=sg|g=g	6	obl	_
+3	eest	K	_	2	case	_
+4	ühel	P	sg=sg|ad=ad	5	det	_
+5	vabaõhuüritusel	S	sg=sg|ad=ad	6	nsubj	_
+6	hammustas	V	s=s	0	root	_
+7	mind	P	sg=sg|p=p	6	nsubj	_
+8	hundikoer	S	sg=sg|n=n	6	obj	_
+9	,	Z	_	17	punct	_
+10	kelle	P	pl=pl|g=g	17	nsubj	_
+11	lällavat	A	sg=sg|p=p	12	acl	_
+12	omanikku	S	sg=sg|p=p	14	obl	CHECK
+13	kõrval	D	_	14	advmod	_
+14	seisnud	V	nud=nud	15	acl	_
+15	inimesed	S	pl=pl|n=n	17	nsubj	_
+16	olid	V	sid=sid	17	aux	_
+17	üritanud	A	sg=sg|n=n	8	acl:relcl	_
+18	korrale	S	sg=sg|all=all	19	obj	_
+19	kutsuda	V	da=da	17	xcomp	_
+20	.	Z	_	6	punct	_
+
+# sent_id = 3274804
+# text = PÄRNU , 21. august ( EPLO ) - Esmaspäeval Pärnu jõel uppujat päästes raske terviserikke saanud tuukri seisnud polnud eilseks paremaks läinud , arstid hoiavad teda siiani narkoosis , kirjutab Pärnu Postimees .
+1	PÄRNU	H	sg=sg|n=n	18	obl	_
+2	,	Z	_	4	punct	_
+3	21.	O	?=?	4	amod	_
+4	august	S	sg=sg|el=el	1	appos	_
+5	(	Z	_	6	punct	_
+6	EPLO	Y	?=?	4	parataxis	_
+7	)	Z	_	6	punct	_
+8	-	Z	_	6	punct	_
+9	Esmaspäeval	S	sg=sg|ad=ad	11	nmod	_
+10	Pärnu	H	sg=sg|g=g	11	nmod	_
+11	jõel	S	sg=sg|ad=ad	13	nmod	_
+12	uppujat	S	sg=sg|p=p	13	nmod	_
+13	päästes	S	sg=sg|in=in	16	obj	_
+14	raske	A	sg=sg|g=g	17	amod	_
+15	terviserikke	S	sg=sg|g=g	16	obj	_
+16	saanud	A	sg=sg|n=n	17	acl	_
+17	tuukri	S	sg=sg|g=g	18	nsubj	CHECK
+18	seisnud	A	pl=pl|n=n	22	advcl	_
+19	polnud	V	neg=neg|nud=nud	22	aux	_
+20	eilseks	A	sg=sg|tr=tr	21	obl	_
+21	paremaks	C	sg=sg|tr=tr	22	obl	_
+22	läinud	A	_	0	root	_
+23	,	Z	_	25	punct	_
+24	arstid	S	pl=pl|n=n	25	nsubj	_
+25	hoiavad	V	vad=vad	22	conj	_
+26	teda	P	sg=sg|p=p	25	obj	_
+27	siiani	D	_	25	advmod	_
+28	narkoosis	S	sg=sg|in=in	25	obj	_
+29	,	Z	_	30	punct	_
+30	kirjutab	V	b=b	22	conj	_
+31	Pärnu	H	sg=sg|n=n	32	nmod	_
+32	Postimees	H	sg=sg|n=n	30	nsubj	_
+33	.	Z	_	22	punct	_
+
+# sent_id = 707141
+# text = Kuulikindlas klaasboksis käed selja taga seisnud Öcalan reageeris otsusele väliselt täiesti rahulikult ning lehvitas lahkudes saalisviibijatele , kellest enamik olid türklased ja laulsid samal ajal Türgi hümni , mis algab sõnadega : " Ma ei karda sind . "
+1	Kuulikindlas	A	sg=sg|in=in	2	amod	_
+2	klaasboksis	S	sg=sg|in=in	3	nmod	_
+3	käed	S	pl=pl|n=n	6	obj	CHECK
+4	selja	S	sg=sg|g=g	6	obl	_
+5	taga	K	_	4	case	_
+6	seisnud	A	sg=sg|n=n	7	acl	_
+7	Öcalan	H	sg=sg|n=n	8	nsubj	_
+8	reageeris	V	s=s	0	root	_
+9	otsusele	S	sg=sg|all=all	8	obj	_
+10	väliselt	D	_	8	advmod	_
+11	täiesti	D	_	12	advmod	_
+12	rahulikult	D	_	8	advmod	_
+13	ning	J	_	14	cc	_
+14	lehvitas	V	s=s	8	conj	_
+15	lahkudes	V	des=des	14	obj	_
+16	saalisviibijatele	S	pl=pl|all=all	14	obj	_
+17	,	Z	_	21	punct	_
+18	kellest	P	sg=sg|el=el	21	nsubj:cop	_
+19	enamik	S	sg=sg|n=n	21	nsubj:cop	_
+20	olid	V	sid=sid	21	cop	_
+21	türklased	S	pl=pl|n=n	16	acl:relcl	_
+22	ja	J	_	23	cc	_
+23	laulsid	V	sid=sid	21	conj	_
+24	samal	P	sg=sg|ad=ad	25	det	_
+25	ajal	S	sg=sg|ad=ad	23	obl	_
+26	Türgi	H	sg=sg|g=g	27	nmod	_
+27	hümni	S	sg=sg|p=p	23	obj	_
+28	,	Z	_	30	punct	_
+29	mis	P	sg=sg|n=n	30	nsubj	_
+30	algab	V	b=b	27	acl:relcl	_
+31	sõnadega	S	pl=pl|kom=kom	30	obl	_
+32	:	Z	_	36	punct	_
+33	"	Z	_	36	punct	_
+34	Ma	P	sg=sg|n=n	36	nsubj	_
+35	ei	V	neg=neg	36	aux	_
+36	karda	V	o=o	30	parataxis	_
+37	sind	P	sg=sg|p=p	36	nsubj	_
+38	.	Z	_	36	punct	_
+39	"	Z	_	36	punct	_
+
+# sent_id = 9293
+# text = Nüüd seisab ta silmitsi oma elu suurima väljakutse - kuulsusega .
+1	Nüüd	D	_	2	advmod	_
+2	seisab	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	silmitsi	D	_	2	advmod	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	elu	S	sg=sg|g=g	8	nmod	_
+7	suurima	U	sg=sg|g=g	8	amod	_
+8	väljakutse	S	sg=sg|n=n	2	obl	CHECK
+9	-	Z	_	10	punct	_
+10	kuulsusega	S	sg=sg|kom=kom	8	appos	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 12131897
+# text = Ta maja ees ei seisa roosat ega valget limusiini .
+1	Ta	P	sg=sg|n=n	5	nsubj	_
+2	maja	S	sg=sg|g=g	5	obl	_
+3	ees	K	_	2	case	_
+4	ei	V	neg=neg	5	aux	_
+5	seisa	V	o=o	0	root	_
+6	roosat	A	sg=sg|p=p	9	amod	_
+7	ega	J	_	8	cc	_
+8	valget	A	sg=sg|p=p	6	conj	_
+9	limusiini	S	sg=sg|g=g	5	nsubj	CHECK
+10	.	Z	_	5	punct	_
+
+# sent_id = 3759458
+# text = Seaduste endigi keel oleks nagu midagi väljaspool ühist keeleruumi seisvat , selle ladususele kas ei hoolita või ei suudeta pöörata piisavat tähelepanu .
+1	Seaduste	S	pl=pl|g=g	10	nsubj	_
+2	endigi	P	pl=pl|g=g	1	nmod	_
+3	keel	S	sg=sg|n=n	1	nmod	_
+4	oleks	V	ks=ks	10	aux	_
+5	nagu	J	_	10	mark	_
+6	midagi	P	sg=sg|p=p	10	nsubj	CHECK
+7	väljaspool	K	_	9	case	_
+8	ühist	A	sg=sg|p=p	9	amod	_
+9	keeleruumi	S	sg=sg|p=p	10	obl	_
+10	seisvat	V	vat=vat	0	root	_
+11	,	Z	_	16	punct	_
+12	selle	P	sg=sg|g=g	13	det	_
+13	ladususele	S	sg=sg|all=all	16	nsubj	_
+14	kas	D	_	16	advmod	_
+15	ei	V	neg=neg	16	aux	_
+16	hoolita	V	ta=ta	10	conj	_
+17	või	J	_	19	cc	_
+18	ei	V	neg=neg	19	aux	_
+19	suudeta	V	ta=ta	16	conj	_
+20	pöörata	V	da=da	19	xcomp	_
+21	piisavat	A	sg=sg|p=p	22	acl	_
+22	tähelepanu	S	sg=sg|p=p	20	obj	_
+23	.	Z	_	10	punct	_
+
+# sent_id = 3941156
+# text = Tartu laululava ei seisa vähemasti jõude , noored saavad pidu ja bändid esineda .
+1	Tartu	H	sg=sg|g=g	2	nmod	_
+2	laululava	S	sg=sg|n=n	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	seisa	V	o=o	0	root	_
+5	vähemasti	D	_	6	advmod	_
+6	jõude	S	pl=pl|p=p	4	nsubj	CHECK
+7	,	Z	_	9	punct	_
+8	noored	S	pl=pl|n=n	9	nsubj	_
+9	saavad	V	vad=vad	4	conj	_
+10	pidu	S	sg=sg|n=n	9	obj	_
+11	ja	J	_	13	cc	_
+12	bändid	S	pl=pl|n=n	10	conj	_
+13	esineda	V	da=da	4	conj	_
+14	.	Z	_	4	punct	_
+
+# sent_id = 1144013
+# text = Eneselegi ootamatult seisan täiesti uue alguse äärel , olen lõplikult välja puhanud ja pean hakkama üles ehitama uut elu .
+1	Eneselegi	P	sg=sg|all=all	2	obl	_
+2	ootamatult	D	_	3	advmod	_
+3	seisan	V	n=n	0	root	_
+4	täiesti	D	_	5	advmod	_
+5	uue	A	sg=sg|g=g	6	amod	_
+6	alguse	S	sg=sg|g=g	3	obj	CHECK
+7	äärel	S	sg=sg|ad=ad	3	obl	_
+8	,	Z	_	12	punct	_
+9	olen	V	n=n	12	aux	_
+10	lõplikult	D	_	12	advmod	_
+11	välja	D	_	12	compound:prt	_
+12	puhanud	V	nud=nud	3	conj	_
+13	ja	J	_	15	cc	_
+14	pean	V	n=n	15	aux	_
+15	hakkama	V	ma=ma	3	conj	_
+16	üles	D	_	17	compound:prt	_
+17	ehitama	V	tama=tama	15	xcomp	_
+18	uut	A	sg=sg|p=p	19	amod	_
+19	elu	S	sg=sg|p=p	17	obj	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 5175601
+# text = Pressiesindaja sõnul oli Fiat juba nädalapäevad ligiduses seisnud , kui keegi ta jääle ajas ning põlema pani .
+1	Pressiesindaja	S	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	8	obl	_
+3	oli	V	s=s	8	aux	_
+4	Fiat	H	sg=sg|n=n	8	nsubj	_
+5	juba	D	_	8	advmod	_
+6	nädalapäevad	S	pl=pl|n=n	7	nmod	CHECK
+7	ligiduses	S	sg=sg|in=in	8	obj	_
+8	seisnud	A	sg=sg|n=n	0	root	_
+9	,	Z	_	14	punct	_
+10	kui	D	_	14	mark	_
+11	keegi	P	sg=sg|n=n	14	nsubj	_
+12	ta	P	sg=sg|g=g	14	obj	_
+13	jääle	S	sg=sg|all=all	14	obj	_
+14	ajas	V	s=s	8	advcl	_
+15	ning	J	_	17	cc	_
+16	põlema	V	ma=ma	17	xcomp	_
+17	pani	V	s=s	14	conj	_
+18	.	Z	_	8	punct	_
+
+# sent_id = 118548
+# text = Nii me seisime seal jalad harkis , mõnel mehel kästi püksid rebadele lasta .
+1	Nii	D	_	3	advmod	_
+2	me	P	pl=pl|n=n	3	nsubj	_
+3	seisime	V	sime=sime	0	root	_
+4	seal	D	_	3	advmod	_
+5	jalad	S	pl=pl|n=n	3	obl	CHECK
+6	harkis	D	_	3	advmod	_
+7	,	Z	_	10	punct	_
+8	mõnel	P	sg=sg|ad=ad	9	det	_
+9	mehel	S	sg=sg|ad=ad	10	nsubj	_
+10	kästi	V	ti=ti	3	conj	_
+11	püksid	S	pl=pl|n=n	13	obj	_
+12	rebadele	S	pl=pl|all=all	13	obl	_
+13	lasta	V	da=da	10	xcomp	_
+14	.	Z	_	3	punct	_
+

@@ -1,0 +1,108 @@
+# sent_id = 28461
+# text = Ju pole selle vääriliseks peetud .
+1	Ju	D	_	5	advmod	_
+2	pole	V	neg=neg|o=o	5	aux	_
+3	selle	P	sg=sg|g=g	5	obj	CHECK
+4	vääriliseks	A	sg=sg|tr=tr	5	obj	_
+5	peetud	A	sg=sg|n=n	0	root	_
+6	.	Z	_	5	punct	_
+
+# sent_id = 371152
+# text = Et Hetat tema õigustes on ülekohtuselt solvatud , tema perenaiserolli on peetud enesestmõistetavaks ja perenaiseõigusi , pärimine kaasa arvatud , ei tunnustata , sel nagu polekski Hetale mingit mõju .
+1	Et	J	_	7	mark	_
+2	Hetat	H	sg=sg|n=n	7	obj	_
+3	tema	P	sg=sg|g=g	4	nmod	_
+4	õigustes	S	pl=pl|in=in	7	obj	_
+5	on	V	b=b	7	aux	_
+6	ülekohtuselt	D	_	7	advmod	_
+7	solvatud	A	pl=pl|n=n	22	advcl	_
+8	,	Z	_	12	punct	_
+9	tema	P	sg=sg|g=g	10	nmod	_
+10	perenaiserolli	S	adt=adt	12	obj	CHECK
+11	on	V	vad=vad	12	aux	_
+12	peetud	A	sg=sg|n=n	7	conj	_
+13	enesestmõistetavaks	A	sg=sg|tr=tr	17	acl	_
+14	ja	J	_	15	cc	_
+15	perenaiseõigusi	S	pl=pl|p=p	13	conj	_
+16	,	Z	_	19	punct	_
+17	pärimine	S	sg=sg|n=n	19	obj	_
+18	kaasa	D	_	19	compound:prt	_
+19	arvatud	V	tud=tud	7	conj	_
+20	,	Z	_	22	punct	_
+21	ei	V	neg=neg	22	aux	_
+22	tunnustata	V	ta=ta	0	root	_
+23	,	Z	_	24	punct	_
+24	sel	P	sg=sg|ad=ad	22	conj	_
+25	nagu	J	_	27	mark	_
+26	polekski	V	neg=neg|ks=ks	24	cop	_
+27	Hetale	H	sg=sg|g=g	24	advcl	_
+28	mingit	P	sg=sg|p=p	29	det	_
+29	mõju	S	sg=sg|p=p	24	nsubj:cop	_
+30	.	Z	_	22	punct	_
+
+# sent_id = 4141842
+# text = " Seitsmeste uudiste " andmeil on poliitilistes ringkondades skandaali esilekutsujaks peetud nii Res Publicat kui ka Keskerakonda .
+1	"	Z	_	3	punct	_
+2	Seitsmeste	H	pl=pl|g=g	3	nmod	_
+3	uudiste	S	pl=pl|g=g	5	nmod	_
+4	"	Z	_	3	punct	_
+5	andmeil	S	pl=pl|ad=ad	11	obl	_
+6	on	V	vad=vad	11	aux	_
+7	poliitilistes	A	pl=pl|in=in	8	amod	_
+8	ringkondades	S	pl=pl|in=in	9	nmod	_
+9	skandaali	S	sg=sg|g=g	10	nmod	_
+10	esilekutsujaks	S	sg=sg|tr=tr	11	obl	_
+11	peetud	A	pl=pl|n=n	0	root	_
+12	nii	D	_	13	cc:preconj	_
+13	Res	Y	?=?	11	obj	CHECK
+14	Publicat	H	sg=sg|p=p	13	flat	_
+15	kui	D	_	17	cc	_
+16	ka	D	_	17	advmod	_
+17	Keskerakonda	S	adt=adt	14	conj	_
+18	.	Z	_	11	punct	_
+
+# sent_id = 21308
+# text = Lavastaja Nüganen on öelnud , et “ Hamletit ” tehes üllatas Matvere teda taas niisuguste sügavustega , mida pole paljudel Eestis tarkadeks peetud meestel . ”
+1	Lavastaja	S	sg=sg|n=n	4	nsubj	_
+2	Nüganen	H	sg=sg|n=n	1	appos	_
+3	on	V	vad=vad	4	aux	_
+4	öelnud	A	_	0	root	_
+5	,	Z	_	11	punct	_
+6	et	J	_	11	mark	_
+7	“	Z	_	8	punct	_
+8	Hamletit	H	sg=sg|p=p	10	nsubj	_
+9	”	Z	_	8	punct	_
+10	tehes	V	des=des	11	nsubj	_
+11	üllatas	V	s=s	4	ccomp	_
+12	Matvere	H	sg=sg|g=g	11	nsubj	_
+13	teda	P	sg=sg|p=p	11	obj	_
+14	taas	D	_	11	advmod	_
+15	niisuguste	P	pl=pl|g=g	16	det	_
+16	sügavustega	S	pl=pl|kom=kom	11	obj	_
+17	,	Z	_	24	punct	_
+18	mida	P	sg=sg|p=p	24	nsubj:cop	CHECK
+19	pole	V	neg=neg|o=o	24	cop	_
+20	paljudel	P	pl=pl|ad=ad	21	nmod	_
+21	Eestis	H	sg=sg|in=in	22	nmod	_
+22	tarkadeks	S	pl=pl|tr=tr	23	obl	_
+23	peetud	V	tud=tud	16	acl:relcl	_
+24	meestel	S	pl=pl|ad=ad	16	acl:relcl	_
+25	.	Z	_	4	punct	_
+26	”	Z	_	4	punct	_
+
+# sent_id = 24369
+# text = “ Meid on diktor Urmas Liiviga vendadeks peetud , ” sõnab ta .
+1	“	Z	_	8	punct	_
+2	Meid	P	pl=pl|p=p	8	obj	_
+3	on	V	b=b	8	aux	_
+4	diktor	S	sg=sg|n=n	8	obl	CHECK
+5	Urmas	H	sg=sg|n=n	4	appos	_
+6	Liiviga	H	sg=sg|kom=kom	5	flat	_
+7	vendadeks	S	pl=pl|tr=tr	8	obl	_
+8	peetud	A	sg=sg|n=n	0	root	_
+9	,	Z	_	8	punct	_
+10	”	Z	_	8	punct	_
+11	sõnab	V	b=b	8	parataxis	_
+12	ta	P	sg=sg|n=n	11	nsubj	_
+13	.	Z	_	8	punct	_
+

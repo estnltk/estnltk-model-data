@@ -1,0 +1,374 @@
+# sent_id = 26167
+# text = Rootsi eurolauljad nägid Kerli meelest nii-ii ühtemoodi välja .
+1	Rootsi	H	sg=sg|g=g	2	nmod	_
+2	eurolauljad	S	pl=pl|n=n	3	nsubj	_
+3	nägid	V	sid=sid	0	root	_
+4	Kerli	H	sg=sg|g=g	3	obl	_
+5	meelest	K	_	4	case	_
+6	nii-ii	Y	?=?	3	obj	CHECK
+7	ühtemoodi	D	_	3	advmod	_
+8	välja	D	_	3	compound:prt	_
+9	.	Z	_	3	punct	_
+
+# sent_id = 37144
+# text = Mõned ei kanna tekstiilrõivaid , sest need nägevat jubedad välja .
+1	Mõned	P	pl=pl|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	kanna	V	o=o	0	root	_
+4	tekstiilrõivaid	S	pl=pl|p=p	3	obj	_
+5	,	Z	_	8	punct	_
+6	sest	J	_	8	mark	_
+7	need	P	pl=pl|n=n	8	nsubj	_
+8	nägevat	V	vat=vat	3	advcl	_
+9	jubedad	A	pl=pl|n=n	8	obj	CHECK
+10	välja	D	_	8	compound:prt	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 3661481
+# text = Korra ei näinud tartlane Antti Vasar audist välja söödetavat palli ning see plärtsatas vastu tema kõhtu .
+1	Korra	S	sg=sg|g=g	3	obl	_
+2	ei	V	neg=neg	3	aux	_
+3	näinud	A	_	0	root	_
+4	tartlane	S	sg=sg|n=n	3	nsubj	_
+5	Antti	H	sg=sg|g=g	4	appos	_
+6	Vasar	S	sg=sg|n=n	5	flat	_
+7	audist	S	sg=sg|el=el	9	obl	_
+8	välja	D	_	9	compound:prt	_
+9	söödetavat	A	sg=sg|p=p	10	acl	_
+10	palli	S	sg=sg|p=p	3	obj	CHECK
+11	ning	J	_	13	cc	_
+12	see	P	sg=sg|n=n	13	nsubj	_
+13	plärtsatas	V	s=s	3	conj	_
+14	vastu	K	_	16	case	_
+15	tema	P	sg=sg|g=g	16	nmod	_
+16	kõhtu	S	sg=sg|p=p	13	obj	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 102148
+# text = Sa mitte ainult ei näe nooruslik välja , vaid sul tundub olevat ka ammendamatult energiat .
+1	Sa	P	sg=sg|n=n	5	nsubj	_
+2	mitte	D	_	3	advmod	_
+3	ainult	D	_	5	advmod	_
+4	ei	V	neg=neg	5	aux	_
+5	näe	V	o=o	0	root	_
+6	nooruslik	A	sg=sg|n=n	5	obj	CHECK
+7	välja	D	_	5	compound:prt	_
+8	,	Z	_	15	punct	_
+9	vaid	D	_	15	cc	_
+10	sul	P	sg=sg|ad=ad	15	nsubj:cop	_
+11	tundub	V	b=b	15	aux	_
+12	olevat	V	vat=vat	15	cop	_
+13	ka	D	_	15	advmod	_
+14	ammendamatult	D	_	15	advmod	_
+15	energiat	S	sg=sg|p=p	5	conj	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 6648403
+# text = " Mõned neist ei näe enam väga head välja .
+1	"	Z	_	5	punct	_
+2	Mõned	P	pl=pl|n=n	5	nsubj	_
+3	neist	P	pl=pl|el=el	2	det	_
+4	ei	V	neg=neg	5	aux	_
+5	näe	V	o=o	0	root	_
+6	enam	D	_	5	advmod	_
+7	väga	D	_	8	advmod	_
+8	head	A	sg=sg|p=p	5	obj	CHECK
+9	välja	D	_	5	compound:prt	_
+10	.	Z	_	5	punct	_
+
+# sent_id = 2894524
+# text = Kuju nägevat mõjuv välja ka ilma müürita .
+1	Kuju	S	sg=sg|g=g	2	obj	CHECK
+2	nägevat	V	vat=vat	0	root	_
+3	mõjuv	A	sg=sg|n=n	2	nsubj	_
+4	välja	D	_	2	compound:prt	_
+5	ka	D	_	7	advmod	_
+6	ilma	K	_	7	case	_
+7	müürita	S	sg=sg|ab=ab	2	obl	_
+8	.	Z	_	2	punct	_
+
+# sent_id = 2425612
+# text = Mismoodi suvepealinna positiivne märk välja näeb , võib juba 12. juulil näha .
+1	Mismoodi	D	_	6	advmod	_
+2	suvepealinna	S	adt=adt	6	obj	CHECK
+3	positiivne	A	sg=sg|n=n	4	amod	_
+4	märk	S	sg=sg|n=n	6	obj	_
+5	välja	D	_	6	compound:prt	_
+6	näeb	V	b=b	12	advcl	_
+7	,	Z	_	12	punct	_
+8	võib	V	b=b	12	aux	_
+9	juba	D	_	12	advmod	_
+10	12.	O	?=?	11	amod	_
+11	juulil	S	sg=sg|ad=ad	12	obj	_
+12	näha	V	da=da	0	root	_
+13	.	Z	_	12	punct	_
+
+# sent_id = 5433884
+# text = Kirjeldused ja joonistused sellest , milline näeks välja elu Ühendriikides , kui seal peaks haarama võimu Taliban , ajavad naerma ja tugevdavad võitlusvaimu , väidavad mõ-ned psühholoogid .
+1	Kirjeldused	S	pl=pl|n=n	25	obj	_
+2	ja	J	_	3	cc	_
+3	joonistused	S	pl=pl|n=n	1	conj	_
+4	sellest	P	sg=sg|el=el	25	nsubj	_
+5	,	Z	_	7	punct	_
+6	milline	P	sg=sg|n=n	7	nsubj	_
+7	näeks	V	ks=ks	4	acl:relcl	_
+8	välja	D	_	7	compound:prt	_
+9	elu	S	sg=sg|g=g	10	nmod	CHECK
+10	Ühendriikides	S	pl=pl|in=in	7	obj	_
+11	,	Z	_	15	punct	_
+12	kui	J	_	15	mark	_
+13	seal	D	_	15	advmod	_
+14	peaks	V	ks=ks	15	aux	_
+15	haarama	V	ma=ma	7	advcl	_
+16	võimu	S	sg=sg|p=p	15	nsubj	_
+17	Taliban	H	sg=sg|n=n	16	appos	_
+18	,	Z	_	19	punct	_
+19	ajavad	V	vad=vad	15	conj	_
+20	naerma	V	ma=ma	19	obj	_
+21	ja	J	_	22	cc	_
+22	tugevdavad	V	vad=vad	15	conj	_
+23	võitlusvaimu	S	sg=sg|p=p	22	obj	_
+24	,	Z	_	25	punct	_
+25	väidavad	V	vad=vad	0	root	_
+26	mõ-ned	P	pl=pl|n=n	27	det	_
+27	psühholoogid	S	pl=pl|n=n	25	nsubj	_
+28	.	Z	_	25	punct	_
+
+# sent_id = 6769687
+# text = Naistearstina ma ei ütleks , et patsiendid näeksid väsinud välja .
+1	Naistearstina	S	sg=sg|es=es	4	obj	_
+2	ma	P	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	ütleks	V	ks=ks	0	root	_
+5	,	Z	_	8	punct	_
+6	et	J	_	8	mark	_
+7	patsiendid	S	pl=pl|n=n	8	nsubj	_
+8	näeksid	V	ksid=ksid	4	ccomp	_
+9	väsinud	A	pl=pl|n=n	8	obj	CHECK
+10	välja	D	_	8	compound:prt	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 13227511
+# text = B. Sina kahjuks mu tulevaste laste isana küll välja ei näe .
+1	B. Sina	V	o=o	10	advmod	CHECK
+2	kahjuks	D	_	10	advmod	_
+3	mu	P	sg=sg|g=g	10	nsubj	_
+4	tulevaste	A	pl=pl|g=g	5	amod	_
+5	laste	S	pl=pl|g=g	6	nmod	_
+6	isana	S	sg=sg|es=es	10	obj	_
+7	küll	D	_	10	advmod	_
+8	välja	D	_	10	compound:prt	_
+9	ei	V	neg=neg	10	aux	_
+10	näe	V	o=o	0	root	_
+11	.	Z	_	10	punct	_
+
+# sent_id = 2512620
+# text = " Meie leina võib leevendada vaid see , et Courtney oleks näinud välja täpselt samasugune kui Natasha .
+1	"	Z	_	5	punct	_
+2	Meie	P	pl=pl|g=g	3	nmod	_
+3	leina	S	sg=sg|p=p	5	obj	_
+4	võib	V	b=b	5	aux	_
+5	leevendada	V	da=da	0	root	_
+6	vaid	D	_	7	advmod	_
+7	see	P	sg=sg|n=n	5	nsubj	_
+8	,	Z	_	12	punct	_
+9	et	J	_	12	mark	_
+10	Courtney	H	sg=sg|n=n	12	nsubj	_
+11	oleks	V	ks=ks	12	aux	_
+12	näinud	V	nud=nud	7	acl	_
+13	välja	D	_	12	compound:prt	_
+14	täpselt	D	_	15	advmod	_
+15	samasugune	P	sg=sg|n=n	12	obj	CHECK
+16	kui	D	_	17	mark	_
+17	Natasha	H	sg=sg|n=n	15	advcl	_
+18	.	Z	_	5	punct	_
+
+# sent_id = 2354504
+# text = Reedel Poola saabunud paavst on avalikel esinemistel sageli väsinud välja näinud , kuid paistab üldiselt olevat kodulinna Krakowisse naasmisest jõudu ammutanud .
+1	Reedel	S	sg=sg|ad=ad	3	obl	_
+2	Poola	H	sg=sg|g=g	1	appos	_
+3	saabunud	A	sg=sg|n=n	4	acl	_
+4	paavst	S	sg=sg|n=n	11	obj	_
+5	on	V	vad=vad	11	aux	_
+6	avalikel	A	pl=pl|ad=ad	7	amod	_
+7	esinemistel	S	pl=pl|ad=ad	11	obj	_
+8	sageli	D	_	11	advmod	_
+9	väsinud	A	sg=sg|n=n	11	obj	CHECK
+10	välja	D	_	11	compound:prt	_
+11	näinud	A	sg=sg|n=n	0	root	_
+12	,	Z	_	21	punct	_
+13	kuid	J	_	21	cc	_
+14	paistab	V	b=b	21	aux	_
+15	üldiselt	D	_	16	advmod	_
+16	olevat	A	sg=sg|p=p	17	acl	_
+17	kodulinna	S	sg=sg|p=p	19	nmod	_
+18	Krakowisse	H	sg=sg|ill=ill	17	appos	_
+19	naasmisest	S	sg=sg|el=el	21	obj	_
+20	jõudu	S	sg=sg|p=p	21	obj	_
+21	ammutanud	A	sg=sg|n=n	11	conj	_
+22	.	Z	_	11	punct	_
+
+# sent_id = 14062167
+# text = Ja välja ei näinud ta ka teab kui hea .
+1	Ja	J	_	4	cc	_
+2	välja	D	_	4	compound:prt	_
+3	ei	V	neg=neg	4	aux	_
+4	näinud	A	pl=pl|n=n	0	root	_
+5	ta	P	sg=sg|n=n	4	nsubj	_
+6	ka	D	_	7	advmod	_
+7	teab	V	b=b	4	xcomp	CHECK
+8	kui	D	_	9	mark	_
+9	hea	A	sg=sg|n=n	7	advcl	_
+10	.	Z	_	4	punct	_
+
+# sent_id = 1095120
+# text = Eesti keskkonnategevuskava koostamine kolme aasta eest nägi välja nagu kadunud poegade kokkulend taas iseseisvaks saanud kodutallu .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	keskkonnategevuskava	S	sg=sg|g=g	3	nmod	_
+3	koostamine	S	sg=sg|n=n	7	obl	_
+4	kolme	N	sg=sg|g=g	5	nummod	_
+5	aasta	S	sg=sg|g=g	3	nmod	_
+6	eest	K	_	5	case	_
+7	nägi	V	s=s	0	root	_
+8	välja	D	_	7	compound:prt	_
+9	nagu	J	_	12	mark	_
+10	kadunud	A	sg=sg|n=n	11	acl	_
+11	poegade	S	pl=pl|g=g	12	nmod	_
+12	kokkulend	S	sg=sg|n=n	7	advcl	_
+13	taas	D	_	15	advmod	_
+14	iseseisvaks	A	sg=sg|tr=tr	15	advcl	_
+15	saanud	A	sg=sg|n=n	16	acl	_
+16	kodutallu	S	adt=adt	7	obj	CHECK
+17	.	Z	_	7	punct	_
+
+# sent_id = 123193
+# text = SGS-i direktor Nikolai Salnikov , kes näeb pingelisest tööst magamata välja , näitab reibaste , objektil turnivate meestega reklaambuklette .
+1	SGS-i	Y	sg=sg|g=g	2	nmod	_
+2	direktor	S	sg=sg|n=n	13	nsubj	_
+3	Nikolai	H	sg=sg|n=n	2	appos	_
+4	Salnikov	H	sg=sg|n=n	3	flat	_
+5	,	Z	_	7	punct	_
+6	kes	P	sg=sg|n=n	7	nsubj	_
+7	näeb	V	b=b	3	acl:relcl	_
+8	pingelisest	A	sg=sg|el=el	9	amod	_
+9	tööst	S	sg=sg|el=el	7	obj	_
+10	magamata	A	_	7	obj	CHECK
+11	välja	D	_	7	compound:prt	_
+12	,	Z	_	7	punct	_
+13	näitab	V	b=b	0	root	_
+14	reibaste	A	pl=pl|g=g	18	amod	_
+15	,	Z	_	16	punct	_
+16	objektil	S	sg=sg|ad=ad	17	obj	_
+17	turnivate	A	pl=pl|g=g	14	conj	_
+18	meestega	S	pl=pl|kom=kom	13	nsubj	_
+19	reklaambuklette	S	pl=pl|p=p	13	obj	_
+20	.	Z	_	13	punct	_
+
+# sent_id = 9386957
+# text = Hoolimata sellest , et koolimaja ei näe kõige eeskujulikum välja , on see väga hubane , ” on kirjutanud üks õpilane oma koolist .
+1	Hoolimata	K	_	2	case	_
+2	sellest	P	sg=sg|el=el	15	obl	_
+3	,	Z	_	7	punct	_
+4	et	J	_	7	mark	_
+5	koolimaja	S	sg=sg|g=g	7	nsubj	CHECK
+6	ei	V	neg=neg	7	aux	_
+7	näe	V	o=o	2	acl	_
+8	kõige	D	_	9	advmod	_
+9	eeskujulikum	C	sg=sg|n=n	7	obj	_
+10	välja	D	_	7	compound:prt	_
+11	,	Z	_	7	punct	_
+12	on	V	vad=vad	15	cop	_
+13	see	P	sg=sg|n=n	15	nsubj:cop	_
+14	väga	D	_	15	advmod	_
+15	hubane	A	sg=sg|n=n	0	root	_
+16	,	Z	_	15	punct	_
+17	”	Z	_	15	punct	_
+18	on	V	b=b	19	aux	_
+19	kirjutanud	V	nud=nud	15	parataxis	_
+20	üks	N	sg=sg|n=n	21	det	_
+21	õpilane	S	sg=sg|n=n	19	nsubj	_
+22	oma	P	sg=sg|g=g	23	nmod	_
+23	koolist	S	sg=sg|el=el	19	obj	_
+24	.	Z	_	15	punct	_
+
+# sent_id = 3227833
+# text = " Ta on 35-aastane , ja kui seista tema kõrval , ei näe ta aastatki noorem välja , " kirjutab Kamtsatka Komsomolets .
+1	"	Z	_	4	punct	_
+2	Ta	P	sg=sg|n=n	4	nsubj:cop	_
+3	on	V	vad=vad	4	cop	_
+4	35-aastane	A	sg=sg|n=n	0	root	_
+5	,	Z	_	8	punct	_
+6	ja	J	_	8	cc	_
+7	kui	D	_	8	mark	_
+8	seista	V	da=da	13	advcl	_
+9	tema	P	sg=sg|g=g	8	obl	_
+10	kõrval	K	_	9	case	_
+11	,	Z	_	13	punct	_
+12	ei	V	neg=neg	13	aux	_
+13	näe	V	o=o	4	conj	_
+14	ta	P	sg=sg|g=g	13	nsubj	_
+15	aastatki	S	sg=sg|p=p	13	obl	CHECK
+16	noorem	C	sg=sg|n=n	13	obj	_
+17	välja	D	_	13	compound:prt	_
+18	,	Z	_	4	punct	_
+19	"	Z	_	4	punct	_
+20	kirjutab	V	b=b	4	parataxis	_
+21	Kamtsatka	H	sg=sg|n=n	20	nsubj	_
+22	Komsomolets	H	sg=sg|n=n	21	flat	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 226187
+# text = Näe võrgus hea välja (  Make yourself look good online  ) .
+1	Näe	V	o=o	0	root	_
+2	võrgus	S	sg=sg|in=in	1	obj	_
+3	hea	A	sg=sg|n=n	1	obj	CHECK
+4	välja	D	_	1	compound:prt	_
+5	(	Z	_	6	punct	_
+6	Make	H	sg=sg|g=g	1	parataxis	_
+7	yourself	S	sg=sg|n=n	6	flat:foreign	_
+8	look	S	sg=sg|n=n	6	flat:foreign	_
+9	good	S	sg=sg|n=n	6	flat:foreign	_
+10	online	S	sg=sg|g=g	6	flat:foreign	_
+11	)	Z	_	6	punct	_
+12	.	Z	_	1	punct	_
+
+# sent_id = 610434
+# text = Kuidas näeks aga välja valimiskampaania ilma laste suudlemise ja käepigistusteta ?
+1	Kuidas	D	_	2	mark	_
+2	näeks	V	ks=ks	0	root	_
+3	aga	J	_	2	advmod	_
+4	välja	D	_	2	compound:prt	_
+5	valimiskampaania	S	sg=sg|g=g	2	obj	CHECK
+6	ilma	K	_	8	case	_
+7	laste	S	pl=pl|g=g	8	nmod	_
+8	suudlemise	S	sg=sg|g=g	5	nmod	_
+9	ja	J	_	10	cc	_
+10	käepigistusteta	S	pl=pl|ab=ab	8	conj	_
+11	?	Z	_	2	punct	_
+
+# sent_id = 9819971
+# text = Ma ei kipuks siin arutlema , mis laadi oleks vapside võim Eestis välja näinud , seda ei saa me kunagi enam teada .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	kipuks	V	ks=ks	0	root	_
+4	siin	D	_	3	advmod	_
+5	arutlema	V	ma=ma	3	xcomp	_
+6	,	Z	_	14	punct	_
+7	mis	P	sg=sg|n=n	8	nmod	_
+8	laadi	S	sg=sg|p=p	14	nsubj	CHECK
+9	oleks	V	ks=ks	14	aux	_
+10	vapside	S	pl=pl|g=g	11	nmod	_
+11	võim	S	sg=sg|n=n	14	obj	_
+12	Eestis	H	sg=sg|in=in	14	obl	_
+13	välja	D	_	14	compound:prt	_
+14	näinud	A	sg=sg|n=n	5	ccomp	_
+15	,	Z	_	18	punct	_
+16	seda	P	sg=sg|p=p	18	obj	_
+17	ei	V	neg=neg	18	aux	_
+18	saa	V	o=o	3	conj	_
+19	me	P	pl=pl|n=n	18	nsubj	_
+20	kunagi	D	_	18	advmod	_
+21	enam	D	_	22	advmod	_
+22	teada	V	da=da	18	xcomp	_
+23	.	Z	_	3	punct	_
+

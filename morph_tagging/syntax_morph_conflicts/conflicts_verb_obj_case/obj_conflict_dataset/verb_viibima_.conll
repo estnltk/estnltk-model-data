@@ -1,0 +1,303 @@
+# sent_id = 2909720
+# text = Kell 20 sündmuskohale saabunud politseinikud leidsid eest pool ööpäeva varem kadunuks jäänud kaks ametivenda , kes seni veel kindlaks tegemata ajal olid sattunud avariisse ning viibisid teadvusetus seisundis teelt väljapaiskunud autos .
+1	Kell	S	sg=sg|n=n	4	obl	_
+2	20	N	?=?	1	nummod	_
+3	sündmuskohale	S	sg=sg|all=all	4	obl	_
+4	saabunud	A	_	5	acl	_
+5	politseinikud	S	pl=pl|n=n	6	nsubj	_
+6	leidsid	V	sid=sid	0	root	_
+7	eest	D	_	6	compound:prt	_
+8	pool	N	sg=sg|n=n	9	nummod	_
+9	ööpäeva	S	sg=sg|p=p	12	obl	_
+10	varem	D	_	12	advmod	_
+11	kadunuks	S	sg=sg|tr=tr	12	obl	_
+12	jäänud	A	_	14	acl	_
+13	kaks	N	sg=sg|n=n	14	nummod	_
+14	ametivenda	S	sg=sg|p=p	6	obj	_
+15	,	Z	_	23	punct	_
+16	kes	P	pl=pl|n=n	23	nsubj	_
+17	seni	D	_	23	advmod	_
+18	veel	D	_	23	advmod	_
+19	kindlaks	A	sg=sg|tr=tr	21	amod	_
+20	tegemata	A	_	21	amod	_
+21	ajal	S	sg=sg|ad=ad	23	obl	_
+22	olid	V	sid=sid	23	aux	_
+23	sattunud	A	sg=sg|n=n	14	acl:relcl	_
+24	avariisse	S	sg=sg|ill=ill	23	obl	_
+25	ning	J	_	26	cc	_
+26	viibisid	V	sid=sid	23	conj	_
+27	teadvusetus	S	sg=sg|n=n	28	nmod	CHECK
+28	seisundis	S	sg=sg|in=in	26	obl	_
+29	teelt	S	sg=sg|abl=abl	30	obl	_
+30	väljapaiskunud	A	sg=sg|n=n	31	acl	_
+31	autos	S	sg=sg|in=in	26	obl	_
+32	.	Z	_	6	punct	_
+
+# sent_id = 3697712
+# text = Pärast eilset lindistust ütles Volmer , et esialgu viibivad nad koos Kanguriga mõlemad lindistuse juures , sest näitlejad saavad teksti kätte viimasel hetkel .
+1	Pärast	K	_	3	case	_
+2	eilset	A	sg=sg|p=p	3	amod	_
+3	lindistust	S	sg=sg|p=p	4	obl	_
+4	ütles	V	s=s	0	root	_
+5	Volmer	H	sg=sg|n=n	4	nsubj	_
+6	,	Z	_	9	punct	_
+7	et	J	_	9	mark	_
+8	esialgu	D	_	9	advmod	_
+9	viibivad	V	vad=vad	4	ccomp	_
+10	nad	P	pl=pl|n=n	9	nsubj	_
+11	koos	K	_	12	case	_
+12	Kanguriga	S	sg=sg|n=n	9	obl	_
+13	mõlemad	P	pl=pl|n=n	14	det	CHECK
+14	lindistuse	S	sg=sg|g=g	9	obl	_
+15	juures	K	_	14	case	_
+16	,	Z	_	19	punct	_
+17	sest	J	_	19	mark	_
+18	näitlejad	S	pl=pl|n=n	19	nsubj	_
+19	saavad	V	vad=vad	9	advcl	_
+20	teksti	S	sg=sg|g=g	19	obl	_
+21	kätte	K	_	20	case	_
+22	viimasel	A	sg=sg|ad=ad	23	amod	_
+23	hetkel	S	sg=sg|ad=ad	19	obl	_
+24	.	Z	_	4	punct	_
+
+# sent_id = 47414
+# text = Isadepäeva juttu Lauri Vahtrega ajamegi Toompeal , kus ta endiselt suure osa oma ajast viibib .
+1	Isadepäeva	S	sg=sg|g=g	2	nmod	_
+2	juttu	S	sg=sg|p=p	5	obj	_
+3	Lauri	H	sg=sg|n=n	2	appos	_
+4	Vahtrega	H	sg=sg|kom=kom	3	flat	_
+5	ajamegi	V	me=me	0	root	_
+6	Toompeal	H	sg=sg|ad=ad	5	nsubj	_
+7	,	Z	_	15	punct	_
+8	kus	D	_	15	mark	_
+9	ta	P	sg=sg|n=n	15	nsubj	_
+10	endiselt	D	_	15	advmod	_
+11	suure	A	sg=sg|g=g	12	amod	_
+12	osa	S	sg=sg|g=g	15	obj	CHECK
+13	oma	P	sg=sg|g=g	14	nmod	_
+14	ajast	S	sg=sg|el=el	15	obl	_
+15	viibib	V	b=b	5	ccomp	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 2710836
+# text = juht Julia Aleksandrova ei viibinud enda sõnul gaasitamise
+1	juht	S	sg=sg|n=n	5	nsubj	_
+2	Julia	H	sg=sg|n=n	1	appos	_
+3	Aleksandrova	H	sg=sg|n=n	2	flat	_
+4	ei	V	neg=neg	5	aux	_
+5	viibinud	A	sg=sg|n=n	0	root	_
+6	enda	P	sg=sg|g=g	7	nmod	_
+7	sõnul	S	pl=pl|ad=ad	5	obl	_
+8	gaasitamise	S	sg=sg|g=g	5	obj	CHECK
+
+# sent_id = 224238
+# text = Valdav osa käske viibib käsukonveieris kaks käsutsüklit ( IC ) .
+1	Valdav	A	sg=sg|n=n	2	acl	_
+2	osa	S	sg=sg|n=n	3	nmod	_
+3	käske	S	pl=pl|p=p	4	obl	CHECK
+4	viibib	V	b=b	0	root	_
+5	käsukonveieris	S	sg=sg|in=in	4	obl	_
+6	kaks	N	sg=sg|n=n	7	nummod	_
+7	käsutsüklit	S	sg=sg|p=p	4	nsubj	_
+8	(	Z	_	9	punct	_
+9	IC	Y	?=?	7	parataxis	_
+10	)	Z	_	9	punct	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 1312588
+# text = Oma esimesest abikaasast , USA näitlejast Sean Pennist tüliga lahku läinud Madonna andis intervjuu New Yorgis , kus ta viibis filmi " Parimast järgmine " ( The Next Best Thing ) esilinastusel .
+1	Oma	P	sg=sg|g=g	3	nmod	_
+2	esimesest	O	sg=sg|el=el	3	amod	_
+3	abikaasast	S	sg=sg|el=el	13	nsubj	_
+4	,	Z	_	6	punct	_
+5	USA	Y	?=?	6	nmod	_
+6	näitlejast	S	sg=sg|el=el	7	nsubj	_
+7	Sean	V	n=n	3	acl:relcl	_
+8	Pennist	S	sg=sg|el=el	9	nmod	_
+9	tüliga	S	sg=sg|kom=kom	11	obl	_
+10	lahku	D	_	11	compound:prt	_
+11	läinud	A	_	12	acl	_
+12	Madonna	S	sg=sg|g=g	13	nsubj	_
+13	andis	V	s=s	0	root	_
+14	intervjuu	S	sg=sg|n=n	13	obj	_
+15	New	H	?=?	14	nmod	_
+16	Yorgis	H	sg=sg|in=in	15	flat	_
+17	,	Z	_	20	punct	_
+18	kus	D	_	20	mark	_
+19	ta	P	sg=sg|n=n	20	nsubj	_
+20	viibis	V	s=s	15	acl	_
+21	filmi	S	sg=sg|p=p	32	nmod	CHECK
+22	"	Z	_	24	punct	_
+23	Parimast	U	sg=sg|el=el	24	amod	_
+24	järgmine	A	sg=sg|n=n	32	amod	_
+25	"	Z	_	24	punct	_
+26	(	Z	_	27	punct	_
+27	The	H	sg=sg|n=n	24	appos	_
+28	Next	H	sg=sg|n=n	27	flat:foreign	_
+29	Best	H	sg=sg|n=n	27	flat:foreign	_
+30	Thing	H	sg=sg|n=n	27	flat:foreign	_
+31	)	Z	_	27	punct	_
+32	esilinastusel	S	sg=sg|ad=ad	20	obl	_
+33	.	Z	_	13	punct	_
+
+# sent_id = 5565477
+# text = Otsust minna pea teisele poole maakera , peab varem päevagi välismaal mitte viibinud Evelyn oma elu üheks tähtsamaks .
+1	Otsust	S	sg=sg|p=p	2	nsubj	_
+2	minna	V	da=da	0	root	_
+3	pea	S	sg=sg|g=g	2	obl	_
+4	teisele	O	sg=sg|all=all	5	det	_
+5	poole	K	_	6	case	_
+6	maakera	S	sg=sg|p=p	2	obl	_
+7	,	Z	_	18	punct	_
+8	peab	V	b=b	18	aux	_
+9	varem	D	_	13	advmod	_
+10	päevagi	S	sg=sg|g=g	13	obl	_
+11	välismaal	S	sg=sg|ad=ad	13	obl	_
+12	mitte	D	_	13	advmod	_
+13	viibinud	A	sg=sg|n=n	14	acl	_
+14	Evelyn	H	sg=sg|n=n	18	nsubj:cop	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	elu	S	sg=sg|g=g	18	obl	CHECK
+17	üheks	N	sg=sg|tr=tr	18	det	_
+18	tähtsamaks	C	sg=sg|tr=tr	2	conj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 111570
+# text = Paar inimest ongi suundunud raja taha , ise on akadeemik viibinud välismaal lühemaid perioode .
+1	Paar	N	sg=sg|n=n	2	nummod	_
+2	inimest	S	sg=sg|p=p	4	nsubj	_
+3	ongi	V	b=b	4	aux	_
+4	suundunud	A	pl=pl|n=n	0	root	_
+5	raja	S	sg=sg|g=g	4	obl	_
+6	taha	K	_	5	case	_
+7	,	Z	_	11	punct	_
+8	ise	P	sg=sg|n=n	11	advmod	_
+9	on	V	b=b	11	aux	_
+10	akadeemik	S	sg=sg|n=n	11	obl	_
+11	viibinud	V	nud=nud	4	conj	_
+12	välismaal	S	sg=sg|ad=ad	14	nmod	_
+13	lühemaid	C	pl=pl|p=p	14	amod	_
+14	perioode	S	pl=pl|p=p	11	obl	CHECK
+15	.	Z	_	4	punct	_
+
+# sent_id = 10691514
+# text = Küsimusele , kas üleujutus-piirkonnas on ka eestlasi , vastas Lembit Luht , et tema teada seal praegu eestlasi ei viibi .
+1	Küsimusele	S	sg=sg|all=all	9	nsubj	_
+2	,	Z	_	7	punct	_
+3	kas	D	_	7	advmod	_
+4	üleujutus-piirkonnas	S	sg=sg|in=in	7	nsubj:cop	_
+5	on	V	vad=vad	7	cop	_
+6	ka	D	_	7	advmod	_
+7	eestlasi	S	pl=pl|p=p	1	acl	_
+8	,	Z	_	7	punct	_
+9	vastas	V	s=s	0	root	_
+10	Lembit	H	sg=sg|n=n	9	nsubj	_
+11	Luht	H	sg=sg|n=n	10	flat	_
+12	,	Z	_	20	punct	_
+13	et	J	_	20	mark	_
+14	tema	P	sg=sg|n=n	20	nsubj	_
+15	teada	V	da=da	20	advcl	_
+16	seal	D	_	20	advmod	_
+17	praegu	D	_	20	advmod	_
+18	eestlasi	S	pl=pl|p=p	20	obj	CHECK
+19	ei	V	neg=neg	20	aux	_
+20	viibi	V	o=o	9	ccomp	_
+21	.	Z	_	9	punct	_
+
+# sent_id = 3681994
+# text = Seejärel toimunud sõnavahetuses ähvardas Urb Reinsoni sõnul teda ja õuel viibinud töölisi relvaga .
+1	Seejärel	D	_	2	advmod	_
+2	toimunud	A	_	3	acl	_
+3	sõnavahetuses	S	sg=sg|in=in	4	obl	_
+4	ähvardas	V	s=s	0	root	_
+5	Urb	S	sg=sg|n=n	7	nmod	_
+6	Reinsoni	H	sg=sg|g=g	5	flat	_
+7	sõnul	S	pl=pl|ad=ad	4	obl	_
+8	teda	P	sg=sg|p=p	4	nsubj	CHECK
+9	ja	J	_	12	cc	_
+10	õuel	S	sg=sg|ad=ad	11	obl	_
+11	viibinud	A	sg=sg|n=n	12	acl	_
+12	töölisi	S	pl=pl|p=p	8	conj	_
+13	relvaga	S	sg=sg|kom=kom	4	obj	_
+14	.	Z	_	4	punct	_
+
+# sent_id = 1728703
+# text = Inimesed , kes viibisid laeva esimeses ja teises sektsioonis hukkusid admirali sõnul mõne sekundiga .
+1	Inimesed	S	pl=pl|n=n	10	nsubj	_
+2	,	Z	_	4	punct	_
+3	kes	P	pl=pl|n=n	4	nsubj	_
+4	viibisid	V	sid=sid	1	acl:relcl	_
+5	laeva	S	sg=sg|g=g	4	obl	CHECK
+6	esimeses	O	sg=sg|in=in	9	amod	_
+7	ja	J	_	8	cc	_
+8	teises	P	sg=sg|in=in	6	conj	_
+9	sektsioonis	S	sg=sg|in=in	4	obl	_
+10	hukkusid	V	sid=sid	0	root	_
+11	admirali	S	sg=sg|g=g	12	nmod	_
+12	sõnul	S	pl=pl|ad=ad	10	obl	_
+13	mõne	P	sg=sg|g=g	14	det	_
+14	sekundiga	S	sg=sg|kom=kom	10	obl	_
+15	.	Z	_	10	punct	_
+
+# sent_id = 1394146
+# text = Vastupidi : 27aastane näitlejatar on äärmiselt rahul sellega , et vahelduseks ei viibi ta meedia tähelepanu pidevas keskpunktis .
+1	Vastupidi	D	_	5	advmod	_
+2	:	Z	_	5	punct	_
+3	27aastane	A	sg=sg|n=n	4	amod	_
+4	näitlejatar	S	sg=sg|n=n	5	obl	_
+5	on	V	b=b	0	root	_
+6	äärmiselt	D	_	7	advmod	_
+7	rahul	D	_	5	compound:prt	_
+8	sellega	P	sg=sg|kom=kom	5	nsubj	_
+9	,	Z	_	13	punct	_
+10	et	J	_	13	mark	_
+11	vahelduseks	S	sg=sg|tr=tr	13	obl	_
+12	ei	V	neg=neg	13	aux	_
+13	viibi	V	o=o	8	acl	_
+14	ta	P	sg=sg|g=g	13	nsubj	_
+15	meedia	S	sg=sg|g=g	16	nmod	_
+16	tähelepanu	S	sg=sg|p=p	18	nmod	CHECK
+17	pidevas	A	sg=sg|in=in	18	amod	_
+18	keskpunktis	S	sg=sg|in=in	13	obl	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 2924149
+# text = Kuigi peasekretär Tiit Pädam ise kirikukogu ajaloolise otsuse juures ei viibinud , tehti tema väitel see tuliste vaidlusteta .
+1	Kuigi	J	_	11	mark	_
+2	peasekretär	S	sg=sg|n=n	11	nsubj	_
+3	Tiit	H	sg=sg|n=n	2	appos	_
+4	Pädam	H	sg=sg|n=n	3	flat	_
+5	ise	P	sg=sg|n=n	3	nmod	_
+6	kirikukogu	S	sg=sg|n=n	11	obl	CHECK
+7	ajaloolise	A	sg=sg|g=g	8	amod	_
+8	otsuse	S	sg=sg|g=g	11	obl	_
+9	juures	K	_	8	case	_
+10	ei	V	neg=neg	11	aux	_
+11	viibinud	A	sg=sg|n=n	13	advcl	_
+12	,	Z	_	11	punct	_
+13	tehti	V	ti=ti	0	root	_
+14	tema	P	sg=sg|g=g	15	nmod	_
+15	väitel	S	sg=sg|ad=ad	13	obl	_
+16	see	P	sg=sg|n=n	13	nsubj	_
+17	tuliste	A	pl=pl|g=g	18	amod	_
+18	vaidlusteta	S	pl=pl|ab=ab	13	obj	_
+19	.	Z	_	13	punct	_
+
+# sent_id = 18154232
+# text = Te levitate siin korduvalt laimu , nagu oleksin mina väitnud praeguses Riigikogus vaenlasi viibivat .
+1	Te	P	pl=pl|n=n	2	nsubj	_
+2	levitate	V	te=te	0	root	_
+3	siin	D	_	2	advmod	_
+4	korduvalt	D	_	2	advmod	_
+5	laimu	S	sg=sg|p=p	2	obj	_
+6	,	Z	_	10	punct	_
+7	nagu	D	_	10	mark	_
+8	oleksin	V	ksin=ksin	10	aux	_
+9	mina	S	sg=sg|n=n	10	nsubj	_
+10	väitnud	A	pl=pl|n=n	2	advcl	_
+11	praeguses	A	sg=sg|in=in	12	amod	_
+12	Riigikogus	S	sg=sg|in=in	13	nmod	_
+13	vaenlasi	S	pl=pl|p=p	14	obj	CHECK
+14	viibivat	V	vat=vat	10	xcomp	_
+15	.	Z	_	2	punct	_
+

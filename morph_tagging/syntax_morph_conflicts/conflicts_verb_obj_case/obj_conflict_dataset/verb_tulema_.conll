@@ -1,0 +1,502 @@
+# sent_id = 2553631
+# text = Keskerakonda tulid oma erakondade poolt tervitama Rahvaliidu poolt esimees Villu Reiljan , Tööpartei liider Tiit Toomsalu , Kristliku Rahvapartei esimees Aldo Vinkel , Ühendatud Rahvapartei poolt Leonid Mihhailov , Isamaaliidust Sirje Kiin , Res Publicast Urmas Reinsalu ning Möödukate tervituse edastas Pärmumaalt pärit möödukas Kaja Must .
+1	Keskerakonda	S	adt=adt	2	obl	CHECK
+2	tulid	V	sid=sid	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	erakondade	S	pl=pl|g=g	6	obl	_
+5	poolt	K	_	4	case	_
+6	tervitama	V	ma=ma	7	acl	_
+7	Rahvaliidu	S	sg=sg|g=g	2	obl	_
+8	poolt	K	_	7	case	_
+9	esimees	S	sg=sg|n=n	2	nsubj	_
+10	Villu	H	sg=sg|n=n	9	appos	_
+11	Reiljan	H	sg=sg|n=n	10	flat	_
+12	,	Z	_	14	punct	_
+13	Tööpartei	H	sg=sg|g=g	14	nmod	_
+14	liider	S	sg=sg|n=n	9	conj	_
+15	Tiit	H	sg=sg|n=n	14	appos	_
+16	Toomsalu	H	sg=sg|n=n	15	flat	_
+17	,	Z	_	20	punct	_
+18	Kristliku	H	sg=sg|g=g	20	nmod	_
+19	Rahvapartei	H	sg=sg|g=g	20	nmod	_
+20	esimees	S	sg=sg|n=n	9	conj	_
+21	Aldo	H	sg=sg|n=n	20	appos	_
+22	Vinkel	H	sg=sg|n=n	21	flat	_
+23	,	Z	_	27	punct	_
+24	Ühendatud	A	pl=pl|n=n	25	acl	_
+25	Rahvapartei	H	sg=sg|g=g	27	nmod	_
+26	poolt	K	_	25	case	_
+27	Leonid	H	sg=sg|n=n	9	conj	_
+28	Mihhailov	H	sg=sg|n=n	27	flat	_
+29	,	Z	_	30	punct	_
+30	Isamaaliidust	S	sg=sg|el=el	9	conj	_
+31	Sirje	H	sg=sg|n=n	30	appos	_
+32	Kiin	H	sg=sg|n=n	31	flat	_
+33	,	Z	_	34	punct	_
+34	Res	Y	?=?	9	conj	_
+35	Publicast	H	sg=sg|el=el	34	flat	_
+36	Urmas	H	sg=sg|n=n	34	flat	_
+37	Reinsalu	H	sg=sg|g=g	36	flat	_
+38	ning	J	_	41	cc	_
+39	Möödukate	H	sg=sg|g=g	40	nmod	_
+40	tervituse	S	sg=sg|g=g	41	obj	_
+41	edastas	V	s=s	2	conj	_
+42	Pärmumaalt	H	sg=sg|abl=abl	43	obl	_
+43	pärit	X	_	44	advmod	_
+44	möödukas	S	sg=sg|n=n	41	nsubj	_
+45	Kaja	H	sg=sg|n=n	44	appos	_
+46	Must	H	sg=sg|n=n	45	flat	_
+47	.	Z	_	2	punct	_
+
+# sent_id = 88142
+# text = Stanley Crossick möönab , et iga üksikjuhtum on omamoodi , kuid üldjuhul leidub eduka lobimise taga kaks asja : alustada tuleb eelnõu väljatöötamise võimalikult varases faasis ning jalg tuleb komisjoni ukse vahele saada rahvuskaaslasest ametniku abiga .
+1	Stanley	H	sg=sg|g=g	3	nsubj	_
+2	Crossick	H	sg=sg|n=n	1	flat	_
+3	möönab	V	b=b	0	root	_
+4	,	Z	_	9	punct	_
+5	et	J	_	9	mark	_
+6	iga	P	sg=sg|n=n	7	det	_
+7	üksikjuhtum	S	sg=sg|n=n	9	nsubj:cop	_
+8	on	V	vad=vad	9	cop	_
+9	omamoodi	D	_	3	ccomp	_
+10	,	Z	_	13	punct	_
+11	kuid	J	_	13	cc	_
+12	üldjuhul	S	sg=sg|ad=ad	13	obl	_
+13	leidub	V	b=b	3	conj	_
+14	eduka	A	sg=sg|g=g	15	amod	_
+15	lobimise	S	sg=sg|g=g	13	obl	_
+16	taga	K	_	15	case	_
+17	kaks	N	sg=sg|n=n	18	nummod	_
+18	asja	S	sg=sg|p=p	13	nsubj	_
+19	:	Z	_	20	punct	_
+20	alustada	V	da=da	13	parataxis	_
+21	tuleb	V	b=b	20	parataxis	_
+22	eelnõu	S	sg=sg|g=g	23	nmod	_
+23	väljatöötamise	S	sg=sg|g=g	21	obl	CHECK
+24	võimalikult	D	_	25	advmod	_
+25	varases	A	sg=sg|in=in	26	amod	_
+26	faasis	S	sg=sg|in=in	21	obl	_
+27	ning	J	_	29	cc	_
+28	jalg	S	sg=sg|n=n	29	nsubj	_
+29	tuleb	V	b=b	20	conj	_
+30	komisjoni	S	sg=sg|g=g	31	nmod	_
+31	ukse	S	sg=sg|g=g	33	obl	_
+32	vahele	K	_	31	case	_
+33	saada	V	da=da	29	csubj	_
+34	rahvuskaaslasest	S	sg=sg|el=el	35	nmod	_
+35	ametniku	S	sg=sg|g=g	36	nmod	_
+36	abiga	S	sg=sg|kom=kom	33	obj	_
+37	.	Z	_	3	punct	_
+
+# sent_id = 2301724
+# text = Tulnud riigikokku Saaremaalt , läks kompensatsioon enese sisseseadmiseks Tallinnas .
+1	Tulnud	A	pl=pl|n=n	5	advcl	_
+2	riigikokku	S	adt=adt	1	nsubj	CHECK
+3	Saaremaalt	H	sg=sg|abl=abl	1	obl	_
+4	,	Z	_	5	punct	_
+5	läks	V	s=s	0	root	_
+6	kompensatsioon	S	sg=sg|n=n	5	obl	_
+7	enese	P	sg=sg|g=g	6	nmod	_
+8	sisseseadmiseks	S	sg=sg|tr=tr	5	obl	_
+9	Tallinnas	H	sg=sg|in=in	5	obl	_
+10	.	Z	_	5	punct	_
+
+# sent_id = 6796307
+# text = Pühapäeval kella 16.15 tuli Võru politseisse end Usbekistani kodanikuks nimetav Bahadõr , kes oma sõnade kohaselt oli hommikul ebaseaduslikult ületanud Eesti piiri .
+1	Pühapäeval	S	sg=sg|ad=ad	4	obl	_
+2	kella	S	sg=sg|p=p	4	obl	_
+3	16.15	N	?=?	2	nummod	_
+4	tuli	V	s=s	0	root	_
+5	Võru	H	sg=sg|g=g	6	nmod	_
+6	politseisse	S	sg=sg|ill=ill	4	nsubj	_
+7	end	Y	?=?	4	obj	CHECK
+8	Usbekistani	G	_	9	amod	_
+9	kodanikuks	S	sg=sg|tr=tr	10	nmod	_
+10	nimetav	S	sg=sg|n=n	4	obl	_
+11	Bahadõr	H	sg=sg|n=n	10	appos	_
+12	,	Z	_	20	punct	_
+13	kes	P	pl=pl|n=n	20	nsubj	_
+14	oma	P	sg=sg|g=g	15	nmod	_
+15	sõnade	S	pl=pl|g=g	20	obl	_
+16	kohaselt	K	_	15	case	_
+17	oli	V	s=s	20	aux	_
+18	hommikul	S	sg=sg|ad=ad	20	obj	_
+19	ebaseaduslikult	D	_	20	advmod	_
+20	ületanud	A	pl=pl|n=n	10	acl:relcl	_
+21	Eesti	H	sg=sg|g=g	22	nmod	_
+22	piiri	S	sg=sg|p=p	20	obj	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 1473494
+# text = Tule jumal appi ! " räägib Zahharov veenvusega , nagu üks hea näitleja seda oskab , ehkki tundub , et ta veidi liialdab .
+1	Tule	V	o=o	0	root	_
+2	jumal	S	sg=sg|n=n	1	nsubj	CHECK
+3	appi	S	adt=adt	1	obl	_
+4	!	Z	_	1	punct	_
+5	"	Z	_	1	punct	_
+6	räägib	V	b=b	1	parataxis	_
+7	Zahharov	H	sg=sg|n=n	8	nmod	_
+8	veenvusega	S	sg=sg|kom=kom	6	nsubj	_
+9	,	Z	_	15	punct	_
+10	nagu	J	_	15	mark	_
+11	üks	P	sg=sg|n=n	13	det	_
+12	hea	A	sg=sg|n=n	13	amod	_
+13	näitleja	S	sg=sg|n=n	15	nsubj	_
+14	seda	P	sg=sg|p=p	15	obj	_
+15	oskab	V	b=b	6	advcl	_
+16	,	Z	_	18	punct	_
+17	ehkki	J	_	18	mark	_
+18	tundub	V	b=b	15	advcl	_
+19	,	Z	_	23	punct	_
+20	et	J	_	23	mark	_
+21	ta	P	sg=sg|n=n	23	nsubj	_
+22	veidi	D	_	23	advmod	_
+23	liialdab	V	b=b	18	csubj	_
+24	.	Z	_	1	punct	_
+
+# sent_id = 871584
+# text = Vahel pargib ta karistuseks oma auto risti parkimishuligaani taha , et see tuleks kõrvad lontis ja vabandaks .
+1	Vahel	D	_	2	advmod	_
+2	pargib	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	karistuseks	S	sg=sg|tr=tr	2	obj	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	auto	S	sg=sg|g=g	7	nmod	_
+7	risti	S	sg=sg|g=g	8	nmod	_
+8	parkimishuligaani	S	sg=sg|g=g	2	obl	_
+9	taha	K	_	8	case	_
+10	,	Z	_	13	punct	_
+11	et	J	_	13	mark	_
+12	see	P	sg=sg|n=n	13	nsubj	_
+13	tuleks	V	ks=ks	2	advcl	_
+14	kõrvad	S	pl=pl|n=n	13	obl	CHECK
+15	lontis	D	_	13	advmod	_
+16	ja	J	_	17	cc	_
+17	vabandaks	V	ks=ks	13	conj	_
+18	.	Z	_	2	punct	_
+
+# sent_id = 10026357
+# text = Templiväljakule sisenedes tõttavad teile vastu noored vabatahtlikud , kes on tulnud kõikjalt maailmast end Salt Lake Citysse usu alal täiendama , ning viivad teid ringkäigule , mis on segu ameerikalikust ülevoolavast sõbralikkusest ning karmist usupropagandast .
+1	Templiväljakule	S	sg=sg|all=all	2	obl	_
+2	sisenedes	V	des=des	0	root	_
+3	tõttavad	V	vad=vad	2	nsubj	_
+4	teile	P	pl=pl|all=all	2	nsubj	_
+5	vastu	D	_	2	compound:prt	_
+6	noored	A	pl=pl|n=n	7	amod	_
+7	vabatahtlikud	A	pl=pl|n=n	3	obj	_
+8	,	Z	_	11	punct	_
+9	kes	P	sg=sg|n=n	11	nsubj	_
+10	on	V	vad=vad	11	aux	_
+11	tulnud	V	nud=nud	7	acl:relcl	_
+12	kõikjalt	D	_	11	advmod	_
+13	maailmast	S	sg=sg|el=el	11	obl	_
+14	end	Y	?=?	20	obj	CHECK
+15	Salt	H	sg=sg|n=n	18	nmod	_
+16	Lake	H	sg=sg|n=n	15	flat	_
+17	Citysse	H	sg=sg|ill=ill	15	flat	_
+18	usu	S	sg=sg|g=g	19	nmod	_
+19	alal	S	sg=sg|ad=ad	20	obj	_
+20	täiendama	V	ma=ma	11	xcomp	_
+21	,	Z	_	23	punct	_
+22	ning	J	_	23	cc	_
+23	viivad	V	vad=vad	11	conj	_
+24	teid	P	pl=pl|p=p	23	obj	_
+25	ringkäigule	S	sg=sg|all=all	23	obj	_
+26	,	Z	_	29	punct	_
+27	mis	P	sg=sg|n=n	29	nsubj:cop	_
+28	on	V	vad=vad	29	cop	_
+29	segu	S	sg=sg|n=n	25	acl:relcl	_
+30	ameerikalikust	A	sg=sg|el=el	32	amod	_
+31	ülevoolavast	A	sg=sg|el=el	32	acl	_
+32	sõbralikkusest	S	sg=sg|el=el	29	obj	_
+33	ning	J	_	35	cc	_
+34	karmist	A	sg=sg|el=el	35	amod	_
+35	usupropagandast	S	sg=sg|el=el	32	conj	_
+36	.	Z	_	2	punct	_
+
+# sent_id = 1918008
+# text = Paar neist on saanud väljaõppe Leningradis , ülejäänud on kõik teistelt ametialadelt telesse tulnud .
+1	Paar	N	sg=sg|n=n	4	nsubj	_
+2	neist	P	pl=pl|el=el	1	det	_
+3	on	V	vad=vad	4	aux	_
+4	saanud	A	pl=pl|n=n	0	root	_
+5	väljaõppe	S	sg=sg|g=g	4	obj	_
+6	Leningradis	H	sg=sg|in=in	5	appos	_
+7	,	Z	_	14	punct	_
+8	ülejäänud	S	pl=pl|n=n	14	nsubj	_
+9	on	V	vad=vad	14	aux	_
+10	kõik	P	sg=sg|n=n	11	det	CHECK
+11	teistelt	P	pl=pl|abl=abl	14	nsubj	_
+12	ametialadelt	S	pl=pl|abl=abl	13	nmod	_
+13	telesse	S	sg=sg|ill=ill	14	obl	_
+14	tulnud	A	_	4	conj	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 11279015
+# text = Pensionär Eevi sõnul oleks see väga raske , talupidaja Tiiu usub sellega toime tulevat .
+1	Pensionär	H	sg=sg|n=n	3	nmod	_
+2	Eevi	H	sg=sg|g=g	1	flat	_
+3	sõnul	S	pl=pl|ad=ad	7	obl	_
+4	oleks	V	ks=ks	7	cop	_
+5	see	P	sg=sg|n=n	7	nsubj:cop	_
+6	väga	D	_	7	advmod	_
+7	raske	A	sg=sg|n=n	0	root	_
+8	,	Z	_	11	punct	_
+9	talupidaja	S	sg=sg|n=n	11	nsubj	_
+10	Tiiu	H	sg=sg|n=n	9	appos	_
+11	usub	V	b=b	7	conj	_
+12	sellega	P	sg=sg|kom=kom	13	det	_
+13	toime	S	sg=sg|n=n	14	obl	CHECK
+14	tulevat	V	vat=vat	11	xcomp	_
+15	.	Z	_	7	punct	_
+
+# sent_id = 366695
+# text = Esimesel korral küll sõjavang kohkus lauast eemale , kui ohvitsere nägi - ta arvas pererahvale pahandust tulevat sellest , et teda teistega võrdselt koheldakse .
+1	Esimesel	O	sg=sg|ad=ad	2	amod	_
+2	korral	S	sg=sg|ad=ad	5	obl	_
+3	küll	D	_	5	advmod	_
+4	sõjavang	S	sg=sg|n=n	5	nsubj	_
+5	kohkus	V	s=s	0	root	_
+6	lauast	S	sg=sg|el=el	5	obj	_
+7	eemale	D	_	5	compound:prt	_
+8	,	Z	_	11	punct	_
+9	kui	J	_	11	mark	_
+10	ohvitsere	S	pl=pl|p=p	11	nsubj	_
+11	nägi	V	s=s	5	advcl	_
+12	-	Z	_	14	punct	_
+13	ta	P	sg=sg|n=n	14	nsubj	_
+14	arvas	V	s=s	11	parataxis	_
+15	pererahvale	S	sg=sg|all=all	16	nmod	_
+16	pahandust	S	sg=sg|p=p	17	obl	CHECK
+17	tulevat	V	vat=vat	14	conj	_
+18	sellest	P	sg=sg|el=el	17	nsubj	_
+19	,	Z	_	24	punct	_
+20	et	J	_	24	mark	_
+21	teda	P	sg=sg|p=p	24	nsubj	_
+22	teistega	P	pl=pl|kom=kom	24	obj	_
+23	võrdselt	D	_	24	advmod	_
+24	koheldakse	V	takse=takse	18	acl	_
+25	.	Z	_	5	punct	_
+
+# sent_id = 1402973
+# text = Ütlesin , et tulgu minuga hotelli - uus patarei on seal . "
+1	Ütlesin	V	sin=sin	0	root	_
+2	,	Z	_	4	punct	_
+3	et	J	_	4	mark	_
+4	tulgu	V	gu=gu	1	ccomp	_
+5	minuga	P	sg=sg|kom=kom	4	nsubj	_
+6	hotelli	S	sg=sg|g=g	4	obl	CHECK
+7	-	Z	_	11	punct	_
+8	uus	A	sg=sg|n=n	9	amod	_
+9	patarei	S	sg=sg|g=g	11	nsubj:cop	_
+10	on	V	vad=vad	11	cop	_
+11	seal	D	_	4	parataxis	_
+12	.	Z	_	1	punct	_
+13	"	Z	_	1	punct	_
+
+# sent_id = 642295
+# text = Kui keegi teine poleks tuttavat nähes kergitanud mütsi , ei tuleks te selle pealegi , et mõnel rõskel sügispäeval sellist tobedust teha .
+1	Kui	D	_	7	mark	_
+2	keegi	P	sg=sg|n=n	3	nmod	_
+3	teine	O	sg=sg|n=n	7	nsubj	_
+4	poleks	V	neg=neg|ks=ks	7	aux	_
+5	tuttavat	S	sg=sg|p=p	7	obj	_
+6	nähes	V	des=des	7	xcomp	_
+7	kergitanud	A	sg=sg|n=n	11	advcl	_
+8	mütsi	S	sg=sg|p=p	7	obj	_
+9	,	Z	_	7	punct	_
+10	ei	V	neg=neg	11	aux	_
+11	tuleks	V	ks=ks	0	root	_
+12	te	P	pl=pl|n=n	11	nsubj	_
+13	selle	P	sg=sg|g=g	11	obj	CHECK
+14	pealegi	D	_	11	advmod	_
+15	,	Z	_	22	punct	_
+16	et	J	_	22	mark	_
+17	mõnel	P	sg=sg|ad=ad	19	det	_
+18	rõskel	A	sg=sg|ad=ad	19	amod	_
+19	sügispäeval	S	sg=sg|ad=ad	22	nsubj	_
+20	sellist	P	sg=sg|p=p	21	det	_
+21	tobedust	S	sg=sg|p=p	22	obj	_
+22	teha	V	da=da	11	advcl	_
+23	.	Z	_	11	punct	_
+
+# sent_id = 5676
+# text = See summa on tulnud kõik teie fondilt ?
+1	See	P	sg=sg|n=n	2	det	_
+2	summa	S	sg=sg|n=n	4	obl	_
+3	on	V	b=b	4	aux	_
+4	tulnud	V	nud=nud	0	root	_
+5	kõik	P	sg=sg|n=n	7	det	CHECK
+6	teie	P	pl=pl|g=g	7	nmod	_
+7	fondilt	S	sg=sg|abl=abl	4	nsubj	_
+8	?	Z	_	4	punct	_
+
+# sent_id = 4834491
+# text = " Eestis pole küla ega suguvõsa , kust keegi poleks ülikooli õppima tulnud , " lausus Tulviste .
+1	"	Z	_	2	punct	_
+2	Eestis	H	sg=sg|in=in	0	root	_
+3	pole	V	neg=neg|o=o	2	cop	_
+4	küla	S	sg=sg|p=p	2	nsubj:cop	_
+5	ega	J	_	6	cc	_
+6	suguvõsa	S	sg=sg|p=p	4	conj	_
+7	,	Z	_	13	punct	_
+8	kust	D	_	13	mark	_
+9	keegi	P	sg=sg|n=n	13	nsubj	_
+10	poleks	V	neg=neg|ks=ks	13	aux	_
+11	ülikooli	S	sg=sg|g=g	12	obj	CHECK
+12	õppima	V	ma=ma	13	xcomp	_
+13	tulnud	A	sg=sg|n=n	6	acl	_
+14	,	Z	_	2	punct	_
+15	"	Z	_	2	punct	_
+16	lausus	V	s=s	2	parataxis	_
+17	Tulviste	H	sg=sg|n=n	16	nsubj	_
+18	.	Z	_	2	punct	_
+
+# sent_id = 19848054
+# text = PandamatuKonn: nähh pidid ju elistama olexin suitsu tulnud tegema :P
+1	PandamatuKonn	S	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	nähh	I	_	6	discourse	_
+4	pidid	V	sid=sid	6	aux	_
+5	ju	D	_	6	advmod	_
+6	elistama	V	ma=ma	1	parataxis	_
+7	olexin	S	sg=sg|n=n	8	nmod	_
+8	suitsu	S	adt=adt	9	obj	CHECK
+9	tulnud	A	_	10	acl	_
+10	tegema	V	ma=ma	6	conj	_
+11	:P	Z	?=?	1	punct	_
+
+# sent_id = 5043211
+# text = " Merilin oli Kasemaa lemmik - heledate juuste ja suurte rindadega tüdruk , " rääkis Karin , kelle väitel tegi Kasemaa tema sõbrannale Merilinile ka ettepaneku stiilis " tule maga minuga " .
+1	"	Z	_	2	punct	_
+2	Merilin	H	sg=sg|n=n	0	root	_
+3	oli	V	s=s	2	cop	_
+4	Kasemaa	S	sg=sg|g=g	5	nmod	_
+5	lemmik	S	sg=sg|n=n	2	nsubj:cop	_
+6	-	Z	_	8	punct	_
+7	heledate	A	pl=pl|g=g	8	amod	_
+8	juuste	S	pl=pl|g=g	5	appos	_
+9	ja	J	_	12	cc	_
+10	suurte	A	pl=pl|g=g	11	amod	_
+11	rindadega	S	pl=pl|kom=kom	12	nmod	_
+12	tüdruk	S	sg=sg|n=n	8	conj	_
+13	,	Z	_	5	punct	_
+14	"	Z	_	5	punct	_
+15	rääkis	V	s=s	2	parataxis	_
+16	Karin	H	sg=sg|n=n	15	nsubj	_
+17	,	Z	_	19	punct	_
+18	kelle	P	sg=sg|g=g	19	nmod	_
+19	väitel	S	sg=sg|ad=ad	20	obl	_
+20	tegi	V	s=s	16	acl:relcl	_
+21	Kasemaa	S	sg=sg|n=n	20	obj	_
+22	tema	P	sg=sg|g=g	23	nmod	_
+23	sõbrannale	S	sg=sg|all=all	20	obl	_
+24	Merilinile	H	sg=sg|g=g	23	appos	_
+25	ka	D	_	26	advmod	_
+26	ettepaneku	S	sg=sg|g=g	20	obj	_
+27	stiilis	S	sg=sg|in=in	26	nmod	_
+28	"	Z	_	29	punct	_
+29	tule	V	o=o	26	acl	_
+30	maga	V	o=o	29	nsubj	CHECK
+31	minuga	P	sg=sg|kom=kom	30	nsubj	_
+32	"	Z	_	29	punct	_
+33	.	Z	_	2	punct	_
+
+# sent_id = 48944
+# text = “ Eriti soovin paluda vabandust nendelt üksikutelt inimestelt , kes mind lennujaama lilledega tervitama olid tulnud .
+1	“	Z	_	3	punct	_
+2	Eriti	D	_	3	advmod	_
+3	soovin	V	n=n	0	root	_
+4	paluda	V	da=da	3	nsubj	_
+5	vabandust	S	sg=sg|p=p	4	obj	_
+6	nendelt	P	pl=pl|abl=abl	8	det	_
+7	üksikutelt	A	pl=pl|abl=abl	8	amod	_
+8	inimestelt	S	pl=pl|abl=abl	4	obj	_
+9	,	Z	_	16	punct	_
+10	kes	P	sg=sg|n=n	16	nsubj	_
+11	mind	P	sg=sg|p=p	16	obj	CHECK
+12	lennujaama	S	sg=sg|g=g	13	nmod	_
+13	lilledega	S	pl=pl|kom=kom	14	obj	_
+14	tervitama	V	ma=ma	16	xcomp	_
+15	olid	V	sid=sid	16	aux	_
+16	tulnud	A	_	8	acl:relcl	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 1395654
+# text = Kogu pakutava kraami nägemiseks ja iga päev oma meiliaadressil kolme uue pildi saamiseks tulnuks end 30 dollari ehk umbes 500 krooni eest kasutajaks registreerida .
+1	Kogu	A	_	3	det	_
+2	pakutava	A	sg=sg|g=g	3	acl	_
+3	kraami	S	sg=sg|g=g	4	nmod	_
+4	nägemiseks	S	sg=sg|tr=tr	14	obl	_
+5	ja	J	_	9	cc	_
+6	iga	P	sg=sg|g=g	7	det	_
+7	päev	S	sg=sg|n=n	9	nmod	_
+8	oma	P	sg=sg|g=g	9	nmod	_
+9	meiliaadressil	S	sg=sg|ad=ad	12	nmod	_
+10	kolme	N	sg=sg|g=g	12	nummod	_
+11	uue	A	sg=sg|g=g	12	amod	_
+12	pildi	S	sg=sg|g=g	13	nmod	_
+13	saamiseks	S	sg=sg|tr=tr	4	conj	_
+14	tulnuks	V	nuks=nuks	0	root	_
+15	end	P	sg=sg|p=p	14	nsubj	CHECK
+16	30	N	?=?	17	nummod	_
+17	dollari	S	sg=sg|g=g	14	obl	_
+18	ehk	J	_	24	cc	_
+19	umbes	D	_	20	advmod	_
+20	500	N	?=?	21	nummod	_
+21	krooni	S	sg=sg|g=g	24	obl	_
+22	eest	K	_	21	case	_
+23	kasutajaks	S	sg=sg|tr=tr	24	obj	_
+24	registreerida	V	da=da	14	conj	_
+25	.	Z	_	14	punct	_
+
+# sent_id = 3241177
+# text = " Läätspuu õitseb praegu ning nüüd peaks riburada järele tulema vaarikas , pohl ja mustikas , rohumaadelt ka ristikhein ja lutsern , " arvas Rohtla suurema meekorje alles tulevat .
+1	"	Z	_	3	punct	_
+2	Läätspuu	S	sg=sg|n=n	3	nsubj	_
+3	õitseb	V	b=b	0	root	_
+4	praegu	D	_	3	advmod	_
+5	ning	J	_	10	cc	_
+6	nüüd	D	_	10	advmod	_
+7	peaks	V	ks=ks	10	aux	_
+8	riburada	D	_	10	advmod	_
+9	järele	D	_	10	compound:prt	_
+10	tulema	V	ma=ma	3	conj	_
+11	vaarikas	S	sg=sg|n=n	10	nsubj	_
+12	,	Z	_	13	punct	_
+13	pohl	S	sg=sg|n=n	11	conj	_
+14	ja	J	_	15	cc	_
+15	mustikas	S	sg=sg|n=n	11	conj	_
+16	,	Z	_	17	punct	_
+17	rohumaadelt	S	pl=pl|abl=abl	11	conj	_
+18	ka	D	_	19	advmod	_
+19	ristikhein	S	sg=sg|n=n	11	conj	_
+20	ja	J	_	21	cc	_
+21	lutsern	S	sg=sg|n=n	11	conj	_
+22	,	Z	_	3	punct	_
+23	"	Z	_	3	punct	_
+24	arvas	V	s=s	3	parataxis	_
+25	Rohtla	H	sg=sg|n=n	24	nsubj	_
+26	suurema	C	sg=sg|g=g	27	amod	_
+27	meekorje	S	sg=sg|g=g	29	obj	CHECK
+28	alles	D	_	29	advmod	_
+29	tulevat	V	vat=vat	24	xcomp	_
+30	.	Z	_	3	punct	_
+
+# sent_id = 19449073
+# text = Gelit: ei tia ... mine otsi mõni ja tule ytle siis meile kah
+1	Gelit	H	sg=sg|n=n	4	parataxis	_
+2	:	Z	_	4	punct	_
+3	ei	V	neg=neg	4	aux	_
+4	tia	S	sg=sg|g=g	0	root	_
+5	...	Z	_	6	punct	_
+6	mine	V	o=o	4	conj	_
+7	otsi	V	o=o	6	conj	_
+8	mõni	P	sg=sg|n=n	7	nsubj	_
+9	ja	J	_	10	cc	_
+10	tule	V	o=o	4	conj	_
+11	ytle	V	o=o	10	obl	CHECK
+12	siis	D	_	10	advmod	_
+13	meile	P	pl=pl|all=all	10	nsubj	_
+14	kah	D	_	10	advmod	_
+

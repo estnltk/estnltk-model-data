@@ -1,0 +1,409 @@
+# sent_id = 8808223
+# text = Juhtus , et Jott tuli Otiga kalale küll , aga unustas õnge maha ning vahtis siis niisama ringi , sumas Luutsnas , sogas vett ja hirmutas kalu , kui noid sääl oligi .
+1	Juhtus	V	s=s	0	root	_
+2	,	Z	_	5	punct	_
+3	et	J	_	5	mark	_
+4	Jott	H	sg=sg|n=n	5	obl	_
+5	tuli	V	s=s	1	csubj	_
+6	Otiga	H	sg=sg|kom=kom	5	nsubj	_
+7	kalale	S	sg=sg|all=all	5	nsubj	_
+8	küll	D	_	5	advmod	_
+9	,	Z	_	11	punct	_
+10	aga	J	_	11	cc	_
+11	unustas	V	s=s	5	conj	_
+12	õnge	S	adt=adt	11	obj	_
+13	maha	D	_	11	compound:prt	_
+14	ning	J	_	15	cc	_
+15	vahtis	V	s=s	5	conj	_
+16	siis	D	_	15	advmod	_
+17	niisama	D	_	15	advmod	_
+18	ringi	D	_	15	compound:prt	_
+19	,	Z	_	20	punct	_
+20	sumas	V	s=s	5	conj	_
+21	Luutsnas	H	sg=sg|n=n	20	obj	CHECK
+22	,	Z	_	23	punct	_
+23	sogas	V	s=s	5	conj	_
+24	vett	S	sg=sg|p=p	23	obj	_
+25	ja	J	_	26	cc	_
+26	hirmutas	V	s=s	5	conj	_
+27	kalu	S	sg=sg|p=p	26	obj	_
+28	,	Z	_	32	punct	_
+29	kui	J	_	31	mark	_
+30	noid	P	pl=pl|p=p	31	det	_
+31	sääl	S	sg=sg|n=n	26	advcl	_
+32	oligi	V	s=s	26	advcl	_
+33	.	Z	_	1	punct	_
+
+# sent_id = 5227745
+# text = Kontserti krooninud " Singet dem Herrn " ehk koguni ületas plaadiversiooni .
+1	Kontserti	S	adt=adt	2	obj	CHECK
+2	krooninud	A	sg=sg|n=n	4	acl	_
+3	"	Z	_	4	punct	_
+4	Singet	H	sg=sg|n=n	10	nsubj	_
+5	dem	S	sg=sg|n=n	4	flat	_
+6	Herrn	H	sg=sg|n=n	4	flat	_
+7	"	Z	_	4	punct	_
+8	ehk	J	_	10	cc	_
+9	koguni	D	_	10	advmod	_
+10	ületas	V	s=s	0	root	_
+11	plaadiversiooni	S	sg=sg|p=p	10	obj	_
+12	.	Z	_	10	punct	_
+
+# sent_id = 3043745
+# text = Kuigi politsei ei välista versiooni , et poiss Tambet võis hääletades ka kuhugile kaugemale sõita , kontrolliti täna veelkord ümberkaudseid metsi ja tühju hooneid .
+1	Kuigi	D	_	4	mark	_
+2	politsei	S	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	välista	V	o=o	17	advcl	_
+5	versiooni	S	sg=sg|p=p	4	obj	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	poiss	S	sg=sg|n=n	11	nsubj	_
+9	Tambet	H	sg=sg|n=n	8	appos	_
+10	võis	V	s=s	11	aux	_
+11	hääletades	V	des=des	5	acl	_
+12	ka	D	_	15	advmod	_
+13	kuhugile	D	_	14	advmod	_
+14	kaugemale	D	_	15	advmod	_
+15	sõita	V	da=da	11	conj	_
+16	,	Z	_	11	punct	_
+17	kontrolliti	V	ti=ti	0	root	_
+18	täna	D	_	17	advmod	_
+19	veelkord	D	_	17	advmod	_
+20	ümberkaudseid	A	pl=pl|p=p	21	amod	_
+21	metsi	S	pl=pl|p=p	17	obj	_
+22	ja	J	_	23	cc	_
+23	tühju	V	o=o	17	conj	_
+24	hooneid	S	pl=pl|p=p	23	obj	CHECK
+25	.	Z	_	17	punct	_
+
+# sent_id = 10074969
+# text = Olümpiamängudel osalevate meeskondade ülesandmislehti silmitsedes tundub korraga , nagu sirviks hokiajaloo legendide raamatut : tshehh Jagr , soomlane Kurri , jänki Richter , rootslane Forsberg ning kanadalane Gretzky .
+1	Olümpiamängudel	S	pl=pl|ad=ad	2	obj	_
+2	osalevate	A	pl=pl|g=g	3	acl	_
+3	meeskondade	S	pl=pl|g=g	4	nmod	_
+4	ülesandmislehti	S	pl=pl|p=p	5	obj	_
+5	silmitsedes	V	des=des	0	root	_
+6	tundub	V	b=b	5	aux	_
+7	korraga	D	_	5	advmod	_
+8	,	Z	_	10	punct	_
+9	nagu	J	_	10	mark	_
+10	sirviks	V	ks=ks	5	advcl	_
+11	hokiajaloo	S	sg=sg|g=g	12	nmod	_
+12	legendide	S	pl=pl|g=g	10	obj	_
+13	raamatut	S	sg=sg|p=p	10	obj	CHECK
+14	:	Z	_	15	punct	_
+15	tshehh	S	sg=sg|n=n	10	parataxis	_
+16	Jagr	H	sg=sg|n=n	15	appos	_
+17	,	Z	_	18	punct	_
+18	soomlane	S	sg=sg|n=n	15	conj	_
+19	Kurri	H	sg=sg|n=n	18	appos	_
+20	,	Z	_	21	punct	_
+21	jänki	S	sg=sg|n=n	15	conj	_
+22	Richter	H	sg=sg|n=n	21	appos	_
+23	,	Z	_	24	punct	_
+24	rootslane	S	sg=sg|n=n	15	conj	_
+25	Forsberg	H	sg=sg|n=n	24	appos	_
+26	ning	J	_	27	cc	_
+27	kanadalane	S	sg=sg|n=n	15	conj	_
+28	Gretzky	H	sg=sg|n=n	27	appos	_
+29	.	Z	_	5	punct	_
+
+# sent_id = 21242483
+# text = cela_kylmetab: tere lahe
+1	cela_kylmetab	V	b=b	0	root	_
+2	:	Z	_	1	punct	_
+3	tere	S	sg=sg|g=g	4	nmod	_
+4	lahe	S	sg=sg|g=g	1	parataxis	CHECK
+
+# sent_id = 3331068
+# text = " Komisjonid tegelevad kõigi nende laste mõjutamisega , kes on nooremad kui 14 ja näppavad näiteks kommi , " ütles Sadam .
+1	"	Z	_	3	punct	_
+2	Komisjonid	S	pl=pl|n=n	3	obl	_
+3	tegelevad	V	vad=vad	0	root	_
+4	kõigi	P	pl=pl|g=g	7	det	_
+5	nende	P	pl=pl|g=g	7	det	_
+6	laste	S	pl=pl|g=g	7	nmod	_
+7	mõjutamisega	S	sg=sg|kom=kom	3	obl	_
+8	,	Z	_	11	punct	_
+9	kes	P	pl=pl|n=n	11	nsubj:cop	_
+10	on	V	b=b	11	cop	_
+11	nooremad	C	pl=pl|n=n	7	acl:relcl	_
+12	kui	D	_	13	mark	_
+13	14	N	?=?	11	advcl	_
+14	ja	J	_	15	cc	_
+15	näppavad	V	vad=vad	11	conj	_
+16	näiteks	S	sg=sg|tr=tr	17	advmod	_
+17	kommi	S	adt=adt	15	obj	CHECK
+18	,	Z	_	3	punct	_
+19	"	Z	_	3	punct	_
+20	ütles	V	s=s	3	parataxis	_
+21	Sadam	H	sg=sg|n=n	20	nsubj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 2233782
+# text = Poolfinaalseeria otsustavas kohtumises KK Baltika vastu hinnatava viigikolmese toonud Indrek Rumma riskis viimastel minutitel meeleheitlikult , kuid rassis tühja .
+1	Poolfinaalseeria	S	sg=sg|g=g	3	nmod	_
+2	otsustavas	A	sg=sg|in=in	3	acl	_
+3	kohtumises	S	sg=sg|in=in	7	obj	_
+4	KK	Y	?=?	3	nmod	_
+5	Baltika	H	sg=sg|g=g	4	flat	_
+6	vastu	K	_	4	case	_
+7	hinnatava	A	sg=sg|g=g	10	acl	_
+8	viigikolmese	A	sg=sg|g=g	9	obj	_
+9	toonud	A	pl=pl|n=n	10	acl	_
+10	Indrek	H	sg=sg|n=n	12	nsubj	_
+11	Rumma	H	sg=sg|n=n	10	flat	_
+12	riskis	V	s=s	0	root	_
+13	viimastel	A	pl=pl|ad=ad	14	amod	_
+14	minutitel	S	pl=pl|ad=ad	12	obl	_
+15	meeleheitlikult	D	_	12	advmod	_
+16	,	Z	_	18	punct	_
+17	kuid	J	_	18	cc	_
+18	rassis	V	s=s	12	conj	_
+19	tühja	A	sg=sg|p=p	18	obj	CHECK
+20	.	Z	_	12	punct	_
+
+# sent_id = 15945525
+# text = no proovisin t6mbasin selle sialt ja l2ksin sinna video kaarid settingutese
+1	no	I	_	2	discourse	_
+2	proovisin	V	sin=sin	0	root	_
+3	t6mbasin	V	n=n	2	nsubj	_
+4	selle	P	sg=sg|g=g	5	det	_
+5	sialt	S	sg=sg|n=n	3	obj	CHECK
+6	ja	J	_	7	cc	_
+7	l2ksin	S	sg=sg|n=n	5	conj	_
+8	sinna	D	_	7	advmod	_
+9	video	S	sg=sg|g=g	10	nmod	_
+10	kaarid	S	pl=pl|n=n	11	nmod	_
+11	settingutese	S	sg=sg|g=g	7	obj	_
+
+# sent_id = 3443519
+# text = Päeval Tallinnas ringi kolanud ja raha raisanud noored olid juba laeva tulles purjus , kuid tõeline möll algas alles merel .
+1	Päeval	H	sg=sg|n=n	4	obl	_
+2	Tallinnas	H	sg=sg|in=in	4	obl	_
+3	ringi	D	_	4	compound:prt	_
+4	kolanud	A	_	8	acl	_
+5	ja	J	_	7	cc	_
+6	raha	S	sg=sg|g=g	7	obj	CHECK
+7	raisanud	A	sg=sg|n=n	4	conj	_
+8	noored	S	pl=pl|n=n	12	nsubj	_
+9	olid	V	sid=sid	12	aux	_
+10	juba	D	_	11	advmod	_
+11	laeva	S	sg=sg|p=p	12	obl	_
+12	tulles	V	des=des	0	root	_
+13	purjus	A	_	12	obl	_
+14	,	Z	_	18	punct	_
+15	kuid	J	_	18	cc	_
+16	tõeline	A	sg=sg|n=n	17	amod	_
+17	möll	S	sg=sg|n=n	18	nsubj	_
+18	algas	V	s=s	12	conj	_
+19	alles	D	_	20	advmod	_
+20	merel	S	sg=sg|ad=ad	18	obl	_
+21	.	Z	_	12	punct	_
+
+# sent_id = 3481106
+# text = Majas elavad lapsed on haigestunud külma ja niiskuse tõttu tekkivasse elamulesta , inimeste riided hallitavad .
+1	Majas	H	sg=sg|in=in	2	obl	_
+2	elavad	V	vad=vad	3	acl	_
+3	lapsed	S	pl=pl|n=n	5	nsubj	_
+4	on	V	vad=vad	5	aux	_
+5	haigestunud	V	nud=nud	0	root	_
+6	külma	S	sg=sg|g=g	10	obl	_
+7	ja	J	_	8	cc	_
+8	niiskuse	S	sg=sg|g=g	6	conj	_
+9	tõttu	K	_	6	case	_
+10	tekkivasse	A	sg=sg|ill=ill	11	acl	_
+11	elamulesta	S	adt=adt	5	obj	_
+12	,	Z	_	15	punct	_
+13	inimeste	S	pl=pl|g=g	15	nsubj	_
+14	riided	S	pl=pl|n=n	15	obj	CHECK
+15	hallitavad	V	vad=vad	5	conj	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 7544617
+# text = Väga tore oleks , kui keegi väntaks klubiversiooni , kus DJd sahmerdaksid , vinüülid kaenlas , ja ajaksid hausimehejuttu .
+1	Väga	D	_	2	advmod	_
+2	tore	A	sg=sg|n=n	0	root	_
+3	oleks	V	ks=ks	2	cop	_
+4	,	Z	_	7	punct	_
+5	kui	J	_	7	mark	_
+6	keegi	P	sg=sg|n=n	7	nsubj	_
+7	väntaks	V	ks=ks	2	advcl	_
+8	klubiversiooni	S	adt=adt	7	obj	_
+9	,	Z	_	12	punct	_
+10	kus	D	_	12	mark	_
+11	DJd	Y	sg=sg|p=p	12	nsubj	CHECK
+12	sahmerdaksid	V	ksid=ksid	8	acl	_
+13	,	Z	_	15	punct	_
+14	vinüülid	S	pl=pl|n=n	15	nmod	_
+15	kaenlas	S	sg=sg|in=in	12	conj	_
+16	,	Z	_	18	punct	_
+17	ja	J	_	18	cc	_
+18	ajaksid	V	ksid=ksid	2	conj	_
+19	hausimehejuttu	S	sg=sg|p=p	18	obj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 1794778
+# text = Vajutage OK ning edaspidi võrdub sellele lingile vajutamine parema hiireklahviga " my computerile " klikkimisega ja seal " Explore " valimisega .
+1	Vajutage	V	ge=ge	0	root	_
+2	OK	Y	?=?	1	obj	CHECK
+3	ning	J	_	5	cc	_
+4	edaspidi	D	_	5	advmod	_
+5	võrdub	V	b=b	1	conj	_
+6	sellele	P	sg=sg|all=all	8	det	_
+7	lingile	S	sg=sg|all=all	8	nmod	_
+8	vajutamine	S	sg=sg|n=n	5	nsubj	_
+9	parema	C	sg=sg|g=g	10	amod	_
+10	hiireklahviga	S	sg=sg|kom=kom	15	nmod	_
+11	"	Z	_	12	punct	_
+12	my	Y	?=?	10	appos	_
+13	computerile	S	sg=sg|all=all	12	flat	_
+14	"	Z	_	12	punct	_
+15	klikkimisega	S	sg=sg|kom=kom	5	obl	_
+16	ja	J	_	21	cc	_
+17	seal	D	_	21	advmod	_
+18	"	Z	_	19	punct	_
+19	Explore	H	sg=sg|g=g	21	nmod	_
+20	"	Z	_	19	punct	_
+21	valimisega	S	sg=sg|kom=kom	15	conj	_
+22	.	Z	_	1	punct	_
+
+# sent_id = 17154703
+# text = Progeke nimega IP2 , suvaline koduline klõpsab käima ja telefoonib IP numbri
+1	Progeke	S	sg=sg|n=n	2	nmod	_
+2	nimega	S	sg=sg|kom=kom	8	nsubj	_
+3	IP2	Y	?=?	2	appos	_
+4	,	Z	_	7	punct	_
+5	suvaline	A	sg=sg|n=n	7	amod	_
+6	koduline	A	sg=sg|n=n	7	amod	_
+7	klõpsab	V	b=b	8	nsubj	_
+8	käima	V	ma=ma	0	root	_
+9	ja	J	_	10	cc	_
+10	telefoonib	V	b=b	8	conj	_
+11	IP	Y	?=?	12	nmod	_
+12	numbri	S	sg=sg|g=g	10	obj	CHECK
+
+# sent_id = 20638425
+# text = rong: tra ma plegi Meteora pealt seda bonus dvd'd vaadanud
+1	rong	S	sg=sg|n=n	0	root	_
+2	:	Z	_	11	punct	_
+3	tra	S	sg=sg|n=n	11	obj	_
+4	ma	P	sg=sg|n=n	11	nsubj	_
+5	plegi	S	sg=sg|g=g	6	nmod	_
+6	Meteora	S	sg=sg|g=g	11	obl	_
+7	pealt	K	_	6	case	_
+8	seda	P	sg=sg|p=p	9	obj	CHECK
+9	bonus	V	s=s	11	aux	_
+10	dvd'd	S	pl=pl|n=n	11	obj	_
+11	vaadanud	A	_	1	parataxis	_
+
+# sent_id = 10171097
+# text = Alates aastast 2000 on Eesti Kõrgem Kommertskool ainukese Balti riikide ülikoolina Euroopa Ülikoolide Topeltdiplomi Konsortsiumi ( Euro-pean Consortium of International Double Degrees ) liige .
+1	Alates	K	_	2	case	_
+2	aastast	S	sg=sg|el=el	6	obl	_
+3	2000	N	?=?	2	nummod	_
+4	on	V	b=b	6	cop	_
+5	Eesti	H	sg=sg|g=g	11	nmod	_
+6	Kõrgem	C	sg=sg|n=n	11	amod	_
+7	Kommertskool	S	sg=sg|n=n	11	nmod	_
+8	ainukese	A	sg=sg|g=g	11	amod	_
+9	Balti	G	_	10	nmod	_
+10	riikide	S	pl=pl|g=g	11	nmod	_
+11	ülikoolina	S	sg=sg|es=es	0	root	_
+12	Euroopa	H	sg=sg|g=g	13	nmod	_
+13	Ülikoolide	S	pl=pl|g=g	14	nmod	_
+14	Topeltdiplomi	S	sg=sg|g=g	15	nmod	_
+15	Konsortsiumi	S	adt=adt	24	nmod	_
+16	(	Z	_	17	punct	_
+17	Euro-pean	V	n=n	15	appos	_
+18	Consortium	H	sg=sg|n=n	17	flat	CHECK
+19	of	H	?=?	17	flat	_
+20	International	H	sg=sg|n=n	17	flat	_
+21	Double	H	sg=sg|n=n	17	flat	_
+22	Degrees	H	sg=sg|n=n	17	flat	_
+23	)	Z	_	17	punct	_
+24	liige	S	sg=sg|n=n	11	appos	_
+25	.	Z	_	6	punct	_
+
+# sent_id = 421304
+# text = Argentina restorani köögis juhtus Eesti Päevalehe testipäeval ettekandjate kommenteerimiskeeldu nõudnud äpardus .
+1	Argentina	H	sg=sg|g=g	2	nmod	_
+2	restorani	S	sg=sg|g=g	3	nmod	_
+3	köögis	S	sg=sg|in=in	4	obl	_
+4	juhtus	V	s=s	0	root	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	Päevalehe	H	sg=sg|g=g	4	nsubj	_
+7	testipäeval	S	sg=sg|ad=ad	8	nmod	_
+8	ettekandjate	S	pl=pl|g=g	9	nmod	_
+9	kommenteerimiskeeldu	S	adt=adt	10	obj	CHECK
+10	nõudnud	A	pl=pl|n=n	11	acl	_
+11	äpardus	S	sg=sg|n=n	4	nsubj	_
+12	.	Z	_	4	punct	_
+
+# sent_id = 18755006
+# text = Heh tshekka seda , modisin ultraforumit veica .
+1	Heh	I	_	2	discourse	_
+2	tshekka	V	o=o	0	root	_
+3	seda	P	sg=sg|p=p	2	nsubj	CHECK
+4	,	Z	_	5	punct	_
+5	modisin	S	sg=sg|n=n	2	conj	_
+6	ultraforumit	S	sg=sg|p=p	5	flat	_
+7	veica	S	sg=sg|n=n	5	flat	_
+8	.	Z	_	2	punct	_
+
+# sent_id = 6768755
+# text = Kuigi Teil oleks ilmselt rahva arvamuse kohaselt siiski võimalik ka oma ametikohal jätkata kui tegutseksite resoluutselt ja algataksite konkreetsed kriminaalasjad eelpoolnimetatud altkäemaksujuhtumite kohta .
+1	Kuigi	D	_	9	mark	_
+2	Teil	P	pl=pl|ad=ad	9	nsubj:cop	_
+3	oleks	V	ks=ks	9	cop	_
+4	ilmselt	D	_	9	advmod	_
+5	rahva	S	sg=sg|g=g	6	nmod	_
+6	arvamuse	S	sg=sg|g=g	9	obl	_
+7	kohaselt	K	_	6	case	_
+8	siiski	D	_	9	advmod	_
+9	võimalik	A	sg=sg|n=n	0	root	_
+10	ka	D	_	13	advmod	_
+11	oma	P	sg=sg|g=g	12	nmod	_
+12	ametikohal	S	sg=sg|ad=ad	13	obj	_
+13	jätkata	V	da=da	9	csubj:cop	_
+14	kui	D	_	15	mark	_
+15	tegutseksite	V	ksite=ksite	9	advcl	_
+16	resoluutselt	D	_	15	advmod	_
+17	ja	J	_	18	cc	_
+18	algataksite	V	ksite=ksite	15	conj	_
+19	konkreetsed	A	pl=pl|n=n	20	amod	_
+20	kriminaalasjad	S	pl=pl|n=n	18	obj	CHECK
+21	eelpoolnimetatud	A	sg=sg|n=n	22	acl	_
+22	altkäemaksujuhtumite	S	pl=pl|g=g	18	obl	_
+23	kohta	K	_	22	case	_
+24	.	Z	_	9	punct	_
+
+# sent_id = 5464858
+# text = Forniks : " Oodake palun ... " Möödub paar minutit .
+1	Forniks	H	sg=sg|n=n	0	root	_
+2	:	Z	_	4	punct	_
+3	"	Z	_	4	punct	_
+4	Oodake	V	ge=ge	1	parataxis	_
+5	palun	V	n=n	4	obj	CHECK
+6	...	Z	_	4	punct	_
+7	"	Z	_	4	punct	_
+8	Möödub	V	b=b	1	parataxis	_
+9	paar	N	sg=sg|n=n	10	nummod	_
+10	minutit	S	sg=sg|p=p	8	obl	_
+11	.	Z	_	1	punct	_
+
+# sent_id = 21086622
+# text = dodge: kirke kallis ... ma ju märkasin ja kalistasin sind
+1	dodge	S	sg=sg|n=n	0	root	_
+2	:	Z	_	8	punct	_
+3	kirke	S	sg=sg|g=g	4	nmod	_
+4	kallis	A	sg=sg|n=n	8	discourse	_
+5	...	Z	_	8	punct	_
+6	ma	P	sg=sg|n=n	8	nsubj	_
+7	ju	D	_	8	advmod	_
+8	märkasin	V	sin=sin	1	parataxis	_
+9	ja	J	_	10	cc	_
+10	kalistasin	V	sin=sin	8	conj	_
+11	sind	P	sg=sg|p=p	10	obj	CHECK
+

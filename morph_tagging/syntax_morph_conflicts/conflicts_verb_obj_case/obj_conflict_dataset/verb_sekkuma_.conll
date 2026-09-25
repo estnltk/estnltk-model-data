@@ -1,0 +1,377 @@
+# sent_id = 9954541
+# text = Ja äkitselt sekkus aktsiaselts nimega E.V.M.
+1	Ja	J	_	3	cc	_
+2	äkitselt	D	_	3	advmod	_
+3	sekkus	V	s=s	0	root	_
+4	aktsiaselts	S	sg=sg|n=n	3	obj	_
+5	nimega	S	sg=sg|kom=kom	3	nsubj	_
+6	E	Y	?=?	5	appos	_
+7	.	Z	_	8	punct	_
+8	V	O	?=?	5	conj	_
+9	.	Z	_	10	punct	_
+10	M	Y	?=?	3	nsubj	CHECK
+11	.	Z	_	3	punct	_
+
+# sent_id = 9439759
+# text = ” Ta polevat naine , kes sekkuks otsustavalt mehe tööasjadesse .
+1	”	Z	_	4	punct	_
+2	Ta	P	sg=sg|n=n	4	nsubj:cop	_
+3	polevat	V	neg=neg|vat=vat	4	cop	_
+4	naine	S	sg=sg|n=n	0	root	_
+5	,	Z	_	7	punct	_
+6	kes	P	sg=sg|n=n	7	nsubj	_
+7	sekkuks	V	ks=ks	4	acl:relcl	_
+8	otsustavalt	D	_	7	advmod	_
+9	mehe	S	sg=sg|g=g	10	nmod	CHECK
+10	tööasjadesse	S	pl=pl|ill=ill	7	obl	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 4685171
+# text = Sellega sekkuksin Päevalehe rubriigi " Naistenõuandla " arutlusse .
+1	Sellega	P	sg=sg|kom=kom	2	nsubj	_
+2	sekkuksin	V	ksin=ksin	0	root	_
+3	Päevalehe	H	sg=sg|g=g	2	obj	_
+4	rubriigi	S	sg=sg|g=g	8	nmod	_
+5	"	Z	_	6	punct	_
+6	Naistenõuandla	S	sg=sg|g=g	4	appos	_
+7	"	Z	_	6	punct	_
+8	arutlusse	S	adt=adt	2	obj	CHECK
+9	.	Z	_	2	punct	_
+
+# sent_id = 1956428
+# text = " Me ei sekku mingil moel parlamentaarsesse protsessi , meil omal võtavad sellised asjad mõnikord väga palju aega , " tõdes Suurbritannia suursaadik kodakondsusseaduse menetlemisest rääkides .
+1	"	Z	_	4	punct	_
+2	Me	P	pl=pl|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	sekku	V	o=o	0	root	_
+5	mingil	P	sg=sg|ad=ad	6	det	_
+6	moel	S	sg=sg|ad=ad	4	obl	_
+7	parlamentaarsesse	A	sg=sg|ill=ill	8	amod	_
+8	protsessi	S	adt=adt	4	obj	CHECK
+9	,	Z	_	12	punct	_
+10	meil	P	pl=pl|ad=ad	12	nsubj	_
+11	omal	P	sg=sg|ad=ad	12	nsubj	_
+12	võtavad	V	vad=vad	4	conj	_
+13	sellised	P	pl=pl|n=n	14	det	_
+14	asjad	S	pl=pl|n=n	12	obj	_
+15	mõnikord	D	_	12	advmod	_
+16	väga	D	_	17	advmod	_
+17	palju	D	_	18	advmod	_
+18	aega	S	sg=sg|p=p	12	obl	_
+19	,	Z	_	4	punct	_
+20	"	Z	_	4	punct	_
+21	tõdes	V	s=s	4	parataxis	_
+22	Suurbritannia	H	sg=sg|g=g	23	nmod	_
+23	suursaadik	S	sg=sg|n=n	21	nsubj	_
+24	kodakondsusseaduse	S	sg=sg|g=g	25	nmod	_
+25	menetlemisest	S	sg=sg|el=el	26	nmod	_
+26	rääkides	V	des=des	21	advcl	_
+27	.	Z	_	4	punct	_
+
+# sent_id = 590514
+# text = Kordan taas : Venemaa ei sekku konflikti , kui ameeriklased meid selleks ei sunni .
+1	Kordan	V	n=n	0	root	_
+2	taas	D	_	1	advmod	_
+3	:	Z	_	6	punct	_
+4	Venemaa	H	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	sekku	V	o=o	1	parataxis	_
+7	konflikti	S	sg=sg|g=g	6	obj	CHECK
+8	,	Z	_	14	punct	_
+9	kui	J	_	14	mark	_
+10	ameeriklased	S	pl=pl|n=n	14	nsubj	_
+11	meid	P	pl=pl|p=p	14	obj	_
+12	selleks	P	sg=sg|tr=tr	14	obj	_
+13	ei	V	neg=neg	14	aux	_
+14	sunni	V	o=o	6	advcl	_
+15	.	Z	_	1	punct	_
+
+# sent_id = 4808326
+# text = Ligi 3000 pealtvaatajat ootas , et Tanel sekkuks ka Open klassi konkurentsi , ent noormehele polnud mitmes sarjas startimine jõukohane .
+1	Ligi	D	_	2	advmod	_
+2	3000	N	?=?	3	nummod	_
+3	pealtvaatajat	S	sg=sg|p=p	4	nsubj	_
+4	ootas	V	s=s	0	root	_
+5	,	Z	_	8	punct	_
+6	et	J	_	8	mark	_
+7	Tanel	H	sg=sg|n=n	8	nsubj	_
+8	sekkuks	V	ks=ks	4	ccomp	_
+9	ka	D	_	8	advmod	_
+10	Open	H	sg=sg|n=n	11	nmod	_
+11	klassi	S	sg=sg|g=g	12	nmod	_
+12	konkurentsi	S	sg=sg|p=p	8	obj	CHECK
+13	,	Z	_	20	punct	_
+14	ent	J	_	20	cc	_
+15	noormehele	S	sg=sg|all=all	20	nsubj:cop	_
+16	polnud	V	neg=neg|nud=nud	20	cop	_
+17	mitmes	P	sg=sg|in=in	18	det	_
+18	sarjas	S	sg=sg|in=in	19	nmod	_
+19	startimine	S	sg=sg|n=n	20	nsubj:cop	_
+20	jõukohane	A	sg=sg|n=n	8	conj	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 8147
+# text = Poeretkel oli kaasas ka noorim Ratia ehk Anu poeg Robin , kelle kohta nii Anu kui ka Ristomatti on korduvalt väitnud , et tegu on Anu isikliku projektiga , millesse Ristomatti ei sekku .
+1	Poeretkel	S	sg=sg|ad=ad	3	obl	_
+2	oli	V	s=s	3	cop	_
+3	kaasas	D	_	0	root	_
+4	ka	D	_	6	advmod	_
+5	noorim	U	sg=sg|n=n	6	amod	_
+6	Ratia	H	sg=sg|g=g	3	nsubj:cop	_
+7	ehk	J	_	8	cc	_
+8	Anu	H	sg=sg|g=g	6	conj	_
+9	poeg	S	sg=sg|n=n	6	conj	_
+10	Robin	H	sg=sg|n=n	9	appos	_
+11	,	Z	_	21	punct	_
+12	kelle	P	sg=sg|g=g	21	nsubj	_
+13	kohta	K	_	12	case	_
+14	nii	D	_	15	cc:preconj	_
+15	Anu	H	sg=sg|g=g	21	nsubj	_
+16	kui	J	_	18	cc	_
+17	ka	D	_	18	advmod	_
+18	Ristomatti	H	adt=adt	15	conj	_
+19	on	V	b=b	21	aux	_
+20	korduvalt	D	_	21	advmod	_
+21	väitnud	V	nud=nud	10	acl:relcl	_
+22	,	Z	_	26	punct	_
+23	et	J	_	26	mark	_
+24	tegu	S	sg=sg|n=n	26	nsubj:cop	_
+25	on	V	b=b	28	cop	_
+26	Anu	H	sg=sg|g=g	28	nmod	_
+27	isikliku	A	sg=sg|g=g	28	amod	_
+28	projektiga	S	sg=sg|kom=kom	21	ccomp	_
+29	,	Z	_	33	punct	_
+30	millesse	P	pl=pl|ill=ill	33	nsubj	_
+31	Ristomatti	H	adt=adt	33	obj	CHECK
+32	ei	V	neg=neg	33	aux	_
+33	sekku	V	o=o	28	acl:relcl	_
+34	.	Z	_	3	punct	_
+
+# sent_id = 164219
+# text = Vestlusse sekkub järgmine kalasilm .
+1	Vestlusse	S	adt=adt	2	nsubj	CHECK
+2	sekkub	V	b=b	0	root	_
+3	järgmine	A	sg=sg|n=n	4	amod	_
+4	kalasilm	S	sg=sg|n=n	2	nsubj	_
+5	.	Z	_	2	punct	_
+
+# sent_id = 1318082
+# text = Hooaja jooksul enamasti vahetusmeeste pingilt mängu sekkunud Müürsepp õigustas treener Du ?
+1	Hooaja	S	sg=sg|g=g	7	obl	_
+2	jooksul	K	_	1	case	_
+3	enamasti	D	_	7	advmod	_
+4	vahetusmeeste	S	pl=pl|g=g	5	nmod	_
+5	pingilt	S	sg=sg|abl=abl	7	obj	_
+6	mängu	S	sg=sg|g=g	7	obl	CHECK
+7	sekkunud	V	nud=nud	8	acl	_
+8	Müürsepp	S	sg=sg|n=n	9	nsubj	_
+9	õigustas	V	s=s	0	root	_
+10	treener	S	sg=sg|n=n	9	nsubj	_
+11	Du	Y	?=?	10	appos	_
+12	?	Z	_	9	punct	_
+
+# sent_id = 16080508
+# text = Seejuures rõhutasid mõlemad , et nad pole poliitikasse sekkunud mitte tunnete , vaid mõistuse mõjul , ehkki tunnetega võivat samuti probleeme lahendada .
+1	Seejuures	D	_	2	advmod	_
+2	rõhutasid	V	sid=sid	0	root	_
+3	mõlemad	P	pl=pl|n=n	2	nsubj	_
+4	,	Z	_	9	punct	_
+5	et	J	_	9	mark	_
+6	nad	P	pl=pl|n=n	9	nsubj	_
+7	pole	V	neg=neg|o=o	9	aux	_
+8	poliitikasse	S	sg=sg|ill=ill	9	obj	_
+9	sekkunud	V	nud=nud	2	ccomp	_
+10	mitte	D	_	11	advmod	_
+11	tunnete	V	te=te	9	xcomp	CHECK
+12	,	Z	_	14	punct	_
+13	vaid	J	_	14	cc	_
+14	mõistuse	S	sg=sg|g=g	11	conj	_
+15	mõjul	K	_	14	case	_
+16	,	Z	_	22	punct	_
+17	ehkki	J	_	22	mark	_
+18	tunnetega	S	pl=pl|kom=kom	22	obj	_
+19	võivat	V	vat=vat	22	aux	_
+20	samuti	D	_	22	advmod	_
+21	probleeme	S	pl=pl|p=p	22	obj	_
+22	lahendada	V	da=da	9	advcl	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 437877
+# text = Samas nendib ta , et kord loomariiki sekkunud , peab inimene seda ka edasi tegema .
+1	Samas	D	_	2	advmod	_
+2	nendib	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	,	Z	_	8	punct	_
+5	et	J	_	8	mark	_
+6	kord	S	sg=sg|n=n	8	obl	_
+7	loomariiki	S	adt=adt	8	obl	CHECK
+8	sekkunud	A	sg=sg|n=n	2	ccomp	_
+9	,	Z	_	15	punct	_
+10	peab	V	b=b	15	aux	_
+11	inimene	S	sg=sg|n=n	15	nsubj	_
+12	seda	P	sg=sg|p=p	15	obj	_
+13	ka	D	_	15	advmod	_
+14	edasi	D	_	15	compound:prt	_
+15	tegema	V	ma=ma	2	ccomp	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 1365477
+# text = 60. minutil vähendas just mängu sekkunud Avi Nimni kaotusnumbreid .
+1	60.	O	?=?	2	amod	_
+2	minutil	S	sg=sg|ad=ad	3	obl	_
+3	vähendas	V	s=s	0	root	_
+4	just	D	_	5	advmod	_
+5	mängu	S	sg=sg|p=p	6	obl	CHECK
+6	sekkunud	A	sg=sg|n=n	7	acl	_
+7	Avi	H	sg=sg|n=n	3	nsubj	_
+8	Nimni	H	sg=sg|g=g	7	flat	_
+9	kaotusnumbreid	S	pl=pl|p=p	3	obj	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 430383
+# text = Kuigi toonased päris mitme riigi , nimetame ilusasti , et kompetentsed asutused olid andnud oma valitsustele signaali , et Vene armee ei sekku putshi ega lähe putshistide poolele .
+1	Kuigi	D	_	7	mark	_
+2	toonased	A	pl=pl|n=n	5	amod	_
+3	päris	V	s=s	4	advmod	_
+4	mitme	P	sg=sg|g=g	5	det	_
+5	riigi	S	sg=sg|g=g	7	advcl	_
+6	,	Z	_	7	punct	_
+7	nimetame	V	me=me	0	root	_
+8	ilusasti	D	_	7	advmod	_
+9	,	Z	_	14	punct	_
+10	et	J	_	14	mark	_
+11	kompetentsed	A	pl=pl|n=n	12	amod	_
+12	asutused	S	pl=pl|n=n	14	nsubj	_
+13	olid	V	sid=sid	14	aux	_
+14	andnud	A	_	7	ccomp	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	valitsustele	S	pl=pl|all=all	14	obj	_
+17	signaali	S	sg=sg|p=p	14	obj	_
+18	,	Z	_	23	punct	_
+19	et	J	_	23	mark	_
+20	Vene	H	sg=sg|g=g	21	nmod	_
+21	armee	S	sg=sg|n=n	23	nsubj	_
+22	ei	V	neg=neg	23	aux	_
+23	sekku	V	o=o	17	acl	_
+24	putshi	S	sg=sg|p=p	23	obj	CHECK
+25	ega	J	_	26	cc	_
+26	lähe	V	neg=neg|o=o	23	conj	_
+27	putshistide	S	pl=pl|g=g	28	nmod	_
+28	poolele	S	sg=sg|all=all	26	obl	_
+29	.	Z	_	7	punct	_
+
+# sent_id = 35324
+# text = Keni õnneks sekkusid rüselusse kõrvalseisjad , kes selle kiiresti lõpetasid
+1	Keni	H	sg=sg|g=g	3	nsubj	_
+2	õnneks	S	sg=sg|tr=tr	1	nmod	_
+3	sekkusid	V	sid=sid	0	root	_
+4	rüselusse	S	adt=adt	5	nmod	CHECK
+5	kõrvalseisjad	S	pl=pl|n=n	3	obj	_
+6	,	Z	_	10	punct	_
+7	kes	P	pl=pl|n=n	10	nsubj	_
+8	selle	P	sg=sg|g=g	10	obj	_
+9	kiiresti	D	_	10	advmod	_
+10	lõpetasid	V	sid=sid	5	acl:relcl	_
+
+# sent_id = 1203646
+# text = Kubo hinnangul ei sekku Koonderakond avalik-õigusliku televisiooni programmi .
+1	Kubo	H	sg=sg|g=g	2	nmod	_
+2	hinnangul	S	sg=sg|ad=ad	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	sekku	V	o=o	0	root	_
+5	Koonderakond	H	sg=sg|n=n	4	nsubj	_
+6	avalik-õigusliku	A	sg=sg|g=g	7	amod	_
+7	televisiooni	S	sg=sg|g=g	4	obj	_
+8	programmi	S	sg=sg|p=p	4	obj	CHECK
+9	.	Z	_	4	punct	_
+
+# sent_id = 17314745
+# text = Paljud ei sekku n2iteks inimeste kahek6nedesse autode foorumis , kui ei ole midagi tarka 8elda .
+1	Paljud	P	pl=pl|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	sekku	V	o=o	0	root	_
+4	n2iteks	S	sg=sg|n=n	5	nmod	CHECK
+5	inimeste	S	pl=pl|g=g	6	nmod	_
+6	kahek6nedesse	S	pl=pl|ill=ill	3	obl	_
+7	autode	S	pl=pl|g=g	8	nmod	_
+8	foorumis	S	sg=sg|in=in	3	obj	_
+9	,	Z	_	13	punct	_
+10	kui	J	_	15	mark	_
+11	ei	V	neg=neg	13	aux	_
+12	ole	V	o=o	13	cop	_
+13	midagi	P	sg=sg|p=p	3	advcl	_
+14	tarka	A	sg=sg|p=p	15	amod	_
+15	8elda	S	sg=sg|n=n	13	nmod	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 854587
+# text = " Ehitatud võrdsus " võiks olla paljuski õpetlik ka praegusele ajastule , mil president ise on sekkunud noorte perede elamu-
+1	"	Z	_	3	punct	_
+2	Ehitatud	A	sg=sg|n=n	3	acl	_
+3	võrdsus	S	sg=sg|n=n	8	nsubj:cop	_
+4	"	Z	_	3	punct	_
+5	võiks	V	ks=ks	8	aux	_
+6	olla	V	da=da	8	cop	_
+7	paljuski	P	sg=sg|in=in	8	nsubj:cop	_
+8	õpetlik	A	sg=sg|n=n	0	root	_
+9	ka	D	_	11	advmod	_
+10	praegusele	A	sg=sg|all=all	11	amod	_
+11	ajastule	S	sg=sg|all=all	8	obl	_
+12	,	Z	_	17	punct	_
+13	mil	D	_	17	mark	_
+14	president	S	sg=sg|n=n	17	nsubj	_
+15	ise	P	sg=sg|n=n	14	nmod	_
+16	on	V	b=b	17	aux	_
+17	sekkunud	A	pl=pl|n=n	11	acl	_
+18	noorte	A	pl=pl|g=g	19	amod	_
+19	perede	S	pl=pl|g=g	20	nmod	_
+20	elamu	S	sg=sg|n=n	17	obl	_
+21	-	Z	_	8	punct	_
+
+# sent_id = 1241526
+# text = Noortest sekkus hästi Tanel Kaljula , kes kaheksa mänguminuti jooksul tabas kaks kolmest ja tegi vaheltlõike .
+1	Noortest	H	sg=sg|n=n	2	obj	CHECK
+2	sekkus	V	s=s	0	root	_
+3	hästi	D	_	2	advmod	_
+4	Tanel	H	sg=sg|n=n	2	nsubj	_
+5	Kaljula	H	sg=sg|n=n	4	flat	_
+6	,	Z	_	11	punct	_
+7	kes	P	pl=pl|n=n	11	nsubj	_
+8	kaheksa	N	sg=sg|g=g	9	nummod	_
+9	mänguminuti	S	sg=sg|g=g	11	obl	_
+10	jooksul	K	_	9	case	_
+11	tabas	V	s=s	4	acl:relcl	_
+12	kaks	N	sg=sg|n=n	13	nummod	_
+13	kolmest	N	sg=sg|el=el	11	obj	_
+14	ja	J	_	15	cc	_
+15	tegi	V	s=s	11	conj	_
+16	vaheltlõike	S	sg=sg|g=g	15	obj	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 1888283
+# text = Nii ei mõistagi maarahvas muud , kui nõuda , et riik sekkuks hinnapoliitikasse küsides piirhindu .
+1	Nii	D	_	5	advmod	_
+2	ei	V	neg=neg	5	aux	_
+3	mõistagi	D	_	5	advmod	_
+4	maarahvas	S	sg=sg|n=n	5	nsubj:cop	_
+5	muud	P	sg=sg|p=p	0	root	_
+6	,	Z	_	8	punct	_
+7	kui	D	_	8	mark	_
+8	nõuda	V	da=da	5	advcl	_
+9	,	Z	_	12	punct	_
+10	et	J	_	12	mark	_
+11	riik	S	sg=sg|n=n	12	nsubj	_
+12	sekkuks	V	ks=ks	8	ccomp	_
+13	hinnapoliitikasse	S	sg=sg|ill=ill	12	obj	_
+14	küsides	V	des=des	12	conj	_
+15	piirhindu	S	pl=pl|p=p	14	obj	CHECK
+16	.	Z	_	5	punct	_
+
+# sent_id = 21223584
+# text = massive: ära sekku plika
+1	massive	S	sg=sg|n=n	0	root	_
+2	:	Z	_	4	punct	_
+3	ära	V	neg=neg|o=o	4	aux	_
+4	sekku	V	o=o	1	parataxis	_
+5	plika	S	sg=sg|n=n	4	obj	CHECK
+

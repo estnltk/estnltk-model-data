@@ -1,0 +1,442 @@
+# sent_id = 5045958
+# text = See tundus nagu oleks pomm plahvatanud . "
+1	See	P	sg=sg|n=n	6	nsubj	_
+2	tundus	V	s=s	6	aux	_
+3	nagu	J	_	6	mark	_
+4	oleks	V	ks=ks	6	aux	_
+5	pomm	S	sg=sg|n=n	6	obj	CHECK
+6	plahvatanud	A	pl=pl|n=n	0	root	_
+7	.	Z	_	6	punct	_
+8	"	Z	_	6	punct	_
+
+# sent_id = 517383
+# text = Tallinna keskturu müüjad ja ostjad loodavad - ehk nende lähedal midagi ei plahvata
+1	Tallinna	H	sg=sg|g=g	2	nmod	_
+2	keskturu	S	sg=sg|g=g	3	nmod	_
+3	müüjad	S	pl=pl|n=n	6	nsubj	_
+4	ja	J	_	5	cc	_
+5	ostjad	S	pl=pl|n=n	3	conj	_
+6	loodavad	V	vad=vad	0	root	_
+7	-	Z	_	13	punct	_
+8	ehk	D	_	13	advmod	_
+9	nende	P	pl=pl|g=g	13	obl	_
+10	lähedal	K	_	9	case	_
+11	midagi	P	sg=sg|p=p	13	nsubj	CHECK
+12	ei	V	neg=neg	13	aux	_
+13	plahvata	V	o=o	6	parataxis	_
+
+# sent_id = 529402
+# text = Tallinna prefektuuri teatati laupäeval kell 21.45 , et ühe USA saatkonna eest seisva auto all on pomm , mis plahvatab kell 23.
+1	Tallinna	H	sg=sg|g=g	2	nmod	_
+2	prefektuuri	S	sg=sg|g=g	3	nsubj	_
+3	teatati	V	ti=ti	0	root	_
+4	laupäeval	S	sg=sg|ad=ad	3	obl	_
+5	kell	S	sg=sg|n=n	3	obl	_
+6	21.45	N	?=?	5	nummod	_
+7	,	Z	_	14	punct	_
+8	et	J	_	14	mark	_
+9	ühe	N	sg=sg|g=g	14	det	_
+10	USA	Y	?=?	11	nmod	_
+11	saatkonna	S	sg=sg|g=g	13	obl	_
+12	eest	K	_	11	case	_
+13	seisva	A	sg=sg|g=g	14	acl	_
+14	auto	S	sg=sg|g=g	3	ccomp	_
+15	all	K	_	14	case	_
+16	on	V	b=b	14	cop	_
+17	pomm	S	sg=sg|n=n	14	nsubj:cop	_
+18	,	Z	_	20	punct	_
+19	mis	P	pl=pl|n=n	20	nsubj	_
+20	plahvatab	V	b=b	17	acl:relcl	_
+21	kell	S	sg=sg|n=n	20	obl	CHECK
+22	23.	O	?=?	21	amod	_
+
+# sent_id = 3635179
+# text = Hiljem hakkas miilits uurima aga pommiversiooni , sest kohapealt leiti poolekilone dünamiidi-taoline aine , mis olevat ühiselamu sissekäigu juures plahvatanud .
+1	Hiljem	D	_	2	advmod	_
+2	hakkas	V	s=s	0	root	_
+3	miilits	S	sg=sg|n=n	2	nsubj	_
+4	uurima	V	ma=ma	2	xcomp	_
+5	aga	J	_	2	advmod	_
+6	pommiversiooni	S	sg=sg|p=p	4	obl	_
+7	,	Z	_	10	punct	_
+8	sest	J	_	10	mark	_
+9	kohapealt	D	_	10	advmod	_
+10	leiti	V	ti=ti	2	advcl	_
+11	poolekilone	A	sg=sg|n=n	13	amod	_
+12	dünamiidi-taoline	A	sg=sg|n=n	13	amod	_
+13	aine	S	sg=sg|n=n	10	nsubj	_
+14	,	Z	_	20	punct	_
+15	mis	P	sg=sg|n=n	20	nsubj	_
+16	olevat	V	vat=vat	20	aux	_
+17	ühiselamu	S	sg=sg|n=n	20	obj	CHECK
+18	sissekäigu	S	sg=sg|g=g	20	obl	_
+19	juures	K	_	18	case	_
+20	plahvatanud	V	nud=nud	13	acl:relcl	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 3864031
+# text = Pommid plahvatasid kuuldavas sünkroonis .
+1	Pommid	S	pl=pl|n=n	2	nsubj	_
+2	plahvatasid	V	sid=sid	0	root	_
+3	kuuldavas	A	sg=sg|in=in	4	acl	_
+4	sünkroonis	V	s=s	2	nsubj	CHECK
+5	.	Z	_	2	punct	_
+
+# sent_id = 284303
+# text = Mida lähemale Galaktika keskpunktile , seda suuremaks kasvavad gaasi tihedused , seda tugevamaks muutuvad tähtedevahelised magnetväljad , seda rohkem tekkib noori ja väga massiivseid tähti , seda rohkem ja sagedamini plahvatab supernoovasid , mis oma kiirgusega ioniseerivad ja paiskavad laiali ümbritsevat gaasi .
+1	Mida	P	sg=sg|p=p	2	obl	_
+2	lähemale	D	_	0	root	_
+3	Galaktika	H	sg=sg|g=g	4	nmod	_
+4	keskpunktile	S	sg=sg|all=all	2	obl	_
+5	,	Z	_	8	punct	_
+6	seda	P	sg=sg|p=p	7	obl	_
+7	suuremaks	C	sg=sg|tr=tr	8	xcomp	_
+8	kasvavad	V	vad=vad	2	conj	_
+9	gaasi	S	sg=sg|g=g	10	nmod	_
+10	tihedused	S	pl=pl|n=n	8	nsubj	_
+11	,	Z	_	14	punct	_
+12	seda	P	sg=sg|p=p	13	det	_
+13	tugevamaks	C	sg=sg|tr=tr	14	obl	_
+14	muutuvad	V	vad=vad	8	conj	_
+15	tähtedevahelised	A	pl=pl|n=n	16	amod	_
+16	magnetväljad	S	pl=pl|n=n	14	obl	_
+17	,	Z	_	20	punct	_
+18	seda	P	sg=sg|p=p	19	obl	_
+19	rohkem	D	_	20	advmod	_
+20	tekkib	V	b=b	14	conj	_
+21	noori	S	pl=pl|p=p	25	nmod	_
+22	ja	J	_	24	cc	_
+23	väga	D	_	24	advmod	_
+24	massiivseid	A	pl=pl|p=p	21	conj	_
+25	tähti	S	pl=pl|p=p	20	nsubj	_
+26	,	Z	_	31	punct	_
+27	seda	P	sg=sg|p=p	31	nsubj	_
+28	rohkem	D	_	31	advmod	_
+29	ja	J	_	30	cc	_
+30	sagedamini	D	_	28	conj	_
+31	plahvatab	V	b=b	20	conj	_
+32	supernoovasid	S	pl=pl|p=p	31	obj	CHECK
+33	,	Z	_	37	punct	_
+34	mis	P	sg=sg|n=n	37	nsubj	_
+35	oma	P	sg=sg|g=g	36	nmod	_
+36	kiirgusega	S	sg=sg|kom=kom	37	obj	_
+37	ioniseerivad	V	vad=vad	32	acl:relcl	_
+38	ja	J	_	39	cc	_
+39	paiskavad	V	vad=vad	37	conj	_
+40	laiali	D	_	39	compound:prt	_
+41	ümbritsevat	A	sg=sg|p=p	42	acl	_
+42	gaasi	S	sg=sg|p=p	39	obj	_
+43	.	Z	_	14	punct	_
+
+# sent_id = 172775
+# text = Suitsu süüdates oli ta endale tule sisse tõmmanud ja sõna otseses mõttes plahvatanud .
+1	Suitsu	H	sg=sg|g=g	2	obj	_
+2	süüdates	V	des=des	8	nsubj	_
+3	oli	V	s=s	8	aux	_
+4	ta	P	sg=sg|n=n	8	nsubj	_
+5	endale	P	sg=sg|all=all	8	obl	_
+6	tule	V	o=o	8	obj	_
+7	sisse	D	_	8	compound:prt	_
+8	tõmmanud	V	nud=nud	0	root	_
+9	ja	J	_	13	cc	_
+10	sõna	S	sg=sg|p=p	13	obj	CHECK
+11	otseses	A	sg=sg|in=in	12	amod	_
+12	mõttes	S	sg=sg|in=in	13	obj	_
+13	plahvatanud	A	_	8	conj	_
+14	.	Z	_	8	punct	_
+
+# sent_id = 250164
+# text = Pärast eestlastest narkokullerite vahelejäämist Tais plahvatas 1995 suvel ajakirjanduse veel teinegi narkoteemaline uudis-pomm : politsei oli maha niitnud Viljandi talumehe moonipõllu .
+1	Pärast	K	_	4	case	_
+2	eestlastest	S	pl=pl|el=el	3	nmod	_
+3	narkokullerite	S	pl=pl|g=g	4	nmod	_
+4	vahelejäämist	S	sg=sg|p=p	6	obl	_
+5	Tais	H	sg=sg|in=in	4	nmod	_
+6	plahvatas	V	s=s	0	root	_
+7	1995	N	?=?	8	nummod	_
+8	suvel	S	sg=sg|ad=ad	6	obl	_
+9	ajakirjanduse	S	sg=sg|g=g	6	nsubj	CHECK
+10	veel	D	_	6	advmod	_
+11	teinegi	P	sg=sg|n=n	13	det	_
+12	narkoteemaline	A	sg=sg|n=n	13	amod	_
+13	uudis-pomm	S	sg=sg|n=n	6	nsubj	_
+14	:	Z	_	18	punct	_
+15	politsei	S	sg=sg|n=n	18	nsubj	_
+16	oli	V	s=s	18	aux	_
+17	maha	D	_	18	compound:prt	_
+18	niitnud	V	nud=nud	6	parataxis	_
+19	Viljandi	H	sg=sg|g=g	20	nmod	_
+20	talumehe	S	sg=sg|g=g	21	nmod	_
+21	moonipõllu	S	sg=sg|g=g	18	obj	_
+22	.	Z	_	6	punct	_
+
+# sent_id = 586135
+# text = Zaporozhetsi vasaku tagaratta alla paigaldatud trotüülipakk plahvatas Vilde tee 60 maja hoovis .
+1	Zaporozhetsi	H	sg=sg|g=g	3	nmod	_
+2	vasaku	A	sg=sg|g=g	3	amod	_
+3	tagaratta	S	sg=sg|g=g	5	obl	_
+4	alla	K	_	3	case	_
+5	paigaldatud	V	tud=tud	6	acl	_
+6	trotüülipakk	S	sg=sg|n=n	7	obl	_
+7	plahvatas	V	s=s	0	root	_
+8	Vilde	H	sg=sg|g=g	7	nsubj	_
+9	tee	S	sg=sg|n=n	7	obl	CHECK
+10	60	N	?=?	11	nummod	_
+11	maja	S	sg=sg|g=g	12	nmod	_
+12	hoovis	S	sg=sg|in=in	7	obl	_
+13	.	Z	_	7	punct	_
+
+# sent_id = 3795341
+# text = IAAF-i pressiesindaja Georgio Reineri põhjendas otsust algul turvameetemetega , sest päev varem oli plahvatanud pomm teise olümpiakandidaat-linna , Stockholmi staadionil .
+1	IAAF-i	Y	sg=sg|g=g	2	nmod	_
+2	pressiesindaja	S	sg=sg|n=n	5	nsubj	_
+3	Georgio	H	sg=sg|n=n	2	appos	_
+4	Reineri	H	sg=sg|n=n	3	flat	_
+5	põhjendas	V	s=s	0	root	_
+6	otsust	S	sg=sg|p=p	5	obj	_
+7	algul	D	_	5	advmod	_
+8	turvameetemetega	S	sg=sg|n=n	5	obl	_
+9	,	Z	_	14	punct	_
+10	sest	J	_	14	mark	_
+11	päev	S	sg=sg|n=n	12	obl	_
+12	varem	D	_	14	advmod	_
+13	oli	V	s=s	14	aux	_
+14	plahvatanud	A	pl=pl|n=n	5	advcl	_
+15	pomm	S	sg=sg|n=n	14	obj	_
+16	teise	P	sg=sg|g=g	17	amod	_
+17	olümpiakandidaat-linna	S	sg=sg|g=g	14	nsubj	CHECK
+18	,	Z	_	20	punct	_
+19	Stockholmi	H	sg=sg|g=g	20	nmod	_
+20	staadionil	S	sg=sg|ad=ad	17	conj	_
+21	.	Z	_	5	punct	_
+
+# sent_id = 2224951
+# text = Lõhkekeha oli plahvatanud turistide meelispaiga , Kuta Beachil asuva Sari klubi ees .
+1	Lõhkekeha	S	sg=sg|n=n	3	obj	_
+2	oli	V	s=s	3	aux	_
+3	plahvatanud	A	sg=sg|n=n	0	root	_
+4	turistide	S	pl=pl|g=g	3	obj	_
+5	meelispaiga	S	sg=sg|g=g	3	nsubj	CHECK
+6	,	Z	_	10	punct	_
+7	Kuta	H	sg=sg|n=n	9	obl	_
+8	Beachil	H	sg=sg|n=n	7	flat	_
+9	asuva	A	sg=sg|g=g	10	acl	_
+10	Sari	H	sg=sg|n=n	5	conj	_
+11	klubi	S	sg=sg|g=g	10	nmod	_
+12	ees	K	_	11	case	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 625188
+# text = " Kui seal oleks midagi plahvatanud , siis oleksid pidanud jäljed järele jääma .
+1	"	Z	_	6	punct	_
+2	Kui	D	_	6	mark	_
+3	seal	D	_	6	advmod	_
+4	oleks	V	ks=ks	6	aux	_
+5	midagi	P	sg=sg|p=p	6	nsubj	CHECK
+6	plahvatanud	V	nud=nud	13	advcl	_
+7	,	Z	_	6	punct	_
+8	siis	J	_	13	advmod	_
+9	oleksid	V	ksid=ksid	13	aux	_
+10	pidanud	A	_	13	aux	_
+11	jäljed	S	pl=pl|n=n	13	nsubj	_
+12	järele	D	_	13	compound:prt	_
+13	jääma	V	ma=ma	0	root	_
+14	.	Z	_	13	punct	_
+
+# sent_id = 360982
+# text = Rahvusvaheliste vaatlejate sõnul plahvatas põgenikke täis auto umbes 20 meetri kaugusel Morina piiriületuspunktist põlema .
+1	Rahvusvaheliste	A	pl=pl|g=g	2	amod	_
+2	vaatlejate	S	pl=pl|g=g	3	nmod	_
+3	sõnul	S	pl=pl|ad=ad	4	obl	_
+4	plahvatas	V	s=s	0	root	_
+5	põgenikke	S	pl=pl|p=p	4	nsubj	CHECK
+6	täis	A	_	7	amod	_
+7	auto	S	sg=sg|n=n	4	nsubj	_
+8	umbes	D	_	9	advmod	_
+9	20	N	?=?	10	nummod	_
+10	meetri	S	sg=sg|g=g	4	obl	_
+11	kaugusel	K	_	10	case	_
+12	Morina	H	sg=sg|g=g	13	nmod	_
+13	piiriületuspunktist	S	sg=sg|el=el	14	nmod	_
+14	põlema	V	ma=ma	4	xcomp	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 3264964
+# text = " Ta on sprinteritüüp , plahvatab korra ja siis peab end jälle laadima , " märkis juhendaja .
+1	"	Z	_	4	punct	_
+2	Ta	P	sg=sg|n=n	4	nsubj:cop	_
+3	on	V	vad=vad	4	cop	_
+4	sprinteritüüp	S	sg=sg|n=n	0	root	_
+5	,	Z	_	6	punct	_
+6	plahvatab	V	b=b	4	conj	_
+7	korra	S	sg=sg|g=g	6	obl	CHECK
+8	ja	J	_	13	cc	_
+9	siis	D	_	13	advmod	_
+10	peab	V	b=b	13	aux	_
+11	end	P	sg=sg|p=p	13	obj	_
+12	jälle	D	_	13	advmod	_
+13	laadima	V	ma=ma	4	conj	_
+14	,	Z	_	4	punct	_
+15	"	Z	_	4	punct	_
+16	märkis	V	s=s	4	parataxis	_
+17	juhendaja	S	sg=sg|n=n	16	nsubj	_
+18	.	Z	_	4	punct	_
+
+# sent_id = 4434588
+# text = Kui algfaasis nurisesin , et turniir on igavavõitu , sest eelmisel MM-il nähtud üllatuspomme ei plahvata seekord üldse , siis nüüd peaksin enda peale näpuga osutama ja kirjutatut kahetsema .
+1	Kui	D	_	3	mark	_
+2	algfaasis	S	sg=sg|in=in	3	nsubj	_
+3	nurisesin	V	sin=sin	26	advcl	_
+4	,	Z	_	8	punct	_
+5	et	J	_	8	mark	_
+6	turniir	S	sg=sg|n=n	8	nsubj:cop	_
+7	on	V	vad=vad	8	cop	_
+8	igavavõitu	D	_	3	ccomp	_
+9	,	Z	_	16	punct	_
+10	sest	J	_	16	mark	_
+11	eelmisel	A	sg=sg|ad=ad	12	amod	_
+12	MM-il	Y	sg=sg|ad=ad	13	obl	_
+13	nähtud	V	tud=tud	14	acl	_
+14	üllatuspomme	S	pl=pl|p=p	16	nsubj	CHECK
+15	ei	V	neg=neg	16	aux	_
+16	plahvata	V	o=o	8	advcl	_
+17	seekord	D	_	16	advmod	_
+18	üldse	D	_	16	advmod	_
+19	,	Z	_	26	punct	_
+20	siis	J	_	26	advmod	_
+21	nüüd	D	_	26	advmod	_
+22	peaksin	V	ksin=ksin	26	aux	_
+23	enda	P	sg=sg|g=g	26	obl	_
+24	peale	K	_	23	case	_
+25	näpuga	S	sg=sg|kom=kom	26	obj	_
+26	osutama	V	ma=ma	0	root	_
+27	ja	J	_	29	cc	_
+28	kirjutatut	S	sg=sg|p=p	29	obj	_
+29	kahetsema	V	ma=ma	26	conj	_
+30	.	Z	_	26	punct	_
+
+# sent_id = 6499539
+# text = Surnukehad , mis tornidest vastu maad kukkusid , tegid nii valju häält , et üks politseinik sõnas , et arvas pomme plahvatavat .
+1	Surnukehad	S	pl=pl|n=n	9	obj	_
+2	,	Z	_	7	punct	_
+3	mis	P	sg=sg|n=n	7	nsubj	_
+4	tornidest	S	pl=pl|el=el	7	obl	_
+5	vastu	K	_	6	case	_
+6	maad	S	sg=sg|p=p	7	obl	_
+7	kukkusid	V	sid=sid	1	acl:relcl	_
+8	,	Z	_	7	punct	_
+9	tegid	V	sid=sid	0	root	_
+10	nii	D	_	11	advmod	_
+11	valju	A	sg=sg|g=g	12	amod	_
+12	häält	S	sg=sg|p=p	9	obj	_
+13	,	Z	_	17	punct	_
+14	et	J	_	17	mark	_
+15	üks	P	sg=sg|n=n	16	det	_
+16	politseinik	S	sg=sg|n=n	17	nsubj	_
+17	sõnas	V	s=s	9	advcl	_
+18	,	Z	_	20	punct	_
+19	et	J	_	20	mark	_
+20	arvas	V	s=s	17	ccomp	_
+21	pomme	S	pl=pl|p=p	22	obj	CHECK
+22	plahvatavat	V	vat=vat	20	xcomp	_
+23	.	Z	_	9	punct	_
+
+# sent_id = 6196544
+# text = Tuleb välja , et Von Krahli teater on saamas salasoomluse pelgupaigaks , kus põhjanaabrite kollektiivne alateadvus valla plahvatab .
+1	Tuleb	V	b=b	0	root	_
+2	välja	D	_	1	compound:prt	_
+3	,	Z	_	9	punct	_
+4	et	J	_	9	mark	_
+5	Von	H	sg=sg|n=n	7	nmod	_
+6	Krahli	H	sg=sg|g=g	5	flat	_
+7	teater	S	sg=sg|n=n	9	nsubj	_
+8	on	V	b=b	9	aux	_
+9	saamas	V	mas=mas	1	csubj	_
+10	salasoomluse	S	sg=sg|g=g	11	nmod	_
+11	pelgupaigaks	S	sg=sg|tr=tr	9	obj	_
+12	,	Z	_	18	punct	_
+13	kus	D	_	18	mark	_
+14	põhjanaabrite	S	pl=pl|g=g	18	nsubj	_
+15	kollektiivne	A	sg=sg|n=n	16	amod	_
+16	alateadvus	S	sg=sg|n=n	18	obj	_
+17	valla	D	_	18	compound:prt	CHECK
+18	plahvatab	V	b=b	11	acl	_
+19	.	Z	_	1	punct	_
+
+# sent_id = 6484828
+# text = " Kujutate ette , kui 30 000 tonni trotüüli plahvatab - siis on umbes 50 000 laipa , " lausus ta .
+1	"	Z	_	2	punct	_
+2	Kujutate	V	te=te	0	root	_
+3	ette	D	_	2	compound:prt	_
+4	,	Z	_	9	punct	_
+5	kui	J	_	9	mark	_
+6	30 000	N	?=?	7	nummod	_
+7	tonni	S	sg=sg|p=p	8	nmod	_
+8	trotüüli	S	adt=adt	9	obj	CHECK
+9	plahvatab	V	b=b	2	advcl	_
+10	-	Z	_	11	punct	_
+11	siis	D	_	2	parataxis	_
+12	on	V	vad=vad	11	cop	_
+13	umbes	D	_	14	advmod	_
+14	50 000	N	?=?	15	nummod	_
+15	laipa	S	sg=sg|p=p	11	nsubj:cop	_
+16	,	Z	_	2	punct	_
+17	"	Z	_	2	punct	_
+18	lausus	V	s=s	2	parataxis	_
+19	ta	P	sg=sg|n=n	18	nsubj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 2910391
+# text = Põhja-Koreasse jõudnud Rahvusvahelise Punase Risti esindajate andmeil hukkus üleeilses rongiplahvatuses Hiina piiri lähedal Ryong-chongis vähemalt 54 inimest ja 1249 sai vigastada , samas lükkasid nad aga ümber teate , nagu plahvatanud oleks kaks kokku põrganud kütuserongi .
+1	Põhja-Koreasse	H	sg=sg|ill=ill	2	obl	_
+2	jõudnud	A	_	6	acl	_
+3	Rahvusvahelise	H	sg=sg|g=g	5	nmod	_
+4	Punase	H	sg=sg|g=g	5	nmod	_
+5	Risti	H	sg=sg|g=g	6	nmod	_
+6	esindajate	S	pl=pl|g=g	7	nmod	_
+7	andmeil	S	pl=pl|ad=ad	8	obl	_
+8	hukkus	V	s=s	0	root	_
+9	üleeilses	A	sg=sg|in=in	10	amod	_
+10	rongiplahvatuses	S	sg=sg|in=in	8	obl	_
+11	Hiina	H	sg=sg|g=g	12	nmod	_
+12	piiri	S	sg=sg|g=g	8	obl	_
+13	lähedal	K	_	12	case	_
+14	Ryong-chongis	S	sg=sg|in=in	8	obl	_
+15	vähemalt	D	_	16	advmod	_
+16	54	N	?=?	17	nummod	_
+17	inimest	S	sg=sg|p=p	8	nsubj	_
+18	ja	J	_	21	cc	_
+19	1249	N	?=?	21	nsubj	_
+20	sai	V	s=s	21	aux	_
+21	vigastada	V	da=da	8	conj	_
+22	,	Z	_	24	punct	_
+23	samas	D	_	24	advmod	_
+24	lükkasid	V	sid=sid	8	conj	_
+25	nad	P	pl=pl|n=n	24	nsubj	_
+26	aga	J	_	24	advmod	_
+27	ümber	D	_	24	compound:prt	_
+28	teate	V	te=te	24	obj	_
+29	,	Z	_	31	punct	_
+30	nagu	D	_	31	mark	_
+31	plahvatanud	A	_	35	advcl	_
+32	oleks	V	ks=ks	35	aux	_
+33	kaks	N	sg=sg|n=n	35	nsubj	_
+34	kokku	D	_	35	compound:prt	_
+35	põrganud	A	_	28	ccomp	_
+36	kütuserongi	S	adt=adt	35	obj	CHECK
+37	.	Z	_	8	punct	_
+
+# sent_id = 1017268
+# text = Itar-Tassi teatel plahvatas pomm Dagestani pealinna Mahhatshkala raudteejaama ees autos .
+1	Itar-Tassi	H	sg=sg|g=g	2	nmod	_
+2	teatel	S	sg=sg|ad=ad	3	obl	_
+3	plahvatas	V	s=s	0	root	_
+4	pomm	S	sg=sg|n=n	3	obj	_
+5	Dagestani	H	sg=sg|g=g	3	nsubj	_
+6	pealinna	S	adt=adt	8	nmod	CHECK
+7	Mahhatshkala	H	sg=sg|g=g	6	appos	_
+8	raudteejaama	S	sg=sg|g=g	3	obl	_
+9	ees	K	_	8	case	_
+10	autos	S	sg=sg|in=in	3	obj	_
+11	.	Z	_	3	punct	_
+

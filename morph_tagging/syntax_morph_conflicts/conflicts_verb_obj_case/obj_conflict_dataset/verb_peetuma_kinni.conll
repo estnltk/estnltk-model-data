@@ -1,0 +1,115 @@
+# sent_id = 2224121
+# text = Kahtlustatavana antud kuriteos on kinni peetud Arkadi ( s. 1965 ) .
+1	Kahtlustatavana	A	sg=sg|es=es	3	acl	_
+2	antud	A	sg=sg|n=n	3	acl	_
+3	kuriteos	S	sg=sg|in=in	6	obj	_
+4	on	V	vad=vad	6	aux	_
+5	kinni	D	_	6	compound:prt	_
+6	peetud	V	d=d	0	root	_
+7	Arkadi	H	sg=sg|g=g	6	obj	CHECK
+8	(	Z	_	9	punct	_
+9	s	Y	?=?	7	parataxis	_
+10	.	Z	_	9	punct	_
+11	1965	N	?=?	9	parataxis	_
+12	)	Z	_	9	punct	_
+13	.	Z	_	6	punct	_
+
+# sent_id = 4137043
+# text = Veokijuhti on varem politsei poolt kinni peetud raudtee ületamise ohutuseeskirjade rikkumise pärast .
+1	Veokijuhti	S	adt=adt	7	obj	CHECK
+2	on	V	b=b	7	aux	_
+3	varem	D	_	7	advmod	_
+4	politsei	S	sg=sg|g=g	7	obl	_
+5	poolt	K	_	4	case	_
+6	kinni	D	_	7	compound:prt	_
+7	peetud	A	sg=sg|n=n	0	root	_
+8	raudtee	S	sg=sg|g=g	9	nmod	_
+9	ületamise	S	sg=sg|g=g	7	obj	_
+10	ohutuseeskirjade	S	pl=pl|g=g	11	nmod	_
+11	rikkumise	S	sg=sg|g=g	9	nmod	_
+12	pärast	K	_	11	case	_
+13	.	Z	_	7	punct	_
+
+# sent_id = 14290146
+# text = Kinni on peetud kuus kahtlustatavat , kes aga pärast ülekuulamist kautsjoni vastu vabastati .
+1	Kinni	D	_	3	compound:prt	_
+2	on	V	b=b	3	aux	_
+3	peetud	A	pl=pl|n=n	0	root	_
+4	kuus	S	sg=sg|in=in	5	obj	_
+5	kahtlustatavat	V	tavat=tavat	3	obj	CHECK
+6	,	Z	_	13	punct	_
+7	kes	P	pl=pl|n=n	13	nsubj	_
+8	aga	J	_	13	advmod	_
+9	pärast	K	_	11	case	_
+10	ülekuulamist	S	sg=sg|p=p	11	nmod	_
+11	kautsjoni	S	sg=sg|g=g	13	obl	_
+12	vastu	K	_	11	case	_
+13	vabastati	V	ti=ti	5	ccomp	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 477809
+# text = Füüsilise isiku tulumaksu peab tööandja küll kinni , aga see on ikkagi palga saaja maks ja kui seda on vähem kinni peetud , peab juurde maksma rohkem raha kätte saanud töötaja .
+1	Füüsilise	A	sg=sg|g=g	2	amod	_
+2	isiku	S	sg=sg|g=g	3	nmod	_
+3	tulumaksu	S	sg=sg|g=g	4	nsubj	_
+4	peab	V	b=b	0	root	_
+5	tööandja	S	sg=sg|n=n	4	obj	_
+6	küll	D	_	4	advmod	_
+7	kinni	D	_	4	compound:prt	_
+8	,	Z	_	15	punct	_
+9	aga	J	_	15	cc	_
+10	see	P	sg=sg|n=n	15	nsubj:cop	_
+11	on	V	vad=vad	15	cop	_
+12	ikkagi	D	_	15	advmod	_
+13	palga	S	sg=sg|g=g	14	nmod	_
+14	saaja	S	sg=sg|g=g	15	nmod	_
+15	maks	S	sg=sg|n=n	4	conj	_
+16	ja	J	_	22	cc	_
+17	kui	J	_	22	mark	_
+18	seda	P	sg=sg|p=p	22	obj	CHECK
+19	on	V	b=b	22	aux	_
+20	vähem	D	_	22	advmod	_
+21	kinni	D	_	22	compound:prt	_
+22	peetud	V	d=d	26	advcl	_
+23	,	Z	_	26	punct	_
+24	peab	V	b=b	26	aux	_
+25	juurde	D	_	26	compound:prt	_
+26	maksma	V	ma=ma	4	conj	_
+27	rohkem	D	_	28	advmod	_
+28	raha	S	sg=sg|g=g	30	obj	_
+29	kätte	K	_	30	obl	_
+30	saanud	A	pl=pl|n=n	31	acl	_
+31	töötaja	S	sg=sg|n=n	26	nsubj	_
+32	.	Z	_	4	punct	_
+
+# sent_id = 379335
+# text = Tulevahetuse süüdlane - tõusvaks räpitäheks peetav 19aastane Shyne , pärisnimega Jamal Barrow , kes haavas seni teadmata põhjustel kaht meest ja üht naist - on kinni peetud .
+1	Tulevahetuse	S	sg=sg|g=g	2	nmod	_
+2	süüdlane	S	sg=sg|n=n	27	obj	CHECK
+3	-	Z	_	8	punct	_
+4	tõusvaks	A	sg=sg|tr=tr	5	acl	_
+5	räpitäheks	S	sg=sg|tr=tr	6	obj	_
+6	peetav	A	sg=sg|n=n	8	acl	_
+7	19aastane	A	sg=sg|n=n	8	amod	_
+8	Shyne	H	sg=sg|n=n	2	appos	_
+9	,	Z	_	10	punct	_
+10	pärisnimega	S	sg=sg|kom=kom	8	conj	_
+11	Jamal	S	sg=sg|ad=ad	10	appos	_
+12	Barrow	H	sg=sg|n=n	11	flat	_
+13	,	Z	_	15	punct	_
+14	kes	P	pl=pl|n=n	15	nsubj	_
+15	haavas	V	s=s	11	acl:relcl	_
+16	seni	D	_	15	advmod	_
+17	teadmata	A	_	18	amod	_
+18	põhjustel	S	pl=pl|ad=ad	15	obj	_
+19	kaht	N	sg=sg|p=p	20	nummod	_
+20	meest	S	sg=sg|p=p	15	obj	_
+21	ja	J	_	23	cc	_
+22	üht	P	sg=sg|p=p	23	nummod	_
+23	naist	S	sg=sg|p=p	20	conj	_
+24	-	Z	_	15	punct	_
+25	on	V	vad=vad	27	aux	_
+26	kinni	D	_	27	compound:prt	_
+27	peetud	V	tud=tud	0	root	_
+28	.	Z	_	27	punct	_
+

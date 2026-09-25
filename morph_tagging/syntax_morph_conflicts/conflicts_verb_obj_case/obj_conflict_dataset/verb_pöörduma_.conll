@@ -1,0 +1,450 @@
+# sent_id = 51729
+# text = “ Pöördusin abi saamiseks sõprade ja tuttavate poole .
+1	“	Z	_	2	punct	_
+2	Pöördusin	V	sin=sin	0	root	_
+3	abi	S	sg=sg|p=p	2	nsubj	CHECK
+4	saamiseks	S	sg=sg|tr=tr	2	obl	_
+5	sõprade	S	pl=pl|g=g	2	obl	_
+6	ja	J	_	7	cc	_
+7	tuttavate	S	pl=pl|g=g	5	conj	_
+8	poole	K	_	5	case	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 68406
+# text = Läheb mees juveeliärisse , valib välja kõige peenema teemantkee ja pöördub poepidaja poole ultimaatumiga : “ Ma võtan selle , kuid ainult miljonidollarise rahatähe sisse pakituna . ”
+1	Läheb	V	b=b	0	root	_
+2	mees	S	sg=sg|n=n	1	nsubj	_
+3	juveeliärisse	S	sg=sg|ill=ill	1	obl	_
+4	,	Z	_	5	punct	_
+5	valib	V	b=b	1	conj	_
+6	välja	D	_	5	compound:prt	_
+7	kõige	D	_	8	advmod	_
+8	peenema	C	sg=sg|g=g	9	amod	_
+9	teemantkee	S	sg=sg|g=g	5	obj	_
+10	ja	J	_	11	cc	_
+11	pöördub	V	b=b	1	conj	_
+12	poepidaja	S	sg=sg|n=n	11	obl	CHECK
+13	poole	N	sg=sg|g=g	14	nummod	_
+14	ultimaatumiga	S	sg=sg|kom=kom	11	obl	_
+15	:	Z	_	18	punct	_
+16	“	Z	_	18	punct	_
+17	Ma	P	sg=sg|n=n	18	nsubj	_
+18	võtan	V	n=n	11	parataxis	_
+19	selle	P	sg=sg|g=g	18	obj	_
+20	,	Z	_	26	punct	_
+21	kuid	J	_	26	cc	_
+22	ainult	D	_	23	advmod	_
+23	miljonidollarise	A	sg=sg|g=g	24	amod	_
+24	rahatähe	S	sg=sg|g=g	18	obl	_
+25	sisse	K	_	24	case	_
+26	pakituna	S	sg=sg|es=es	18	conj	_
+27	.	Z	_	18	punct	_
+28	”	Z	_	18	punct	_
+
+# sent_id = 6288515
+# text = Samuti ootavad arupärijad ministri hinnangut oma parteikaaslase tegevusele ning vastust , kas minister on juba pöördunud oma alluva kohta esitatud võltsdokumendi omamise ja kasutamise süüdistuse asjaolude uurimiseks õiguskaitseorganite poole .
+1	Samuti	D	_	2	advmod	_
+2	ootavad	V	vad=vad	0	root	_
+3	arupärijad	S	pl=pl|n=n	4	nmod	_
+4	ministri	S	sg=sg|g=g	5	nmod	_
+5	hinnangut	S	sg=sg|p=p	2	obj	_
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	parteikaaslase	S	sg=sg|g=g	8	nmod	_
+8	tegevusele	S	sg=sg|all=all	2	obj	_
+9	ning	J	_	10	cc	_
+10	vastust	S	sg=sg|p=p	8	conj	_
+11	,	Z	_	16	punct	_
+12	kas	D	_	16	advmod	_
+13	minister	S	sg=sg|n=n	16	nsubj	_
+14	on	V	vad=vad	16	aux	_
+15	juba	D	_	16	advmod	_
+16	pöördunud	A	pl=pl|n=n	10	acl	_
+17	oma	P	sg=sg|g=g	18	nmod	_
+18	alluva	S	sg=sg|g=g	20	obl	_
+19	kohta	K	_	18	case	_
+20	esitatud	A	_	21	acl	_
+21	võltsdokumendi	S	sg=sg|g=g	22	nmod	_
+22	omamise	S	sg=sg|g=g	16	obl	_
+23	ja	J	_	24	cc	_
+24	kasutamise	S	sg=sg|g=g	22	conj	_
+25	süüdistuse	S	sg=sg|g=g	24	obj	CHECK
+26	asjaolude	S	pl=pl|g=g	27	nmod	_
+27	uurimiseks	S	sg=sg|tr=tr	25	nmod	_
+28	õiguskaitseorganite	S	pl=pl|g=g	27	nmod	_
+29	poole	K	_	28	case	_
+30	.	Z	_	2	punct	_
+
+# sent_id = 659077
+# text = Sellest tulenevalt arvati ka NATO laienemist pöörduvat pigem Kagu- kui Kirde-Euroopa suunas .
+1	Sellest	P	sg=sg|el=el	3	nsubj	_
+2	tulenevalt	D	_	3	advmod	_
+3	arvati	V	ti=ti	0	root	_
+4	ka	D	_	3	advmod	_
+5	NATO	Y	?=?	6	nmod	_
+6	laienemist	S	sg=sg|p=p	7	nsubj	CHECK
+7	pöörduvat	V	vat=vat	3	xcomp	_
+8	pigem	D	_	9	advmod	_
+9	Kagu-	H	sg=sg|g=g	7	obl	_
+10	kui	D	_	11	cc	_
+11	Kirde-Euroopa	H	sg=sg|g=g	9	conj	_
+12	suunas	K	_	9	case	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 2794131
+# text = Kui Ligi ei pöördu sõjahaudade komisjoni ettepaneku täitmiseks arheoloogide poole palvega alustada 1944. aasta sügisel " Tallinna vabastamise käigus langenud sõjameeste haudade " väljakaevamiseks muinsuskaitseameti poole , tuleb seda teha uuel kaitseministril .
+1	Kui	D	_	4	mark	_
+2	Ligi	H	sg=sg|n=n	4	advmod	_
+3	ei	V	neg=neg	4	aux	_
+4	pöördu	V	o=o	28	advcl	_
+5	sõjahaudade	S	pl=pl|g=g	6	nmod	_
+6	komisjoni	S	sg=sg|g=g	7	nmod	_
+7	ettepaneku	S	sg=sg|g=g	4	nsubj	CHECK
+8	täitmiseks	S	sg=sg|tr=tr	4	obl	_
+9	arheoloogide	S	pl=pl|g=g	8	nmod	_
+10	poole	K	_	9	case	_
+11	palvega	S	sg=sg|kom=kom	12	obj	_
+12	alustada	V	da=da	4	conj	_
+13	1944.	O	?=?	14	amod	_
+14	aasta	S	sg=sg|g=g	15	nmod	_
+15	sügisel	S	sg=sg|ad=ad	24	nmod	_
+16	"	Z	_	22	punct	_
+17	Tallinna	H	sg=sg|g=g	18	nmod	_
+18	vabastamise	S	sg=sg|g=g	20	obl	_
+19	käigus	K	_	18	case	_
+20	langenud	A	_	22	acl	_
+21	sõjameeste	S	pl=pl|g=g	22	nmod	_
+22	haudade	S	pl=pl|g=g	24	nmod	_
+23	"	Z	_	22	punct	_
+24	väljakaevamiseks	S	sg=sg|tr=tr	12	obl	_
+25	muinsuskaitseameti	S	sg=sg|g=g	24	nmod	_
+26	poole	K	_	25	case	_
+27	,	Z	_	4	punct	_
+28	tuleb	V	b=b	0	root	_
+29	seda	P	sg=sg|p=p	28	nsubj	_
+30	teha	V	da=da	28	csubj	_
+31	uuel	A	sg=sg|ad=ad	32	amod	_
+32	kaitseministril	S	sg=sg|ad=ad	30	obj	_
+33	.	Z	_	28	punct	_
+
+# sent_id = 6248701
+# text = KAIRO , 4. juuli ( EPLO ) - Egiptuse võimud pöördusid avaldusega Egiptuse diplomaadiI pantvangi võtnud raagi mässuliste poole , milles kinnitasid , et saadik Ihab Šerif on araabia patrioot , kes väärib austust ja lugupidamist .
+1	KAIRO	H	sg=sg|n=n	11	parataxis	_
+2	,	Z	_	4	punct	_
+3	4.	O	?=?	4	amod	_
+4	juuli	S	sg=sg|g=g	1	appos	_
+5	(	Z	_	6	punct	_
+6	EPLO	Y	?=?	4	parataxis	_
+7	)	Z	_	6	punct	_
+8	-	Z	_	11	punct	_
+9	Egiptuse	H	sg=sg|g=g	10	nmod	_
+10	võimud	S	pl=pl|n=n	11	nsubj	_
+11	pöördusid	V	sid=sid	0	root	_
+12	avaldusega	S	sg=sg|kom=kom	11	obl	_
+13	Egiptuse	H	sg=sg|g=g	14	nmod	_
+14	diplomaadiI	S	sg=sg|n=n	15	nmod	_
+15	pantvangi	S	sg=sg|g=g	16	obj	_
+16	võtnud	A	_	17	acl	_
+17	raagi	S	sg=sg|n=n	11	nsubj	CHECK
+18	mässuliste	A	pl=pl|g=g	17	amod	_
+19	poole	K	_	18	case	_
+20	,	Z	_	22	punct	_
+21	milles	P	pl=pl|in=in	22	nsubj	_
+22	kinnitasid	V	sid=sid	19	acl:relcl	_
+23	,	Z	_	25	punct	_
+24	et	J	_	25	mark	_
+25	saadik	S	sg=sg|n=n	22	ccomp	_
+26	Ihab	H	sg=sg|n=n	25	appos	_
+27	Šerif	H	sg=sg|n=n	26	flat	_
+28	on	V	vad=vad	25	cop	_
+29	araabia	G	_	30	amod	_
+30	patrioot	S	sg=sg|n=n	25	nsubj:cop	_
+31	,	Z	_	33	punct	_
+32	kes	P	pl=pl|n=n	33	nsubj	_
+33	väärib	V	b=b	30	acl:relcl	_
+34	austust	S	sg=sg|p=p	33	obj	_
+35	ja	J	_	36	cc	_
+36	lugupidamist	S	sg=sg|p=p	34	conj	_
+37	.	Z	_	11	punct	_
+
+# sent_id = 3895832
+# text = Abiorganisatsioone on informeeritud , et nad pöörduksid abi saamiseks turva-jõudude poole , kui nad abi jagama lähevad .
+1	Abiorganisatsioone	S	pl=pl|p=p	3	obj	_
+2	on	V	b=b	3	aux	_
+3	informeeritud	A	_	0	root	_
+4	,	Z	_	7	punct	_
+5	et	J	_	7	mark	_
+6	nad	P	pl=pl|n=n	7	nsubj	_
+7	pöörduksid	V	ksid=ksid	3	ccomp	_
+8	abi	S	sg=sg|p=p	9	nmod	CHECK
+9	saamiseks	S	sg=sg|tr=tr	7	obl	_
+10	turva-jõudude	S	pl=pl|g=g	7	obl	_
+11	poole	K	_	10	case	_
+12	,	Z	_	17	punct	_
+13	kui	J	_	17	mark	_
+14	nad	P	pl=pl|n=n	17	nsubj	_
+15	abi	S	sg=sg|p=p	16	obj	_
+16	jagama	V	ma=ma	17	xcomp	_
+17	lähevad	V	vad=vad	7	advcl	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 2741132
+# text = ENPA president Rene van der Linden on pöördunud ENPA poliitiliste gruppide liidrite poole tähelepanu juhtimiseks , et Eesti parlamendi ja avalikkuse kriitika tema aadressil on põhjendamatu .
+1	ENPA	Y	?=?	2	nmod	_
+2	president	S	sg=sg|n=n	8	nsubj	_
+3	Rene	H	sg=sg|n=n	2	appos	_
+4	van	Y	?=?	3	flat	_
+5	der	S	sg=sg|n=n	3	flat	_
+6	Linden	H	sg=sg|n=n	3	flat	_
+7	on	V	vad=vad	8	aux	_
+8	pöördunud	V	nud=nud	0	root	_
+9	ENPA	Y	?=?	11	nmod	_
+10	poliitiliste	A	pl=pl|g=g	11	amod	_
+11	gruppide	S	pl=pl|g=g	12	nmod	_
+12	liidrite	S	pl=pl|g=g	8	obl	_
+13	poole	K	_	12	case	_
+14	tähelepanu	S	sg=sg|p=p	15	nmod	CHECK
+15	juhtimiseks	S	sg=sg|tr=tr	8	obl	_
+16	,	Z	_	26	punct	_
+17	et	J	_	26	mark	_
+18	Eesti	H	sg=sg|g=g	26	nsubj:cop	_
+19	parlamendi	S	sg=sg|g=g	26	obl	_
+20	ja	J	_	21	cc	_
+21	avalikkuse	S	sg=sg|g=g	19	conj	_
+22	kriitika	S	sg=sg|n=n	19	conj	_
+23	tema	P	sg=sg|g=g	24	nmod	_
+24	aadressil	S	sg=sg|ad=ad	22	nmod	_
+25	on	V	vad=vad	26	cop	_
+26	põhjendamatu	A	sg=sg|n=n	8	advcl	_
+27	.	Z	_	8	punct	_
+
+# sent_id = 5294019
+# text = Kui olete kodukasutaja , siis väljuge Internetist ( kõige kiiremaks teeks on modemi väljalülitamine ) ning pöörduge abi saamiseks firmasse , kes müüs teile viirustõrje programmi .
+1	Kui	D	_	3	mark	_
+2	olete	V	te=te	3	cop	_
+3	kodukasutaja	S	sg=sg|g=g	6	advcl	_
+4	,	Z	_	3	punct	_
+5	siis	J	_	6	advmod	_
+6	väljuge	V	ge=ge	0	root	_
+7	Internetist	S	sg=sg|el=el	6	nsubj	_
+8	(	Z	_	11	punct	_
+9	kõige	D	_	10	advmod	_
+10	kiiremaks	C	sg=sg|tr=tr	11	nsubj	_
+11	teeks	V	ks=ks	6	parataxis	_
+12	on	V	b=b	11	aux	_
+13	modemi	S	sg=sg|g=g	14	nmod	_
+14	väljalülitamine	S	sg=sg|n=n	11	obj	_
+15	)	Z	_	11	punct	_
+16	ning	J	_	17	cc	_
+17	pöörduge	V	ge=ge	6	conj	_
+18	abi	S	sg=sg|p=p	19	nmod	CHECK
+19	saamiseks	S	sg=sg|tr=tr	17	obl	_
+20	firmasse	S	sg=sg|ill=ill	17	nsubj	_
+21	,	Z	_	23	punct	_
+22	kes	P	pl=pl|n=n	23	nsubj	_
+23	müüs	V	s=s	20	acl:relcl	_
+24	teile	P	pl=pl|all=all	23	obj	_
+25	viirustõrje	S	sg=sg|g=g	26	nmod	_
+26	programmi	S	sg=sg|p=p	23	obj	_
+27	.	Z	_	6	punct	_
+
+# sent_id = 365295
+# text = Stratosfääri väga stabiilne kihistus ei lase neil seal kuigi kõrgele tõusta ja pilvede tipud pöörduvad tuule suunas moodustades alasile sarnanevaid kujundeid ( anvil clouds ) .
+1	Stratosfääri	S	adt=adt	4	nmod	_
+2	väga	D	_	3	advmod	_
+3	stabiilne	A	sg=sg|n=n	4	amod	_
+4	kihistus	S	sg=sg|n=n	6	obj	_
+5	ei	V	neg=neg	6	aux	_
+6	lase	V	o=o	0	root	_
+7	neil	P	pl=pl|ad=ad	6	nsubj	_
+8	seal	D	_	6	advmod	_
+9	kuigi	J	_	10	advmod	_
+10	kõrgele	D	_	11	advmod	_
+11	tõusta	V	da=da	6	advcl	_
+12	ja	J	_	18	cc	_
+13	pilvede	S	pl=pl|g=g	14	nmod	_
+14	tipud	S	pl=pl|n=n	15	obl	_
+15	pöörduvad	V	vad=vad	11	conj	_
+16	tuule	S	sg=sg|g=g	18	obl	_
+17	suunas	K	_	16	case	_
+18	moodustades	V	des=des	6	conj	_
+19	alasile	S	sg=sg|all=all	20	obj	_
+20	sarnanevaid	A	pl=pl|p=p	21	acl	_
+21	kujundeid	S	pl=pl|p=p	18	obj	CHECK
+22	(	Z	_	23	punct	_
+23	anvil	S	sg=sg|n=n	21	appos	_
+24	clouds	S	sg=sg|n=n	23	flat:foreign	_
+25	)	Z	_	23	punct	_
+26	.	Z	_	6	punct	_
+
+# sent_id = 15128023
+# text = Nüüd on ta juba ise nii lavastaja kui ka loo kirjutajana kultusfilmil taas sarvist kinni haaranud ning täpselt seitse aastat hiljem ehk oma loomingu järgmisel etapilt uuesti reliikvia-teema juurde pöördunud .
+1	Nüüd	D	_	16	advmod	_
+2	on	V	b=b	16	aux	_
+3	ta	P	sg=sg|n=n	16	nsubj	_
+4	juba	D	_	5	advmod	_
+5	ise	D	_	16	advmod	_
+6	nii	D	_	7	cc:preconj	_
+7	lavastaja	S	sg=sg|n=n	16	obl	_
+8	kui	J	_	10	cc	_
+9	ka	D	_	10	advmod	_
+10	loo	S	sg=sg|g=g	7	conj	_
+11	kirjutajana	S	sg=sg|es=es	12	nmod	_
+12	kultusfilmil	S	sg=sg|ad=ad	16	obj	_
+13	taas	D	_	16	advmod	_
+14	sarvist	D	_	16	advmod	_
+15	kinni	D	_	16	compound:prt	_
+16	haaranud	A	sg=sg|n=n	0	root	_
+17	ning	J	_	30	cc	_
+18	täpselt	D	_	19	advmod	_
+19	seitse	N	sg=sg|n=n	20	nummod	_
+20	aastat	S	sg=sg|p=p	21	obl	_
+21	hiljem	D	_	30	advmod	_
+22	ehk	D	_	30	advmod	_
+23	oma	P	sg=sg|g=g	24	nmod	_
+24	loomingu	S	sg=sg|g=g	30	obj	CHECK
+25	järgmisel	A	sg=sg|ad=ad	26	amod	_
+26	etapilt	S	sg=sg|abl=abl	30	obl	_
+27	uuesti	D	_	30	advmod	_
+28	reliikvia-teema	S	sg=sg|g=g	30	obl	_
+29	juurde	K	_	28	case	_
+30	pöördunud	A	_	16	conj	_
+31	.	Z	_	16	punct	_
+
+# sent_id = 4351107
+# text = Paljud islamiriigid on pöördunud 2012. aastal Londonis peetavate suveolümpiamängude korralduskomitee poole ettepanekuga mängude läbiviibimise aega , sest praegused tärminid jäävad moslemite püha kuu Ramadani sisse .
+1	Paljud	P	pl=pl|n=n	2	nmod	_
+2	islamiriigid	S	pl=pl|n=n	4	nsubj	_
+3	on	V	b=b	4	aux	_
+4	pöördunud	A	pl=pl|n=n	0	root	_
+5	2012.	O	?=?	6	amod	_
+6	aastal	S	sg=sg|ad=ad	8	obl	_
+7	Londonis	H	sg=sg|in=in	8	obl	_
+8	peetavate	A	pl=pl|g=g	9	acl	_
+9	suveolümpiamängude	S	pl=pl|g=g	10	nmod	_
+10	korralduskomitee	S	sg=sg|n=n	4	obl	CHECK
+11	poole	N	sg=sg|g=g	12	nummod	_
+12	ettepanekuga	S	sg=sg|kom=kom	4	obj	_
+13	mängude	S	pl=pl|g=g	14	nmod	_
+14	läbiviibimise	S	sg=sg|g=g	15	nmod	_
+15	aega	S	sg=sg|p=p	12	nmod	_
+16	,	Z	_	20	punct	_
+17	sest	J	_	20	mark	_
+18	praegused	A	pl=pl|n=n	19	amod	_
+19	tärminid	S	pl=pl|n=n	20	nsubj	_
+20	jäävad	V	vad=vad	4	advcl	_
+21	moslemite	S	pl=pl|g=g	20	obl	_
+22	püha	A	sg=sg|n=n	23	amod	_
+23	kuu	S	sg=sg|n=n	20	obl	_
+24	Ramadani	H	adt=adt	20	obl	_
+25	sisse	D	_	20	compound:prt	_
+26	.	Z	_	4	punct	_
+
+# sent_id = 1375922
+# text = " Ma pean konsuli käest küsima , kas meil on infot või mitte , sest kui soomlased meie poole abi saamiseks ei ole pöördunud , siis meil tihtipeale neist asjust teavet ei ole , " ütles Kolk Megale täna pärastlõunal .
+1	"	Z	_	6	punct	_
+2	Ma	P	sg=sg|n=n	6	nsubj	_
+3	pean	V	n=n	6	aux	_
+4	konsuli	S	sg=sg|g=g	6	obl	_
+5	käest	K	_	4	case	_
+6	küsima	V	ma=ma	0	root	_
+7	,	Z	_	11	punct	_
+8	kas	D	_	11	advmod	_
+9	meil	P	pl=pl|ad=ad	11	nsubj:cop	_
+10	on	V	b=b	11	cop	_
+11	infot	S	sg=sg|p=p	6	ccomp	_
+12	või	J	_	13	cc	_
+13	mitte	D	_	11	conj	_
+14	,	Z	_	24	punct	_
+15	sest	J	_	24	mark	_
+16	kui	J	_	24	mark	_
+17	soomlased	S	pl=pl|n=n	24	nsubj	_
+18	meie	P	pl=pl|g=g	24	obl	_
+19	poole	K	_	18	case	_
+20	abi	S	sg=sg|p=p	21	nmod	CHECK
+21	saamiseks	S	sg=sg|tr=tr	24	obl	_
+22	ei	V	neg=neg	24	aux	_
+23	ole	V	o=o	24	aux	_
+24	pöördunud	A	pl=pl|n=n	27	advcl	_
+25	,	Z	_	27	punct	_
+26	siis	J	_	27	advmod	_
+27	meil	P	pl=pl|ad=ad	6	conj	_
+28	tihtipeale	D	_	27	advmod	_
+29	neist	P	pl=pl|el=el	30	det	_
+30	asjust	S	pl=pl|el=el	31	det	_
+31	teavet	S	sg=sg|p=p	27	nsubj:cop	_
+32	ei	V	neg=neg	33	aux	_
+33	ole	V	o=o	27	cop	_
+34	,	Z	_	6	punct	_
+35	"	Z	_	6	punct	_
+36	ütles	V	s=s	6	parataxis	_
+37	Kolk	H	sg=sg|n=n	36	nsubj	_
+38	Megale	H	sg=sg|g=g	37	flat	_
+39	täna	D	_	36	advmod	_
+40	pärastlõunal	S	sg=sg|ad=ad	36	obj	_
+41	.	Z	_	6	punct	_
+
+# sent_id = 2652832
+# text = " Oleme siin ise kõik psühholoogide poole pöördunud . "
+1	"	Z	_	8	punct	_
+2	Oleme	V	me=me	8	aux	_
+3	siin	D	_	8	advmod	_
+4	ise	P	sg=sg|n=n	8	advmod	_
+5	kõik	P	pl=pl|n=n	8	nsubj	CHECK
+6	psühholoogide	S	pl=pl|g=g	8	obl	_
+7	poole	K	_	6	case	_
+8	pöördunud	A	sg=sg|n=n	0	root	_
+9	.	Z	_	8	punct	_
+10	"	Z	_	8	punct	_
+
+# sent_id = 205823
+# text = Selleks pöördusin artikli ühe autori , Päevalehe ajakirjaniku Risto Berendsoni poole .
+1	Selleks	P	sg=sg|tr=tr	2	nsubj	_
+2	pöördusin	V	sin=sin	0	root	_
+3	artikli	S	sg=sg|g=g	2	obj	CHECK
+4	ühe	N	sg=sg|g=g	5	nummod	_
+5	autori	S	sg=sg|g=g	2	obl	_
+6	,	Z	_	7	punct	_
+7	Päevalehe	S	sg=sg|g=g	5	conj	_
+8	ajakirjaniku	S	sg=sg|g=g	7	nmod	_
+9	Risto	H	sg=sg|n=n	8	appos	_
+10	Berendsoni	H	sg=sg|g=g	9	flat	_
+11	poole	K	_	9	case	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 1424401
+# text = Toetuse taotlemiseks tuleb minna raviarsti juurde haigusloo tõendi saamiseks , millega taotleja pöördub vaegurluse ekspertiisi komisjoni .
+1	Toetuse	S	sg=sg|g=g	2	nmod	_
+2	taotlemiseks	S	sg=sg|tr=tr	3	obl	_
+3	tuleb	V	b=b	0	root	_
+4	minna	V	da=da	3	csubj	_
+5	raviarsti	S	sg=sg|g=g	4	obl	_
+6	juurde	K	_	5	case	_
+7	haigusloo	S	sg=sg|g=g	8	nmod	_
+8	tõendi	S	sg=sg|g=g	9	nmod	_
+9	saamiseks	S	sg=sg|tr=tr	4	obl	_
+10	,	Z	_	13	punct	_
+11	millega	P	pl=pl|kom=kom	13	nsubj	_
+12	taotleja	S	sg=sg|n=n	13	obl	_
+13	pöördub	V	b=b	9	acl:relcl	_
+14	vaegurluse	S	sg=sg|g=g	13	obl	_
+15	ekspertiisi	S	sg=sg|g=g	16	nmod	_
+16	komisjoni	S	sg=sg|g=g	13	obl	CHECK
+17	.	Z	_	3	punct	_
+
+# sent_id = 16149983
+# text = “ Teie poole pöördub end 1935. aastast alates Eesti Vabariigi kodanikuks pidanud isik .
+1	“	Z	_	4	punct	_
+2	Teie	P	pl=pl|g=g	4	obl	_
+3	poole	K	_	2	case	_
+4	pöördub	V	b=b	0	root	_
+5	end	Y	?=?	4	nsubj	CHECK
+6	1935.	O	?=?	7	amod	_
+7	aastast	S	sg=sg|el=el	4	obl	_
+8	alates	K	_	11	case	_
+9	Eesti	H	sg=sg|g=g	10	nmod	_
+10	Vabariigi	S	sg=sg|g=g	11	nmod	_
+11	kodanikuks	S	sg=sg|tr=tr	12	obl	_
+12	pidanud	V	nud=nud	13	acl	_
+13	isik	S	sg=sg|n=n	4	nsubj	_
+14	.	Z	_	4	punct	_
+

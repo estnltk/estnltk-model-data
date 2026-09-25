@@ -1,0 +1,448 @@
+# sent_id = 567217
+# text = Prokurör nõu-dis kohtualuse vahi alla võtmist , kuid advokaat arvas , et sundtoomisest piisaks ning sellega nõustus ka maakohtu esimees Käis .
+1	Prokurör	S	sg=sg|n=n	2	obj	_
+2	nõu-dis	V	s=s	0	root	_
+3	kohtualuse	S	sg=sg|g=g	2	obj	_
+4	vahi	S	sg=sg|g=g	6	nmod	_
+5	alla	K	_	4	case	_
+6	võtmist	S	sg=sg|p=p	2	obl	_
+7	,	Z	_	10	punct	_
+8	kuid	J	_	10	cc	_
+9	advokaat	S	sg=sg|n=n	10	nsubj	_
+10	arvas	V	s=s	2	conj	_
+11	,	Z	_	14	punct	_
+12	et	J	_	14	mark	_
+13	sundtoomisest	S	sg=sg|el=el	14	nmod	_
+14	piisaks	S	sg=sg|tr=tr	10	ccomp	_
+15	ning	J	_	17	cc	_
+16	sellega	P	sg=sg|kom=kom	17	nsubj	_
+17	nõustus	V	s=s	10	ccomp	_
+18	ka	D	_	21	advmod	_
+19	maakohtu	S	sg=sg|g=g	20	nmod	_
+20	esimees	S	sg=sg|n=n	21	nsubj	_
+21	Käis	V	s=s	17	xcomp	CHECK
+22	.	Z	_	2	punct	_
+
+# sent_id = 3343497
+# text = ; Keegan ei nõustu von Clausewitzi teesiga , et sõda on poliitika jätkamine teiste vahenditega .
+1	;	Z	_	4	punct	_
+2	Keegan	H	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	nõustu	V	o=o	0	root	_
+5	von	S	sg=sg|n=n	4	nsubj	CHECK
+6	Clausewitzi	H	sg=sg|g=g	5	flat	_
+7	teesiga	S	sg=sg|kom=kom	4	obj	_
+8	,	Z	_	13	punct	_
+9	et	J	_	13	mark	_
+10	sõda	S	sg=sg|n=n	13	nsubj:cop	_
+11	on	V	vad=vad	13	cop	_
+12	poliitika	S	sg=sg|g=g	13	nmod	_
+13	jätkamine	S	sg=sg|n=n	4	ccomp	_
+14	teiste	P	pl=pl|g=g	15	det	_
+15	vahenditega	S	pl=pl|kom=kom	13	nsubj:cop	_
+16	.	Z	_	4	punct	_
+
+# sent_id = 3994129
+# text = Pigem nõustuksin teie küsimuse teise poolega .
+1	Pigem	D	_	2	advmod	_
+2	nõustuksin	V	ksin=ksin	0	root	_
+3	teie	P	pl=pl|g=g	4	nmod	_
+4	küsimuse	S	sg=sg|g=g	2	obj	CHECK
+5	teise	O	sg=sg|g=g	6	amod	_
+6	poolega	S	sg=sg|kom=kom	2	nsubj	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 1488391
+# text = Seetõttu valmistatakse nädala jooksul ette linnavalitsuse korralduse eelnõu , mille järgi linn ei nõustu Haridusministeeriumi ettepanekuga paadikuuri aluse maa riigi omandisse jätmiseks .
+1	Seetõttu	D	_	2	advmod	_
+2	valmistatakse	V	takse=takse	0	root	_
+3	nädala	S	sg=sg|g=g	2	obl	_
+4	jooksul	K	_	3	case	_
+5	ette	D	_	2	compound:prt	_
+6	linnavalitsuse	S	sg=sg|g=g	7	nmod	_
+7	korralduse	S	sg=sg|g=g	2	obj	_
+8	eelnõu	S	sg=sg|n=n	7	nmod	_
+9	,	Z	_	14	punct	_
+10	mille	P	pl=pl|g=g	14	obl	_
+11	järgi	K	_	10	case	_
+12	linn	S	sg=sg|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	nõustu	V	o=o	8	acl:relcl	_
+15	Haridusministeeriumi	S	sg=sg|g=g	16	nmod	_
+16	ettepanekuga	S	sg=sg|kom=kom	14	obj	_
+17	paadikuuri	S	sg=sg|g=g	18	nmod	_
+18	aluse	S	sg=sg|g=g	16	nmod	CHECK
+19	maa	S	sg=sg|g=g	20	nmod	_
+20	riigi	S	sg=sg|g=g	21	nmod	_
+21	omandisse	S	sg=sg|ill=ill	22	nmod	_
+22	jätmiseks	S	sg=sg|tr=tr	18	nmod	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 12913079
+# text = Kas su nn. nurinakaustas oli ka artikleid ja tähelepanekuid , millega vastuvaidlemata nõustud ?
+1	Kas	D	_	4	advmod	_
+2	su	P	sg=sg|g=g	4	nsubj:cop	_
+3	nn.	Y	?=?	4	nmod	_
+4	nurinakaustas	S	sg=sg|in=in	7	nsubj:cop	_
+5	oli	V	s=s	4	cop	_
+6	ka	D	_	7	advmod	_
+7	artikleid	S	pl=pl|p=p	0	root	_
+8	ja	J	_	9	cc	_
+9	tähelepanekuid	S	pl=pl|p=p	7	conj	_
+10	,	Z	_	13	punct	_
+11	millega	P	pl=pl|kom=kom	13	obj	_
+12	vastuvaidlemata	A	_	13	advcl	CHECK
+13	nõustud	V	d=d	9	acl:relcl	_
+14	?	Z	_	4	punct	_
+
+# sent_id = 2563017
+# text = USA valitsus nõustuks siis Saddam Husseini ja tema pereliikmete lahkumisega suvalisse araabia riiki , mis oleks valmis neid vastu võtma .
+1	USA	Y	?=?	2	nmod	_
+2	valitsus	S	sg=sg|n=n	3	nsubj	_
+3	nõustuks	V	ks=ks	0	root	_
+4	siis	D	_	3	advmod	_
+5	Saddam	H	sg=sg|n=n	13	nmod	_
+6	Husseini	H	sg=sg|g=g	5	flat	_
+7	ja	J	_	10	cc	_
+8	tema	P	sg=sg|g=g	9	nmod	_
+9	pereliikmete	S	pl=pl|g=g	10	nmod	_
+10	lahkumisega	S	sg=sg|kom=kom	5	conj	_
+11	suvalisse	A	adt=adt	13	amod	_
+12	araabia	G	_	13	amod	_
+13	riiki	S	adt=adt	3	obj	CHECK
+14	,	Z	_	17	punct	_
+15	mis	P	sg=sg|n=n	17	nsubj:cop	_
+16	oleks	V	ks=ks	17	cop	_
+17	valmis	D	_	13	acl:relcl	_
+18	neid	P	pl=pl|p=p	20	obj	_
+19	vastu	D	_	20	compound:prt	_
+20	võtma	V	ma=ma	17	xcomp	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 14033452
+# text = Kaasa Tatjana teadis lisada , et Grinko nõustuvat aastapalgaga 75 000 dollarit , kuid see olevat Eesti sõudmisele liig .
+1	Kaasa	H	sg=sg|n=n	3	compound:prt	_
+2	Tatjana	H	sg=sg|n=n	3	nsubj	_
+3	teadis	V	s=s	0	root	_
+4	lisada	V	da=da	3	xcomp	_
+5	,	Z	_	8	punct	_
+6	et	J	_	8	mark	_
+7	Grinko	H	sg=sg|n=n	8	nsubj	_
+8	nõustuvat	V	vat=vat	4	ccomp	_
+9	aastapalgaga	S	sg=sg|kom=kom	8	obl	_
+10	75 000	N	?=?	11	nummod	_
+11	dollarit	S	sg=sg|p=p	8	obl	CHECK
+12	,	Z	_	18	punct	_
+13	kuid	J	_	18	cc	_
+14	see	P	sg=sg|n=n	18	nsubj:cop	_
+15	olevat	V	vat=vat	18	cop	_
+16	Eesti	H	sg=sg|g=g	17	nmod	_
+17	sõudmisele	S	sg=sg|all=all	18	nmod	_
+18	liig	S	sg=sg|n=n	8	conj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 11185434
+# text = Me ei nõustu enda kaasatõmbamisega sellesse nõiaringi .
+1	Me	P	pl=pl|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	nõustu	V	o=o	0	root	_
+4	enda	P	sg=sg|g=g	5	nmod	_
+5	kaasatõmbamisega	S	sg=sg|kom=kom	3	obl	_
+6	sellesse	P	sg=sg|ill=ill	7	det	_
+7	nõiaringi	S	adt=adt	3	obj	CHECK
+8	.	Z	_	3	punct	_
+
+# sent_id = 1653322
+# text = Erakond Läti Tee ning Läti Talurahvaliidu ja Kristlike Demokraatide Liidu koalitsioon nõustusid uute partnerite vastuvõtmisega valitsusse .
+1	Erakond	H	sg=sg|n=n	3	nmod	_
+2	Läti	H	sg=sg|g=g	3	nmod	_
+3	Tee	S	sg=sg|n=n	12	nsubj	_
+4	ning	J	_	11	cc	_
+5	Läti	H	sg=sg|g=g	6	nmod	_
+6	Talurahvaliidu	S	sg=sg|g=g	11	nmod	_
+7	ja	J	_	11	cc	_
+8	Kristlike	A	pl=pl|g=g	9	amod	_
+9	Demokraatide	S	pl=pl|g=g	10	nmod	_
+10	Liidu	S	sg=sg|g=g	11	nmod	_
+11	koalitsioon	S	sg=sg|n=n	3	conj	_
+12	nõustusid	V	sid=sid	0	root	_
+13	uute	A	pl=pl|g=g	14	amod	_
+14	partnerite	S	pl=pl|g=g	15	nmod	_
+15	vastuvõtmisega	S	sg=sg|kom=kom	12	obl	_
+16	valitsusse	S	adt=adt	12	obj	CHECK
+17	.	Z	_	12	punct	_
+
+# sent_id = 7713916
+# text = Reformierakond ei nõustu ILMi ettepanekuga jätta linnapeakoht ILMile ja volikogu esimehe koht Reformierakonnale .
+1	Reformierakond	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	nõustu	V	o=o	0	root	_
+4	ILMi	Y	adt=adt	5	nmod	CHECK
+5	ettepanekuga	S	sg=sg|kom=kom	6	obj	_
+6	jätta	V	da=da	3	conj	_
+7	linnapeakoht	S	sg=sg|n=n	6	obj	_
+8	ILMile	Y	sg=sg|all=all	12	nmod	_
+9	ja	J	_	11	cc	_
+10	volikogu	S	sg=sg|g=g	11	nmod	_
+11	esimehe	S	sg=sg|g=g	8	conj	_
+12	koht	S	sg=sg|n=n	6	obj	_
+13	Reformierakonnale	H	sg=sg|all=all	12	appos	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 2306320
+# text = Šveits ei nõustunud nimelt ÜRO standardse lippude suurust ja kuju sätestava korraga .
+1	Šveits	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	nõustunud	A	pl=pl|n=n	0	root	_
+4	nimelt	D	_	3	advmod	_
+5	ÜRO	Y	?=?	7	nmod	_
+6	standardse	A	sg=sg|g=g	7	amod	_
+7	lippude	S	pl=pl|g=g	8	nmod	_
+8	suurust	S	sg=sg|p=p	3	obj	CHECK
+9	ja	J	_	10	cc	_
+10	kuju	S	sg=sg|p=p	11	obj	_
+11	sätestava	A	sg=sg|g=g	12	acl	_
+12	korraga	S	sg=sg|kom=kom	3	obl	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 1422577
+# text = Keskkonnaministeerium aga ei nõustunud maavanema seisukohaga taotluse põhjendatuse osas , kuna taotletav äri-ja tootmismaa ei ole seadusega kohalikule omavalitsusele pandud ülesannete täitmise seisukohalt vajalik ning esitas korralduse eelnõu taotluse rahuldamata jätmise kohta .
+1	Keskkonnaministeerium	S	sg=sg|n=n	4	nsubj	_
+2	aga	J	_	4	advmod	_
+3	ei	V	neg=neg	4	aux	_
+4	nõustunud	A	pl=pl|n=n	0	root	_
+5	maavanema	S	sg=sg|g=g	6	nmod	_
+6	seisukohaga	S	sg=sg|kom=kom	7	nmod	_
+7	taotluse	S	sg=sg|g=g	4	nsubj	CHECK
+8	põhjendatuse	S	sg=sg|g=g	7	nmod	_
+9	osas	K	_	8	case	_
+10	,	Z	_	24	punct	_
+11	kuna	J	_	24	mark	_
+12	taotletav	A	sg=sg|n=n	14	acl	_
+13	äri-ja	J	_	14	nmod	_
+14	tootmismaa	S	sg=sg|n=n	24	nsubj:cop	_
+15	ei	V	neg=neg	24	aux	_
+16	ole	V	o=o	24	cop	_
+17	seadusega	S	sg=sg|kom=kom	24	nsubj:cop	_
+18	kohalikule	A	sg=sg|all=all	19	amod	_
+19	omavalitsusele	S	sg=sg|all=all	20	obl	_
+20	pandud	V	tud=tud	21	acl	_
+21	ülesannete	S	pl=pl|g=g	22	nmod	_
+22	täitmise	S	sg=sg|g=g	24	obl	_
+23	seisukohalt	S	sg=sg|abl=abl	24	advmod	_
+24	vajalik	A	sg=sg|n=n	4	advcl	_
+25	ning	J	_	26	cc	_
+26	esitas	V	s=s	24	conj	_
+27	korralduse	S	sg=sg|g=g	26	obj	_
+28	eelnõu	S	sg=sg|g=g	29	nmod	_
+29	taotluse	S	sg=sg|g=g	26	obj	_
+30	rahuldamata	V	mata=mata	31	acl	_
+31	jätmise	S	sg=sg|g=g	29	nmod	_
+32	kohta	K	_	31	case	_
+33	.	Z	_	4	punct	_
+
+# sent_id = 547229
+# text = Kuid sel nädalal toimuval Genfi autonäitusel lubas Toyota esitleda ka kolmandat versiooni Vario , mille täpset olemust ei nõustunud tehase esindajad enne esitlust ajakirjanikele tutvustama .
+1	Kuid	J	_	7	cc	_
+2	sel	P	sg=sg|ad=ad	3	det	_
+3	nädalal	S	sg=sg|ad=ad	4	obl	_
+4	toimuval	A	sg=sg|ad=ad	6	acl	_
+5	Genfi	H	sg=sg|g=g	6	nmod	_
+6	autonäitusel	S	sg=sg|ad=ad	7	nsubj	_
+7	lubas	V	s=s	0	root	_
+8	Toyota	H	sg=sg|n=n	7	nsubj	_
+9	esitleda	V	da=da	7	xcomp	_
+10	ka	D	_	12	advmod	_
+11	kolmandat	O	sg=sg|p=p	12	amod	_
+12	versiooni	S	sg=sg|p=p	9	obj	_
+13	Vario	H	sg=sg|n=n	12	appos	_
+14	,	Z	_	19	punct	_
+15	mille	P	pl=pl|g=g	19	nsubj	_
+16	täpset	A	sg=sg|p=p	17	amod	_
+17	olemust	S	sg=sg|p=p	19	nsubj	CHECK
+18	ei	V	neg=neg	19	aux	_
+19	nõustunud	A	pl=pl|n=n	13	acl:relcl	_
+20	tehase	S	sg=sg|g=g	21	nmod	_
+21	esindajad	S	pl=pl|n=n	19	nsubj	_
+22	enne	K	_	23	case	_
+23	esitlust	S	sg=sg|p=p	25	obl	_
+24	ajakirjanikele	S	pl=pl|all=all	25	obl	_
+25	tutvustama	V	ma=ma	19	advcl	_
+26	.	Z	_	7	punct	_
+
+# sent_id = 3272659
+# text = Pekingi teatel saaks Taiwan suurema autonoomia , kui ta nõustuks " üks riik , kaks süsteemi " valemiga , nagu näiteks toimiti Hongkongiga pärast seda , kui UK võim seal 1997. aastal lõppes ning linn anti tagasi Hiinale .
+1	Pekingi	H	sg=sg|g=g	2	nmod	_
+2	teatel	S	sg=sg|ad=ad	3	obj	_
+3	saaks	V	ks=ks	0	root	_
+4	Taiwan	H	sg=sg|n=n	3	nsubj	_
+5	suurema	C	sg=sg|g=g	6	amod	_
+6	autonoomia	S	sg=sg|g=g	3	obj	_
+7	,	Z	_	10	punct	_
+8	kui	J	_	10	mark	_
+9	ta	P	sg=sg|n=n	10	nsubj	_
+10	nõustuks	V	ks=ks	3	advcl	_
+11	"	Z	_	13	punct	_
+12	üks	P	sg=sg|n=n	13	det	_
+13	riik	S	sg=sg|n=n	18	nmod	CHECK
+14	,	Z	_	16	punct	_
+15	kaks	N	sg=sg|n=n	16	nummod	_
+16	süsteemi	S	sg=sg|p=p	13	conj	_
+17	"	Z	_	16	punct	_
+18	valemiga	S	sg=sg|kom=kom	10	obj	_
+19	,	Z	_	22	punct	_
+20	nagu	J	_	22	mark	_
+21	näiteks	S	sg=sg|tr=tr	22	advmod	_
+22	toimiti	V	ti=ti	10	advcl	_
+23	Hongkongiga	H	sg=sg|kom=kom	22	obl	_
+24	pärast	K	_	25	case	_
+25	seda	P	sg=sg|p=p	22	obl	_
+26	,	Z	_	33	punct	_
+27	kui	J	_	33	mark	_
+28	UK	Y	?=?	29	nmod	_
+29	võim	S	sg=sg|n=n	33	nsubj	_
+30	seal	D	_	33	advmod	_
+31	1997.	O	?=?	32	amod	_
+32	aastal	S	sg=sg|ad=ad	33	obl	_
+33	lõppes	V	s=s	22	advcl	_
+34	ning	J	_	36	cc	_
+35	linn	S	sg=sg|n=n	36	nsubj	_
+36	anti	V	ti=ti	33	conj	_
+37	tagasi	D	_	36	compound:prt	_
+38	Hiinale	H	sg=sg|all=all	36	nsubj	_
+39	.	Z	_	3	punct	_
+
+# sent_id = 1671048
+# text = " Tegime Camp Davidis katseid rahukõnelusi kergendada , kuid see ei tähenda , et me nõustuksime järeleandmisega oma maa suhtes , eriti püha linna al-Qudsi suhtes , " ütles Arafat eile Marokos Agadiris al-Qudsi ( Jeruusalemma ) Komitee avatseremoonial .
+1	"	Z	_	2	punct	_
+2	Tegime	V	sime=sime	0	root	_
+3	Camp	H	sg=sg|n=n	5	nmod	_
+4	Davidis	H	sg=sg|in=in	3	flat	_
+5	katseid	S	pl=pl|p=p	2	obj	_
+6	rahukõnelusi	S	pl=pl|p=p	7	obj	_
+7	kergendada	V	da=da	2	xcomp	_
+8	,	Z	_	12	punct	_
+9	kuid	J	_	12	cc	_
+10	see	P	sg=sg|n=n	12	nsubj	_
+11	ei	V	neg=neg	12	aux	_
+12	tähenda	V	o=o	2	conj	_
+13	,	Z	_	16	punct	_
+14	et	J	_	16	mark	_
+15	me	P	pl=pl|n=n	16	nsubj	_
+16	nõustuksime	V	ksime=ksime	12	ccomp	_
+17	järeleandmisega	S	sg=sg|kom=kom	16	obj	_
+18	oma	P	sg=sg|g=g	19	nmod	_
+19	maa	S	sg=sg|g=g	16	obl	_
+20	suhtes	K	_	19	case	_
+21	,	Z	_	25	punct	_
+22	eriti	D	_	25	advmod	_
+23	püha	A	sg=sg|p=p	24	amod	_
+24	linna	S	sg=sg|p=p	25	nmod	CHECK
+25	al-Qudsi	H	sg=sg|g=g	16	conj	_
+26	suhtes	K	_	25	case	_
+27	,	Z	_	2	punct	_
+28	"	Z	_	2	punct	_
+29	ütles	V	s=s	2	parataxis	_
+30	Arafat	H	sg=sg|n=n	29	nsubj	_
+31	eile	D	_	29	advmod	_
+32	Marokos	H	sg=sg|in=in	34	obl	_
+33	Agadiris	H	sg=sg|in=in	32	flat	_
+34	al-Qudsi	H	adt=adt	38	acl	_
+35	(	Z	_	36	punct	_
+36	Jeruusalemma	H	adt=adt	34	appos	_
+37	)	Z	_	36	punct	_
+38	Komitee	S	sg=sg|g=g	39	nmod	_
+39	avatseremoonial	S	sg=sg|ad=ad	29	obj	_
+40	.	Z	_	2	punct	_
+
+# sent_id = 569065
+# text = Jugoslaavia president Slobodan Milosevic ei nõustu rahvusvahelise rahukaitseväe toomisega oma riiki , mille lahutamatuks osaks ta ka Kosovot peab , ilmutamata vähimatki järeleandlikkust USA ettepanekute suhtes konflikti lõpetamiseks .
+1	Jugoslaavia	H	sg=sg|g=g	2	nmod	_
+2	president	S	sg=sg|n=n	6	nsubj	_
+3	Slobodan	H	sg=sg|n=n	2	appos	_
+4	Milosevic	H	sg=sg|n=n	3	flat	_
+5	ei	V	neg=neg	6	aux	_
+6	nõustu	V	o=o	0	root	_
+7	rahvusvahelise	A	sg=sg|g=g	8	amod	_
+8	rahukaitseväe	S	sg=sg|g=g	9	nmod	_
+9	toomisega	S	sg=sg|kom=kom	6	obl	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	riiki	S	sg=sg|p=p	6	obj	CHECK
+12	,	Z	_	19	punct	_
+13	mille	P	pl=pl|g=g	19	obj	_
+14	lahutamatuks	A	sg=sg|tr=tr	15	amod	_
+15	osaks	S	sg=sg|tr=tr	19	obj	_
+16	ta	P	sg=sg|n=n	19	nsubj	_
+17	ka	D	_	19	advmod	_
+18	Kosovot	H	sg=sg|p=p	19	obl	_
+19	peab	V	b=b	11	acl:relcl	_
+20	,	Z	_	19	punct	_
+21	ilmutamata	V	mata=mata	6	conj	_
+22	vähimatki	U	sg=sg|p=p	23	amod	_
+23	järeleandlikkust	S	sg=sg|p=p	21	obj	_
+24	USA	Y	?=?	25	nmod	_
+25	ettepanekute	S	pl=pl|g=g	21	obl	_
+26	suhtes	K	_	25	case	_
+27	konflikti	S	sg=sg|g=g	28	nmod	_
+28	lõpetamiseks	S	sg=sg|tr=tr	21	obl	_
+29	.	Z	_	6	punct	_
+
+# sent_id = 809930
+# text = " Igaüks juba sukkpüksipaar näpu vahel Viru nurgal külmetama ei nõustu . "
+1	"	Z	_	11	punct	_
+2	Igaüks	P	sg=sg|n=n	11	nsubj	_
+3	juba	D	_	4	advmod	_
+4	sukkpüksipaar	S	sg=sg|n=n	11	obl	CHECK
+5	näpu	S	sg=sg|g=g	11	obl	_
+6	vahel	K	_	5	case	_
+7	Viru	H	sg=sg|g=g	8	nmod	_
+8	nurgal	S	sg=sg|ad=ad	9	obl	_
+9	külmetama	V	ma=ma	11	xcomp	_
+10	ei	V	neg=neg	11	aux	_
+11	nõustu	V	o=o	0	root	_
+12	.	Z	_	11	punct	_
+13	"	Z	_	11	punct	_
+
+# sent_id = 360278
+# text = LeShan näib temaga nõustuvat ( The Medium , the Mystic and the Physicist , lk 211-212 ) .
+1	LeShan	H	sg=sg|n=n	4	obl	CHECK
+2	näib	V	b=b	4	aux	_
+3	temaga	P	sg=sg|kom=kom	4	nsubj	_
+4	nõustuvat	V	vat=vat	0	root	_
+5	(	Z	_	6	punct	_
+6	The	H	sg=sg|n=n	4	parataxis	_
+7	Medium	H	sg=sg|n=n	6	flat	_
+8	,	Z	_	9	punct	_
+9	the	S	sg=sg|n=n	6	flat	_
+10	Mystic	H	sg=sg|n=n	9	flat	_
+11	and	S	sg=sg|n=n	9	flat	_
+12	the	S	sg=sg|g=g	6	flat	_
+13	Physicist	H	sg=sg|el=el	6	flat	_
+14	,	Z	_	6	punct	_
+15	lk	Y	?=?	6	flat	_
+16	211	N	?=?	6	flat	_
+17	-	Z	_	18	punct	_
+18	212	N	?=?	6	nummod	_
+19	)	Z	_	6	punct	_
+20	.	Z	_	4	punct	_
+
+# sent_id = 1041529
+# text = Mõõdukad ei nõustu üüri piirmäära kaotamisega .
+1	Mõõdukad	H	pl=pl|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	nõustu	V	o=o	0	root	_
+4	üüri	S	sg=sg|p=p	3	obj	CHECK
+5	piirmäära	S	sg=sg|g=g	6	nmod	_
+6	kaotamisega	S	sg=sg|kom=kom	3	obl	_
+7	.	Z	_	3	punct	_
+
+# sent_id = 16320752
+# text = Tähendab , ma nõustuks biidiga veits .
+1	Tähendab	V	b=b	0	root	_
+2	,	Z	_	4	punct	_
+3	ma	P	sg=sg|n=n	4	nsubj	_
+4	nõustuks	V	ks=ks	1	conj	_
+5	biidiga	S	sg=sg|kom=kom	6	nmod	_
+6	veits	S	sg=sg|n=n	4	obj	CHECK
+7	.	Z	_	1	punct	_
+

@@ -1,0 +1,458 @@
+# sent_id = 8384908
+# text = Juuni keskel tunnistas peaminister Mart Laar Riigikogu Euroopa asjade komisjonile , et ühe Euroopa Liidule esitamiseks vajaliku olulise dokumendi - Eesti riikliku arengukava valmimine takerdub ning see tuleb koostada kiiremas korras .
+1	Juuni	S	sg=sg|g=g	3	obl	_
+2	keskel	K	_	1	case	_
+3	tunnistas	V	s=s	0	root	_
+4	peaminister	S	sg=sg|n=n	3	nsubj	_
+5	Mart	H	sg=sg|n=n	4	appos	_
+6	Laar	H	sg=sg|n=n	5	flat	_
+7	Riigikogu	H	sg=sg|g=g	5	flat	_
+8	Euroopa	H	sg=sg|g=g	9	nmod	_
+9	asjade	S	pl=pl|g=g	10	nmod	_
+10	komisjonile	S	sg=sg|all=all	3	obj	_
+11	,	Z	_	25	punct	_
+12	et	J	_	25	mark	_
+13	ühe	P	sg=sg|g=g	19	det	_
+14	Euroopa	H	sg=sg|g=g	15	nmod	_
+15	Liidule	S	sg=sg|all=all	16	nmod	_
+16	esitamiseks	S	sg=sg|tr=tr	17	obl	_
+17	vajaliku	A	sg=sg|g=g	19	amod	_
+18	olulise	A	sg=sg|g=g	19	amod	_
+19	dokumendi	S	sg=sg|g=g	25	nsubj	CHECK
+20	-	Z	_	25	punct	_
+21	Eesti	H	sg=sg|g=g	23	nmod	_
+22	riikliku	A	sg=sg|g=g	23	amod	_
+23	arengukava	S	sg=sg|g=g	24	nmod	_
+24	valmimine	S	sg=sg|n=n	25	nsubj	_
+25	takerdub	V	b=b	3	parataxis	_
+26	ning	J	_	28	cc	_
+27	see	P	sg=sg|n=n	28	nsubj	_
+28	tuleb	V	b=b	25	conj	_
+29	koostada	V	da=da	28	csubj	_
+30	kiiremas	C	sg=sg|in=in	31	amod	_
+31	korras	S	sg=sg|in=in	29	obj	_
+32	.	Z	_	3	punct	_
+
+# sent_id = 8938355
+# text = On eriti valus , kui lõpuks tuleb tõdeda , et Eesti pääs NATOsse ei takerdu mitte kahurite ja kahuriliha nappuse , vaid ametnikkonna intellektuaalse baasi küündimatuse taha .
+1	On	V	b=b	3	cop	_
+2	eriti	D	_	3	advmod	_
+3	valus	A	sg=sg|n=n	0	root	_
+4	,	Z	_	7	punct	_
+5	kui	D	_	7	mark	_
+6	lõpuks	D	_	7	advmod	_
+7	tuleb	V	b=b	3	advcl	_
+8	tõdeda	V	da=da	7	csubj	_
+9	,	Z	_	15	punct	_
+10	et	J	_	15	mark	_
+11	Eesti	H	sg=sg|g=g	12	nmod	_
+12	pääs	S	sg=sg|n=n	13	nmod	_
+13	NATOsse	Y	sg=sg|ill=ill	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	takerdu	V	o=o	8	ccomp	_
+16	mitte	D	_	17	advmod	_
+17	kahurite	S	pl=pl|g=g	15	obl	_
+18	ja	J	_	19	cc	_
+19	kahuriliha	S	sg=sg|g=g	17	conj	_
+20	nappuse	S	sg=sg|g=g	17	conj	CHECK
+21	,	Z	_	25	punct	_
+22	vaid	J	_	25	cc	_
+23	ametnikkonna	S	sg=sg|g=g	25	nmod	_
+24	intellektuaalse	A	sg=sg|g=g	25	amod	_
+25	baasi	S	sg=sg|p=p	20	conj	_
+26	küündimatuse	S	sg=sg|g=g	25	nmod	_
+27	taha	K	_	26	case	_
+28	.	Z	_	3	punct	_
+
+# sent_id = 3752958
+# text = Aasta kaob aasta järel , aga harjutusalade või riigikaitseliste objektide rajamine on takerdunud just selle meie armsate kaasmaalaste isikliku saamahimu ja ametkondlike traattõkete taha .
+1	Aasta	S	sg=sg|n=n	2	obl	_
+2	kaob	V	b=b	0	root	_
+3	aasta	S	sg=sg|g=g	2	obl	_
+4	järel	K	_	3	case	_
+5	,	Z	_	13	punct	_
+6	aga	J	_	13	cc	_
+7	harjutusalade	S	pl=pl|g=g	11	nmod	_
+8	või	J	_	10	cc	_
+9	riigikaitseliste	A	pl=pl|g=g	10	amod	_
+10	objektide	S	pl=pl|g=g	7	conj	_
+11	rajamine	S	sg=sg|n=n	13	obl	_
+12	on	V	b=b	13	aux	_
+13	takerdunud	A	sg=sg|n=n	2	conj	_
+14	just	I	_	15	advmod	_
+15	selle	P	sg=sg|g=g	18	det	CHECK
+16	meie	P	pl=pl|g=g	18	nmod	_
+17	armsate	A	pl=pl|g=g	18	amod	_
+18	kaasmaalaste	S	pl=pl|g=g	13	nsubj	_
+19	isikliku	A	sg=sg|g=g	20	amod	_
+20	saamahimu	S	sg=sg|g=g	18	nmod	_
+21	ja	J	_	23	cc	_
+22	ametkondlike	A	pl=pl|g=g	23	amod	_
+23	traattõkete	S	pl=pl|g=g	20	conj	_
+24	taha	K	_	20	case	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 895581
+# text = Tõenäoliselt takerdus Narva politseinike eilne väär tegutsemine just eelnenud infosõlme .
+1	Tõenäoliselt	D	_	2	advmod	_
+2	takerdus	V	s=s	0	root	_
+3	Narva	H	sg=sg|g=g	4	nmod	_
+4	politseinike	S	pl=pl|g=g	2	nsubj	_
+5	eilne	A	sg=sg|n=n	7	amod	_
+6	väär	A	sg=sg|n=n	7	amod	_
+7	tegutsemine	S	sg=sg|n=n	2	obj	_
+8	just	D	_	9	advmod	_
+9	eelnenud	A	pl=pl|n=n	10	acl	_
+10	infosõlme	S	adt=adt	2	obj	CHECK
+11	.	Z	_	2	punct	_
+
+# sent_id = 7487093
+# text = 3 ) Naisi alaväärtustavad hinnangud , mida BP seostab essentsialistliku feminismiga - et naisi ei tohi poliitikasse lasta , et nad takerduvad ebaolulisse , et nende mõttetegevust ei saa usaldada , et nad on rumalamad , jne - , iseloomustavad patriarhaalse essentsialismi seisukohti , mida on korratud Aristotelesest peale .
+1	3	N	?=?	3	parataxis	_
+2	)	Z	_	1	punct	_
+3	Naisi	S	pl=pl|p=p	5	nmod	_
+4	alaväärtustavad	A	pl=pl|n=n	5	amod	_
+5	hinnangud	S	pl=pl|n=n	40	obj	_
+6	,	Z	_	9	punct	_
+7	mida	P	sg=sg|p=p	9	nsubj	_
+8	BP	Y	?=?	9	nsubj	_
+9	seostab	V	b=b	5	acl:relcl	_
+10	essentsialistliku	A	sg=sg|g=g	11	amod	_
+11	feminismiga	S	sg=sg|kom=kom	9	obj	_
+12	-	Z	_	18	punct	_
+13	et	J	_	18	mark	_
+14	naisi	S	pl=pl|p=p	18	nsubj	_
+15	ei	V	neg=neg	18	aux	_
+16	tohi	V	o=o	18	aux	_
+17	poliitikasse	S	sg=sg|ill=ill	18	obj	_
+18	lasta	V	da=da	9	parataxis	_
+19	,	Z	_	22	punct	_
+20	et	J	_	22	mark	_
+21	nad	P	pl=pl|n=n	22	nsubj	_
+22	takerduvad	V	vad=vad	18	ccomp	_
+23	ebaolulisse	A	adt=adt	22	obl	CHECK
+24	,	Z	_	30	punct	_
+25	et	J	_	30	mark	_
+26	nende	P	pl=pl|g=g	27	nmod	_
+27	mõttetegevust	S	sg=sg|p=p	30	obj	_
+28	ei	V	neg=neg	30	aux	_
+29	saa	V	o=o	30	aux	_
+30	usaldada	V	da=da	22	parataxis	_
+31	,	Z	_	35	punct	_
+32	et	J	_	35	mark	_
+33	nad	P	pl=pl|n=n	35	nsubj:cop	_
+34	on	V	vad=vad	35	cop	_
+35	rumalamad	C	pl=pl|n=n	30	ccomp	_
+36	,	Z	_	35	punct	_
+37	jne	Y	?=?	35	obl	_
+38	-	Z	_	35	punct	_
+39	,	Z	_	40	punct	_
+40	iseloomustavad	V	vad=vad	0	root	_
+41	patriarhaalse	A	sg=sg|g=g	42	amod	_
+42	essentsialismi	S	sg=sg|g=g	43	nmod	_
+43	seisukohti	S	pl=pl|p=p	40	obj	_
+44	,	Z	_	47	punct	_
+45	mida	P	sg=sg|p=p	47	obj	_
+46	on	V	b=b	47	aux	_
+47	korratud	A	pl=pl|n=n	43	acl:relcl	_
+48	Aristotelesest	H	sg=sg|el=el	47	obl	_
+49	peale	D	_	48	case	_
+50	.	Z	_	40	punct	_
+
+# sent_id = 148457
+# text = “ Takerdusin helikopterideki käsipuudesse , laine tõukas mind mööda laeva .
+1	“	Z	_	2	punct	_
+2	Takerdusin	V	sin=sin	0	root	_
+3	helikopterideki	S	sg=sg|g=g	2	obj	CHECK
+4	käsipuudesse	S	pl=pl|ill=ill	2	obj	_
+5	,	Z	_	7	punct	_
+6	laine	S	sg=sg|n=n	7	nsubj	_
+7	tõukas	V	s=s	2	conj	_
+8	mind	P	sg=sg|p=p	7	obj	_
+9	mööda	K	_	10	case	_
+10	laeva	S	sg=sg|p=p	7	obl	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 375174
+# text = Udras kirjeldab juhtumit , kui ta käis sisse ja välja kinnisest riigiasutusest ja tõi sealt dokumendid , mis olid haiglale vajalikud ühe aparaadi käitamiseks , aga mis takerdusid seni bürokraatia tõkkeisse .
+1	Udras	H	sg=sg|n=n	2	nsubj	_
+2	kirjeldab	V	b=b	0	root	_
+3	juhtumit	S	sg=sg|p=p	2	obj	_
+4	,	Z	_	7	punct	_
+5	kui	D	_	7	mark	_
+6	ta	P	sg=sg|n=n	7	nsubj	_
+7	käis	V	s=s	2	advcl	_
+8	sisse	D	_	7	compound:prt	_
+9	ja	J	_	12	cc	_
+10	välja	D	_	7	conj	_
+11	kinnisest	A	sg=sg|el=el	12	amod	_
+12	riigiasutusest	S	sg=sg|el=el	7	conj	_
+13	ja	J	_	14	cc	_
+14	tõi	V	s=s	7	conj	_
+15	sealt	D	_	14	advmod	_
+16	dokumendid	S	pl=pl|n=n	14	obj	_
+17	,	Z	_	21	punct	_
+18	mis	P	sg=sg|n=n	21	nsubj:cop	_
+19	olid	V	sid=sid	21	cop	_
+20	haiglale	S	sg=sg|all=all	21	obl	_
+21	vajalikud	A	pl=pl|n=n	16	acl:relcl	_
+22	ühe	N	sg=sg|g=g	23	det	_
+23	aparaadi	S	sg=sg|g=g	24	nmod	_
+24	käitamiseks	S	sg=sg|tr=tr	21	obl	_
+25	,	Z	_	28	punct	_
+26	aga	J	_	28	cc	_
+27	mis	P	pl=pl|n=n	28	nsubj	_
+28	takerdusid	V	sid=sid	21	conj	_
+29	seni	D	_	28	advmod	_
+30	bürokraatia	S	sg=sg|n=n	31	nmod	CHECK
+31	tõkkeisse	S	pl=pl|ill=ill	28	obj	_
+32	.	Z	_	2	punct	_
+
+# sent_id = 3530169
+# text = Ristmikust sõltub , kas Tammsaare pikendus suudab Tallinnale liikluskergendust pakkuda või takerduvad lahedasti Pärnu maantee alt läbi pääsenud autod endise paberikombinaadi ukse ees .
+1	Ristmikust	S	sg=sg|el=el	2	nsubj	_
+2	sõltub	V	b=b	0	root	_
+3	,	Z	_	7	punct	_
+4	kas	D	_	7	advmod	_
+5	Tammsaare	H	sg=sg|g=g	6	nmod	_
+6	pikendus	S	sg=sg|n=n	7	nsubj	_
+7	suudab	V	b=b	2	csubj	_
+8	Tallinnale	H	sg=sg|all=all	10	obj	_
+9	liikluskergendust	S	sg=sg|p=p	10	obj	_
+10	pakkuda	V	da=da	7	xcomp	_
+11	või	J	_	12	cc	_
+12	takerduvad	V	vad=vad	7	conj	_
+13	lahedasti	D	_	12	advmod	_
+14	Pärnu	H	sg=sg|g=g	15	nmod	_
+15	maantee	S	sg=sg|g=g	18	obl	_
+16	alt	K	_	15	case	_
+17	läbi	D	_	18	compound:prt	_
+18	pääsenud	A	_	19	acl	_
+19	autod	S	pl=pl|n=n	12	obj	CHECK
+20	endise	A	sg=sg|g=g	21	amod	_
+21	paberikombinaadi	S	sg=sg|g=g	22	nmod	_
+22	ukse	S	sg=sg|g=g	12	obl	_
+23	ees	K	_	22	case	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 5418474
+# text = Sest meespoliitikud reeglina ei takerdu liigselt isadusse , ei halise mõttetult oma soolise kuuluvuse üle ning säästavad sellega poliitikaks hulga kasulikku aega ja energiat .
+1	Sest	J	_	5	mark	_
+2	meespoliitikud	S	pl=pl|n=n	5	nsubj	_
+3	reeglina	S	sg=sg|es=es	5	obl	_
+4	ei	V	neg=neg	5	aux	_
+5	takerdu	V	o=o	10	advcl	_
+6	liigselt	D	_	5	advmod	_
+7	isadusse	S	adt=adt	5	obl	CHECK
+8	,	Z	_	5	punct	_
+9	ei	V	neg=neg	10	aux	_
+10	halise	V	o=o	0	root	_
+11	mõttetult	D	_	10	advmod	_
+12	oma	P	sg=sg|g=g	14	nmod	_
+13	soolise	A	sg=sg|g=g	14	amod	_
+14	kuuluvuse	S	sg=sg|g=g	10	obj	_
+15	üle	K	_	14	case	_
+16	ning	J	_	17	cc	_
+17	säästavad	V	vad=vad	10	conj	_
+18	sellega	P	sg=sg|kom=kom	19	det	_
+19	poliitikaks	S	sg=sg|tr=tr	17	obj	_
+20	hulga	D	_	21	advmod	_
+21	kasulikku	A	sg=sg|p=p	22	amod	_
+22	aega	S	sg=sg|p=p	17	obj	_
+23	ja	J	_	24	cc	_
+24	energiat	S	sg=sg|p=p	22	conj	_
+25	.	Z	_	10	punct	_
+
+# sent_id = 809772
+# text = Ka paljukiidetud Tiigrihüppe projekt on takerdunud võrku .
+1	Ka	D	_	4	advmod	_
+2	paljukiidetud	A	pl=pl|n=n	4	acl	_
+3	Tiigrihüppe	H	sg=sg|g=g	4	nmod	_
+4	projekt	S	sg=sg|n=n	6	nsubj	_
+5	on	V	b=b	6	aux	_
+6	takerdunud	V	nud=nud	0	root	_
+7	võrku	S	sg=sg|p=p	6	obl	CHECK
+8	.	Z	_	6	punct	_
+
+# sent_id = 18036259
+# text = Ilmselt oleks mõistlik tulla selle eelnõu juurde erakorralisel istungil uuesti , et valitsus saaks rahulikult tuleva aasta eelarve eelnõu üle järele mõtelda ega takerduks selle täiesti vältimatu ja põhjendatud printsiibi rakendamine veel vähemalt aastaks .
+1	Ilmselt	D	_	4	advmod	_
+2	oleks	V	ks=ks	4	aux	_
+3	mõistlik	A	sg=sg|n=n	4	xcomp	_
+4	tulla	V	da=da	0	root	_
+5	selle	P	sg=sg|g=g	9	det	_
+6	eelnõu	S	sg=sg|g=g	4	obl	_
+7	juurde	K	_	6	case	_
+8	erakorralisel	A	sg=sg|ad=ad	9	amod	_
+9	istungil	S	sg=sg|ad=ad	4	nsubj	_
+10	uuesti	D	_	4	advmod	_
+11	,	Z	_	22	punct	_
+12	et	J	_	22	mark	_
+13	valitsus	S	sg=sg|n=n	22	nsubj	_
+14	saaks	V	ks=ks	22	aux	_
+15	rahulikult	D	_	22	advmod	_
+16	tuleva	A	sg=sg|g=g	17	acl	_
+17	aasta	S	sg=sg|g=g	18	nmod	_
+18	eelarve	S	sg=sg|g=g	22	obj	_
+19	eelnõu	S	sg=sg|g=g	22	obl	_
+20	üle	K	_	19	case	_
+21	järele	D	_	22	compound:prt	_
+22	mõtelda	V	da=da	4	advcl	_
+23	ega	J	_	24	cc	_
+24	takerduks	V	ks=ks	22	conj	_
+25	selle	P	sg=sg|g=g	31	det	_
+26	täiesti	D	_	27	advmod	_
+27	vältimatu	A	sg=sg|n=n	30	amod	_
+28	ja	J	_	29	cc	_
+29	põhjendatud	A	pl=pl|n=n	27	conj	_
+30	printsiibi	S	sg=sg|g=g	31	nmod	_
+31	rakendamine	S	sg=sg|n=n	24	obl	CHECK
+32	veel	D	_	33	advmod	_
+33	vähemalt	D	_	34	advmod	_
+34	aastaks	S	sg=sg|tr=tr	24	obl	_
+35	.	Z	_	4	punct	_
+
+# sent_id = 985113
+# text = Varem tapmiste pärast vanglakaristust kandnud Jaskelainen takerdus röövitud sõiduauto Mercedes roolis sadama territooriumil olnud raudteerööbastele ja põgenemiskatsel tekkinud tulevahetuses haavas ühte politseinikku jalga ning teist rindu .
+1	Varem	D	_	2	advmod	_
+2	tapmiste	S	pl=pl|g=g	5	obl	_
+3	pärast	K	_	6	case	_
+4	vanglakaristust	S	sg=sg|p=p	5	obl	_
+5	kandnud	A	pl=pl|n=n	6	acl	_
+6	Jaskelainen	H	sg=sg|n=n	7	nsubj	_
+7	takerdus	V	s=s	0	root	_
+8	röövitud	A	_	9	acl	_
+9	sõiduauto	S	sg=sg|n=n	7	nsubj	_
+10	Mercedes	H	sg=sg|n=n	7	nsubj	_
+11	roolis	V	s=s	12	nmod	_
+12	sadama	S	sg=sg|g=g	13	nmod	_
+13	territooriumil	S	sg=sg|ad=ad	14	obl	_
+14	olnud	V	nud=nud	15	acl	_
+15	raudteerööbastele	S	pl=pl|all=all	7	obl	_
+16	ja	J	_	17	cc	_
+17	põgenemiskatsel	S	sg=sg|ad=ad	18	obl	_
+18	tekkinud	A	sg=sg|n=n	19	acl	_
+19	tulevahetuses	S	sg=sg|in=in	7	obj	_
+20	haavas	S	sg=sg|in=in	7	conj	_
+21	ühte	N	sg=sg|p=p	22	nummod	_
+22	politseinikku	S	sg=sg|p=p	7	obj	_
+23	jalga	S	sg=sg|p=p	20	obl	CHECK
+24	ning	J	_	25	cc	_
+25	teist	O	sg=sg|p=p	7	conj	_
+26	rindu	S	pl=pl|p=p	25	orphan	_
+27	.	Z	_	7	punct	_
+
+# sent_id = 3803085
+# text = Takerdus hetkeks sissepääsu ees seisva vabatahtliku otsa , vabandas ja sörkis edasi .
+1	Takerdus	V	s=s	0	root	_
+2	hetkeks	S	sg=sg|tr=tr	1	obj	_
+3	sissepääsu	S	sg=sg|g=g	5	obl	_
+4	ees	K	_	3	case	_
+5	seisva	A	sg=sg|g=g	7	acl	_
+6	vabatahtliku	A	sg=sg|g=g	7	amod	_
+7	otsa	K	_	1	obl	CHECK
+8	,	Z	_	9	punct	_
+9	vabandas	V	s=s	1	conj	_
+10	ja	J	_	11	cc	_
+11	sörkis	V	s=s	1	conj	_
+12	edasi	D	_	11	compound:prt	_
+13	.	Z	_	1	punct	_
+
+# sent_id = 3926453
+# text = Mõlemad on ka vaaginud Bacardi ostmist , kuid takerdunud firma keerukasse omandisuhete võrgustikku - ettevõte kuulub 600 pereliikmele .
+1	Mõlemad	P	pl=pl|n=n	4	nsubj	_
+2	on	V	vad=vad	4	aux	_
+3	ka	D	_	4	advmod	_
+4	vaaginud	A	pl=pl|n=n	0	root	_
+5	Bacardi	H	sg=sg|n=n	6	nmod	_
+6	ostmist	S	sg=sg|p=p	4	obj	_
+7	,	Z	_	13	punct	_
+8	kuid	J	_	9	cc	_
+9	takerdunud	A	_	10	acl	_
+10	firma	S	sg=sg|g=g	13	nmod	_
+11	keerukasse	A	sg=sg|ill=ill	12	amod	_
+12	omandisuhete	S	pl=pl|g=g	13	nmod	_
+13	võrgustikku	S	sg=sg|p=p	4	obj	CHECK
+14	-	Z	_	16	punct	_
+15	ettevõte	S	sg=sg|n=n	16	nsubj	_
+16	kuulub	V	b=b	4	parataxis	_
+17	600	N	?=?	18	nummod	_
+18	pereliikmele	S	sg=sg|all=all	16	nsubj	_
+19	.	Z	_	4	punct	_
+
+# sent_id = 3344541
+# text = Kohe algusest peale on hästi mõnus sõita : juhiiste on mugav , tunned end kui kindlalt kookonisse pakitult , küünarnuki võid nõjatada aknale , jalad saad mõnusalt välja sirutada ja kingakontsad ei takerdu põrandamatti : Ah , peeglid tahavad veel pisut sättimist : aga muidu on kõik OK .
+1	Kohe	D	_	2	advmod	_
+2	algusest	S	sg=sg|el=el	7	obl	_
+3	peale	K	_	2	case	_
+4	on	V	vad=vad	7	aux	_
+5	hästi	D	_	7	advmod	_
+6	mõnus	A	sg=sg|n=n	7	xcomp	_
+7	sõita	V	da=da	0	root	_
+8	:	Z	_	11	punct	_
+9	juhiiste	S	sg=sg|n=n	11	nsubj:cop	_
+10	on	V	b=b	11	cop	_
+11	mugav	A	sg=sg|n=n	7	parataxis	_
+12	,	Z	_	13	punct	_
+13	tunned	V	d=d	11	conj	_
+14	end	P	sg=sg|p=p	13	obj	_
+15	kui	J	_	18	mark	_
+16	kindlalt	D	_	18	advmod	_
+17	kookonisse	S	sg=sg|ill=ill	18	nmod	_
+18	pakitult	S	sg=sg|abl=abl	13	advcl	_
+19	,	Z	_	22	punct	_
+20	küünarnuki	S	sg=sg|g=g	21	nmod	_
+21	võid	S	sg=sg|p=p	22	nsubj	_
+22	nõjatada	V	da=da	11	conj	_
+23	aknale	S	sg=sg|all=all	22	obj	_
+24	,	Z	_	29	punct	_
+25	jalad	S	pl=pl|n=n	29	obj	_
+26	saad	V	d=d	29	aux	_
+27	mõnusalt	D	_	29	advmod	_
+28	välja	D	_	29	compound:prt	_
+29	sirutada	V	da=da	22	conj	_
+30	ja	J	_	33	cc	_
+31	kingakontsad	S	pl=pl|n=n	33	obj	_
+32	ei	V	neg=neg	33	aux	_
+33	takerdu	V	o=o	11	conj	_
+34	põrandamatti	S	sg=sg|p=p	33	nsubj	CHECK
+35	:	Z	_	39	punct	_
+36	Ah	I	_	39	discourse	_
+37	,	Z	_	39	punct	_
+38	peeglid	S	pl=pl|n=n	39	nsubj	_
+39	tahavad	V	vad=vad	33	parataxis	_
+40	veel	D	_	39	advmod	_
+41	pisut	D	_	42	advmod	_
+42	sättimist	S	sg=sg|p=p	39	obj	_
+43	:	Z	_	48	punct	_
+44	aga	J	_	48	cc	_
+45	muidu	D	_	48	advmod	_
+46	on	V	vad=vad	48	cop	_
+47	kõik	P	pl=pl|n=n	48	nsubj:cop	_
+48	OK	Y	?=?	39	conj	_
+49	.	Z	_	7	punct	_
+
+# sent_id = 2234934
+# text = Armastuse kolmikdraama tegelased pole ei head ega pahad , vaid pigem naeruväärselt inimlikud , kes takerduvad muutusi igatsedes oma minevikku .
+1	Armastuse	S	sg=sg|g=g	3	nmod	_
+2	kolmikdraama	S	sg=sg|g=g	3	nmod	_
+3	tegelased	S	pl=pl|n=n	6	nsubj:cop	_
+4	pole	V	neg=neg|o=o	6	cop	_
+5	ei	D	_	6	advmod	_
+6	head	A	pl=pl|n=n	0	root	_
+7	ega	J	_	8	cc	_
+8	pahad	A	pl=pl|n=n	6	conj	_
+9	,	Z	_	13	punct	_
+10	vaid	J	_	13	cc	_
+11	pigem	D	_	13	advmod	_
+12	naeruväärselt	D	_	13	advmod	_
+13	inimlikud	A	pl=pl|n=n	6	conj	_
+14	,	Z	_	18	punct	_
+15	kes	P	pl=pl|n=n	18	nsubj	_
+16	takerduvad	V	vad=vad	17	acl	_
+17	muutusi	S	pl=pl|p=p	18	obj	_
+18	igatsedes	V	des=des	13	acl:relcl	_
+19	oma	P	sg=sg|g=g	20	nmod	_
+20	minevikku	S	sg=sg|p=p	18	obj	CHECK
+21	.	Z	_	6	punct	_
+

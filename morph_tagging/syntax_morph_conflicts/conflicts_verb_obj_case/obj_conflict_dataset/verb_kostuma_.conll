@@ -1,0 +1,251 @@
+# sent_id = 2418613
+# text = Minu koju lihtsalt kostus riigilipu heiskamise tseremoonia Toompeal .
+1	Minu	P	sg=sg|g=g	4	nsubj	_
+2	koju	S	adt=adt	4	obl	_
+3	lihtsalt	D	_	4	advmod	_
+4	kostus	V	s=s	0	root	_
+5	riigilipu	S	sg=sg|g=g	6	nmod	_
+6	heiskamise	S	sg=sg|g=g	4	obj	_
+7	tseremoonia	S	sg=sg|g=g	4	obj	CHECK
+8	Toompeal	H	sg=sg|ad=ad	7	appos	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 852381
+# text = Autost väljaspool toimuv on nagu pantomiimiteater , millest salongi kostuvad vaid valjemad helid .
+1	Autost	S	sg=sg|el=el	6	nsubj:cop	_
+2	väljaspool	K	_	3	case	_
+3	toimuv	A	sg=sg|n=n	6	acl	_
+4	on	V	b=b	6	cop	_
+5	nagu	J	_	6	mark	_
+6	pantomiimiteater	S	sg=sg|n=n	0	root	_
+7	,	Z	_	10	punct	_
+8	millest	P	pl=pl|el=el	10	nsubj	_
+9	salongi	S	sg=sg|g=g	10	nsubj	CHECK
+10	kostuvad	V	vad=vad	6	acl:relcl	_
+11	vaid	D	_	12	advmod	_
+12	valjemad	C	pl=pl|n=n	13	amod	_
+13	helid	S	pl=pl|n=n	10	nsubj	_
+14	.	Z	_	6	punct	_
+
+# sent_id = 6592321
+# text = Kristiine linnaosa vanema Remo Holsmeri sõnul pole see esimene kord , kui kaebused Falcki töötajate parkimise kohta linnaosavalitsusse kostuvad .
+1	Kristiine	H	sg=sg|g=g	2	nmod	_
+2	linnaosa	S	sg=sg|g=g	6	nmod	_
+3	vanema	S	sg=sg|g=g	6	nmod	_
+4	Remo	H	sg=sg|n=n	3	appos	_
+5	Holsmeri	H	sg=sg|g=g	4	flat	_
+6	sõnul	S	pl=pl|ad=ad	10	obl	_
+7	pole	V	neg=neg|o=o	10	cop	_
+8	see	P	sg=sg|n=n	10	nsubj:cop	_
+9	esimene	O	sg=sg|n=n	10	amod	_
+10	kord	S	sg=sg|n=n	0	root	_
+11	,	Z	_	19	punct	_
+12	kui	J	_	19	mark	_
+13	kaebused	S	pl=pl|n=n	19	nsubj	_
+14	Falcki	H	sg=sg|g=g	15	nmod	_
+15	töötajate	S	pl=pl|g=g	16	nmod	_
+16	parkimise	S	sg=sg|g=g	19	obl	_
+17	kohta	K	_	16	case	_
+18	linnaosavalitsusse	S	adt=adt	19	obl	CHECK
+19	kostuvad	V	vad=vad	10	advcl	_
+20	.	Z	_	10	punct	_
+
+# sent_id = 1079709
+# text = Te pole jalutanud mööda ühestki poest , kust kostuks jõulumuusikat .
+1	Te	P	pl=pl|n=n	3	nsubj	_
+2	pole	V	neg=neg|o=o	3	aux	_
+3	jalutanud	A	pl=pl|n=n	0	root	_
+4	mööda	K	_	6	case	_
+5	ühestki	P	sg=sg|el=el	6	det	_
+6	poest	S	sg=sg|el=el	3	obj	_
+7	,	Z	_	9	punct	_
+8	kust	D	_	9	mark	_
+9	kostuks	V	ks=ks	3	advcl	_
+10	jõulumuusikat	S	sg=sg|p=p	9	obj	CHECK
+11	.	Z	_	3	punct	_
+
+# sent_id = 560239
+# text = " Miks te seda küsite ? " kostub telefonist esmalt vastuküsimus .
+1	"	Z	_	5	punct	_
+2	Miks	D	_	5	mark	_
+3	te	P	pl=pl|n=n	5	nsubj	_
+4	seda	P	sg=sg|p=p	5	obj	_
+5	küsite	V	te=te	0	root	_
+6	?	Z	_	5	punct	_
+7	"	Z	_	5	punct	_
+8	kostub	V	b=b	5	parataxis	_
+9	telefonist	S	sg=sg|n=n	8	nsubj	_
+10	esmalt	D	_	8	advmod	_
+11	vastuküsimus	S	sg=sg|n=n	8	obj	CHECK
+12	.	Z	_	5	punct	_
+
+# sent_id = 814400
+# text = Veel detsembri esimestel päevadel kostus telefonitoru teises otsas Poomi nukker hääl .
+1	Veel	D	_	2	advmod	_
+2	detsembri	S	sg=sg|g=g	4	nmod	_
+3	esimestel	O	pl=pl|ad=ad	4	amod	_
+4	päevadel	S	pl=pl|ad=ad	5	obl	_
+5	kostus	V	s=s	0	root	_
+6	telefonitoru	S	sg=sg|n=n	5	nsubj	_
+7	teises	P	sg=sg|in=in	8	det	_
+8	otsas	K	_	5	obl	_
+9	Poomi	H	sg=sg|g=g	11	nmod	_
+10	nukker	A	sg=sg|n=n	11	amod	_
+11	hääl	S	sg=sg|n=n	5	nsubj	CHECK
+12	.	Z	_	5	punct	_
+
+# sent_id = 210388
+# text = Reeglite olematus 1999. a valimiste eel Eesti Maarahva Erakonnas viis samuti seisukorrani , kus kampaania jäi sisuliselt koordineerimata- kandidaatidelt kostus hiljem kriitikat ning 2003. a selektsioon allus juba teatud reeglistikule .
+1	Reeglite	H	pl=pl|g=g	10	nsubj	_
+2	olematus	S	sg=sg|n=n	1	flat	_
+3	1999.	O	?=?	4	amod	_
+4	a	Y	?=?	5	nmod	_
+5	valimiste	S	pl=pl|g=g	10	obl	_
+6	eel	K	_	5	case	_
+7	Eesti	H	sg=sg|g=g	8	nmod	_
+8	Maarahva	H	sg=sg|g=g	9	nmod	_
+9	Erakonnas	S	sg=sg|in=in	10	nsubj	_
+10	viis	V	s=s	0	root	_
+11	samuti	D	_	10	advmod	_
+12	seisukorrani	S	sg=sg|ter=ter	10	obj	_
+13	,	Z	_	16	punct	_
+14	kus	D	_	16	mark	_
+15	kampaania	S	sg=sg|n=n	16	nsubj	_
+16	jäi	V	s=s	12	acl	_
+17	sisuliselt	D	_	16	advmod	_
+18	koordineerimata-	A	_	19	amod	_
+19	kandidaatidelt	S	pl=pl|abl=abl	16	obl	_
+20	kostus	V	s=s	16	nsubj	_
+21	hiljem	D	_	16	advmod	_
+22	kriitikat	S	sg=sg|p=p	16	obl	CHECK
+23	ning	J	_	27	cc	_
+24	2003.	O	?=?	25	amod	_
+25	a	Y	?=?	26	nmod	_
+26	selektsioon	S	sg=sg|n=n	27	nsubj	_
+27	allus	V	s=s	16	conj	_
+28	juba	D	_	27	advmod	_
+29	teatud	A	_	30	acl	_
+30	reeglistikule	S	sg=sg|all=all	27	obl	_
+31	.	Z	_	10	punct	_
+
+# sent_id = 788758
+# text = Bensiinimootoriga Scénicul ei kostu salongi ka eriti mootorimüra .
+1	Bensiinimootoriga	S	sg=sg|kom=kom	4	nsubj	_
+2	Scénicul	H	sg=sg|n=n	1	appos	_
+3	ei	V	neg=neg	4	aux	_
+4	kostu	V	o=o	0	root	_
+5	salongi	S	sg=sg|g=g	4	obj	CHECK
+6	ka	D	_	8	advmod	_
+7	eriti	D	_	8	advmod	_
+8	mootorimüra	S	sg=sg|n=n	4	obj	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 354160
+# text = Veel ei kostu hõikeid - Valve , tule aita .
+1	Veel	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	kostu	V	o=o	0	root	_
+4	hõikeid	S	pl=pl|p=p	3	nsubj	CHECK
+5	-	Z	_	6	punct	_
+6	Valve	H	sg=sg|n=n	4	appos	_
+7	,	Z	_	8	punct	_
+8	tule	V	o=o	3	conj	_
+9	aita	V	o=o	8	advcl	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 11374937
+# text = Kui mul teravam kõrv oleks , kostuks õllekast pidevat lurinat .
+1	Kui	D	_	5	mark	_
+2	mul	P	sg=sg|ad=ad	5	nsubj	_
+3	teravam	C	sg=sg|n=n	4	amod	_
+4	kõrv	S	sg=sg|n=n	5	nsubj	_
+5	oleks	V	ks=ks	7	advcl	_
+6	,	Z	_	5	punct	_
+7	kostuks	V	ks=ks	0	root	_
+8	õllekast	S	sg=sg|el=el	7	nsubj	_
+9	pidevat	A	sg=sg|p=p	10	amod	_
+10	lurinat	S	sg=sg|p=p	7	obj	CHECK
+11	.	Z	_	7	punct	_
+
+# sent_id = 4229466
+# text = Teisel pool orgu suitsesid majavaremed ja kostus üksikuid laske .
+1	Teisel	O	sg=sg|ad=ad	3	amod	_
+2	pool	K	_	1	fixed	_
+3	orgu	S	sg=sg|p=p	4	nsubj	_
+4	suitsesid	V	sid=sid	0	root	_
+5	majavaremed	S	pl=pl|n=n	4	nsubj	_
+6	ja	J	_	9	cc	_
+7	kostus	V	s=s	9	nsubj	_
+8	üksikuid	A	pl=pl|p=p	9	obj	_
+9	laske	V	ge=ge	4	conj	CHECK
+10	.	Z	_	4	punct	_
+
+# sent_id = 4122670
+# text = õige varsti ei kostu sealt enam ainsatki krõpsu .
+1	õige	D	_	2	advmod	_
+2	varsti	D	_	4	advmod	_
+3	ei	V	neg=neg	4	aux	_
+4	kostu	V	o=o	0	root	_
+5	sealt	D	_	4	advmod	_
+6	enam	D	_	4	advmod	_
+7	ainsatki	A	sg=sg|p=p	8	amod	_
+8	krõpsu	S	sg=sg|p=p	4	obj	CHECK
+9	.	Z	_	4	punct	_
+
+# sent_id = 982905
+# text = Laupäeva hommikul kostuvad aga vanausuliste kiriku kellad telki nõnda selgelt kätte , nagu seisaks see otse pühakoja külje all .
+1	Laupäeva	S	sg=sg|g=g	2	nmod	_
+2	hommikul	S	sg=sg|ad=ad	3	obl	_
+3	kostuvad	V	vad=vad	0	root	_
+4	aga	J	_	3	advmod	_
+5	vanausuliste	A	pl=pl|g=g	6	amod	_
+6	kiriku	S	sg=sg|g=g	7	nmod	_
+7	kellad	S	pl=pl|n=n	3	obl	_
+8	telki	S	sg=sg|p=p	3	nsubj	CHECK
+9	nõnda	D	_	10	advmod	_
+10	selgelt	D	_	3	advmod	_
+11	kätte	S	adt=adt	3	obl	_
+12	,	Z	_	14	punct	_
+13	nagu	D	_	14	mark	_
+14	seisaks	V	ks=ks	3	advcl	_
+15	see	P	sg=sg|n=n	14	nsubj	_
+16	otse	D	_	17	advmod	_
+17	pühakoja	S	sg=sg|g=g	18	nmod	_
+18	külje	S	sg=sg|g=g	14	obl	_
+19	all	K	_	18	case	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 354231
+# text = Ei kostu hõikeid - Valve , tule aita .
+1	Ei	V	neg=neg	2	aux	_
+2	kostu	V	o=o	0	root	_
+3	hõikeid	S	pl=pl|p=p	2	obj	CHECK
+4	-	Z	_	5	punct	_
+5	Valve	H	sg=sg|n=n	3	appos	_
+6	,	Z	_	7	punct	_
+7	tule	V	o=o	2	conj	_
+8	aita	V	o=o	7	advcl	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 1124724
+# text = V6 mootorile iseloomulik mürin ei kostu salongi isegi kiirendades ja ainus auto liikumisest märku andev hääl on rehvisahin .
+1	V6	Y	?=?	2	nmod	_
+2	mootorile	S	sg=sg|all=all	3	obl	_
+3	iseloomulik	A	sg=sg|n=n	4	amod	_
+4	mürin	S	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	kostu	V	o=o	0	root	_
+7	salongi	S	sg=sg|g=g	6	obj	CHECK
+8	isegi	D	_	9	advmod	_
+9	kiirendades	V	des=des	6	conj	_
+10	ja	J	_	18	cc	_
+11	ainus	A	sg=sg|n=n	12	amod	_
+12	auto	S	sg=sg|n=n	13	nmod	_
+13	liikumisest	S	sg=sg|el=el	15	obl	_
+14	märku	S	sg=sg|p=p	15	obj	_
+15	andev	A	sg=sg|n=n	16	acl	_
+16	hääl	S	sg=sg|n=n	18	nsubj:cop	_
+17	on	V	vad=vad	18	cop	_
+18	rehvisahin	S	sg=sg|n=n	6	conj	_
+19	.	Z	_	6	punct	_
+

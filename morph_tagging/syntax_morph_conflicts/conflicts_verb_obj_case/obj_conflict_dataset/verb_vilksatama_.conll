@@ -1,0 +1,296 @@
+# sent_id = 1405025
+# text = Loo " Being Boring " 1990. aasta videos vilksatasid muidu värvilaikudest ja kunstvideotest koosnenud programmis korraks ka Tennanti ja Lowei kümme aastat nooremad näod .
+1	Loo	S	sg=sg|g=g	8	nmod	CHECK
+2	"	Z	_	3	punct	_
+3	Being	H	sg=sg|n=n	1	appos	_
+4	Boring	H	sg=sg|n=n	3	flat	_
+5	"	Z	_	3	punct	_
+6	1990.	O	?=?	7	amod	_
+7	aasta	S	sg=sg|g=g	8	nmod	_
+8	videos	S	sg=sg|in=in	9	nsubj	_
+9	vilksatasid	V	sid=sid	0	root	_
+10	muidu	D	_	9	advmod	_
+11	värvilaikudest	S	pl=pl|el=el	14	obl	_
+12	ja	J	_	13	cc	_
+13	kunstvideotest	S	pl=pl|el=el	11	conj	_
+14	koosnenud	A	sg=sg|n=n	15	acl	_
+15	programmis	S	sg=sg|in=in	9	obj	_
+16	korraks	D	_	9	advmod	_
+17	ka	D	_	18	advmod	_
+18	Tennanti	H	sg=sg|g=g	9	obl	_
+19	ja	J	_	20	cc	_
+20	Lowei	H	sg=sg|g=g	18	conj	_
+21	kümme	N	sg=sg|n=n	22	nummod	_
+22	aastat	S	sg=sg|p=p	23	obl	_
+23	nooremad	C	pl=pl|n=n	24	amod	_
+24	näod	S	pl=pl|n=n	9	obj	_
+25	.	Z	_	9	punct	_
+
+# sent_id = 393524
+# text = LMi ja Bondi vilksatab vähem .
+1	LMi	Y	adt=adt	4	nsubj	CHECK
+2	ja	J	_	3	cc	_
+3	Bondi	H	sg=sg|p=p	1	conj	_
+4	vilksatab	V	b=b	0	root	_
+5	vähem	D	_	4	advmod	_
+6	.	Z	_	4	punct	_
+
+# sent_id = 1163759
+# text = EXPO-mütoloogias vilksatavad nii siinses kui saksa pressis läbi kirjeldused stiilis " lendavad kuused " , " porganditesse topitud puud " , " tiritavad kivid " jms.
+1	EXPO-mütoloogias	S	sg=sg|in=in	2	obj	_
+2	vilksatavad	V	vad=vad	0	root	_
+3	nii	D	_	4	cc:preconj	_
+4	siinses	A	sg=sg|in=in	7	amod	_
+5	kui	D	_	6	cc	_
+6	saksa	G	_	4	conj	_
+7	pressis	V	s=s	2	nsubj	CHECK
+8	läbi	D	_	9	case	_
+9	kirjeldused	S	pl=pl|n=n	10	nmod	_
+10	stiilis	S	sg=sg|in=in	2	obj	_
+11	"	Z	_	13	punct	_
+12	lendavad	V	vad=vad	13	acl	_
+13	kuused	S	pl=pl|n=n	10	appos	_
+14	"	Z	_	13	punct	_
+15	,	Z	_	19	punct	_
+16	"	Z	_	19	punct	_
+17	porganditesse	S	pl=pl|ill=ill	18	obl	_
+18	topitud	V	tud=tud	19	acl	_
+19	puud	S	sg=sg|n=n	10	appos	_
+20	"	Z	_	19	punct	_
+21	,	Z	_	24	punct	_
+22	"	Z	_	24	punct	_
+23	tiritavad	A	pl=pl|n=n	24	acl	_
+24	kivid	S	pl=pl|n=n	10	appos	_
+25	"	Z	_	24	punct	_
+26	jms	Y	?=?	24	nmod	_
+27	.	Z	_	2	punct	_
+
+# sent_id = 2103603
+# text = Eesti ajakirjanduses on vilksatanud enesekriitiliselt sõna " eestistumine " , kui on räägitud must-valgest suhtumisest Venemaasse ja mõnikord ka vähemusküsimusse Eestis .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	ajakirjanduses	S	sg=sg|in=in	4	nsubj	_
+3	on	V	vad=vad	4	aux	_
+4	vilksatanud	A	_	0	root	_
+5	enesekriitiliselt	D	_	4	advmod	_
+6	sõna	S	sg=sg|p=p	4	obj	CHECK
+7	"	Z	_	8	punct	_
+8	eestistumine	S	sg=sg|n=n	6	appos	_
+9	"	Z	_	8	punct	_
+10	,	Z	_	13	punct	_
+11	kui	J	_	13	mark	_
+12	on	V	b=b	13	aux	_
+13	räägitud	A	sg=sg|n=n	4	advcl	_
+14	must-valgest	A	sg=sg|el=el	15	amod	_
+15	suhtumisest	S	sg=sg|el=el	13	obj	_
+16	Venemaasse	H	sg=sg|ill=ill	15	appos	_
+17	ja	J	_	20	cc	_
+18	mõnikord	D	_	20	advmod	_
+19	ka	D	_	20	advmod	_
+20	vähemusküsimusse	S	adt=adt	16	conj	_
+21	Eestis	H	sg=sg|in=in	20	appos	_
+22	.	Z	_	4	punct	_
+
+# sent_id = 1497902
+# text = Aga näed , kuidas hoopis läks , " vilksatab kibestus üle Riho näo .
+1	Aga	J	_	2	cc	_
+2	näed	V	d=d	0	root	_
+3	,	Z	_	6	punct	_
+4	kuidas	D	_	6	mark	_
+5	hoopis	D	_	6	advmod	_
+6	läks	V	s=s	2	ccomp	_
+7	,	Z	_	9	punct	_
+8	"	Z	_	9	punct	_
+9	vilksatab	V	b=b	2	parataxis	_
+10	kibestus	S	sg=sg|n=n	9	nsubj	_
+11	üle	D	_	12	case	_
+12	Riho	H	sg=sg|n=n	13	nmod	_
+13	näo	S	sg=sg|g=g	9	obj	CHECK
+14	.	Z	_	2	punct	_
+
+# sent_id = 82362
+# text = Ähvardav Garcia meeles , vilksatas ametliku matshi eelõhtul isamaa au päästmiseks korraks variant üle kuru Prantsusmaale varvast visata .
+1	Ähvardav	H	sg=sg|n=n	0	root	_
+2	Garcia	H	sg=sg|g=g	1	flat	_
+3	meeles	S	sg=sg|in=in	1	obj	_
+4	,	Z	_	5	punct	_
+5	vilksatas	V	s=s	1	conj	_
+6	ametliku	A	sg=sg|g=g	7	amod	_
+7	matshi	S	sg=sg|g=g	8	nmod	_
+8	eelõhtul	S	sg=sg|ad=ad	5	obj	_
+9	isamaa	S	sg=sg|g=g	5	nsubj	_
+10	au	S	sg=sg|g=g	11	nmod	_
+11	päästmiseks	S	sg=sg|tr=tr	18	obl	_
+12	korraks	D	_	18	advmod	_
+13	variant	S	sg=sg|n=n	18	obl	CHECK
+14	üle	K	_	15	case	_
+15	kuru	S	sg=sg|g=g	18	obl	_
+16	Prantsusmaale	H	sg=sg|all=all	17	nmod	_
+17	varvast	S	sg=sg|p=p	18	obj	_
+18	visata	V	da=da	5	advcl	_
+19	.	Z	_	1	punct	_
+
+# sent_id = 114976
+# text = Kuidas ? ” olid esimesed mõtted , mis õpilaste ja õpetajate peas pärast eespool nimetatud artikli lugemist vilksatasid .
+1	Kuidas	D	_	0	root	_
+2	?	Z	_	1	punct	_
+3	”	Z	_	1	punct	_
+4	olid	V	sid=sid	1	parataxis	_
+5	esimesed	O	pl=pl|n=n	6	amod	_
+6	mõtted	S	pl=pl|n=n	4	nsubj	_
+7	,	Z	_	18	punct	_
+8	mis	P	sg=sg|n=n	18	nsubj	_
+9	õpilaste	S	pl=pl|g=g	18	obl	_
+10	ja	J	_	11	cc	_
+11	õpetajate	S	pl=pl|g=g	9	conj	_
+12	peas	S	sg=sg|in=in	9	conj	_
+13	pärast	K	_	16	case	_
+14	eespool	D	_	15	advmod	_
+15	nimetatud	V	tud=tud	16	acl	_
+16	artikli	S	sg=sg|g=g	18	obj	_
+17	lugemist	S	sg=sg|p=p	18	obl	CHECK
+18	vilksatasid	V	sid=sid	6	acl:relcl	_
+19	.	Z	_	1	punct	_
+
+# sent_id = 8569014
+# text = Praegu on klubikontsert pigem haruldus kui regulaarne harjumus ning pea iga mõnes Euroopa riigi edetabelis sekundi murdosa vilksatanud artist pälviks biitlite väärilise vastuvõtu .
+1	Praegu	D	_	3	advmod	_
+2	on	V	b=b	3	cop	_
+3	klubikontsert	S	sg=sg|n=n	0	root	_
+4	pigem	D	_	5	advmod	_
+5	haruldus	S	sg=sg|n=n	3	nsubj:cop	_
+6	kui	J	_	8	mark	_
+7	regulaarne	A	sg=sg|n=n	8	amod	_
+8	harjumus	S	sg=sg|n=n	5	advcl	_
+9	ning	J	_	20	cc	_
+10	pea	V	o=o	20	aux	_
+11	iga	P	sg=sg|n=n	19	det	_
+12	mõnes	P	sg=sg|in=in	19	det	_
+13	Euroopa	H	sg=sg|g=g	14	nmod	_
+14	riigi	S	sg=sg|g=g	15	nmod	_
+15	edetabelis	S	sg=sg|in=in	18	obj	_
+16	sekundi	S	sg=sg|g=g	18	obl	_
+17	murdosa	S	sg=sg|n=n	18	obj	CHECK
+18	vilksatanud	V	nud=nud	19	acl	_
+19	artist	S	sg=sg|n=n	20	nsubj	_
+20	pälviks	V	ks=ks	2	conj	_
+21	biitlite	S	pl=pl|g=g	20	obj	_
+22	väärilise	A	sg=sg|g=g	23	amod	_
+23	vastuvõtu	S	sg=sg|g=g	20	obj	_
+24	.	Z	_	3	punct	_
+
+# sent_id = 30691
+# text = “ Aastaid ei vilksatanud näiteks seriaalis “ Sõbrad ” ühtegi musta nägu .
+1	“	Z	_	4	punct	_
+2	Aastaid	S	pl=pl|p=p	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	vilksatanud	A	pl=pl|n=n	0	root	_
+5	näiteks	S	sg=sg|tr=tr	6	advmod	_
+6	seriaalis	S	sg=sg|in=in	4	nsubj	_
+7	“	Z	_	8	punct	_
+8	Sõbrad	S	pl=pl|n=n	6	appos	_
+9	”	Z	_	8	punct	_
+10	ühtegi	P	sg=sg|p=p	12	det	_
+11	musta	A	sg=sg|p=p	12	amod	_
+12	nägu	S	sg=sg|p=p	4	nsubj	CHECK
+13	.	Z	_	4	punct	_
+
+# sent_id = 5428634
+# text = Vetemaalgi on kuskil vilksatanud Imbi ja Ärni moodi juhm ja ahne vanapaar - nagu Lopi ja Lapi või eite-taati kuldkalakese loost .
+1	Vetemaalgi	S	sg=sg|n=n	4	obj	_
+2	on	V	b=b	4	aux	_
+3	kuskil	D	_	4	advmod	_
+4	vilksatanud	A	sg=sg|n=n	0	root	_
+5	Imbi	H	sg=sg|n=n	4	obl	_
+6	ja	J	_	7	cc	_
+7	Ärni	S	sg=sg|g=g	5	conj	_
+8	moodi	K	_	5	case	_
+9	juhm	A	sg=sg|n=n	12	amod	_
+10	ja	J	_	11	cc	_
+11	ahne	A	sg=sg|n=n	9	conj	_
+12	vanapaar	S	sg=sg|n=n	4	obj	CHECK
+13	-	Z	_	15	punct	_
+14	nagu	D	_	15	mark	_
+15	Lopi	H	sg=sg|n=n	12	appos	_
+16	ja	J	_	17	cc	_
+17	Lapi	H	sg=sg|n=n	15	conj	_
+18	või	J	_	19	cc	_
+19	eite-taati	S	sg=sg|p=p	15	conj	_
+20	kuldkalakese	S	sg=sg|g=g	21	nmod	_
+21	loost	S	sg=sg|el=el	12	conj	_
+22	.	Z	_	4	punct	_
+
+# sent_id = 12015948
+# text = Nõukogude valimispäeval jagati valimispunktides odavat konjakit ja vilksatas vahel suitsuvorsti .
+1	Nõukogude	H	pl=pl|g=g	2	nmod	_
+2	valimispäeval	S	sg=sg|ad=ad	3	obl	_
+3	jagati	V	ti=ti	0	root	_
+4	valimispunktides	S	pl=pl|in=in	3	obj	_
+5	odavat	A	sg=sg|p=p	6	acl	_
+6	konjakit	S	sg=sg|p=p	3	obj	_
+7	ja	J	_	8	cc	_
+8	vilksatas	V	s=s	3	conj	_
+9	vahel	D	_	8	advmod	_
+10	suitsuvorsti	S	adt=adt	8	obj	CHECK
+11	.	Z	_	3	punct	_
+
+# sent_id = 2144242
+# text = Ühest aknast vilksatab välisminister Kristiina Ojulandi blond peakene , teistest vaatavad välja väärikad isandad , silitavad sametkinnastes kätega oma habemeid , kõnelevad tähtsalt ning aeglaselt .
+1	Ühest	N	sg=sg|el=el	2	det	_
+2	aknast	S	sg=sg|el=el	3	obl	_
+3	vilksatab	V	b=b	0	root	_
+4	välisminister	S	sg=sg|n=n	3	nsubj	_
+5	Kristiina	H	sg=sg|n=n	4	appos	_
+6	Ojulandi	H	sg=sg|g=g	5	flat	_
+7	blond	A	sg=sg|n=n	8	amod	_
+8	peakene	S	sg=sg|n=n	3	obj	CHECK
+9	,	Z	_	11	punct	_
+10	teistest	P	pl=pl|el=el	11	nsubj	_
+11	vaatavad	V	vad=vad	3	conj	_
+12	välja	D	_	11	compound:prt	_
+13	väärikad	A	pl=pl|n=n	14	amod	_
+14	isandad	S	pl=pl|n=n	11	obj	_
+15	,	Z	_	16	punct	_
+16	silitavad	V	vad=vad	3	conj	_
+17	sametkinnastes	S	pl=pl|in=in	18	nmod	_
+18	kätega	S	pl=pl|kom=kom	16	obj	_
+19	oma	P	sg=sg|g=g	20	nmod	_
+20	habemeid	S	pl=pl|p=p	16	obl	_
+21	,	Z	_	22	punct	_
+22	kõnelevad	V	vad=vad	3	conj	_
+23	tähtsalt	D	_	22	advmod	_
+24	ning	J	_	25	cc	_
+25	aeglaselt	D	_	23	conj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 30941
+# text = Meeletud rahvahulgad ehk juhuslikud vaatajad on ilmselt siin-seal vilksatanud sõnade “ intellektuaalne ” ja “ kontseptuaalne ” peale ära ehmatatud .
+1	Meeletud	A	pl=pl|n=n	2	acl	_
+2	rahvahulgad	S	pl=pl|n=n	9	obj	_
+3	ehk	J	_	5	cc	_
+4	juhuslikud	A	pl=pl|n=n	5	amod	_
+5	vaatajad	S	pl=pl|n=n	2	conj	_
+6	on	V	b=b	9	aux	_
+7	ilmselt	D	_	9	advmod	_
+8	siin-seal	D	_	9	advmod	_
+9	vilksatanud	V	nud=nud	0	root	_
+10	sõnade	S	pl=pl|g=g	9	obj	CHECK
+11	“	Z	_	12	punct	_
+12	intellektuaalne	A	sg=sg|n=n	10	appos	_
+13	”	Z	_	12	punct	_
+14	ja	J	_	16	cc	_
+15	“	Z	_	16	punct	_
+16	kontseptuaalne	A	sg=sg|n=n	12	conj	_
+17	”	Z	_	16	punct	_
+18	peale	K	_	12	case	_
+19	ära	D	_	20	compound:prt	_
+20	ehmatatud	V	tud=tud	9	conj	_
+21	.	Z	_	9	punct	_
+
+# sent_id = 137041
+# text = Akendel vilksatab uudishimulikke nägusid .
+1	Akendel	S	pl=pl|ad=ad	2	obj	_
+2	vilksatab	V	b=b	0	root	_
+3	uudishimulikke	A	pl=pl|p=p	4	amod	_
+4	nägusid	S	pl=pl|p=p	2	obj	CHECK
+5	.	Z	_	2	punct	_
+

@@ -1,0 +1,476 @@
+# sent_id = 8010248
+# text = Vahelejäämise korral oleks teda tabanud karm karistus kuid nagu elus tihti kipub juhtuma , jäi see tegu seaduse uuriva end poolpimeda silma eest varjule .
+1	Vahelejäämise	S	sg=sg|g=g	5	obl	_
+2	korral	K	_	1	case	_
+3	oleks	V	ks=ks	5	aux	_
+4	teda	P	sg=sg|p=p	5	nsubj	_
+5	tabanud	A	sg=sg|n=n	0	root	_
+6	karm	A	sg=sg|n=n	7	amod	_
+7	karistus	S	sg=sg|n=n	5	obj	_
+8	kuid	J	_	12	cc	_
+9	nagu	J	_	12	mark	_
+10	elus	S	sg=sg|in=in	12	nsubj	_
+11	tihti	D	_	12	advmod	_
+12	kipub	V	b=b	15	advcl	_
+13	juhtuma	V	ma=ma	12	advcl	_
+14	,	Z	_	15	punct	_
+15	jäi	V	s=s	5	conj	_
+16	see	P	sg=sg|n=n	17	det	_
+17	tegu	S	sg=sg|n=n	15	nsubj	_
+18	seaduse	S	sg=sg|g=g	19	obj	_
+19	uuriva	A	sg=sg|g=g	15	advcl	_
+20	end	Y	?=?	15	obj	CHECK
+21	poolpimeda	A	sg=sg|g=g	22	amod	_
+22	silma	S	sg=sg|g=g	15	obl	_
+23	eest	K	_	22	case	_
+24	varjule	D	_	15	advmod	_
+25	.	Z	_	5	punct	_
+
+# sent_id = 3172637
+# text = Etniline võõristust eestlase ja mitte-eestlaste vahel jääb Eesti ühiskonda kindlasti pikaks ajaks , kodusõda ei maksaks siiski karta .
+1	Etniline	A	sg=sg|n=n	2	amod	_
+2	võõristust	S	sg=sg|p=p	7	nsubj	_
+3	eestlase	S	sg=sg|g=g	2	nmod	_
+4	ja	J	_	5	cc	_
+5	mitte-eestlaste	S	pl=pl|g=g	3	conj	_
+6	vahel	K	_	3	case	_
+7	jääb	V	b=b	0	root	_
+8	Eesti	H	sg=sg|g=g	7	nsubj	_
+9	ühiskonda	S	adt=adt	7	obj	CHECK
+10	kindlasti	D	_	7	advmod	_
+11	pikaks	A	sg=sg|tr=tr	12	amod	_
+12	ajaks	S	sg=sg|tr=tr	7	obl	_
+13	,	Z	_	16	punct	_
+14	kodusõda	S	sg=sg|n=n	16	obj	_
+15	ei	V	neg=neg	16	aux	_
+16	maksaks	V	ks=ks	7	conj	_
+17	siiski	D	_	16	advmod	_
+18	karta	V	da=da	16	nsubj	_
+19	.	Z	_	7	punct	_
+
+# sent_id = 1355629
+# text = Paistab , et on õige - valitsus on jäänud suure osa inimeste murekoorma suhtes ükskõikseks .
+1	Paistab	V	b=b	0	root	_
+2	,	Z	_	5	punct	_
+3	et	J	_	5	mark	_
+4	on	V	b=b	5	cop	_
+5	õige	A	sg=sg|n=n	1	csubj	_
+6	-	Z	_	9	punct	_
+7	valitsus	S	sg=sg|n=n	9	nsubj	_
+8	on	V	vad=vad	9	aux	_
+9	jäänud	A	sg=sg|n=n	5	parataxis	_
+10	suure	A	sg=sg|g=g	11	amod	_
+11	osa	S	sg=sg|g=g	9	obl	CHECK
+12	inimeste	S	pl=pl|g=g	13	nmod	_
+13	murekoorma	S	sg=sg|g=g	9	obl	_
+14	suhtes	K	_	13	case	_
+15	ükskõikseks	A	sg=sg|tr=tr	9	xcomp	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 9832226
+# text = Pullerits :  Mida teha , et maailma suurlinnastudes ei jääks traditsiooniliste väärtustega naised vähemusse ?
+1	Pullerits	H	sg=sg|n=n	0	root	_
+2	:	Z	_	4	punct	_
+3	Mida	P	sg=sg|p=p	4	nsubj	_
+4	teha	V	da=da	1	parataxis	_
+5	,	Z	_	10	punct	_
+6	et	J	_	10	mark	_
+7	maailma	S	sg=sg|g=g	8	nmod	_
+8	suurlinnastudes	S	sg=sg|n=n	10	nsubj	_
+9	ei	V	neg=neg	10	aux	_
+10	jääks	V	ks=ks	4	ccomp	_
+11	traditsiooniliste	A	pl=pl|g=g	12	amod	_
+12	väärtustega	S	pl=pl|kom=kom	10	obl	_
+13	naised	S	pl=pl|n=n	10	nsubj	CHECK
+14	vähemusse	S	adt=adt	10	obl	_
+15	?	Z	_	1	punct	_
+
+# sent_id = 56752
+# text = Kuid igal juhul on kõigepealt vaja tehnoloogiat jää kuupinnasest kättesaamiseks .
+1	Kuid	J	_	4	cc	_
+2	igal	P	sg=sg|ad=ad	3	det	_
+3	juhul	S	sg=sg|ad=ad	4	obl	_
+4	on	V	vad=vad	0	root	_
+5	kõigepealt	D	_	4	advmod	_
+6	vaja	D	_	4	compound:prt	_
+7	tehnoloogiat	S	sg=sg|p=p	8	nsubj	CHECK
+8	jää	V	o=o	4	csubj	_
+9	kuupinnasest	S	sg=sg|el=el	10	nmod	_
+10	kättesaamiseks	S	sg=sg|tr=tr	4	obl	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 13852090
+# text = « Jääksin ju halba seisu , kui tipud tuuakse kohale , ent mina ise välja ei tuleks . »
+1	«	Z	_	2	punct	_
+2	Jääksin	V	ksin=ksin	0	root	_
+3	ju	D	_	2	advmod	_
+4	halba	A	sg=sg|p=p	5	amod	_
+5	seisu	S	adt=adt	2	nsubj	CHECK
+6	,	Z	_	9	punct	_
+7	kui	J	_	9	mark	_
+8	tipud	S	pl=pl|n=n	9	obj	_
+9	tuuakse	V	takse=takse	2	advcl	_
+10	kohale	D	_	9	compound:prt	_
+11	,	Z	_	17	punct	_
+12	ent	J	_	17	cc	_
+13	mina	S	sg=sg|n=n	17	nsubj	_
+14	ise	P	sg=sg|n=n	13	nmod	_
+15	välja	D	_	17	compound:prt	_
+16	ei	V	neg=neg	17	aux	_
+17	tuleks	V	ks=ks	9	conj	_
+18	.	Z	_	2	punct	_
+19	»	Z	_	2	punct	_
+
+# sent_id = 60717
+# text = Kas kirik oma konservatiivsusega ajale jalgu ei jää ?
+1	Kas	D	_	8	advmod	_
+2	kirik	S	sg=sg|n=n	8	nsubj	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	konservatiivsusega	S	sg=sg|kom=kom	5	nmod	_
+5	ajale	S	sg=sg|all=all	8	obl	_
+6	jalgu	S	pl=pl|p=p	8	obl	CHECK
+7	ei	V	neg=neg	8	aux	_
+8	jää	V	o=o	0	root	_
+9	?	Z	_	8	punct	_
+
+# sent_id = 313634
+# text = Küll peetakse seda ajast ees olevaks ( tehnika ei suuda veel tagada süsteemi korrektset funktsioneerimist ) , küll loetakse ta ajale jalgu jäänuks ( teised andmeside tehnoloogiad pakuvad paremat tulemust ) .
+1	Küll	D	_	2	advmod	_
+2	peetakse	V	takse=takse	0	root	_
+3	seda	P	sg=sg|p=p	2	nsubj	_
+4	ajast	S	sg=sg|el=el	2	obl	_
+5	ees	D	_	6	compound:prt	_
+6	olevaks	A	sg=sg|tr=tr	2	nsubj	_
+7	(	Z	_	10	punct	_
+8	tehnika	S	sg=sg|n=n	10	nsubj	_
+9	ei	V	neg=neg	10	aux	_
+10	suuda	V	o=o	2	parataxis	_
+11	veel	D	_	10	advmod	_
+12	tagada	V	da=da	10	nsubj	_
+13	süsteemi	S	sg=sg|g=g	15	nmod	_
+14	korrektset	A	sg=sg|p=p	15	amod	_
+15	funktsioneerimist	S	sg=sg|p=p	12	obj	_
+16	)	Z	_	10	punct	_
+17	,	Z	_	19	punct	_
+18	küll	D	_	19	advmod	_
+19	loetakse	V	takse=takse	2	conj	_
+20	ta	P	sg=sg|g=g	19	nsubj	_
+21	ajale	S	sg=sg|all=all	19	obj	_
+22	jalgu	S	pl=pl|p=p	23	obl	CHECK
+23	jäänuks	V	nuks=nuks	19	obj	_
+24	(	Z	_	28	punct	_
+25	teised	P	pl=pl|n=n	26	det	_
+26	andmeside	S	sg=sg|g=g	27	nmod	_
+27	tehnoloogiad	S	pl=pl|n=n	28	nsubj	_
+28	pakuvad	V	vad=vad	19	parataxis	_
+29	paremat	C	sg=sg|p=p	30	amod	_
+30	tulemust	S	sg=sg|p=p	28	obj	_
+31	)	Z	_	28	punct	_
+32	.	Z	_	2	punct	_
+
+# sent_id = 25766
+# text = 33aastane hispaania kaunitar Maria Bravo jäi Bruce Willisele silma 1999. aastal Madridis , kus avati restoraniketi Planet Hollywood järjekordne lüli .
+1	33aastane	A	sg=sg|n=n	3	amod	_
+2	hispaania	G	_	3	amod	_
+3	kaunitar	S	sg=sg|n=n	6	obl	_
+4	Maria	H	sg=sg|n=n	3	appos	_
+5	Bravo	H	sg=sg|n=n	4	flat	_
+6	jäi	V	s=s	0	root	_
+7	Bruce	H	sg=sg|g=g	6	nsubj	_
+8	Willisele	H	sg=sg|all=all	7	flat	_
+9	silma	S	sg=sg|g=g	6	obl	CHECK
+10	1999.	O	?=?	11	amod	_
+11	aastal	S	sg=sg|ad=ad	6	obl	_
+12	Madridis	H	sg=sg|in=in	6	obl	_
+13	,	Z	_	15	punct	_
+14	kus	D	_	15	mark	_
+15	avati	V	ti=ti	6	advcl	_
+16	restoraniketi	S	sg=sg|g=g	15	obj	_
+17	Planet	H	sg=sg|n=n	16	appos	_
+18	Hollywood	H	sg=sg|n=n	17	flat	_
+19	järjekordne	A	sg=sg|n=n	20	amod	_
+20	lüli	S	sg=sg|n=n	15	obj	_
+21	.	Z	_	6	punct	_
+
+# sent_id = 325282
+# text = See tähendab IT-spetsialistile oma tööaja ja ressursside planeerimist nii , et jääks ruumi täiendusõppeks .
+1	See	P	sg=sg|n=n	2	nsubj	_
+2	tähendab	V	b=b	0	root	_
+3	IT-spetsialistile	S	sg=sg|all=all	2	obj	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	tööaja	S	sg=sg|g=g	2	obj	_
+6	ja	J	_	8	cc	_
+7	ressursside	S	pl=pl|g=g	8	nmod	_
+8	planeerimist	S	sg=sg|p=p	5	conj	_
+9	nii	D	_	2	advmod	_
+10	,	Z	_	12	punct	_
+11	et	J	_	12	mark	_
+12	jääks	V	ks=ks	2	advcl	_
+13	ruumi	S	sg=sg|p=p	12	obl	CHECK
+14	täiendusõppeks	S	sg=sg|tr=tr	12	obl	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 173461
+# text = Kogu läänemaailm on ootamatult jäänud jalgu moslemite enneolematule aktiivsusele .
+1	Kogu	A	_	2	det	_
+2	läänemaailm	S	sg=sg|n=n	5	obl	_
+3	on	V	b=b	5	aux	_
+4	ootamatult	D	_	5	advmod	_
+5	jäänud	A	pl=pl|n=n	0	root	_
+6	jalgu	S	pl=pl|p=p	7	nmod	CHECK
+7	moslemite	S	pl=pl|g=g	9	nmod	_
+8	enneolematule	A	sg=sg|all=all	9	amod	_
+9	aktiivsusele	S	sg=sg|all=all	5	nsubj	_
+10	.	Z	_	5	punct	_
+
+# sent_id = 1217327
+# text = Võrreldes esialgsega on kõik maakonnad liikunud järjest radikaalsemate variantide suunas , kuid omavalitsusliitude ettepanekud , mille maavanemad lisana siseministrile esitavad , on jäänud lõpuni suure arvu valdade säilimise pooldajaks .
+1	Võrreldes	V	des=des	2	acl	_
+2	esialgsega	A	sg=sg|kom=kom	6	obl	_
+3	on	V	b=b	6	aux	_
+4	kõik	P	pl=pl|n=n	5	det	_
+5	maakonnad	S	pl=pl|n=n	6	nsubj	_
+6	liikunud	A	pl=pl|n=n	0	root	_
+7	järjest	D	_	8	advmod	_
+8	radikaalsemate	C	pl=pl|g=g	9	amod	_
+9	variantide	S	pl=pl|g=g	6	obl	_
+10	suunas	K	_	9	case	_
+11	,	Z	_	23	punct	_
+12	kuid	J	_	23	cc	_
+13	omavalitsusliitude	S	pl=pl|g=g	14	nmod	_
+14	ettepanekud	S	pl=pl|n=n	23	nsubj	_
+15	,	Z	_	20	punct	_
+16	mille	P	sg=sg|g=g	20	nsubj	_
+17	maavanemad	S	pl=pl|n=n	18	nmod	_
+18	lisana	S	sg=sg|es=es	20	obj	_
+19	siseministrile	S	sg=sg|all=all	20	obj	_
+20	esitavad	V	vad=vad	14	acl:relcl	_
+21	,	Z	_	20	punct	_
+22	on	V	vad=vad	23	aux	_
+23	jäänud	A	sg=sg|n=n	6	conj	_
+24	lõpuni	S	sg=sg|ter=ter	23	obl	_
+25	suure	A	sg=sg|g=g	26	amod	_
+26	arvu	S	sg=sg|g=g	23	nsubj	CHECK
+27	valdade	S	pl=pl|g=g	28	nmod	_
+28	säilimise	S	sg=sg|g=g	23	obl	_
+29	pooldajaks	S	sg=sg|tr=tr	28	nmod	_
+30	.	Z	_	6	punct	_
+
+# sent_id = 9321919
+# text = Loomulikult ei tähendanud kiire ja sujuva lahendusvõimaluse kadumine seda , et keskpank jäänuks käed rüpes istuma .
+1	Loomulikult	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	tähendanud	A	sg=sg|n=n	0	root	_
+4	kiire	A	sg=sg|g=g	7	amod	_
+5	ja	J	_	6	cc	_
+6	sujuva	A	sg=sg|g=g	4	conj	_
+7	lahendusvõimaluse	S	sg=sg|g=g	8	nmod	_
+8	kadumine	S	sg=sg|n=n	3	obl	_
+9	seda	P	sg=sg|p=p	3	obj	_
+10	,	Z	_	13	punct	_
+11	et	J	_	13	mark	_
+12	keskpank	S	sg=sg|n=n	13	nsubj	_
+13	jäänuks	V	nuks=nuks	9	acl	_
+14	käed	S	pl=pl|n=n	16	nsubj	CHECK
+15	rüpes	S	sg=sg|in=in	16	obl	_
+16	istuma	V	ma=ma	13	advcl	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 2820535
+# text = Sellal kui Oleg Buhdruker erafirma likvideerimismenetlust alustas ja ajas , ei jäänud Kohtla-Järve võimud aga käed rüpes ootama .
+1	Sellal	D	_	7	advmod	_
+2	kui	D	_	7	mark	_
+3	Oleg	H	sg=sg|n=n	7	nsubj	_
+4	Buhdruker	H	sg=sg|n=n	3	flat	_
+5	erafirma	S	sg=sg|g=g	6	nmod	_
+6	likvideerimismenetlust	S	sg=sg|p=p	7	obj	_
+7	alustas	V	s=s	12	advcl	_
+8	ja	J	_	9	cc	_
+9	ajas	V	s=s	7	conj	_
+10	,	Z	_	7	punct	_
+11	ei	V	neg=neg	12	aux	_
+12	jäänud	V	nud=nud	0	root	_
+13	Kohtla-Järve	H	sg=sg|g=g	14	nmod	_
+14	võimud	S	pl=pl|n=n	12	nsubj	_
+15	aga	J	_	12	advmod	_
+16	käed	S	pl=pl|n=n	18	obj	CHECK
+17	rüpes	S	sg=sg|in=in	18	obl	_
+18	ootama	V	ma=ma	12	xcomp	_
+19	.	Z	_	12	punct	_
+
+# sent_id = 307952
+# text = Tundub , et USA on seda ka ise uskuma jäänud ning võtnud vastu otsuse suurendada reservi 2005. aastaks kuue kuuni .
+1	Tundub	V	b=b	0	root	_
+2	,	Z	_	10	punct	_
+3	et	J	_	10	mark	_
+4	USA	Y	?=?	10	nsubj	_
+5	on	V	vad=vad	10	aux	_
+6	seda	P	sg=sg|p=p	10	nsubj	CHECK
+7	ka	D	_	8	advmod	_
+8	ise	D	_	10	obl	_
+9	uskuma	V	ma=ma	10	obl	_
+10	jäänud	A	pl=pl|n=n	1	csubj	_
+11	ning	J	_	12	cc	_
+12	võtnud	A	_	10	conj	_
+13	vastu	K	_	14	case	_
+14	otsuse	S	sg=sg|g=g	12	obj	_
+15	suurendada	V	da=da	12	advcl	_
+16	reservi	S	sg=sg|g=g	15	obj	_
+17	2005.	O	?=?	18	amod	_
+18	aastaks	S	sg=sg|tr=tr	15	obl	_
+19	kuue	N	sg=sg|g=g	20	nummod	_
+20	kuuni	S	sg=sg|ter=ter	15	obl	_
+21	.	Z	_	1	punct	_
+
+# sent_id = 336591
+# text = See ning mitmed teised väga põhjalikud muututused IT alal hakkasid 2000te aastate algul viima järjest enam mõttele , et vana ning ajale jalgu jäävat isikuandmete kaitse seadust on vaia täiustada , kuid IT maailma drastilisest muutustest tingituna oleks mõistlik kirjutada täiesti uus seadus , mis oleks vaba vana seaduse taagast , paragrahvide numeratsioonist jt asjadest .
+1	See	P	sg=sg|n=n	10	nsubj	_
+2	ning	J	_	7	cc	_
+3	mitmed	P	pl=pl|n=n	4	det	_
+4	teised	O	pl=pl|n=n	7	det	_
+5	väga	D	_	6	advmod	_
+6	põhjalikud	A	pl=pl|n=n	7	amod	_
+7	muututused	S	pl=pl|n=n	1	conj	_
+8	IT	Y	?=?	7	appos	_
+9	alal	S	sg=sg|ad=ad	10	obl	_
+10	hakkasid	V	sid=sid	0	root	_
+11	2000te	N	pl=pl|g=g	12	nummod	_
+12	aastate	S	pl=pl|g=g	10	obl	_
+13	algul	K	_	12	case	_
+14	viima	V	ma=ma	10	conj	_
+15	järjest	D	_	16	advmod	_
+16	enam	D	_	14	advmod	_
+17	mõttele	S	sg=sg|all=all	14	obj	_
+18	,	Z	_	30	punct	_
+19	et	J	_	30	mark	_
+20	vana	A	sg=sg|n=n	23	amod	_
+21	ning	J	_	22	cc	_
+22	ajale	S	sg=sg|all=all	23	nmod	_
+23	jalgu	S	pl=pl|p=p	24	obl	CHECK
+24	jäävat	V	vat=vat	26	acl	_
+25	isikuandmete	S	pl=pl|g=g	26	nmod	_
+26	kaitse	S	sg=sg|g=g	30	nsubj:cop	_
+27	seadust	S	sg=sg|p=p	26	nmod	_
+28	on	V	b=b	30	cop	_
+29	vaia	S	adt=adt	30	obj	_
+30	täiustada	V	da=da	17	acl	_
+31	,	Z	_	39	punct	_
+32	kuid	J	_	39	cc	_
+33	IT	Y	?=?	34	nmod	_
+34	maailma	S	sg=sg|g=g	36	nmod	_
+35	drastilisest	A	sg=sg|el=el	36	amod	_
+36	muutustest	S	pl=pl|el=el	40	obj	_
+37	tingituna	D	_	36	advmod	_
+38	oleks	V	ks=ks	39	cop	_
+39	mõistlik	A	sg=sg|n=n	14	conj	_
+40	kirjutada	V	da=da	39	csubj:cop	_
+41	täiesti	D	_	42	advmod	_
+42	uus	A	sg=sg|n=n	43	amod	_
+43	seadus	S	sg=sg|n=n	40	obj	_
+44	,	Z	_	55	punct	_
+45	mis	P	pl=pl|n=n	55	nsubj:cop	_
+46	oleks	V	ks=ks	55	cop	_
+47	vaba	A	sg=sg|g=g	49	amod	_
+48	vana	A	sg=sg|g=g	49	amod	_
+49	seaduse	S	sg=sg|g=g	50	nmod	_
+50	taagast	S	sg=sg|el=el	55	nmod	_
+51	,	Z	_	53	punct	_
+52	paragrahvide	S	pl=pl|g=g	53	nmod	_
+53	numeratsioonist	S	sg=sg|el=el	50	conj	_
+54	jt	Y	?=?	53	nmod	_
+55	asjadest	S	pl=pl|el=el	43	acl:relcl	_
+56	.	Z	_	10	punct	_
+
+# sent_id = 2445244
+# text = Jäägu need küsimused sõjaliste ekspertide hooleks .
+1	Jäägu	V	gu=gu	0	root	_
+2	need	P	pl=pl|n=n	3	det	_
+3	küsimused	S	pl=pl|n=n	1	nsubj	CHECK
+4	sõjaliste	A	pl=pl|g=g	5	amod	_
+5	ekspertide	S	pl=pl|g=g	6	nmod	_
+6	hooleks	S	sg=sg|tr=tr	1	obl	_
+7	.	Z	_	1	punct	_
+
+# sent_id = 505343
+# text = " Kui ikka keegi väga tahab sõitma õppida , siis ega ta jahtklubi ukse taha jää , sest kursusi algajatele purjetajatele korraldatakse küllalt palju .
+1	"	Z	_	16	punct	_
+2	Kui	D	_	6	mark	_
+3	ikka	D	_	6	advmod	_
+4	keegi	P	sg=sg|n=n	6	nsubj	_
+5	väga	D	_	6	advmod	_
+6	tahab	V	b=b	16	advcl	_
+7	sõitma	V	ma=ma	6	xcomp	_
+8	õppida	V	da=da	6	xcomp	_
+9	,	Z	_	6	punct	_
+10	siis	J	_	16	advmod	_
+11	ega	J	_	16	advmod	_
+12	ta	P	sg=sg|g=g	16	nsubj	_
+13	jahtklubi	S	sg=sg|g=g	16	obl	CHECK
+14	ukse	S	sg=sg|g=g	16	obl	_
+15	taha	K	_	14	case	_
+16	jää	V	o=o	0	root	_
+17	,	Z	_	22	punct	_
+18	sest	J	_	22	mark	_
+19	kursusi	S	pl=pl|p=p	20	nmod	_
+20	algajatele	S	pl=pl|all=all	21	nmod	_
+21	purjetajatele	S	pl=pl|all=all	22	nsubj	_
+22	korraldatakse	V	takse=takse	16	advcl	_
+23	küllalt	D	_	24	advmod	_
+24	palju	D	_	22	advmod	_
+25	.	Z	_	16	punct	_
+
+# sent_id = 61017
+# text = Iga kolmas usub , et on aastaks 2010 jäänud või jõudnud kõrgkihtidesse , alamkihtidesse usub end jäävat iga neljas .
+1	Iga	P	sg=sg|n=n	2	det	_
+2	kolmas	O	sg=sg|n=n	3	nsubj	_
+3	usub	V	b=b	0	root	_
+4	,	Z	_	9	punct	_
+5	et	J	_	9	mark	_
+6	on	V	b=b	9	aux	_
+7	aastaks	S	sg=sg|tr=tr	9	obl	_
+8	2010	N	?=?	7	nummod	_
+9	jäänud	A	pl=pl|n=n	3	ccomp	_
+10	või	J	_	11	cc	_
+11	jõudnud	A	sg=sg|n=n	9	conj	_
+12	kõrgkihtidesse	S	pl=pl|ill=ill	11	obl	_
+13	,	Z	_	15	punct	_
+14	alamkihtidesse	S	pl=pl|ill=ill	15	obj	_
+15	usub	V	b=b	9	conj	_
+16	end	P	sg=sg|p=p	17	nsubj	CHECK
+17	jäävat	V	vat=vat	15	nsubj	_
+18	iga	P	sg=sg|n=n	19	det	_
+19	neljas	N	sg=sg|in=in	17	nsubj	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 20299743
+# text = Bicutys: Ashley kle vaata sa reekisid yxkord et kihutad need tattid jää pielt ää sõpsidega ja midagi sellist aga mis siis järgmine pääv juhtus ?? kihutasite v ??
+1	Bicutys	H	sg=sg|n=n	5	parataxis	_
+2	:	Z	_	5	punct	_
+3	Ashley	H	sg=sg|n=n	4	nmod	_
+4	kle	S	sg=sg|n=n	5	obj	_
+5	vaata	V	o=o	0	root	_
+6	sa	P	sg=sg|n=n	5	nsubj	_
+7	reekisid	V	sid=sid	5	obj	_
+8	yxkord	S	sg=sg|n=n	10	punct	_
+9	et	J	_	10	mark	_
+10	kihutad	V	d=d	5	ccomp	_
+11	need	P	pl=pl|n=n	12	det	_
+12	tattid	S	pl=pl|n=n	10	obl	CHECK
+13	jää	V	o=o	10	conj	_
+14	pielt	S	sg=sg|abl=abl	13	obl	_
+15	ää	Y	?=?	16	nmod	_
+16	sõpsidega	S	pl=pl|kom=kom	13	obl	_
+17	ja	J	_	25	cc	_
+18	midagi	P	sg=sg|p=p	25	nsubj	_
+19	sellist	P	sg=sg|p=p	18	det	_
+20	aga	J	_	25	advmod	_
+21	mis	P	sg=sg|n=n	25	nsubj	_
+22	siis	D	_	25	advmod	_
+23	järgmine	A	sg=sg|n=n	24	amod	_
+24	pääv	S	sg=sg|n=n	25	obl	_
+25	juhtus	V	s=s	27	advcl	_
+26	??	Z	_	27	punct	_
+27	kihutasite	V	site=site	5	conj	_
+28	v	Y	?=?	27	nsubj	_
+29	??	Z	_	5	punct	_
+

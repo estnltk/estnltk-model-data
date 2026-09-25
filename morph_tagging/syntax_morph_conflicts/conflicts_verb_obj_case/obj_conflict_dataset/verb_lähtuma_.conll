@@ -1,0 +1,541 @@
+# sent_id = 162745
+# text = “ Suhetes SRÜ riikidega , ” väidab Udovenko , “ ei lähtu Venemaa rahvusvahelise õiguse normidest .
+1	“	Z	_	4	punct	_
+2	Suhetes	S	pl=pl|in=in	4	nmod	_
+3	SRÜ	Y	?=?	4	nmod	_
+4	riikidega	S	pl=pl|kom=kom	0	root	_
+5	,	Z	_	4	punct	_
+6	”	Z	_	4	punct	_
+7	väidab	V	b=b	4	parataxis	_
+8	Udovenko	H	sg=sg|n=n	7	nsubj	_
+9	,	Z	_	12	punct	_
+10	“	Z	_	12	punct	_
+11	ei	V	neg=neg	12	aux	_
+12	lähtu	V	o=o	7	parataxis	_
+13	Venemaa	H	sg=sg|g=g	12	nsubj	_
+14	rahvusvahelise	A	sg=sg|g=g	15	amod	_
+15	õiguse	S	sg=sg|g=g	12	nsubj	CHECK
+16	normidest	S	pl=pl|el=el	15	nmod	_
+17	.	Z	_	4	punct	_
+
+# sent_id = 271265
+# text = Lähtusime agregeeritud tööturu põhitrendide käitumisest ajas , analüüsides , millised majanduskeskkonna toime mehhanismid võisid avaldada primaarset mõju erinevatel perioodidel .
+1	Lähtusime	V	sime=sime	0	root	_
+2	agregeeritud	V	tud=tud	3	acl	_
+3	tööturu	S	sg=sg|g=g	4	nmod	_
+4	põhitrendide	S	pl=pl|g=g	5	nmod	_
+5	käitumisest	S	sg=sg|el=el	1	obl	_
+6	ajas	V	s=s	1	obl	CHECK
+7	,	Z	_	8	punct	_
+8	analüüsides	V	des=des	1	conj	_
+9	,	Z	_	11	punct	_
+10	millised	P	pl=pl|n=n	13	amod	_
+11	majanduskeskkonna	S	sg=sg|g=g	12	nmod	_
+12	toime	S	adt=adt	13	nmod	_
+13	mehhanismid	S	pl=pl|n=n	15	obj	_
+14	võisid	V	sid=sid	15	aux	_
+15	avaldada	V	da=da	8	ccomp	_
+16	primaarset	A	sg=sg|p=p	17	amod	_
+17	mõju	S	sg=sg|p=p	15	obj	_
+18	erinevatel	A	pl=pl|ad=ad	19	acl	_
+19	perioodidel	S	pl=pl|ad=ad	17	nmod	_
+20	.	Z	_	1	punct	_
+
+# sent_id = 3117724
+# text = " Vanemad kasutavad oma mõjuvõimu täiesti vääralt ega lähtu lapse , vaid enda huvidest , " nentis Tikerpuu .
+1	"	Z	_	3	punct	_
+2	Vanemad	S	pl=pl|n=n	3	nsubj	_
+3	kasutavad	V	vad=vad	0	root	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	mõjuvõimu	S	sg=sg|g=g	3	obj	_
+6	täiesti	D	_	7	advmod	_
+7	vääralt	D	_	3	advmod	_
+8	ega	J	_	9	cc	_
+9	lähtu	V	o=o	3	conj	_
+10	lapse	S	sg=sg|g=g	9	obl	CHECK
+11	,	Z	_	14	punct	_
+12	vaid	J	_	14	cc	_
+13	enda	P	sg=sg|g=g	14	nmod	_
+14	huvidest	S	pl=pl|el=el	10	conj	_
+15	,	Z	_	3	punct	_
+16	"	Z	_	3	punct	_
+17	nentis	V	s=s	3	parataxis	_
+18	Tikerpuu	H	sg=sg|n=n	17	nsubj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 2322360
+# text = " Lähtume kontserni üldisest poliitikast , ka meie marginaalid pole nii suured , et saaksime hinda alandada näiteks 50 senti liitrilt , " rääkis ta .
+1	"	Z	_	2	punct	_
+2	Lähtume	V	me=me	0	root	_
+3	kontserni	S	adt=adt	5	nmod	CHECK
+4	üldisest	A	sg=sg|el=el	5	amod	_
+5	poliitikast	S	sg=sg|el=el	2	obl	_
+6	,	Z	_	12	punct	_
+7	ka	D	_	12	advmod	_
+8	meie	P	pl=pl|g=g	9	nmod	_
+9	marginaalid	S	pl=pl|n=n	12	nsubj:cop	_
+10	pole	V	neg=neg|o=o	12	cop	_
+11	nii	D	_	12	advmod	_
+12	suured	A	pl=pl|n=n	2	conj	_
+13	,	Z	_	17	punct	_
+14	et	J	_	17	mark	_
+15	saaksime	V	ksime=ksime	17	aux	_
+16	hinda	S	sg=sg|p=p	17	obj	_
+17	alandada	V	da=da	12	advcl	_
+18	näiteks	S	sg=sg|tr=tr	19	advmod	_
+19	50	N	?=?	20	nummod	_
+20	senti	S	sg=sg|p=p	21	nmod	_
+21	liitrilt	S	sg=sg|abl=abl	17	obl	_
+22	,	Z	_	2	punct	_
+23	"	Z	_	2	punct	_
+24	rääkis	V	s=s	2	parataxis	_
+25	ta	P	sg=sg|n=n	24	nsubj	_
+26	.	Z	_	2	punct	_
+
+# sent_id = 5905636
+# text = Parts rõhutas oma vastuses , et riigikontroll on lähtunud hinnangu kujundamisel halduskohtu poolt tehtud kohtulahenditest omamata pädevust hinnata sisuliselt menetluses olevas asjas tehtud kohtulahendeid ja neis väljendatud kohtu seisukohti .
+1	Parts	S	sg=sg|n=n	2	nsubj	_
+2	rõhutas	V	s=s	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	vastuses	S	sg=sg|in=in	2	obj	_
+5	,	Z	_	9	punct	_
+6	et	J	_	9	mark	_
+7	riigikontroll	S	sg=sg|n=n	9	nsubj	_
+8	on	V	vad=vad	9	aux	_
+9	lähtunud	A	sg=sg|n=n	4	acl	_
+10	hinnangu	S	sg=sg|g=g	11	nmod	_
+11	kujundamisel	S	sg=sg|ad=ad	14	obl	_
+12	halduskohtu	S	sg=sg|g=g	14	obl	_
+13	poolt	K	_	12	case	_
+14	tehtud	V	tud=tud	15	acl	_
+15	kohtulahenditest	S	pl=pl|el=el	16	obj	_
+16	omamata	V	mata=mata	17	nmod	_
+17	pädevust	S	sg=sg|p=p	18	obj	CHECK
+18	hinnata	V	da=da	9	conj	_
+19	sisuliselt	D	_	18	advmod	_
+20	menetluses	S	sg=sg|in=in	21	obl	_
+21	olevas	A	sg=sg|in=in	22	acl	_
+22	asjas	S	sg=sg|in=in	23	obj	_
+23	tehtud	A	sg=sg|n=n	24	acl	_
+24	kohtulahendeid	S	pl=pl|p=p	18	obj	_
+25	ja	J	_	27	cc	_
+26	neis	P	pl=pl|in=in	27	obj	_
+27	väljendatud	V	tud=tud	9	conj	_
+28	kohtu	S	sg=sg|g=g	29	nmod	_
+29	seisukohti	S	pl=pl|p=p	27	obj	_
+30	.	Z	_	2	punct	_
+
+# sent_id = 234756
+# text = Esitatust ilmneb , et J. Aavik on olulisel määral lähtunud oma domineeriva esteetilise printsiibi nii akustilisest kui ka stiililis-psühholoogilisest aspektist ( rikkalik fraseoloogia , varjundipeen sõnavara ) ( vt Kindlam 1980 : 717 ) .
+1	Esitatust	S	sg=sg|el=el	2	obl	_
+2	ilmneb	V	b=b	0	root	_
+3	,	Z	_	9	punct	_
+4	et	J	_	9	mark	_
+5	J. Aavik	H	sg=sg|n=n	9	nsubj	_
+6	on	V	b=b	9	aux	_
+7	olulisel	A	sg=sg|ad=ad	8	amod	_
+8	määral	S	sg=sg|ad=ad	9	obl	_
+9	lähtunud	A	_	2	csubj	_
+10	oma	P	sg=sg|g=g	13	nmod	_
+11	domineeriva	A	sg=sg|g=g	13	acl	_
+12	esteetilise	A	sg=sg|g=g	13	amod	_
+13	printsiibi	S	sg=sg|g=g	9	obj	CHECK
+14	nii	D	_	15	cc:preconj	_
+15	akustilisest	A	sg=sg|el=el	19	amod	_
+16	kui	J	_	18	cc	_
+17	ka	D	_	18	advmod	_
+18	stiililis-psühholoogilisest	A	sg=sg|el=el	15	conj	_
+19	aspektist	S	sg=sg|el=el	9	obl	_
+20	(	Z	_	22	punct	_
+21	rikkalik	A	sg=sg|n=n	22	amod	_
+22	fraseoloogia	S	sg=sg|g=g	19	parataxis	_
+23	,	Z	_	25	punct	_
+24	varjundipeen	A	sg=sg|n=n	25	amod	_
+25	sõnavara	S	sg=sg|n=n	22	conj	_
+26	)	Z	_	22	punct	_
+27	(	Z	_	28	punct	_
+28	vt	Y	?=?	9	parataxis	_
+29	Kindlam	C	sg=sg|n=n	28	obj	_
+30	1980	N	?=?	29	nummod	_
+31	:	Z	_	32	punct	_
+32	717	N	?=?	30	conj	_
+33	)	Z	_	28	punct	_
+34	.	Z	_	2	punct	_
+
+# sent_id = 19137098
+# text = Tulenevalt vajadusest jätkata riigis politseitegevust piiratud ressursside ning pingestunud töökeskkonna tingimustes moodustatigi 5. mail 2001 siseministri käskkirjaga nr 211 nõuandev komisjon , kellele pandi ülesanne töötada välja politseivaldkonna arengusuunad , mis võimaldaksid maksimaalselt arvestada avalikkuse ootusi politseilt ning lähtuksid organisatsiooni tegelikest vajadustest .
+1	Tulenevalt	A	sg=sg|abl=abl	2	acl	_
+2	vajadusest	S	sg=sg|el=el	3	obj	_
+3	jätkata	V	da=da	0	root	_
+4	riigis	S	sg=sg|in=in	5	nmod	_
+5	politseitegevust	S	sg=sg|p=p	6	obj	_
+6	piiratud	A	_	7	acl	_
+7	ressursside	S	pl=pl|g=g	3	obj	_
+8	ning	J	_	12	cc	_
+9	pingestunud	A	pl=pl|n=n	10	acl	_
+10	töökeskkonna	S	sg=sg|g=g	11	nmod	_
+11	tingimustes	S	pl=pl|in=in	12	obl	_
+12	moodustatigi	V	ti=ti	3	conj	_
+13	5.	O	?=?	14	amod	_
+14	mail	S	pl=pl|ad=ad	12	obl	_
+15	2001	N	?=?	14	nummod	_
+16	siseministri	S	sg=sg|g=g	17	nmod	_
+17	käskkirjaga	S	sg=sg|kom=kom	12	obj	_
+18	nr	Y	?=?	19	nmod	_
+19	211	N	?=?	17	nummod	_
+20	nõuandev	A	sg=sg|n=n	21	acl	_
+21	komisjon	S	sg=sg|n=n	12	obj	_
+22	,	Z	_	24	punct	_
+23	kellele	P	sg=sg|all=all	24	nsubj	_
+24	pandi	V	ti=ti	21	acl:relcl	_
+25	ülesanne	S	sg=sg|n=n	24	obj	_
+26	töötada	V	da=da	24	obl	_
+27	välja	D	_	26	compound:prt	_
+28	politseivaldkonna	S	sg=sg|g=g	29	nmod	_
+29	arengusuunad	S	pl=pl|n=n	26	obj	_
+30	,	Z	_	32	punct	_
+31	mis	P	sg=sg|n=n	32	nsubj	_
+32	võimaldaksid	V	ksid=ksid	29	acl:relcl	_
+33	maksimaalselt	D	_	34	advmod	_
+34	arvestada	V	da=da	32	xcomp	_
+35	avalikkuse	S	sg=sg|g=g	36	nmod	_
+36	ootusi	S	pl=pl|p=p	34	obj	_
+37	politseilt	S	sg=sg|abl=abl	34	obj	_
+38	ning	J	_	39	cc	_
+39	lähtuksid	V	ksid=ksid	32	conj	_
+40	organisatsiooni	S	adt=adt	42	nmod	CHECK
+41	tegelikest	A	pl=pl|el=el	42	amod	_
+42	vajadustest	S	pl=pl|el=el	39	obj	_
+43	.	Z	_	3	punct	_
+
+# sent_id = 13404287
+# text = Lahendamist vajavad strateegilised küsimused , mis ei määra Eesti edu majanduslikus , vaid peamine , sotsiaalpsühholoogilises plaanis ning mis lähtuks kogukonna tegelikest ressurssidest , ootustest ja valmisolekust .
+1	Lahendamist	S	sg=sg|p=p	2	obj	_
+2	vajavad	V	vad=vad	0	root	_
+3	strateegilised	A	pl=pl|n=n	4	amod	_
+4	küsimused	S	pl=pl|n=n	2	obj	_
+5	,	Z	_	8	punct	_
+6	mis	P	pl=pl|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	määra	V	o=o	4	acl:relcl	_
+9	Eesti	H	sg=sg|g=g	10	nmod	_
+10	edu	S	sg=sg|p=p	8	obj	_
+11	majanduslikus	A	sg=sg|in=in	17	amod	_
+12	,	Z	_	14	punct	_
+13	vaid	J	_	14	cc	_
+14	peamine	A	sg=sg|n=n	11	conj	_
+15	,	Z	_	16	punct	_
+16	sotsiaalpsühholoogilises	A	sg=sg|in=in	11	conj	_
+17	plaanis	S	sg=sg|in=in	8	obj	_
+18	ning	J	_	20	cc	_
+19	mis	P	sg=sg|n=n	20	nsubj	_
+20	lähtuks	V	ks=ks	8	conj	_
+21	kogukonna	S	sg=sg|g=g	20	obl	CHECK
+22	tegelikest	A	pl=pl|el=el	23	amod	_
+23	ressurssidest	S	pl=pl|el=el	20	obl	_
+24	,	Z	_	25	punct	_
+25	ootustest	S	pl=pl|el=el	23	conj	_
+26	ja	J	_	27	cc	_
+27	valmisolekust	S	sg=sg|el=el	23	conj	_
+28	.	Z	_	2	punct	_
+
+# sent_id = 15307859
+# text = ma ei lähtu matemaatikast siin juba ammu vaid tuginen loogikale ( mis on kül matemaatika osa mingil määral , kuid hulgateooriate puhul annab vabamad käed , läbi tavapärase matemaatika ( st. siis keskkooli matemaatika  ) ei ole võimalik lõpmatuid hulki võrrelda ) .
+1	ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	lähtu	V	o=o	0	root	_
+4	matemaatikast	S	sg=sg|el=el	3	obl	_
+5	siin	D	_	3	advmod	_
+6	juba	D	_	7	advmod	_
+7	ammu	D	_	3	advmod	_
+8	vaid	D	_	10	advmod	_
+9	tuginen	V	n=n	10	acl	CHECK
+10	loogikale	S	sg=sg|all=all	3	obl	_
+11	(	Z	_	16	punct	_
+12	mis	P	sg=sg|n=n	16	nsubj:cop	_
+13	on	V	b=b	16	cop	_
+14	kül	S	sg=sg|n=n	16	nmod	_
+15	matemaatika	S	sg=sg|g=g	16	nmod	_
+16	osa	S	sg=sg|n=n	10	acl:relcl	_
+17	mingil	P	sg=sg|ad=ad	18	det	_
+18	määral	S	sg=sg|ad=ad	16	nmod	_
+19	,	Z	_	23	punct	_
+20	kuid	J	_	23	cc	_
+21	hulgateooriate	S	pl=pl|g=g	23	obl	_
+22	puhul	K	_	21	case	_
+23	annab	V	b=b	16	conj	_
+24	vabamad	C	pl=pl|n=n	25	amod	_
+25	käed	S	pl=pl|n=n	23	obj	_
+26	,	Z	_	29	punct	_
+27	läbi	K	_	29	case	_
+28	tavapärase	A	sg=sg|g=g	29	amod	_
+29	matemaatika	S	sg=sg|g=g	38	obl	_
+30	(	Z	_	34	punct	_
+31	st.	Y	?=?	34	advmod	_
+32	siis	D	_	34	advmod	_
+33	keskkooli	S	sg=sg|g=g	34	nmod	_
+34	matemaatika	S	sg=sg|n=n	29	parataxis	_
+35	)	Z	_	34	punct	_
+36	ei	V	neg=neg	38	aux	_
+37	ole	V	o=o	38	cop	_
+38	võimalik	A	sg=sg|n=n	23	conj	_
+39	lõpmatuid	A	pl=pl|p=p	40	amod	_
+40	hulki	S	pl=pl|p=p	41	nmod	_
+41	võrrelda	V	da=da	38	csubj:cop	_
+42	)	Z	_	38	punct	_
+43	.	Z	_	3	punct	_
+
+# sent_id = 3182949
+# text = " Meie lähtume vaid juriidikast , " vaidles Allik vastu juba kõlanud süüdistustele , nagu kisuks Rahvaliit presidenti sisepoliitikasse .
+1	"	Z	_	3	punct	_
+2	Meie	P	pl=pl|n=n	3	nsubj	_
+3	lähtume	V	me=me	0	root	_
+4	vaid	D	_	5	advmod	_
+5	juriidikast	S	sg=sg|n=n	3	obl	CHECK
+6	,	Z	_	3	punct	_
+7	"	Z	_	3	punct	_
+8	vaidles	V	s=s	3	parataxis	_
+9	Allik	H	sg=sg|n=n	8	nsubj	_
+10	vastu	D	_	8	compound:prt	_
+11	juba	D	_	12	advmod	_
+12	kõlanud	A	_	13	acl	_
+13	süüdistustele	S	pl=pl|all=all	8	obj	_
+14	,	Z	_	16	punct	_
+15	nagu	D	_	16	mark	_
+16	kisuks	V	ks=ks	8	advcl	_
+17	Rahvaliit	S	sg=sg|n=n	16	nsubj	_
+18	presidenti	S	sg=sg|p=p	19	nmod	_
+19	sisepoliitikasse	S	sg=sg|ill=ill	16	obj	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 10798415
+# text = Tutvudes 1. märtsist kehtestatud soodushinnaga ravimite väljakirjutamise eeskirjadega , jääb mulje , et nende koostajad pole lähtunud ravimeid vajaja huvidest .
+1	Tutvudes	V	des=des	0	root	_
+2	1.	O	?=?	3	amod	_
+3	märtsist	S	sg=sg|el=el	4	obl	_
+4	kehtestatud	A	pl=pl|n=n	5	acl	_
+5	soodushinnaga	S	sg=sg|kom=kom	1	obl	_
+6	ravimite	S	pl=pl|g=g	7	nmod	_
+7	väljakirjutamise	S	sg=sg|g=g	1	obl	_
+8	eeskirjadega	S	pl=pl|kom=kom	7	nmod	_
+9	,	Z	_	10	punct	_
+10	jääb	V	b=b	1	conj	_
+11	mulje	S	sg=sg|n=n	10	nsubj	_
+12	,	Z	_	17	punct	_
+13	et	J	_	17	mark	_
+14	nende	P	pl=pl|g=g	15	nmod	_
+15	koostajad	S	pl=pl|n=n	17	nsubj	_
+16	pole	V	neg=neg|o=o	17	aux	_
+17	lähtunud	A	pl=pl|n=n	11	acl	_
+18	ravimeid	S	pl=pl|p=p	19	nmod	CHECK
+19	vajaja	S	sg=sg|g=g	20	nmod	_
+20	huvidest	S	pl=pl|el=el	17	obj	_
+21	.	Z	_	1	punct	_
+
+# sent_id = 48518
+# text = Lähtusin feng shui põhimõtetest : kala pidi head energiat ja õnne andma .
+1	Lähtusin	V	sin=sin	0	root	_
+2	feng	S	sg=sg|n=n	3	nmod	CHECK
+3	shui	S	sg=sg|g=g	4	nmod	_
+4	põhimõtetest	S	pl=pl|el=el	1	obl	_
+5	:	Z	_	12	punct	_
+6	kala	S	sg=sg|n=n	12	nsubj	_
+7	pidi	V	s=s	12	aux	_
+8	head	A	sg=sg|p=p	9	amod	_
+9	energiat	S	sg=sg|p=p	12	obj	_
+10	ja	J	_	11	cc	_
+11	õnne	S	sg=sg|p=p	9	conj	_
+12	andma	V	ma=ma	1	conj	_
+13	.	Z	_	1	punct	_
+
+# sent_id = 113913
+# text = Peaaegu kõik klassikalised linnamudelid lähtuvad asukohtade hierarhia määratlemisel loomuliku arengu tingimustes väljakujunenud ärilast ( Edgar Kanti kasutatav termin ) ehk city'st , kuid pikka aega lõhestatult elanud ja arenenud Berliinil ei ole uut ühtset keskust .
+1	Peaaegu	D	_	2	advmod	_
+2	kõik	P	sg=sg|n=n	4	det	_
+3	klassikalised	A	pl=pl|n=n	4	amod	_
+4	linnamudelid	S	pl=pl|n=n	5	nsubj	_
+5	lähtuvad	V	vad=vad	0	root	_
+6	asukohtade	S	pl=pl|g=g	7	nmod	_
+7	hierarhia	S	sg=sg|n=n	8	nmod	_
+8	määratlemisel	S	sg=sg|ad=ad	5	obl	_
+9	loomuliku	A	sg=sg|g=g	10	amod	_
+10	arengu	S	sg=sg|g=g	11	nmod	_
+11	tingimustes	S	pl=pl|in=in	12	obl	_
+12	väljakujunenud	A	sg=sg|n=n	13	acl	_
+13	ärilast	S	sg=sg|p=p	5	nsubj	CHECK
+14	(	Z	_	18	punct	_
+15	Edgar	H	sg=sg|n=n	18	nmod	_
+16	Kanti	V	ti=ti	15	flat	_
+17	kasutatav	A	sg=sg|n=n	18	acl	_
+18	termin	S	sg=sg|n=n	13	parataxis	_
+19	)	Z	_	18	punct	_
+20	ehk	J	_	21	cc	_
+21	city'st	S	sg=sg|el=el	13	conj	_
+22	,	Z	_	27	punct	_
+23	kuid	J	_	27	cc	_
+24	pikka	A	sg=sg|p=p	25	amod	_
+25	aega	S	sg=sg|p=p	27	obl	_
+26	lõhestatult	D	_	27	advmod	_
+27	elanud	A	pl=pl|n=n	5	conj	_
+28	ja	J	_	29	cc	_
+29	arenenud	A	pl=pl|n=n	30	acl	_
+30	Berliinil	H	sg=sg|ad=ad	32	nsubj	_
+31	ei	V	neg=neg	32	aux	_
+32	ole	V	o=o	5	conj	_
+33	uut	A	sg=sg|p=p	35	amod	_
+34	ühtset	A	sg=sg|p=p	35	amod	_
+35	keskust	S	sg=sg|p=p	32	nsubj	_
+36	.	Z	_	5	punct	_
+
+# sent_id = 214023
+# text = Kodutöö ettevalmistamisel lähtusin õpikoja eesmärki silmas pidades kahest uurimisküsimusest :
+1	Kodutöö	S	sg=sg|g=g	2	nmod	_
+2	ettevalmistamisel	S	sg=sg|ad=ad	3	obl	_
+3	lähtusin	V	sin=sin	0	root	_
+4	õpikoja	S	sg=sg|g=g	5	nmod	_
+5	eesmärki	S	sg=sg|p=p	3	nsubj	CHECK
+6	silmas	S	sg=sg|in=in	7	obj	_
+7	pidades	V	des=des	3	advcl	_
+8	kahest	N	sg=sg|el=el	9	nummod	_
+9	uurimisküsimusest	S	sg=sg|el=el	3	nsubj	_
+10	:	Z	_	3	punct	_
+
+# sent_id = 6315521
+# text = Lähtun siin paljutsiteeritud Kanti kategoorilisest imperatiivist .
+1	Lähtun	V	n=n	0	root	_
+2	siin	D	_	1	advmod	_
+3	paljutsiteeritud	S	pl=pl|n=n	4	acl	_
+4	Kanti	V	ti=ti	6	nmod	CHECK
+5	kategoorilisest	A	sg=sg|el=el	6	amod	_
+6	imperatiivist	S	sg=sg|el=el	1	nsubj	_
+7	.	Z	_	1	punct	_
+
+# sent_id = 13242655
+# text = Punased ei poolda Venemaa sekkumist teiste riikide siseasjadesse ja oleksid valmis osalema üldeuroopalikus sõjalise koostöö programmis , mis lähtuks Euroopa Liidu poolt aktsepteeritud põhimõttetest .
+1	Punased	A	pl=pl|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	poolda	V	o=o	0	root	_
+4	Venemaa	H	sg=sg|g=g	3	nsubj	_
+5	sekkumist	S	sg=sg|p=p	3	obj	_
+6	teiste	P	pl=pl|g=g	7	det	_
+7	riikide	S	pl=pl|g=g	8	nmod	_
+8	siseasjadesse	S	pl=pl|ill=ill	3	obj	_
+9	ja	J	_	11	cc	_
+10	oleksid	V	ksid=ksid	3	conj	_
+11	valmis	A	_	3	conj	_
+12	osalema	V	ma=ma	11	xcomp	_
+13	üldeuroopalikus	A	sg=sg|in=in	15	amod	_
+14	sõjalise	A	sg=sg|g=g	15	amod	_
+15	koostöö	S	sg=sg|g=g	12	nsubj	_
+16	programmis	S	sg=sg|in=in	15	nmod	_
+17	,	Z	_	19	punct	_
+18	mis	P	sg=sg|n=n	19	nsubj	_
+19	lähtuks	V	ks=ks	16	acl:relcl	_
+20	Euroopa	H	sg=sg|g=g	21	nmod	_
+21	Liidu	S	sg=sg|g=g	23	obl	_
+22	poolt	K	_	21	case	_
+23	aktsepteeritud	V	tud=tud	24	acl	_
+24	põhimõttetest	S	sg=sg|n=n	19	obl	CHECK
+25	.	Z	_	3	punct	_
+
+# sent_id = 239098
+# text = Kui lähtume mõiste laiemast määratlusest , tekib küsimus , millised teadmised ja motiivid on vajalikud , et saaksime rääkida normide järgimisest ; 2 ) norme järgitakse erinevas mahus ja nende mittejärgimist üldjuhul sanktsioneeritakse .
+1	Kui	J	_	2	mark	_
+2	lähtume	V	me=me	7	advcl	_
+3	mõiste	S	sg=sg|g=g	2	nsubj	CHECK
+4	laiemast	C	sg=sg|el=el	5	amod	_
+5	määratlusest	S	sg=sg|el=el	2	obl	_
+6	,	Z	_	2	punct	_
+7	tekib	V	b=b	0	root	_
+8	küsimus	S	sg=sg|n=n	7	nsubj	_
+9	,	Z	_	11	punct	_
+10	millised	P	pl=pl|n=n	11	amod	_
+11	teadmised	S	pl=pl|n=n	15	nsubj:cop	_
+12	ja	J	_	13	cc	_
+13	motiivid	S	pl=pl|n=n	11	conj	_
+14	on	V	b=b	15	cop	_
+15	vajalikud	A	pl=pl|n=n	8	acl:relcl	_
+16	,	Z	_	19	punct	_
+17	et	J	_	19	mark	_
+18	saaksime	V	ksime=ksime	19	aux	_
+19	rääkida	V	da=da	15	csubj:cop	_
+20	normide	S	pl=pl|g=g	21	nmod	_
+21	järgimisest	S	sg=sg|el=el	19	obj	_
+22	;	Z	_	26	punct	_
+23	2	N	?=?	26	parataxis	_
+24	)	Z	_	23	punct	_
+25	norme	S	pl=pl|p=p	26	nsubj	_
+26	järgitakse	V	takse=takse	19	conj	_
+27	erinevas	A	sg=sg|in=in	28	acl	_
+28	mahus	S	sg=sg|in=in	26	obj	_
+29	ja	J	_	33	cc	_
+30	nende	P	pl=pl|g=g	31	nmod	_
+31	mittejärgimist	S	sg=sg|p=p	33	obj	_
+32	üldjuhul	S	sg=sg|ad=ad	33	nsubj	_
+33	sanktsioneeritakse	V	takse=takse	26	conj	_
+34	.	Z	_	7	punct	_
+
+# sent_id = 2716925
+# text = Kui asjaosalised lähtuksid probleemi otstarbeka lahendamise vajadusest ( ja jätaksid oma lapsepõlvemälestused tahaplaanile ) , siis oleks see juba lahendatud .
+1	Kui	J	_	3	mark	_
+2	asjaosalised	A	pl=pl|n=n	3	nsubj	_
+3	lähtuksid	V	ksid=ksid	20	advcl	_
+4	probleemi	S	sg=sg|p=p	6	nmod	CHECK
+5	otstarbeka	A	sg=sg|g=g	6	amod	_
+6	lahendamise	S	sg=sg|g=g	3	obl	_
+7	vajadusest	S	sg=sg|el=el	3	obl	_
+8	(	Z	_	10	punct	_
+9	ja	J	_	10	cc	_
+10	jätaksid	V	ksid=ksid	3	conj	_
+11	oma	P	sg=sg|g=g	12	nmod	_
+12	lapsepõlvemälestused	S	pl=pl|n=n	10	obj	_
+13	tahaplaanile	D	_	10	advmod	_
+14	)	Z	_	10	punct	_
+15	,	Z	_	10	punct	_
+16	siis	J	_	20	advmod	_
+17	oleks	V	ks=ks	20	aux	_
+18	see	P	sg=sg|n=n	20	obj	_
+19	juba	D	_	20	advmod	_
+20	lahendatud	A	sg=sg|n=n	0	root	_
+21	.	Z	_	20	punct	_
+
+# sent_id = 9631856
+# text = Eesti välisministeeriumi 18. jaanuari avaldusest , milles ollakse “ shokeeritud ” Vene armee tegevuse üle Pervomaiskojes , aga ei lähtu kuidagi valmisolekut tunnustada idanaabrite inimõigustealaseid saavutusi .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	välisministeeriumi	S	sg=sg|g=g	0	root	_
+3	18.	O	?=?	4	amod	_
+4	jaanuari	S	sg=sg|g=g	5	nmod	_
+5	avaldusest	S	sg=sg|el=el	2	nmod	_
+6	,	Z	_	7	punct	_
+7	milles	P	pl=pl|in=in	5	acl:relcl	_
+8	ollakse	V	takse=takse	10	aux	_
+9	“	Z	_	10	punct	_
+10	shokeeritud	S	pl=pl|n=n	13	acl	_
+11	”	Z	_	10	punct	_
+12	Vene	H	sg=sg|g=g	13	nmod	_
+13	armee	S	sg=sg|g=g	14	nmod	_
+14	tegevuse	S	sg=sg|g=g	7	nsubj:cop	_
+15	üle	K	_	16	case	_
+16	Pervomaiskojes	H	sg=sg|in=in	14	nmod	_
+17	,	Z	_	20	punct	_
+18	aga	J	_	20	cc	_
+19	ei	V	neg=neg	20	aux	_
+20	lähtu	V	o=o	2	conj	_
+21	kuidagi	D	_	22	advmod	_
+22	valmisolekut	S	sg=sg|p=p	23	obj	CHECK
+23	tunnustada	V	da=da	20	conj	_
+24	idanaabrite	S	pl=pl|g=g	26	nmod	_
+25	inimõigustealaseid	A	pl=pl|p=p	26	amod	_
+26	saavutusi	S	pl=pl|p=p	23	obj	_
+27	.	Z	_	2	punct	_
+
+# sent_id = 12494626
+# text = Lähtuge firma üldistest eesmärkidest ja visioonist .
+1	Lähtuge	V	ge=ge	0	root	_
+2	firma	S	sg=sg|n=n	4	nmod	CHECK
+3	üldistest	A	pl=pl|el=el	4	amod	_
+4	eesmärkidest	S	pl=pl|el=el	1	nsubj	_
+5	ja	J	_	6	cc	_
+6	visioonist	S	sg=sg|el=el	4	conj	_
+7	.	Z	_	1	punct	_
+

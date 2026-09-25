@@ -1,0 +1,323 @@
+# sent_id = 7070877
+# text = Tema võtab ohjad pihku ning istub venelaste keskele vankrile ja kihutab teab kuhu ilmaotsa .
+1	Tema	P	sg=sg|n=n	2	nsubj	_
+2	võtab	V	b=b	0	root	_
+3	ohjad	S	pl=pl|n=n	2	obj	_
+4	pihku	S	adt=adt	2	obl	_
+5	ning	J	_	6	cc	_
+6	istub	V	b=b	2	conj	_
+7	venelaste	S	pl=pl|g=g	6	obl	_
+8	keskele	K	_	7	case	_
+9	vankrile	S	sg=sg|all=all	6	obl	_
+10	ja	J	_	11	cc	_
+11	kihutab	V	b=b	2	conj	_
+12	teab	V	b=b	11	advcl	CHECK
+13	kuhu	D	_	14	mark	_
+14	ilmaotsa	S	sg=sg|g=g	11	advcl	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 20822013
+# text = Jobu7707: ma lihtsalt utlesin mine sa
+1	Jobu7707	Y	?=?	0	root	_
+2	:	Z	_	5	punct	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	lihtsalt	D	_	5	advmod	_
+5	utlesin	V	sin=sin	1	parataxis	_
+6	mine	V	o=o	5	obj	CHECK
+7	sa	P	sg=sg|n=n	6	nsubj	_
+
+# sent_id = 20607527
+# text = pomm: lase moskva ka vahele
+1	pomm	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	lase	V	o=o	0	root	_
+4	moskva	G	_	3	obj	CHECK
+5	ka	D	_	3	advmod	_
+6	vahele	D	_	3	compound:prt	_
+
+# sent_id = 3605983
+# text = Kanguri hinnangul on see ka ootuspärane , sest tänavu oli vähe lund , mis oleks takistanud fotosünteesi .
+1	Kanguri	H	sg=sg|g=g	2	nmod	_
+2	hinnangul	S	sg=sg|ad=ad	6	obl	_
+3	on	V	b=b	6	cop	_
+4	see	P	sg=sg|n=n	6	nsubj:cop	_
+5	ka	D	_	6	advmod	_
+6	ootuspärane	A	sg=sg|n=n	0	root	_
+7	,	Z	_	9	punct	_
+8	sest	J	_	9	mark	_
+9	tänavu	D	_	6	advcl	_
+10	oli	V	s=s	9	cop	_
+11	vähe	D	_	12	advmod	_
+12	lund	S	sg=sg|p=p	9	nsubj:cop	_
+13	,	Z	_	16	punct	_
+14	mis	P	sg=sg|n=n	16	nsubj	_
+15	oleks	V	ks=ks	16	aux	_
+16	takistanud	A	sg=sg|n=n	12	acl:relcl	_
+17	fotosünteesi	V	o=o	16	obj	CHECK
+18	.	Z	_	6	punct	_
+
+# sent_id = 21132684
+# text = eeejaaaa: kuulge elukad tulge välja
+1	eeejaaaa	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	kuulge	V	ge=ge	0	root	_
+4	elukad	S	pl=pl|n=n	5	nmod	_
+5	tulge	V	ge=ge	3	obj	CHECK
+6	välja	D	_	3	compound:prt	_
+
+# sent_id = 15389734
+# text = Ja kõrval triidis ma selle vastu kobisengi , et milleks maksusüsteemi muuta kui sellele tuleb peale maksta .
+1	Ja	J	_	3	cc	_
+2	kõrval	K	_	3	advmod	_
+3	triidis	V	s=s	0	root	_
+4	ma	P	sg=sg|n=n	3	nsubj	_
+5	selle	P	sg=sg|g=g	3	obl	_
+6	vastu	K	_	5	case	_
+7	kobisengi	V	n=n	3	obl	CHECK
+8	,	Z	_	12	punct	_
+9	et	J	_	12	mark	_
+10	milleks	P	pl=pl|tr=tr	12	nsubj	_
+11	maksusüsteemi	S	sg=sg|p=p	12	obj	_
+12	muuta	V	da=da	7	acl	_
+13	kui	J	_	15	mark	_
+14	sellele	P	sg=sg|all=all	15	nsubj	_
+15	tuleb	V	b=b	12	advcl	_
+16	peale	D	_	17	compound:prt	_
+17	maksta	V	da=da	15	csubj	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 20265495
+# text = adsf: KEEGI SIIT RÄPPI KUULAB ?
+1	adsf	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	KEEGI	V	o=o	0	root	_
+4	SIIT	D	_	3	advmod	_
+5	RÄPPI	S	pl=pl|p=p	6	obj	_
+6	KUULAB	V	b=b	3	obj	CHECK
+7	?	Z	_	3	punct	_
+
+# sent_id = 14084836
+# text = Kaua sa ikka Afganistani ja Iraagi sõjavangidele valjult vananevat « Enter Sandman'i » ette mängid .
+1	Kaua	D	_	15	advmod	_
+2	sa	P	sg=sg|n=n	15	nsubj	_
+3	ikka	D	_	15	advmod	_
+4	Afganistani	H	sg=sg|g=g	9	obl	_
+5	ja	J	_	6	cc	_
+6	Iraagi	H	sg=sg|g=g	4	conj	_
+7	sõjavangidele	S	pl=pl|all=all	9	obj	_
+8	valjult	D	_	9	advmod	_
+9	vananevat	A	sg=sg|p=p	10	acl	_
+10	«	Z	_	15	obj	CHECK
+11	Enter	H	sg=sg|n=n	10	appos	_
+12	Sandman'i	H	sg=sg|g=g	11	flat	_
+13	»	Z	_	11	punct	_
+14	ette	D	_	15	compound:prt	_
+15	mängid	V	d=d	0	root	_
+16	.	Z	_	15	punct	_
+
+# sent_id = 2543843
+# text = Salakütid ilmselt tüdinesid ja jätsid haavatud põdra sündmuskohale piinlema .
+1	Salakütid	V	d=d	0	root	_
+2	ilmselt	D	_	1	advmod	_
+3	tüdinesid	V	sid=sid	1	obj	CHECK
+4	ja	J	_	5	cc	_
+5	jätsid	V	sid=sid	1	conj	_
+6	haavatud	A	_	7	acl	_
+7	põdra	S	sg=sg|g=g	5	obj	_
+8	sündmuskohale	S	sg=sg|all=all	9	obj	_
+9	piinlema	V	ma=ma	5	obj	_
+10	.	Z	_	1	punct	_
+
+# sent_id = 14586331
+# text = See homovärk teile nii korda läheb , seda enam , kui teil endil pole iial selliseid/homoseksuaalseid kalduvusi olnud ja miks te paaniliselt kardate , et sokrates köik eesti mehed lillaks promob vöi värbab ?? !
+1	See	P	sg=sg|n=n	2	det	_
+2	homovärk	S	sg=sg|n=n	6	obl	_
+3	teile	P	pl=pl|all=all	6	nsubj	_
+4	nii	D	_	5	advmod	_
+5	korda	S	sg=sg|p=p	6	obl	_
+6	läheb	V	b=b	0	root	_
+7	,	Z	_	9	punct	_
+8	seda	P	sg=sg|p=p	9	obl	_
+9	enam	D	_	6	advmod	_
+10	,	Z	_	16	punct	_
+11	kui	J	_	16	mark	_
+12	teil	P	pl=pl|ad=ad	16	nsubj:cop	_
+13	endil	P	pl=pl|ad=ad	12	nmod	_
+14	pole	V	neg=neg|o=o	16	cop	_
+15	iial	D	_	16	advmod	_
+16	selliseid	P	pl=pl|p=p	9	advcl	_
+17	/	Z	_	19	punct	_
+18	homoseksuaalseid	A	pl=pl|p=p	19	amod	_
+19	kalduvusi	S	pl=pl|p=p	16	conj	_
+20	olnud	A	_	16	cop	_
+21	ja	J	_	25	cc	_
+22	miks	D	_	25	mark	_
+23	te	P	pl=pl|n=n	25	nsubj	_
+24	paaniliselt	D	_	25	advmod	_
+25	kardate	V	te=te	16	conj	_
+26	,	Z	_	35	punct	_
+27	et	J	_	35	mark	_
+28	sokrates	S	sg=sg|in=in	29	nmod	_
+29	köik	S	sg=sg|n=n	31	nmod	_
+30	eesti	G	_	31	amod	_
+31	mehed	S	pl=pl|n=n	33	nsubj	_
+32	lillaks	S	sg=sg|tr=tr	33	obj	_
+33	promob	V	b=b	35	advcl	CHECK
+34	vöi	S	sg=sg|n=n	35	obj	_
+35	värbab	V	b=b	25	ccomp	_
+36	??	Z	_	35	punct	_
+37	!	Z	_	6	punct	_
+
+# sent_id = 8148799
+# text = Partsi vastu hääletasid Mõõdukate ja Keskerakonna saadikud .
+1	Partsi	V	o=o	3	nsubj	_
+2	vastu	D	_	3	compound:prt	_
+3	hääletasid	V	sid=sid	0	root	CHECK
+4	Mõõdukate	H	pl=pl|g=g	7	nmod	_
+5	ja	J	_	6	cc	_
+6	Keskerakonna	H	sg=sg|g=g	4	conj	_
+7	saadikud	S	pl=pl|n=n	3	nsubj	_
+8	.	Z	_	3	punct	_
+
+# sent_id = 20314078
+# text = Girl19: oi ma nuttan tead
+1	Girl19	Y	?=?	5	parataxis	_
+2	:	Z	_	5	punct	_
+3	oi	I	_	5	discourse	_
+4	ma	P	sg=sg|n=n	5	nsubj	_
+5	nuttan	V	n=n	0	root	_
+6	tead	V	d=d	5	obj	CHECK
+
+# sent_id = 21209678
+# text = BUSTA: hmm ma tahax teada kes eesti ei saa nagunii alagrupist edasi hoolimata tänase mängu tulemusest.
+1	BUSTA	H	sg=sg|g=g	6	parataxis	_
+2	:	Z	_	6	punct	_
+3	hmm	I	_	6	discourse	_
+4	ma	P	sg=sg|n=n	6	nsubj	_
+5	tahax	S	sg=sg|n=n	6	obj	_
+6	teada	V	da=da	0	root	_
+7	kes	P	sg=sg|n=n	10	nsubj	_
+8	eesti	G	_	10	obj	CHECK
+9	ei	V	neg=neg	10	aux	_
+10	saa	V	o=o	6	ccomp	_
+11	nagunii	D	_	10	advmod	_
+12	alagrupist	S	sg=sg|el=el	10	obl	_
+13	edasi	D	_	10	compound:prt	_
+14	hoolimata	K	_	17	case	_
+15	tänase	A	sg=sg|g=g	16	amod	_
+16	mängu	S	sg=sg|g=g	17	nmod	_
+17	tulemusest	S	sg=sg|el=el	10	obl	_
+18	.	Z	_	6	punct	_
+
+# sent_id = 20255287
+# text = kristo_: tulge tallinna , saku rotid , saate kõik lõuga nii mis koliseb
+1	kristo_	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	tulge	V	ge=ge	0	root	_
+4	tallinna	G	_	7	amod	_
+5	,	Z	_	6	punct	_
+6	saku	G	_	4	conj	_
+7	rotid	S	pl=pl|n=n	3	nsubj	_
+8	,	Z	_	11	punct	_
+9	saate	V	te=te	11	nsubj	_
+10	kõik	P	sg=sg|n=n	11	nsubj	_
+11	lõuga	V	o=o	3	conj	_
+12	nii	D	_	14	advmod	_
+13	mis	P	pl=pl|n=n	14	nsubj	_
+14	koliseb	V	b=b	11	advcl	CHECK
+
+# sent_id = 13093985
+# text = Helsingis kogus ta end äpardunud flipi järel kiiresti ning peale kuulsa Michele Kwani ta endast kedagi mööda ei lasknud .
+1	Helsingis	H	sg=sg|in=in	2	nsubj	_
+2	kogus	V	s=s	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	end	P	sg=sg|p=p	2	obj	_
+5	äpardunud	A	_	6	acl	_
+6	flipi	V	o=o	2	obl	CHECK
+7	järel	D	_	2	compound:prt	_
+8	kiiresti	D	_	2	advmod	_
+9	ning	J	_	19	cc	_
+10	peale	D	_	11	case	_
+11	kuulsa	A	sg=sg|g=g	12	amod	_
+12	Michele	H	sg=sg|g=g	19	nsubj	_
+13	Kwani	H	sg=sg|g=g	12	flat	_
+14	ta	P	sg=sg|g=g	19	nsubj	_
+15	endast	P	sg=sg|el=el	19	obl	_
+16	kedagi	P	sg=sg|p=p	19	obj	_
+17	mööda	D	_	19	compound:prt	_
+18	ei	V	neg=neg	19	aux	_
+19	lasknud	A	pl=pl|n=n	2	conj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 17123633
+# text = Mõte võib näiliselt ununeda , kuid mälujälg säilib ja mõjutab = maailma edasi .
+1	Mõte	S	sg=sg|n=n	4	nsubj	_
+2	võib	V	b=b	4	aux	_
+3	näiliselt	D	_	4	advmod	_
+4	ununeda	V	da=da	0	root	_
+5	,	Z	_	8	punct	_
+6	kuid	J	_	8	cc	_
+7	mälujälg	S	sg=sg|n=n	8	nsubj	_
+8	säilib	V	b=b	4	conj	_
+9	ja	J	_	10	cc	_
+10	mõjutab	V	b=b	4	conj	_
+11	=	Z	_	10	obj	CHECK
+12	maailma	S	sg=sg|g=g	10	obj	_
+13	edasi	D	_	10	compound:prt	_
+14	.	Z	_	4	punct	_
+
+# sent_id = 19304836
+# text = memph: nicegirl nuias elad v
+1	memph	S	sg=sg|n=n	0	root	_
+2	:	Z	_	4	punct	_
+3	nicegirl	S	sg=sg|n=n	4	nsubj	_
+4	nuias	V	s=s	1	parataxis	_
+5	elad	V	d=d	4	nsubj	CHECK
+6	v	Y	?=?	5	nsubj	_
+
+# sent_id = 2048870
+# text = Orult pärit noormees oskas enne kaitseväkke tulekut väga vähe eesti
+1	Orult	S	sg=sg|abl=abl	2	obl	_
+2	pärit	X	_	3	advmod	_
+3	noormees	S	sg=sg|n=n	4	nsubj	_
+4	oskas	V	s=s	0	root	_
+5	enne	K	_	7	case	_
+6	kaitseväkke	S	adt=adt	7	nmod	_
+7	tulekut	S	sg=sg|p=p	4	obl	_
+8	väga	D	_	9	advmod	_
+9	vähe	D	_	4	advmod	_
+10	eesti	G	_	4	obl	CHECK
+
+# sent_id = 14693023
+# text = kui sa oma telefonisse settingud 15300 ( GPRS / WAP GPRS ) kaudu tekitasid siis vaata need üle .
+1	kui	J	_	14	mark	_
+2	sa	P	sg=sg|n=n	14	nsubj	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	telefonisse	S	sg=sg|ill=ill	14	obj	_
+5	settingud	S	sg=sg|n=n	14	obl	_
+6	15300	N	?=?	5	nummod	_
+7	(	Z	_	8	punct	_
+8	GPRS	Y	?=?	5	parataxis	_
+9	/	Z	_	8	punct	_
+10	WAP	Y	?=?	8	flat	_
+11	GPRS	Y	?=?	8	flat	_
+12	)	Z	_	8	punct	_
+13	kaudu	K	_	5	case	_
+14	tekitasid	V	sid=sid	0	root	_
+15	siis	D	_	16	advmod	_
+16	vaata	V	o=o	14	conj	CHECK
+17	need	P	pl=pl|n=n	16	obj	_
+18	üle	D	_	16	compound:prt	_
+19	.	Z	_	14	punct	_
+
+# sent_id = 20094932
+# text = bart: ei soga mul lihtsalt katus sõidab
+1	bart	S	sg=sg|n=n	4	parataxis	_
+2	:	Z	_	4	punct	_
+3	ei	V	neg=neg	4	aux	_
+4	soga	V	o=o	0	root	_
+5	mul	P	sg=sg|ad=ad	4	nsubj	_
+6	lihtsalt	D	_	4	advmod	_
+7	katus	S	sg=sg|n=n	8	obl	_
+8	sõidab	V	b=b	4	xcomp	CHECK
+

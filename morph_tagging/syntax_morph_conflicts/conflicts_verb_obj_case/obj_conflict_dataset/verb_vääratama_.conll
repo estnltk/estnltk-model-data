@@ -1,0 +1,429 @@
+# sent_id = 3166663
+# text = Ainus , mis protsessi võiks väärata , on Eesti iseseisvuse järjekordne kadu .
+1	Ainus	S	sg=sg|n=n	12	nsubj:cop	_
+2	,	Z	_	6	punct	_
+3	mis	P	sg=sg|n=n	6	nsubj	_
+4	protsessi	S	adt=adt	6	obj	CHECK
+5	võiks	V	ks=ks	6	aux	_
+6	väärata	V	o=o	1	acl:relcl	_
+7	,	Z	_	6	punct	_
+8	on	V	vad=vad	12	cop	_
+9	Eesti	H	sg=sg|g=g	10	nmod	_
+10	iseseisvuse	S	sg=sg|g=g	12	nmod	_
+11	järjekordne	A	sg=sg|n=n	12	amod	_
+12	kadu	S	sg=sg|p=p	0	root	_
+13	.	Z	_	12	punct	_
+
+# sent_id = 2027924
+# text = Reformierakonna , Isamaaliidu , Mõõdukate ja Parempoolsete kooslus oleks ette teada võitjate liit , mille edu ei suudaks väärata mõne erakonna või tipp-poliitiku vastu suunatud rünnakud .
+1	Reformierakonna	H	sg=sg|g=g	11	nsubj	_
+2	,	Z	_	3	punct	_
+3	Isamaaliidu	H	sg=sg|g=g	1	conj	_
+4	,	Z	_	5	punct	_
+5	Mõõdukate	H	sg=sg|g=g	1	conj	_
+6	ja	J	_	7	cc	_
+7	Parempoolsete	H	pl=pl|g=g	1	conj	_
+8	kooslus	S	sg=sg|n=n	11	obl	_
+9	oleks	V	ks=ks	11	aux	_
+10	ette	D	_	11	compound:prt	_
+11	teada	V	da=da	0	root	_
+12	võitjate	S	pl=pl|g=g	13	nmod	_
+13	liit	S	sg=sg|n=n	11	obj	_
+14	,	Z	_	18	punct	_
+15	mille	P	pl=pl|g=g	18	nsubj	_
+16	edu	S	sg=sg|p=p	18	obj	_
+17	ei	V	neg=neg	18	aux	_
+18	suudaks	V	ks=ks	13	acl:relcl	_
+19	väärata	V	o=o	18	xcomp	_
+20	mõne	P	sg=sg|g=g	26	det	_
+21	erakonna	S	sg=sg|g=g	25	obl	_
+22	või	J	_	23	cc	_
+23	tipp-poliitiku	S	sg=sg|g=g	21	conj	_
+24	vastu	K	_	21	case	_
+25	suunatud	V	tud=tud	26	acl	_
+26	rünnakud	S	pl=pl|n=n	19	obj	CHECK
+27	.	Z	_	11	punct	_
+
+# sent_id = 8077389
+# text = Kas suurtel riikidel on võimalik midagi ette võtta , et tulevikutrendi väärata ?
+1	Kas	D	_	5	advmod	_
+2	suurtel	A	pl=pl|ad=ad	3	amod	_
+3	riikidel	S	pl=pl|ad=ad	8	obj	_
+4	on	V	vad=vad	5	cop	_
+5	võimalik	A	sg=sg|n=n	0	root	_
+6	midagi	P	sg=sg|p=p	8	obj	_
+7	ette	D	_	8	compound:prt	_
+8	võtta	V	da=da	5	csubj:cop	_
+9	,	Z	_	12	punct	_
+10	et	J	_	12	mark	_
+11	tulevikutrendi	S	adt=adt	12	obj	CHECK
+12	väärata	V	o=o	5	advcl	_
+13	?	Z	_	5	punct	_
+
+# sent_id = 327594
+# text = jalg vääratab libiseb  ( 37,31 ; 38,17 )
+1	jalg	S	sg=sg|n=n	2	nsubj	_
+2	vääratab	V	b=b	0	root	_
+3	libiseb	V	b=b	2	obj	CHECK
+4	(	Z	_	5	punct	_
+5	37,31	N	?=?	2	parataxis	_
+6	;	Z	_	7	punct	_
+7	38,17	N	?=?	5	conj	_
+8	)	Z	_	5	punct	_
+
+# sent_id = 2069344
+# text = Utah mees Karl Malone tabas platsilt seitse viset 16st , kuid vääratas 18 korral vabaviskejoonele astunult vaid ühel juhul .
+1	Utah	H	sg=sg|n=n	2	nmod	_
+2	mees	S	sg=sg|n=n	5	nsubj	_
+3	Karl	H	sg=sg|n=n	2	appos	_
+4	Malone	H	sg=sg|n=n	3	flat	_
+5	tabas	V	s=s	0	root	_
+6	platsilt	S	sg=sg|abl=abl	5	obj	_
+7	seitse	N	sg=sg|n=n	8	nummod	_
+8	viset	S	sg=sg|p=p	5	obl	_
+9	16st	N	sg=sg|p=p	8	nummod	_
+10	,	Z	_	12	punct	_
+11	kuid	J	_	12	cc	_
+12	vääratas	V	s=s	5	conj	_
+13	18	N	?=?	14	nummod	_
+14	korral	K	_	12	obl	CHECK
+15	vabaviskejoonele	S	sg=sg|all=all	12	obl	_
+16	astunult	D	_	12	advmod	_
+17	vaid	D	_	18	advmod	_
+18	ühel	N	sg=sg|ad=ad	19	nummod	_
+19	juhul	S	sg=sg|ad=ad	12	obl	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 1595848
+# text = Ainult nii võib ta väärata Saddami ja teiste jõupingutused näidata uut sõjategevust Iraagi vastu kui poliitilisel eesmärgil korda saadetud mõttetut vägivalda .
+1	Ainult	D	_	2	advmod	_
+2	nii	D	_	5	advmod	_
+3	võib	V	b=b	5	aux	_
+4	ta	P	sg=sg|n=n	5	nsubj	_
+5	väärata	V	o=o	0	root	_
+6	Saddami	H	sg=sg|g=g	5	obj	CHECK
+7	ja	J	_	10	cc	_
+8	teiste	P	pl=pl|g=g	9	det	_
+9	jõupingutused	S	pl=pl|n=n	10	nsubj	_
+10	näidata	V	da=da	5	conj	_
+11	uut	A	sg=sg|p=p	12	amod	_
+12	sõjategevust	S	sg=sg|p=p	10	obj	_
+13	Iraagi	H	sg=sg|g=g	12	nmod	_
+14	vastu	K	_	13	case	_
+15	kui	D	_	21	mark	_
+16	poliitilisel	A	sg=sg|ad=ad	17	amod	_
+17	eesmärgil	S	sg=sg|ad=ad	19	obl	_
+18	korda	S	sg=sg|p=p	19	obl	_
+19	saadetud	A	_	21	acl	_
+20	mõttetut	A	sg=sg|p=p	21	amod	_
+21	vägivalda	S	sg=sg|p=p	10	advcl	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 4888915
+# text = Vaid ebamaised jõud või Jüri Mõisa vabatahtlik loobumine Tallinna juhtimises osalemisest ( mis teeb sama välja ) , võiksid väärata Savisaare võimuletuleku Tallinnas .
+1	Vaid	D	_	3	advmod	_
+2	ebamaised	A	pl=pl|n=n	3	amod	_
+3	jõud	S	sg=sg|n=n	20	nsubj	_
+4	või	J	_	5	cc	_
+5	Jüri	H	sg=sg|n=n	3	conj	_
+6	Mõisa	H	sg=sg|g=g	5	flat	_
+7	vabatahtlik	A	sg=sg|n=n	8	amod	_
+8	loobumine	S	sg=sg|n=n	3	conj	_
+9	Tallinna	H	sg=sg|g=g	10	nmod	_
+10	juhtimises	S	sg=sg|in=in	11	nmod	_
+11	osalemisest	S	sg=sg|el=el	8	nmod	_
+12	(	Z	_	14	punct	_
+13	mis	P	sg=sg|n=n	14	nsubj	_
+14	teeb	V	b=b	11	acl:relcl	_
+15	sama	P	sg=sg|n=n	14	obj	_
+16	välja	D	_	14	compound:prt	_
+17	)	Z	_	14	punct	_
+18	,	Z	_	14	punct	_
+19	võiksid	V	ksid=ksid	20	aux	_
+20	väärata	V	o=o	0	root	_
+21	Savisaare	H	sg=sg|g=g	22	nmod	_
+22	võimuletuleku	S	sg=sg|g=g	20	obj	CHECK
+23	Tallinnas	H	sg=sg|in=in	22	appos	_
+24	.	Z	_	20	punct	_
+
+# sent_id = 7069050
+# text = Ent järsku ta käed vääratasid , vardad kilisesid vastakuti ja kostis mõrane heli .
+1	Ent	J	_	5	cc	_
+2	järsku	D	_	5	advmod	_
+3	ta	P	sg=sg|g=g	5	nsubj	_
+4	käed	S	pl=pl|n=n	5	obj	CHECK
+5	vääratasid	V	sid=sid	0	root	_
+6	,	Z	_	8	punct	_
+7	vardad	S	pl=pl|n=n	8	nsubj	_
+8	kilisesid	V	sid=sid	5	conj	_
+9	vastakuti	D	_	8	advmod	_
+10	ja	J	_	11	cc	_
+11	kostis	V	s=s	5	conj	_
+12	mõrane	A	sg=sg|n=n	13	amod	_
+13	heli	S	sg=sg|n=n	11	nsubj	_
+14	.	Z	_	5	punct	_
+
+# sent_id = 417294
+# text = " Tal käsi vääratas , " naeris Kubo .
+1	"	Z	_	4	punct	_
+2	Tal	P	sg=sg|ad=ad	4	nsubj	_
+3	käsi	S	pl=pl|p=p	4	obj	CHECK
+4	vääratas	V	s=s	0	root	_
+5	,	Z	_	4	punct	_
+6	"	Z	_	4	punct	_
+7	naeris	V	s=s	4	parataxis	_
+8	Kubo	H	sg=sg|n=n	7	nsubj	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 813694
+# text = Tegelikult ei ole NRG Energy ja Eesti Energia juhid Narva elektrijaamade müümise lepingule veel alla kirjutanud , kuid lepingu vastastel ei paista taskus olevat ühtki trumpi , mis allakirjutamist väärata võiks .
+1	Tegelikult	D	_	16	advmod	_
+2	ei	V	neg=neg	16	aux	_
+3	ole	V	o=o	16	aux	_
+4	NRG	Y	?=?	16	nsubj	_
+5	Energy	H	sg=sg|n=n	4	flat	_
+6	ja	J	_	9	cc	_
+7	Eesti	H	sg=sg|g=g	4	conj	_
+8	Energia	H	sg=sg|g=g	9	nmod	_
+9	juhid	S	pl=pl|n=n	4	conj	_
+10	Narva	H	sg=sg|g=g	11	nmod	_
+11	elektrijaamade	S	pl=pl|g=g	12	nmod	_
+12	müümise	S	sg=sg|g=g	16	obl	_
+13	lepingule	S	sg=sg|all=all	16	obj	_
+14	veel	D	_	16	advmod	_
+15	alla	D	_	16	compound:prt	_
+16	kirjutanud	A	_	0	root	_
+17	,	Z	_	22	punct	_
+18	kuid	J	_	22	cc	_
+19	lepingu	S	sg=sg|g=g	22	obl	_
+20	vastastel	S	pl=pl|ad=ad	19	nmod	_
+21	ei	V	neg=neg	22	aux	_
+22	paista	V	o=o	16	conj	_
+23	taskus	S	sg=sg|in=in	22	obl	_
+24	olevat	V	vat=vat	22	xcomp	_
+25	ühtki	N	sg=sg|p=p	26	det	_
+26	trumpi	S	sg=sg|p=p	22	nsubj	_
+27	,	Z	_	30	punct	_
+28	mis	P	pl=pl|n=n	30	nsubj	_
+29	allakirjutamist	S	sg=sg|p=p	30	obj	CHECK
+30	väärata	V	o=o	26	acl:relcl	_
+31	võiks	V	ks=ks	30	aux	_
+32	.	Z	_	16	punct	_
+
+# sent_id = 2069361
+# text = McLareni edu poleks niikuinii vääratanud ükski vägi , küll aga aitas valitud plaan Benettoni , kelle sõitjad Alexander Wurz ja Giancarlo Fisichella kinnitasid esikuuikus kanda .
+1	McLareni	H	sg=sg|g=g	2	nmod	_
+2	edu	S	sg=sg|n=n	5	nsubj	CHECK
+3	poleks	V	neg=neg|ks=ks	5	aux	_
+4	niikuinii	D	_	5	advmod	_
+5	vääratanud	A	_	0	root	_
+6	ükski	N	sg=sg|n=n	7	nummod	_
+7	vägi	S	sg=sg|n=n	5	obj	_
+8	,	Z	_	11	punct	_
+9	küll	D	_	11	advmod	_
+10	aga	J	_	11	advmod	_
+11	aitas	V	s=s	5	conj	_
+12	valitud	A	sg=sg|n=n	13	acl	_
+13	plaan	S	sg=sg|n=n	11	obj	_
+14	Benettoni	H	sg=sg|n=n	13	appos	_
+15	,	Z	_	23	punct	_
+16	kelle	P	sg=sg|g=g	23	nsubj	_
+17	sõitjad	S	pl=pl|n=n	23	nsubj	_
+18	Alexander	H	sg=sg|n=n	17	appos	_
+19	Wurz	H	sg=sg|n=n	18	flat	_
+20	ja	J	_	21	cc	_
+21	Giancarlo	H	sg=sg|n=n	18	conj	_
+22	Fisichella	H	sg=sg|n=n	21	flat	_
+23	kinnitasid	V	sid=sid	14	acl:relcl	_
+24	esikuuikus	S	sg=sg|in=in	25	obj	_
+25	kanda	V	da=da	23	obj	_
+26	.	Z	_	5	punct	_
+
+# sent_id = 902860
+# text = Esmalt tabas pall posti , kuid kogu mängu värava nimel rabanud Rivaldo jõudis esimesena jaole ja imetõrjeid teinud Paul Robinsonil oli vähe võimalusi palli selle teekonnal võrku väärata .
+1	Esmalt	D	_	2	advmod	_
+2	tabas	V	s=s	0	root	_
+3	pall	S	sg=sg|n=n	2	nsubj	_
+4	posti	S	adt=adt	2	obj	_
+5	,	Z	_	13	punct	_
+6	kuid	J	_	13	cc	_
+7	kogu	A	_	8	det	_
+8	mängu	S	sg=sg|g=g	11	obl	_
+9	värava	S	sg=sg|g=g	11	obl	_
+10	nimel	K	_	9	case	_
+11	rabanud	A	_	12	acl	_
+12	Rivaldo	H	sg=sg|n=n	13	nsubj	_
+13	jõudis	V	s=s	2	conj	_
+14	esimesena	O	sg=sg|es=es	15	amod	_
+15	jaole	D	_	13	advmod	_
+16	ja	J	_	19	cc	_
+17	imetõrjeid	S	pl=pl|p=p	18	obj	_
+18	teinud	V	nud=nud	19	acl	_
+19	Paul	H	sg=sg|n=n	13	conj	_
+20	Robinsonil	H	sg=sg|ad=ad	19	flat	_
+21	oli	V	s=s	23	cop	_
+22	vähe	D	_	23	advmod	_
+23	võimalusi	S	pl=pl|p=p	19	nsubj:cop	_
+24	palli	S	sg=sg|g=g	28	obj	CHECK
+25	selle	P	sg=sg|g=g	26	det	_
+26	teekonnal	S	sg=sg|ad=ad	28	obj	_
+27	võrku	S	sg=sg|p=p	28	obj	_
+28	väärata	V	o=o	23	acl	_
+29	.	Z	_	2	punct	_
+
+# sent_id = 14143846
+# text = Nüüd enam väljakuperemehed ei vääratanud 25 : 23 Soomele .
+1	Nüüd	D	_	5	advmod	_
+2	enam	D	_	3	advmod	_
+3	väljakuperemehed	S	pl=pl|n=n	5	obj	_
+4	ei	V	neg=neg	5	aux	_
+5	vääratanud	A	pl=pl|n=n	0	root	_
+6	25 : 23	N	?=?	7	nummod	CHECK
+7	Soomele	H	sg=sg|all=all	5	nsubj	_
+8	.	Z	_	5	punct	_
+
+# sent_id = 468177
+# text = Mõnikord ei väärata soosiku medalit kolm kukkumistki , nagu juhtus EM-il venelase Jevgeni Plushenkoga .
+1	Mõnikord	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	väärata	V	o=o	0	root	_
+4	soosiku	S	sg=sg|g=g	5	nmod	_
+5	medalit	S	sg=sg|p=p	3	nsubj	CHECK
+6	kolm	N	sg=sg|n=n	7	nummod	_
+7	kukkumistki	S	sg=sg|p=p	3	obj	_
+8	,	Z	_	10	punct	_
+9	nagu	J	_	10	mark	_
+10	juhtus	V	s=s	3	advcl	_
+11	EM-il	Y	sg=sg|ad=ad	12	nmod	_
+12	venelase	S	sg=sg|g=g	10	nsubj	_
+13	Jevgeni	H	sg=sg|n=n	12	appos	_
+14	Plushenkoga	H	sg=sg|kom=kom	13	flat	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 2038102
+# text = Viie eelmise mänguga vastaste värava taga üheksa punast tuld süüdanud Pavel Bure proovis Hasheki valmisolekut kaugvisetega-puurivaht ei vääratanud .
+1	Viie	N	sg=sg|g=g	3	nummod	_
+2	eelmise	A	sg=sg|g=g	3	amod	_
+3	mänguga	S	sg=sg|kom=kom	10	obl	_
+4	vastaste	A	pl=pl|g=g	5	amod	_
+5	värava	S	sg=sg|g=g	10	obl	_
+6	taga	K	_	5	case	_
+7	üheksa	N	sg=sg|n=n	9	nummod	_
+8	punast	A	sg=sg|p=p	9	amod	_
+9	tuld	S	sg=sg|p=p	10	obj	_
+10	süüdanud	A	pl=pl|n=n	11	acl	_
+11	Pavel	H	sg=sg|n=n	13	nsubj	_
+12	Bure	H	sg=sg|n=n	11	flat	_
+13	proovis	V	s=s	0	root	_
+14	Hasheki	H	sg=sg|g=g	15	nmod	_
+15	valmisolekut	S	sg=sg|p=p	18	obj	CHECK
+16	kaugvisetega-puurivaht	S	sg=sg|n=n	18	obj	_
+17	ei	V	neg=neg	18	aux	_
+18	vääratanud	A	_	13	xcomp	_
+19	.	Z	_	13	punct	_
+
+# sent_id = 20996302
+# text = grave-digger: fak see käsi vääratab ykke pidevalt
+1	grave-digger	S	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	fak	S	sg=sg|n=n	6	obl	_
+4	see	P	sg=sg|n=n	5	det	_
+5	käsi	S	sg=sg|n=n	6	obj	_
+6	vääratab	V	b=b	1	parataxis	_
+7	ykke	S	sg=sg|g=g	6	nsubj	CHECK
+8	pidevalt	D	_	6	advmod	_
+
+# sent_id = 11128527
+# text = Ta on terve trobikonna atleete kõrgtasemele viinud , ent teist pika raja tiitlivõistlust järjest vääratavad nood kõige otsustavamal hetkel .
+1	Ta	P	sg=sg|n=n	7	nsubj	_
+2	on	V	vad=vad	7	aux	_
+3	terve	A	sg=sg|g=g	4	amod	_
+4	trobikonna	S	sg=sg|g=g	7	obl	_
+5	atleete	S	pl=pl|p=p	6	nmod	_
+6	kõrgtasemele	S	sg=sg|all=all	7	obj	_
+7	viinud	A	_	0	root	_
+8	,	Z	_	15	punct	_
+9	ent	J	_	15	cc	_
+10	teist	P	sg=sg|p=p	15	nsubj	_
+11	pika	A	sg=sg|g=g	12	amod	_
+12	raja	S	sg=sg|g=g	13	nmod	_
+13	tiitlivõistlust	S	sg=sg|p=p	15	obj	CHECK
+14	järjest	D	_	15	advmod	_
+15	vääratavad	V	vad=vad	7	conj	_
+16	nood	P	pl=pl|n=n	15	nsubj	_
+17	kõige	D	_	18	advmod	_
+18	otsustavamal	C	sg=sg|ad=ad	19	amod	_
+19	hetkel	S	sg=sg|ad=ad	15	obl	_
+20	.	Z	_	7	punct	_
+
+# sent_id = 369382
+# text = Ühtekuuluvus Olaviga , nende truudus , mis ei lõpe naise haual ja mida ei suutnud väärata nende kummagi erootilised eksisammud , on suure maailmakirjanduse kaunimaid lehekülgi .
+1	Ühtekuuluvus	H	sg=sg|n=n	2	amod	_
+2	Olaviga	H	sg=sg|kom=kom	26	nsubj:cop	_
+3	,	Z	_	5	punct	_
+4	nende	P	pl=pl|g=g	5	det	_
+5	truudus	S	sg=sg|n=n	2	appos	_
+6	,	Z	_	9	punct	_
+7	mis	P	pl=pl|n=n	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	lõpe	V	o=o	5	acl:relcl	_
+10	naise	S	sg=sg|g=g	11	nmod	_
+11	haual	S	sg=sg|ad=ad	9	obl	_
+12	ja	J	_	15	cc	_
+13	mida	P	pl=pl|p=p	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	suutnud	A	pl=pl|n=n	9	conj	_
+16	väärata	V	o=o	15	xcomp	_
+17	nende	P	pl=pl|g=g	20	nmod	_
+18	kummagi	P	sg=sg|g=g	20	det	_
+19	erootilised	A	pl=pl|n=n	20	amod	_
+20	eksisammud	S	pl=pl|n=n	16	obj	CHECK
+21	,	Z	_	9	punct	_
+22	on	V	vad=vad	26	cop	_
+23	suure	A	sg=sg|g=g	24	amod	_
+24	maailmakirjanduse	S	sg=sg|g=g	26	nmod	_
+25	kaunimaid	C	pl=pl|p=p	26	amod	_
+26	lehekülgi	S	pl=pl|p=p	0	root	_
+27	.	Z	_	26	punct	_
+
+# sent_id = 3497397
+# text = Lõpuni jäi alla kümne minuti , kui TVMK kaitse kaks korda järjest vääratas ja Vjatšeslav Zahovaiko lähilöökidega viigi jalule seadis .
+1	Lõpuni	S	sg=sg|ter=ter	2	obl	_
+2	jäi	V	s=s	0	root	_
+3	alla	K	_	5	case	_
+4	kümne	N	sg=sg|g=g	5	nummod	_
+5	minuti	S	sg=sg|g=g	2	obl	_
+6	,	Z	_	13	punct	_
+7	kui	J	_	13	mark	_
+8	TVMK	Y	?=?	9	nmod	_
+9	kaitse	S	sg=sg|g=g	13	nsubj	CHECK
+10	kaks	N	sg=sg|n=n	11	nummod	_
+11	korda	S	sg=sg|p=p	13	obl	_
+12	järjest	D	_	13	advmod	_
+13	vääratas	V	s=s	2	advcl	_
+14	ja	J	_	20	cc	_
+15	Vjatšeslav	H	sg=sg|n=n	20	nsubj	_
+16	Zahovaiko	H	sg=sg|g=g	17	nmod	_
+17	lähilöökidega	S	pl=pl|kom=kom	20	obj	_
+18	viigi	S	sg=sg|g=g	20	obj	_
+19	jalule	S	pl=pl|all=all	20	obl	_
+20	seadis	V	s=s	13	conj	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 7867
+# text = See hoiab mind stressamast asjade pärast , mida ma nagunii väärata ei saa .
+1	See	P	sg=sg|n=n	2	nsubj	_
+2	hoiab	V	b=b	0	root	_
+3	mind	P	sg=sg|p=p	2	obj	_
+4	stressamast	V	mast=mast	5	nmod	_
+5	asjade	S	pl=pl|g=g	2	obl	_
+6	pärast	K	_	5	case	_
+7	,	Z	_	11	punct	_
+8	mida	P	pl=pl|p=p	11	obj	CHECK
+9	ma	P	sg=sg|n=n	11	nsubj	_
+10	nagunii	D	_	11	advmod	_
+11	väärata	V	o=o	5	acl:relcl	_
+12	ei	V	neg=neg	11	aux	_
+13	saa	V	o=o	11	aux	_
+14	.	Z	_	2	punct	_
+

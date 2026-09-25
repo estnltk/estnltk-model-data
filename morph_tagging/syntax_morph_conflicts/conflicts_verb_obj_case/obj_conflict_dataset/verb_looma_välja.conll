@@ -1,0 +1,197 @@
+# sent_id = 13767990
+# text = Maire Välb tunnistab , et lausa naudib massaaži tege-mist : « Juuste taastaja ja peamassaaž loovad väga hea positiivse välja , seetõttu hakkavad ka juuksed kasvama . »
+1	Maire	H	sg=sg|n=n	3	nsubj	_
+2	Välb	H	sg=sg|n=n	1	flat	_
+3	tunnistab	V	b=b	0	root	_
+4	,	Z	_	7	punct	_
+5	et	J	_	7	mark	_
+6	lausa	D	_	7	advmod	_
+7	naudib	V	b=b	3	ccomp	_
+8	massaaži	S	sg=sg|g=g	9	nmod	_
+9	tege-mist	S	sg=sg|p=p	7	obj	_
+10	:	Z	_	16	punct	_
+11	«	Z	_	16	punct	_
+12	Juuste	S	pl=pl|g=g	13	nmod	_
+13	taastaja	S	sg=sg|n=n	16	nsubj	_
+14	ja	J	_	15	cc	_
+15	peamassaaž	S	sg=sg|n=n	13	conj	_
+16	loovad	V	vad=vad	7	parataxis	_
+17	väga	D	_	18	advmod	_
+18	hea	A	sg=sg|n=n	16	obj	CHECK
+19	positiivse	A	sg=sg|g=g	16	obj	_
+20	välja	D	_	16	compound:prt	_
+21	,	Z	_	23	punct	_
+22	seetõttu	D	_	23	advmod	_
+23	hakkavad	V	vad=vad	16	conj	_
+24	ka	D	_	25	advmod	_
+25	juuksed	S	pl=pl|n=n	26	nsubj	_
+26	kasvama	V	ma=ma	23	nsubj	_
+27	.	Z	_	16	punct	_
+28	»	Z	_	16	punct	_
+
+# sent_id = 11618798
+# text = Baari eestseisus on halle ajurakke tolmutanud ja loonud külalistele tõeliselt laristamissõbralikud olud – Rod Stewarti intiimsest pildiseeriast pesuehtsa torupilli huugamiseni välja .
+1	Baari	S	sg=sg|g=g	2	nmod	_
+2	eestseisus	S	sg=sg|n=n	6	obl	_
+3	on	V	b=b	6	aux	_
+4	halle	A	pl=pl|p=p	5	amod	_
+5	ajurakke	S	pl=pl|p=p	6	obj	_
+6	tolmutanud	A	_	0	root	_
+7	ja	J	_	8	cc	_
+8	loonud	A	_	6	conj	_
+9	külalistele	S	pl=pl|all=all	8	obl	_
+10	tõeliselt	D	_	11	advmod	_
+11	laristamissõbralikud	A	pl=pl|n=n	12	amod	_
+12	olud	S	pl=pl|n=n	8	obj	CHECK
+13	–	Z	_	20	punct	_
+14	Rod	H	sg=sg|n=n	17	nmod	_
+15	Stewarti	H	sg=sg|g=g	14	flat	_
+16	intiimsest	A	sg=sg|el=el	17	amod	_
+17	pildiseeriast	S	sg=sg|el=el	20	nmod	_
+18	pesuehtsa	A	sg=sg|g=g	19	amod	_
+19	torupilli	S	sg=sg|g=g	20	nmod	_
+20	huugamiseni	S	sg=sg|ter=ter	8	obj	_
+21	välja	D	_	20	advmod	_
+22	.	Z	_	6	punct	_
+
+# sent_id = 523617
+# text = " Huvitaval kombel lõi suitsu kohe kolmanda korruseni välja , " rääkis tulekahjupaigal olnud fotograaf Sulev .
+1	"	Z	_	4	punct	_
+2	Huvitaval	A	sg=sg|ad=ad	3	acl	_
+3	kombel	S	sg=sg|ad=ad	4	obl	_
+4	lõi	V	s=s	0	root	_
+5	suitsu	S	adt=adt	4	obj	CHECK
+6	kohe	D	_	4	advmod	_
+7	kolmanda	O	sg=sg|g=g	8	amod	_
+8	korruseni	S	sg=sg|ter=ter	4	obl	_
+9	välja	D	_	4	compound:prt	_
+10	,	Z	_	4	punct	_
+11	"	Z	_	4	punct	_
+12	rääkis	V	s=s	4	parataxis	_
+13	tulekahjupaigal	S	sg=sg|ad=ad	14	obl	_
+14	olnud	A	pl=pl|n=n	15	acl	_
+15	fotograaf	S	sg=sg|n=n	12	nsubj	_
+16	Sulev	H	sg=sg|n=n	15	appos	_
+17	.	Z	_	4	punct	_
+
+# sent_id = 396885
+# text = Saviaugul lõi taas välja ülekoormusest tingitud trauma , sama hädaga maadles ta Shotimaa-mängu eel .
+1	Saviaugul	H	sg=sg|n=n	2	nsubj	CHECK
+2	lõi	V	s=s	0	root	_
+3	taas	D	_	2	advmod	_
+4	välja	D	_	2	compound:prt	_
+5	ülekoormusest	S	sg=sg|el=el	6	obl	_
+6	tingitud	A	_	7	acl	_
+7	trauma	S	sg=sg|n=n	2	obj	_
+8	,	Z	_	11	punct	_
+9	sama	P	sg=sg|g=g	10	det	_
+10	hädaga	S	sg=sg|kom=kom	11	obj	_
+11	maadles	V	s=s	2	conj	_
+12	ta	P	sg=sg|n=n	11	nsubj	_
+13	Shotimaa-mängu	S	sg=sg|g=g	11	obl	_
+14	eel	K	_	13	case	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 54631
+# text = Siin lõi vist välja ka Valti päritolu - tema esiisa , esimesi teadaolevaid liivi haritlasi Jan Prints koostas 1846. aastal esimese läti-liivi sõnaraamatu .
+1	Siin	D	_	2	advmod	_
+2	lõi	V	s=s	0	root	_
+3	vist	D	_	2	advmod	_
+4	välja	D	_	2	compound:prt	_
+5	ka	D	_	7	advmod	_
+6	Valti	H	sg=sg|g=g	7	nmod	_
+7	päritolu	S	sg=sg|p=p	2	nsubj	CHECK
+8	-	Z	_	18	punct	_
+9	tema	P	sg=sg|g=g	10	nmod	_
+10	esiisa	S	sg=sg|g=g	7	appos	_
+11	,	Z	_	15	punct	_
+12	esimesi	O	pl=pl|p=p	15	amod	_
+13	teadaolevaid	A	pl=pl|p=p	14	acl	_
+14	liivi	S	sg=sg|g=g	15	nmod	_
+15	haritlasi	S	pl=pl|p=p	18	nsubj	_
+16	Jan	H	sg=sg|n=n	15	appos	_
+17	Prints	H	sg=sg|n=n	16	flat	_
+18	koostas	V	s=s	2	conj	_
+19	1846.	O	?=?	20	amod	_
+20	aastal	S	sg=sg|ad=ad	18	obl	_
+21	esimese	O	sg=sg|g=g	22	amod	_
+22	läti-liivi	S	sg=sg|g=g	23	nmod	_
+23	sõnaraamatu	S	sg=sg|g=g	18	obj	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 548602
+# text = " Nüüd lõi kõigele lisaks veel välja ka astma .
+1	"	Z	_	3	punct	_
+2	Nüüd	D	_	3	advmod	_
+3	lõi	V	s=s	0	root	_
+4	kõigele	P	sg=sg|all=all	3	nsubj	_
+5	lisaks	S	sg=sg|tr=tr	3	obl	_
+6	veel	D	_	3	advmod	_
+7	välja	D	_	3	compound:prt	_
+8	ka	D	_	9	advmod	_
+9	astma	S	sg=sg|g=g	3	obj	CHECK
+10	.	Z	_	3	punct	_
+
+# sent_id = 6375662
+# text = Näiteks üsna kergel käel lõi ta turult välja PepsiCo , esindades tolle ürgkonkurenti Coca Colat .
+1	Näiteks	D	_	5	advmod	_
+2	üsna	D	_	3	advmod	_
+3	kergel	A	sg=sg|ad=ad	4	amod	_
+4	käel	S	sg=sg|ad=ad	5	obj	_
+5	lõi	V	s=s	0	root	_
+6	ta	P	sg=sg|n=n	5	nsubj	_
+7	turult	S	sg=sg|abl=abl	5	obj	_
+8	välja	D	_	5	compound:prt	_
+9	PepsiCo	Y	?=?	5	obj	CHECK
+10	,	Z	_	11	punct	_
+11	esindades	V	des=des	5	conj	_
+12	tolle	P	sg=sg|g=g	13	det	_
+13	ürgkonkurenti	S	sg=sg|p=p	11	obj	_
+14	Coca	H	sg=sg|n=n	13	appos	_
+15	Colat	H	sg=sg|p=p	14	flat	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 1674345
+# text = Lisaks loitsumärkidele on ta teinud ka puust pühakujusid , mis samuti elamisse positiivset välja loovad .
+1	Lisaks	S	sg=sg|tr=tr	5	obl	_
+2	loitsumärkidele	S	pl=pl|all=all	1	nmod	_
+3	on	V	vad=vad	5	aux	_
+4	ta	P	sg=sg|n=n	5	nsubj	_
+5	teinud	V	nud=nud	0	root	_
+6	ka	D	_	8	advmod	_
+7	puust	S	sg=sg|el=el	8	nmod	_
+8	pühakujusid	S	pl=pl|p=p	5	obj	_
+9	,	Z	_	15	punct	_
+10	mis	P	pl=pl|n=n	15	nsubj	_
+11	samuti	D	_	15	advmod	_
+12	elamisse	S	adt=adt	15	obl	_
+13	positiivset	A	sg=sg|p=p	15	obj	CHECK
+14	välja	D	_	15	compound:prt	_
+15	loovad	V	vad=vad	8	acl:relcl	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 8413605
+# text = Teatud tegude keelamine ja karistamise sanktsioneerimine loob selle õiguslikult kaitstud välja , millel toimub mäng lubatud , õigustatud ja volitatud sammudega .
+1	Teatud	V	tud=tud	2	acl	_
+2	tegude	S	pl=pl|g=g	3	nmod	_
+3	keelamine	S	sg=sg|n=n	7	obj	_
+4	ja	J	_	6	cc	_
+5	karistamise	S	sg=sg|g=g	6	nmod	_
+6	sanktsioneerimine	S	sg=sg|n=n	3	conj	_
+7	loob	V	b=b	0	root	_
+8	selle	P	sg=sg|g=g	7	nsubj	CHECK
+9	õiguslikult	D	_	10	advmod	_
+10	kaitstud	V	tud=tud	7	advcl	_
+11	välja	D	_	7	compound:prt	_
+12	,	Z	_	14	punct	_
+13	millel	P	sg=sg|ad=ad	14	nsubj	_
+14	toimub	V	b=b	7	advcl	_
+15	mäng	S	sg=sg|n=n	21	nmod	_
+16	lubatud	A	_	21	acl	_
+17	,	Z	_	18	punct	_
+18	õigustatud	A	_	16	conj	_
+19	ja	J	_	20	cc	_
+20	volitatud	A	pl=pl|n=n	16	conj	_
+21	sammudega	S	pl=pl|kom=kom	14	nsubj	_
+22	.	Z	_	7	punct	_
+

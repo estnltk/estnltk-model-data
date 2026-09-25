@@ -1,0 +1,440 @@
+# sent_id = 2065119
+# text = Sõja algul pagesid vanemad Rootsi .
+1	Sõja	S	sg=sg|g=g	3	obl	_
+2	algul	K	_	1	case	_
+3	pagesid	V	sid=sid	0	root	_
+4	vanemad	S	pl=pl|n=n	3	nsubj	_
+5	Rootsi	H	sg=sg|n=n	3	nsubj	CHECK
+6	.	Z	_	3	punct	_
+
+# sent_id = 487849
+# text = Borneo saare Indoneesiale kuuluvas osas nädalapäevad kestnud etnilistes kokkupõrgetes on hukkunud 114 inimest , rohkem kui 12 000 on pagenud verise konflikti eest provintsipealinna Pontianakki .
+1	Borneo	H	sg=sg|n=n	2	nmod	_
+2	saare	S	sg=sg|g=g	4	obl	_
+3	Indoneesiale	H	sg=sg|all=all	2	appos	_
+4	kuuluvas	A	sg=sg|in=in	9	acl	_
+5	osas	S	sg=sg|in=in	7	obl	_
+6	nädalapäevad	S	pl=pl|n=n	7	obl	_
+7	kestnud	V	nud=nud	9	acl	_
+8	etnilistes	A	pl=pl|in=in	9	amod	_
+9	kokkupõrgetes	S	pl=pl|in=in	11	obl	_
+10	on	V	vad=vad	11	aux	_
+11	hukkunud	A	_	0	root	_
+12	114	N	?=?	13	nummod	_
+13	inimest	S	sg=sg|p=p	11	nsubj	_
+14	,	Z	_	19	punct	_
+15	rohkem	D	_	19	advmod	_
+16	kui	D	_	15	fixed	_
+17	12 000	N	?=?	19	nsubj	_
+18	on	V	vad=vad	19	aux	_
+19	pagenud	A	pl=pl|n=n	11	advcl	_
+20	verise	A	sg=sg|g=g	21	amod	_
+21	konflikti	S	sg=sg|g=g	19	obl	_
+22	eest	K	_	21	case	_
+23	provintsipealinna	S	sg=sg|g=g	19	obj	CHECK
+24	Pontianakki	H	adt=adt	23	appos	_
+25	.	Z	_	11	punct	_
+
+# sent_id = 16934621
+# text = Ma tahan ühte pilti lisada , aga ei lase , tuleb « Page has timed blabla »
+1	Ma	P	sg=sg|n=n	2	nsubj	_
+2	tahan	V	n=n	0	root	_
+3	ühte	N	sg=sg|p=p	4	det	_
+4	pilti	S	sg=sg|p=p	5	obj	_
+5	lisada	V	da=da	2	xcomp	_
+6	,	Z	_	9	punct	_
+7	aga	J	_	9	cc	_
+8	ei	V	neg=neg	9	aux	_
+9	lase	V	o=o	2	conj	_
+10	,	Z	_	11	punct	_
+11	tuleb	V	b=b	2	conj	_
+12	«	Z	_	13	punct	_
+13	Page	V	o=o	11	conj	_
+14	has	S	sg=sg|n=n	13	obj	_
+15	timed	S	sg=sg|n=n	16	nmod	_
+16	blabla	S	sg=sg|g=g	13	obj	CHECK
+17	»	Z	_	2	punct	_
+
+# sent_id = 10831847
+# text = PAGE PELGUPAIKA .
+1	PAGE	V	o=o	0	root	_
+2	PELGUPAIKA	S	adt=adt	1	obj	CHECK
+3	.	Z	_	1	punct	_
+
+# sent_id = 17165648
+# text = Viskab kohe sinise ekraani kirjaga « page fault in non-paged area » .
+1	Viskab	V	b=b	0	root	_
+2	kohe	D	_	1	advmod	_
+3	sinise	A	sg=sg|g=g	4	amod	_
+4	ekraani	S	sg=sg|g=g	1	obj	_
+5	kirjaga	S	sg=sg|kom=kom	1	obj	_
+6	«	Z	_	7	punct	_
+7	page	V	o=o	1	conj	_
+8	fault	S	sg=sg|abl=abl	7	obj	_
+9	in	Y	?=?	8	flat	CHECK
+10	non-paged	S	pl=pl|n=n	8	flat	_
+11	area	S	sg=sg|n=n	7	obj	_
+12	»	Z	_	7	punct	_
+13	.	Z	_	1	punct	_
+
+# sent_id = 487849
+# text = Borneo saare Indoneesiale kuuluvas osas nädalapäevad kestnud etnilistes kokkupõrgetes on hukkunud 114 inimest , rohkem kui 12 000 on pagenud verise konflikti eest provintsipealinna Pontianakki .
+1	Borneo	H	sg=sg|n=n	2	nmod	_
+2	saare	S	sg=sg|g=g	4	obl	_
+3	Indoneesiale	H	sg=sg|all=all	2	appos	_
+4	kuuluvas	A	sg=sg|in=in	9	acl	_
+5	osas	S	sg=sg|in=in	7	obl	_
+6	nädalapäevad	S	pl=pl|n=n	7	obl	_
+7	kestnud	A	sg=sg|n=n	9	acl	_
+8	etnilistes	A	pl=pl|in=in	9	amod	_
+9	kokkupõrgetes	S	pl=pl|in=in	11	obl	_
+10	on	V	vad=vad	11	aux	_
+11	hukkunud	A	sg=sg|n=n	0	root	_
+12	114	N	?=?	13	nummod	_
+13	inimest	S	sg=sg|p=p	11	nsubj	_
+14	,	Z	_	19	punct	_
+15	rohkem	D	_	19	advmod	_
+16	kui	D	_	15	fixed	_
+17	12 000	N	?=?	19	nsubj	_
+18	on	V	b=b	19	aux	_
+19	pagenud	A	pl=pl|n=n	11	advcl	_
+20	verise	A	sg=sg|g=g	21	amod	_
+21	konflikti	S	sg=sg|g=g	19	obl	_
+22	eest	K	_	21	case	_
+23	provintsipealinna	S	sg=sg|g=g	19	obj	_
+24	Pontianakki	H	adt=adt	23	appos	CHECK
+25	.	Z	_	11	punct	_
+
+# sent_id = 6483282
+# text = Snoobid pagesid tuli takus oma hubastesse ateljeedesse ja üri-tasid karmi mängu juures head nägu teha .
+1	Snoobid	S	pl=pl|n=n	2	nmod	_
+2	pagesid	V	sid=sid	3	nsubj	_
+3	tuli	V	s=s	0	root	CHECK
+4	takus	S	sg=sg|in=in	3	nsubj	_
+5	oma	P	sg=sg|g=g	7	nmod	_
+6	hubastesse	A	pl=pl|ill=ill	7	amod	_
+7	ateljeedesse	S	pl=pl|ill=ill	3	obl	_
+8	ja	J	_	9	cc	_
+9	üri-tasid	V	sid=sid	3	conj	_
+10	karmi	A	sg=sg|g=g	11	amod	_
+11	mängu	S	sg=sg|g=g	15	obl	_
+12	juures	K	_	11	case	_
+13	head	A	sg=sg|p=p	14	amod	_
+14	nägu	S	sg=sg|p=p	15	obj	_
+15	teha	V	da=da	9	xcomp	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 2064338
+# text = Praeguseks arvatakse teda olevat pagenud Pakistani .
+1	Praeguseks	A	sg=sg|tr=tr	2	obl	_
+2	arvatakse	V	takse=takse	0	root	_
+3	teda	P	sg=sg|p=p	2	nsubj	CHECK
+4	olevat	V	vat=vat	5	aux	_
+5	pagenud	A	pl=pl|n=n	2	xcomp	_
+6	Pakistani	H	adt=adt	5	obj	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 9194985
+# text = Kass on taolistes olukordades teie juurest minema pagenud maailma , mis kooskõlastub tema tahtega paremini kui teie omaga .
+1	Kass	S	sg=sg|n=n	3	nsubj:cop	_
+2	on	V	vad=vad	3	cop	_
+3	taolistes	P	pl=pl|in=in	0	root	_
+4	olukordades	S	pl=pl|in=in	8	obj	_
+5	teie	P	pl=pl|g=g	8	obl	_
+6	juurest	K	_	5	case	_
+7	minema	V	ma=ma	8	xcomp	_
+8	pagenud	V	nud=nud	9	acl	_
+9	maailma	S	sg=sg|p=p	3	obl	CHECK
+10	,	Z	_	12	punct	_
+11	mis	P	sg=sg|n=n	12	nsubj	_
+12	kooskõlastub	V	b=b	9	acl:relcl	_
+13	tema	P	sg=sg|g=g	14	nmod	_
+14	tahtega	S	sg=sg|kom=kom	12	obl	_
+15	paremini	D	_	12	advmod	_
+16	kui	J	_	18	mark	_
+17	teie	P	pl=pl|g=g	18	nmod	_
+18	omaga	P	sg=sg|kom=kom	15	advcl	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 1612782
+# text = Sellest hoolimata elab ta nagu tavaline abiturient , kes kardab saabuvaid lõpueksameid , vaevleb konsultatsioonide , lisakursuste ja raamatuvirnade taga ning pageb Mutant Discole kargama .
+1	Sellest	P	sg=sg|el=el	3	obl	_
+2	hoolimata	K	_	1	case	_
+3	elab	V	b=b	0	root	_
+4	ta	P	sg=sg|g=g	3	nsubj	_
+5	nagu	D	_	7	mark	_
+6	tavaline	A	sg=sg|n=n	7	amod	_
+7	abiturient	S	sg=sg|n=n	3	advcl	_
+8	,	Z	_	10	punct	_
+9	kes	P	sg=sg|n=n	10	nsubj	_
+10	kardab	V	b=b	7	acl:relcl	_
+11	saabuvaid	A	pl=pl|p=p	12	acl	_
+12	lõpueksameid	S	pl=pl|p=p	10	obj	_
+13	,	Z	_	14	punct	_
+14	vaevleb	V	b=b	10	conj	_
+15	konsultatsioonide	S	pl=pl|g=g	14	obj	_
+16	,	Z	_	17	punct	_
+17	lisakursuste	S	pl=pl|g=g	15	conj	_
+18	ja	J	_	19	cc	_
+19	raamatuvirnade	S	pl=pl|g=g	15	conj	_
+20	taga	K	_	19	case	_
+21	ning	J	_	22	cc	_
+22	pageb	V	b=b	10	conj	_
+23	Mutant	H	sg=sg|n=n	25	obl	CHECK
+24	Discole	H	sg=sg|g=g	23	flat	_
+25	kargama	V	ma=ma	10	conj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 190837
+# text = Pealkirja määrangud :  font ( kiri , suurus , laad ) , poolituse keelamine (  Don't hyphenate  ) , paigutus ( vasakul/keskel ) , vaba ruum pealkirja ees (  Spacing : Before  ) ja järel (  Spacing : After  ) , pealkirja kooshoidmine järgneva tekstiga (  Keep with next  ) või pealkiri algab uuelt leheküljelt (  Page break before  ) .
+1	Pealkirja	S	sg=sg|g=g	0	root	_
+2	määrangud	S	pl=pl|n=n	1	nmod	_
+3	:	Z	_	4	punct	_
+4	font	S	sg=sg|n=n	1	nmod	_
+5	(	Z	_	6	punct	_
+6	kiri	S	sg=sg|n=n	4	parataxis	_
+7	,	Z	_	8	punct	_
+8	suurus	S	sg=sg|n=n	6	conj	_
+9	,	Z	_	10	punct	_
+10	laad	S	sg=sg|n=n	6	conj	_
+11	)	Z	_	6	punct	_
+12	,	Z	_	14	punct	_
+13	poolituse	S	sg=sg|g=g	14	nmod	_
+14	keelamine	S	sg=sg|n=n	4	conj	_
+15	(	Z	_	16	punct	_
+16	Don't	H	sg=sg|p=p	14	appos	_
+17	hyphenate	S	sg=sg|n=n	16	flat:foreign	_
+18	)	Z	_	16	punct	_
+19	,	Z	_	20	punct	_
+20	paigutus	V	s=s	4	conj	_
+21	(	Z	_	22	punct	_
+22	vasakul	D	_	20	parataxis	_
+23	/	Z	_	22	punct	_
+24	keskel	K	_	22	parataxis	_
+25	)	Z	_	22	punct	_
+26	,	Z	_	28	punct	_
+27	vaba	A	sg=sg|n=n	28	amod	_
+28	ruum	S	sg=sg|n=n	4	conj	_
+29	pealkirja	S	sg=sg|g=g	28	nmod	_
+30	ees	K	_	29	case	_
+31	(	Z	_	32	punct	_
+32	Spacing	H	sg=sg|n=n	29	parataxis	_
+33	:	Z	_	32	punct	_
+34	Before	H	sg=sg|n=n	32	flat	_
+35	)	Z	_	32	punct	_
+36	ja	J	_	37	cc	_
+37	järel	K	_	29	case	_
+38	(	Z	_	39	punct	_
+39	Spacing	H	sg=sg|n=n	37	parataxis	_
+40	:	Z	_	39	punct	_
+41	After	H	sg=sg|n=n	39	flat	_
+42	)	Z	_	39	punct	_
+43	,	Z	_	45	punct	_
+44	pealkirja	S	sg=sg|g=g	45	nmod	_
+45	kooshoidmine	S	sg=sg|n=n	55	nsubj	_
+46	järgneva	A	sg=sg|g=g	47	acl	_
+47	tekstiga	S	sg=sg|kom=kom	45	nmod	_
+48	(	Z	_	49	punct	_
+49	Keep	S	sg=sg|n=n	47	appos	_
+50	with	S	sg=sg|n=n	49	flat	_
+51	next	S	sg=sg|n=n	49	flat	_
+52	)	Z	_	49	punct	_
+53	või	J	_	54	cc	_
+54	pealkiri	S	sg=sg|n=n	4	conj	_
+55	algab	V	b=b	4	conj	_
+56	uuelt	A	sg=sg|abl=abl	57	amod	_
+57	leheküljelt	S	sg=sg|abl=abl	55	obl	_
+58	(	Z	_	59	punct	_
+59	Page	V	o=o	55	parataxis	_
+60	break	S	sg=sg|n=n	59	obj	CHECK
+61	before	S	sg=sg|n=n	59	flat:foreign	_
+62	)	Z	_	59	punct	_
+63	.	Z	_	55	punct	_
+
+# sent_id = 18743294
+# text = watzzz ya mouth p2tu: osad toesti , aga osadel on ka trafficut üle 40 000 unique visotori päevas ja 2 000 000 page view'i päevas .... mmm seal on muidugi staaridel juba riided seljast lendanud ja selle pärast sinna Google reklaame ei saa panna , aga on ka firmasid .
+1	watzzz	S	sg=sg|n=n	0	root	_
+2	ya	Y	?=?	1	flat	_
+3	mouth	S	sg=sg|n=n	1	flat	_
+4	p2tu	Y	?=?	1	flat:foreign	_
+5	:	Z	_	6	punct	_
+6	osad	S	pl=pl|n=n	1	parataxis	_
+7	toesti	S	adt=adt	6	nmod	_
+8	,	Z	_	10	punct	_
+9	aga	J	_	10	cc	_
+10	osadel	S	pl=pl|ad=ad	6	conj	_
+11	on	V	b=b	10	cop	_
+12	ka	D	_	13	advmod	_
+13	trafficut	S	sg=sg|p=p	10	nsubj:cop	_
+14	üle	D	_	16	case	_
+15	40 000	N	?=?	16	nummod	_
+16	unique	S	sg=sg|g=g	17	nmod	_
+17	visotori	S	sg=sg|g=g	13	obl	_
+18	päevas	S	sg=sg|in=in	17	nmod	_
+19	ja	J	_	21	cc	_
+20	2 000 000	N	?=?	21	obl	_
+21	page	V	o=o	6	conj	_
+22	view'i	S	sg=sg|g=g	21	obl	CHECK
+23	päevas	S	sg=sg|in=in	22	nmod	_
+24	....	Z	_	33	punct	_
+25	mmm	I	_	33	discourse	_
+26	seal	D	_	33	advmod	_
+27	on	V	vad=vad	33	aux	_
+28	muidugi	D	_	33	advmod	_
+29	staaridel	S	pl=pl|ad=ad	33	nsubj	_
+30	juba	D	_	33	advmod	_
+31	riided	S	pl=pl|n=n	33	obj	_
+32	seljast	S	sg=sg|el=el	33	obl	_
+33	lendanud	A	pl=pl|n=n	21	conj	_
+34	ja	J	_	42	cc	_
+35	selle	P	sg=sg|g=g	42	nsubj	_
+36	pärast	K	_	35	case	_
+37	sinna	D	_	42	advmod	_
+38	Google	H	sg=sg|g=g	39	nmod	_
+39	reklaame	S	pl=pl|p=p	42	obj	_
+40	ei	V	neg=neg	42	aux	_
+41	saa	V	o=o	42	aux	_
+42	panna	V	da=da	33	conj	_
+43	,	Z	_	47	punct	_
+44	aga	J	_	47	cc	_
+45	on	V	vad=vad	47	cop	_
+46	ka	D	_	47	advmod	_
+47	firmasid	S	pl=pl|p=p	42	conj	_
+48	.	Z	_	33	punct	_
+
+# sent_id = 720756
+# text = Sel puhul kasutab Airi võimalust ja pageb metsa .
+1	Sel	P	sg=sg|ad=ad	2	det	_
+2	puhul	K	_	3	obl	_
+3	kasutab	V	b=b	0	root	_
+4	Airi	H	sg=sg|g=g	3	nsubj	_
+5	võimalust	S	sg=sg|p=p	3	obj	_
+6	ja	J	_	7	cc	_
+7	pageb	V	b=b	3	conj	_
+8	metsa	S	sg=sg|p=p	7	obj	CHECK
+9	.	Z	_	3	punct	_
+
+# sent_id = 5383297
+# text = Centras.lt senine omanik UAB Gaumina sõlmis portaali müügilepingu , mille tulemusena Delfi keskkonnale lisandub keskmiselt 350 000 kontakti ( page view'd ) päevas .
+1	Centras.lt	H	sg=sg|n=n	3	nmod	_
+2	senine	A	sg=sg|n=n	3	amod	_
+3	omanik	S	sg=sg|n=n	6	nsubj	_
+4	UAB	Y	?=?	3	appos	_
+5	Gaumina	H	sg=sg|n=n	4	flat	_
+6	sõlmis	V	s=s	0	root	_
+7	portaali	S	sg=sg|g=g	6	obj	_
+8	müügilepingu	S	sg=sg|g=g	6	obj	_
+9	,	Z	_	11	punct	_
+10	mille	P	pl=pl|g=g	11	nmod	_
+11	tulemusena	S	sg=sg|es=es	14	obl	_
+12	Delfi	H	sg=sg|g=g	13	nmod	_
+13	keskkonnale	S	sg=sg|all=all	14	nsubj	_
+14	lisandub	V	b=b	8	acl:relcl	_
+15	keskmiselt	D	_	14	advmod	_
+16	350 000	N	?=?	17	nummod	_
+17	kontakti	S	sg=sg|p=p	14	obl	_
+18	(	Z	_	19	punct	_
+19	page	V	o=o	17	parataxis	_
+20	view'd	S	sg=sg|p=p	19	obj	CHECK
+21	)	Z	_	19	punct	_
+22	päevas	S	sg=sg|in=in	14	obl	_
+23	.	Z	_	6	punct	_
+
+# sent_id = 507082
+# text = Laikmaa pages Soome , sealt viis teda lakkamatu rännukihk Itaaliasse ja Põhja-Aafrikasse .
+1	Laikmaa	S	sg=sg|n=n	2	obj	_
+2	pages	V	s=s	0	root	_
+3	Soome	H	sg=sg|g=g	2	nsubj	CHECK
+4	,	Z	_	6	punct	_
+5	sealt	D	_	6	advmod	_
+6	viis	V	s=s	2	conj	_
+7	teda	P	sg=sg|p=p	6	nsubj	_
+8	lakkamatu	A	sg=sg|n=n	9	amod	_
+9	rännukihk	S	sg=sg|n=n	6	obj	_
+10	Itaaliasse	H	sg=sg|ill=ill	6	obl	_
+11	ja	J	_	12	cc	_
+12	Põhja-Aafrikasse	H	sg=sg|ill=ill	10	conj	_
+13	.	Z	_	2	punct	_
+
+# sent_id = 15956160
+# text = Page file .
+1	Page	V	o=o	0	root	_
+2	file	S	sg=sg|n=n	1	obj	CHECK
+3	.	Z	_	1	punct	_
+
+# sent_id = 586563
+# text = Iga kuu pages Lääne-Berliini kümneid tuhandeid inimesi , Berliini idaosa oli verest tühjaks jooksmas .
+1	Iga	P	sg=sg|n=n	2	det	_
+2	kuu	S	sg=sg|n=n	3	obl	_
+3	pages	V	s=s	0	root	_
+4	Lääne-Berliini	H	sg=sg|g=g	3	obl	_
+5	kümneid	N	pl=pl|p=p	6	compound	_
+6	tuhandeid	N	pl=pl|p=p	7	nummod	_
+7	inimesi	S	pl=pl|p=p	3	nsubj	CHECK
+8	,	Z	_	14	punct	_
+9	Berliini	H	sg=sg|g=g	10	nmod	_
+10	idaosa	S	sg=sg|n=n	14	nsubj	_
+11	oli	V	s=s	14	cop	_
+12	verest	S	sg=sg|el=el	14	nsubj	_
+13	tühjaks	A	sg=sg|tr=tr	14	amod	_
+14	jooksmas	V	mas=mas	3	conj	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 979775
+# text = Nüüd siis pageb ta ühe oma õpilase jälgedes , kui nii võib öelda .
+1	Nüüd	D	_	3	advmod	_
+2	siis	D	_	3	advmod	_
+3	pageb	V	b=b	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	ühe	P	sg=sg|g=g	7	det	CHECK
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	õpilase	S	sg=sg|g=g	8	nmod	_
+8	jälgedes	S	pl=pl|in=in	3	obj	_
+9	,	Z	_	13	punct	_
+10	kui	J	_	13	mark	_
+11	nii	D	_	13	advmod	_
+12	võib	V	b=b	13	aux	_
+13	öelda	V	da=da	3	advcl	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 487849
+# text = Borneo saare Indoneesiale kuuluvas osas nädalapäevad kestnud etnilistes kokkupõrgetes on hukkunud 114 inimest , rohkem kui 12 000 on pagenud verise konflikti eest provintsipealinna Pontianakki .
+1	Borneo	H	sg=sg|n=n	2	nmod	_
+2	saare	S	sg=sg|g=g	4	obl	_
+3	Indoneesiale	H	sg=sg|all=all	2	appos	_
+4	kuuluvas	A	sg=sg|in=in	9	acl	_
+5	osas	S	sg=sg|in=in	7	obl	_
+6	nädalapäevad	S	pl=pl|n=n	7	obl	_
+7	kestnud	A	_	9	acl	_
+8	etnilistes	A	pl=pl|in=in	9	amod	_
+9	kokkupõrgetes	S	pl=pl|in=in	11	obl	_
+10	on	V	b=b	11	aux	_
+11	hukkunud	V	nud=nud	0	root	_
+12	114	N	?=?	13	nummod	_
+13	inimest	S	sg=sg|p=p	11	nsubj	_
+14	,	Z	_	19	punct	_
+15	rohkem	D	_	19	advmod	_
+16	kui	J	_	15	fixed	_
+17	12 000	N	?=?	15	obl	_
+18	on	V	b=b	19	aux	_
+19	pagenud	V	nud=nud	11	advcl	_
+20	verise	A	sg=sg|g=g	21	amod	_
+21	konflikti	S	sg=sg|g=g	19	obl	_
+22	eest	K	_	21	case	_
+23	provintsipealinna	S	sg=sg|g=g	19	obj	_
+24	Pontianakki	H	adt=adt	23	appos	CHECK
+25	.	Z	_	11	punct	_
+
+# sent_id = 16037900
+# text = mai usu et kui block siis page can't be found
+1	mai	S	sg=sg|n=n	2	nsubj	_
+2	usu	V	o=o	0	root	_
+3	et	J	_	7	mark	_
+4	kui	D	_	7	mark	_
+5	block	S	sg=sg|n=n	7	nsubj	_
+6	siis	D	_	7	advmod	_
+7	page	V	o=o	2	ccomp	_
+8	can't	S	sg=sg|p=p	7	obj	CHECK
+9	be	Y	?=?	8	flat	_
+10	found	S	sg=sg|n=n	7	obj	_
+

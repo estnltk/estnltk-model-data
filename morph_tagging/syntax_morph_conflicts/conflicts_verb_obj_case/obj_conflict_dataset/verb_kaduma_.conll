@@ -1,0 +1,507 @@
+# sent_id = 11816149
+# text = Isamaa juhid olid selle võitluse esirinnas , et Tõnismäe okupandimonument jumalapärast kuidagi ei kaoks , et Kaarli puiestee spoonlauaks saetaks ja idee kogu Eesti toomisest Tallinna ... noh , tohtrid ütlevad selle kohta nimegi : vesipäisus , mis , tabanuks see Eestit , tähendanuks ka Eesti rahvuslikku idiootsust .
+1	Isamaa	H	sg=sg|g=g	2	nmod	_
+2	juhid	S	pl=pl|n=n	0	root	_
+3	olid	V	sid=sid	2	cop	_
+4	selle	P	sg=sg|g=g	5	det	_
+5	võitluse	S	sg=sg|g=g	2	nsubj:cop	_
+6	esirinnas	S	sg=sg|in=in	5	nmod	_
+7	,	Z	_	14	punct	_
+8	et	J	_	14	mark	_
+9	Tõnismäe	H	sg=sg|g=g	10	nmod	_
+10	okupandimonument	S	sg=sg|n=n	11	nmod	_
+11	jumalapärast	A	sg=sg|p=p	14	nsubj	CHECK
+12	kuidagi	D	_	14	advmod	_
+13	ei	V	neg=neg	14	aux	_
+14	kaoks	V	ks=ks	6	acl	_
+15	,	Z	_	20	punct	_
+16	et	J	_	20	mark	_
+17	Kaarli	H	sg=sg|g=g	20	nsubj	_
+18	puiestee	S	sg=sg|g=g	19	nmod	_
+19	spoonlauaks	S	sg=sg|tr=tr	20	obj	_
+20	saetaks	V	taks=taks	14	conj	_
+21	ja	J	_	22	cc	_
+22	idee	S	sg=sg|n=n	20	conj	_
+23	kogu	A	_	25	det	_
+24	Eesti	H	sg=sg|g=g	25	nmod	_
+25	toomisest	S	sg=sg|el=el	22	nmod	_
+26	Tallinna	H	sg=sg|g=g	25	nmod	_
+27	...	Z	_	28	punct	_
+28	noh	D	_	31	discourse	_
+29	,	Z	_	31	punct	_
+30	tohtrid	S	pl=pl|n=n	31	nsubj	_
+31	ütlevad	V	vad=vad	14	conj	_
+32	selle	P	sg=sg|g=g	31	obl	_
+33	kohta	K	_	32	case	_
+34	nimegi	S	sg=sg|p=p	31	obj	_
+35	:	Z	_	36	punct	_
+36	vesipäisus	S	sg=sg|n=n	31	parataxis	_
+37	,	Z	_	40	punct	_
+38	mis	P	pl=pl|n=n	40	nsubj	_
+39	,	Z	_	40	punct	_
+40	tabanuks	V	nuks=nuks	36	acl:relcl	_
+41	see	P	sg=sg|n=n	40	nsubj	_
+42	Eestit	H	sg=sg|p=p	40	obj	_
+43	,	Z	_	44	punct	_
+44	tähendanuks	V	nuks=nuks	40	conj	_
+45	ka	D	_	44	advmod	_
+46	Eesti	H	sg=sg|g=g	48	nmod	_
+47	rahvuslikku	A	sg=sg|p=p	48	amod	_
+48	idiootsust	S	sg=sg|p=p	44	obj	_
+49	.	Z	_	44	punct	_
+
+# sent_id = 190945
+# text = Nimelt ei ole võrguseadmetel keelatud suurel koormusel ignoreerida osa sissetulevatest pakettidest , mistõttu reaalses elus esineb tihti situatsioone , kus osa edastatavatest pakettidest lihtsalt “ kaob võrku ” .
+1	Nimelt	D	_	5	advmod	_
+2	ei	V	neg=neg	5	aux	_
+3	ole	V	o=o	5	aux	_
+4	võrguseadmetel	S	pl=pl|ad=ad	5	obj	_
+5	keelatud	A	_	0	root	_
+6	suurel	A	sg=sg|ad=ad	7	amod	_
+7	koormusel	S	sg=sg|ad=ad	8	obj	_
+8	ignoreerida	V	da=da	9	acl	_
+9	osa	S	sg=sg|p=p	10	obj	_
+10	sissetulevatest	A	pl=pl|el=el	11	acl	_
+11	pakettidest	S	pl=pl|el=el	5	obj	_
+12	,	Z	_	16	punct	_
+13	mistõttu	D	_	16	advmod	_
+14	reaalses	A	sg=sg|in=in	15	amod	_
+15	elus	S	sg=sg|in=in	16	obl	_
+16	esineb	V	b=b	5	advcl	_
+17	tihti	D	_	16	advmod	_
+18	situatsioone	S	pl=pl|p=p	16	obl	_
+19	,	Z	_	26	punct	_
+20	kus	D	_	26	mark	_
+21	osa	S	sg=sg|n=n	22	obj	_
+22	edastatavatest	A	pl=pl|el=el	23	acl	_
+23	pakettidest	S	pl=pl|el=el	26	nsubj	_
+24	lihtsalt	D	_	26	advmod	_
+25	“	Z	_	26	punct	_
+26	kaob	V	b=b	18	acl	_
+27	võrku	S	sg=sg|p=p	26	nsubj	CHECK
+28	”	Z	_	26	punct	_
+29	.	Z	_	5	punct	_
+
+# sent_id = 1564055
+# text = Veel nimetu tüdrukvarss ( märavarss ) kalpsab ringi , kaob igaks juhuks koguka ema selja taha ja piilub külalisi .
+1	Veel	D	_	2	advmod	_
+2	nimetu	A	sg=sg|n=n	3	amod	_
+3	tüdrukvarss	S	sg=sg|n=n	7	nsubj	_
+4	(	Z	_	5	punct	_
+5	märavarss	S	sg=sg|n=n	3	parataxis	_
+6	)	Z	_	5	punct	_
+7	kalpsab	V	b=b	0	root	_
+8	ringi	D	_	7	compound:prt	_
+9	,	Z	_	10	punct	_
+10	kaob	V	b=b	7	conj	_
+11	igaks	P	sg=sg|tr=tr	12	det	_
+12	juhuks	S	sg=sg|tr=tr	10	obl	_
+13	koguka	A	sg=sg|g=g	14	amod	_
+14	ema	S	sg=sg|g=g	15	nmod	CHECK
+15	selja	S	sg=sg|g=g	10	obl	_
+16	taha	K	_	15	case	_
+17	ja	J	_	18	cc	_
+18	piilub	V	b=b	7	conj	_
+19	külalisi	S	pl=pl|p=p	18	obl	_
+20	.	Z	_	7	punct	_
+
+# sent_id = 18123970
+# text = Siis sai mul ka mõõt täis ja ma ütlesin neile selges soome keeles , et neil , kes ööbivad sihukeses odavas hotellis nagu Dzingel , pole siin mingisuguseid õigusi ja kadugu nad kõik kus kurat .
+1	Siis	D	_	2	advmod	_
+2	sai	V	s=s	0	root	_
+3	mul	P	sg=sg|ad=ad	2	nsubj	_
+4	ka	D	_	2	advmod	_
+5	mõõt	S	sg=sg|n=n	2	obj	_
+6	täis	D	_	2	compound:prt	_
+7	ja	J	_	9	cc	_
+8	ma	P	sg=sg|n=n	9	nsubj	_
+9	ütlesin	V	sin=sin	2	conj	_
+10	neile	P	pl=pl|all=all	9	obj	_
+11	selges	A	sg=sg|in=in	13	amod	_
+12	soome	G	_	13	amod	_
+13	keeles	S	sg=sg|in=in	9	obl	_
+14	,	Z	_	27	punct	_
+15	et	J	_	27	mark	_
+16	neil	P	pl=pl|ad=ad	27	nsubj:cop	_
+17	,	Z	_	19	punct	_
+18	kes	P	sg=sg|n=n	19	nsubj	_
+19	ööbivad	V	vad=vad	16	acl:relcl	_
+20	sihukeses	P	sg=sg|in=in	22	det	_
+21	odavas	A	sg=sg|in=in	22	acl	_
+22	hotellis	S	sg=sg|in=in	19	obj	_
+23	nagu	J	_	24	mark	_
+24	Dzingel	H	sg=sg|n=n	22	advcl	_
+25	,	Z	_	19	punct	_
+26	pole	V	neg=neg|o=o	27	cop	_
+27	siin	D	_	9	ccomp	_
+28	mingisuguseid	P	pl=pl|p=p	29	det	_
+29	õigusi	S	pl=pl|p=p	27	nsubj:cop	_
+30	ja	J	_	31	cc	_
+31	kadugu	V	gu=gu	19	conj	_
+32	nad	P	pl=pl|n=n	31	nsubj	_
+33	kõik	P	sg=sg|n=n	32	det	CHECK
+34	kus	D	_	35	mark	_
+35	kurat	S	sg=sg|n=n	31	advcl	_
+36	.	Z	_	2	punct	_
+
+# sent_id = 34391
+# text = Koomik ei jäänud siiski kauaks mälestusi heietama , vaid võttis pärast šõu lõppu baaris paar klaasikest ning kadus siis tagaukse kaudu teda oodanud limusiini .
+1	Koomik	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	jäänud	A	_	0	root	_
+4	siiski	D	_	3	advmod	_
+5	kauaks	D	_	3	advmod	_
+6	mälestusi	S	pl=pl|p=p	7	obj	_
+7	heietama	V	ma=ma	3	nsubj	_
+8	,	Z	_	10	punct	_
+9	vaid	J	_	10	cc	_
+10	võttis	V	s=s	3	conj	_
+11	pärast	K	_	13	case	_
+12	šõu	S	sg=sg|g=g	13	nmod	_
+13	lõppu	S	sg=sg|p=p	10	obl	_
+14	baaris	S	sg=sg|in=in	10	obj	_
+15	paar	N	sg=sg|n=n	16	nummod	_
+16	klaasikest	S	sg=sg|p=p	10	obj	_
+17	ning	J	_	18	cc	_
+18	kadus	V	s=s	3	conj	_
+19	siis	D	_	18	advmod	_
+20	tagaukse	S	sg=sg|g=g	23	obl	_
+21	kaudu	K	_	20	case	_
+22	teda	P	sg=sg|p=p	23	obj	_
+23	oodanud	A	sg=sg|n=n	24	acl	_
+24	limusiini	S	sg=sg|g=g	18	obl	CHECK
+25	.	Z	_	3	punct	_
+
+# sent_id = 2006694
+# text = Kui neilt ühel päeval tõsiselt abi vajad , kaovad nad kõik . "
+1	Kui	J	_	7	mark	_
+2	neilt	P	pl=pl|abl=abl	7	nsubj	_
+3	ühel	P	sg=sg|ad=ad	4	nummod	_
+4	päeval	S	sg=sg|ad=ad	7	obl	_
+5	tõsiselt	D	_	7	advmod	_
+6	abi	S	sg=sg|p=p	7	obj	_
+7	vajad	V	d=d	9	advcl	_
+8	,	Z	_	7	punct	_
+9	kaovad	V	vad=vad	0	root	_
+10	nad	P	pl=pl|n=n	9	nsubj	_
+11	kõik	P	sg=sg|n=n	9	obl	CHECK
+12	.	Z	_	9	punct	_
+13	"	Z	_	9	punct	_
+
+# sent_id = 8412732
+# text = Primaarne vajadus õiguse järele ei kao õiguse tekkides .
+1	Primaarne	A	sg=sg|n=n	2	amod	_
+2	vajadus	S	sg=sg|n=n	6	nsubj	_
+3	õiguse	S	sg=sg|g=g	2	nmod	_
+4	järele	K	_	3	case	_
+5	ei	V	neg=neg	6	aux	_
+6	kao	V	o=o	0	root	_
+7	õiguse	S	sg=sg|g=g	6	nsubj	CHECK
+8	tekkides	S	pl=pl|in=in	7	nmod	_
+9	.	Z	_	6	punct	_
+
+# sent_id = 1665990
+# text = " Meestel kadus avageimi lõpus tähelepanu .
+1	"	Z	_	3	punct	_
+2	Meestel	H	sg=sg|n=n	3	nsubj	_
+3	kadus	V	s=s	0	root	_
+4	avageimi	S	sg=sg|g=g	5	nmod	_
+5	lõpus	S	sg=sg|in=in	3	obl	_
+6	tähelepanu	S	sg=sg|p=p	3	nsubj	CHECK
+7	.	Z	_	3	punct	_
+
+# sent_id = 121730
+# text = Poole kümne ajal olengult lahkudes seisis Kirss kurva tõsiasja ees - auto võtmed olid jope taskust kadunud ja tänaval tema Toyotat enam ei olnud .
+1	Poole	N	sg=sg|g=g	2	compound	_
+2	kümne	N	sg=sg|g=g	3	nummod	_
+3	ajal	K	_	5	obl	_
+4	olengult	S	sg=sg|abl=abl	5	obl	_
+5	lahkudes	V	des=des	6	nsubj	_
+6	seisis	V	s=s	0	root	_
+7	Kirss	S	sg=sg|n=n	6	nsubj	_
+8	kurva	A	sg=sg|g=g	9	amod	_
+9	tõsiasja	S	sg=sg|p=p	6	obl	_
+10	ees	K	_	9	case	_
+11	-	Z	_	17	punct	_
+12	auto	S	sg=sg|g=g	13	nmod	_
+13	võtmed	S	pl=pl|n=n	17	nsubj	_
+14	olid	V	sid=sid	17	aux	_
+15	jope	S	sg=sg|g=g	17	nsubj	CHECK
+16	taskust	S	sg=sg|el=el	17	obl	_
+17	kadunud	A	sg=sg|n=n	6	parataxis	_
+18	ja	J	_	22	cc	_
+19	tänaval	S	sg=sg|ad=ad	22	obl	_
+20	tema	P	sg=sg|n=n	21	nmod	_
+21	Toyotat	H	sg=sg|p=p	22	nsubj:cop	_
+22	enam	D	_	17	conj	_
+23	ei	V	neg=neg	22	aux	_
+24	olnud	A	sg=sg|n=n	22	cop	_
+25	.	Z	_	6	punct	_
+
+# sent_id = 17989808
+# text = Iseseisva riigi ülesehitamine alles kestab ning rahvas pole valmis iseseisvuse osaliseks kaoks , poliitikud aga hiilivad vastutusest kõrvale
+1	Iseseisva	A	sg=sg|g=g	2	acl	_
+2	riigi	S	sg=sg|g=g	3	nmod	_
+3	ülesehitamine	S	sg=sg|n=n	5	nsubj	_
+4	alles	D	_	5	compound:prt	_
+5	kestab	V	b=b	0	root	_
+6	ning	J	_	9	cc	_
+7	rahvas	S	sg=sg|n=n	9	nsubj:cop	_
+8	pole	V	neg=neg|o=o	9	cop	_
+9	valmis	A	_	5	conj	_
+10	iseseisvuse	S	sg=sg|g=g	11	nmod	CHECK
+11	osaliseks	A	sg=sg|tr=tr	12	obl	_
+12	kaoks	V	ks=ks	9	xcomp	_
+13	,	Z	_	16	punct	_
+14	poliitikud	S	pl=pl|n=n	16	nsubj	_
+15	aga	J	_	16	advmod	_
+16	hiilivad	V	vad=vad	5	conj	_
+17	vastutusest	S	sg=sg|el=el	16	obj	_
+18	kõrvale	D	_	16	compound:prt	_
+
+# sent_id = 1035804
+# text = Kui pöörduda tagasi omaaegse karskusterminoloogia poole , siis ehk parim poliitika Euroopa Liidu suhtes poleks praegu mitte " marukarsklus " ( nagu nimetas oma ilmavaadet kadunud Villem Ernits ) ega " sigadusjoomine " ( jällegi Ernits ) , vaid hoopis parajus ?
+1	Kui	J	_	2	mark	_
+2	pöörduda	V	da=da	19	advcl	_
+3	tagasi	D	_	2	compound:prt	_
+4	omaaegse	A	sg=sg|g=g	5	amod	_
+5	karskusterminoloogia	S	sg=sg|g=g	2	obl	_
+6	poole	K	_	5	case	_
+7	,	Z	_	2	punct	_
+8	siis	J	_	19	advmod	_
+9	ehk	D	_	11	advmod	_
+10	parim	U	sg=sg|n=n	11	amod	_
+11	poliitika	S	sg=sg|n=n	19	nsubj:cop	_
+12	Euroopa	H	sg=sg|g=g	13	nmod	_
+13	Liidu	S	sg=sg|g=g	11	nmod	_
+14	suhtes	K	_	13	case	_
+15	poleks	V	neg=neg|ks=ks	19	cop	_
+16	praegu	D	_	19	advmod	_
+17	mitte	D	_	19	advmod	_
+18	"	Z	_	19	punct	_
+19	marukarsklus	S	sg=sg|n=n	0	root	_
+20	"	Z	_	19	punct	_
+21	(	Z	_	23	punct	_
+22	nagu	D	_	23	mark	_
+23	nimetas	V	s=s	19	parataxis	_
+24	oma	P	sg=sg|g=g	25	nmod	_
+25	ilmavaadet	S	sg=sg|p=p	26	obl	CHECK
+26	kadunud	A	pl=pl|n=n	27	acl	_
+27	Villem	H	sg=sg|n=n	23	nsubj	_
+28	Ernits	H	sg=sg|n=n	27	flat	_
+29	)	Z	_	23	punct	_
+30	ega	J	_	32	cc	_
+31	"	Z	_	32	punct	_
+32	sigadusjoomine	S	sg=sg|n=n	19	conj	_
+33	"	Z	_	32	punct	_
+34	(	Z	_	36	punct	_
+35	jällegi	D	_	36	advmod	_
+36	Ernits	H	sg=sg|n=n	32	parataxis	_
+37	)	Z	_	36	punct	_
+38	,	Z	_	41	punct	_
+39	vaid	J	_	41	cc	_
+40	hoopis	D	_	41	advmod	_
+41	parajus	S	sg=sg|n=n	19	conj	_
+42	?	Z	_	19	punct	_
+
+# sent_id = 7253463
+# text = siis on miilitsad millegipärast kõik kuhugi kadunud , kuigi päeval kontrollisid tihedalt dokumente .
+1	siis	D	_	7	advmod	_
+2	on	V	vad=vad	7	aux	_
+3	miilitsad	S	pl=pl|n=n	7	nsubj	_
+4	millegipärast	D	_	7	advmod	_
+5	kõik	P	pl=pl|n=n	7	nsubj	CHECK
+6	kuhugi	D	_	7	advmod	_
+7	kadunud	A	_	0	root	_
+8	,	Z	_	11	punct	_
+9	kuigi	J	_	11	mark	_
+10	päeval	S	sg=sg|ad=ad	11	nsubj	_
+11	kontrollisid	V	sid=sid	7	advcl	_
+12	tihedalt	D	_	11	advmod	_
+13	dokumente	S	pl=pl|p=p	11	obj	_
+14	.	Z	_	7	punct	_
+
+# sent_id = 434419
+# text = Paavo kui uus inimene Eesti Raadios ilmselt ei tea , et veel mõni aasta tagasi läks Tartust kuu jooksul eetrisse vahel paarkümmend saadet , mis nüüd on kõik kadunud .
+1	Paavo	H	sg=sg|n=n	9	nsubj	_
+2	kui	D	_	4	mark	_
+3	uus	A	sg=sg|n=n	4	amod	_
+4	inimene	S	sg=sg|n=n	1	advcl	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	Raadios	S	sg=sg|in=in	4	appos	_
+7	ilmselt	D	_	9	advmod	_
+8	ei	V	neg=neg	9	aux	_
+9	tea	V	o=o	0	root	_
+10	,	Z	_	16	punct	_
+11	et	J	_	16	mark	_
+12	veel	D	_	13	advmod	_
+13	mõni	P	sg=sg|n=n	14	det	_
+14	aasta	S	sg=sg|n=n	16	obl	_
+15	tagasi	K	_	14	case	_
+16	läks	V	s=s	9	ccomp	_
+17	Tartust	H	sg=sg|el=el	16	nsubj	_
+18	kuu	S	sg=sg|g=g	16	obl	_
+19	jooksul	K	_	18	case	_
+20	eetrisse	S	sg=sg|ill=ill	16	obl	_
+21	vahel	D	_	16	advmod	_
+22	paarkümmend	N	sg=sg|n=n	23	nummod	_
+23	saadet	S	sg=sg|p=p	16	nsubj	_
+24	,	Z	_	29	punct	_
+25	mis	P	sg=sg|n=n	29	nsubj	_
+26	nüüd	D	_	29	advmod	_
+27	on	V	b=b	29	aux	_
+28	kõik	P	sg=sg|n=n	29	nsubj	CHECK
+29	kadunud	A	_	23	acl:relcl	_
+30	.	Z	_	9	punct	_
+
+# sent_id = 8140801
+# text = “ Norra on liiga väärtuslik , et teda kommertsprahi laine all kao tada , ” lõpetab Peter Davey , ajakirja Architectural Review' toimetaja , oma kataloogiteksti .
+1	“	Z	_	5	punct	_
+2	Norra	H	sg=sg|n=n	5	nsubj:cop	_
+3	on	V	vad=vad	5	cop	_
+4	liiga	D	_	5	advmod	_
+5	väärtuslik	A	sg=sg|n=n	0	root	_
+6	,	Z	_	12	punct	_
+7	et	J	_	12	mark	_
+8	teda	P	sg=sg|p=p	12	nsubj	CHECK
+9	kommertsprahi	S	sg=sg|g=g	10	nmod	_
+10	laine	S	sg=sg|g=g	12	obl	_
+11	all	K	_	10	case	_
+12	kao	V	o=o	5	advcl	_
+13	tada	S	sg=sg|n=n	12	obl	_
+14	,	Z	_	5	punct	_
+15	”	Z	_	5	punct	_
+16	lõpetab	V	b=b	5	parataxis	_
+17	Peter	H	sg=sg|n=n	16	nsubj	_
+18	Davey	H	sg=sg|n=n	17	flat	_
+19	,	Z	_	20	punct	_
+20	ajakirja	S	sg=sg|g=g	17	conj	_
+21	Architectural	H	sg=sg|n=n	20	appos	_
+22	Review	H	sg=sg|n=n	21	flat	_
+23	'	Z	_	24	punct	_
+24	toimetaja	S	sg=sg|n=n	16	obj	_
+25	,	Z	_	27	punct	_
+26	oma	P	sg=sg|g=g	27	nmod	_
+27	kataloogiteksti	S	sg=sg|g=g	24	conj	_
+28	.	Z	_	5	punct	_
+
+# sent_id = 4731998
+# text = Edastame kirja üks ühele , lisaks ka pildi kadunud Rebekkast .
+1	Edastame	V	me=me	0	root	_
+2	kirja	S	sg=sg|p=p	1	obj	_
+3	üks	N	sg=sg|n=n	4	nummod	_
+4	ühele	N	sg=sg|all=all	1	nsubj	_
+5	,	Z	_	10	punct	_
+6	lisaks	S	sg=sg|tr=tr	10	nmod	_
+7	ka	D	_	10	advmod	_
+8	pildi	S	sg=sg|g=g	9	obj	CHECK
+9	kadunud	A	pl=pl|n=n	10	acl	_
+10	Rebekkast	H	sg=sg|el=el	1	nsubj	_
+11	.	Z	_	1	punct	_
+
+# sent_id = 1428649
+# text = " See raha ei kao musta auku .
+1	"	Z	_	5	punct	_
+2	See	P	sg=sg|n=n	3	det	_
+3	raha	S	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	kao	V	o=o	0	root	_
+6	musta	A	sg=sg|p=p	7	amod	_
+7	auku	S	sg=sg|p=p	5	obl	CHECK
+8	.	Z	_	5	punct	_
+
+# sent_id = 68661
+# text = Nii näiteks lekitas just tema pressi infot kadunud Mait Metsamaa perevälise suhte kohta ning hoolitses innukalt ka selle eest , et kõik vajalikud fotod vajalikesse kohtadesse jõuaksid .
+1	Nii	D	_	3	advmod	_
+2	näiteks	S	sg=sg|tr=tr	3	advmod	_
+3	lekitas	V	s=s	0	root	_
+4	just	I	_	5	advmod	_
+5	tema	P	sg=sg|g=g	6	nmod	_
+6	pressi	S	sg=sg|g=g	7	nmod	_
+7	infot	S	sg=sg|p=p	8	obj	CHECK
+8	kadunud	A	sg=sg|n=n	12	acl	_
+9	Mait	H	sg=sg|n=n	12	nmod	_
+10	Metsamaa	H	sg=sg|n=n	9	flat	_
+11	perevälise	A	sg=sg|g=g	12	amod	_
+12	suhte	S	sg=sg|g=g	3	obl	_
+13	kohta	K	_	12	case	_
+14	ning	J	_	15	cc	_
+15	hoolitses	V	s=s	3	conj	_
+16	innukalt	D	_	15	advmod	_
+17	ka	D	_	18	advmod	_
+18	selle	P	sg=sg|g=g	15	obl	_
+19	eest	K	_	18	case	_
+20	,	Z	_	27	punct	_
+21	et	J	_	27	mark	_
+22	kõik	P	pl=pl|n=n	24	det	_
+23	vajalikud	A	pl=pl|n=n	24	amod	_
+24	fotod	S	pl=pl|n=n	25	obl	_
+25	vajalikesse	A	pl=pl|ill=ill	26	amod	_
+26	kohtadesse	S	pl=pl|ill=ill	27	nsubj	_
+27	jõuaksid	V	ksid=ksid	18	acl	_
+28	.	Z	_	3	punct	_
+
+# sent_id = 5755379
+# text = Ise sattusin raamatut juhuslikult avades leheküljele , kus kirjeldatakse , kuidas mingi naine kadus tahatuppa ning seltskonna moodustanud mehed kadusid seejärel ka kõik järgemööda veerand tunniks salapäraselt tahatuppa .
+1	Ise	P	pl=pl|n=n	2	advmod	_
+2	sattusin	V	sin=sin	0	root	_
+3	raamatut	S	sg=sg|p=p	2	nsubj	_
+4	juhuslikult	D	_	2	advmod	_
+5	avades	V	des=des	6	acl	_
+6	leheküljele	S	sg=sg|all=all	2	obl	_
+7	,	Z	_	9	punct	_
+8	kus	D	_	9	mark	_
+9	kirjeldatakse	V	takse=takse	6	acl	_
+10	,	Z	_	14	punct	_
+11	kuidas	D	_	14	mark	_
+12	mingi	P	sg=sg|n=n	13	det	_
+13	naine	S	sg=sg|n=n	14	nsubj	_
+14	kadus	V	s=s	9	ccomp	_
+15	tahatuppa	S	adt=adt	14	obl	_
+16	ning	J	_	20	cc	_
+17	seltskonna	S	sg=sg|g=g	18	obj	_
+18	moodustanud	A	pl=pl|n=n	19	acl	_
+19	mehed	S	pl=pl|n=n	20	nsubj	_
+20	kadusid	V	sid=sid	14	conj	_
+21	seejärel	D	_	20	advmod	_
+22	ka	D	_	23	advmod	_
+23	kõik	P	pl=pl|n=n	28	det	CHECK
+24	järgemööda	D	_	25	advmod	_
+25	veerand	N	sg=sg|n=n	26	nummod	_
+26	tunniks	S	sg=sg|tr=tr	27	obl	_
+27	salapäraselt	D	_	28	advmod	_
+28	tahatuppa	S	adt=adt	20	obl	_
+29	.	Z	_	2	punct	_
+
+# sent_id = 5025790
+# text = Lada-Rodster on varustatud Recaro sportistmetega ja auto eemaldatav katus ei kao mitte pagasiruumi , vaid laotub selle peale .
+1	Lada-Rodster	H	sg=sg|n=n	3	obl	_
+2	on	V	b=b	3	aux	_
+3	varustatud	A	sg=sg|n=n	0	root	_
+4	Recaro	H	sg=sg|g=g	5	nmod	_
+5	sportistmetega	S	pl=pl|kom=kom	3	obj	_
+6	ja	J	_	11	cc	_
+7	auto	S	sg=sg|g=g	8	obj	_
+8	eemaldatav	A	sg=sg|n=n	9	acl	_
+9	katus	S	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	kao	V	o=o	3	conj	_
+12	mitte	D	_	13	advmod	_
+13	pagasiruumi	S	sg=sg|p=p	11	nsubj	CHECK
+14	,	Z	_	16	punct	_
+15	vaid	J	_	16	cc	_
+16	laotub	V	b=b	3	conj	_
+17	selle	P	sg=sg|g=g	16	obl	_
+18	peale	K	_	17	case	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 16322680
+# text = Leidke kompromiss või kaduge mõlemad minema .
+1	Leidke	V	ge=ge	0	root	_
+2	kompromiss	S	sg=sg|n=n	1	obj	_
+3	või	J	_	4	cc	_
+4	kaduge	V	ge=ge	1	conj	_
+5	mõlemad	P	pl=pl|n=n	6	det	CHECK
+6	minema	V	ma=ma	4	nsubj	_
+7	.	Z	_	1	punct	_
+

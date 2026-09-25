@@ -1,0 +1,112 @@
+# sent_id = 57675
+# text = 1995. aastal Saudi Araabia pealinnas Ar-Riyadis lõhatud autopomm tappis viis Ameerika ja India kodanikku .
+1	1995.	O	?=?	2	amod	_
+2	aastal	S	sg=sg|ad=ad	7	obl	_
+3	Saudi	H	sg=sg|g=g	5	nmod	_
+4	Araabia	H	sg=sg|g=g	3	flat	_
+5	pealinnas	S	sg=sg|in=in	7	obl	_
+6	Ar-Riyadis	H	sg=sg|in=in	5	appos	_
+7	lõhatud	A	pl=pl|n=n	8	acl	_
+8	autopomm	S	sg=sg|n=n	9	obj	_
+9	tappis	V	s=s	0	root	_
+10	viis	N	sg=sg|n=n	9	obj	_
+11	Ameerika	H	sg=sg|g=g	14	nmod	_
+12	ja	J	_	13	cc	_
+13	India	H	sg=sg|g=g	11	conj	_
+14	kodanikku	S	sg=sg|p=p	9	obj	CHECK
+15	.	Z	_	9	punct	_
+
+# sent_id = 3272
+# text = 996. aasta aprillis tappis korterivaras Romeo Kalda püstolilaskudega teda jälitanud politseikomissari Mart Laane ja kannab nüüd eluaegset vanglakaristust .
+1	996.	O	?=?	2	amod	_
+2	aasta	S	sg=sg|g=g	3	nmod	_
+3	aprillis	S	sg=sg|in=in	4	obl	_
+4	tappis	V	s=s	0	root	_
+5	korterivaras	S	sg=sg|n=n	4	nsubj	_
+6	Romeo	H	sg=sg|n=n	8	nmod	_
+7	Kalda	H	sg=sg|g=g	6	flat	_
+8	püstolilaskudega	S	pl=pl|kom=kom	4	obj	_
+9	teda	P	sg=sg|p=p	10	obj	_
+10	jälitanud	A	pl=pl|n=n	11	acl	_
+11	politseikomissari	S	sg=sg|g=g	4	obj	CHECK
+12	Mart	H	sg=sg|n=n	11	appos	_
+13	Laane	H	sg=sg|n=n	12	flat	_
+14	ja	J	_	15	cc	_
+15	kannab	V	b=b	4	conj	_
+16	nüüd	D	_	15	advmod	_
+17	eluaegset	A	sg=sg|p=p	18	amod	_
+18	vanglakaristust	S	sg=sg|p=p	15	obj	_
+19	.	Z	_	4	punct	_
+
+# sent_id = 668462
+# text = Väidetavalt peab Poola politsei just võla tasumise soovi põhjuseks , miks Baranowski Poolasse suure rahasummaga varjule tulnud Mihhail Gorbatshovi tappis .
+1	Väidetavalt	D	_	2	advmod	_
+2	peab	V	b=b	0	root	_
+3	Poola	H	sg=sg|g=g	4	nmod	_
+4	politsei	S	sg=sg|n=n	2	nsubj	_
+5	just	I	_	6	advmod	_
+6	võla	S	sg=sg|g=g	7	nmod	_
+7	tasumise	S	sg=sg|g=g	2	obl	_
+8	soovi	S	sg=sg|g=g	2	obj	_
+9	põhjuseks	S	sg=sg|tr=tr	8	nmod	_
+10	,	Z	_	20	punct	_
+11	miks	D	_	20	mark	_
+12	Baranowski	H	adt=adt	20	nsubj	CHECK
+13	Poolasse	H	sg=sg|ill=ill	12	flat	_
+14	suure	A	sg=sg|g=g	15	amod	_
+15	rahasummaga	S	sg=sg|kom=kom	17	obl	_
+16	varjule	D	_	17	advmod	_
+17	tulnud	A	pl=pl|n=n	18	acl	_
+18	Mihhail	H	sg=sg|n=n	20	obj	_
+19	Gorbatshovi	H	sg=sg|g=g	18	flat	_
+20	tappis	V	s=s	9	acl	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 262952
+# text = Alles jääb aga faktiline küsimus “ Kes tappis Mrs. Roux , White või Van Wyk ?
+1	Alles	D	_	2	advmod	_
+2	jääb	V	b=b	0	root	_
+3	aga	J	_	2	advmod	_
+4	faktiline	A	sg=sg|n=n	5	amod	_
+5	küsimus	S	sg=sg|n=n	2	nsubj	_
+6	“	Z	_	8	punct	_
+7	Kes	P	sg=sg|n=n	8	nsubj	_
+8	tappis	V	s=s	5	acl:relcl	_
+9	Mrs.	Y	?=?	8	obj	CHECK
+10	Roux	H	sg=sg|n=n	9	flat	_
+11	,	Z	_	12	punct	_
+12	White	H	sg=sg|n=n	9	conj	_
+13	või	J	_	14	cc	_
+14	Van	H	sg=sg|n=n	9	conj	_
+15	Wyk	H	sg=sg|n=n	14	flat	_
+16	?	Z	_	2	punct	_
+
+# sent_id = 2495020
+# text = Tapingi küla elanik Ruan Ruide on elanud kolmel sajandil ja abiellunud kolm korda .
+1	Tapingi	V	n=n	2	nmod	_
+2	küla	S	sg=sg|g=g	3	nmod	_
+3	elanik	S	sg=sg|n=n	7	nsubj	CHECK
+4	Ruan	H	sg=sg|n=n	3	appos	_
+5	Ruide	H	sg=sg|n=n	4	flat	_
+6	on	V	b=b	7	aux	_
+7	elanud	V	nud=nud	0	root	_
+8	kolmel	N	sg=sg|ad=ad	9	nummod	_
+9	sajandil	S	sg=sg|ad=ad	7	obl	_
+10	ja	J	_	11	cc	_
+11	abiellunud	A	_	7	conj	_
+12	kolm	N	sg=sg|n=n	13	nummod	_
+13	korda	S	sg=sg|p=p	11	obl	_
+14	.	Z	_	7	punct	_
+
+# sent_id = 149136
+# text = Pärast seda vägistas ja tappis meestejõuk ka ema .
+1	Pärast	K	_	2	case	_
+2	seda	P	sg=sg|p=p	3	nsubj	_
+3	vägistas	V	s=s	0	root	_
+4	ja	J	_	5	cc	_
+5	tappis	V	s=s	3	conj	_
+6	meestejõuk	S	sg=sg|n=n	5	obj	_
+7	ka	D	_	8	advmod	_
+8	ema	S	sg=sg|n=n	5	nsubj	CHECK
+9	.	Z	_	3	punct	_
+

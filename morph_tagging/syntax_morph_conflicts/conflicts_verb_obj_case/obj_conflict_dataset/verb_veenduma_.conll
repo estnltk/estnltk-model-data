@@ -1,0 +1,443 @@
+# sent_id = 3943225
+# text = Olen veendunud maa-ala kaitse pooldaja - libero ja mees-meest katvad keskkaitsjad unustage ära .
+1	Olen	V	n=n	2	aux	_
+2	veendunud	A	_	0	root	_
+3	maa-ala	S	sg=sg|g=g	4	nmod	_
+4	kaitse	S	sg=sg|g=g	2	obj	_
+5	pooldaja	S	sg=sg|n=n	4	nmod	CHECK
+6	-	Z	_	12	punct	_
+7	libero	S	sg=sg|n=n	10	obj	_
+8	ja	J	_	9	cc	_
+9	mees-meest	S	sg=sg|p=p	7	conj	_
+10	katvad	A	pl=pl|n=n	11	acl	_
+11	keskkaitsjad	S	pl=pl|n=n	12	nsubj	_
+12	unustage	V	ge=ge	2	parataxis	_
+13	ära	D	_	12	compound:prt	_
+14	.	Z	_	2	punct	_
+
+# sent_id = 911818
+# text = Koostöö valitsusväliste organisatsioonide ja ametnike vahel edeneb seda kiiremini , mida enam viimased veenduvad oma töö tulemuslikkuse tõusus tänu ühenduste kaasamisele .
+1	Koostöö	S	sg=sg|n=n	7	nsubj	_
+2	valitsusväliste	A	pl=pl|g=g	3	amod	_
+3	organisatsioonide	S	pl=pl|g=g	1	nmod	_
+4	ja	J	_	5	cc	_
+5	ametnike	S	pl=pl|g=g	3	conj	_
+6	vahel	K	_	3	case	_
+7	edeneb	V	b=b	0	root	_
+8	seda	P	sg=sg|p=p	7	nsubj	_
+9	kiiremini	D	_	7	advmod	_
+10	,	Z	_	14	punct	_
+11	mida	P	sg=sg|p=p	14	nsubj	CHECK
+12	enam	D	_	14	advmod	_
+13	viimased	A	pl=pl|n=n	14	obl	_
+14	veenduvad	V	vad=vad	7	advcl	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	töö	S	sg=sg|g=g	17	nmod	_
+17	tulemuslikkuse	S	sg=sg|g=g	18	nmod	_
+18	tõusus	S	sg=sg|in=in	14	obj	_
+19	tänu	K	_	21	case	_
+20	ühenduste	S	pl=pl|g=g	21	nmod	_
+21	kaasamisele	S	sg=sg|all=all	14	obl	_
+22	.	Z	_	7	punct	_
+
+# sent_id = 775480
+# text = Selles veendume heites pilgu kasvõi joonlauale .
+1	Selles	P	sg=sg|in=in	2	nsubj	_
+2	veendume	V	me=me	3	nsubj	_
+3	heites	V	des=des	0	root	_
+4	pilgu	S	sg=sg|g=g	3	obj	CHECK
+5	kasvõi	D	_	6	advmod	_
+6	joonlauale	S	sg=sg|all=all	3	obl	_
+7	.	Z	_	3	punct	_
+
+# sent_id = 7435488
+# text = Kes tahab midagi põnevat enda jaoks avastada , midagi õppida või niisama omaealiste seltsis olla , tulgu ja nad veenduvad pea , et noortekeskus pakub selleks võimaluse , ” ütles Tõrva noortekeskuse juhataja Merike Soomets kohalolijate poole pöördudes .
+1	Kes	P	sg=sg|n=n	2	nsubj	_
+2	tahab	V	b=b	0	root	_
+3	midagi	P	sg=sg|p=p	7	obj	_
+4	põnevat	A	sg=sg|p=p	3	amod	_
+5	enda	P	sg=sg|g=g	7	obl	_
+6	jaoks	K	_	5	case	_
+7	avastada	V	da=da	2	xcomp	_
+8	,	Z	_	10	punct	_
+9	midagi	P	sg=sg|p=p	10	nsubj	_
+10	õppida	V	da=da	2	conj	_
+11	või	J	_	14	cc	_
+12	niisama	D	_	13	advmod	_
+13	omaealiste	A	pl=pl|g=g	14	amod	_
+14	seltsis	S	sg=sg|in=in	10	conj	_
+15	olla	V	da=da	14	cop	_
+16	,	Z	_	17	punct	_
+17	tulgu	V	gu=gu	2	conj	_
+18	ja	J	_	20	cc	_
+19	nad	P	pl=pl|n=n	20	nsubj	_
+20	veenduvad	V	vad=vad	2	conj	_
+21	pea	D	_	20	advmod	CHECK
+22	,	Z	_	25	punct	_
+23	et	J	_	25	mark	_
+24	noortekeskus	S	sg=sg|n=n	25	nsubj	_
+25	pakub	V	b=b	20	ccomp	_
+26	selleks	P	sg=sg|tr=tr	27	det	_
+27	võimaluse	S	sg=sg|g=g	25	obj	_
+28	,	Z	_	17	punct	_
+29	”	Z	_	17	punct	_
+30	ütles	V	s=s	17	parataxis	_
+31	Tõrva	H	sg=sg|n=n	32	nmod	_
+32	noortekeskuse	S	sg=sg|g=g	33	nmod	_
+33	juhataja	S	sg=sg|n=n	38	nsubj	_
+34	Merike	H	sg=sg|n=n	33	appos	_
+35	Soomets	H	sg=sg|n=n	34	flat	_
+36	kohalolijate	S	pl=pl|g=g	38	obl	_
+37	poole	K	_	36	case	_
+38	pöördudes	V	des=des	30	xcomp	_
+39	.	Z	_	17	punct	_
+
+# sent_id = 4400309
+# text = Veebruari alguses Itaalias toimuvale U-23 vanuseklassi MM-ile panustava Kärpi sobivuses teatemeeskonda veendus Alaver juba läinud hooaja lõpus Falunis , kus Viljandi suusaklubi esindaja pusis klassikapoolel tuntud rivaalidega heideldes väga sitkelt .
+1	Veebruari	S	sg=sg|g=g	2	nmod	_
+2	alguses	S	sg=sg|in=in	4	obl	_
+3	Itaalias	H	sg=sg|in=in	4	obl	_
+4	toimuvale	A	sg=sg|all=all	10	acl	_
+5	U-23	N	?=?	6	nummod	_
+6	vanuseklassi	S	adt=adt	7	nmod	_
+7	MM-ile	Y	sg=sg|all=all	8	obj	_
+8	panustava	A	sg=sg|g=g	10	acl	_
+9	Kärpi	H	sg=sg|g=g	10	nmod	_
+10	sobivuses	S	sg=sg|in=in	12	obj	_
+11	teatemeeskonda	S	adt=adt	10	nmod	CHECK
+12	veendus	V	s=s	0	root	_
+13	Alaver	H	sg=sg|n=n	12	nsubj	_
+14	juba	D	_	15	advmod	_
+15	läinud	A	_	16	acl	_
+16	hooaja	S	sg=sg|g=g	17	nmod	_
+17	lõpus	S	sg=sg|in=in	12	obl	_
+18	Falunis	H	sg=sg|in=in	17	nmod	_
+19	,	Z	_	28	punct	_
+20	kus	D	_	24	mark	_
+21	Viljandi	H	sg=sg|g=g	22	nmod	_
+22	suusaklubi	S	sg=sg|g=g	23	nmod	_
+23	esindaja	S	sg=sg|n=n	24	nsubj	_
+24	pusis	V	s=s	28	advcl	_
+25	klassikapoolel	S	sg=sg|ad=ad	26	obl	_
+26	tuntud	A	sg=sg|n=n	27	acl	_
+27	rivaalidega	S	pl=pl|kom=kom	28	nsubj	_
+28	heideldes	V	des=des	12	conj	_
+29	väga	D	_	30	advmod	_
+30	sitkelt	D	_	28	advmod	_
+31	.	Z	_	12	punct	_
+
+# sent_id = 11870199
+# text = Loomaaialõhnalistesse keldriruumidesse laskudes veenduvad Viljandi Kultuurikolledži näiteeriala viimase kursuse tudengid esmalt sealses julgeolekus : « Milline on tõenäolisus et ta ( poolesajakilone püüton ) välja murrab ?
+1	Loomaaialõhnalistesse	A	pl=pl|ill=ill	2	amod	_
+2	keldriruumidesse	S	pl=pl|ill=ill	3	nmod	_
+3	laskudes	S	pl=pl|in=in	4	obj	_
+4	veenduvad	V	vad=vad	0	root	_
+5	Viljandi	H	sg=sg|g=g	6	nmod	_
+6	Kultuurikolledži	S	sg=sg|g=g	7	nmod	_
+7	näiteeriala	S	sg=sg|n=n	4	nsubj	_
+8	viimase	A	sg=sg|g=g	9	amod	_
+9	kursuse	S	sg=sg|g=g	10	nmod	_
+10	tudengid	S	pl=pl|n=n	4	nsubj	CHECK
+11	esmalt	D	_	4	advmod	_
+12	sealses	A	sg=sg|in=in	13	amod	_
+13	julgeolekus	S	sg=sg|in=in	4	obj	_
+14	:	Z	_	16	punct	_
+15	«	Z	_	16	punct	_
+16	Milline	P	sg=sg|n=n	4	parataxis	_
+17	on	V	b=b	16	cop	_
+18	tõenäolisus	S	sg=sg|n=n	26	punct	_
+19	et	J	_	26	mark	_
+20	ta	P	sg=sg|n=n	26	nsubj	_
+21	(	Z	_	23	punct	_
+22	poolesajakilone	A	sg=sg|n=n	23	amod	_
+23	püüton	S	sg=sg|n=n	20	parataxis	_
+24	)	Z	_	23	punct	_
+25	välja	D	_	26	compound:prt	_
+26	murrab	V	b=b	16	advcl	_
+27	?	Z	_	4	punct	_
+
+# sent_id = 841223
+# text = " Nüüd tuleb rikkus majja ja töökohad Ubjale , " oli osa rahvast veendunud .
+1	"	Z	_	3	punct	_
+2	Nüüd	D	_	3	advmod	_
+3	tuleb	V	b=b	0	root	_
+4	rikkus	S	sg=sg|n=n	5	nmod	_
+5	majja	S	adt=adt	3	obl	_
+6	ja	J	_	7	cc	_
+7	töökohad	S	pl=pl|n=n	5	conj	_
+8	Ubjale	H	sg=sg|n=n	7	nmod	_
+9	,	Z	_	3	punct	_
+10	"	Z	_	3	punct	_
+11	oli	V	s=s	14	cop	_
+12	osa	S	sg=sg|n=n	13	nmod	_
+13	rahvast	S	sg=sg|p=p	14	nsubj:cop	CHECK
+14	veendunud	A	pl=pl|n=n	3	parataxis	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 1705649
+# text = Maroko kaitsjad veendusid õige pea , et neid Taffareli värava alla ei lasta .
+1	Maroko	H	sg=sg|g=g	2	nmod	_
+2	kaitsjad	S	pl=pl|n=n	3	nsubj	_
+3	veendusid	V	sid=sid	0	root	_
+4	õige	A	sg=sg|n=n	5	advmod	_
+5	pea	S	sg=sg|n=n	3	nsubj	CHECK
+6	,	Z	_	13	punct	_
+7	et	J	_	13	mark	_
+8	neid	P	pl=pl|p=p	13	nsubj	_
+9	Taffareli	H	sg=sg|g=g	13	obj	_
+10	värava	S	sg=sg|g=g	13	obl	_
+11	alla	K	_	10	case	_
+12	ei	V	neg=neg	13	aux	_
+13	lasta	V	ta=ta	3	ccomp	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 4502493
+# text = Ometi - mida aeg edasi , seda kindlamini Kaari selles veendus - oli just taktika see , mille abil söakamad suguõed mehi igaveseks enda külge köitsid .
+1	Ometi	D	_	16	advmod	_
+2	-	Z	_	16	punct	_
+3	mida	P	sg=sg|p=p	4	nmod	_
+4	aeg	S	sg=sg|n=n	11	obl	_
+5	edasi	D	_	4	case	_
+6	,	Z	_	11	punct	_
+7	seda	P	sg=sg|p=p	11	nsubj	CHECK
+8	kindlamini	D	_	11	advmod	_
+9	Kaari	H	adt=adt	11	nsubj	_
+10	selles	P	sg=sg|in=in	11	nsubj	_
+11	veendus	V	s=s	16	advcl	_
+12	-	Z	_	16	punct	_
+13	oli	V	s=s	16	cop	_
+14	just	I	_	15	advmod	_
+15	taktika	S	sg=sg|n=n	16	nsubj:cop	_
+16	see	P	sg=sg|n=n	0	root	_
+17	,	Z	_	26	punct	_
+18	mille	P	sg=sg|g=g	26	obl	_
+19	abil	K	_	18	case	_
+20	söakamad	C	pl=pl|n=n	21	amod	_
+21	suguõed	S	pl=pl|n=n	22	nmod	_
+22	mehi	S	pl=pl|p=p	26	nsubj	_
+23	igaveseks	D	_	26	advmod	_
+24	enda	P	sg=sg|g=g	26	obl	_
+25	külge	K	_	24	case	_
+26	köitsid	V	sid=sid	16	acl:relcl	_
+27	.	Z	_	16	punct	_
+
+# sent_id = 58671
+# text = Isiklikult pole ma säärase sammu õigsuses avatusele pürgivas ühiskonnas veendunud .
+1	Isiklikult	D	_	10	advmod	_
+2	pole	V	neg=neg|o=o	10	aux	_
+3	ma	P	sg=sg|n=n	10	nsubj	_
+4	säärase	P	sg=sg|g=g	5	amod	_
+5	sammu	S	sg=sg|g=g	10	obl	CHECK
+6	õigsuses	S	sg=sg|in=in	7	nmod	_
+7	avatusele	S	sg=sg|all=all	8	obl	_
+8	pürgivas	A	sg=sg|in=in	9	acl	_
+9	ühiskonnas	S	sg=sg|in=in	10	obl	_
+10	veendunud	A	_	0	root	_
+11	.	Z	_	10	punct	_
+
+# sent_id = 6096425
+# text = Üks , milles isa-poega veendunud , on fakt , et väiksemat sorti kiirlaenude turul on arenguruumi võimalik veel leida . ?
+1	Üks	P	sg=sg|n=n	0	root	_
+2	,	Z	_	5	punct	_
+3	milles	P	pl=pl|in=in	5	nsubj	_
+4	isa-poega	S	adt=adt	5	obj	CHECK
+5	veendunud	A	pl=pl|n=n	1	acl:relcl	_
+6	,	Z	_	5	punct	_
+7	on	V	b=b	1	cop	_
+8	fakt	S	sg=sg|n=n	1	nsubj:cop	_
+9	,	Z	_	17	punct	_
+10	et	J	_	17	mark	_
+11	väiksemat	C	sg=sg|p=p	12	amod	_
+12	sorti	S	sg=sg|p=p	13	nmod	_
+13	kiirlaenude	S	pl=pl|g=g	14	nmod	_
+14	turul	S	sg=sg|ad=ad	17	nsubj:cop	_
+15	on	V	b=b	17	cop	_
+16	arenguruumi	S	sg=sg|g=g	17	obl	_
+17	võimalik	A	sg=sg|n=n	8	acl	_
+18	veel	D	_	19	advmod	_
+19	leida	V	da=da	17	csubj:cop	_
+20	.	Z	_	1	punct	_
+21	?	Z	_	1	punct	_
+
+# sent_id = 11482861
+# text = Muide , olen veendunud antikommunist , kuid Marxi teooriaga , et ühiskondlik-poliitilise formatsiooni määrab omand , eelkõige maaomand , olen nõus .
+1	Muide	D	_	4	advmod	_
+2	,	Z	_	4	punct	_
+3	olen	V	n=n	4	aux	_
+4	veendunud	A	_	0	root	_
+5	antikommunist	S	sg=sg|n=n	4	obj	CHECK
+6	,	Z	_	20	punct	_
+7	kuid	J	_	20	cc	_
+8	Marxi	H	sg=sg|g=g	9	nmod	_
+9	teooriaga	S	sg=sg|kom=kom	20	nsubj	_
+10	,	Z	_	14	punct	_
+11	et	J	_	14	mark	_
+12	ühiskondlik-poliitilise	A	sg=sg|g=g	13	amod	_
+13	formatsiooni	S	sg=sg|g=g	14	nsubj	_
+14	määrab	V	b=b	9	acl	_
+15	omand	S	sg=sg|n=n	14	obj	_
+16	,	Z	_	18	punct	_
+17	eelkõige	D	_	18	advmod	_
+18	maaomand	S	sg=sg|n=n	15	conj	_
+19	,	Z	_	20	punct	_
+20	olen	V	n=n	4	conj	_
+21	nõus	D	_	20	compound:prt	_
+22	.	Z	_	4	punct	_
+
+# sent_id = 1190140
+# text = Samas kinnitas Likudi ametnik Silvan Shalom BBC teatel , et mingi lepingut ei tule , kui partei pole veendunud oma mõjus otsuste langetamisel .
+1	Samas	D	_	2	advmod	_
+2	kinnitas	V	s=s	0	root	_
+3	Likudi	H	sg=sg|g=g	4	nmod	_
+4	ametnik	S	sg=sg|n=n	2	nsubj	_
+5	Silvan	H	sg=sg|n=n	4	appos	_
+6	Shalom	H	sg=sg|n=n	5	flat	_
+7	BBC	Y	?=?	8	nmod	_
+8	teatel	S	sg=sg|ad=ad	2	obj	_
+9	,	Z	_	14	punct	_
+10	et	J	_	14	mark	_
+11	mingi	P	sg=sg|g=g	12	det	_
+12	lepingut	S	sg=sg|p=p	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	tule	V	o=o	2	ccomp	_
+15	,	Z	_	19	punct	_
+16	kui	D	_	19	mark	_
+17	partei	S	sg=sg|n=n	19	nsubj	_
+18	pole	V	neg=neg|o=o	19	aux	_
+19	veendunud	A	sg=sg|n=n	14	advcl	_
+20	oma	P	sg=sg|g=g	21	nmod	_
+21	mõjus	V	s=s	19	obj	CHECK
+22	otsuste	S	pl=pl|g=g	23	nmod	_
+23	langetamisel	S	sg=sg|ad=ad	21	nmod	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 7580852
+# text = Me näime olevat veendu nud , et taeva kumm ripub vaid ühe naela otsas ja kui me seda ei tok si , lä hevad kuu ja tähed len du .
+1	Me	P	pl=pl|n=n	4	nsubj	_
+2	näime	V	me=me	4	aux	_
+3	olevat	V	vat=vat	4	cop	_
+4	veendu	V	o=o	0	root	_
+5	nud	S	sg=sg|n=n	4	obj	CHECK
+6	,	Z	_	10	punct	_
+7	et	J	_	10	mark	_
+8	taeva	S	sg=sg|g=g	9	nmod	_
+9	kumm	S	sg=sg|n=n	10	nsubj	_
+10	ripub	V	b=b	5	acl	_
+11	vaid	D	_	12	advmod	_
+12	ühe	P	sg=sg|g=g	13	nummod	_
+13	naela	S	sg=sg|g=g	10	obl	_
+14	otsas	K	_	13	case	_
+15	ja	J	_	20	cc	_
+16	kui	J	_	20	mark	_
+17	me	P	pl=pl|n=n	20	nsubj	_
+18	seda	P	sg=sg|p=p	20	obj	_
+19	ei	V	neg=neg	20	aux	_
+20	tok	S	sg=sg|n=n	10	conj	_
+21	si	Y	?=?	20	obj	_
+22	,	Z	_	23	punct	_
+23	lä	Y	?=?	10	conj	_
+24	hevad	S	sg=sg|n=n	25	nmod	_
+25	kuu	S	sg=sg|g=g	23	obl	_
+26	ja	J	_	27	cc	_
+27	tähed	S	pl=pl|n=n	25	conj	_
+28	len	S	sg=sg|n=n	27	nmod	_
+29	du	Y	?=?	27	nmod	_
+30	.	Z	_	4	punct	_
+
+# sent_id = 421995
+# text = Seekordse kohtuprotsessi alustas dr Kevorkian ise , kuna ta on veendunud eutanaasiapooldaja ja soovib selle seadustamist .
+1	Seekordse	A	sg=sg|g=g	2	amod	_
+2	kohtuprotsessi	S	sg=sg|g=g	3	obj	_
+3	alustas	V	s=s	0	root	_
+4	dr	Y	?=?	3	nsubj	_
+5	Kevorkian	H	sg=sg|n=n	4	flat	_
+6	ise	P	sg=sg|n=n	4	nmod	_
+7	,	Z	_	11	punct	_
+8	kuna	J	_	11	mark	_
+9	ta	P	sg=sg|n=n	11	nsubj	_
+10	on	V	vad=vad	11	aux	_
+11	veendunud	A	sg=sg|n=n	3	advcl	_
+12	eutanaasiapooldaja	S	sg=sg|g=g	11	obl	CHECK
+13	ja	J	_	14	cc	_
+14	soovib	V	b=b	11	conj	_
+15	selle	P	sg=sg|g=g	16	det	_
+16	seadustamist	S	sg=sg|p=p	14	obj	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 5584076
+# text = Olen valmis maksma ajalehetellimusega kaasnevaid üha kõrgemaid hindu , kuid järjest enam veendun postkasti tühjuses või mõne lehe puudumises .
+1	Olen	V	n=n	2	cop	_
+2	valmis	A	_	0	root	_
+3	maksma	V	ma=ma	2	csubj:cop	_
+4	ajalehetellimusega	S	sg=sg|kom=kom	5	obl	_
+5	kaasnevaid	A	pl=pl|p=p	8	acl	_
+6	üha	D	_	7	advmod	_
+7	kõrgemaid	C	pl=pl|p=p	8	amod	_
+8	hindu	S	pl=pl|p=p	3	obj	_
+9	,	Z	_	13	punct	_
+10	kuid	J	_	13	cc	_
+11	järjest	D	_	12	advmod	_
+12	enam	D	_	13	advmod	_
+13	veendun	V	n=n	2	conj	_
+14	postkasti	S	adt=adt	13	nsubj	CHECK
+15	tühjuses	S	sg=sg|in=in	13	nsubj	_
+16	või	J	_	19	cc	_
+17	mõne	P	sg=sg|g=g	19	det	_
+18	lehe	S	sg=sg|g=g	19	nmod	_
+19	puudumises	S	sg=sg|in=in	15	conj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 101396
+# text = On veendunud jüngreid ( “ mina usun , et see on järgmise arvutipõlvkonna tehnoloogia ” ) .
+1	On	V	b=b	2	aux	_
+2	veendunud	A	pl=pl|n=n	0	root	_
+3	jüngreid	S	pl=pl|p=p	2	nsubj	CHECK
+4	(	Z	_	7	punct	_
+5	“	Z	_	7	punct	_
+6	mina	P	sg=sg|n=n	7	nsubj	_
+7	usun	V	n=n	2	parataxis	_
+8	,	Z	_	14	punct	_
+9	et	J	_	14	mark	_
+10	see	P	sg=sg|n=n	14	nsubj:cop	_
+11	on	V	b=b	14	cop	_
+12	järgmise	A	sg=sg|g=g	13	amod	_
+13	arvutipõlvkonna	S	sg=sg|g=g	14	nmod	_
+14	tehnoloogia	S	sg=sg|g=g	7	ccomp	_
+15	”	Z	_	14	punct	_
+16	)	Z	_	7	punct	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 5454147
+# text = " Veendusin Kaalma valiku õigsuses .
+1	"	Z	_	2	punct	_
+2	Veendusin	V	sin=sin	0	root	_
+3	Kaalma	H	sg=sg|g=g	2	nsubj	_
+4	valiku	S	sg=sg|g=g	2	obj	CHECK
+5	õigsuses	S	sg=sg|in=in	2	obj	_
+6	.	Z	_	2	punct	_
+
+# sent_id = 8924777
+# text = Ilves on veendu nud oma seisukohtade õigsuses .
+1	Ilves	H	sg=sg|n=n	3	nsubj	_
+2	on	V	b=b	3	aux	_
+3	veendu	V	o=o	0	root	_
+4	nud	S	sg=sg|n=n	3	obl	CHECK
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	seisukohtade	S	pl=pl|g=g	7	nmod	_
+7	õigsuses	S	sg=sg|in=in	3	obl	_
+8	.	Z	_	3	punct	_
+
+# sent_id = 4647759
+# text = veendu maakleri atestaadi olemasolus või algava maakleri puhul juhendaja olemasolus ;
+1	veendu	V	o=o	0	root	_
+2	maakleri	S	sg=sg|g=g	3	nmod	CHECK
+3	atestaadi	S	sg=sg|g=g	4	nmod	_
+4	olemasolus	S	sg=sg|in=in	1	obj	_
+5	või	J	_	10	cc	_
+6	algava	A	sg=sg|g=g	7	acl	_
+7	maakleri	S	sg=sg|g=g	10	nmod	_
+8	puhul	K	_	7	case	_
+9	juhendaja	S	sg=sg|g=g	10	nmod	_
+10	olemasolus	S	sg=sg|in=in	4	conj	_
+11	;	Z	_	1	punct	_
+

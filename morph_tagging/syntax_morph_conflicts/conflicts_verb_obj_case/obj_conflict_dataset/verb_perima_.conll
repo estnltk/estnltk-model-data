@@ -1,0 +1,129 @@
+# sent_id = 6973730
+# text = Vahepääl ollivä peris mõistligu ilmä , nüit läits jällekine külmäs .
+1	Vahepääl	H	sg=sg|n=n	3	nsubj	_
+2	ollivä	S	sg=sg|n=n	1	flat	_
+3	peris	V	s=s	0	root	_
+4	mõistligu	S	sg=sg|p=p	3	obj	CHECK
+5	ilmä	S	sg=sg|n=n	3	obj	_
+6	,	Z	_	7	punct	_
+7	nüit	S	sg=sg|n=n	3	conj	_
+8	läits	S	sg=sg|n=n	7	flat	_
+9	jällekine	S	sg=sg|g=g	7	flat	_
+10	külmäs	S	sg=sg|in=in	7	flat	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 4148930
+# text = Ja peris nii inämp tahai kiäki , ni võit suve elämist pitä koh kõrra aastah käut romantikat tegemah ja peestämäh .
+1	Ja	J	_	2	cc	_
+2	peris	V	s=s	0	root	_
+3	nii	D	_	4	cc:preconj	_
+4	inämp	S	sg=sg|n=n	2	obj	_
+5	tahai	S	sg=sg|g=g	6	nmod	_
+6	kiäki	S	adt=adt	2	obj	CHECK
+7	,	Z	_	9	punct	_
+8	ni	Y	?=?	9	nmod	_
+9	võit	S	sg=sg|n=n	2	conj	_
+10	suve	S	sg=sg|g=g	11	nmod	_
+11	elämist	S	sg=sg|el=el	9	nmod	_
+12	pitä	S	sg=sg|g=g	11	nmod	_
+13	koh	S	sg=sg|n=n	12	flat	_
+14	kõrra	D	_	15	advmod	_
+15	aastah	S	sg=sg|n=n	16	nmod	_
+16	käut	S	sg=sg|n=n	17	nmod	_
+17	romantikat	S	sg=sg|p=p	18	nmod	_
+18	tegemah	S	sg=sg|n=n	2	conj	_
+19	ja	J	_	20	cc	_
+20	peestämäh	S	sg=sg|n=n	18	conj	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 21288781
+# text = plika_tartust: dez meda sa perid sa nagu nii ei tule
+1	plika_tartust	S	sg=sg|el=el	0	root	_
+2	:	Z	_	6	punct	_
+3	dez	S	sg=sg|n=n	4	nmod	_
+4	meda	S	sg=sg|g=g	6	obj	CHECK
+5	sa	P	sg=sg|n=n	6	nsubj	_
+6	perid	V	d=d	1	parataxis	_
+7	sa	P	sg=sg|n=n	11	nsubj	_
+8	nagu	J	_	11	mark	_
+9	nii	D	_	11	advmod	_
+10	ei	V	neg=neg	11	aux	_
+11	tule	V	o=o	6	advcl	_
+
+# sent_id = 6703108
+# text = Laupa lätsi Kruudakruusa Kusti pojage liina , sis saie igan puul käua , peris õdaguni , inni pimmet saiemi tagasi .
+1	Laupa	H	adt=adt	2	obl	_
+2	lätsi	V	o=o	0	root	_
+3	Kruudakruusa	H	sg=sg|g=g	2	nsubj	_
+4	Kusti	H	sg=sg|g=g	2	nsubj	_
+5	pojage	S	sg=sg|g=g	4	flat	_
+6	liina	S	sg=sg|n=n	4	flat	_
+7	,	Z	_	8	punct	_
+8	sis	S	sg=sg|n=n	2	conj	_
+9	saie	S	sg=sg|n=n	8	flat	_
+10	igan	S	sg=sg|n=n	8	flat	_
+11	puul	S	sg=sg|ad=ad	8	flat	_
+12	käua	S	sg=sg|n=n	8	orphan	_
+13	,	Z	_	14	punct	_
+14	peris	V	s=s	2	conj	_
+15	õdaguni	S	sg=sg|g=g	14	obj	CHECK
+16	,	Z	_	17	punct	_
+17	inni	S	sg=sg|g=g	2	conj	_
+18	pimmet	S	sg=sg|n=n	17	flat	_
+19	saiemi	S	adt=adt	17	obj	_
+20	tagasi	D	_	17	compound:prt	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 20984500
+# text = j22karupoeg: ja peris vähe eip saa :P
+1	j22karupoeg	S	sg=sg|n=n	0	root	_
+2	:	Z	_	1	punct	_
+3	ja	J	_	4	cc	_
+4	peris	V	s=s	1	conj	_
+5	vähe	D	_	4	advmod	_
+6	eip	I	_	4	discourse	_
+7	saa	V	o=o	4	aux	CHECK
+8	:P	Z	?=?	1	punct	_
+
+# sent_id = 5081329
+# text = Ei , ta on muidu peris kena avameelne mees , ütleb kõik puha välja , mis ta mõtleb .
+1	Ei	D	_	9	advmod	_
+2	,	Z	_	9	punct	_
+3	ta	P	sg=sg|n=n	9	nsubj:cop	_
+4	on	V	vad=vad	9	cop	_
+5	muidu	D	_	6	advmod	_
+6	peris	V	s=s	9	amod	_
+7	kena	A	sg=sg|n=n	9	amod	_
+8	avameelne	A	sg=sg|n=n	9	amod	_
+9	mees	S	sg=sg|n=n	0	root	CHECK
+10	,	Z	_	11	punct	_
+11	ütleb	V	b=b	9	conj	_
+12	kõik	P	sg=sg|n=n	11	nsubj	_
+13	puha	D	_	11	advmod	_
+14	välja	D	_	11	compound:prt	_
+15	,	Z	_	18	punct	_
+16	mis	P	sg=sg|n=n	18	obj	_
+17	ta	P	sg=sg|n=n	18	nsubj	_
+18	mõtleb	V	b=b	11	ccomp	_
+19	.	Z	_	9	punct	_
+
+# sent_id = 20048443
+# text = WebMaster: mida sa perid
+1	WebMaster	H	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	mida	P	pl=pl|p=p	5	obj	CHECK
+4	sa	P	sg=sg|n=n	5	nsubj	_
+5	perid	V	d=d	1	parataxis	_
+
+# sent_id = 19926089
+# text = +bad_girl: kouts sa perid normaalne tundud ?
+1	+	Z	_	2	punct	_
+2	bad_girl	S	sg=sg|n=n	0	root	_
+3	:	Z	_	6	punct	_
+4	kouts	S	sg=sg|n=n	6	obl	_
+5	sa	P	sg=sg|n=n	6	nsubj	_
+6	perid	V	d=d	2	parataxis	_
+7	normaalne	A	sg=sg|n=n	6	obj	CHECK
+8	tundud	V	d=d	6	aux	_
+9	?	Z	_	2	punct	_
+

@@ -1,0 +1,364 @@
+# sent_id = 529409
+# text = Raigo ( 21 ) juhitud Audi 80 kaotas Mooste vallas Kauksis liigse sõidukiiruse ja valede juhtimisvõtete tõttu juhitavuse , rullus üle katuse ja paiskus kraavi .
+1	Raigo	H	sg=sg|n=n	5	obl	_
+2	(	Z	_	3	punct	_
+3	21	N	?=?	1	parataxis	_
+4	)	Z	_	3	punct	_
+5	juhitud	A	_	6	acl	_
+6	Audi	S	sg=sg|g=g	8	nsubj	_
+7	80	N	?=?	6	nummod	_
+8	kaotas	V	s=s	0	root	_
+9	Mooste	H	sg=sg|g=g	10	nmod	_
+10	vallas	S	sg=sg|in=in	8	obl	_
+11	Kauksis	H	sg=sg|in=in	10	appos	_
+12	liigse	A	sg=sg|g=g	13	amod	_
+13	sõidukiiruse	S	sg=sg|g=g	8	obj	_
+14	ja	J	_	16	cc	_
+15	valede	S	pl=pl|g=g	16	amod	_
+16	juhtimisvõtete	S	pl=pl|g=g	13	conj	_
+17	tõttu	K	_	16	case	_
+18	juhitavuse	S	sg=sg|g=g	8	obj	_
+19	,	Z	_	20	punct	_
+20	rullus	V	s=s	8	conj	_
+21	üle	K	_	22	case	_
+22	katuse	S	sg=sg|g=g	20	obl	_
+23	ja	J	_	24	cc	_
+24	paiskus	V	s=s	8	conj	_
+25	kraavi	S	adt=adt	24	obj	CHECK
+26	.	Z	_	8	punct	_
+
+# sent_id = 444011
+# text = Keelepeks võtab hoogu ja hispaania monoloog , maine , emotsionaalne ja suuremeelne paiskub valla .
+1	Keelepeks	S	sg=sg|n=n	2	obj	_
+2	võtab	V	b=b	0	root	_
+3	hoogu	S	sg=sg|p=p	2	obj	_
+4	ja	J	_	6	cc	_
+5	hispaania	G	_	6	amod	_
+6	monoloog	S	sg=sg|n=n	3	conj	_
+7	,	Z	_	8	punct	_
+8	maine	S	sg=sg|n=n	3	conj	_
+9	,	Z	_	10	punct	_
+10	emotsionaalne	A	sg=sg|n=n	13	amod	_
+11	ja	J	_	12	cc	_
+12	suuremeelne	A	sg=sg|n=n	10	conj	_
+13	paiskub	V	b=b	2	conj	_
+14	valla	D	_	13	advmod	CHECK
+15	.	Z	_	2	punct	_
+
+# sent_id = 8464566
+# text = “ Kui Tallinnas maa ostuhinda kuus korda alandada ( s.t. tasuda maa eest EVPdega - V.P. ) , siis paiskuks iga hektari kohta turule kolmveerand miljonit täiendavat EVP-krooni .
+1	“	Z	_	23	punct	_
+2	Kui	D	_	8	mark	_
+3	Tallinnas	H	sg=sg|in=in	8	nsubj	_
+4	maa	S	sg=sg|g=g	5	nmod	_
+5	ostuhinda	S	adt=adt	8	obj	_
+6	kuus	N	sg=sg|n=n	7	nummod	_
+7	korda	S	sg=sg|p=p	8	obl	_
+8	alandada	V	da=da	23	advcl	_
+9	(	Z	_	11	punct	_
+10	s.t.	Y	?=?	11	obl	_
+11	tasuda	V	da=da	8	parataxis	_
+12	maa	S	sg=sg|g=g	11	obl	_
+13	eest	K	_	12	case	_
+14	EVPdega	Y	pl=pl|kom=kom	11	nsubj	_
+15	-	Z	_	16	punct	_
+16	V	O	?=?	14	appos	_
+17	.	Z	_	16	punct	_
+18	P	Y	?=?	16	flat	_
+19	.	Z	_	11	punct	_
+20	)	Z	_	11	punct	_
+21	,	Z	_	11	punct	_
+22	siis	J	_	23	advmod	_
+23	paiskuks	V	ks=ks	0	root	_
+24	iga	P	sg=sg|g=g	25	det	_
+25	hektari	S	sg=sg|g=g	23	obl	_
+26	kohta	K	_	25	case	_
+27	turule	S	sg=sg|all=all	23	obj	_
+28	kolmveerand	N	sg=sg|n=n	29	compound	_
+29	miljonit	N	sg=sg|p=p	31	nummod	_
+30	täiendavat	A	sg=sg|p=p	31	acl	_
+31	EVP-krooni	S	sg=sg|p=p	23	nsubj	CHECK
+32	.	Z	_	23	punct	_
+
+# sent_id = 14521542
+# text = See võis olla õhku paiskunud jääkild või midagi muud .
+1	See	P	sg=sg|n=n	5	nsubj	_
+2	võis	V	s=s	5	aux	_
+3	olla	V	da=da	5	aux	_
+4	õhku	S	adt=adt	5	obl	_
+5	paiskunud	V	nud=nud	0	root	_
+6	jääkild	S	sg=sg|n=n	5	obl	CHECK
+7	või	J	_	9	cc	_
+8	midagi	P	sg=sg|p=p	9	nsubj:cop	_
+9	muud	P	sg=sg|p=p	6	conj	_
+10	.	Z	_	5	punct	_
+
+# sent_id = 1886540
+# text = Lämmastikoksiid on gaas , mis eraldub mõnede bakterite elutegevuses ja paiskub õhku heitgaasina .
+1	Lämmastikoksiid	S	sg=sg|n=n	3	nsubj:cop	_
+2	on	V	vad=vad	3	cop	_
+3	gaas	S	sg=sg|n=n	0	root	_
+4	,	Z	_	6	punct	_
+5	mis	P	sg=sg|n=n	6	nsubj	_
+6	eraldub	V	b=b	3	acl:relcl	_
+7	mõnede	P	pl=pl|g=g	8	det	_
+8	bakterite	S	pl=pl|g=g	9	nmod	_
+9	elutegevuses	S	sg=sg|in=in	6	obl	_
+10	ja	J	_	11	cc	_
+11	paiskub	V	b=b	6	conj	_
+12	õhku	S	adt=adt	11	obl	CHECK
+13	heitgaasina	S	sg=sg|es=es	11	obj	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 268297
+# text = Saksa laulikutehiies tõusis siis eriti esile too ebamäärane ja viljatu paatos , too kasutu entusiasmiudu , mis surmapõlglikult paiskus üldsõnalisuse ookeani ja mulle alati meenutas ameerika madrust , kes oli kindral Jacksonist nii ülevoolavalt vaimustatud , et ta kord mastitipust merre kargas , karjudes : “ Suren kindral Jacksoni eest !
+1	Saksa	H	sg=sg|g=g	2	nmod	_
+2	laulikutehiies	S	sg=sg|in=in	3	obl	_
+3	tõusis	V	s=s	0	root	_
+4	siis	D	_	3	advmod	_
+5	eriti	D	_	3	advmod	_
+6	esile	D	_	3	compound:prt	_
+7	too	P	sg=sg|n=n	11	det	_
+8	ebamäärane	A	sg=sg|n=n	11	amod	_
+9	ja	J	_	10	cc	_
+10	viljatu	A	sg=sg|n=n	8	conj	_
+11	paatos	S	sg=sg|n=n	3	nsubj	_
+12	,	Z	_	15	punct	_
+13	too	P	sg=sg|n=n	15	det	_
+14	kasutu	A	sg=sg|n=n	15	amod	_
+15	entusiasmiudu	S	sg=sg|n=n	11	conj	_
+16	,	Z	_	19	punct	_
+17	mis	P	sg=sg|n=n	19	nsubj	_
+18	surmapõlglikult	D	_	19	advmod	_
+19	paiskus	V	s=s	15	acl:relcl	_
+20	üldsõnalisuse	S	sg=sg|g=g	19	obj	_
+21	ookeani	S	sg=sg|g=g	19	obl	CHECK
+22	ja	J	_	25	cc	_
+23	mulle	P	sg=sg|all=all	25	nsubj	_
+24	alati	D	_	25	advmod	_
+25	meenutas	V	s=s	19	conj	_
+26	ameerika	G	_	27	amod	_
+27	madrust	S	sg=sg|p=p	25	obj	_
+28	,	Z	_	35	punct	_
+29	kes	P	sg=sg|n=n	35	obj	_
+30	oli	V	s=s	35	aux	_
+31	kindral	S	sg=sg|n=n	35	obl	_
+32	Jacksonist	H	sg=sg|el=el	31	appos	_
+33	nii	D	_	34	advmod	_
+34	ülevoolavalt	D	_	35	advmod	_
+35	vaimustatud	A	sg=sg|n=n	27	acl:relcl	_
+36	,	Z	_	42	punct	_
+37	et	J	_	42	mark	_
+38	ta	P	sg=sg|g=g	42	nsubj	_
+39	kord	S	sg=sg|n=n	42	obl	_
+40	mastitipust	S	sg=sg|el=el	42	obl	_
+41	merre	S	adt=adt	42	obl	_
+42	kargas	V	s=s	35	advcl	_
+43	,	Z	_	42	punct	_
+44	karjudes	V	des=des	3	conj	_
+45	:	Z	_	47	punct	_
+46	“	Z	_	47	punct	_
+47	Suren	V	n=n	44	parataxis	_
+48	kindral	S	sg=sg|n=n	47	obl	_
+49	Jacksoni	H	sg=sg|g=g	48	appos	_
+50	eest	K	_	48	case	_
+51	!	Z	_	3	punct	_
+
+# sent_id = 1040187
+# text = Vilunud käsi eraldas Iivo kärsa ja kopsud igaveseks ning tekkinud praost paiskus taeva poole soe verejuga .
+1	Vilunud	A	pl=pl|n=n	2	acl	_
+2	käsi	S	sg=sg|n=n	3	obj	_
+3	eraldas	V	s=s	0	root	_
+4	Iivo	H	sg=sg|g=g	3	nsubj	_
+5	kärsa	S	sg=sg|g=g	3	obj	_
+6	ja	J	_	7	cc	_
+7	kopsud	S	pl=pl|n=n	5	conj	_
+8	igaveseks	D	_	3	advmod	_
+9	ning	J	_	12	cc	_
+10	tekkinud	A	_	11	acl	_
+11	praost	S	sg=sg|n=n	12	nsubj	_
+12	paiskus	V	s=s	3	conj	_
+13	taeva	S	sg=sg|g=g	12	obl	_
+14	poole	K	_	13	case	_
+15	soe	A	sg=sg|n=n	16	amod	_
+16	verejuga	S	sg=sg|n=n	12	obj	CHECK
+17	.	Z	_	3	punct	_
+
+# sent_id = 13631665
+# text = Talle andis ilmselt kuklalöögi pagasiruumist salongi paiskunud tungraud .
+1	Talle	P	sg=sg|all=all	2	nsubj	_
+2	andis	V	s=s	0	root	_
+3	ilmselt	D	_	2	advmod	_
+4	kuklalöögi	S	sg=sg|g=g	5	nmod	_
+5	pagasiruumist	S	sg=sg|el=el	2	obj	_
+6	salongi	S	sg=sg|g=g	7	obl	CHECK
+7	paiskunud	A	sg=sg|n=n	8	acl	_
+8	tungraud	S	sg=sg|n=n	2	obj	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 5133226
+# text = Suimetsa ametiautol Subaru Legacy sai viga esistange , vastu Porsche ratast paiskunud Renault Twingo omaniku kahju ulatub 15 000 kroonini .
+1	Suimetsa	H	sg=sg|g=g	2	nmod	_
+2	ametiautol	S	sg=sg|ad=ad	5	nsubj	_
+3	Subaru	H	sg=sg|n=n	2	appos	_
+4	Legacy	H	sg=sg|n=n	3	flat	_
+5	sai	V	s=s	0	root	_
+6	viga	S	sg=sg|p=p	5	obj	_
+7	esistange	S	sg=sg|n=n	5	obj	_
+8	,	Z	_	17	punct	_
+9	vastu	K	_	10	case	_
+10	Porsche	H	sg=sg|g=g	12	obl	_
+11	ratast	S	sg=sg|p=p	12	obl	CHECK
+12	paiskunud	A	sg=sg|n=n	15	acl	_
+13	Renault	H	sg=sg|n=n	15	nmod	_
+14	Twingo	H	sg=sg|g=g	13	flat	_
+15	omaniku	S	sg=sg|g=g	16	nmod	_
+16	kahju	S	sg=sg|n=n	17	nsubj	_
+17	ulatub	V	b=b	5	conj	_
+18	15 000	N	?=?	19	nummod	_
+19	kroonini	S	sg=sg|ter=ter	17	obl	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 32636
+# text = Süüdistusi ja solvanguid , mis pärast Andresele lahkumisotsuse teatavaks tegemist õhku paiskusid , meenutab Jane õlgu väristades :
+1	Süüdistusi	S	pl=pl|p=p	14	obj	_
+2	ja	J	_	3	cc	_
+3	solvanguid	S	pl=pl|p=p	1	conj	_
+4	,	Z	_	12	punct	_
+5	mis	P	pl=pl|n=n	12	nsubj	_
+6	pärast	K	_	8	case	_
+7	Andresele	H	sg=sg|all=all	8	nmod	_
+8	lahkumisotsuse	S	sg=sg|g=g	12	obl	_
+9	teatavaks	A	sg=sg|tr=tr	10	acl	_
+10	tegemist	S	sg=sg|p=p	12	obj	CHECK
+11	õhku	S	adt=adt	12	obl	_
+12	paiskusid	V	sid=sid	3	acl:relcl	_
+13	,	Z	_	12	punct	_
+14	meenutab	V	b=b	0	root	_
+15	Jane	H	sg=sg|n=n	14	nsubj	_
+16	õlgu	S	pl=pl|p=p	17	nmod	_
+17	väristades	V	des=des	14	obj	_
+18	:	Z	_	14	punct	_
+
+# sent_id = 1846901
+# text = Me ju tajume päikesekiirt oma põsel , mis paiskus teele teab mis aja eest , just praegusel hetkel .
+1	Me	P	pl=pl|n=n	3	nsubj	_
+2	ju	D	_	3	advmod	_
+3	tajume	V	me=me	0	root	_
+4	päikesekiirt	S	sg=sg|p=p	3	obj	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	põsel	S	sg=sg|ad=ad	3	obj	_
+7	,	Z	_	9	punct	_
+8	mis	P	sg=sg|n=n	9	nsubj	_
+9	paiskus	V	s=s	6	acl:relcl	_
+10	teele	S	sg=sg|all=all	9	obj	_
+11	teab	V	b=b	9	xcomp	CHECK
+12	mis	P	sg=sg|n=n	13	nmod	_
+13	aja	S	sg=sg|g=g	9	obl	_
+14	eest	K	_	13	case	_
+15	,	Z	_	18	punct	_
+16	just	D	_	17	advmod	_
+17	praegusel	A	sg=sg|ad=ad	18	amod	_
+18	hetkel	S	sg=sg|ad=ad	9	obl	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 28284
+# text = Siinkohal tahab ta aga südamele panna üht tõsiasja : kui auto peatub ning siis uuesti kohalt võtab , paiskub õhku topeltports heitgaase .
+1	Siinkohal	D	_	2	advmod	_
+2	tahab	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	aga	J	_	2	advmod	_
+5	südamele	S	sg=sg|all=all	6	obj	_
+6	panna	V	da=da	2	conj	_
+7	üht	N	sg=sg|p=p	8	nummod	_
+8	tõsiasja	S	sg=sg|p=p	6	obj	_
+9	:	Z	_	12	punct	_
+10	kui	D	_	12	mark	_
+11	auto	S	sg=sg|n=n	12	nsubj	_
+12	peatub	V	b=b	19	advcl	_
+13	ning	J	_	17	cc	_
+14	siis	D	_	17	advmod	_
+15	uuesti	D	_	17	advmod	_
+16	kohalt	S	sg=sg|abl=abl	17	obj	_
+17	võtab	V	b=b	12	conj	_
+18	,	Z	_	19	punct	_
+19	paiskub	V	b=b	2	conj	_
+20	õhku	S	adt=adt	19	nsubj	_
+21	topeltports	S	sg=sg|n=n	22	nmod	_
+22	heitgaase	S	pl=pl|p=p	19	nsubj	CHECK
+23	.	Z	_	2	punct	_
+
+# sent_id = 4847099
+# text = Kui me aevastame kinnise suuga , ei pääse õhk ninast kiiresti välja ja paiskub kõikvõimalikesse pea sisekoobastesse ja käikudesse .
+1	Kui	J	_	3	mark	_
+2	me	P	pl=pl|n=n	3	nsubj	_
+3	aevastame	V	me=me	8	advcl	_
+4	kinnise	A	sg=sg|g=g	5	amod	_
+5	suuga	S	sg=sg|kom=kom	3	obj	_
+6	,	Z	_	3	punct	_
+7	ei	V	neg=neg	8	aux	_
+8	pääse	V	o=o	0	root	_
+9	õhk	S	sg=sg|n=n	8	nsubj	_
+10	ninast	S	sg=sg|el=el	8	obj	_
+11	kiiresti	D	_	8	advmod	_
+12	välja	D	_	8	compound:prt	_
+13	ja	J	_	14	cc	_
+14	paiskub	V	b=b	8	conj	_
+15	kõikvõimalikesse	A	pl=pl|ill=ill	16	amod	_
+16	pea	S	sg=sg|g=g	14	obj	CHECK
+17	sisekoobastesse	S	pl=pl|ill=ill	14	obl	_
+18	ja	J	_	19	cc	_
+19	käikudesse	S	pl=pl|ill=ill	17	conj	_
+20	.	Z	_	8	punct	_
+
+# sent_id = 105087
+# text = Viimase poole aastaga on Moskva võimukoridoridest aina vähem paiskunud massiteabesse üldist propagandat venelaste raskest elust Eestis ning vajadusest neid kas või jõuga kaitsta .
+1	Viimase	A	sg=sg|g=g	2	amod	_
+2	poole	N	sg=sg|g=g	3	nummod	_
+3	aastaga	S	sg=sg|kom=kom	9	obl	_
+4	on	V	vad=vad	9	aux	_
+5	Moskva	H	sg=sg|g=g	6	nmod	_
+6	võimukoridoridest	S	pl=pl|el=el	9	obl	_
+7	aina	D	_	8	advmod	_
+8	vähem	D	_	9	advmod	_
+9	paiskunud	A	sg=sg|n=n	0	root	_
+10	massiteabesse	S	sg=sg|ill=ill	12	nmod	_
+11	üldist	A	sg=sg|p=p	12	amod	_
+12	propagandat	S	sg=sg|p=p	9	nsubj	CHECK
+13	venelaste	S	pl=pl|g=g	15	nmod	_
+14	raskest	A	sg=sg|el=el	15	amod	_
+15	elust	S	sg=sg|el=el	9	obj	_
+16	Eestis	H	sg=sg|in=in	15	nmod	_
+17	ning	J	_	23	cc	_
+18	vajadusest	S	sg=sg|el=el	23	obj	_
+19	neid	P	pl=pl|p=p	23	nsubj	_
+20	kas	D	_	21	advmod	_
+21	või	J	_	22	advmod	_
+22	jõuga	S	sg=sg|kom=kom	23	obj	_
+23	kaitsta	V	da=da	9	conj	_
+24	.	Z	_	9	punct	_
+
+# sent_id = 6205650
+# text = Maskaroonidest vett kas ei nirise , niriseb ainult ühest silmast või paiskub vesi nii kaugele , et maas on lomp .
+1	Maskaroonidest	H	pl=pl|el=el	2	amod	_
+2	vett	S	sg=sg|p=p	5	nsubj	_
+3	kas	D	_	5	advmod	_
+4	ei	V	neg=neg	5	aux	_
+5	nirise	V	o=o	0	root	_
+6	,	Z	_	7	punct	_
+7	niriseb	V	b=b	5	conj	_
+8	ainult	D	_	9	advmod	_
+9	ühest	P	sg=sg|el=el	10	nummod	_
+10	silmast	S	sg=sg|el=el	7	obj	_
+11	või	J	_	12	cc	_
+12	paiskub	V	b=b	5	conj	_
+13	vesi	S	sg=sg|n=n	12	obj	CHECK
+14	nii	D	_	15	advmod	_
+15	kaugele	D	_	12	advmod	_
+16	,	Z	_	18	punct	_
+17	et	J	_	18	mark	_
+18	maas	D	_	12	advcl	_
+19	on	V	b=b	18	cop	_
+20	lomp	S	sg=sg|n=n	18	nsubj:cop	_
+21	.	Z	_	5	punct	_
+

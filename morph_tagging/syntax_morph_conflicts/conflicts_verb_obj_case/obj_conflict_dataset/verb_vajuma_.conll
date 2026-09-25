@@ -1,0 +1,530 @@
+# sent_id = 3964194
+# text = Esmalt vajus laev viis , siis kümme ning viisteist kraadi kreeni ning see oli lõpu alguseks , " lisas Kamal , kelle leidis päästepaadist Saudi Araabia rannavalve .
+1	Esmalt	D	_	2	advmod	_
+2	vajus	V	s=s	0	root	_
+3	laev	S	sg=sg|n=n	2	obj	_
+4	viis	V	s=s	2	nsubj	CHECK
+5	,	Z	_	11	punct	_
+6	siis	J	_	11	advmod	_
+7	kümme	N	sg=sg|n=n	10	nummod	_
+8	ning	J	_	9	cc	_
+9	viisteist	N	sg=sg|n=n	7	conj	_
+10	kraadi	S	sg=sg|p=p	11	nmod	_
+11	kreeni	S	adt=adt	2	conj	_
+12	ning	J	_	16	cc	_
+13	see	P	sg=sg|n=n	16	nsubj:cop	_
+14	oli	V	s=s	16	cop	_
+15	lõpu	S	sg=sg|g=g	16	nmod	_
+16	alguseks	S	sg=sg|tr=tr	2	conj	_
+17	,	Z	_	19	punct	_
+18	"	Z	_	19	punct	_
+19	lisas	V	s=s	2	parataxis	_
+20	Kamal	H	sg=sg|n=n	19	nsubj	_
+21	,	Z	_	23	punct	_
+22	kelle	P	sg=sg|g=g	23	nsubj	_
+23	leidis	V	s=s	20	acl:relcl	_
+24	päästepaadist	S	sg=sg|el=el	23	obj	_
+25	Saudi	H	sg=sg|g=g	24	appos	_
+26	Araabia	H	sg=sg|g=g	25	flat	_
+27	rannavalve	S	sg=sg|n=n	23	obj	_
+28	.	Z	_	2	punct	_
+
+# sent_id = 13612731
+# text = Suurkujud ei vaju niigi unustuse hõlma .
+1	Suurkujud	S	pl=pl|n=n	3	obj	_
+2	ei	V	neg=neg	3	aux	_
+3	vaju	V	o=o	0	root	_
+4	niigi	D	_	3	advmod	_
+5	unustuse	S	sg=sg|g=g	6	nmod	_
+6	hõlma	S	sg=sg|g=g	3	nsubj	CHECK
+7	.	Z	_	3	punct	_
+
+# sent_id = 178352
+# text = Viinatootjad lubavad poed kinni panna , Eesti sajanditevanune viinatööstus on vajunud varjusurma , sest aktsiisimaks ühtlustati ning turul tuleb teistega võrdne olla .
+1	Viinatootjad	S	pl=pl|n=n	2	obj	_
+2	lubavad	V	vad=vad	0	root	_
+3	poed	S	pl=pl|n=n	5	obj	_
+4	kinni	D	_	5	compound:prt	_
+5	panna	V	da=da	2	conj	_
+6	,	Z	_	11	punct	_
+7	Eesti	H	sg=sg|g=g	9	nmod	_
+8	sajanditevanune	A	sg=sg|n=n	9	amod	_
+9	viinatööstus	S	sg=sg|n=n	11	nsubj	_
+10	on	V	vad=vad	11	aux	_
+11	vajunud	A	sg=sg|n=n	2	conj	_
+12	varjusurma	S	sg=sg|g=g	11	obj	CHECK
+13	,	Z	_	16	punct	_
+14	sest	J	_	16	mark	_
+15	aktsiisimaks	S	sg=sg|n=n	16	nsubj	_
+16	ühtlustati	V	ti=ti	11	advcl	_
+17	ning	J	_	19	cc	_
+18	turul	S	sg=sg|ad=ad	19	obl	_
+19	tuleb	V	b=b	16	conj	_
+20	teistega	O	pl=pl|kom=kom	21	nsubj:cop	_
+21	võrdne	A	sg=sg|n=n	19	xcomp	_
+22	olla	V	da=da	21	cop	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 14272150
+# text = " Uusimatel mudelitel on kahekihilised veljed , tänu millele on velg oluliselt jäigem ( ei vaju nii kergesti kaheksasse ) ning sisekummid juhuslikele vigastustele vastupidavamad .
+1	"	Z	_	3	punct	_
+2	Uusimatel	U	pl=pl|ad=ad	3	amod	_
+3	mudelitel	S	pl=pl|ad=ad	0	root	_
+4	on	V	vad=vad	3	cop	_
+5	kahekihilised	A	pl=pl|n=n	6	amod	_
+6	veljed	S	pl=pl|n=n	3	nsubj:cop	_
+7	,	Z	_	13	punct	_
+8	tänu	K	_	13	advmod	_
+9	millele	P	sg=sg|all=all	13	nsubj:cop	_
+10	on	V	vad=vad	13	cop	_
+11	velg	S	sg=sg|n=n	13	nsubj:cop	_
+12	oluliselt	D	_	13	advmod	_
+13	jäigem	C	sg=sg|n=n	6	acl:relcl	_
+14	(	Z	_	16	punct	_
+15	ei	V	neg=neg	16	aux	_
+16	vaju	V	o=o	13	parataxis	_
+17	nii	D	_	18	advmod	_
+18	kergesti	D	_	16	advmod	_
+19	kaheksasse	A	adt=adt	16	obj	CHECK
+20	)	Z	_	16	punct	_
+21	ning	J	_	25	cc	_
+22	sisekummid	S	pl=pl|n=n	24	nmod	_
+23	juhuslikele	A	pl=pl|all=all	24	amod	_
+24	vigastustele	S	pl=pl|all=all	25	obl	_
+25	vastupidavamad	C	pl=pl|n=n	13	conj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 1996269
+# text = Norralased Jevne ja Sivertsen , kes samuti Rootsis 90 kilomeetrit läbisid , vajuvad ka harva nii taha kui nüüd Lahtis , " selgitas Alaver .
+1	Norralased	H	pl=pl|n=n	13	nsubj	_
+2	Jevne	H	sg=sg|n=n	1	flat	_
+3	ja	J	_	4	cc	_
+4	Sivertsen	H	sg=sg|n=n	1	conj	_
+5	,	Z	_	11	punct	_
+6	kes	P	sg=sg|n=n	11	nsubj	_
+7	samuti	D	_	11	advmod	_
+8	Rootsis	H	sg=sg|in=in	11	obj	_
+9	90	N	?=?	10	nummod	_
+10	kilomeetrit	S	sg=sg|p=p	11	obl	_
+11	läbisid	V	sid=sid	4	acl:relcl	_
+12	,	Z	_	11	punct	_
+13	vajuvad	V	vad=vad	0	root	_
+14	ka	D	_	15	advmod	_
+15	harva	D	_	13	advmod	_
+16	nii	D	_	17	advmod	_
+17	taha	K	_	13	advmod	CHECK
+18	kui	J	_	20	mark	_
+19	nüüd	D	_	20	advmod	_
+20	Lahtis	H	sg=sg|in=in	17	advcl	_
+21	,	Z	_	13	punct	_
+22	"	Z	_	13	punct	_
+23	selgitas	V	s=s	13	parataxis	_
+24	Alaver	H	sg=sg|n=n	23	nsubj	_
+25	.	Z	_	13	punct	_
+
+# sent_id = 1735097
+# text = Kuna Rabaste kant on väga soine , veeti soo äärde 500 000 tonni liiva , et pealtvaatajad sohu ei vajuks .
+1	Kuna	J	_	6	mark	_
+2	Rabaste	H	pl=pl|g=g	6	nsubj:cop	_
+3	kant	S	sg=sg|n=n	2	flat	_
+4	on	V	b=b	6	cop	_
+5	väga	D	_	6	advmod	_
+6	soine	A	sg=sg|n=n	8	advcl	_
+7	,	Z	_	8	punct	_
+8	veeti	V	ti=ti	0	root	_
+9	soo	S	sg=sg|g=g	8	obl	_
+10	äärde	K	_	9	case	_
+11	500 000	N	?=?	12	nummod	_
+12	tonni	S	sg=sg|p=p	13	nmod	_
+13	liiva	S	sg=sg|p=p	8	obj	_
+14	,	Z	_	19	punct	_
+15	et	J	_	19	mark	_
+16	pealtvaatajad	S	pl=pl|n=n	19	nsubj	_
+17	sohu	S	adt=adt	19	obj	CHECK
+18	ei	V	neg=neg	19	aux	_
+19	vajuks	V	ks=ks	8	ccomp	_
+20	.	Z	_	8	punct	_
+
+# sent_id = 13988553
+# text = Üheksakümnendatel , kui New Order tundus bändina igavesti unustusse vajuvat , tegid pillimehed kas sooloprojekte või üritasid uute ansamblitega , näiteks Electronic ja Monaco .
+1	Üheksakümnendatel	H	sg=sg|n=n	12	obl	_
+2	,	Z	_	10	punct	_
+3	kui	D	_	10	mark	_
+4	New	H	?=?	10	nsubj	_
+5	Order	H	sg=sg|n=n	4	flat	_
+6	tundus	V	s=s	10	aux	_
+7	bändina	S	sg=sg|es=es	10	obj	_
+8	igavesti	D	_	10	advmod	_
+9	unustusse	S	adt=adt	10	obj	CHECK
+10	vajuvat	V	vat=vat	1	acl	_
+11	,	Z	_	10	punct	_
+12	tegid	V	sid=sid	0	root	_
+13	pillimehed	S	pl=pl|n=n	12	nsubj	_
+14	kas	D	_	15	cc:preconj	_
+15	sooloprojekte	S	pl=pl|p=p	12	obj	_
+16	või	J	_	17	cc	_
+17	üritasid	V	sid=sid	12	conj	_
+18	uute	A	pl=pl|g=g	19	amod	_
+19	ansamblitega	S	pl=pl|kom=kom	17	obj	_
+20	,	Z	_	22	punct	_
+21	näiteks	S	sg=sg|tr=tr	22	advmod	_
+22	Electronic	H	sg=sg|n=n	19	appos	_
+23	ja	J	_	24	cc	_
+24	Monaco	H	sg=sg|g=g	22	conj	_
+25	.	Z	_	12	punct	_
+
+# sent_id = 7000295
+# text = Nõnda väheneb vetikavohamine ning surnud vetikad ei vaju enam massiliselt merepõhja , raisates seal lagunedes ära kogu hapniku .
+1	Nõnda	D	_	2	advmod	_
+2	väheneb	V	b=b	0	root	_
+3	vetikavohamine	S	sg=sg|n=n	2	nsubj	_
+4	ning	J	_	8	cc	_
+5	surnud	A	pl=pl|n=n	6	acl	_
+6	vetikad	S	pl=pl|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	vaju	V	o=o	2	conj	_
+9	enam	D	_	8	advmod	_
+10	massiliselt	D	_	8	advmod	_
+11	merepõhja	S	adt=adt	8	obj	CHECK
+12	,	Z	_	13	punct	_
+13	raisates	V	des=des	2	conj	_
+14	seal	D	_	13	advmod	_
+15	lagunedes	V	des=des	13	obj	_
+16	ära	D	_	13	compound:prt	_
+17	kogu	A	_	18	det	_
+18	hapniku	S	sg=sg|g=g	13	obj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 44431
+# text = “ Mu süda vajus saapasäärde , ” räägib ta .
+1	“	Z	_	4	punct	_
+2	Mu	P	sg=sg|g=g	3	nmod	_
+3	süda	S	sg=sg|n=n	4	nsubj	_
+4	vajus	V	s=s	0	root	_
+5	saapasäärde	S	adt=adt	4	obj	CHECK
+6	,	Z	_	4	punct	_
+7	”	Z	_	4	punct	_
+8	räägib	V	b=b	4	parataxis	_
+9	ta	P	sg=sg|n=n	8	nsubj	_
+10	.	Z	_	4	punct	_
+
+# sent_id = 8589886
+# text = Kui mind pikuti lõhki lõigata , vajuks põrandale hunnikute kaupa vanu kaltse , vanatestamentlikke õpetussõnu , pudelikorke ja kirjutamata jäänud kirju .
+1	Kui	J	_	5	mark	_
+2	mind	P	sg=sg|p=p	5	nsubj	_
+3	pikuti	D	_	5	advmod	_
+4	lõhki	D	_	5	compound:prt	_
+5	lõigata	V	da=da	7	advcl	_
+6	,	Z	_	5	punct	_
+7	vajuks	V	ks=ks	0	root	_
+8	põrandale	S	sg=sg|all=all	7	nsubj	_
+9	hunnikute	S	pl=pl|g=g	7	obl	_
+10	kaupa	K	_	9	case	_
+11	vanu	A	pl=pl|p=p	12	amod	_
+12	kaltse	S	pl=pl|p=p	7	obj	CHECK
+13	,	Z	_	15	punct	_
+14	vanatestamentlikke	A	pl=pl|p=p	15	amod	_
+15	õpetussõnu	S	pl=pl|p=p	12	conj	_
+16	,	Z	_	17	punct	_
+17	pudelikorke	S	pl=pl|p=p	12	conj	_
+18	ja	J	_	21	cc	_
+19	kirjutamata	A	_	20	advcl	_
+20	jäänud	A	sg=sg|n=n	21	acl	_
+21	kirju	S	pl=pl|p=p	12	conj	_
+22	.	Z	_	7	punct	_
+
+# sent_id = 22069
+# text = Kui Raidal ostis maja , kus ta praegu elab , ei uskunud otepää-lased , et uus omanik võiks poolestsaati künkasse vajunud popsionnist kaasaegse kodu teha .
+1	Kui	J	_	3	mark	_
+2	Raidal	H	sg=sg|n=n	3	nsubj	_
+3	ostis	V	s=s	12	advcl	_
+4	maja	S	sg=sg|g=g	3	obj	_
+5	,	Z	_	9	punct	_
+6	kus	D	_	9	mark	_
+7	ta	P	sg=sg|n=n	9	nsubj	_
+8	praegu	D	_	9	advmod	_
+9	elab	V	b=b	4	acl	_
+10	,	Z	_	9	punct	_
+11	ei	V	neg=neg	12	aux	_
+12	uskunud	V	nud=nud	0	root	_
+13	otepää-lased	V	d=d	12	nsubj	_
+14	,	Z	_	25	punct	_
+15	et	J	_	25	mark	_
+16	uus	A	sg=sg|n=n	17	amod	_
+17	omanik	S	sg=sg|n=n	25	nsubj	_
+18	võiks	V	ks=ks	25	aux	_
+19	poolestsaati	S	sg=sg|g=g	20	nmod	CHECK
+20	künkasse	S	sg=sg|ill=ill	21	obj	_
+21	vajunud	A	sg=sg|n=n	22	acl	_
+22	popsionnist	S	sg=sg|el=el	25	nsubj	_
+23	kaasaegse	A	sg=sg|g=g	24	amod	_
+24	kodu	S	sg=sg|g=g	25	obj	_
+25	teha	V	da=da	13	acl	_
+26	.	Z	_	12	punct	_
+
+# sent_id = 5459252
+# text = Kolme aasta eest , sarnase pehme talve järel uppus kümme läbi jää vajunud last , ka eelmised kevaded ei olnud õnnetusevabad : 1999. aastal uppus jää mineku ajal neli ja mullu kaks rüblikut .
+1	Kolme	N	sg=sg|g=g	2	nummod	_
+2	aasta	S	sg=sg|g=g	9	obl	_
+3	eest	K	_	2	case	_
+4	,	Z	_	9	punct	_
+5	sarnase	A	sg=sg|g=g	7	amod	_
+6	pehme	A	sg=sg|g=g	7	amod	_
+7	talve	S	sg=sg|g=g	9	obl	_
+8	järel	K	_	7	case	_
+9	uppus	V	s=s	0	root	_
+10	kümme	N	sg=sg|n=n	14	nummod	_
+11	läbi	D	_	12	compound:prt	_
+12	jää	V	o=o	14	acl	CHECK
+13	vajunud	V	nud=nud	14	acl	_
+14	last	S	sg=sg|p=p	9	nsubj	_
+15	,	Z	_	21	punct	_
+16	ka	D	_	18	advmod	_
+17	eelmised	A	pl=pl|n=n	18	amod	_
+18	kevaded	S	pl=pl|n=n	21	nsubj:cop	_
+19	ei	V	neg=neg	21	aux	_
+20	olnud	A	pl=pl|n=n	21	cop	_
+21	õnnetusevabad	A	pl=pl|n=n	9	conj	_
+22	:	Z	_	25	punct	_
+23	1999.	O	?=?	24	amod	_
+24	aastal	S	sg=sg|ad=ad	25	obl	_
+25	uppus	V	s=s	21	parataxis	_
+26	jää	S	sg=sg|n=n	27	nmod	_
+27	mineku	S	sg=sg|g=g	25	obl	_
+28	ajal	K	_	27	case	_
+29	neli	N	sg=sg|n=n	25	nsubj	_
+30	ja	J	_	33	cc	_
+31	mullu	D	_	32	advmod	_
+32	kaks	N	sg=sg|n=n	33	nummod	_
+33	rüblikut	S	sg=sg|p=p	29	conj	_
+34	.	Z	_	9	punct	_
+
+# sent_id = 2544834
+# text = Põltsamaa vallas Kamari paisjärves uppus neljapäeval kalamees , päästeteenistuse tuuker tõi järve põhjast välja läbi jää vajunud ja uppunud 48-aastase Helduri .
+1	Põltsamaa	H	sg=sg|g=g	2	nmod	_
+2	vallas	S	sg=sg|in=in	4	nmod	_
+3	Kamari	H	sg=sg|g=g	4	nmod	_
+4	paisjärves	S	sg=sg|in=in	5	nsubj	_
+5	uppus	V	s=s	0	root	_
+6	neljapäeval	S	sg=sg|ad=ad	7	nmod	_
+7	kalamees	S	sg=sg|n=n	5	obj	_
+8	,	Z	_	11	punct	_
+9	päästeteenistuse	S	sg=sg|g=g	10	nmod	_
+10	tuuker	S	sg=sg|n=n	11	nsubj	_
+11	tõi	V	s=s	5	conj	_
+12	järve	S	sg=sg|g=g	11	obl	_
+13	põhjast	S	sg=sg|el=el	11	obj	_
+14	välja	D	_	11	compound:prt	_
+15	läbi	D	_	16	compound:prt	_
+16	jää	V	o=o	17	acl	CHECK
+17	vajunud	A	_	21	acl	_
+18	ja	J	_	19	cc	_
+19	uppunud	A	pl=pl|n=n	17	conj	_
+20	48-aastase	A	sg=sg|g=g	21	amod	_
+21	Helduri	H	sg=sg|g=g	11	nsubj	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 2770847
+# text = Häirekeskusele teatati täna hommikul kell 9.32 , et Põlvamaal Vastse-Kuuste vallas Leevijõe külas on inimene läbi kohaliku paisjärve jää vajunud .
+1	Häirekeskusele	S	sg=sg|all=all	2	obj	_
+2	teatati	V	ti=ti	0	root	_
+3	täna	D	_	2	advmod	_
+4	hommikul	S	sg=sg|ad=ad	2	obl	_
+5	kell	S	sg=sg|n=n	2	obl	_
+6	9.32	N	?=?	5	nummod	_
+7	,	Z	_	20	punct	_
+8	et	J	_	20	mark	_
+9	Põlvamaal	H	sg=sg|ad=ad	11	nmod	_
+10	Vastse-Kuuste	H	sg=sg|g=g	11	nmod	_
+11	vallas	S	sg=sg|in=in	13	nmod	_
+12	Leevijõe	H	sg=sg|g=g	13	nmod	_
+13	külas	S	sg=sg|in=in	20	obl	_
+14	on	V	b=b	20	aux	_
+15	inimene	S	sg=sg|n=n	20	nsubj	_
+16	läbi	K	_	18	case	_
+17	kohaliku	A	sg=sg|g=g	18	amod	_
+18	paisjärve	S	sg=sg|g=g	20	obl	_
+19	jää	S	sg=sg|n=n	20	obl	CHECK
+20	vajunud	A	_	2	ccomp	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 109353
+# text = Räige vene aeg on nüüdseks küll minevikku vajunud , kuid eestlaste osakaal professionaalsete meremeeste seas on ikkagi napp - 25% .
+1	Räige	A	sg=sg|n=n	3	amod	_
+2	vene	G	_	3	amod	_
+3	aeg	S	sg=sg|n=n	8	obl	_
+4	on	V	b=b	8	aux	_
+5	nüüdseks	A	sg=sg|tr=tr	8	obl	_
+6	küll	D	_	8	advmod	_
+7	minevikku	S	sg=sg|p=p	8	obj	CHECK
+8	vajunud	A	_	0	root	_
+9	,	Z	_	18	punct	_
+10	kuid	J	_	18	cc	_
+11	eestlaste	S	pl=pl|g=g	12	nmod	_
+12	osakaal	S	sg=sg|n=n	18	nsubj:cop	_
+13	professionaalsete	A	pl=pl|g=g	14	amod	_
+14	meremeeste	S	pl=pl|g=g	12	nmod	_
+15	seas	K	_	14	case	_
+16	on	V	vad=vad	18	cop	_
+17	ikkagi	D	_	18	advmod	_
+18	napp	A	sg=sg|n=n	8	conj	_
+19	-	Z	_	20	punct	_
+20	25%	N	?=?	18	parataxis	_
+21	.	Z	_	8	punct	_
+
+# sent_id = 182875
+# text = Lõhkises situatsioonis valib ta küll kindlalt ühe poole , ent jääb ausaks ja ei vaju mingisse küünilisse “ võmmid imevad ” stiili .
+1	Lõhkises	A	sg=sg|in=in	2	amod	_
+2	situatsioonis	S	sg=sg|in=in	3	obj	_
+3	valib	V	b=b	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	küll	D	_	3	advmod	_
+6	kindlalt	D	_	3	advmod	_
+7	ühe	P	sg=sg|g=g	8	nummod	_
+8	poole	N	sg=sg|g=g	3	obj	_
+9	,	Z	_	11	punct	_
+10	ent	J	_	11	cc	_
+11	jääb	V	b=b	3	conj	_
+12	ausaks	A	sg=sg|tr=tr	11	nsubj	_
+13	ja	J	_	15	cc	_
+14	ei	V	neg=neg	15	aux	_
+15	vaju	V	o=o	3	conj	_
+16	mingisse	P	sg=sg|ill=ill	22	det	_
+17	küünilisse	A	adt=adt	22	amod	_
+18	“	Z	_	20	punct	_
+19	võmmid	S	pl=pl|n=n	20	nmod	_
+20	imevad	V	vad=vad	22	nmod	_
+21	”	Z	_	20	punct	_
+22	stiili	S	sg=sg|p=p	15	obj	CHECK
+23	.	Z	_	3	punct	_
+
+# sent_id = 14483709
+# text = Vaju häbi pärast või maa alla , nagu naisega kodunt välja lähen , kukub ta laterdama .
+1	Vaju	V	o=o	0	root	_
+2	häbi	S	sg=sg|g=g	1	obj	CHECK
+3	pärast	K	_	2	case	_
+4	või	J	_	5	cc	_
+5	maa	S	sg=sg|g=g	3	conj	_
+6	alla	K	_	5	case	_
+7	,	Z	_	12	punct	_
+8	nagu	D	_	12	mark	_
+9	naisega	S	sg=sg|kom=kom	12	nsubj	_
+10	kodunt	D	_	12	advmod	_
+11	välja	D	_	12	compound:prt	_
+12	lähen	V	n=n	14	advcl	_
+13	,	Z	_	12	punct	_
+14	kukub	V	b=b	1	conj	_
+15	ta	P	sg=sg|n=n	14	nsubj	_
+16	laterdama	V	ma=ma	14	obl	_
+17	.	Z	_	1	punct	_
+
+# sent_id = 2119239
+# text = Veel paar päeva , ja me hakkame unustama eurologo , laupäevaõhtust eufooriat , Marko Reikopi mida edasi , seda rohkem mölasse vajuvat ja vaheklippide muusikat lämmatavat " reportaaži " , ürituse korraldaja ETV ( mind ei huvita pressiesindaja Raivo Suni ägamine rahapuudusest põrmugi , rääkigu seda juttu seal , kust raha saab ) masendavat telepubliku mõnitamist reklaami toppimisel kohtadesse , kus normaalsete kanalite vaatajad nägid Annely Peebo ja Marko Matvere Valgre-laulmist ja Teet Kase tantsuetendust .
+1	Veel	D	_	2	advmod	_
+2	paar	N	sg=sg|n=n	3	nummod	_
+3	päeva	S	sg=sg|p=p	45	obl	_
+4	,	Z	_	7	punct	_
+5	ja	J	_	7	cc	_
+6	me	P	pl=pl|n=n	7	nsubj	_
+7	hakkame	V	me=me	3	conj	_
+8	unustama	V	ma=ma	7	conj	_
+9	eurologo	S	sg=sg|p=p	8	obj	_
+10	,	Z	_	12	punct	_
+11	laupäevaõhtust	A	sg=sg|p=p	12	amod	_
+12	eufooriat	S	sg=sg|p=p	9	conj	_
+13	,	Z	_	14	punct	_
+14	Marko	H	sg=sg|n=n	9	conj	_
+15	Reikopi	H	sg=sg|n=n	14	flat	_
+16	mida	P	sg=sg|p=p	14	flat	_
+17	edasi	D	_	14	advmod	_
+18	,	Z	_	22	punct	_
+19	seda	P	sg=sg|p=p	22	nsubj	CHECK
+20	rohkem	D	_	22	advmod	_
+21	mölasse	S	sg=sg|ill=ill	22	obj	_
+22	vajuvat	V	vat=vat	28	acl	_
+23	ja	J	_	26	cc	_
+24	vaheklippide	S	pl=pl|g=g	26	obj	_
+25	muusikat	S	sg=sg|p=p	26	obj	_
+26	lämmatavat	A	sg=sg|p=p	22	conj	_
+27	"	Z	_	28	punct	_
+28	reportaaži	S	sg=sg|g=g	9	conj	_
+29	"	Z	_	28	punct	_
+30	,	Z	_	32	punct	_
+31	ürituse	S	sg=sg|g=g	32	nmod	_
+32	korraldaja	S	sg=sg|n=n	28	appos	_
+33	ETV	Y	?=?	32	appos	_
+34	(	Z	_	37	punct	_
+35	mind	P	sg=sg|p=p	37	nsubj	_
+36	ei	V	neg=neg	37	aux	_
+37	huvita	V	o=o	32	parataxis	_
+38	pressiesindaja	S	sg=sg|g=g	41	nmod	_
+39	Raivo	H	sg=sg|n=n	38	appos	_
+40	Suni	H	sg=sg|g=g	39	flat	_
+41	ägamine	S	sg=sg|n=n	37	obj	_
+42	rahapuudusest	S	sg=sg|el=el	41	nmod	_
+43	põrmugi	D	_	37	advmod	_
+44	,	Z	_	45	punct	_
+45	rääkigu	V	gu=gu	0	root	_
+46	seda	P	sg=sg|p=p	47	det	_
+47	juttu	S	sg=sg|p=p	45	obj	_
+48	seal	D	_	45	advmod	_
+49	,	Z	_	52	punct	_
+50	kust	D	_	52	mark	_
+51	raha	S	sg=sg|n=n	52	obj	_
+52	saab	V	b=b	45	advcl	_
+53	)	Z	_	52	punct	_
+54	masendavat	A	sg=sg|p=p	45	advcl	_
+55	telepubliku	S	sg=sg|g=g	56	nmod	_
+56	mõnitamist	S	sg=sg|p=p	54	obj	_
+57	reklaami	S	sg=sg|g=g	58	nmod	_
+58	toppimisel	S	sg=sg|ad=ad	59	nmod	_
+59	kohtadesse	S	pl=pl|ill=ill	54	obj	_
+60	,	Z	_	65	punct	_
+61	kus	D	_	65	mark	_
+62	normaalsete	A	pl=pl|g=g	63	amod	_
+63	kanalite	S	pl=pl|g=g	64	nmod	_
+64	vaatajad	S	pl=pl|n=n	65	obl	_
+65	nägid	V	sid=sid	59	acl	_
+66	Annely	H	sg=sg|n=n	65	nsubj	_
+67	Peebo	H	sg=sg|n=n	66	flat	_
+68	ja	J	_	69	cc	_
+69	Marko	H	sg=sg|n=n	66	conj	_
+70	Matvere	H	sg=sg|g=g	69	flat	_
+71	Valgre-laulmist	S	sg=sg|p=p	65	nsubj	_
+72	ja	J	_	73	cc	_
+73	Teet	H	sg=sg|n=n	71	conj	_
+74	Kase	H	sg=sg|g=g	73	flat	_
+75	tantsuetendust	S	sg=sg|p=p	65	obj	_
+76	.	Z	_	45	punct	_
+
+# sent_id = 4836424
+# text = Isegi laulusalm ütleb : " Kaotaja vajugu häbi pärast maa alla .
+1	Isegi	D	_	2	advmod	_
+2	laulusalm	S	sg=sg|n=n	3	nsubj	_
+3	ütleb	V	b=b	0	root	_
+4	:	Z	_	7	punct	_
+5	"	Z	_	7	punct	_
+6	Kaotaja	S	sg=sg|n=n	7	nsubj	_
+7	vajugu	V	gu=gu	3	parataxis	_
+8	häbi	S	sg=sg|n=n	7	obj	CHECK
+9	pärast	K	_	10	case	_
+10	maa	S	sg=sg|g=g	7	obl	_
+11	alla	K	_	10	case	_
+12	.	Z	_	3	punct	_
+
+# sent_id = 1191087
+# text = Kui ise oleks tükikene sellest , siis vajuks häbi pärast maa alla .
+1	Kui	D	_	4	mark	_
+2	ise	P	sg=sg|n=n	4	obl	_
+3	oleks	V	ks=ks	4	cop	_
+4	tükikene	S	sg=sg|n=n	8	advcl	_
+5	sellest	P	sg=sg|el=el	4	nsubj:cop	_
+6	,	Z	_	4	punct	_
+7	siis	J	_	8	advmod	_
+8	vajuks	V	ks=ks	0	root	_
+9	häbi	S	sg=sg|p=p	8	nsubj	CHECK
+10	pärast	K	_	11	case	_
+11	maa	S	sg=sg|g=g	8	obl	_
+12	alla	K	_	11	case	_
+13	.	Z	_	8	punct	_
+

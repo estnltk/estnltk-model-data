@@ -1,0 +1,479 @@
+# sent_id = 7829954
+# text = Hauast tõusnud vanaema ei ehmata pööningul lapsi ega kuku mutantämblik isa ja ema voodisse .
+1	Hauast	S	sg=sg|el=el	2	obl	_
+2	tõusnud	A	sg=sg|n=n	3	acl	_
+3	vanaema	S	sg=sg|n=n	5	obl	_
+4	ei	V	neg=neg	5	aux	_
+5	ehmata	V	o=o	0	root	_
+6	pööningul	S	sg=sg|ad=ad	5	nsubj	_
+7	lapsi	S	pl=pl|p=p	5	obj	_
+8	ega	J	_	9	cc	_
+9	kuku	V	o=o	5	conj	_
+10	mutantämblik	S	sg=sg|n=n	11	nmod	CHECK
+11	isa	S	sg=sg|g=g	9	obl	_
+12	ja	J	_	13	cc	_
+13	ema	S	sg=sg|g=g	11	conj	_
+14	voodisse	S	sg=sg|ill=ill	9	obl	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 6605091
+# text = Tasane ja rahulik , lapsed ei kuku kuristikku , maa ei värise ja käredad jõed ei vii lapsi minema .
+1	Tasane	A	sg=sg|n=n	0	root	_
+2	ja	J	_	3	cc	_
+3	rahulik	A	sg=sg|n=n	1	conj	_
+4	,	Z	_	7	punct	_
+5	lapsed	S	pl=pl|n=n	7	nsubj	_
+6	ei	V	neg=neg	7	aux	_
+7	kuku	V	o=o	1	conj	_
+8	kuristikku	S	sg=sg|p=p	7	obl	CHECK
+9	,	Z	_	12	punct	_
+10	maa	S	sg=sg|n=n	12	obj	_
+11	ei	V	neg=neg	12	aux	_
+12	värise	V	o=o	1	conj	_
+13	ja	J	_	17	cc	_
+14	käredad	A	pl=pl|n=n	15	amod	_
+15	jõed	S	pl=pl|n=n	17	nsubj	_
+16	ei	V	neg=neg	17	aux	_
+17	vii	V	o=o	1	conj	_
+18	lapsi	S	pl=pl|p=p	17	obj	_
+19	minema	V	ma=ma	17	obj	_
+20	.	Z	_	1	punct	_
+
+# sent_id = 1282228
+# text = Kuid ei maksa oodata ka , et kantsler Schröderi suust kukuks Tallinnas , Riias või Vilniuses kuldmune - muidugi ütleb ta kiidusõnu , muidugi toetab ta Baltimaade pääsemist Euroopa Liitu , kuid kes Lääne juhtidest sellist laulu ei laulaks ?
+1	Kuid	J	_	3	cc	_
+2	ei	V	neg=neg	3	aux	_
+3	maksa	V	o=o	0	root	_
+4	oodata	V	da=da	3	csubj	_
+5	ka	D	_	4	advmod	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	kantsler	S	sg=sg|n=n	10	nmod	_
+9	Schröderi	H	sg=sg|g=g	8	appos	_
+10	suust	S	sg=sg|el=el	11	obl	_
+11	kukuks	V	ks=ks	4	ccomp	_
+12	Tallinnas	H	sg=sg|in=in	11	obl	_
+13	,	Z	_	14	punct	_
+14	Riias	H	sg=sg|in=in	12	conj	_
+15	või	J	_	16	cc	_
+16	Vilniuses	H	sg=sg|in=in	12	conj	_
+17	kuldmune	S	pl=pl|p=p	11	obl	CHECK
+18	-	Z	_	20	punct	_
+19	muidugi	D	_	20	advmod	_
+20	ütleb	V	b=b	3	parataxis	_
+21	ta	P	sg=sg|n=n	20	nsubj	_
+22	kiidusõnu	S	pl=pl|p=p	20	obj	_
+23	,	Z	_	25	punct	_
+24	muidugi	D	_	25	advmod	_
+25	toetab	V	b=b	20	conj	_
+26	ta	P	sg=sg|n=n	25	nsubj	_
+27	Baltimaade	H	pl=pl|g=g	28	nmod	_
+28	pääsemist	S	sg=sg|p=p	25	obj	_
+29	Euroopa	H	sg=sg|g=g	30	nmod	_
+30	Liitu	S	adt=adt	25	obj	_
+31	,	Z	_	39	punct	_
+32	kuid	J	_	39	cc	_
+33	kes	P	sg=sg|n=n	39	nsubj	_
+34	Lääne	H	sg=sg|g=g	35	nmod	_
+35	juhtidest	S	pl=pl|el=el	39	obj	_
+36	sellist	P	sg=sg|p=p	37	det	_
+37	laulu	S	sg=sg|p=p	39	obj	_
+38	ei	V	neg=neg	39	aux	_
+39	laulaks	V	ks=ks	20	conj	_
+40	?	Z	_	3	punct	_
+
+# sent_id = 2789314
+# text = " Heameelt teeb asjaolu , et koik mehed on võrdsed , keegi ei kuku ansamblist valja , " ytles ta .
+1	"	Z	_	3	punct	_
+2	Heameelt	S	sg=sg|abl=abl	3	obj	_
+3	teeb	V	b=b	0	root	_
+4	asjaolu	S	sg=sg|n=n	3	obj	_
+5	,	Z	_	10	punct	_
+6	et	J	_	10	mark	_
+7	koik	S	sg=sg|n=n	8	nmod	_
+8	mehed	S	pl=pl|n=n	10	nsubj:cop	_
+9	on	V	b=b	10	cop	_
+10	võrdsed	A	pl=pl|n=n	4	acl	_
+11	,	Z	_	14	punct	_
+12	keegi	P	sg=sg|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	kuku	V	o=o	10	conj	_
+15	ansamblist	S	sg=sg|el=el	14	obl	_
+16	valja	S	sg=sg|n=n	14	obl	CHECK
+17	,	Z	_	3	punct	_
+18	"	Z	_	3	punct	_
+19	ytles	V	s=s	3	parataxis	_
+20	ta	P	sg=sg|n=n	19	nsubj	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 8026035
+# text = " Nii nii , " tegin mina järelduse , mis oli esialgu üksnes hypothesis , " Päästjale , kes on tõde ja elu , tahtsid tema vaenlased kõigepealt vahest sellega meelehärmi valmistada , et lahti võtta tema kingapaelad , et ta ikka kindlasti komistaks ja oma nina veriseks kukuks .
+1	"	Z	_	3	punct	_
+2	Nii	D	_	3	advmod	_
+3	nii	D	_	0	root	_
+4	,	Z	_	3	punct	_
+5	"	Z	_	3	punct	_
+6	tegin	V	sin=sin	3	parataxis	_
+7	mina	S	sg=sg|g=g	6	nsubj	_
+8	järelduse	S	sg=sg|g=g	6	obj	_
+9	,	Z	_	14	punct	_
+10	mis	P	pl=pl|n=n	14	nsubj:cop	_
+11	oli	V	s=s	14	cop	_
+12	esialgu	D	_	14	advmod	_
+13	üksnes	D	_	14	advmod	_
+14	hypothesis	S	sg=sg|in=in	8	acl:relcl	_
+15	,	Z	_	17	punct	_
+16	"	Z	_	17	punct	_
+17	Päästjale	H	sg=sg|n=n	25	nsubj	_
+18	,	Z	_	21	punct	_
+19	kes	P	pl=pl|n=n	21	nsubj:cop	_
+20	on	V	b=b	21	cop	_
+21	tõde	S	sg=sg|n=n	17	acl:relcl	_
+22	ja	J	_	23	cc	_
+23	elu	S	sg=sg|n=n	21	conj	_
+24	,	Z	_	25	punct	_
+25	tahtsid	V	sid=sid	14	conj	_
+26	tema	P	sg=sg|g=g	27	nmod	_
+27	vaenlased	S	pl=pl|n=n	32	obj	_
+28	kõigepealt	D	_	32	advmod	_
+29	vahest	D	_	32	advmod	_
+30	sellega	P	sg=sg|kom=kom	31	det	_
+31	meelehärmi	S	sg=sg|p=p	32	obj	_
+32	valmistada	V	da=da	25	xcomp	_
+33	,	Z	_	36	punct	_
+34	et	J	_	36	mark	_
+35	lahti	D	_	36	compound:prt	_
+36	võtta	V	da=da	32	advcl	_
+37	tema	P	sg=sg|g=g	38	nmod	_
+38	kingapaelad	S	pl=pl|n=n	36	obj	_
+39	,	Z	_	44	punct	_
+40	et	J	_	44	mark	_
+41	ta	P	sg=sg|n=n	44	nsubj	_
+42	ikka	D	_	44	advmod	_
+43	kindlasti	D	_	44	advmod	_
+44	komistaks	V	ks=ks	36	advcl	_
+45	ja	J	_	49	cc	_
+46	oma	P	sg=sg|g=g	47	nmod	_
+47	nina	S	sg=sg|g=g	49	obj	CHECK
+48	veriseks	A	sg=sg|tr=tr	49	xcomp	_
+49	kukuks	V	ks=ks	44	conj	_
+50	.	Z	_	3	punct	_
+
+# sent_id = 1020761
+# text = Saksa-Ameerika autotootja DaimlerChrysleri aktsia kukkus kontserni asutamisjärgse madalaima taseme 48,80 euroni , mis on 5,7 protsendi neljapäevasest sulgemishinnast madalam .
+1	Saksa-Ameerika	H	sg=sg|g=g	2	nmod	_
+2	autotootja	S	sg=sg|g=g	4	nmod	_
+3	DaimlerChrysleri	H	sg=sg|g=g	2	appos	_
+4	aktsia	S	sg=sg|n=n	5	obl	_
+5	kukkus	V	s=s	0	root	_
+6	kontserni	S	adt=adt	9	nmod	_
+7	asutamisjärgse	A	sg=sg|g=g	9	amod	_
+8	madalaima	U	sg=sg|g=g	9	amod	_
+9	taseme	S	sg=sg|g=g	5	obl	CHECK
+10	48,80	N	?=?	11	nummod	_
+11	euroni	S	sg=sg|ter=ter	5	obl	_
+12	,	Z	_	19	punct	_
+13	mis	P	sg=sg|n=n	19	nsubj:cop	_
+14	on	V	vad=vad	19	cop	_
+15	5,7	N	?=?	16	nummod	_
+16	protsendi	S	sg=sg|g=g	19	obl	_
+17	neljapäevasest	A	sg=sg|el=el	18	amod	_
+18	sulgemishinnast	S	sg=sg|el=el	19	obl	_
+19	madalam	C	sg=sg|n=n	11	acl:relcl	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 13378130
+# text = Perioodika AS väljaannetest on kõige enam kukkunud end maakultuuri vahendaja ning esindajana esitlev Maakodu ( 4638-lt tellijalt 1997 . a . 3511-le 1998 . aastal ) ja väikelaste ajakiri Täheke ( 3600-lt 2637-le ) .
+1	Perioodika	H	sg=sg|n=n	3	nmod	_
+2	AS	Y	?=?	3	nmod	_
+3	väljaannetest	S	pl=pl|el=el	7	obl	_
+4	on	V	vad=vad	7	aux	_
+5	kõige	D	_	6	advmod	_
+6	enam	D	_	7	advmod	_
+7	kukkunud	A	sg=sg|n=n	0	root	_
+8	end	Y	?=?	7	nsubj	CHECK
+9	maakultuuri	S	sg=sg|g=g	10	nmod	_
+10	vahendaja	S	sg=sg|g=g	7	nsubj	_
+11	ning	J	_	14	cc	_
+12	esindajana	S	sg=sg|es=es	13	obj	_
+13	esitlev	A	sg=sg|n=n	14	acl	_
+14	Maakodu	S	sg=sg|n=n	10	conj	_
+15	(	Z	_	17	punct	_
+16	4638-lt	O	sg=sg|abl=abl	17	amod	_
+17	tellijalt	S	sg=sg|abl=abl	14	parataxis	_
+18	1997 .	O	?=?	19	amod	_
+19	a .	Y	?=?	17	nmod	_
+20	3511-le	N	sg=sg|all=all	17	nummod	_
+21	1998 .	O	?=?	22	amod	_
+22	aastal	S	sg=sg|ad=ad	17	nmod	_
+23	)	Z	_	17	punct	_
+24	ja	J	_	25	cc	_
+25	väikelaste	S	pl=pl|g=g	26	nmod	_
+26	ajakiri	S	sg=sg|n=n	14	conj	_
+27	Täheke	H	sg=sg|n=n	26	appos	_
+28	(	Z	_	30	punct	_
+29	3600-lt	O	sg=sg|abl=abl	30	amod	_
+30	2637-le	O	sg=sg|all=all	26	parataxis	_
+31	)	Z	_	30	punct	_
+32	.	Z	_	7	punct	_
+
+# sent_id = 15216
+# text = Kukun “ auku ” , aga ronin sealt ise välja ja õnneks üsna kiiresti .
+1	Kukun	V	n=n	0	root	_
+2	“	Z	_	3	punct	_
+3	auku	S	sg=sg|p=p	1	nsubj	CHECK
+4	”	Z	_	3	punct	_
+5	,	Z	_	7	punct	_
+6	aga	J	_	7	cc	_
+7	ronin	V	n=n	1	conj	_
+8	sealt	D	_	7	advmod	_
+9	ise	P	pl=pl|n=n	7	advmod	_
+10	välja	D	_	7	compound:prt	_
+11	ja	J	_	14	cc	_
+12	õnneks	S	sg=sg|tr=tr	14	advmod	_
+13	üsna	D	_	14	advmod	_
+14	kiiresti	D	_	7	advmod	_
+15	.	Z	_	1	punct	_
+
+# sent_id = 16768198
+# text = " Rovva pole suu pääle kukkunud ja vastab : " Lõustal pole häda kedagist , aga teie olete purupurjus .
+1	"	Z	_	6	punct	_
+2	Rovva	H	sg=sg|n=n	6	nsubj	_
+3	pole	V	neg=neg|o=o	6	aux	_
+4	suu	S	sg=sg|g=g	6	obj	CHECK
+5	pääle	S	sg=sg|all=all	6	obl	_
+6	kukkunud	A	_	0	root	_
+7	ja	J	_	8	cc	_
+8	vastab	V	b=b	6	conj	_
+9	:	Z	_	14	punct	_
+10	"	Z	_	14	punct	_
+11	Lõustal	S	sg=sg|ad=ad	14	nsubj:cop	_
+12	pole	V	neg=neg|o=o	14	cop	_
+13	häda	S	sg=sg|p=p	14	nsubj:cop	_
+14	kedagist	S	sg=sg|el=el	8	parataxis	_
+15	,	Z	_	19	punct	_
+16	aga	J	_	19	cc	_
+17	teie	P	pl=pl|n=n	19	nsubj:cop	_
+18	olete	V	te=te	19	cop	_
+19	purupurjus	D	_	14	conj	_
+20	.	Z	_	6	punct	_
+
+# sent_id = 308983
+# text = Jälle justkui hoop piljardikiiga , pallid lendasid laiali , mõni kukkus võrku .
+1	Jälle	D	_	4	advmod	_
+2	justkui	J	_	4	mark	_
+3	hoop	S	sg=sg|n=n	4	nsubj:cop	_
+4	piljardikiiga	S	sg=sg|kom=kom	0	root	_
+5	,	Z	_	7	punct	_
+6	pallid	S	pl=pl|n=n	7	nsubj	_
+7	lendasid	V	sid=sid	4	conj	_
+8	laiali	D	_	7	compound:prt	_
+9	,	Z	_	11	punct	_
+10	mõni	P	sg=sg|n=n	11	nsubj	_
+11	kukkus	V	s=s	4	conj	_
+12	võrku	S	sg=sg|p=p	11	obl	CHECK
+13	.	Z	_	4	punct	_
+
+# sent_id = 10855973
+# text = Samas pole Kuku kunagi esmalt söömise , vaid pigem suhtlemise paik olnud .
+1	Samas	D	_	3	advmod	_
+2	pole	V	neg=neg|o=o	3	aux	_
+3	Kuku	V	o=o	0	root	_
+4	kunagi	D	_	3	advmod	_
+5	esmalt	D	_	3	advmod	_
+6	söömise	S	sg=sg|g=g	3	obl	CHECK
+7	,	Z	_	11	punct	_
+8	vaid	J	_	11	cc	_
+9	pigem	D	_	11	advmod	_
+10	suhtlemise	S	sg=sg|g=g	11	nmod	_
+11	paik	S	sg=sg|n=n	6	conj	_
+12	olnud	A	_	11	cop	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 8440208
+# text = Selgub , et hallipäine mees on end rentslisse katki kukkunud , abiks viinane pea .
+1	Selgub	V	b=b	0	root	_
+2	,	Z	_	10	punct	_
+3	et	J	_	10	mark	_
+4	hallipäine	A	sg=sg|n=n	5	amod	_
+5	mees	S	sg=sg|n=n	10	nsubj	_
+6	on	V	b=b	10	aux	_
+7	end	Y	?=?	10	obj	CHECK
+8	rentslisse	S	sg=sg|ill=ill	10	obl	_
+9	katki	D	_	10	compound:prt	_
+10	kukkunud	A	sg=sg|n=n	1	csubj	_
+11	,	Z	_	12	punct	_
+12	abiks	S	sg=sg|tr=tr	14	nmod	_
+13	viinane	A	sg=sg|n=n	14	amod	_
+14	pea	S	sg=sg|n=n	10	conj	_
+15	.	Z	_	1	punct	_
+
+# sent_id = 6749079
+# text = Bolton nimetas oma kõnes Kimi nime umbes 40 korda ja kirjeldas meest kui türannlikku liidrit , kes vajab põhjalikke reforme või kukub tema majandus varemeisse .
+1	Bolton	H	sg=sg|n=n	2	nsubj	_
+2	nimetas	V	s=s	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	kõnes	S	sg=sg|in=in	2	obj	_
+5	Kimi	H	sg=sg|g=g	6	nmod	_
+6	nime	S	sg=sg|g=g	2	obj	_
+7	umbes	D	_	8	advmod	_
+8	40	N	?=?	9	nummod	_
+9	korda	S	sg=sg|p=p	2	obl	_
+10	ja	J	_	11	cc	_
+11	kirjeldas	V	s=s	2	conj	_
+12	meest	S	sg=sg|p=p	11	obj	_
+13	kui	J	_	15	mark	_
+14	türannlikku	S	adt=adt	15	nmod	_
+15	liidrit	S	sg=sg|p=p	11	advcl	_
+16	,	Z	_	18	punct	_
+17	kes	P	sg=sg|n=n	18	nsubj	_
+18	vajab	V	b=b	15	acl:relcl	_
+19	põhjalikke	A	pl=pl|p=p	20	amod	_
+20	reforme	S	pl=pl|p=p	18	obj	_
+21	või	J	_	22	cc	_
+22	kukub	V	b=b	18	conj	_
+23	tema	P	sg=sg|g=g	24	nmod	_
+24	majandus	S	sg=sg|n=n	22	nsubj	CHECK
+25	varemeisse	S	pl=pl|ill=ill	22	obl	_
+26	.	Z	_	2	punct	_
+
+# sent_id = 87819
+# text = Tema mõtleb ajale , mil Läänemaal tiiki kukkunud ning nüüd Tallinnas koomas lamava lapse arved haigekassale laekuma hakkavad .
+1	Tema	P	sg=sg|n=n	2	nsubj	_
+2	mõtleb	V	b=b	0	root	_
+3	ajale	S	sg=sg|all=all	2	obj	_
+4	,	Z	_	18	punct	_
+5	mil	D	_	8	mark	_
+6	Läänemaal	H	sg=sg|ad=ad	8	nsubj	_
+7	tiiki	S	sg=sg|p=p	8	obl	CHECK
+8	kukkunud	A	_	3	acl	_
+9	ning	J	_	13	cc	_
+10	nüüd	D	_	13	advmod	_
+11	Tallinnas	H	sg=sg|in=in	13	obl	_
+12	koomas	S	sg=sg|in=in	13	obj	_
+13	lamava	A	sg=sg|g=g	8	conj	_
+14	lapse	S	sg=sg|g=g	18	nsubj	_
+15	arved	S	pl=pl|n=n	17	obj	_
+16	haigekassale	S	sg=sg|all=all	17	obj	_
+17	laekuma	V	ma=ma	18	xcomp	_
+18	hakkavad	V	vad=vad	2	conj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 1111143
+# text = Manila lähedal leiti reedel sügavsse mutta kukkunud surnukeha , mis ilmselt kuulub Filipiini lennukikaaperdajale .
+1	Manila	H	sg=sg|g=g	3	obl	_
+2	lähedal	K	_	1	case	_
+3	leiti	V	ti=ti	0	root	_
+4	reedel	S	sg=sg|ad=ad	3	nsubj	_
+5	sügavsse	S	pl=pl|p=p	6	nmod	CHECK
+6	mutta	S	adt=adt	7	obl	_
+7	kukkunud	A	_	8	acl	_
+8	surnukeha	S	sg=sg|n=n	3	obj	_
+9	,	Z	_	12	punct	_
+10	mis	P	sg=sg|n=n	12	nsubj	_
+11	ilmselt	D	_	12	advmod	_
+12	kuulub	V	b=b	8	acl:relcl	_
+13	Filipiini	H	sg=sg|g=g	14	nmod	_
+14	lennukikaaperdajale	S	sg=sg|all=all	12	obl	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 11636148
+# text = Peaasi , et määrdemeistrid oma smugeldamisega purki ei kukuks .
+1	Peaasi	S	sg=sg|n=n	0	root	_
+2	,	Z	_	9	punct	_
+3	et	J	_	9	mark	_
+4	määrdemeistrid	S	pl=pl|n=n	9	nsubj	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	smugeldamisega	S	sg=sg|kom=kom	9	obl	_
+7	purki	S	sg=sg|p=p	9	obl	CHECK
+8	ei	V	neg=neg	9	aux	_
+9	kukuks	V	ks=ks	1	ccomp	_
+10	.	Z	_	1	punct	_
+
+# sent_id = 1455756
+# text = Ja kui ühele telesaatele eelneb kuid kestev massiivne reklaamikampaania , siis ootad a priori kuldmune kukkuvat .
+1	Ja	J	_	5	cc	_
+2	kui	D	_	5	mark	_
+3	ühele	P	sg=sg|all=all	4	det	_
+4	telesaatele	S	sg=sg|all=all	5	nsubj	_
+5	eelneb	V	b=b	12	advcl	_
+6	kuid	J	_	5	advmod	_
+7	kestev	A	sg=sg|n=n	9	acl	_
+8	massiivne	A	sg=sg|n=n	9	amod	_
+9	reklaamikampaania	S	sg=sg|n=n	5	obl	_
+10	,	Z	_	5	punct	_
+11	siis	D	_	12	advmod	_
+12	ootad	V	d=d	0	root	_
+13	a	Y	?=?	14	nmod	_
+14	priori	S	sg=sg|g=g	15	nmod	_
+15	kuldmune	S	pl=pl|p=p	16	nsubj	CHECK
+16	kukkuvat	V	vat=vat	12	xcomp	_
+17	.	Z	_	12	punct	_
+
+# sent_id = 277632
+# text = Sattunud seal paikneva monstrumi lähedusse on neil ikka mingi hoog sees ja nad ei kuku auku otse , vaid jäävad tiirlema selle ümber ning moodustavad akretsiooniketta .
+1	Sattunud	A	sg=sg|n=n	5	acl	_
+2	seal	D	_	3	advmod	_
+3	paikneva	A	sg=sg|g=g	4	acl	_
+4	monstrumi	S	sg=sg|g=g	5	nmod	_
+5	lähedusse	S	adt=adt	11	obl	_
+6	on	V	vad=vad	11	cop	_
+7	neil	P	pl=pl|ad=ad	11	nsubj:cop	_
+8	ikka	D	_	10	advmod	_
+9	mingi	P	sg=sg|n=n	10	det	_
+10	hoog	S	sg=sg|n=n	11	obl	_
+11	sees	D	_	0	root	_
+12	ja	J	_	15	cc	_
+13	nad	P	pl=pl|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	kuku	V	o=o	11	conj	_
+16	auku	S	sg=sg|p=p	15	obl	CHECK
+17	otse	D	_	15	advmod	_
+18	,	Z	_	20	punct	_
+19	vaid	J	_	20	cc	_
+20	jäävad	V	vad=vad	15	conj	_
+21	tiirlema	V	ma=ma	20	nsubj	_
+22	selle	P	sg=sg|g=g	21	obl	_
+23	ümber	K	_	22	case	_
+24	ning	J	_	25	cc	_
+25	moodustavad	V	vad=vad	11	conj	_
+26	akretsiooniketta	S	sg=sg|g=g	25	obj	_
+27	.	Z	_	11	punct	_
+
+# sent_id = 2097869
+# text = Purjus mees tuleb öösel koju , komistab pimedas esikus ja kukub näo veriseks .
+1	Purjus	D	_	2	amod	_
+2	mees	S	sg=sg|n=n	3	nsubj	_
+3	tuleb	V	b=b	0	root	_
+4	öösel	D	_	3	advmod	_
+5	koju	S	adt=adt	3	obl	_
+6	,	Z	_	7	punct	_
+7	komistab	V	b=b	3	conj	_
+8	pimedas	A	sg=sg|in=in	9	amod	_
+9	esikus	S	sg=sg|in=in	7	obj	_
+10	ja	J	_	11	cc	_
+11	kukub	V	b=b	3	conj	_
+12	näo	S	sg=sg|g=g	11	obl	CHECK
+13	veriseks	A	sg=sg|tr=tr	11	obl	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 17493043
+# text = Oleks angaarid eraomandis , vaataks omanik nüüd , et tuli ei süttiks ega kukuks katus kaela .
+1	Oleks	V	ks=ks	0	root	_
+2	angaarid	S	pl=pl|n=n	3	nsubj:cop	_
+3	eraomandis	S	sg=sg|in=in	1	nsubj	_
+4	,	Z	_	5	punct	_
+5	vaataks	V	ks=ks	1	conj	_
+6	omanik	S	sg=sg|n=n	5	obj	_
+7	nüüd	D	_	5	advmod	_
+8	,	Z	_	12	punct	_
+9	et	J	_	12	mark	_
+10	tuli	S	sg=sg|n=n	12	obj	_
+11	ei	V	neg=neg	12	aux	_
+12	süttiks	V	ks=ks	5	ccomp	_
+13	ega	J	_	14	cc	_
+14	kukuks	V	ks=ks	12	conj	_
+15	katus	S	sg=sg|n=n	14	obl	CHECK
+16	kaela	S	adt=adt	15	case	_
+17	.	Z	_	1	punct	_
+

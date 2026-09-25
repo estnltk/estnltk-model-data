@@ -1,0 +1,453 @@
+# sent_id = 10867196
+# text = Kui Loskutov homme siiski starti ei asu , üritab ta uuesti maratonirada läbida paari nädala pärast Prahas või Viinis .
+1	Kui	D	_	7	mark	_
+2	Loskutov	H	sg=sg|n=n	7	nsubj	_
+3	homme	D	_	7	advmod	_
+4	siiski	D	_	7	advmod	_
+5	starti	S	sg=sg|p=p	7	obl	CHECK
+6	ei	V	neg=neg	7	aux	_
+7	asu	V	o=o	9	advcl	_
+8	,	Z	_	7	punct	_
+9	üritab	V	b=b	0	root	_
+10	ta	P	sg=sg|n=n	9	nsubj	_
+11	uuesti	D	_	9	advmod	_
+12	maratonirada	S	sg=sg|p=p	13	obj	_
+13	läbida	V	da=da	9	xcomp	_
+14	paari	N	sg=sg|g=g	15	nummod	_
+15	nädala	S	sg=sg|g=g	13	obl	_
+16	pärast	K	_	17	case	_
+17	Prahas	H	sg=sg|in=in	13	obl	_
+18	või	J	_	19	cc	_
+19	Viinis	H	sg=sg|in=in	17	conj	_
+20	.	Z	_	9	punct	_
+
+# sent_id = 12876192
+# text = Pool aastat tagasi , kui Matvere end legendlaulja Georg Otsa rolli passitama asus , oli teemaks just see , kuidas ta end Otsa sussidesse passitab .
+1	Pool	N	sg=sg|n=n	2	nummod	_
+2	aastat	S	sg=sg|p=p	16	obl	_
+3	tagasi	K	_	2	case	_
+4	,	Z	_	13	punct	_
+5	kui	J	_	13	mark	_
+6	Matvere	H	sg=sg|g=g	13	nsubj	_
+7	end	Y	?=?	13	obj	CHECK
+8	legendlaulja	S	sg=sg|n=n	11	nmod	_
+9	Georg	H	sg=sg|n=n	11	nmod	_
+10	Otsa	H	sg=sg|n=n	9	flat	_
+11	rolli	S	sg=sg|p=p	13	obj	_
+12	passitama	V	tama=tama	13	xcomp	_
+13	asus	V	s=s	18	advcl	_
+14	,	Z	_	13	punct	_
+15	oli	V	s=s	16	cop	_
+16	teemaks	S	sg=sg|tr=tr	0	root	_
+17	just	I	_	18	advmod	_
+18	see	P	sg=sg|n=n	16	nsubj:cop	_
+19	,	Z	_	25	punct	_
+20	kuidas	D	_	25	mark	_
+21	ta	P	sg=sg|n=n	25	nsubj	_
+22	end	Y	?=?	25	obj	_
+23	Otsa	S	sg=sg|g=g	25	obl	_
+24	sussidesse	S	pl=pl|ill=ill	25	obl	_
+25	passitab	V	b=b	18	acl	_
+26	.	Z	_	16	punct	_
+
+# sent_id = 6650870
+# text = Maja on ehitatud aga nii , et kooli ühte tiiba kolida on üsna keeruline , kuna söökla , võimla ja riietehoid ei asu kõik ühes tiivas , " rääkis Pevkur .
+1	Maja	S	sg=sg|n=n	3	obj	_
+2	on	V	b=b	3	aux	_
+3	ehitatud	A	pl=pl|n=n	0	root	_
+4	aga	J	_	3	advmod	_
+5	nii	D	_	3	advmod	_
+6	,	Z	_	14	punct	_
+7	et	J	_	14	mark	_
+8	kooli	S	adt=adt	10	nmod	_
+9	ühte	P	sg=sg|p=p	10	det	_
+10	tiiba	S	sg=sg|p=p	11	nsubj	_
+11	kolida	V	da=da	14	advcl	_
+12	on	V	vad=vad	14	cop	_
+13	üsna	D	_	14	advmod	_
+14	keeruline	A	sg=sg|n=n	3	advcl	_
+15	,	Z	_	23	punct	_
+16	kuna	J	_	23	mark	_
+17	söökla	S	sg=sg|n=n	23	nsubj	_
+18	,	Z	_	19	punct	_
+19	võimla	S	sg=sg|n=n	17	conj	_
+20	ja	J	_	21	cc	_
+21	riietehoid	S	sg=sg|n=n	17	conj	_
+22	ei	V	neg=neg	23	aux	_
+23	asu	V	o=o	14	advcl	_
+24	kõik	P	sg=sg|n=n	26	det	CHECK
+25	ühes	N	sg=sg|in=in	26	nummod	_
+26	tiivas	S	sg=sg|in=in	23	nsubj	_
+27	,	Z	_	3	punct	_
+28	"	Z	_	3	punct	_
+29	rääkis	V	s=s	3	parataxis	_
+30	Pevkur	H	sg=sg|n=n	29	nsubj	_
+31	.	Z	_	3	punct	_
+
+# sent_id = 984275
+# text = Neli aastat hiljemgi hõljus Jugoslaavia kohal NATO pommitamiste tõttu eemaldamisoht - Balkani juhtiv vutiriik asub end suvel Madalmaades tõestama .
+1	Neli	N	sg=sg|n=n	2	nummod	_
+2	aastat	S	sg=sg|p=p	3	obl	_
+3	hiljemgi	D	_	4	advmod	_
+4	hõljus	V	s=s	0	root	_
+5	Jugoslaavia	H	sg=sg|g=g	4	nsubj	_
+6	kohal	K	_	5	case	_
+7	NATO	Y	?=?	8	nmod	_
+8	pommitamiste	S	pl=pl|g=g	4	obl	_
+9	tõttu	K	_	8	case	_
+10	eemaldamisoht	S	sg=sg|n=n	4	obj	_
+11	-	Z	_	15	punct	_
+12	Balkani	H	sg=sg|g=g	13	obl	_
+13	juhtiv	A	sg=sg|n=n	14	acl	_
+14	vutiriik	S	sg=sg|n=n	15	nsubj	_
+15	asub	V	b=b	4	parataxis	_
+16	end	Y	?=?	15	obj	CHECK
+17	suvel	S	sg=sg|ad=ad	15	obl	_
+18	Madalmaades	H	pl=pl|in=in	19	obl	_
+19	tõestama	V	ma=ma	15	advcl	_
+20	.	Z	_	4	punct	_
+
+# sent_id = 37996
+# text = Nähtavasti tahab ta enda vallandamist , et mitte raha maksta , ja on mind nüüd šantazheerima asunud , ” üritab Valdes end kaitsta .
+1	Nähtavasti	D	_	2	advmod	_
+2	tahab	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	enda	P	sg=sg|g=g	5	nmod	_
+5	vallandamist	S	sg=sg|p=p	2	obj	_
+6	,	Z	_	10	punct	_
+7	et	J	_	10	mark	_
+8	mitte	D	_	9	advmod	_
+9	raha	S	sg=sg|p=p	10	obj	_
+10	maksta	V	da=da	2	advcl	_
+11	,	Z	_	17	punct	_
+12	ja	J	_	17	cc	_
+13	on	V	b=b	17	aux	_
+14	mind	P	sg=sg|p=p	17	nsubj	CHECK
+15	nüüd	D	_	17	advmod	_
+16	šantazheerima	V	ma=ma	17	xcomp	_
+17	asunud	V	nud=nud	10	conj	_
+18	,	Z	_	2	punct	_
+19	”	Z	_	2	punct	_
+20	üritab	V	b=b	2	parataxis	_
+21	Valdes	H	sg=sg|n=n	20	nsubj	_
+22	end	P	sg=sg|p=p	23	obj	_
+23	kaitsta	V	da=da	20	xcomp	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 7646589
+# text = “ Asteroidid on kunagi Marsi ja Jupiteri vahel asunud Maa-tüüpi planeedi tükid .
+1	“	Z	_	9	punct	_
+2	Asteroidid	S	pl=pl|n=n	9	nsubj	_
+3	on	V	vad=vad	9	aux	_
+4	kunagi	D	_	9	advmod	_
+5	Marsi	H	sg=sg|g=g	9	obl	_
+6	ja	J	_	7	cc	_
+7	Jupiteri	H	sg=sg|g=g	5	conj	_
+8	vahel	K	_	5	case	_
+9	asunud	V	nud=nud	0	root	_
+10	Maa-tüüpi	S	adt=adt	11	nmod	_
+11	planeedi	S	sg=sg|g=g	9	obl	_
+12	tükid	S	pl=pl|n=n	11	appos	CHECK
+13	.	Z	_	9	punct	_
+
+# sent_id = 4149453
+# text = Iroonilisel kombel on Wal-Mart praeguseks asunud end  smiley  ?
+1	Iroonilisel	A	sg=sg|ad=ad	2	amod	_
+2	kombel	S	sg=sg|ad=ad	6	obl	_
+3	on	V	vad=vad	6	aux	_
+4	Wal-Mart	H	sg=sg|n=n	6	obl	_
+5	praeguseks	A	sg=sg|tr=tr	4	flat	_
+6	asunud	V	nud=nud	0	root	_
+7	end	Y	?=?	6	nsubj	CHECK
+8	smiley	S	sg=sg|n=n	6	obl	_
+9	?	Z	_	6	punct	_
+
+# sent_id = 3093
+# text = Kui noorem lõpetab järgmisel aastal alles gümnaasiumi ja keskmine poeg juba euroülikooli , siis vanem pole kõrgharidust veel omandama asunudki .
+1	Kui	J	_	3	mark	_
+2	noorem	C	sg=sg|n=n	3	nsubj	_
+3	lõpetab	V	b=b	20	advcl	_
+4	järgmisel	A	sg=sg|ad=ad	5	amod	_
+5	aastal	S	sg=sg|ad=ad	3	obl	_
+6	alles	D	_	3	advmod	_
+7	gümnaasiumi	S	sg=sg|g=g	3	obj	_
+8	ja	J	_	10	cc	_
+9	keskmine	A	sg=sg|n=n	10	amod	_
+10	poeg	S	sg=sg|n=n	7	conj	_
+11	juba	D	_	12	advmod	_
+12	euroülikooli	S	adt=adt	3	obj	_
+13	,	Z	_	3	punct	_
+14	siis	J	_	20	advmod	_
+15	vanem	S	sg=sg|n=n	20	obl	_
+16	pole	V	neg=neg|o=o	20	aux	_
+17	kõrgharidust	S	sg=sg|p=p	20	nsubj	CHECK
+18	veel	D	_	20	advmod	_
+19	omandama	V	ma=ma	20	xcomp	_
+20	asunudki	V	nud=nud	0	root	_
+21	.	Z	_	20	punct	_
+
+# sent_id = 2266987
+# text = Isikuandmete leht ei asu enam passi tagakaane siseküljel vaid passi sees .
+1	Isikuandmete	S	pl=pl|g=g	2	nmod	_
+2	leht	S	sg=sg|n=n	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	asu	V	o=o	0	root	_
+5	enam	D	_	4	advmod	_
+6	passi	S	sg=sg|g=g	4	nsubj	CHECK
+7	tagakaane	S	sg=sg|g=g	8	nmod	_
+8	siseküljel	S	sg=sg|ad=ad	4	nsubj	_
+9	vaid	D	_	10	advmod	_
+10	passi	S	sg=sg|g=g	4	obl	_
+11	sees	K	_	10	case	_
+12	.	Z	_	4	punct	_
+
+# sent_id = 56307
+# text = Pagulastega tegelevad ametkonnad asuvad kõik Tallinnas .
+1	Pagulastega	S	pl=pl|kom=kom	2	obl	_
+2	tegelevad	V	vad=vad	3	acl	_
+3	ametkonnad	S	pl=pl|n=n	4	obl	_
+4	asuvad	V	vad=vad	0	root	_
+5	kõik	P	pl=pl|n=n	6	det	CHECK
+6	Tallinnas	H	sg=sg|in=in	4	nsubj	_
+7	.	Z	_	4	punct	_
+
+# sent_id = 4116714
+# text = Mõlemad kõrgeima taseme ametnikud , kes Eestist on Euroopa Komisjoni tööle asunud , on olnud naised : kaubanduspeadirektoraadi juhtivnõunikuna töötab Signe Ratso , Maive Rute juhib innovatsiooni ja väikeettevõtluse direktoraati .
+1	Mõlemad	P	pl=pl|n=n	4	det	_
+2	kõrgeima	U	sg=sg|g=g	3	amod	_
+3	taseme	S	sg=sg|g=g	4	nmod	_
+4	ametnikud	S	pl=pl|n=n	16	nsubj:cop	_
+5	,	Z	_	12	punct	_
+6	kes	P	pl=pl|n=n	12	nsubj	_
+7	Eestist	H	sg=sg|el=el	12	obl	_
+8	on	V	vad=vad	12	aux	_
+9	Euroopa	H	sg=sg|g=g	10	nmod	_
+10	Komisjoni	H	sg=sg|g=g	12	obl	CHECK
+11	tööle	S	sg=sg|all=all	12	obl	_
+12	asunud	A	_	4	acl:relcl	_
+13	,	Z	_	12	punct	_
+14	on	V	b=b	16	aux	_
+15	olnud	A	sg=sg|n=n	16	cop	_
+16	naised	S	pl=pl|n=n	0	root	_
+17	:	Z	_	20	punct	_
+18	kaubanduspeadirektoraadi	S	sg=sg|g=g	19	nmod	_
+19	juhtivnõunikuna	S	sg=sg|es=es	20	nsubj	_
+20	töötab	V	b=b	16	parataxis	_
+21	Signe	H	sg=sg|n=n	20	nsubj	_
+22	Ratso	H	sg=sg|n=n	21	flat	_
+23	,	Z	_	26	punct	_
+24	Maive	H	sg=sg|n=n	26	nsubj	_
+25	Rute	H	sg=sg|n=n	24	flat	_
+26	juhib	V	b=b	20	conj	_
+27	innovatsiooni	S	sg=sg|g=g	26	obj	_
+28	ja	J	_	30	cc	_
+29	väikeettevõtluse	S	sg=sg|g=g	30	nmod	_
+30	direktoraati	S	sg=sg|p=p	27	conj	_
+31	.	Z	_	16	punct	_
+
+# sent_id = 149195
+# text = Need tähed asusid kõik meile lähemal kui 82 valgusaastat .
+1	Need	P	pl=pl|n=n	2	det	_
+2	tähed	S	pl=pl|n=n	3	nsubj	_
+3	asusid	V	sid=sid	0	root	_
+4	kõik	P	sg=sg|n=n	5	det	CHECK
+5	meile	P	pl=pl|all=all	3	obl	_
+6	lähemal	D	_	3	advmod	_
+7	kui	J	_	9	mark	_
+8	82	N	?=?	9	nummod	_
+9	valgusaastat	S	sg=sg|p=p	6	advcl	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 31758
+# text = Suurima mõnuga võtab ta aeg-ajalt kohvikus tassi kohvi ja jäätise ( “ Mõnes kohas juba teatakse , mis sorti ma armastan . ” ) ning asub inimesi “ lugema ” .
+1	Suurima	U	sg=sg|g=g	2	amod	_
+2	mõnuga	S	sg=sg|kom=kom	3	obj	_
+3	võtab	V	b=b	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	aeg-ajalt	D	_	3	advmod	_
+6	kohvikus	S	sg=sg|in=in	3	obj	_
+7	tassi	S	adt=adt	8	nmod	_
+8	kohvi	S	sg=sg|g=g	3	obj	_
+9	ja	J	_	10	cc	_
+10	jäätise	S	sg=sg|g=g	8	conj	_
+11	(	Z	_	16	punct	_
+12	“	Z	_	16	punct	_
+13	Mõnes	P	sg=sg|in=in	14	det	_
+14	kohas	S	sg=sg|in=in	16	nsubj	_
+15	juba	D	_	16	advmod	_
+16	teatakse	V	takse=takse	3	parataxis	_
+17	,	Z	_	21	punct	_
+18	mis	P	sg=sg|n=n	19	nmod	_
+19	sorti	S	sg=sg|p=p	21	obj	_
+20	ma	P	sg=sg|n=n	21	nsubj	_
+21	armastan	V	n=n	16	ccomp	_
+22	.	Z	_	16	punct	_
+23	”	Z	_	16	punct	_
+24	)	Z	_	16	punct	_
+25	ning	J	_	26	cc	_
+26	asub	V	b=b	16	conj	_
+27	inimesi	S	pl=pl|p=p	26	nsubj	CHECK
+28	“	Z	_	29	punct	_
+29	lugema	V	ma=ma	26	parataxis	_
+30	”	Z	_	29	punct	_
+31	.	Z	_	3	punct	_
+
+# sent_id = 13677
+# text = Eelmisel kevadel asusid aga lavastaja ja hääleseadjad “ Evita ” proovides Siiri häält omal , traditsioonilisel moel “ murdma ” .
+1	Eelmisel	A	sg=sg|ad=ad	2	amod	_
+2	kevadel	S	sg=sg|ad=ad	3	obl	_
+3	asusid	V	sid=sid	0	root	_
+4	aga	J	_	3	advmod	_
+5	lavastaja	S	sg=sg|n=n	3	obl	_
+6	ja	J	_	7	cc	_
+7	hääleseadjad	S	pl=pl|n=n	5	conj	_
+8	“	Z	_	9	punct	_
+9	Evita	H	sg=sg|ab=ab	7	appos	_
+10	”	Z	_	9	punct	_
+11	proovides	S	pl=pl|in=in	3	obl	_
+12	Siiri	H	sg=sg|n=n	11	appos	_
+13	häält	S	sg=sg|p=p	3	obl	CHECK
+14	omal	A	sg=sg|ad=ad	3	obl	_
+15	,	Z	_	19	punct	_
+16	traditsioonilisel	A	sg=sg|ad=ad	17	amod	_
+17	moel	S	sg=sg|ad=ad	19	obl	_
+18	“	Z	_	19	punct	_
+19	murdma	V	ma=ma	14	conj	_
+20	”	Z	_	19	punct	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 4599778
+# text = Sakala uus ja tänapäevane 1800-kohaline suur saal ei asu ühegi teise Tallinna saaliga otsesesse konkurentsi , kuna võrreldav saal - hoolimata teravast vajadusest - Tallinnas lihtsalt puudub .
+1	Sakala	H	sg=sg|g=g	7	nmod	_
+2	uus	A	sg=sg|n=n	7	amod	_
+3	ja	J	_	4	cc	_
+4	tänapäevane	A	sg=sg|n=n	2	conj	_
+5	1800-kohaline	A	sg=sg|n=n	7	amod	_
+6	suur	A	sg=sg|n=n	7	amod	_
+7	saal	S	sg=sg|n=n	9	obl	_
+8	ei	V	neg=neg	9	aux	_
+9	asu	V	o=o	0	root	_
+10	ühegi	N	sg=sg|g=g	15	det	_
+11	teise	O	sg=sg|g=g	15	det	_
+12	Tallinna	H	sg=sg|g=g	13	nmod	_
+13	saaliga	S	sg=sg|kom=kom	15	nmod	_
+14	otsesesse	A	sg=sg|ill=ill	15	amod	_
+15	konkurentsi	S	sg=sg|p=p	9	obl	CHECK
+16	,	Z	_	27	punct	_
+17	kuna	J	_	27	mark	_
+18	võrreldav	A	sg=sg|n=n	19	acl	_
+19	saal	S	sg=sg|n=n	27	nsubj	_
+20	-	Z	_	23	punct	_
+21	hoolimata	K	_	23	case	_
+22	teravast	A	sg=sg|el=el	23	amod	_
+23	vajadusest	S	sg=sg|el=el	19	nmod	_
+24	-	Z	_	27	punct	_
+25	Tallinnas	H	sg=sg|in=in	27	nsubj	_
+26	lihtsalt	D	_	27	advmod	_
+27	puudub	V	b=b	9	parataxis	_
+28	.	Z	_	9	punct	_
+
+# sent_id = 2545257
+# text = Sellist , keda soliidses eas erakond üksmeelselt aitama asuks .
+1	Sellist	P	sg=sg|p=p	0	root	_
+2	,	Z	_	9	punct	_
+3	keda	P	pl=pl|p=p	9	nsubj	CHECK
+4	soliidses	A	sg=sg|in=in	5	amod	_
+5	eas	S	sg=sg|in=in	6	nmod	_
+6	erakond	S	sg=sg|n=n	8	obj	_
+7	üksmeelselt	D	_	9	advmod	_
+8	aitama	V	ma=ma	9	xcomp	_
+9	asuks	V	ks=ks	1	acl:relcl	_
+10	.	Z	_	1	punct	_
+
+# sent_id = 284146
+# text = Galaktika kese on joonise keskel , Linnutee kaks kääbuskaaslast , Suur- ja Väike Magalhãesi Pilv on nähtavad joonise alumises parempoolses osas ja näiteks Orioni tähtkuju asub pildi parempoolse serva lähedal just Linnutee tasandi all .
+1	Galaktika	H	sg=sg|g=g	2	nmod	_
+2	kese	S	sg=sg|n=n	4	nsubj:cop	_
+3	on	V	b=b	4	cop	_
+4	joonise	S	sg=sg|g=g	0	root	_
+5	keskel	K	_	4	case	_
+6	,	Z	_	7	punct	_
+7	Linnutee	H	sg=sg|g=g	4	conj	_
+8	kaks	N	sg=sg|n=n	9	nummod	_
+9	kääbuskaaslast	S	sg=sg|p=p	4	conj	_
+10	,	Z	_	17	punct	_
+11	Suur-	A	sg=sg|n=n	14	amod	_
+12	ja	J	_	13	cc	_
+13	Väike	A	sg=sg|n=n	11	conj	_
+14	Magalhãesi	H	sg=sg|g=g	15	nmod	_
+15	Pilv	S	sg=sg|n=n	17	nsubj:cop	_
+16	on	V	vad=vad	17	cop	_
+17	nähtavad	A	pl=pl|n=n	4	conj	_
+18	joonise	S	sg=sg|g=g	17	obl	_
+19	alumises	A	sg=sg|in=in	21	amod	_
+20	parempoolses	A	sg=sg|in=in	21	amod	_
+21	osas	S	sg=sg|in=in	18	nmod	_
+22	ja	J	_	26	cc	_
+23	näiteks	S	sg=sg|tr=tr	26	advmod	_
+24	Orioni	H	sg=sg|g=g	25	nmod	_
+25	tähtkuju	S	sg=sg|n=n	26	nsubj	_
+26	asub	V	b=b	17	conj	_
+27	pildi	S	sg=sg|g=g	26	nsubj	CHECK
+28	parempoolse	A	sg=sg|g=g	29	amod	_
+29	serva	S	sg=sg|g=g	27	nmod	_
+30	lähedal	K	_	29	case	_
+31	just	D	_	32	advmod	_
+32	Linnutee	H	sg=sg|g=g	33	nmod	_
+33	tasandi	S	sg=sg|g=g	26	obl	_
+34	all	K	_	33	case	_
+35	.	Z	_	17	punct	_
+
+# sent_id = 2768971
+# text = Autod puhtaks pesema asunud omanik märkas , et pesemise käigus koorub maha auto värv .
+1	Autod	S	pl=pl|n=n	3	obj	CHECK
+2	puhtaks	A	sg=sg|tr=tr	3	amod	_
+3	pesema	V	ma=ma	4	obl	_
+4	asunud	V	nud=nud	5	acl	_
+5	omanik	S	sg=sg|n=n	6	nsubj	_
+6	märkas	V	s=s	0	root	_
+7	,	Z	_	11	punct	_
+8	et	J	_	11	mark	_
+9	pesemise	S	sg=sg|g=g	11	obl	_
+10	käigus	K	_	9	case	_
+11	koorub	V	b=b	6	ccomp	_
+12	maha	D	_	11	compound:prt	_
+13	auto	S	sg=sg|g=g	14	nmod	_
+14	värv	S	sg=sg|n=n	11	nsubj	_
+15	.	Z	_	6	punct	_
+
+# sent_id = 734551
+# text = Inimesed peavad ju oma riigis kellessegi uskuma ning kõige paremini sobib selleks ülalpool päevapoliitilisi võitlusi asuv president .
+1	Inimesed	S	pl=pl|n=n	7	nsubj	_
+2	peavad	V	vad=vad	7	aux	_
+3	ju	D	_	7	advmod	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	riigis	S	sg=sg|in=in	7	obj	_
+6	kellessegi	P	sg=sg|ill=ill	7	nsubj	_
+7	uskuma	V	ma=ma	0	root	_
+8	ning	J	_	11	cc	_
+9	kõige	D	_	10	advmod	_
+10	paremini	D	_	11	advmod	_
+11	sobib	V	b=b	7	conj	_
+12	selleks	P	sg=sg|tr=tr	11	obl	_
+13	ülalpool	K	_	12	case	_
+14	päevapoliitilisi	A	pl=pl|p=p	15	amod	_
+15	võitlusi	S	pl=pl|p=p	16	obj	CHECK
+16	asuv	V	v=v	17	acl	_
+17	president	S	sg=sg|n=n	11	nsubj	_
+18	.	Z	_	7	punct	_
+
+# sent_id = 6271419
+# text = Kevadel vabasta roos talvekattest ja asu tüve järkjärgult üles painutama .
+1	Kevadel	S	sg=sg|ad=ad	2	nsubj	_
+2	vabasta	V	o=o	0	root	_
+3	roos	S	sg=sg|n=n	4	nmod	_
+4	talvekattest	S	sg=sg|el=el	2	obj	_
+5	ja	J	_	6	cc	_
+6	asu	V	o=o	2	conj	_
+7	tüve	S	sg=sg|g=g	10	obj	CHECK
+8	järkjärgult	D	_	10	advmod	_
+9	üles	D	_	10	compound:prt	_
+10	painutama	V	ma=ma	6	xcomp	_
+11	.	Z	_	2	punct	_
+

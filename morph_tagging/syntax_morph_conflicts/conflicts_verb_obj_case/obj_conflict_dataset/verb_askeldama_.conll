@@ -1,0 +1,354 @@
+# sent_id = 608071
+# text = Tõstuki ja kraanaga askeldasid mehed pika päeva .
+1	Tõstuki	S	sg=sg|g=g	4	obj	_
+2	ja	J	_	3	cc	_
+3	kraanaga	S	sg=sg|kom=kom	1	conj	_
+4	askeldasid	V	sid=sid	0	root	_
+5	mehed	S	pl=pl|n=n	4	nsubj	_
+6	pika	A	sg=sg|g=g	7	amod	_
+7	päeva	S	sg=sg|g=g	4	obl	CHECK
+8	.	Z	_	4	punct	_
+
+# sent_id = 9192742
+# text = Purjus mees askeldab baari ukse juures ega saa seda lahti .
+1	Purjus	D	_	2	amod	_
+2	mees	S	sg=sg|n=n	3	nsubj	_
+3	askeldab	V	b=b	0	root	_
+4	baari	S	adt=adt	3	obj	CHECK
+5	ukse	S	sg=sg|g=g	3	obl	_
+6	juures	K	_	5	case	_
+7	ega	J	_	8	cc	_
+8	saa	V	o=o	3	conj	_
+9	seda	P	sg=sg|p=p	8	obj	_
+10	lahti	D	_	8	compound:prt	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 2914869
+# text = " Potteri lõpus " ei askelda laval tegelased maailmaklassikast , vaid lihtsad kodanikud .
+1	"	Z	_	3	punct	_
+2	Potteri	H	sg=sg|g=g	3	nmod	_
+3	lõpus	S	sg=sg|in=in	6	obl	_
+4	"	Z	_	3	punct	_
+5	ei	V	neg=neg	6	aux	_
+6	askelda	V	o=o	0	root	_
+7	laval	S	sg=sg|ad=ad	8	nmod	_
+8	tegelased	S	pl=pl|n=n	6	obj	_
+9	maailmaklassikast	S	sg=sg|n=n	6	obl	CHECK
+10	,	Z	_	13	punct	_
+11	vaid	J	_	13	cc	_
+12	lihtsad	A	pl=pl|n=n	13	amod	_
+13	kodanikud	S	pl=pl|n=n	9	conj	_
+14	.	Z	_	6	punct	_
+
+# sent_id = 13680075
+# text = " Ma pole kunagi varem nii kõvasti treeninud , " hirmutab itaallane vastaseid ja teatab , et mehhaanikud on ratta kallal askeldanud ööd ja päevad .
+1	"	Z	_	8	punct	_
+2	Ma	P	sg=sg|n=n	8	nsubj	_
+3	pole	V	neg=neg|o=o	8	aux	_
+4	kunagi	D	_	8	advmod	_
+5	varem	D	_	8	advmod	_
+6	nii	D	_	7	advmod	_
+7	kõvasti	D	_	8	advmod	_
+8	treeninud	A	pl=pl|n=n	0	root	_
+9	,	Z	_	8	punct	_
+10	"	Z	_	8	punct	_
+11	hirmutab	V	b=b	8	parataxis	_
+12	itaallane	S	sg=sg|n=n	11	nsubj	_
+13	vastaseid	S	pl=pl|p=p	11	obj	_
+14	ja	J	_	15	cc	_
+15	teatab	V	b=b	11	conj	_
+16	,	Z	_	22	punct	_
+17	et	J	_	22	mark	_
+18	mehhaanikud	S	pl=pl|n=n	22	nsubj	_
+19	on	V	vad=vad	22	aux	_
+20	ratta	S	sg=sg|g=g	22	obl	_
+21	kallal	K	_	20	case	_
+22	askeldanud	A	sg=sg|n=n	15	ccomp	_
+23	ööd	S	pl=pl|n=n	22	obj	CHECK
+24	ja	J	_	25	cc	_
+25	päevad	S	pl=pl|n=n	23	conj	_
+26	.	Z	_	8	punct	_
+
+# sent_id = 84409
+# text = Siin askeldavad ka Vene vastuluure ( FSB , kõige suurem kompaktselt säilinud osa endisest KGB-st ) ning elektrooniline luure ( FAPSI - valitsusside föderaalne agentuur , kes kuulab kosmosest ja maalt pealt Venemaad huvitavate riikide sidekanaleid ) .
+1	Siin	D	_	2	advmod	_
+2	askeldavad	V	vad=vad	0	root	_
+3	ka	D	_	5	advmod	_
+4	Vene	G	_	5	nmod	_
+5	vastuluure	S	sg=sg|g=g	2	obj	CHECK
+6	(	Z	_	7	punct	_
+7	FSB	Y	?=?	5	parataxis	_
+8	,	Z	_	13	punct	_
+9	kõige	D	_	10	advmod	_
+10	suurem	C	sg=sg|n=n	13	amod	_
+11	kompaktselt	D	_	12	advmod	_
+12	säilinud	A	_	13	acl	_
+13	osa	S	sg=sg|g=g	7	conj	_
+14	endisest	A	sg=sg|el=el	15	amod	_
+15	KGB-st	Y	sg=sg|el=el	13	nmod	_
+16	)	Z	_	13	punct	_
+17	ning	J	_	19	cc	_
+18	elektrooniline	A	sg=sg|n=n	19	amod	_
+19	luure	S	sg=sg|g=g	5	conj	_
+20	(	Z	_	21	punct	_
+21	FAPSI	H	sg=sg|n=n	19	parataxis	_
+22	-	Z	_	21	punct	_
+23	valitsusside	S	sg=sg|g=g	21	conj	_
+24	föderaalne	A	sg=sg|n=n	25	amod	_
+25	agentuur	S	sg=sg|n=n	19	appos	_
+26	,	Z	_	28	punct	_
+27	kes	P	sg=sg|n=n	28	nsubj	_
+28	kuulab	V	b=b	25	acl:relcl	_
+29	kosmosest	S	sg=sg|el=el	28	obj	_
+30	ja	J	_	31	cc	_
+31	maalt	S	sg=sg|abl=abl	29	conj	_
+32	pealt	D	_	31	case	_
+33	Venemaad	H	sg=sg|p=p	35	nmod	_
+34	huvitavate	A	pl=pl|g=g	35	acl	_
+35	riikide	S	pl=pl|g=g	36	nmod	_
+36	sidekanaleid	S	pl=pl|p=p	28	obj	_
+37	)	Z	_	21	punct	_
+38	.	Z	_	2	punct	_
+
+# sent_id = 2975778
+# text = Nädalavahetusel askeldas Reiljan juba spordiühingu Jõud üritustel ja eile hommikul tervitas keskkonnaministeeriumi töötajaid Tallinnas Narva maanteel nende uues majas .
+1	Nädalavahetusel	S	sg=sg|ad=ad	2	obl	_
+2	askeldas	V	s=s	0	root	_
+3	Reiljan	H	sg=sg|n=n	2	nsubj	_
+4	juba	D	_	2	advmod	_
+5	spordiühingu	S	sg=sg|g=g	6	nmod	_
+6	Jõud	S	pl=pl|n=n	2	nsubj	CHECK
+7	üritustel	S	pl=pl|ad=ad	2	obl	_
+8	ja	J	_	11	cc	_
+9	eile	D	_	10	advmod	_
+10	hommikul	S	sg=sg|ad=ad	11	obl	_
+11	tervitas	V	s=s	2	conj	_
+12	keskkonnaministeeriumi	S	sg=sg|g=g	13	nmod	_
+13	töötajaid	S	pl=pl|p=p	11	obj	_
+14	Tallinnas	H	sg=sg|in=in	13	nmod	_
+15	Narva	H	sg=sg|g=g	16	nmod	_
+16	maanteel	S	sg=sg|ad=ad	11	obl	_
+17	nende	P	pl=pl|g=g	19	nmod	_
+18	uues	A	sg=sg|in=in	19	amod	_
+19	majas	S	sg=sg|in=in	11	obj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 3166093
+# text = Madis Leis askeldas Järve talu ligi 54-hektarilises metsas juba mitmendat nädalat ja tegeles seal ka eile metsa istutamisega .
+1	Madis	H	sg=sg|n=n	3	nsubj	_
+2	Leis	H	sg=sg|n=n	1	flat	_
+3	askeldas	V	s=s	0	root	_
+4	Järve	H	sg=sg|g=g	5	nmod	_
+5	talu	S	sg=sg|g=g	3	obl	_
+6	ligi	D	_	7	advmod	_
+7	54-hektarilises	A	sg=sg|in=in	8	amod	_
+8	metsas	S	sg=sg|in=in	3	obj	_
+9	juba	D	_	10	advmod	_
+10	mitmendat	P	sg=sg|p=p	11	det	_
+11	nädalat	S	sg=sg|p=p	3	obl	CHECK
+12	ja	J	_	13	cc	_
+13	tegeles	V	s=s	3	conj	_
+14	seal	D	_	13	advmod	_
+15	ka	D	_	18	advmod	_
+16	eile	D	_	13	advmod	_
+17	metsa	S	sg=sg|g=g	18	nmod	_
+18	istutamisega	S	sg=sg|kom=kom	13	obl	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 14040752
+# text = Tuleb vaid osata teha , » ütleb Maiken pärast seda , kui on Pegasuse peakoka Michael Bhoolaga tunnikese köögis askeldanud .
+1	Tuleb	V	b=b	0	root	_
+2	vaid	D	_	3	advmod	_
+3	osata	V	da=da	1	csubj	_
+4	teha	V	da=da	1	csubj	_
+5	,	Z	_	1	punct	_
+6	»	Z	_	7	punct	_
+7	ütleb	V	b=b	1	parataxis	_
+8	Maiken	H	sg=sg|n=n	7	nsubj	_
+9	pärast	K	_	10	case	_
+10	seda	P	sg=sg|p=p	7	obl	_
+11	,	Z	_	20	punct	_
+12	kui	J	_	20	mark	_
+13	on	V	b=b	20	aux	_
+14	Pegasuse	H	sg=sg|g=g	15	nmod	_
+15	peakoka	S	sg=sg|g=g	20	nsubj	CHECK
+16	Michael	H	sg=sg|n=n	15	appos	_
+17	Bhoolaga	H	sg=sg|kom=kom	16	flat	_
+18	tunnikese	S	sg=sg|g=g	19	nmod	_
+19	köögis	S	sg=sg|in=in	20	obj	_
+20	askeldanud	A	pl=pl|n=n	7	advcl	_
+21	.	Z	_	1	punct	_
+
+# sent_id = 2882059
+# text = Mis sest , et ühtegi Cavalera-nimelist tegelast suviselt kuumaks ja higiseks köetud püünel ei askeldanud .
+1	Mis	P	sg=sg|n=n	0	root	_
+2	sest	J	_	1	det	_
+3	,	Z	_	15	punct	_
+4	et	J	_	15	mark	_
+5	ühtegi	P	sg=sg|p=p	7	det	_
+6	Cavalera-nimelist	A	sg=sg|p=p	7	amod	_
+7	tegelast	S	sg=sg|p=p	15	nsubj	CHECK
+8	suviselt	D	_	15	advmod	_
+9	kuumaks	A	sg=sg|tr=tr	13	amod	_
+10	ja	J	_	11	cc	_
+11	higiseks	A	sg=sg|tr=tr	9	conj	_
+12	köetud	V	tud=tud	9	conj	_
+13	püünel	S	sg=sg|ad=ad	15	obj	_
+14	ei	V	neg=neg	15	aux	_
+15	askeldanud	A	sg=sg|n=n	1	acl	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 13596040
+# text = 40 000 pealtvaataja ees tegutsemine andis hindamatu kogemuse ja tublisti usku , nüüd unistan 140 000 inimesega täidetud staadionil töötamisest , nautis äsjase EMi poolfinaalareenil askeldanud Kaldma .
+1	40 000	N	?=?	2	nummod	_
+2	pealtvaataja	S	sg=sg|g=g	4	nmod	_
+3	ees	K	_	2	case	_
+4	tegutsemine	S	sg=sg|n=n	5	obl	_
+5	andis	V	s=s	0	root	_
+6	hindamatu	A	sg=sg|g=g	7	amod	_
+7	kogemuse	S	sg=sg|g=g	5	obj	_
+8	ja	J	_	10	cc	_
+9	tublisti	D	_	10	advmod	_
+10	usku	S	sg=sg|p=p	7	conj	_
+11	,	Z	_	13	punct	_
+12	nüüd	D	_	13	advmod	_
+13	unistan	V	n=n	5	conj	_
+14	140 000	N	?=?	15	nummod	_
+15	inimesega	S	sg=sg|kom=kom	16	obl	_
+16	täidetud	A	pl=pl|n=n	17	acl	_
+17	staadionil	S	sg=sg|ad=ad	18	nmod	_
+18	töötamisest	S	sg=sg|el=el	13	obl	_
+19	,	Z	_	20	punct	_
+20	nautis	V	s=s	5	conj	_
+21	äsjase	A	sg=sg|g=g	22	amod	_
+22	EMi	Y	sg=sg|g=g	23	nmod	CHECK
+23	poolfinaalareenil	S	sg=sg|ad=ad	24	obj	_
+24	askeldanud	A	sg=sg|n=n	25	acl	_
+25	Kaldma	H	sg=sg|n=n	20	nsubj	_
+26	.	Z	_	5	punct	_
+
+# sent_id = 6895552
+# text = Eritemaatikat kajastavad peatükid Taagepera mõisa ajaloost , lossi ehitusloost , lossipere ja teenijaskonna elust-olust lossis , esimesest eesti talupojast mõisaomanikust Sõnni Matsist , tuntud kirjaniku Hella Wuolijoe emast Kadrist , kes Ala kõrtsi leti taga askeldas .
+1	Eritemaatikat	S	sg=sg|p=p	2	obj	_
+2	kajastavad	V	vad=vad	0	root	_
+3	peatükid	S	pl=pl|n=n	2	obj	_
+4	Taagepera	H	sg=sg|g=g	6	nmod	_
+5	mõisa	S	sg=sg|g=g	6	nmod	_
+6	ajaloost	S	sg=sg|el=el	3	nmod	_
+7	,	Z	_	9	punct	_
+8	lossi	S	sg=sg|g=g	9	nmod	_
+9	ehitusloost	S	sg=sg|el=el	6	conj	_
+10	,	Z	_	11	punct	_
+11	lossipere	S	sg=sg|g=g	6	conj	_
+12	ja	J	_	13	cc	_
+13	teenijaskonna	S	sg=sg|g=g	14	nmod	_
+14	elust-olust	S	sg=sg|el=el	15	nmod	_
+15	lossis	S	sg=sg|in=in	6	conj	_
+16	,	Z	_	20	punct	_
+17	esimesest	O	sg=sg|el=el	20	amod	_
+18	eesti	G	_	19	amod	_
+19	talupojast	S	sg=sg|el=el	20	nmod	_
+20	mõisaomanikust	S	sg=sg|el=el	6	conj	_
+21	Sõnni	S	sg=sg|g=g	20	appos	_
+22	Matsist	S	sg=sg|el=el	21	flat	_
+23	,	Z	_	25	punct	_
+24	tuntud	V	tud=tud	25	acl	_
+25	kirjaniku	S	sg=sg|g=g	6	conj	_
+26	Hella	H	sg=sg|n=n	25	appos	_
+27	Wuolijoe	H	sg=sg|g=g	26	flat	_
+28	emast	S	sg=sg|el=el	25	appos	_
+29	Kadrist	S	sg=sg|el=el	28	appos	_
+30	,	Z	_	36	punct	_
+31	kes	P	sg=sg|n=n	36	nsubj	_
+32	Ala	S	sg=sg|g=g	33	nmod	_
+33	kõrtsi	S	adt=adt	36	obj	CHECK
+34	leti	S	sg=sg|g=g	36	obl	_
+35	taga	K	_	34	case	_
+36	askeldas	V	s=s	29	acl:relcl	_
+37	.	Z	_	2	punct	_
+
+# sent_id = 21543
+# text = Baltimaade esimese ja edukaima kunstviljastamise fakiiri Andrei Sõritsa ( 40 ) naine Sveta ( 40 ) ei muretse 20aastase abielu järel enam ammu sellepärast , et tema sarmikas ja eestlannade jaoks eksootiline ukraina mees askeldab päevad läbi naiste ihu kallal .
+1	Baltimaade	H	pl=pl|g=g	5	nmod	_
+2	esimese	O	sg=sg|g=g	5	amod	_
+3	ja	J	_	4	cc	_
+4	edukaima	U	sg=sg|g=g	2	conj	_
+5	kunstviljastamise	S	sg=sg|g=g	6	nmod	_
+6	fakiiri	S	sg=sg|g=g	12	nmod	_
+7	Andrei	H	sg=sg|n=n	6	appos	_
+8	Sõritsa	H	sg=sg|n=n	7	flat	_
+9	(	Z	_	10	punct	_
+10	40	N	?=?	6	parataxis	_
+11	)	Z	_	10	punct	_
+12	naine	S	sg=sg|n=n	18	nsubj	_
+13	Sveta	H	sg=sg|n=n	12	appos	_
+14	(	Z	_	15	punct	_
+15	40	N	?=?	12	parataxis	_
+16	)	Z	_	15	punct	_
+17	ei	V	neg=neg	18	aux	_
+18	muretse	V	o=o	0	root	_
+19	20aastase	A	sg=sg|g=g	20	amod	_
+20	abielu	S	sg=sg|g=g	18	obl	_
+21	järel	K	_	20	case	_
+22	enam	D	_	18	advmod	_
+23	ammu	D	_	18	advmod	_
+24	sellepärast	D	_	18	advmod	_
+25	,	Z	_	35	punct	_
+26	et	J	_	35	mark	_
+27	tema	P	sg=sg|g=g	34	nmod	_
+28	sarmikas	A	sg=sg|n=n	34	amod	_
+29	ja	J	_	32	cc	_
+30	eestlannade	S	pl=pl|g=g	32	obl	_
+31	jaoks	K	_	30	case	_
+32	eksootiline	A	sg=sg|n=n	28	conj	_
+33	ukraina	G	_	34	amod	_
+34	mees	S	sg=sg|n=n	35	nsubj	_
+35	askeldab	V	b=b	18	advcl	_
+36	päevad	S	pl=pl|n=n	35	obj	CHECK
+37	läbi	K	_	38	case	_
+38	naiste	S	pl=pl|g=g	39	nmod	_
+39	ihu	S	sg=sg|g=g	35	obl	_
+40	kallal	K	_	39	case	_
+41	.	Z	_	18	punct	_
+
+# sent_id = 2818661
+# text = Ühe pealtnägija sõnul oli kaks tumedas riietuses meest kuju juures askeldanud ning seejärel Kose tee suunas liikunud .
+1	Ühe	P	sg=sg|g=g	2	det	_
+2	pealtnägija	S	sg=sg|n=n	3	nmod	_
+3	sõnul	S	pl=pl|ad=ad	11	obl	_
+4	oli	V	s=s	11	aux	_
+5	kaks	N	sg=sg|n=n	7	nummod	_
+6	tumedas	A	sg=sg|in=in	7	amod	_
+7	riietuses	S	sg=sg|in=in	8	nmod	_
+8	meest	S	sg=sg|p=p	9	nmod	CHECK
+9	kuju	S	sg=sg|g=g	11	obj	_
+10	juures	K	_	9	case	_
+11	askeldanud	A	_	0	root	_
+12	ning	J	_	17	cc	_
+13	seejärel	D	_	17	advmod	_
+14	Kose	H	sg=sg|g=g	15	nmod	_
+15	tee	S	sg=sg|g=g	17	obl	_
+16	suunas	K	_	15	case	_
+17	liikunud	A	pl=pl|n=n	11	conj	_
+18	.	Z	_	11	punct	_
+
+# sent_id = 11841
+# text = Pealegi on Saagim ja Ratia tööandjad , kel parimatel päevadel askeldab objektil ligikaudu paarkümmend kohalikku ehitajat .
+1	Pealegi	D	_	6	advmod	_
+2	on	V	b=b	6	cop	_
+3	Saagim	H	sg=sg|n=n	6	nsubj:cop	_
+4	ja	J	_	5	cc	_
+5	Ratia	H	sg=sg|g=g	3	conj	_
+6	tööandjad	S	pl=pl|n=n	0	root	_
+7	,	Z	_	11	punct	_
+8	kel	P	sg=sg|ad=ad	11	nsubj	_
+9	parimatel	U	pl=pl|ad=ad	10	amod	_
+10	päevadel	S	pl=pl|ad=ad	11	obl	_
+11	askeldab	V	b=b	6	acl:relcl	_
+12	objektil	S	sg=sg|ad=ad	11	obj	_
+13	ligikaudu	D	_	14	advmod	_
+14	paarkümmend	N	sg=sg|n=n	16	nummod	_
+15	kohalikku	A	sg=sg|p=p	16	amod	_
+16	ehitajat	S	sg=sg|p=p	11	obj	CHECK
+17	.	Z	_	6	punct	_
+

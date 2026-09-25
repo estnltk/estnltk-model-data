@@ -1,0 +1,218 @@
+# sent_id = 254878
+# text = Valdo Randpere :  Üldiselt ei küsita ei Eestist ega ka Põhjamaadest nõu IBMi globaalstrateegia väljatöötamisel .
+1	Valdo	H	sg=sg|n=n	0	root	_
+2	Randpere	H	sg=sg|n=n	1	flat	_
+3	:	Z	_	6	punct	_
+4	Üldiselt	D	_	6	advmod	_
+5	ei	V	neg=neg	6	aux	_
+6	küsita	V	o=o	1	parataxis	_
+7	ei	V	neg=neg	8	advmod	_
+8	Eestist	H	sg=sg|el=el	6	nsubj	_
+9	ega	J	_	11	cc	_
+10	ka	D	_	11	advmod	_
+11	Põhjamaadest	H	pl=pl|el=el	8	conj	_
+12	nõu	S	sg=sg|g=g	6	obj	CHECK
+13	IBMi	Y	adt=adt	14	nmod	_
+14	globaalstrateegia	S	sg=sg|g=g	15	nmod	_
+15	väljatöötamisel	S	sg=sg|ad=ad	6	obl	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 3484117
+# text = Ehkki kaardi omahind on umbes 100 krooni , ei küsita linlaselt kaardi kui sellise eest raha , sest vastasel korral oleks väga keeruline kaardisüsteemi juurutada , rääkis Leemets .
+1	Ehkki	J	_	7	mark	_
+2	kaardi	S	sg=sg|g=g	3	nmod	_
+3	omahind	S	sg=sg|n=n	7	nsubj:cop	_
+4	on	V	b=b	7	cop	_
+5	umbes	D	_	6	advmod	_
+6	100	N	?=?	7	nummod	_
+7	krooni	S	sg=sg|p=p	10	advcl	_
+8	,	Z	_	10	punct	_
+9	ei	V	neg=neg	10	aux	_
+10	küsita	V	o=o	0	root	_
+11	linlaselt	S	sg=sg|abl=abl	10	nsubj	_
+12	kaardi	S	sg=sg|g=g	10	obj	CHECK
+13	kui	J	_	14	mark	_
+14	sellise	P	sg=sg|g=g	16	det	_
+15	eest	K	_	14	case	_
+16	raha	S	sg=sg|n=n	10	advcl	_
+17	,	Z	_	23	punct	_
+18	sest	J	_	23	mark	_
+19	vastasel	A	sg=sg|ad=ad	20	amod	_
+20	korral	S	sg=sg|ad=ad	25	obl	_
+21	oleks	V	ks=ks	23	cop	_
+22	väga	D	_	23	advmod	_
+23	keeruline	A	sg=sg|n=n	10	advcl	_
+24	kaardisüsteemi	S	sg=sg|p=p	25	obj	_
+25	juurutada	V	da=da	23	csubj:cop	_
+26	,	Z	_	27	punct	_
+27	rääkis	V	s=s	10	conj	_
+28	Leemets	H	sg=sg|n=n	27	nsubj	_
+29	.	Z	_	10	punct	_
+
+# sent_id = 91084
+# text = On see poliitika õige või vale , seda meie käest ei küsita , kuid kõigile küsitavatele seisukohtadele vaatamata on Vene poliitika terviklik ja selle süsteemsus äratab usaldust .
+1	On	V	vad=vad	4	cop	_
+2	see	P	sg=sg|n=n	3	det	_
+3	poliitika	S	sg=sg|n=n	4	nsubj:cop	_
+4	õige	A	sg=sg|n=n	0	root	_
+5	või	J	_	6	cc	_
+6	vale	A	sg=sg|n=n	4	conj	_
+7	,	Z	_	12	punct	_
+8	seda	P	sg=sg|p=p	12	nsubj	CHECK
+9	meie	P	pl=pl|g=g	12	obl	_
+10	käest	K	_	9	case	_
+11	ei	V	neg=neg	12	aux	_
+12	küsita	V	o=o	4	conj	_
+13	,	Z	_	22	punct	_
+14	kuid	J	_	22	cc	_
+15	kõigile	P	pl=pl|all=all	17	det	_
+16	küsitavatele	A	pl=pl|all=all	17	acl	_
+17	seisukohtadele	S	pl=pl|all=all	22	obl	_
+18	vaatamata	K	_	17	case	_
+19	on	V	vad=vad	22	cop	_
+20	Vene	H	sg=sg|g=g	21	nmod	_
+21	poliitika	S	sg=sg|n=n	22	nsubj:cop	_
+22	terviklik	A	sg=sg|n=n	4	conj	_
+23	ja	J	_	26	cc	_
+24	selle	P	sg=sg|g=g	25	det	_
+25	süsteemsus	S	sg=sg|n=n	26	obj	_
+26	äratab	V	b=b	4	conj	_
+27	usaldust	S	sg=sg|p=p	26	obj	_
+28	.	Z	_	4	punct	_
+
+# sent_id = 89236
+# text = Väljapääsu ei küsita ka .
+1	Väljapääsu	S	sg=sg|p=p	3	obj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	küsita	V	o=o	0	root	_
+4	ka	D	_	3	advmod	_
+5	.	Z	_	3	punct	_
+
+# sent_id = 111479
+# text = Mida teha , kui reisija pärast Tallinna lennukilt saabumist ning passikontrolli kõnnib Schengeni-siseste lendude terminaali ( kuhu sisenemiseks passi ei küsita , sest ta on juba Schengeni territooriumil ) , ostab pileti ning asub viisat omamata Pariisi suunduvale lennukile ?
+1	Mida	P	pl=pl|p=p	2	nsubj	_
+2	teha	V	da=da	0	root	_
+3	,	Z	_	5	punct	_
+4	kui	J	_	5	mark	_
+5	reisija	S	sg=sg|g=g	2	advcl	_
+6	pärast	K	_	9	case	_
+7	Tallinna	H	sg=sg|g=g	8	nmod	_
+8	lennukilt	S	sg=sg|abl=abl	9	nmod	_
+9	saabumist	S	sg=sg|p=p	5	nmod	_
+10	ning	J	_	12	cc	_
+11	passikontrolli	S	sg=sg|p=p	9	conj	_
+12	kõnnib	V	b=b	2	conj	_
+13	Schengeni-siseste	A	pl=pl|g=g	14	amod	_
+14	lendude	S	pl=pl|g=g	12	nsubj	_
+15	terminaali	S	sg=sg|g=g	12	obl	_
+16	(	Z	_	21	punct	_
+17	kuhu	D	_	21	mark	_
+18	sisenemiseks	S	sg=sg|tr=tr	21	obl	_
+19	passi	S	adt=adt	21	obj	CHECK
+20	ei	V	neg=neg	21	aux	_
+21	küsita	V	o=o	12	parataxis	_
+22	,	Z	_	28	punct	_
+23	sest	J	_	28	mark	_
+24	ta	P	sg=sg|n=n	28	nsubj:cop	_
+25	on	V	vad=vad	28	cop	_
+26	juba	D	_	28	advmod	_
+27	Schengeni	H	sg=sg|g=g	28	nmod	_
+28	territooriumil	S	sg=sg|ad=ad	21	advcl	_
+29	)	Z	_	21	punct	_
+30	,	Z	_	21	punct	_
+31	ostab	V	b=b	12	conj	_
+32	pileti	S	sg=sg|g=g	31	obj	_
+33	ning	J	_	34	cc	_
+34	asub	V	b=b	31	conj	_
+35	viisat	S	sg=sg|p=p	36	obj	_
+36	omamata	V	mata=mata	34	advcl	_
+37	Pariisi	H	sg=sg|g=g	38	obl	_
+38	suunduvale	A	sg=sg|all=all	39	acl	_
+39	lennukile	S	sg=sg|all=all	36	obj	_
+40	?	Z	_	2	punct	_
+
+# sent_id = 1346733
+# text = " Sisse minnes räägin ma tavaliselt turvameestega soome keeles , siis dokumenti ei küsita , " rõõmustab Elis .
+1	"	Z	_	3	punct	_
+2	Sisse	D	_	3	compound:prt	_
+3	minnes	V	des=des	0	root	_
+4	räägin	V	n=n	3	conj	_
+5	ma	P	sg=sg|n=n	3	nsubj	_
+6	tavaliselt	D	_	3	advmod	_
+7	turvameestega	S	pl=pl|kom=kom	9	nmod	_
+8	soome	G	_	9	amod	_
+9	keeles	S	sg=sg|in=in	4	obl	_
+10	,	Z	_	14	punct	_
+11	siis	J	_	14	advmod	_
+12	dokumenti	S	adt=adt	14	obj	CHECK
+13	ei	V	neg=neg	14	aux	_
+14	küsita	V	o=o	3	conj	_
+15	,	Z	_	3	punct	_
+16	"	Z	_	3	punct	_
+17	rõõmustab	V	b=b	3	parataxis	_
+18	Elis	H	sg=sg|n=n	17	nsubj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 215655
+# text = Eeldatavalt ei küsita abi sellelt , keda ei usaldata või kelle kohta on teada , et abi loota ei ole .
+1	Eeldatavalt	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	küsita	V	o=o	0	root	_
+4	abi	S	sg=sg|p=p	3	obj	CHECK
+5	sellelt	P	sg=sg|abl=abl	3	nsubj	_
+6	,	Z	_	9	punct	_
+7	keda	P	pl=pl|p=p	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	usaldata	V	ta=ta	5	acl:relcl	_
+10	või	J	_	14	cc	_
+11	kelle	P	pl=pl|g=g	14	obl	_
+12	kohta	K	_	11	case	_
+13	on	V	b=b	14	aux	_
+14	teada	V	da=da	9	conj	_
+15	,	Z	_	18	punct	_
+16	et	J	_	18	mark	_
+17	abi	S	sg=sg|p=p	18	nsubj	_
+18	loota	V	da=da	14	ccomp	_
+19	ei	V	neg=neg	18	aux	_
+20	ole	V	o=o	18	aux	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 1874990
+# text = " Lõviosa küsimusi läks muidugi Koidule , kes tuli vastamisega kenasti toime , " kinnitas Eesti eurolaulu projektijuht Juhan Paadam , kelle sõnul olid korraldajad öelnud , et osalejatelt tavaliselt üle paari küsimuse ei küsita .
+1	"	Z	_	4	punct	_
+2	Lõviosa	S	sg=sg|g=g	4	nsubj	_
+3	küsimusi	S	pl=pl|p=p	2	nmod	_
+4	läks	V	s=s	0	root	_
+5	muidugi	D	_	4	advmod	_
+6	Koidule	S	sg=sg|all=all	4	obl	_
+7	,	Z	_	9	punct	_
+8	kes	P	sg=sg|n=n	9	nsubj	_
+9	tuli	V	s=s	6	acl:relcl	_
+10	vastamisega	S	sg=sg|kom=kom	9	obl	_
+11	kenasti	D	_	9	advmod	_
+12	toime	S	adt=adt	9	obl	_
+13	,	Z	_	4	punct	_
+14	"	Z	_	4	punct	_
+15	kinnitas	V	s=s	4	parataxis	_
+16	Eesti	H	sg=sg|g=g	17	nmod	_
+17	eurolaulu	S	sg=sg|g=g	18	nmod	_
+18	projektijuht	S	sg=sg|n=n	15	nsubj	_
+19	Juhan	H	sg=sg|n=n	18	appos	_
+20	Paadam	H	sg=sg|n=n	19	flat	_
+21	,	Z	_	23	punct	_
+22	kelle	P	pl=pl|g=g	23	nmod	_
+23	sõnul	S	pl=pl|ad=ad	26	obl	_
+24	olid	V	sid=sid	26	aux	_
+25	korraldajad	S	pl=pl|n=n	26	nsubj	_
+26	öelnud	A	sg=sg|n=n	19	acl:relcl	_
+27	,	Z	_	35	punct	_
+28	et	J	_	35	mark	_
+29	osalejatelt	S	pl=pl|abl=abl	35	obj	_
+30	tavaliselt	D	_	35	advmod	_
+31	üle	K	_	32	case	_
+32	paari	N	sg=sg|g=g	33	nummod	_
+33	küsimuse	S	sg=sg|g=g	35	nsubj	CHECK
+34	ei	V	neg=neg	35	aux	_
+35	küsita	V	o=o	26	ccomp	_
+36	.	Z	_	4	punct	_
+

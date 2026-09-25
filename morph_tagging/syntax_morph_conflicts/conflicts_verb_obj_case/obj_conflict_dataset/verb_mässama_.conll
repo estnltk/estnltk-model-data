@@ -1,0 +1,437 @@
+# sent_id = 16314622
+# text = ma vaatan , et kuidagi see surve käib minu ümber , aga mis sinul green gangi asja mässake siis red gangi liidrite pärast
+1	ma	P	sg=sg|n=n	2	nsubj	_
+2	vaatan	V	n=n	0	root	_
+3	,	Z	_	8	punct	_
+4	et	J	_	8	mark	_
+5	kuidagi	D	_	6	advmod	_
+6	see	P	sg=sg|n=n	7	det	_
+7	surve	S	sg=sg|n=n	8	nsubj	_
+8	käib	V	b=b	2	ccomp	_
+9	minu	P	sg=sg|g=g	8	obl	_
+10	ümber	K	_	9	case	_
+11	,	Z	_	18	punct	_
+12	aga	J	_	18	cc	_
+13	mis	P	sg=sg|n=n	18	nsubj	_
+14	sinul	P	sg=sg|ad=ad	18	nsubj	_
+15	green	S	sg=sg|n=n	16	nmod	_
+16	gangi	S	sg=sg|g=g	17	nmod	_
+17	asja	S	sg=sg|p=p	18	nsubj	CHECK
+18	mässake	V	ge=ge	8	conj	_
+19	siis	D	_	18	advmod	_
+20	red	S	sg=sg|n=n	21	nmod	_
+21	gangi	S	sg=sg|g=g	22	nmod	_
+22	liidrite	S	pl=pl|g=g	18	obl	_
+23	pärast	K	_	22	case	_
+
+# sent_id = 20119039
+# text = punane: insomnia ma ei mässa :))
+1	punane	A	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	insomnia	S	sg=sg|n=n	6	obj	CHECK
+4	ma	P	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	mässa	V	o=o	1	parataxis	_
+7	:))	Z	_	6	punct	_
+
+# sent_id = 52265
+# text = Üks küsib , et mida nad selle raudtee ja Eerik-Niiles Krossiga mässavad ja möllavad .
+1	Üks	P	sg=sg|n=n	2	nsubj	_
+2	küsib	V	b=b	0	root	_
+3	,	Z	_	12	punct	_
+4	et	J	_	12	mark	_
+5	mida	P	sg=sg|p=p	12	obj	CHECK
+6	nad	P	pl=pl|n=n	12	nsubj	_
+7	selle	P	sg=sg|g=g	8	det	_
+8	raudtee	S	sg=sg|g=g	12	obj	_
+9	ja	J	_	10	cc	_
+10	Eerik-Niiles	H	sg=sg|n=n	8	conj	_
+11	Krossiga	H	sg=sg|kom=kom	10	flat	_
+12	mässavad	V	vad=vad	2	ccomp	_
+13	ja	J	_	14	cc	_
+14	möllavad	V	vad=vad	12	conj	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 15238285
+# text = EDIT : Muideks me võiks ilusti ära oodata kuni tüübid LHC'iga mässanud on natuke .
+1	EDIT	Y	?=?	0	root	_
+2	:	Z	_	8	punct	_
+3	Muideks	H	pl=pl|tr=tr	8	obl	_
+4	me	P	pl=pl|n=n	8	nsubj	_
+5	võiks	V	ks=ks	8	aux	_
+6	ilusti	D	_	8	advmod	_
+7	ära	D	_	8	compound:prt	_
+8	oodata	V	da=da	1	parataxis	_
+9	kuni	K	_	10	case	_
+10	tüübid	S	pl=pl|n=n	12	obj	CHECK
+11	LHC'iga	S	sg=sg|kom=kom	10	appos	_
+12	mässanud	V	nud=nud	8	conj	_
+13	on	V	vad=vad	8	aux	_
+14	natuke	D	_	12	advmod	_
+15	.	Z	_	1	punct	_
+
+# sent_id = 16908056
+# text = Teiseks ma tean ise ka , et see nii on aga kui mina võtsin sama pildi lahti ja savesin ära samade settingutege ( seega kvaliteet ja kõik sama ) millega ma copyright eemaldatud versiooni savesin ning pilt millel copyrighti pole vähem ruumi võttis siis on ju loogiline , et pilt võtab vähem ruumi kuna ma seal mässasin veidi copyrightiga selle eemaldasin.
+1	Teiseks	D	_	3	advmod	_
+2	ma	P	sg=sg|n=n	3	nsubj	_
+3	tean	V	n=n	0	root	_
+4	ise	P	pl=pl|n=n	3	advmod	_
+5	ka	D	_	3	advmod	_
+6	,	Z	_	9	punct	_
+7	et	J	_	9	mark	_
+8	see	P	sg=sg|n=n	9	nsubj:cop	_
+9	nii	D	_	3	ccomp	_
+10	on	V	vad=vad	9	cop	_
+11	aga	J	_	14	advmod	_
+12	kui	J	_	14	mark	_
+13	mina	P	sg=sg|n=n	14	nsubj	_
+14	võtsin	V	sin=sin	9	advcl	_
+15	sama	P	sg=sg|g=g	16	det	_
+16	pildi	S	sg=sg|g=g	14	obj	_
+17	lahti	D	_	14	compound:prt	_
+18	ja	J	_	19	cc	_
+19	savesin	S	sg=sg|n=n	14	conj	_
+20	ära	D	_	19	compound:prt	_
+21	samade	P	pl=pl|g=g	22	det	_
+22	settingutege	S	sg=sg|g=g	19	obj	_
+23	(	Z	_	25	punct	_
+24	seega	D	_	25	advmod	_
+25	kvaliteet	S	sg=sg|n=n	22	parataxis	_
+26	ja	J	_	28	cc	_
+27	kõik	P	pl=pl|n=n	28	det	_
+28	sama	P	sg=sg|n=n	25	conj	_
+29	)	Z	_	25	punct	_
+30	millega	P	sg=sg|kom=kom	19	parataxis	_
+31	ma	P	sg=sg|n=n	30	nsubj:cop	_
+32	copyright	S	sg=sg|n=n	33	obl	_
+33	eemaldatud	V	tud=tud	34	acl	_
+34	versiooni	S	sg=sg|g=g	35	obj	_
+35	savesin	S	sg=sg|n=n	30	obl	_
+36	ning	J	_	37	cc	_
+37	pilt	S	sg=sg|n=n	43	obj	_
+38	millel	P	sg=sg|ad=ad	39	nmod	_
+39	copyrighti	S	sg=sg|n=n	43	nsubj	_
+40	pole	V	neg=neg|o=o	43	aux	_
+41	vähem	D	_	42	advmod	_
+42	ruumi	S	sg=sg|p=p	43	obj	_
+43	võttis	V	s=s	47	csubj:cop	_
+44	siis	D	_	47	advmod	_
+45	on	V	vad=vad	47	cop	_
+46	ju	D	_	47	advmod	_
+47	loogiline	A	sg=sg|n=n	3	conj	_
+48	,	Z	_	51	punct	_
+49	et	J	_	51	mark	_
+50	pilt	S	sg=sg|n=n	51	obj	_
+51	võtab	V	b=b	47	csubj:cop	_
+52	vähem	D	_	53	advmod	_
+53	ruumi	S	sg=sg|p=p	51	obj	_
+54	kuna	J	_	57	mark	_
+55	ma	P	sg=sg|n=n	57	nsubj	_
+56	seal	D	_	57	advmod	_
+57	mässasin	V	sin=sin	51	advcl	_
+58	veidi	D	_	59	advmod	_
+59	copyrightiga	S	sg=sg|kom=kom	61	obl	_
+60	selle	P	sg=sg|g=g	61	obj	_
+61	eemaldasin	V	sin=sin	57	conj	CHECK
+62	.	Z	_	3	punct	_
+
+# sent_id = 19794662
+# text = VaaTLEja: mässa viga omma
+1	VaaTLEja	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	mässa	V	o=o	0	root	_
+4	viga	S	sg=sg|p=p	3	obj	_
+5	omma	S	sg=sg|g=g	3	obj	CHECK
+
+# sent_id = 16314656
+# text = ega mina ei mässa vaid t12x mässab , et miks max on liider
+1	ega	J	_	4	advmod	_
+2	mina	S	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	mässa	V	o=o	0	root	_
+5	vaid	D	_	6	advmod	_
+6	t12x	Y	?=?	7	cc	_
+7	mässab	V	b=b	4	conj	CHECK
+8	,	Z	_	13	punct	_
+9	et	J	_	13	mark	_
+10	miks	D	_	13	mark	_
+11	max	S	sg=sg|n=n	13	nsubj:cop	_
+12	on	V	b=b	13	cop	_
+13	liider	S	sg=sg|n=n	7	ccomp	_
+
+# sent_id = 15217198
+# text = Poiss mässas papa kehtestatud distsipliini vastu ning ütles perest lahti .
+1	Poiss	S	sg=sg|n=n	2	nsubj	_
+2	mässas	V	s=s	0	root	_
+3	papa	S	sg=sg|n=n	4	obl	CHECK
+4	kehtestatud	V	tud=tud	5	acl	_
+5	distsipliini	S	sg=sg|g=g	2	obl	_
+6	vastu	K	_	5	case	_
+7	ning	J	_	8	cc	_
+8	ütles	V	s=s	2	conj	_
+9	perest	S	sg=sg|el=el	8	obj	_
+10	lahti	D	_	8	compound:prt	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 4078165
+# text = Peamine , filmilindil pole enam tähelepanu hajutavaid kriimustusi - see tuleb esile just näoplaanide juures , mida " Kevades " on palju kasutatud ; sama rõhutas ka Digital Film Finlandi restauraator Giuseppe di Giorgio , kes mässas filmiga nädalaid , kõrvaldades digitaalselt ühe kriipe teise järel .
+1	Peamine	A	sg=sg|n=n	0	root	_
+2	,	Z	_	3	punct	_
+3	filmilindil	S	sg=sg|ad=ad	1	conj	_
+4	pole	V	neg=neg|o=o	3	cop	_
+5	enam	D	_	7	advmod	_
+6	tähelepanu	S	sg=sg|p=p	7	obj	_
+7	hajutavaid	A	pl=pl|p=p	8	acl	_
+8	kriimustusi	S	pl=pl|p=p	1	nsubj:cop	_
+9	-	Z	_	11	punct	_
+10	see	P	sg=sg|n=n	11	nsubj	_
+11	tuleb	V	b=b	3	parataxis	_
+12	esile	D	_	11	compound:prt	_
+13	just	D	_	14	advmod	_
+14	näoplaanide	S	pl=pl|g=g	11	obl	_
+15	juures	K	_	14	case	_
+16	,	Z	_	23	punct	_
+17	mida	P	sg=sg|p=p	23	obj	_
+18	"	Z	_	19	punct	_
+19	Kevades	H	sg=sg|n=n	23	obj	_
+20	"	Z	_	19	punct	_
+21	on	V	vad=vad	23	aux	_
+22	palju	D	_	23	advmod	_
+23	kasutatud	V	tud=tud	14	acl:relcl	_
+24	;	Z	_	26	punct	_
+25	sama	P	sg=sg|n=n	26	advmod	_
+26	rõhutas	V	s=s	11	conj	_
+27	ka	D	_	31	advmod	_
+28	Digital	H	sg=sg|n=n	31	nmod	_
+29	Film	S	sg=sg|n=n	28	flat	_
+30	Finlandi	H	sg=sg|g=g	28	flat	_
+31	restauraator	S	sg=sg|n=n	26	obj	_
+32	Giuseppe	H	sg=sg|n=n	31	appos	_
+33	di	Y	?=?	32	flat	_
+34	Giorgio	H	sg=sg|n=n	32	flat	_
+35	,	Z	_	37	punct	_
+36	kes	P	sg=sg|n=n	37	nsubj	_
+37	mässas	V	s=s	32	acl:relcl	_
+38	filmiga	S	sg=sg|kom=kom	37	obj	_
+39	nädalaid	S	pl=pl|p=p	37	obl	CHECK
+40	,	Z	_	41	punct	_
+41	kõrvaldades	V	des=des	26	conj	_
+42	digitaalselt	D	_	41	advmod	_
+43	ühe	N	sg=sg|g=g	44	nummod	_
+44	kriipe	S	sg=sg|g=g	41	obj	_
+45	teise	P	sg=sg|g=g	41	obl	_
+46	järel	K	_	45	case	_
+47	.	Z	_	1	punct	_
+
+# sent_id = 20961454
+# text = Tydruk_peolt: mässa oma ette adibeib
+1	Tydruk_peolt	S	sg=sg|abl=abl	3	obj	_
+2	:	Z	_	3	punct	_
+3	mässa	V	o=o	0	root	_
+4	oma	P	sg=sg|g=g	3	obl	_
+5	ette	K	_	6	case	_
+6	adibeib	S	sg=sg|n=n	3	obj	CHECK
+
+# sent_id = 17308172
+# text = Rohkem ei ole selle 306 mässanud , kuna sai osta 307 .
+1	Rohkem	D	_	6	advmod	_
+2	ei	V	neg=neg	6	aux	_
+3	ole	V	o=o	6	aux	_
+4	selle	P	sg=sg|g=g	6	nsubj	CHECK
+5	306	N	?=?	6	obj	_
+6	mässanud	V	nud=nud	0	root	_
+7	,	Z	_	10	punct	_
+8	kuna	J	_	10	mark	_
+9	sai	V	s=s	10	aux	_
+10	osta	V	da=da	6	advcl	_
+11	307 .	O	?=?	10	obj	_
+
+# sent_id = 8029446
+# text = " Mitu hooaega sa siin juba mässanud oled ? " küsis doktor Hipparchio äkki kurjalt-elegantselt rõhutatud ladina keeles .
+1	"	Z	_	7	punct	_
+2	Mitu	P	sg=sg|n=n	3	det	_
+3	hooaega	S	sg=sg|p=p	7	obj	CHECK
+4	sa	P	sg=sg|n=n	7	nsubj	_
+5	siin	D	_	7	advmod	_
+6	juba	D	_	7	advmod	_
+7	mässanud	A	_	0	root	_
+8	oled	V	d=d	7	aux	_
+9	?	Z	_	7	punct	_
+10	"	Z	_	7	punct	_
+11	küsis	V	s=s	7	parataxis	_
+12	doktor	S	sg=sg|n=n	11	nsubj	_
+13	Hipparchio	H	sg=sg|n=n	12	appos	_
+14	äkki	D	_	16	advmod	_
+15	kurjalt-elegantselt	D	_	16	advmod	_
+16	rõhutatud	A	sg=sg|n=n	18	acl	_
+17	ladina	G	_	18	amod	_
+18	keeles	S	sg=sg|in=in	11	obj	_
+19	.	Z	_	7	punct	_
+
+# sent_id = 11620538
+# text = Ainult , nende legend on kõigele süngele minevikule vaatamata rõõmus - ikka viski - ja ennast täis - eks me ole nende inglaste vasta ikka kõvasti mässanud .
+1	Ainult	D	_	4	advmod	_
+2	,	Z	_	10	punct	_
+3	nende	P	pl=pl|g=g	4	det	_
+4	legend	S	sg=sg|n=n	10	nsubj:cop	_
+5	on	V	b=b	10	cop	_
+6	kõigele	P	sg=sg|all=all	8	det	_
+7	süngele	A	sg=sg|all=all	8	amod	_
+8	minevikule	S	sg=sg|all=all	10	obl	_
+9	vaatamata	K	_	8	case	_
+10	rõõmus	A	sg=sg|n=n	0	root	_
+11	-	Z	_	13	punct	_
+12	ikka	D	_	13	advmod	_
+13	viski	S	sg=sg|n=n	10	parataxis	_
+14	-	Z	_	13	punct	_
+15	ja	J	_	16	cc	_
+16	ennast	P	sg=sg|p=p	17	obl	_
+17	täis	D	_	13	conj	_
+18	-	Z	_	24	punct	_
+19	eks	D	_	24	advmod	_
+20	me	P	pl=pl|n=n	24	nsubj	_
+21	ole	V	o=o	24	aux	_
+22	nende	P	pl=pl|g=g	23	det	_
+23	inglaste	S	pl=pl|g=g	24	nsubj	_
+24	vasta	V	o=o	27	obj	CHECK
+25	ikka	D	_	26	advmod	_
+26	kõvasti	D	_	27	advmod	_
+27	mässanud	V	nud=nud	4	parataxis	_
+28	.	Z	_	10	punct	_
+
+# sent_id = 692413
+# text = Armukese rollis on Tõnu Oja , aasta parima meesnäitlejana mässab ta siingi hamletina , maailmast enda ümber küsimata .
+1	Armukese	S	sg=sg|g=g	2	nmod	_
+2	rollis	S	sg=sg|in=in	0	root	_
+3	on	V	vad=vad	2	cop	_
+4	Tõnu	H	sg=sg|n=n	2	nsubj:cop	_
+5	Oja	H	sg=sg|n=n	4	flat	_
+6	,	Z	_	10	punct	_
+7	aasta	S	sg=sg|g=g	9	nmod	_
+8	parima	U	sg=sg|g=g	9	amod	_
+9	meesnäitlejana	S	sg=sg|es=es	10	obl	_
+10	mässab	V	b=b	4	conj	_
+11	ta	P	sg=sg|n=n	10	nsubj	_
+12	siingi	D	_	10	advmod	_
+13	hamletina	S	sg=sg|n=n	10	obj	CHECK
+14	,	Z	_	18	punct	_
+15	maailmast	S	sg=sg|el=el	18	obj	_
+16	enda	P	sg=sg|g=g	18	obl	_
+17	ümber	K	_	16	case	_
+18	küsimata	V	mata=mata	10	conj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 19500918
+# text = Happy87: suurt ei midagi ei mässa nagu ..
+1	Happy87	Y	?=?	0	root	_
+2	:	Z	_	7	punct	_
+3	suurt	A	sg=sg|p=p	7	nsubj	CHECK
+4	ei	V	neg=neg	7	aux	_
+5	midagi	P	sg=sg|p=p	7	nsubj	_
+6	ei	V	neg=neg	7	aux	_
+7	mässa	V	o=o	1	parataxis	_
+8	nagu	J	_	7	mark	_
+9	..	Z	_	7	punct	_
+
+# sent_id = 8727550
+# text = " Ära mässa maailma kõigi julmuste vastu , vaid katsu läbi nende astuda rahulikult oma õnne poole .
+1	"	Z	_	3	punct	_
+2	Ära	V	neg=neg|o=o	3	aux	_
+3	mässa	V	o=o	0	root	_
+4	maailma	S	sg=sg|p=p	3	obj	CHECK
+5	kõigi	P	pl=pl|g=g	6	det	_
+6	julmuste	S	pl=pl|g=g	3	obl	_
+7	vastu	K	_	6	case	_
+8	,	Z	_	10	punct	_
+9	vaid	J	_	10	cc	_
+10	katsu	V	o=o	3	conj	_
+11	läbi	K	_	12	case	_
+12	nende	P	pl=pl|g=g	13	nsubj	_
+13	astuda	V	da=da	10	xcomp	_
+14	rahulikult	D	_	13	advmod	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	õnne	S	sg=sg|g=g	13	obl	_
+17	poole	K	_	16	case	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 16441646
+# text = Jõin täna siidrit , jõin veel ja jõin veel .. kuna vinet ei tekkinud , siis sain alko peale pahaseks ja tulin koju puhkama .. ja nüüd mässan läpakaga ^^
+1	Jõin	V	sin=sin	0	root	_
+2	täna	D	_	1	advmod	_
+3	siidrit	S	sg=sg|p=p	1	obj	_
+4	,	Z	_	5	punct	_
+5	jõin	V	sin=sin	1	conj	_
+6	veel	D	_	5	advmod	_
+7	ja	J	_	8	cc	_
+8	jõin	V	sin=sin	1	conj	_
+9	veel	D	_	8	advmod	_
+10	..	Z	_	14	punct	_
+11	kuna	J	_	14	mark	_
+12	vinet	S	sg=sg|p=p	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	tekkinud	A	pl=pl|n=n	17	advcl	_
+15	,	Z	_	17	punct	_
+16	siis	J	_	17	advmod	_
+17	sain	V	sin=sin	1	conj	_
+18	alko	S	sg=sg|g=g	17	obj	_
+19	peale	D	_	17	compound:prt	_
+20	pahaseks	A	sg=sg|tr=tr	17	obj	_
+21	ja	J	_	22	cc	_
+22	tulin	V	sin=sin	1	conj	_
+23	koju	S	adt=adt	22	obl	_
+24	puhkama	V	ma=ma	22	obl	_
+25	..	Z	_	28	punct	_
+26	ja	J	_	28	cc	_
+27	nüüd	D	_	28	advmod	_
+28	mässan	V	n=n	1	conj	_
+29	läpakaga	S	sg=sg|kom=kom	28	nsubj	_
+30	^	Y	?=?	29	appos	CHECK
+31	^	Y	?=?	28	nsubj	_
+
+# sent_id = 1946002
+# text = Kõige rohkem mässavad uue ettepaneku vastu aga Rootsi vaimulikud .
+1	Kõige	D	_	2	advmod	_
+2	rohkem	D	_	3	advmod	_
+3	mässavad	V	vad=vad	0	root	_
+4	uue	A	sg=sg|g=g	5	amod	_
+5	ettepaneku	S	sg=sg|g=g	3	obj	CHECK
+6	vastu	K	_	9	case	_
+7	aga	J	_	3	advmod	_
+8	Rootsi	H	sg=sg|g=g	9	nmod	_
+9	vaimulikud	S	pl=pl|n=n	3	obj	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 7112732
+# text = Meie oleme korralik perekond ega ei mässa keisriherra vasta .
+1	Meie	P	pl=pl|n=n	4	nsubj:cop	_
+2	oleme	V	me=me	4	cop	_
+3	korralik	A	sg=sg|n=n	4	amod	_
+4	perekond	S	sg=sg|n=n	0	root	_
+5	ega	J	_	7	cc	_
+6	ei	V	neg=neg	7	aux	_
+7	mässa	V	o=o	4	conj	_
+8	keisriherra	S	sg=sg|n=n	9	obj	_
+9	vasta	V	o=o	7	obj	CHECK
+10	.	Z	_	4	punct	_
+
+# sent_id = 1563492
+# text = Kaarel Irdi selja taga mässas ta võidu Jaan Toomingaga teha lavastusi , millest tänaseni räägitakse kui teatriuuendusest .
+1	Kaarel	H	sg=sg|n=n	3	nmod	_
+2	Irdi	H	sg=sg|g=g	1	flat	_
+3	selja	S	sg=sg|g=g	5	obl	_
+4	taga	K	_	3	case	_
+5	mässas	V	s=s	0	root	_
+6	ta	P	sg=sg|n=n	5	nsubj	_
+7	võidu	S	sg=sg|g=g	5	obj	CHECK
+8	Jaan	H	sg=sg|n=n	10	obl	_
+9	Toomingaga	H	sg=sg|kom=kom	8	flat	_
+10	teha	V	da=da	5	conj	_
+11	lavastusi	S	pl=pl|p=p	10	obj	_
+12	,	Z	_	15	punct	_
+13	millest	P	pl=pl|el=el	15	nsubj	_
+14	tänaseni	D	_	15	advmod	_
+15	räägitakse	V	takse=takse	11	acl:relcl	_
+16	kui	J	_	17	mark	_
+17	teatriuuendusest	S	sg=sg|el=el	15	advcl	_
+18	.	Z	_	5	punct	_
+

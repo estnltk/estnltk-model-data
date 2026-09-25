@@ -1,0 +1,154 @@
+# sent_id = 3992855
+# text = Lebedeva auks mängitud Vene hümn kuuldud , ootas publik kannatamatult Issinbajeva etteastet .
+1	Lebedeva	H	sg=sg|g=g	2	acl	_
+2	auks	S	sg=sg|tr=tr	3	obl	_
+3	mängitud	A	pl=pl|n=n	5	acl	_
+4	Vene	H	sg=sg|g=g	5	nmod	_
+5	hümn	S	sg=sg|n=n	6	obj	CHECK
+6	kuuldud	A	sg=sg|n=n	8	advcl	_
+7	,	Z	_	8	punct	_
+8	ootas	V	s=s	0	root	_
+9	publik	S	sg=sg|n=n	8	nsubj	_
+10	kannatamatult	D	_	8	advmod	_
+11	Issinbajeva	H	sg=sg|g=g	12	nmod	_
+12	etteastet	S	sg=sg|p=p	8	obj	_
+13	.	Z	_	8	punct	_
+
+# sent_id = 9445793
+# text = Ei kuuldu siinjuures tähenduste lõputu konteksti püüdmatuse taganutmist .
+1	Ei	V	neg=neg	2	aux	_
+2	kuuldu	V	o=o	0	root	_
+3	siinjuures	D	_	2	advmod	_
+4	tähenduste	S	pl=pl|g=g	2	obj	_
+5	lõputu	A	sg=sg|n=n	6	amod	_
+6	konteksti	S	adt=adt	2	obj	_
+7	püüdmatuse	S	sg=sg|g=g	8	nmod	_
+8	taganutmist	S	sg=sg|p=p	6	nmod	CHECK
+9	.	Z	_	2	punct	_
+
+# sent_id = 10241554
+# text = Peamiselt kuuldus “ Lipulaulu ” , kuid ka teisi isamaalisi laule .
+1	Peamiselt	D	_	2	advmod	_
+2	kuuldus	V	s=s	0	root	_
+3	“	Z	_	4	punct	_
+4	Lipulaulu	H	adt=adt	2	nsubj	CHECK
+5	”	Z	_	4	punct	_
+6	,	Z	_	11	punct	_
+7	kuid	J	_	11	cc	_
+8	ka	D	_	11	advmod	_
+9	teisi	P	pl=pl|p=p	11	det	_
+10	isamaalisi	A	pl=pl|p=p	11	amod	_
+11	laule	S	pl=pl|p=p	4	conj	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 9548155
+# text = “ Valitsusvälised organisatsioonid kuuluvad demokraatia juurde , ” kuuldus Hillary suust küpse poliitiku mõte .
+1	“	Z	_	4	punct	_
+2	Valitsusvälised	A	pl=pl|n=n	3	amod	_
+3	organisatsioonid	S	pl=pl|n=n	4	nsubj	_
+4	kuuluvad	V	vad=vad	0	root	_
+5	demokraatia	S	sg=sg|g=g	4	obl	_
+6	juurde	K	_	5	case	_
+7	,	Z	_	4	punct	_
+8	”	Z	_	4	punct	_
+9	kuuldus	V	s=s	4	parataxis	_
+10	Hillary	H	sg=sg|n=n	9	nsubj	_
+11	suust	S	sg=sg|el=el	9	obl	_
+12	küpse	S	sg=sg|g=g	13	nmod	_
+13	poliitiku	S	sg=sg|g=g	14	nmod	_
+14	mõte	S	sg=sg|n=n	9	obj	CHECK
+15	.	Z	_	4	punct	_
+
+# sent_id = 181401
+# text = Katsetuste ajal Colorado Springsis kuuldus Tesla laborist vägevat müra , antenni ümbritses võimas helendus .
+1	Katsetuste	S	pl=pl|g=g	2	nmod	_
+2	ajal	S	sg=sg|ad=ad	5	obl	_
+3	Colorado	H	sg=sg|n=n	5	obl	_
+4	Springsis	H	sg=sg|n=n	3	flat	_
+5	kuuldus	V	s=s	0	root	_
+6	Tesla	H	sg=sg|g=g	7	nmod	_
+7	laborist	S	sg=sg|el=el	5	obl	_
+8	vägevat	A	sg=sg|p=p	9	amod	_
+9	müra	S	sg=sg|p=p	5	obj	CHECK
+10	,	Z	_	12	punct	_
+11	antenni	S	sg=sg|p=p	12	nsubj	_
+12	ümbritses	V	s=s	5	conj	_
+13	võimas	A	sg=sg|n=n	14	amod	_
+14	helendus	S	sg=sg|n=n	12	obj	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 102907
+# text = Iga sõna , mis ta suust kuuldus , oli enne nagu iluduses walatud .
+1	Iga	P	sg=sg|n=n	2	det	_
+2	sõna	S	sg=sg|n=n	13	obj	_
+3	,	Z	_	7	punct	_
+4	mis	P	sg=sg|n=n	7	nsubj	_
+5	ta	P	sg=sg|g=g	7	obj	CHECK
+6	suust	S	sg=sg|el=el	7	obj	_
+7	kuuldus	V	s=s	2	acl:relcl	_
+8	,	Z	_	7	punct	_
+9	oli	V	s=s	13	aux	_
+10	enne	D	_	13	advmod	_
+11	nagu	D	_	10	fixed	_
+12	iluduses	S	sg=sg|in=in	13	obl	_
+13	walatud	A	sg=sg|n=n	0	root	_
+14	.	Z	_	13	punct	_
+
+# sent_id = 4517700
+# text = Lõpuks läks Dipendra uuesti aeda ja sealt kuuldus laske .
+1	Lõpuks	D	_	2	advmod	_
+2	läks	V	s=s	0	root	_
+3	Dipendra	H	sg=sg|n=n	2	nsubj	_
+4	uuesti	D	_	2	advmod	_
+5	aeda	S	adt=adt	2	obl	_
+6	ja	J	_	9	cc	_
+7	sealt	D	_	9	advmod	_
+8	kuuldus	V	s=s	9	obj	_
+9	laske	V	ge=ge	2	conj	CHECK
+10	.	Z	_	2	punct	_
+
+# sent_id = 552507
+# text = Nagu hiljem selgus , peegeldas avaldus eelkõige Jeltsini endiste aegade kõneosavust , sest Washingtoni Valges Majas ei olnud Vene presidendi ähvardustest midagi kuuldud .
+1	Nagu	D	_	3	mark	_
+2	hiljem	D	_	3	advmod	_
+3	selgus	V	s=s	5	advcl	_
+4	,	Z	_	3	punct	_
+5	peegeldas	V	s=s	0	root	_
+6	avaldus	S	sg=sg|n=n	5	obj	_
+7	eelkõige	D	_	5	advmod	_
+8	Jeltsini	H	sg=sg|g=g	5	nsubj	_
+9	endiste	A	pl=pl|g=g	10	amod	_
+10	aegade	S	pl=pl|g=g	11	nmod	_
+11	kõneosavust	S	sg=sg|p=p	5	obj	_
+12	,	Z	_	23	punct	_
+13	sest	J	_	23	mark	_
+14	Washingtoni	H	sg=sg|g=g	16	nmod	_
+15	Valges	S	sg=sg|in=in	16	nmod	_
+16	Majas	H	sg=sg|in=in	23	obl	_
+17	ei	V	neg=neg	23	aux	_
+18	olnud	V	nud=nud	23	aux	_
+19	Vene	G	_	20	nmod	_
+20	presidendi	S	sg=sg|g=g	21	nmod	_
+21	ähvardustest	S	pl=pl|el=el	23	obl	_
+22	midagi	P	sg=sg|p=p	23	obj	CHECK
+23	kuuldud	V	d=d	5	advcl	_
+24	.	Z	_	5	punct	_
+
+# sent_id = 5845151
+# text = Stalini suust on kuuldud arvu 7 miljonit , Nikita Hruštšovi suust 20 miljonit inimest .
+1	Stalini	H	sg=sg|g=g	2	nmod	_
+2	suust	S	sg=sg|el=el	4	obl	_
+3	on	V	b=b	4	aux	_
+4	kuuldud	A	pl=pl|n=n	0	root	_
+5	arvu	S	sg=sg|g=g	4	obj	CHECK
+6	7	N	?=?	7	compound	_
+7	miljonit	N	sg=sg|p=p	4	obl	_
+8	,	Z	_	9	punct	_
+9	Nikita	H	sg=sg|g=g	4	conj	_
+10	Hruštšovi	H	sg=sg|g=g	9	flat	_
+11	suust	S	sg=sg|el=el	9	orphan	_
+12	20	N	?=?	13	compound	_
+13	miljonit	N	sg=sg|p=p	14	nummod	_
+14	inimest	S	sg=sg|p=p	9	orphan	_
+15	.	Z	_	4	punct	_
+

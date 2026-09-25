@@ -1,0 +1,272 @@
+# sent_id = 1185905
+# text = Pertelsonil ja Budõlinil nappis raha massööri aastaringseks palkamiseks .
+1	Pertelsonil	H	sg=sg|ad=ad	4	nsubj	_
+2	ja	J	_	3	cc	_
+3	Budõlinil	H	sg=sg|ad=ad	1	conj	_
+4	nappis	V	s=s	0	root	_
+5	raha	S	sg=sg|g=g	4	obj	_
+6	massööri	S	sg=sg|g=g	8	nmod	CHECK
+7	aastaringseks	A	sg=sg|tr=tr	8	amod	_
+8	palkamiseks	S	sg=sg|tr=tr	4	obl	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 52739
+# text = Kuna Eesti presidentide ajaloos napib võrdlusmaterjali , kipub ainsa näitena ette tulema ikka proua Helle Meri .
+1	Kuna	J	_	5	mark	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	presidentide	S	pl=pl|g=g	4	nmod	_
+4	ajaloos	S	sg=sg|in=in	5	nsubj	_
+5	napib	V	b=b	8	advcl	_
+6	võrdlusmaterjali	S	sg=sg|g=g	5	obj	CHECK
+7	,	Z	_	5	punct	_
+8	kipub	V	b=b	0	root	_
+9	ainsa	A	sg=sg|g=g	10	amod	_
+10	näitena	S	sg=sg|es=es	12	obl	_
+11	ette	D	_	12	compound:prt	_
+12	tulema	V	ma=ma	8	xcomp	_
+13	ikka	D	_	12	advmod	_
+14	proua	S	sg=sg|n=n	8	nsubj	_
+15	Helle	H	sg=sg|n=n	14	appos	_
+16	Meri	H	sg=sg|n=n	15	flat	_
+17	.	Z	_	8	punct	_
+
+# sent_id = 132628
+# text = Oma arvamusteks napib manööverdamisruumi .
+1	Oma	P	sg=sg|g=g	2	nmod	_
+2	arvamusteks	S	pl=pl|tr=tr	3	obj	_
+3	napib	V	b=b	0	root	_
+4	manööverdamisruumi	S	adt=adt	3	nsubj	CHECK
+5	.	Z	_	3	punct	_
+
+# sent_id = 40591
+# text = “ Mul endal on neid alati nappinud .
+1	“	Z	_	7	punct	_
+2	Mul	P	sg=sg|ad=ad	7	nsubj	_
+3	endal	P	sg=sg|ad=ad	2	nmod	_
+4	on	V	b=b	7	aux	_
+5	neid	P	pl=pl|p=p	7	obj	CHECK
+6	alati	D	_	7	advmod	_
+7	nappinud	V	nud=nud	0	root	_
+8	.	Z	_	7	punct	_
+
+# sent_id = 1698294
+# text = " Kellel eluasemelaenu puhul vajalikuks sissemakseks raha napib , valib siis liisingfirma , kus omafinantseering väiksem , aga intress vastavalt kõrgem . "
+1	"	Z	_	10	punct	_
+2	Kellel	P	pl=pl|ad=ad	8	nsubj	_
+3	eluasemelaenu	S	sg=sg|g=g	8	obl	_
+4	puhul	K	_	3	case	_
+5	vajalikuks	A	sg=sg|tr=tr	6	amod	_
+6	sissemakseks	S	sg=sg|tr=tr	8	obj	_
+7	raha	S	sg=sg|n=n	8	obj	CHECK
+8	napib	V	b=b	10	advcl	_
+9	,	Z	_	8	punct	_
+10	valib	V	b=b	0	root	_
+11	siis	D	_	10	advmod	_
+12	liisingfirma	S	sg=sg|n=n	10	obj	_
+13	,	Z	_	16	punct	_
+14	kus	D	_	16	mark	_
+15	omafinantseering	S	sg=sg|n=n	16	nsubj:cop	_
+16	väiksem	C	sg=sg|n=n	12	acl	_
+17	,	Z	_	21	punct	_
+18	aga	J	_	21	cc	_
+19	intress	S	sg=sg|n=n	21	nsubj:cop	_
+20	vastavalt	K	_	21	advmod	_
+21	kõrgem	C	sg=sg|n=n	16	conj	_
+22	.	Z	_	10	punct	_
+23	"	Z	_	10	punct	_
+
+# sent_id = 10826499
+# text = Ta oskas vaadata kompassi udusel merel aerupaadis , kuid kooliharidus nappis poliitilise navigatsiooni kõige lihtsamais farvaatreis .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	oskas	V	s=s	0	root	_
+3	vaadata	V	da=da	2	xcomp	_
+4	kompassi	S	sg=sg|g=g	6	nmod	_
+5	udusel	A	sg=sg|ad=ad	6	amod	_
+6	merel	S	sg=sg|ad=ad	7	nmod	_
+7	aerupaadis	S	sg=sg|in=in	2	obl	_
+8	,	Z	_	11	punct	_
+9	kuid	J	_	11	cc	_
+10	kooliharidus	S	sg=sg|n=n	11	nsubj	_
+11	nappis	V	s=s	2	conj	_
+12	poliitilise	A	sg=sg|g=g	13	amod	_
+13	navigatsiooni	S	sg=sg|g=g	11	obj	_
+14	kõige	D	_	15	advmod	_
+15	lihtsamais	C	pl=pl|in=in	16	amod	_
+16	farvaatreis	S	sg=sg|n=n	11	obj	CHECK
+17	.	Z	_	2	punct	_
+
+# sent_id = 17141
+# text = Ehkki juustu , jäätist ja raha nappis , jagus Tiina Pargi ( toona küll Tiina Alla ) kasvuaega ohtralt vaimu- ja hingetoitu .
+1	Ehkki	J	_	7	mark	_
+2	juustu	S	sg=sg|p=p	7	nsubj	CHECK
+3	,	Z	_	4	punct	_
+4	jäätist	S	sg=sg|p=p	2	conj	_
+5	ja	J	_	6	cc	_
+6	raha	S	sg=sg|p=p	2	conj	_
+7	nappis	V	s=s	9	advcl	_
+8	,	Z	_	7	punct	_
+9	jagus	V	s=s	0	root	_
+10	Tiina	H	sg=sg|n=n	9	nsubj	_
+11	Pargi	S	sg=sg|g=g	10	flat	_
+12	(	Z	_	15	punct	_
+13	toona	D	_	15	advmod	_
+14	küll	D	_	15	advmod	_
+15	Tiina	H	sg=sg|n=n	18	parataxis	_
+16	Alla	D	_	15	case	_
+17	)	Z	_	15	punct	_
+18	kasvuaega	S	adt=adt	9	obj	_
+19	ohtralt	D	_	20	advmod	_
+20	vaimu-	S	sg=sg|p=p	9	obj	_
+21	ja	J	_	22	cc	_
+22	hingetoitu	S	sg=sg|p=p	20	conj	_
+23	.	Z	_	9	punct	_
+
+# sent_id = 91994
+# text = Oskustöölisi on kogu aeg nappinud , aga mida raskel ajal peale hakata ehitajaga , kes millimeetrit ei tunnista ?
+1	Oskustöölisi	S	pl=pl|p=p	5	obj	CHECK
+2	on	V	b=b	5	aux	_
+3	kogu	A	_	4	det	_
+4	aeg	S	sg=sg|n=n	5	obl	_
+5	nappinud	V	nud=nud	0	root	_
+6	,	Z	_	12	punct	_
+7	aga	J	_	12	cc	_
+8	mida	P	sg=sg|p=p	12	nsubj	_
+9	raskel	A	sg=sg|ad=ad	10	amod	_
+10	ajal	S	sg=sg|ad=ad	12	obl	_
+11	peale	D	_	10	case	_
+12	hakata	V	da=da	5	conj	_
+13	ehitajaga	S	sg=sg|kom=kom	12	nsubj	_
+14	,	Z	_	18	punct	_
+15	kes	P	sg=sg|n=n	18	nsubj	_
+16	millimeetrit	S	sg=sg|p=p	18	obj	_
+17	ei	V	neg=neg	18	aux	_
+18	tunnista	V	o=o	13	acl:relcl	_
+19	?	Z	_	5	punct	_
+
+# sent_id = 64387
+# text = Aga veel enne , kui napid miljonid pisikesteks osadeks jagatuna abivajajani jõuavad , võtavad ametnikud programmide juhtimiseks oma osa .
+1	Aga	J	_	14	cc	_
+2	veel	D	_	3	advmod	_
+3	enne	D	_	14	advmod	_
+4	,	Z	_	12	punct	_
+5	kui	D	_	12	mark	_
+6	napid	V	d=d	12	nsubj	_
+7	miljonid	N	pl=pl|n=n	9	nummod	_
+8	pisikesteks	A	pl=pl|tr=tr	9	amod	_
+9	osadeks	S	pl=pl|tr=tr	12	nsubj	_
+10	jagatuna	S	sg=sg|es=es	11	nmod	_
+11	abivajajani	S	sg=sg|ter=ter	12	obl	_
+12	jõuavad	V	vad=vad	14	advcl	CHECK
+13	,	Z	_	12	punct	_
+14	võtavad	V	vad=vad	0	root	_
+15	ametnikud	S	pl=pl|n=n	14	nsubj	_
+16	programmide	S	pl=pl|g=g	17	nmod	_
+17	juhtimiseks	S	sg=sg|tr=tr	14	obl	_
+18	oma	P	sg=sg|g=g	19	nmod	_
+19	osa	S	sg=sg|p=p	14	obj	_
+20	.	Z	_	14	punct	_
+
+# sent_id = 12140977
+# text = Tootjad tegid valiku , sest muidu oleks jõudu nappinud ning plaat poleks valmis saanudki .
+1	Tootjad	S	pl=pl|n=n	2	nsubj	_
+2	tegid	V	sid=sid	0	root	_
+3	valiku	S	sg=sg|g=g	2	obj	_
+4	,	Z	_	9	punct	_
+5	sest	J	_	9	mark	_
+6	muidu	D	_	9	advmod	_
+7	oleks	V	ks=ks	9	aux	_
+8	jõudu	S	adt=adt	9	obj	CHECK
+9	nappinud	A	pl=pl|n=n	2	advcl	_
+10	ning	J	_	13	cc	_
+11	plaat	S	sg=sg|n=n	14	obj	_
+12	poleks	V	neg=neg|ks=ks	13	cop	_
+13	valmis	A	_	9	conj	_
+14	saanudki	V	nud=nud	13	aux	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 834776
+# text = Helger Hallikul nappis jõudu
+1	Helger	H	sg=sg|n=n	3	nsubj	_
+2	Hallikul	H	sg=sg|ad=ad	1	flat	_
+3	nappis	V	s=s	0	root	_
+4	jõudu	S	adt=adt	3	obj	CHECK
+
+# sent_id = 677548
+# text = Kuigi poliitiliseks kokkuleppeks näib viimasel ajal head tahet nappivat , on presidendivalimisteni veel aega küllalt .
+1	Kuigi	D	_	9	mark	_
+2	poliitiliseks	A	sg=sg|tr=tr	3	amod	_
+3	kokkuleppeks	S	sg=sg|tr=tr	9	nsubj	_
+4	näib	V	b=b	9	aux	_
+5	viimasel	A	sg=sg|ad=ad	6	amod	_
+6	ajal	S	sg=sg|ad=ad	9	obl	_
+7	head	A	sg=sg|p=p	8	amod	_
+8	tahet	S	sg=sg|p=p	9	obj	CHECK
+9	nappivat	V	vat=vat	12	advcl	_
+10	,	Z	_	9	punct	_
+11	on	V	b=b	12	cop	_
+12	presidendivalimisteni	S	pl=pl|ter=ter	0	root	_
+13	veel	D	_	14	advmod	_
+14	aega	S	sg=sg|p=p	12	nsubj:cop	_
+15	küllalt	D	_	12	advmod	_
+16	.	Z	_	12	punct	_
+
+# sent_id = 19321
+# text = Kogu materjali on Trubetsky hankinud Läänest , peamiselt Inglismaalt , kuna Eesti raamatukogudes vastavat kirjandust ja ürikuid napib .
+1	Kogu	A	_	2	det	_
+2	materjali	S	sg=sg|g=g	5	nsubj	_
+3	on	V	vad=vad	5	aux	_
+4	Trubetsky	H	sg=sg|n=n	5	nsubj	_
+5	hankinud	V	nud=nud	0	root	_
+6	Läänest	S	sg=sg|el=el	5	obj	_
+7	,	Z	_	9	punct	_
+8	peamiselt	D	_	9	advmod	_
+9	Inglismaalt	H	sg=sg|abl=abl	6	conj	_
+10	,	Z	_	18	punct	_
+11	kuna	J	_	18	mark	_
+12	Eesti	H	sg=sg|g=g	13	nmod	_
+13	raamatukogudes	S	pl=pl|in=in	14	obj	_
+14	vastavat	A	sg=sg|p=p	15	acl	_
+15	kirjandust	S	sg=sg|p=p	18	nsubj	CHECK
+16	ja	J	_	17	cc	_
+17	ürikuid	S	pl=pl|p=p	15	conj	_
+18	napib	V	b=b	5	advcl	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 13853547
+# text = Hea tehnika lubab Tammertil stabiilselt heita , ent jõudu on tal mullusega võrreldes nappinud .
+1	Hea	A	sg=sg|n=n	2	amod	_
+2	tehnika	S	sg=sg|n=n	3	nsubj	_
+3	lubab	V	b=b	0	root	_
+4	Tammertil	H	sg=sg|ad=ad	6	obj	_
+5	stabiilselt	D	_	6	advmod	_
+6	heita	V	da=da	3	xcomp	_
+7	,	Z	_	14	punct	_
+8	ent	J	_	14	cc	_
+9	jõudu	S	adt=adt	14	obj	CHECK
+10	on	V	b=b	14	aux	_
+11	tal	P	sg=sg|ad=ad	14	nsubj	_
+12	mullusega	A	sg=sg|kom=kom	13	amod	_
+13	võrreldes	V	des=des	14	obj	_
+14	nappinud	A	_	3	conj	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 2429284
+# text = " Pühapäeva " dialoog tundub esmapilgul argine , ka tegevuses paistab pealiskaudsel vaatlemisel suuri sündmusi nappivat .
+1	"	Z	_	2	punct	_
+2	Pühapäeva	S	sg=sg|g=g	4	nmod	_
+3	"	Z	_	2	punct	_
+4	dialoog	S	sg=sg|n=n	7	nsubj:cop	_
+5	tundub	V	b=b	7	aux	_
+6	esmapilgul	S	sg=sg|ad=ad	7	obl	_
+7	argine	A	sg=sg|n=n	0	root	_
+8	,	Z	_	11	punct	_
+9	ka	D	_	10	advmod	_
+10	tegevuses	S	sg=sg|in=in	11	obl	_
+11	paistab	V	b=b	7	conj	_
+12	pealiskaudsel	A	sg=sg|ad=ad	13	amod	_
+13	vaatlemisel	S	sg=sg|ad=ad	16	obj	_
+14	suuri	A	pl=pl|p=p	15	amod	_
+15	sündmusi	S	pl=pl|p=p	16	obj	CHECK
+16	nappivat	V	vat=vat	7	conj	_
+17	.	Z	_	7	punct	_
+

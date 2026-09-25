@@ -1,0 +1,440 @@
+# sent_id = 2605678
+# text = Kuumutamisel hävib ka osa piima vitamiinidest .
+1	Kuumutamisel	S	sg=sg|ad=ad	2	obl	_
+2	hävib	V	b=b	0	root	_
+3	ka	D	_	4	advmod	_
+4	osa	S	sg=sg|g=g	2	nsubj	CHECK
+5	piima	S	sg=sg|g=g	6	nmod	_
+6	vitamiinidest	S	pl=pl|el=el	2	nsubj	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 532802
+# text = " Kui lõpeb Grossi autoritaarne juhtimine , hävib ta äri kuu ajaga , " väitis üks tundmatuks jääda sooviv kohalik prominent .
+1	"	Z	_	8	punct	_
+2	Kui	J	_	3	mark	_
+3	lõpeb	V	b=b	8	advcl	_
+4	Grossi	S	sg=sg|g=g	6	nmod	_
+5	autoritaarne	A	sg=sg|n=n	6	amod	_
+6	juhtimine	S	sg=sg|n=n	3	nsubj	_
+7	,	Z	_	3	punct	_
+8	hävib	V	b=b	0	root	_
+9	ta	P	sg=sg|g=g	8	nsubj	_
+10	äri	S	sg=sg|n=n	11	nmod	CHECK
+11	kuu	S	sg=sg|g=g	12	nmod	_
+12	ajaga	S	sg=sg|kom=kom	8	obl	_
+13	,	Z	_	8	punct	_
+14	"	Z	_	8	punct	_
+15	väitis	V	s=s	8	parataxis	_
+16	üks	P	sg=sg|n=n	18	nsubj	_
+17	tundmatuks	A	sg=sg|tr=tr	18	nsubj	_
+18	jääda	V	da=da	15	nsubj	_
+19	sooviv	A	sg=sg|n=n	21	acl	_
+20	kohalik	A	sg=sg|n=n	21	amod	_
+21	prominent	S	sg=sg|n=n	18	nsubj	_
+22	.	Z	_	8	punct	_
+
+# sent_id = 7575080
+# text = * Harvendusraietel raiutakse välja puud , mis muidu häviksid kas loodusliku harvenemise või haiguste t ?
+1	*	Z	_	3	punct	_
+2	Harvendusraietel	S	pl=pl|ad=ad	3	obj	_
+3	raiutakse	V	takse=takse	0	root	_
+4	välja	D	_	3	compound:prt	_
+5	puud	S	sg=sg|n=n	3	obj	_
+6	,	Z	_	9	punct	_
+7	mis	P	sg=sg|n=n	9	nsubj	_
+8	muidu	D	_	9	advmod	_
+9	häviksid	V	ksid=ksid	5	acl:relcl	_
+10	kas	D	_	12	cc:preconj	_
+11	loodusliku	A	sg=sg|g=g	12	amod	_
+12	harvenemise	S	sg=sg|g=g	9	obj	_
+13	või	J	_	14	cc	_
+14	haiguste	S	pl=pl|g=g	12	conj	_
+15	t	Y	?=?	12	conj	CHECK
+16	?	Z	_	3	punct	_
+
+# sent_id = 12114257
+# text = Aga kui näiteks pool Eestit häviks , siis ei pea väga palju fantaasiat olema , et mõista me ei suuda operatsiooni juhtida .
+1	Aga	J	_	6	cc	_
+2	kui	J	_	6	mark	_
+3	näiteks	D	_	6	advmod	_
+4	pool	N	sg=sg|n=n	5	nummod	_
+5	Eestit	H	sg=sg|p=p	6	obj	CHECK
+6	häviks	V	ks=ks	13	advcl	_
+7	,	Z	_	6	punct	_
+8	siis	D	_	13	advmod	_
+9	ei	V	neg=neg	13	aux	_
+10	pea	V	o=o	13	aux	_
+11	väga	D	_	12	advmod	_
+12	palju	D	_	13	advmod	_
+13	fantaasiat	S	sg=sg|p=p	0	root	_
+14	olema	V	ma=ma	13	cop	_
+15	,	Z	_	20	punct	_
+16	et	J	_	20	mark	_
+17	mõista	V	da=da	20	advcl	_
+18	me	P	pl=pl|n=n	20	nsubj	_
+19	ei	V	neg=neg	20	aux	_
+20	suuda	V	o=o	13	acl	_
+21	operatsiooni	S	sg=sg|p=p	22	obj	_
+22	juhtida	V	da=da	20	xcomp	_
+23	.	Z	_	13	punct	_
+
+# sent_id = 4275174
+# text = Esialgseil andmeil on tules hukkunud 17 inimest ja hävinud 80 000 ruutkilomeetrit metsi ning rohumaid .
+1	Esialgseil	A	pl=pl|ad=ad	2	amod	_
+2	andmeil	S	pl=pl|ad=ad	5	obl	_
+3	on	V	b=b	5	aux	_
+4	tules	S	sg=sg|in=in	5	obl	_
+5	hukkunud	V	nud=nud	0	root	_
+6	17	N	?=?	7	nummod	_
+7	inimest	S	sg=sg|p=p	5	nsubj	_
+8	ja	J	_	9	cc	_
+9	hävinud	A	sg=sg|n=n	5	conj	_
+10	80 000	N	?=?	11	nummod	_
+11	ruutkilomeetrit	S	sg=sg|p=p	12	nmod	_
+12	metsi	S	pl=pl|p=p	9	obj	CHECK
+13	ning	J	_	14	cc	_
+14	rohumaid	S	pl=pl|p=p	12	conj	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 1172285
+# text = Teise maailmasõja käigus hävis suur osa kogusid .
+1	Teise	P	sg=sg|g=g	2	det	_
+2	maailmasõja	S	sg=sg|g=g	4	obl	_
+3	käigus	K	_	2	case	_
+4	hävis	V	s=s	0	root	_
+5	suur	A	sg=sg|n=n	6	amod	_
+6	osa	S	sg=sg|n=n	7	nmod	_
+7	kogusid	V	sid=sid	4	nsubj	CHECK
+8	.	Z	_	4	punct	_
+
+# sent_id = 1741476
+# text = Üleujutustes on hävinud või kannatada saanud 328.000 elumaja ja administratiivhoonet ning hävinud põllusaak rohkem kui 45.000 hektaril .
+1	Üleujutustes	S	pl=pl|in=in	3	obj	_
+2	on	V	vad=vad	3	aux	_
+3	hävinud	A	pl=pl|n=n	0	root	_
+4	või	J	_	5	cc	_
+5	kannatada	V	da=da	3	conj	_
+6	saanud	A	sg=sg|n=n	5	aux	_
+7	328.000	N	?=?	8	nummod	_
+8	elumaja	S	sg=sg|p=p	6	obj	_
+9	ja	J	_	10	cc	_
+10	administratiivhoonet	S	sg=sg|p=p	8	conj	_
+11	ning	J	_	12	cc	_
+12	hävinud	A	pl=pl|n=n	3	conj	_
+13	põllusaak	S	sg=sg|n=n	12	obj	CHECK
+14	rohkem	D	_	12	advmod	_
+15	kui	J	_	14	fixed	_
+16	45.000	N	?=?	17	nummod	_
+17	hektaril	S	sg=sg|ad=ad	14	advcl	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 4056858
+# text = Ossip Mandelshtamile pühendatud luuletusest " Ei hävi mõte , varjav elu seemneid " jättis N. Liidu tsensor välja terve pika osa , mis algab järgmise mõttega : " Sa olid suur jõud ja need , kes sind lämmatasid , ei pingutanud ilmaaegu . "
+1	Ossip	H	sg=sg|n=n	3	obl	_
+2	Mandelshtamile	H	sg=sg|g=g	1	flat	_
+3	pühendatud	A	_	4	acl	_
+4	luuletusest	S	sg=sg|el=el	14	obj	_
+5	"	Z	_	7	punct	_
+6	Ei	V	neg=neg	7	aux	_
+7	hävi	V	o=o	4	parataxis	_
+8	mõte	S	sg=sg|n=n	7	obj	_
+9	,	Z	_	12	punct	_
+10	varjav	A	sg=sg|n=n	11	acl	_
+11	elu	S	sg=sg|n=n	12	nmod	_
+12	seemneid	S	pl=pl|p=p	7	obj	CHECK
+13	"	Z	_	7	punct	_
+14	jättis	V	s=s	0	root	_
+15	N. Liidu	H	sg=sg|g=g	16	nmod	_
+16	tsensor	S	sg=sg|n=n	14	obl	_
+17	välja	D	_	14	compound:prt	_
+18	terve	A	sg=sg|g=g	20	det	_
+19	pika	A	sg=sg|g=g	20	amod	_
+20	osa	S	sg=sg|g=g	14	obj	_
+21	,	Z	_	23	punct	_
+22	mis	P	sg=sg|n=n	23	nsubj	_
+23	algab	V	b=b	20	acl:relcl	_
+24	järgmise	A	sg=sg|g=g	25	amod	_
+25	mõttega	S	sg=sg|kom=kom	23	obl	_
+26	:	Z	_	31	punct	_
+27	"	Z	_	31	punct	_
+28	Sa	P	sg=sg|n=n	31	nsubj:cop	_
+29	olid	V	sid=sid	31	cop	_
+30	suur	A	sg=sg|n=n	31	amod	_
+31	jõud	S	pl=pl|n=n	23	parataxis	_
+32	ja	J	_	40	cc	_
+33	need	P	pl=pl|n=n	40	nsubj	_
+34	,	Z	_	37	punct	_
+35	kes	P	sg=sg|n=n	37	nsubj	_
+36	sind	P	sg=sg|p=p	37	nsubj	_
+37	lämmatasid	V	sid=sid	33	acl:relcl	_
+38	,	Z	_	37	punct	_
+39	ei	V	neg=neg	40	aux	_
+40	pingutanud	V	nud=nud	31	conj	_
+41	ilmaaegu	D	_	40	advmod	_
+42	.	Z	_	31	punct	_
+43	"	Z	_	31	punct	_
+
+# sent_id = 79839
+# text = Industrialiseeritud massehituse “ tormi ja tungi ” aegu 60.-70. aastatel , mille käigus hävis vanu ja väärtuslikke linnaosasid , kahetsetakse nüüd paljudes lääneriikides .
+1	Industrialiseeritud	A	_	2	acl	_
+2	massehituse	S	sg=sg|g=g	22	obj	_
+3	“	Z	_	4	punct	_
+4	tormi	S	sg=sg|p=p	2	appos	_
+5	ja	J	_	6	cc	_
+6	tungi	S	sg=sg|p=p	4	conj	_
+7	”	Z	_	4	punct	_
+8	aegu	S	pl=pl|p=p	22	obj	_
+9	60.	O	?=?	8	amod	_
+10	-	Z	_	12	punct	_
+11	70.	O	?=?	12	amod	_
+12	aastatel	S	pl=pl|ad=ad	22	obl	_
+13	,	Z	_	16	punct	_
+14	mille	P	pl=pl|g=g	16	obl	_
+15	käigus	K	_	14	case	_
+16	hävis	V	s=s	12	acl:relcl	_
+17	vanu	A	pl=pl|p=p	20	amod	_
+18	ja	J	_	19	cc	_
+19	väärtuslikke	A	pl=pl|p=p	17	conj	_
+20	linnaosasid	S	pl=pl|p=p	16	obj	CHECK
+21	,	Z	_	16	punct	_
+22	kahetsetakse	V	takse=takse	0	root	_
+23	nüüd	D	_	22	advmod	_
+24	paljudes	P	pl=pl|in=in	25	nmod	_
+25	lääneriikides	S	pl=pl|in=in	22	obj	_
+26	.	Z	_	22	punct	_
+
+# sent_id = 165788
+# text = Nagu teada , hävis Keres toona Botvinnikule 1 : 4.
+1	Nagu	D	_	2	mark	_
+2	teada	V	da=da	4	advcl	_
+3	,	Z	_	2	punct	_
+4	hävis	V	s=s	0	root	_
+5	Keres	H	sg=sg|n=n	4	nsubj	_
+6	toona	D	_	4	advmod	_
+7	Botvinnikule	H	sg=sg|g=g	4	nsubj	CHECK
+8	1	N	?=?	7	nummod	_
+9	:	Z	_	8	punct	_
+10	4.	O	?=?	8	flat	_
+
+# sent_id = 1587768
+# text = Taas näeb Mulder käegakatsutavaid tõendeid võõrtsivilisatsioonide olemasolust ja taas hävivad kõik need tõendid loo lõpuks nagu liiv , mis sõrmede vahelt tuulde pudeneb .
+1	Taas	D	_	2	advmod	_
+2	näeb	V	b=b	0	root	_
+3	Mulder	S	sg=sg|n=n	2	nsubj	_
+4	käegakatsutavaid	A	pl=pl|p=p	5	acl	_
+5	tõendeid	S	pl=pl|p=p	2	obj	_
+6	võõrtsivilisatsioonide	S	pl=pl|g=g	7	nmod	_
+7	olemasolust	S	sg=sg|el=el	5	nmod	_
+8	ja	J	_	10	cc	_
+9	taas	D	_	10	advmod	_
+10	hävivad	V	vad=vad	2	conj	_
+11	kõik	P	pl=pl|n=n	13	det	_
+12	need	P	pl=pl|n=n	13	det	_
+13	tõendid	S	pl=pl|n=n	14	obj	_
+14	loo	V	o=o	10	nsubj	CHECK
+15	lõpuks	D	_	10	advmod	_
+16	nagu	J	_	17	mark	_
+17	liiv	S	sg=sg|n=n	14	advcl	_
+18	,	Z	_	23	punct	_
+19	mis	P	pl=pl|n=n	23	nsubj	_
+20	sõrmede	S	pl=pl|g=g	23	obl	_
+21	vahelt	K	_	20	case	_
+22	tuulde	S	adt=adt	23	obl	_
+23	pudeneb	V	b=b	17	acl:relcl	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 120976
+# text = Shotimaal näitasid teadlased , et ka lehetäide looduslikud vaenlased lepatriinud hävisid , kui põllul kasvas täisid tappev kartul .
+1	Shotimaal	H	sg=sg|ad=ad	2	obl	_
+2	näitasid	V	sid=sid	0	root	_
+3	teadlased	S	pl=pl|n=n	2	nsubj	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	ka	D	_	7	advmod	_
+7	lehetäide	S	pl=pl|g=g	9	nmod	_
+8	looduslikud	A	pl=pl|n=n	9	amod	_
+9	vaenlased	S	pl=pl|n=n	10	obj	_
+10	lepatriinud	S	pl=pl|n=n	11	acl	CHECK
+11	hävisid	V	sid=sid	2	ccomp	_
+12	,	Z	_	15	punct	_
+13	kui	D	_	15	mark	_
+14	põllul	S	sg=sg|ad=ad	15	nsubj	_
+15	kasvas	V	s=s	11	advcl	_
+16	täisid	S	pl=pl|p=p	17	obl	_
+17	tappev	A	sg=sg|n=n	18	acl	_
+18	kartul	S	sg=sg|n=n	15	nsubj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 1593821
+# text = Parteiline kord on osutunud nii tugevaks , et enne hävigu elu maal , aga parteid ei tohi mingil juhul kahjustada .
+1	Parteiline	A	sg=sg|n=n	2	amod	_
+2	kord	S	sg=sg|n=n	4	obl	_
+3	on	V	vad=vad	4	aux	_
+4	osutunud	A	sg=sg|n=n	0	root	_
+5	nii	D	_	6	advmod	_
+6	tugevaks	A	sg=sg|tr=tr	4	nsubj	_
+7	,	Z	_	10	punct	_
+8	et	J	_	10	mark	_
+9	enne	D	_	10	advmod	_
+10	hävigu	V	gu=gu	4	advcl	_
+11	elu	S	sg=sg|g=g	10	nsubj	CHECK
+12	maal	S	sg=sg|ad=ad	10	obl	_
+13	,	Z	_	20	punct	_
+14	aga	J	_	20	cc	_
+15	parteid	S	pl=pl|n=n	20	nsubj	_
+16	ei	V	neg=neg	20	aux	_
+17	tohi	V	o=o	20	aux	_
+18	mingil	P	sg=sg|ad=ad	19	det	_
+19	juhul	S	sg=sg|ad=ad	20	obl	_
+20	kahjustada	V	da=da	10	conj	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 1303515
+# text = " Paraku on kvartali muu miljöö juba hävinud , " lausus Kodres .
+1	"	Z	_	8	punct	_
+2	Paraku	D	_	8	advmod	_
+3	on	V	vad=vad	8	aux	_
+4	kvartali	S	sg=sg|g=g	8	obl	_
+5	muu	P	sg=sg|g=g	6	amod	_
+6	miljöö	S	sg=sg|g=g	8	nsubj	CHECK
+7	juba	D	_	8	advmod	_
+8	hävinud	A	_	0	root	_
+9	,	Z	_	8	punct	_
+10	"	Z	_	8	punct	_
+11	lausus	V	s=s	8	parataxis	_
+12	Kodres	H	sg=sg|n=n	11	nsubj	_
+13	.	Z	_	8	punct	_
+
+# sent_id = 296223
+# text = Seevastu ei saa § 1004 alusel nõuda hüvitust hävinud taimede ja muu niisuguse eest , ka mitte samaväärsete puude ja põõsaste istutamist .
+1	Seevastu	D	_	7	advmod	_
+2	ei	V	neg=neg	7	aux	_
+3	saa	V	o=o	7	aux	_
+4	§	Y	?=?	6	nmod	_
+5	1004	N	?=?	4	nummod	_
+6	alusel	S	sg=sg|ad=ad	7	obl	_
+7	nõuda	V	da=da	0	root	_
+8	hüvitust	S	sg=sg|p=p	9	obj	CHECK
+9	hävinud	A	pl=pl|n=n	10	acl	_
+10	taimede	S	pl=pl|g=g	7	nsubj	_
+11	ja	J	_	12	cc	_
+12	muu	P	sg=sg|g=g	10	conj	_
+13	niisuguse	P	sg=sg|g=g	12	det	_
+14	eest	K	_	13	case	_
+15	,	Z	_	19	punct	_
+16	ka	D	_	19	advmod	_
+17	mitte	D	_	18	advmod	_
+18	samaväärsete	A	pl=pl|g=g	19	amod	_
+19	puude	S	sg=sg|g=g	22	nmod	_
+20	ja	J	_	21	cc	_
+21	põõsaste	S	pl=pl|g=g	22	nmod	_
+22	istutamist	S	sg=sg|p=p	10	conj	_
+23	.	Z	_	7	punct	_
+
+# sent_id = 8130599
+# text = Pühavaimu kiriku praost Gustav Piir õnnistas kiriku tornikiivrit , tuulelippu ja Hollandis valminud tonnist kirikukella , mis on tulekahjus hävinud Eesti vanima , 1433. aastast pärineva kirikukella koopia .
+1	Pühavaimu	S	sg=sg|g=g	2	nmod	_
+2	kiriku	S	sg=sg|g=g	3	nmod	_
+3	praost	S	sg=sg|n=n	6	nsubj	_
+4	Gustav	H	sg=sg|n=n	3	appos	_
+5	Piir	H	sg=sg|n=n	4	flat	_
+6	õnnistas	V	s=s	0	root	_
+7	kiriku	S	sg=sg|g=g	8	nmod	_
+8	tornikiivrit	S	sg=sg|p=p	6	obj	_
+9	,	Z	_	10	punct	_
+10	tuulelippu	S	sg=sg|p=p	8	conj	_
+11	ja	J	_	12	cc	_
+12	Hollandis	H	sg=sg|in=in	14	nmod	_
+13	valminud	A	_	14	acl	_
+14	tonnist	S	sg=sg|el=el	15	nmod	_
+15	kirikukella	S	sg=sg|g=g	8	conj	_
+16	,	Z	_	20	punct	_
+17	mis	P	pl=pl|n=n	20	nsubj	_
+18	on	V	b=b	20	aux	_
+19	tulekahjus	S	sg=sg|in=in	20	obl	_
+20	hävinud	A	pl=pl|n=n	15	acl:relcl	_
+21	Eesti	H	sg=sg|g=g	28	nmod	_
+22	vanima	U	sg=sg|g=g	28	amod	_
+23	,	Z	_	24	punct	_
+24	1433.	O	?=?	25	amod	_
+25	aastast	S	sg=sg|el=el	26	obl	_
+26	pärineva	A	sg=sg|g=g	22	conj	_
+27	kirikukella	S	sg=sg|g=g	28	nmod	_
+28	koopia	S	sg=sg|n=n	20	obj	CHECK
+29	.	Z	_	6	punct	_
+
+# sent_id = 180805
+# text = Hävib maaelu , väheneb lojaalne elanikkond ja tarbija toidulaud satub sõltuvusse ( ebakvaliteetsetest ) importtoiduainetest .
+1	Hävib	V	b=b	0	root	_
+2	maaelu	S	sg=sg|p=p	1	obj	CHECK
+3	,	Z	_	4	punct	_
+4	väheneb	V	b=b	1	conj	_
+5	lojaalne	A	sg=sg|n=n	6	amod	_
+6	elanikkond	S	sg=sg|n=n	4	obl	_
+7	ja	J	_	10	cc	_
+8	tarbija	S	sg=sg|g=g	9	nmod	_
+9	toidulaud	S	sg=sg|n=n	10	nsubj	_
+10	satub	V	b=b	1	conj	_
+11	sõltuvusse	S	adt=adt	15	nmod	_
+12	(	Z	_	13	punct	_
+13	ebakvaliteetsetest	A	pl=pl|el=el	11	parataxis	_
+14	)	Z	_	13	punct	_
+15	importtoiduainetest	S	pl=pl|el=el	10	nsubj	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 6456306
+# text = Kõik teadlased võivad Maal välja surra , kuid perpetuum mobile leiutajad ei hävi .
+1	Kõik	P	pl=pl|n=n	2	det	_
+2	teadlased	S	pl=pl|n=n	6	nsubj	_
+3	võivad	V	vad=vad	6	aux	_
+4	Maal	H	sg=sg|ad=ad	6	obl	_
+5	välja	D	_	6	compound:prt	_
+6	surra	V	da=da	0	root	_
+7	,	Z	_	13	punct	_
+8	kuid	J	_	13	cc	_
+9	perpetuum	S	sg=sg|n=n	10	nmod	_
+10	mobile	S	sg=sg|all=all	13	nsubj	_
+11	leiutajad	S	pl=pl|n=n	13	obj	CHECK
+12	ei	V	neg=neg	13	aux	_
+13	hävi	V	o=o	6	conj	_
+14	.	Z	_	6	punct	_
+
+# sent_id = 4008647
+# text = Algmaterjal on meil ju olemas ja sellest ei hävi midagi .
+1	Algmaterjal	S	sg=sg|n=n	2	obl	_
+2	on	V	vad=vad	0	root	_
+3	meil	P	pl=pl|ad=ad	2	nsubj	_
+4	ju	D	_	2	advmod	_
+5	olemas	V	mas=mas	2	xcomp	_
+6	ja	J	_	9	cc	_
+7	sellest	P	sg=sg|el=el	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	hävi	V	o=o	2	conj	_
+10	midagi	P	sg=sg|p=p	9	obj	CHECK
+11	.	Z	_	2	punct	_
+
+# sent_id = 2588347
+# text = Tulekahjudes , mida võimud hindavad riigi ajaloo suurimateks ja laastavaimateks , on põlenud 550 000 hektarit maapinda ja hävinud üle saja elamu .
+1	Tulekahjudes	S	pl=pl|in=in	13	nsubj	_
+2	,	Z	_	5	punct	_
+3	mida	P	sg=sg|p=p	5	nsubj	_
+4	võimud	S	pl=pl|n=n	5	obj	_
+5	hindavad	V	vad=vad	1	acl:relcl	_
+6	riigi	S	sg=sg|g=g	7	nmod	_
+7	ajaloo	S	sg=sg|g=g	8	obl	_
+8	suurimateks	U	pl=pl|tr=tr	5	obj	_
+9	ja	J	_	10	cc	_
+10	laastavaimateks	U	pl=pl|tr=tr	8	conj	_
+11	,	Z	_	5	punct	_
+12	on	V	b=b	13	aux	_
+13	põlenud	A	sg=sg|n=n	0	root	_
+14	550 000	N	?=?	15	nummod	_
+15	hektarit	S	sg=sg|p=p	16	nmod	_
+16	maapinda	S	sg=sg|p=p	13	nsubj	_
+17	ja	J	_	18	cc	_
+18	hävinud	A	sg=sg|n=n	13	conj	_
+19	üle	D	_	20	case	_
+20	saja	N	sg=sg|g=g	21	nummod	_
+21	elamu	S	sg=sg|g=g	18	obj	CHECK
+22	.	Z	_	13	punct	_
+

@@ -1,0 +1,278 @@
+# sent_id = 158614
+# text = Terve keskkooliaja pesitses Marje südames üks kindel poiss .
+1	Terve	A	sg=sg|g=g	2	amod	_
+2	keskkooliaja	S	sg=sg|g=g	3	obj	CHECK
+3	pesitses	V	s=s	0	root	_
+4	Marje	H	sg=sg|n=n	5	nmod	_
+5	südames	S	sg=sg|in=in	3	obj	_
+6	üks	P	sg=sg|n=n	8	det	_
+7	kindel	A	sg=sg|n=n	8	amod	_
+8	poiss	S	sg=sg|n=n	3	nsubj	_
+9	.	Z	_	3	punct	_
+
+# sent_id = 2412421
+# text = Transilvaanias elavad rumeenlased , ungarlased ja sakslased , kui mainida suuremaid rahvusi ( lisaks pesitseb seal igasugu erineva nahavärvi ja -tooniga tegelasi ) .
+1	Transilvaanias	H	sg=sg|in=in	2	obl	_
+2	elavad	V	vad=vad	0	root	_
+3	rumeenlased	S	pl=pl|n=n	2	nsubj	_
+4	,	Z	_	5	punct	_
+5	ungarlased	S	pl=pl|n=n	3	conj	_
+6	ja	J	_	7	cc	_
+7	sakslased	S	pl=pl|n=n	3	conj	_
+8	,	Z	_	10	punct	_
+9	kui	D	_	10	mark	_
+10	mainida	V	da=da	2	advcl	_
+11	suuremaid	C	pl=pl|p=p	12	amod	_
+12	rahvusi	S	pl=pl|p=p	10	obj	_
+13	(	Z	_	15	punct	_
+14	lisaks	S	sg=sg|tr=tr	15	obl	_
+15	pesitseb	V	b=b	10	parataxis	_
+16	seal	D	_	15	advmod	_
+17	igasugu	D	_	15	advmod	_
+18	erineva	A	sg=sg|g=g	19	acl	_
+19	nahavärvi	S	sg=sg|g=g	15	obj	CHECK
+20	ja	J	_	23	cc	_
+21	-	Z	_	23	punct	_
+22	tooniga	S	sg=sg|kom=kom	23	nmod	_
+23	tegelasi	S	pl=pl|p=p	15	obj	_
+24	)	Z	_	15	punct	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 11620247
+# text = " Me ei mõtle platsile astudes otseti kohtumise tähtsusele , kuid alateadvus pesitseb too aimdus ikkagi . "
+1	"	Z	_	4	punct	_
+2	Me	P	pl=pl|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	mõtle	V	o=o	0	root	_
+5	platsile	S	sg=sg|all=all	6	obl	_
+6	astudes	V	des=des	4	conj	_
+7	otseti	D	_	6	advmod	_
+8	kohtumise	S	sg=sg|g=g	6	obl	_
+9	tähtsusele	S	sg=sg|all=all	6	obl	_
+10	,	Z	_	13	punct	_
+11	kuid	J	_	13	cc	_
+12	alateadvus	S	sg=sg|n=n	13	obj	_
+13	pesitseb	V	b=b	4	conj	_
+14	too	P	sg=sg|n=n	15	det	_
+15	aimdus	V	s=s	13	nsubj	CHECK
+16	ikkagi	D	_	13	advmod	_
+17	.	Z	_	4	punct	_
+18	"	Z	_	4	punct	_
+
+# sent_id = 16102475
+# text = Hundihammustus toob temas esile selle , mis seni kusagil sügaval hingesopis on pesitsenud - inimese animaalse olemuse .
+1	Hundihammustus	S	sg=sg|n=n	2	obj	_
+2	toob	V	b=b	0	root	_
+3	temas	P	sg=sg|in=in	2	nsubj	_
+4	esile	D	_	2	compound:prt	_
+5	selle	P	sg=sg|g=g	2	nsubj	_
+6	,	Z	_	13	punct	_
+7	mis	P	pl=pl|n=n	13	nsubj	_
+8	seni	D	_	13	advmod	_
+9	kusagil	D	_	13	advmod	_
+10	sügaval	A	sg=sg|ad=ad	11	amod	_
+11	hingesopis	S	sg=sg|in=in	13	obj	_
+12	on	V	vad=vad	13	aux	_
+13	pesitsenud	A	sg=sg|n=n	5	acl:relcl	_
+14	-	Z	_	13	punct	_
+15	inimese	S	sg=sg|g=g	17	nmod	_
+16	animaalse	A	sg=sg|g=g	17	amod	_
+17	olemuse	S	sg=sg|g=g	13	obj	CHECK
+18	.	Z	_	2	punct	_
+
+# sent_id = 590044
+# text = " Ma olin teistelt ministritelt kuulnud , et ministeeriumides pesitsevad miskid kantslerid , " seletab välisminister Toomas Hendrik Ilves .
+1	"	Z	_	6	punct	_
+2	Ma	P	sg=sg|n=n	6	nsubj	_
+3	olin	V	sin=sin	6	aux	_
+4	teistelt	O	pl=pl|abl=abl	5	det	_
+5	ministritelt	S	pl=pl|abl=abl	6	obj	_
+6	kuulnud	A	sg=sg|n=n	0	root	_
+7	,	Z	_	10	punct	_
+8	et	J	_	10	mark	_
+9	ministeeriumides	S	pl=pl|in=in	10	nsubj	_
+10	pesitsevad	V	vad=vad	6	ccomp	_
+11	miskid	S	pl=pl|n=n	12	nmod	_
+12	kantslerid	S	pl=pl|n=n	10	obj	CHECK
+13	,	Z	_	6	punct	_
+14	"	Z	_	6	punct	_
+15	seletab	V	b=b	6	parataxis	_
+16	välisminister	S	sg=sg|n=n	15	nsubj	_
+17	Toomas	H	sg=sg|n=n	16	appos	_
+18	Hendrik	H	sg=sg|n=n	17	flat	_
+19	Ilves	H	sg=sg|n=n	17	flat	_
+20	.	Z	_	6	punct	_
+
+# sent_id = 1362287
+# text = Nagu emalgi pesitses ta hinges aadlikule omane võrdsustunne kõige elavaga .
+1	Nagu	D	_	3	mark	_
+2	emalgi	S	sg=sg|ad=ad	3	advcl	_
+3	pesitses	V	s=s	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	hinges	S	sg=sg|in=in	6	nmod	_
+6	aadlikule	S	sg=sg|all=all	7	obl	_
+7	omane	A	sg=sg|n=n	8	amod	_
+8	võrdsustunne	S	sg=sg|n=n	3	obj	CHECK
+9	kõige	D	_	10	advmod	_
+10	elavaga	S	sg=sg|kom=kom	3	advmod	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 166819
+# text = Juba lapsena pesitses mus aukartus Kadrioru staadioni , iseäranis selle arhitektuurselt mõjuva peatribüüni vastu .
+1	Juba	D	_	2	advmod	_
+2	lapsena	S	sg=sg|es=es	3	obl	_
+3	pesitses	V	s=s	0	root	_
+4	mus	P	sg=sg|in=in	3	nsubj	_
+5	aukartus	S	sg=sg|n=n	3	obj	_
+6	Kadrioru	H	sg=sg|g=g	7	nmod	_
+7	staadioni	S	sg=sg|p=p	3	obl	CHECK
+8	,	Z	_	13	punct	_
+9	iseäranis	D	_	10	advmod	_
+10	selle	P	sg=sg|g=g	13	det	_
+11	arhitektuurselt	D	_	12	advmod	_
+12	mõjuva	A	sg=sg|g=g	13	acl	_
+13	peatribüüni	S	sg=sg|g=g	3	obl	_
+14	vastu	K	_	13	case	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 12738170
+# text = Nemad siiski Vaindlool ei pesitse .
+1	Nemad	P	pl=pl|n=n	5	nsubj	_
+2	siiski	D	_	5	advmod	_
+3	Vaindlool	H	sg=sg|n=n	5	obj	CHECK
+4	ei	V	neg=neg	5	aux	_
+5	pesitse	V	o=o	0	root	_
+6	.	Z	_	5	punct	_
+
+# sent_id = 14516450
+# text = 5,7 hektari suurusel maatükil ei kasva kaitsealuseid taimi ega pesitse kaitsealuseid linde .
+1	5,7	N	?=?	2	nummod	_
+2	hektari	S	sg=sg|g=g	3	obl	_
+3	suurusel	A	sg=sg|ad=ad	4	amod	_
+4	maatükil	S	sg=sg|ad=ad	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	kasva	V	o=o	0	root	_
+7	kaitsealuseid	A	pl=pl|p=p	8	amod	_
+8	taimi	S	pl=pl|p=p	6	nsubj	_
+9	ega	J	_	10	cc	_
+10	pesitse	V	o=o	6	conj	_
+11	kaitsealuseid	A	pl=pl|p=p	12	amod	_
+12	linde	S	pl=pl|p=p	10	obj	CHECK
+13	.	Z	_	6	punct	_
+
+# sent_id = 16294437
+# text = Terve aasta jooksul , mil mul on arvuti olnud , pole mul kordagi arvutis pesitsenud ühtegi viirust .
+1	Terve	A	sg=sg|g=g	2	amod	_
+2	aasta	S	sg=sg|g=g	15	obl	_
+3	jooksul	K	_	2	case	_
+4	,	Z	_	8	punct	_
+5	mil	D	_	8	mark	_
+6	mul	P	sg=sg|ad=ad	8	nsubj:cop	_
+7	on	V	vad=vad	8	aux	_
+8	arvuti	S	sg=sg|n=n	2	acl	_
+9	olnud	V	nud=nud	8	cop	_
+10	,	Z	_	8	punct	_
+11	pole	V	neg=neg|o=o	15	aux	_
+12	mul	P	sg=sg|ad=ad	15	nsubj	_
+13	kordagi	S	sg=sg|p=p	15	obl	_
+14	arvutis	S	sg=sg|in=in	15	obl	_
+15	pesitsenud	A	_	0	root	_
+16	ühtegi	N	sg=sg|p=p	17	nummod	_
+17	viirust	S	sg=sg|p=p	15	obj	CHECK
+18	.	Z	_	15	punct	_
+
+# sent_id = 1241470
+# text = Võimsalt pesitses see inimeste teadvuses hallil nõukogude ajal , mil rajatagune päritolu automaatselt kaubale tarbija silmis lisaväärtust andis .
+1	Võimsalt	D	_	2	advmod	_
+2	pesitses	V	s=s	0	root	_
+3	see	P	sg=sg|n=n	2	nsubj	_
+4	inimeste	S	pl=pl|g=g	5	nmod	_
+5	teadvuses	S	sg=sg|in=in	2	obj	_
+6	hallil	S	sg=sg|ad=ad	2	obl	_
+7	nõukogude	S	pl=pl|g=g	8	nmod	_
+8	ajal	K	_	2	obl	CHECK
+9	,	Z	_	18	punct	_
+10	mil	D	_	18	mark	_
+11	rajatagune	A	sg=sg|n=n	12	amod	_
+12	päritolu	S	sg=sg|n=n	18	nsubj	_
+13	automaatselt	D	_	18	advmod	_
+14	kaubale	S	sg=sg|all=all	15	nmod	_
+15	tarbija	S	sg=sg|g=g	16	nmod	_
+16	silmis	S	pl=pl|in=in	18	obl	_
+17	lisaväärtust	S	sg=sg|p=p	18	obj	_
+18	andis	V	s=s	2	advcl	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 14340715
+# text = Pärast jäähalli hevikatelt ja järgnenud põgusat vestlust Manowari pomo Joey DeMaioga suundus allakirjutanu naljaviluks hotelli Palace , kus teadis metallimehi pesitsevat .
+1	Pärast	K	_	3	case	_
+2	jäähalli	A	sg=sg|p=p	3	amod	_
+3	hevikatelt	S	sg=sg|p=p	12	obl	_
+4	ja	J	_	7	cc	_
+5	järgnenud	A	sg=sg|n=n	7	acl	_
+6	põgusat	A	sg=sg|p=p	7	amod	_
+7	vestlust	S	sg=sg|p=p	3	conj	_
+8	Manowari	H	sg=sg|g=g	7	appos	_
+9	pomo	S	sg=sg|g=g	8	flat	_
+10	Joey	H	sg=sg|g=g	8	flat	_
+11	DeMaioga	S	sg=sg|n=n	10	flat	_
+12	suundus	V	s=s	0	root	_
+13	allakirjutanu	S	sg=sg|n=n	12	nsubj	_
+14	naljaviluks	D	_	12	advmod	_
+15	hotelli	S	sg=sg|g=g	12	obl	_
+16	Palace	H	sg=sg|n=n	15	appos	_
+17	,	Z	_	19	punct	_
+18	kus	D	_	19	mark	_
+19	teadis	V	s=s	12	advcl	_
+20	metallimehi	S	pl=pl|p=p	21	obj	CHECK
+21	pesitsevat	V	vat=vat	19	nsubj	_
+22	.	Z	_	12	punct	_
+
+# sent_id = 59366
+# text = Peeter Raja hinnangul pesitseb juba praegu Eestis üle 2000 paari kalakurgi .
+1	Peeter	H	sg=sg|n=n	3	nmod	_
+2	Raja	S	sg=sg|g=g	1	flat	_
+3	hinnangul	S	sg=sg|ad=ad	4	obl	_
+4	pesitseb	V	b=b	0	root	_
+5	juba	D	_	6	advmod	_
+6	praegu	D	_	4	advmod	_
+7	Eestis	H	sg=sg|in=in	4	obl	_
+8	üle	D	_	4	compound:prt	_
+9	2000	N	?=?	10	compound	_
+10	paari	N	sg=sg|p=p	11	nummod	_
+11	kalakurgi	S	pl=pl|p=p	4	nsubj	CHECK
+12	.	Z	_	4	punct	_
+
+# sent_id = 60875
+# text = “ Kaks aastat pärast seda ei pesitsenud . ”
+1	“	Z	_	7	punct	_
+2	Kaks	N	sg=sg|n=n	3	nummod	_
+3	aastat	S	sg=sg|p=p	7	obl	_
+4	pärast	K	_	3	case	_
+5	seda	P	sg=sg|p=p	7	nsubj	CHECK
+6	ei	V	neg=neg	7	aux	_
+7	pesitsenud	A	_	0	root	_
+8	.	Z	_	7	punct	_
+9	”	Z	_	7	punct	_
+
+# sent_id = 3441561
+# text = Kelles erilist soojalembust ei pesitse , võib esialgu kenakese kuumarabanduse saada ( kuigi kuumusega harjub ära ) .
+1	Kelles	P	pl=pl|in=in	5	nsubj	_
+2	erilist	A	sg=sg|p=p	3	amod	_
+3	soojalembust	S	sg=sg|p=p	5	obj	CHECK
+4	ei	V	neg=neg	5	aux	_
+5	pesitse	V	o=o	11	advcl	_
+6	,	Z	_	5	punct	_
+7	võib	V	b=b	11	aux	_
+8	esialgu	D	_	11	advmod	_
+9	kenakese	A	sg=sg|g=g	10	amod	_
+10	kuumarabanduse	S	sg=sg|g=g	11	obj	_
+11	saada	V	da=da	0	root	_
+12	(	Z	_	15	punct	_
+13	kuigi	J	_	15	mark	_
+14	kuumusega	S	sg=sg|kom=kom	15	nsubj	_
+15	harjub	V	b=b	11	parataxis	_
+16	ära	D	_	15	compound:prt	_
+17	)	Z	_	15	punct	_
+18	.	Z	_	11	punct	_
+

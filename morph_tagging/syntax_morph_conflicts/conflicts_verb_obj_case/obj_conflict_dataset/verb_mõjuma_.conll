@@ -1,0 +1,421 @@
+# sent_id = 3846005
+# text = Rüütli või Ilvese presidendiks saamine ei mõjuks just nende vastandlikkuse tõttu ühiskonda tasakaalustavalt .
+1	Rüütli	H	sg=sg|g=g	4	nmod	_
+2	või	J	_	3	cc	_
+3	Ilvese	H	sg=sg|g=g	1	conj	_
+4	presidendiks	S	sg=sg|tr=tr	5	nmod	_
+5	saamine	S	sg=sg|n=n	7	obl	_
+6	ei	V	neg=neg	7	aux	_
+7	mõjuks	V	ks=ks	0	root	_
+8	just	D	_	9	advmod	_
+9	nende	P	pl=pl|g=g	10	det	_
+10	vastandlikkuse	S	sg=sg|g=g	7	obl	_
+11	tõttu	K	_	10	case	_
+12	ühiskonda	S	sg=sg|p=p	7	nsubj	CHECK
+13	tasakaalustavalt	D	_	7	advmod	_
+14	.	Z	_	7	punct	_
+
+# sent_id = 364113
+# text = Neile mõjusid tapvalt ( lammutavalt ) ultraviolettkiirgus kudesid lõhkuvate kvantidega ja hapnik suure keemilise reageerimisvõime tõttu .
+1	Neile	P	pl=pl|all=all	2	nsubj	_
+2	mõjusid	V	sid=sid	8	nsubj	_
+3	tapvalt	D	_	2	advmod	_
+4	(	Z	_	5	punct	_
+5	lammutavalt	D	_	3	parataxis	_
+6	)	Z	_	5	punct	_
+7	ultraviolettkiirgus	S	sg=sg|n=n	8	obj	_
+8	kudesid	V	sid=sid	0	root	CHECK
+9	lõhkuvate	A	pl=pl|g=g	10	acl	_
+10	kvantidega	S	pl=pl|kom=kom	8	obj	_
+11	ja	J	_	12	cc	_
+12	hapnik	S	sg=sg|n=n	10	conj	_
+13	suure	A	sg=sg|g=g	15	amod	_
+14	keemilise	A	sg=sg|g=g	15	amod	_
+15	reageerimisvõime	S	sg=sg|g=g	10	conj	_
+16	tõttu	K	_	15	case	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 7455366
+# text = See mõjuvat ta organismile füüsiliselt halvasti .
+1	See	P	sg=sg|n=n	2	nsubj	_
+2	mõjuvat	V	vat=vat	0	root	_
+3	ta	P	sg=sg|g=g	2	nsubj	CHECK
+4	organismile	S	sg=sg|all=all	2	obj	_
+5	füüsiliselt	D	_	2	advmod	_
+6	halvasti	D	_	2	advmod	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 1000889
+# text = Öeldu tundub siis vähetähtis , kuid lõpu seisukohalt , kui taustamuusika hakkab ühe kindla kohapeal viskama mõjub see väga hästi kogu lugu ja seal juhtunut kokkuvõtma .
+1	Öeldu	S	sg=sg|n=n	2	obj	_
+2	tundub	V	b=b	4	aux	_
+3	siis	D	_	4	advmod	_
+4	vähetähtis	A	sg=sg|n=n	0	root	_
+5	,	Z	_	8	punct	_
+6	kuid	J	_	8	cc	_
+7	lõpu	S	sg=sg|g=g	8	obl	_
+8	seisukohalt	S	sg=sg|abl=abl	4	conj	_
+9	,	Z	_	12	punct	_
+10	kui	D	_	12	mark	_
+11	taustamuusika	S	sg=sg|n=n	12	nsubj	_
+12	hakkab	V	b=b	4	advcl	_
+13	ühe	P	sg=sg|g=g	16	det	_
+14	kindla	A	sg=sg|g=g	16	amod	_
+15	kohapeal	D	_	16	advmod	_
+16	viskama	V	ma=ma	12	advcl	_
+17	mõjub	V	b=b	12	conj	_
+18	see	P	sg=sg|n=n	17	nsubj	_
+19	väga	D	_	20	advmod	_
+20	hästi	D	_	17	advmod	_
+21	kogu	A	_	22	det	_
+22	lugu	S	sg=sg|n=n	17	obj	CHECK
+23	ja	J	_	26	cc	_
+24	seal	D	_	26	advmod	_
+25	juhtunut	S	sg=sg|p=p	26	nmod	_
+26	kokkuvõtma	S	sg=sg|n=n	22	conj	_
+27	.	Z	_	4	punct	_
+
+# sent_id = 4002095
+# text = Kas liberaalsem kodakondsuspoliitika oleks mõjunud lojaalsust arendavalt , on lahtine küsimus .
+1	Kas	D	_	5	advmod	_
+2	liberaalsem	C	sg=sg|n=n	3	amod	_
+3	kodakondsuspoliitika	S	sg=sg|n=n	5	obj	_
+4	oleks	V	ks=ks	5	aux	_
+5	mõjunud	A	pl=pl|n=n	0	root	_
+6	lojaalsust	S	sg=sg|p=p	5	obj	CHECK
+7	arendavalt	D	_	5	advmod	_
+8	,	Z	_	9	punct	_
+9	on	V	b=b	5	conj	_
+10	lahtine	A	sg=sg|n=n	11	amod	_
+11	küsimus	S	sg=sg|n=n	9	nsubj	_
+12	.	Z	_	5	punct	_
+
+# sent_id = 10109375
+# text = EME liidrite kõhkluste põhjus on neile külma dushina mõjunud esmaspäevane teade , et Kagu-Eestis kandideerib Koonderakonna esinumbrina peaminister Mart Siimann .
+1	EME	Y	?=?	2	nmod	_
+2	liidrite	S	pl=pl|g=g	3	nmod	_
+3	kõhkluste	S	pl=pl|g=g	4	nmod	_
+4	põhjus	S	sg=sg|n=n	9	nsubj	_
+5	on	V	b=b	9	aux	_
+6	neile	P	pl=pl|all=all	9	nsubj	_
+7	külma	A	sg=sg|g=g	8	amod	_
+8	dushina	S	sg=sg|es=es	9	obl	_
+9	mõjunud	V	nud=nud	0	root	_
+10	esmaspäevane	A	sg=sg|n=n	11	amod	_
+11	teade	S	sg=sg|n=n	9	obj	CHECK
+12	,	Z	_	15	punct	_
+13	et	J	_	15	mark	_
+14	Kagu-Eestis	H	sg=sg|in=in	15	obl	_
+15	kandideerib	V	b=b	11	acl	_
+16	Koonderakonna	H	sg=sg|g=g	17	nmod	_
+17	esinumbrina	S	sg=sg|es=es	18	nmod	_
+18	peaminister	S	sg=sg|n=n	15	nsubj	_
+19	Mart	H	sg=sg|n=n	18	appos	_
+20	Siimann	H	sg=sg|n=n	19	flat	_
+21	.	Z	_	9	punct	_
+
+# sent_id = 7861631
+# text = VõIKS ARVATA , ET üHA TIHENEV suhtlus akadeemiliste vahetusprogrammide näol ja üha kiiremalt toimiv transport ( Sokratese kodukanti jõuab tänapäeval sama ajaga , mis minu tudengipõlves kulus diiselrongiga Tartust Tallinnasse loksumiseks ) on filosoofia tervikule kosutavalt mõjunud .
+1	VõIKS	V	ks=ks	2	aux	_
+2	ARVATA	V	da=da	0	root	_
+3	,	Z	_	37	punct	_
+4	ET	J	_	37	mark	_
+5	üHA	D	_	6	advmod	_
+6	TIHENEV	A	sg=sg|n=n	7	amod	_
+7	suhtlus	S	sg=sg|n=n	37	nsubj	_
+8	akadeemiliste	A	pl=pl|g=g	9	amod	_
+9	vahetusprogrammide	S	pl=pl|g=g	7	nmod	_
+10	näol	K	_	9	case	_
+11	ja	J	_	15	cc	_
+12	üha	D	_	13	advmod	_
+13	kiiremalt	D	_	14	advmod	_
+14	toimiv	A	sg=sg|n=n	15	acl	_
+15	transport	S	sg=sg|n=n	7	conj	_
+16	(	Z	_	19	punct	_
+17	Sokratese	H	sg=sg|g=g	18	nmod	_
+18	kodukanti	S	adt=adt	19	nsubj	_
+19	jõuab	V	b=b	15	parataxis	_
+20	tänapäeval	S	sg=sg|ad=ad	19	obl	_
+21	sama	P	sg=sg|g=g	22	det	_
+22	ajaga	S	sg=sg|kom=kom	19	obl	_
+23	,	Z	_	27	punct	_
+24	mis	P	pl=pl|n=n	27	nsubj	_
+25	minu	P	sg=sg|g=g	26	nmod	_
+26	tudengipõlves	S	sg=sg|in=in	27	obl	_
+27	kulus	V	s=s	22	acl:relcl	_
+28	diiselrongiga	S	sg=sg|kom=kom	27	obl	_
+29	Tartust	H	sg=sg|el=el	28	appos	_
+30	Tallinnasse	H	sg=sg|ill=ill	31	nmod	_
+31	loksumiseks	S	sg=sg|tr=tr	27	obl	_
+32	)	Z	_	19	punct	_
+33	on	V	b=b	37	aux	_
+34	filosoofia	S	sg=sg|g=g	37	obj	CHECK
+35	tervikule	S	sg=sg|all=all	37	obj	_
+36	kosutavalt	D	_	37	advmod	_
+37	mõjunud	A	sg=sg|n=n	2	ccomp	_
+38	.	Z	_	2	punct	_
+
+# sent_id = 7703993
+# text = Tähtis on see , et paheline kollelajas ja kuratlik mässaja püsiks kütkeis otse linnakodanike silme all , pealegi oma ajutise võitlusvahendi , s.o. lauakoorma külge aheldatult , mis mõjuks rahvale kestvat rahu sümboliseerivalt ning vajalikku turvatunnet sisendavalt .
+1	Tähtis	A	sg=sg|n=n	0	root	_
+2	on	V	b=b	1	cop	_
+3	see	P	sg=sg|n=n	1	nsubj:cop	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	paheline	A	sg=sg|n=n	7	amod	_
+7	kollelajas	S	sg=sg|n=n	11	nsubj	_
+8	ja	J	_	10	cc	_
+9	kuratlik	A	sg=sg|n=n	10	amod	_
+10	mässaja	S	sg=sg|n=n	7	conj	_
+11	püsiks	V	ks=ks	3	acl	_
+12	kütkeis	S	pl=pl|in=in	11	obl	_
+13	otse	D	_	14	advmod	_
+14	linnakodanike	S	pl=pl|g=g	15	nmod	_
+15	silme	S	pl=pl|g=g	11	obl	_
+16	all	K	_	15	case	_
+17	,	Z	_	21	punct	_
+18	pealegi	D	_	21	advmod	_
+19	oma	P	sg=sg|g=g	21	nmod	_
+20	ajutise	A	sg=sg|g=g	21	amod	_
+21	võitlusvahendi	S	sg=sg|g=g	11	obl	_
+22	,	Z	_	26	punct	_
+23	s.o.	Y	?=?	26	obl	_
+24	lauakoorma	S	sg=sg|g=g	26	obl	_
+25	külge	K	_	24	case	_
+26	aheldatult	D	_	11	advmod	_
+27	,	Z	_	29	punct	_
+28	mis	P	pl=pl|n=n	29	nsubj	_
+29	mõjuks	V	ks=ks	26	advcl	_
+30	rahvale	S	sg=sg|all=all	31	obl	_
+31	kestvat	V	vat=vat	32	acl	_
+32	rahu	S	sg=sg|n=n	29	obj	CHECK
+33	sümboliseerivalt	D	_	29	advmod	_
+34	ning	J	_	36	cc	_
+35	vajalikku	A	sg=sg|p=p	36	amod	_
+36	turvatunnet	S	sg=sg|p=p	33	conj	_
+37	sisendavalt	D	_	29	advmod	_
+38	.	Z	_	1	punct	_
+
+# sent_id = 2571188
+# text = Saaremaa kultuurilisele omapärale nähakse püsiühendust mõjuvat nii positiivses kui ka negatiivses suunas .
+1	Saaremaa	H	sg=sg|g=g	3	nmod	_
+2	kultuurilisele	A	sg=sg|all=all	3	amod	_
+3	omapärale	S	sg=sg|all=all	4	nsubj	_
+4	nähakse	V	takse=takse	0	root	_
+5	püsiühendust	S	sg=sg|p=p	6	obj	CHECK
+6	mõjuvat	V	vat=vat	4	xcomp	_
+7	nii	D	_	8	cc:preconj	_
+8	positiivses	A	sg=sg|in=in	12	amod	_
+9	kui	J	_	11	cc	_
+10	ka	D	_	11	advmod	_
+11	negatiivses	A	sg=sg|in=in	8	conj	_
+12	suunas	S	sg=sg|in=in	4	obj	_
+13	.	Z	_	4	punct	_
+
+# sent_id = 6125788
+# text = Berzinš kinnitas samas , et konventsiooni seni ratifitseerimata jätmine ei mõju tegelikult Läti vähemusrahuvste üldisele olukorrale .
+1	Berzinš	H	sg=sg|n=n	2	nsubj	_
+2	kinnitas	V	s=s	0	root	_
+3	samas	P	sg=sg|in=in	2	advmod	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	konventsiooni	S	sg=sg|g=g	9	nmod	_
+7	seni	D	_	8	advmod	_
+8	ratifitseerimata	A	_	9	amod	_
+9	jätmine	S	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	mõju	V	o=o	2	ccomp	_
+12	tegelikult	D	_	11	advmod	_
+13	Läti	H	sg=sg|g=g	14	nmod	_
+14	vähemusrahuvste	S	pl=pl|p=p	11	obl	CHECK
+15	üldisele	A	sg=sg|all=all	16	amod	_
+16	olukorrale	S	sg=sg|all=all	11	nsubj	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 5314518
+# text = Nüüd vaatab ta oma telefonist , kuidas ta hommikused treeningud ta organismile mõjunud on ning kuna ta kavatseb puhkusele minna , sätib telefoni puhkuserežiimi .
+1	Nüüd	D	_	2	advmod	_
+2	vaatab	V	b=b	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	telefonist	S	sg=sg|el=el	2	obj	_
+6	,	Z	_	13	punct	_
+7	kuidas	D	_	13	mark	_
+8	ta	P	sg=sg|g=g	13	nsubj	_
+9	hommikused	A	pl=pl|n=n	10	amod	_
+10	treeningud	S	pl=pl|n=n	13	obj	_
+11	ta	P	sg=sg|g=g	13	nsubj	CHECK
+12	organismile	S	sg=sg|all=all	13	obj	_
+13	mõjunud	A	pl=pl|n=n	2	ccomp	_
+14	on	V	b=b	13	aux	_
+15	ning	J	_	18	cc	_
+16	kuna	J	_	18	mark	_
+17	ta	P	sg=sg|n=n	18	nsubj	_
+18	kavatseb	V	b=b	22	advcl	_
+19	puhkusele	S	sg=sg|all=all	20	obl	_
+20	minna	V	da=da	18	xcomp	_
+21	,	Z	_	22	punct	_
+22	sätib	V	b=b	2	conj	_
+23	telefoni	S	sg=sg|g=g	22	obj	_
+24	puhkuserežiimi	S	adt=adt	22	obj	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 867795
+# text = Ljubimovi saatanlik värskus mõjus eriti kontrastselt temast põlvkond nooremate näitlejate kõrval .
+1	Ljubimovi	H	sg=sg|g=g	3	nmod	_
+2	saatanlik	A	sg=sg|n=n	3	amod	_
+3	värskus	S	sg=sg|n=n	4	nsubj	_
+4	mõjus	V	s=s	0	root	_
+5	eriti	D	_	6	advmod	_
+6	kontrastselt	D	_	4	advmod	_
+7	temast	P	sg=sg|el=el	4	nsubj	_
+8	põlvkond	S	sg=sg|n=n	9	obl	CHECK
+9	nooremate	C	pl=pl|g=g	10	amod	_
+10	näitlejate	S	pl=pl|g=g	4	obl	_
+11	kõrval	K	_	10	case	_
+12	.	Z	_	4	punct	_
+
+# sent_id = 17169740
+# text = 1 : Ei ole aga arvasin selle mõjuvat eespool viidatud « kohaliku cache » ärakoristamisena .
+1	1	N	?=?	6	parataxis	_
+2	:	Z	_	6	punct	_
+3	Ei	V	neg=neg	6	aux	_
+4	ole	V	o=o	6	aux	_
+5	aga	J	_	6	advmod	_
+6	arvasin	V	sin=sin	0	root	_
+7	selle	P	sg=sg|g=g	8	det	CHECK
+8	mõjuvat	V	vat=vat	6	nsubj	_
+9	eespool	D	_	10	advmod	_
+10	viidatud	A	pl=pl|n=n	15	acl	_
+11	«	Z	_	13	punct	_
+12	kohaliku	A	sg=sg|g=g	13	amod	_
+13	cache	S	sg=sg|g=g	15	nmod	_
+14	»	Z	_	13	punct	_
+15	ärakoristamisena	S	sg=sg|es=es	6	obl	_
+16	.	Z	_	6	punct	_
+
+# sent_id = 1193176
+# text = Siis mõjusid ta tööd küll ergutavalt .
+1	Siis	D	_	2	advmod	_
+2	mõjusid	V	sid=sid	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	tööd	S	sg=sg|p=p	2	obj	CHECK
+5	küll	D	_	2	advmod	_
+6	ergutavalt	D	_	2	advmod	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 203412
+# text = Meie teatrikultuuris kestab etendus keskeltläbi 1-4 tundi , suured kõrvalekalded ühes või teises suunas mõjuvad millegi ebaharilikuna .
+1	Meie	P	pl=pl|g=g	2	nmod	_
+2	teatrikultuuris	S	sg=sg|in=in	3	obl	_
+3	kestab	V	b=b	0	root	_
+4	etendus	S	sg=sg|n=n	3	nsubj	_
+5	keskeltläbi	D	_	3	advmod	_
+6	1	N	?=?	9	nummod	_
+7	-	Z	_	8	punct	_
+8	4	N	?=?	6	conj	_
+9	tundi	S	sg=sg|p=p	3	obl	_
+10	,	Z	_	17	punct	_
+11	suured	A	pl=pl|n=n	12	amod	_
+12	kõrvalekalded	S	pl=pl|n=n	17	nsubj	_
+13	ühes	P	sg=sg|in=in	16	det	_
+14	või	J	_	15	cc	_
+15	teises	P	sg=sg|in=in	13	conj	_
+16	suunas	S	sg=sg|in=in	17	nsubj	_
+17	mõjuvad	V	vad=vad	3	conj	_
+18	millegi	P	sg=sg|g=g	17	nsubj	CHECK
+19	ebaharilikuna	A	sg=sg|es=es	17	xcomp	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 117244
+# text = Seda peeti püha vaimu mõjuks .
+1	Seda	P	sg=sg|p=p	2	nsubj	_
+2	peeti	V	ti=ti	0	root	_
+3	püha	A	sg=sg|p=p	4	amod	_
+4	vaimu	S	sg=sg|p=p	5	nmod	CHECK
+5	mõjuks	V	ks=ks	2	obj	_
+6	.	Z	_	2	punct	_
+
+# sent_id = 55733
+# text = Mis mõjub seda dramaatilisemalt - või ehtsamaltki ? !
+1	Mis	P	sg=sg|n=n	2	nsubj	_
+2	mõjub	V	b=b	0	root	_
+3	seda	P	sg=sg|p=p	2	nsubj	CHECK
+4	dramaatilisemalt	D	_	2	advmod	_
+5	-	Z	_	2	punct	_
+6	või	J	_	7	cc	_
+7	ehtsamaltki	D	_	4	conj	_
+8	?	Z	_	2	punct	_
+9	!	Z	_	2	punct	_
+
+# sent_id = 9525615
+# text = Eriti keeruline on lugu pikantsete , slängisängis liuglevate sõnamängudega - otsetõlge mõjuks aeglase , arusaamatu ja napakana , ülemäärane kaasaegsus jälle lõhuks õhustiku - aga katsu leida ajatut slängi !
+1	Eriti	D	_	2	advmod	_
+2	keeruline	A	sg=sg|n=n	0	root	_
+3	on	V	b=b	2	cop	_
+4	lugu	S	sg=sg|n=n	2	nsubj:cop	_
+5	pikantsete	A	pl=pl|g=g	9	amod	_
+6	,	Z	_	8	punct	_
+7	slängisängis	S	sg=sg|in=in	8	obj	_
+8	liuglevate	A	pl=pl|g=g	5	conj	_
+9	sõnamängudega	S	pl=pl|kom=kom	2	nsubj:cop	_
+10	-	Z	_	12	punct	_
+11	otsetõlge	S	sg=sg|n=n	12	nsubj	_
+12	mõjuks	V	ks=ks	2	parataxis	_
+13	aeglase	A	sg=sg|g=g	23	amod	_
+14	,	Z	_	15	punct	_
+15	arusaamatu	A	sg=sg|g=g	13	conj	_
+16	ja	J	_	17	cc	_
+17	napakana	A	sg=sg|es=es	13	conj	_
+18	,	Z	_	19	punct	_
+19	ülemäärane	A	sg=sg|n=n	13	conj	_
+20	kaasaegsus	S	sg=sg|n=n	12	nsubj	_
+21	jälle	D	_	12	advmod	_
+22	lõhuks	S	sg=sg|tr=tr	23	nmod	_
+23	õhustiku	S	sg=sg|g=g	12	nsubj	CHECK
+24	-	Z	_	26	punct	_
+25	aga	J	_	26	cc	_
+26	katsu	V	o=o	12	conj	_
+27	leida	V	da=da	26	xcomp	_
+28	ajatut	A	sg=sg|p=p	29	amod	_
+29	slängi	S	sg=sg|p=p	27	obj	_
+30	!	Z	_	2	punct	_
+
+# sent_id = 166835
+# text = Veel palju muudki mõjuvat on Kadrioru tulvil tribüünide ees etendatud , nii kõrgeklassilist kergejõustikku kui vutimängu ilmameistri Itaalia vastu .
+1	Veel	D	_	2	advmod	_
+2	palju	D	_	3	advmod	_
+3	muudki	P	sg=sg|p=p	4	nsubj	CHECK
+4	mõjuvat	V	vat=vat	10	obj	_
+5	on	V	b=b	10	aux	_
+6	Kadrioru	H	sg=sg|g=g	10	obj	_
+7	tulvil	D	_	10	advmod	_
+8	tribüünide	S	pl=pl|g=g	10	obl	_
+9	ees	K	_	8	case	_
+10	etendatud	A	sg=sg|n=n	0	root	_
+11	,	Z	_	14	punct	_
+12	nii	D	_	14	cc:preconj	_
+13	kõrgeklassilist	A	sg=sg|p=p	14	amod	_
+14	kergejõustikku	S	sg=sg|p=p	10	obl	_
+15	kui	D	_	17	cc	_
+16	vutimängu	S	sg=sg|g=g	17	nmod	_
+17	ilmameistri	S	sg=sg|g=g	14	conj	_
+18	Itaalia	H	sg=sg|g=g	17	nmod	_
+19	vastu	K	_	18	case	_
+20	.	Z	_	10	punct	_
+
+# sent_id = 515712
+# text = " Omaniku majandushuvid ajakirjanike ja toimetajate tahtele meil suurt ei mõju .
+1	"	Z	_	11	punct	_
+2	Omaniku	S	sg=sg|g=g	3	nmod	_
+3	majandushuvid	S	pl=pl|n=n	11	obl	_
+4	ajakirjanike	S	pl=pl|g=g	7	nmod	_
+5	ja	J	_	6	cc	_
+6	toimetajate	S	pl=pl|g=g	4	conj	_
+7	tahtele	S	sg=sg|all=all	11	nsubj	_
+8	meil	P	pl=pl|ad=ad	11	nsubj	_
+9	suurt	A	sg=sg|p=p	11	advmod	CHECK
+10	ei	V	neg=neg	11	aux	_
+11	mõju	V	o=o	0	root	_
+12	.	Z	_	11	punct	_
+

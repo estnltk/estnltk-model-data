@@ -1,0 +1,388 @@
+# sent_id = 19341
+# text = Turneri abikaasa kinnisvaraärimees Jay Weiss saabus restorani kohe , kui õnnetusest kuulis .
+1	Turneri	H	sg=sg|g=g	2	nmod	_
+2	abikaasa	S	sg=sg|g=g	3	nmod	_
+3	kinnisvaraärimees	S	sg=sg|n=n	6	nsubj	_
+4	Jay	H	sg=sg|n=n	3	appos	_
+5	Weiss	H	sg=sg|n=n	4	flat	_
+6	saabus	V	s=s	0	root	_
+7	restorani	S	sg=sg|g=g	6	nsubj	CHECK
+8	kohe	D	_	6	advmod	_
+9	,	Z	_	12	punct	_
+10	kui	D	_	12	mark	_
+11	õnnetusest	S	sg=sg|el=el	12	obj	_
+12	kuulis	V	s=s	6	advcl	_
+13	.	Z	_	6	punct	_
+
+# sent_id = 44516
+# text = MADONNA ja GUY RITCHIE lubavad , et jõuluks saabuvad müügile nende koostööna valminud lasteraamatud .
+1	MADONNA	S	sg=sg|g=g	5	nsubj	_
+2	ja	J	_	3	cc	_
+3	GUY	Y	?=?	1	conj	_
+4	RITCHIE	H	sg=sg|n=n	3	flat	_
+5	lubavad	V	vad=vad	0	root	_
+6	,	Z	_	9	punct	_
+7	et	J	_	9	mark	_
+8	jõuluks	S	sg=sg|n=n	9	obl	_
+9	saabuvad	V	vad=vad	5	ccomp	_
+10	müügile	S	sg=sg|all=all	9	obl	_
+11	nende	P	pl=pl|g=g	12	det	_
+12	koostööna	S	sg=sg|es=es	13	obj	_
+13	valminud	V	nud=nud	14	acl	_
+14	lasteraamatud	S	pl=pl|n=n	9	obl	CHECK
+15	.	Z	_	5	punct	_
+
+# sent_id = 369361
+# text = Olav sureb valudeta , Eiriku poolt õigeks mõistetuna , moraalselt ülendatuna ja leppinuna Jumalaga , kes saabub ta surivoodile armulaua kaudu .
+1	Olav	H	sg=sg|n=n	2	nsubj	_
+2	sureb	V	b=b	0	root	_
+3	valudeta	S	pl=pl|ab=ab	2	obl	_
+4	,	Z	_	8	punct	_
+5	Eiriku	H	sg=sg|g=g	8	nmod	_
+6	poolt	K	_	5	case	_
+7	õigeks	A	sg=sg|tr=tr	8	amod	_
+8	mõistetuna	S	sg=sg|es=es	2	obl	_
+9	,	Z	_	11	punct	_
+10	moraalselt	D	_	11	advmod	_
+11	ülendatuna	S	sg=sg|es=es	8	conj	_
+12	ja	J	_	13	cc	_
+13	leppinuna	S	sg=sg|es=es	11	conj	_
+14	Jumalaga	S	sg=sg|kom=kom	13	flat	_
+15	,	Z	_	17	punct	_
+16	kes	P	sg=sg|n=n	17	nsubj	_
+17	saabub	V	b=b	14	acl:relcl	_
+18	ta	P	sg=sg|g=g	17	nsubj	CHECK
+19	surivoodile	S	sg=sg|all=all	20	nmod	_
+20	armulaua	S	sg=sg|g=g	17	obl	_
+21	kaudu	K	_	20	case	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 890356
+# text = Norra armee esindaja eitas teadet ning kinnitas , et Bergeni lähistele Haakonsverni baasi saabunud USA allveelaev Memphis saabus visiidile poolteist kuud varasema kokkuleppe kohaselt ning ei vaja mingit remonti .
+1	Norra	H	sg=sg|g=g	2	nmod	_
+2	armee	S	sg=sg|g=g	3	nmod	_
+3	esindaja	S	sg=sg|n=n	4	nsubj	_
+4	eitas	V	s=s	0	root	_
+5	teadet	S	sg=sg|p=p	4	obj	_
+6	ning	J	_	7	cc	_
+7	kinnitas	V	s=s	4	conj	_
+8	,	Z	_	18	punct	_
+9	et	J	_	18	mark	_
+10	Bergeni	H	sg=sg|g=g	11	nmod	_
+11	lähistele	S	pl=pl|all=all	14	obl	_
+12	Haakonsverni	H	adt=adt	13	nmod	_
+13	baasi	S	sg=sg|p=p	14	obl	CHECK
+14	saabunud	A	_	16	acl	_
+15	USA	Y	?=?	16	nmod	_
+16	allveelaev	S	sg=sg|n=n	18	nsubj	_
+17	Memphis	H	sg=sg|n=n	16	appos	_
+18	saabus	V	s=s	7	ccomp	_
+19	visiidile	S	sg=sg|all=all	18	obl	_
+20	poolteist	N	sg=sg|n=n	21	nummod	_
+21	kuud	S	sg=sg|p=p	18	obl	_
+22	varasema	C	sg=sg|g=g	23	amod	_
+23	kokkuleppe	S	sg=sg|g=g	18	obl	_
+24	kohaselt	K	_	23	case	_
+25	ning	J	_	27	cc	_
+26	ei	V	neg=neg	27	aux	_
+27	vaja	V	o=o	18	conj	_
+28	mingit	P	sg=sg|p=p	29	det	_
+29	remonti	S	sg=sg|p=p	27	obj	_
+30	.	Z	_	4	punct	_
+
+# sent_id = 523695
+# text = Eesti Kontserdi kutsel saabuvad Eestisse Londoni West End Company solistid esitavad augustis Paldiskis endisesse tuumaallveelaevnike koolituskeskusesse ehitatud laval kontserdi Andrew Lloyd Webberi muusikalide hittidest .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	Kontserdi	H	sg=sg|g=g	3	nmod	_
+3	kutsel	S	sg=sg|ad=ad	4	obl	_
+4	saabuvad	V	vad=vad	5	acl	_
+5	Eestisse	H	sg=sg|ill=ill	11	nsubj	_
+6	Londoni	H	sg=sg|g=g	7	nmod	_
+7	West	H	sg=sg|n=n	10	nmod	_
+8	End	P	sg=sg|p=p	7	flat	CHECK
+9	Company	H	sg=sg|n=n	10	nmod	_
+10	solistid	S	pl=pl|n=n	11	obl	_
+11	esitavad	V	vad=vad	0	root	_
+12	augustis	S	sg=sg|in=in	11	obl	_
+13	Paldiskis	H	sg=sg|in=in	12	appos	_
+14	endisesse	A	sg=sg|ill=ill	15	amod	_
+15	tuumaallveelaevnike	S	sg=sg|n=n	17	obl	_
+16	koolituskeskusesse	S	sg=sg|ill=ill	17	obl	_
+17	ehitatud	A	sg=sg|n=n	18	acl	_
+18	laval	S	sg=sg|ad=ad	19	nmod	_
+19	kontserdi	S	sg=sg|g=g	11	obj	_
+20	Andrew	H	sg=sg|n=n	19	appos	_
+21	Lloyd	H	pl=pl|n=n	20	flat	_
+22	Webberi	H	sg=sg|g=g	20	flat	_
+23	muusikalide	S	pl=pl|g=g	24	nmod	_
+24	hittidest	S	pl=pl|el=el	11	obj	_
+25	.	Z	_	11	punct	_
+
+# sent_id = 7662519
+# text = See paistab välja juulis Eesti Ekspressile saadetud kirjast : “ Saabusin hiljuti ringreisilt viide Euroopa linna , kus tutvustasin oma plaani rohkem kui kolmekümnes saatkonnas , pangas , ajalehetoimetuses ja pressiagentuuris .
+1	See	P	sg=sg|n=n	2	nsubj	_
+2	paistab	V	b=b	0	root	_
+3	välja	D	_	2	compound:prt	_
+4	juulis	S	sg=sg|in=in	7	obl	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	Ekspressile	S	sg=sg|all=all	7	obl	_
+7	saadetud	A	sg=sg|n=n	8	acl	_
+8	kirjast	S	sg=sg|el=el	2	obl	_
+9	:	Z	_	11	punct	_
+10	“	Z	_	11	punct	_
+11	Saabusin	V	sin=sin	2	parataxis	_
+12	hiljuti	D	_	11	advmod	_
+13	ringreisilt	S	sg=sg|abl=abl	14	nmod	_
+14	viide	S	sg=sg|n=n	11	obl	CHECK
+15	Euroopa	H	sg=sg|g=g	16	nmod	_
+16	linna	S	adt=adt	14	nmod	_
+17	,	Z	_	19	punct	_
+18	kus	D	_	19	mark	_
+19	tutvustasin	V	sin=sin	11	advcl	_
+20	oma	P	sg=sg|g=g	21	nmod	_
+21	plaani	S	sg=sg|g=g	19	obj	_
+22	rohkem	D	_	19	advmod	_
+23	kui	J	_	22	fixed	_
+24	kolmekümnes	N	sg=sg|in=in	25	nummod	_
+25	saatkonnas	S	sg=sg|in=in	22	advcl	_
+26	,	Z	_	27	punct	_
+27	pangas	S	sg=sg|in=in	25	conj	_
+28	,	Z	_	29	punct	_
+29	ajalehetoimetuses	S	sg=sg|in=in	25	conj	_
+30	ja	J	_	31	cc	_
+31	pressiagentuuris	S	sg=sg|in=in	25	conj	_
+32	.	Z	_	2	punct	_
+
+# sent_id = 4482
+# text = Stingiga ristus tema tee West Endi etendusel “ Macbeth ” , mida laulja saabus vaatama koos oma tollase abikaasa ja parima sõbra Frances Tomeltyga .
+1	Stingiga	H	sg=sg|kom=kom	2	obl	_
+2	ristus	V	s=s	0	root	_
+3	tema	P	sg=sg|g=g	4	nmod	_
+4	tee	S	sg=sg|n=n	2	nsubj	_
+5	West	H	sg=sg|n=n	7	nmod	_
+6	Endi	P	pl=pl|g=g	5	flat	_
+7	etendusel	S	sg=sg|ad=ad	2	obj	_
+8	“	Z	_	9	punct	_
+9	Macbeth	H	sg=sg|n=n	7	appos	_
+10	”	Z	_	9	punct	_
+11	,	Z	_	14	punct	_
+12	mida	P	pl=pl|p=p	14	nsubj	CHECK
+13	laulja	S	sg=sg|n=n	14	obl	_
+14	saabus	V	s=s	9	acl:relcl	_
+15	vaatama	V	ma=ma	14	obl	_
+16	koos	K	_	19	case	_
+17	oma	P	sg=sg|g=g	19	nmod	_
+18	tollase	A	sg=sg|g=g	19	amod	_
+19	abikaasa	S	sg=sg|g=g	14	obl	_
+20	ja	J	_	22	cc	_
+21	parima	U	sg=sg|g=g	22	amod	_
+22	sõbra	S	sg=sg|g=g	19	conj	_
+23	Frances	H	sg=sg|n=n	22	appos	_
+24	Tomeltyga	H	sg=sg|kom=kom	23	flat	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 79148
+# text = Kui seda vahetult enne suurpõlengut saabunud nn. voolikuabi poleks olnud või olnuks see juba maakondade päästeteenistustele laiali jagatud , tulnuks muuta kustutustööde taktikat , põleng levinuks suuremale pindalale ja selle kustutamine kestnuks oluliselt kauem ning lõppkokkuvõttes läinuks tunduvalt rohkem maksma .
+1	Kui	J	_	6	mark	_
+2	seda	P	sg=sg|p=p	6	nsubj	CHECK
+3	vahetult	D	_	6	advmod	_
+4	enne	K	_	5	case	_
+5	suurpõlengut	S	sg=sg|p=p	6	obl	_
+6	saabunud	V	nud=nud	20	advcl	_
+7	nn.	Y	?=?	8	nmod	_
+8	voolikuabi	S	sg=sg|n=n	6	nsubj	_
+9	poleks	V	neg=neg|ks=ks	6	aux	_
+10	olnud	V	nud=nud	6	aux	_
+11	või	J	_	18	cc	_
+12	olnuks	V	nuks=nuks	18	aux	_
+13	see	P	sg=sg|n=n	18	obj	_
+14	juba	D	_	18	advmod	_
+15	maakondade	S	pl=pl|g=g	16	nmod	_
+16	päästeteenistustele	S	pl=pl|all=all	18	obj	_
+17	laiali	D	_	18	compound:prt	_
+18	jagatud	V	tud=tud	6	conj	_
+19	,	Z	_	20	punct	_
+20	tulnuks	V	nuks=nuks	0	root	_
+21	muuta	V	da=da	20	csubj	_
+22	kustutustööde	S	pl=pl|g=g	21	obj	_
+23	taktikat	S	sg=sg|p=p	21	obj	_
+24	,	Z	_	25	punct	_
+25	põleng	S	sg=sg|n=n	26	nmod	_
+26	levinuks	S	sg=sg|tr=tr	28	nmod	_
+27	suuremale	C	sg=sg|all=all	28	amod	_
+28	pindalale	S	sg=sg|all=all	32	nsubj	_
+29	ja	J	_	32	cc	_
+30	selle	P	sg=sg|g=g	31	nmod	_
+31	kustutamine	S	sg=sg|n=n	28	conj	_
+32	kestnuks	V	nuks=nuks	20	conj	_
+33	oluliselt	D	_	34	advmod	_
+34	kauem	D	_	32	advmod	_
+35	ning	J	_	37	cc	_
+36	lõppkokkuvõttes	S	sg=sg|in=in	37	nsubj	_
+37	läinuks	V	nuks=nuks	20	conj	_
+38	tunduvalt	D	_	39	advmod	_
+39	rohkem	D	_	40	advmod	_
+40	maksma	V	ma=ma	37	nsubj	_
+41	.	Z	_	20	punct	_
+
+# sent_id = 10641655
+# text = Päris lõpuks seevastu saabub avalaulu “ Birthday ” kujul  happy end  - puhas parfüüm , millesarnast ka hilisem Björk mitte alati pole pakkuda suutnud .
+1	Päris	D	_	2	advmod	_
+2	lõpuks	D	_	4	advmod	_
+3	seevastu	D	_	4	advmod	_
+4	saabub	V	b=b	0	root	_
+5	avalaulu	S	sg=sg|g=g	9	nmod	_
+6	“	Z	_	7	punct	_
+7	Birthday	H	sg=sg|g=g	5	appos	_
+8	”	Z	_	7	punct	_
+9	kujul	S	sg=sg|ad=ad	4	nsubj	_
+10	happy	S	sg=sg|n=n	4	nsubj	_
+11	end	Y	?=?	4	nsubj	CHECK
+12	-	Z	_	24	punct	_
+13	puhas	A	sg=sg|n=n	14	amod	_
+14	parfüüm	S	sg=sg|n=n	24	obj	_
+15	,	Z	_	24	punct	_
+16	millesarnast	S	sg=sg|el=el	24	nsubj	_
+17	ka	D	_	19	advmod	_
+18	hilisem	C	sg=sg|n=n	19	amod	_
+19	Björk	H	sg=sg|n=n	23	nsubj	_
+20	mitte	D	_	21	advmod	_
+21	alati	D	_	24	advmod	_
+22	pole	V	neg=neg|o=o	24	aux	_
+23	pakkuda	V	da=da	24	xcomp	_
+24	suutnud	A	sg=sg|n=n	4	conj	_
+25	.	Z	_	4	punct	_
+
+# sent_id = 2436012
+# text = Pole ju saladus , et mitte ainult Eesti noored ei saabunud esmakordselt Moskvasse vaid ka eakaaslased Kaug-Idast , Siberist , Kirgiisiast jne. lihtsalt - kauge ja kallis .
+1	Pole	V	neg=neg|o=o	3	cop	_
+2	ju	D	_	3	advmod	_
+3	saladus	S	sg=sg|n=n	0	root	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	mitte	D	_	7	advmod	_
+7	ainult	D	_	9	advmod	_
+8	Eesti	H	sg=sg|g=g	9	nmod	_
+9	noored	S	pl=pl|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	saabunud	A	_	3	csubj:cop	_
+12	esmakordselt	D	_	11	advmod	_
+13	Moskvasse	H	sg=sg|ill=ill	11	nsubj	_
+14	vaid	D	_	16	advmod	_
+15	ka	D	_	16	advmod	_
+16	eakaaslased	S	pl=pl|n=n	11	obl	CHECK
+17	Kaug-Idast	H	sg=sg|el=el	16	appos	_
+18	,	Z	_	19	punct	_
+19	Siberist	H	sg=sg|el=el	17	conj	_
+20	,	Z	_	21	punct	_
+21	Kirgiisiast	H	sg=sg|el=el	17	conj	_
+22	jne	Y	?=?	21	nmod	_
+23	.	Z	_	26	punct	_
+24	lihtsalt	D	_	26	advmod	_
+25	-	Z	_	26	punct	_
+26	kauge	A	sg=sg|n=n	11	parataxis	_
+27	ja	J	_	28	cc	_
+28	kallis	A	sg=sg|n=n	26	conj	_
+29	.	Z	_	3	punct	_
+
+# sent_id = 12702718
+# text = Päev enne eitavat vastust UEFA-st saabus huvitav elektronkiri end Mister Tixiks nimetavalt Prantsusmaa kodanikult , kes pakkus müüa pileteid kõikidele alagrupimängudele .
+1	Päev	S	sg=sg|n=n	3	obl	_
+2	enne	K	_	4	case	_
+3	eitavat	A	sg=sg|p=p	4	acl	_
+4	vastust	S	sg=sg|p=p	6	obl	_
+5	UEFA-st	Y	sg=sg|el=el	4	nmod	_
+6	saabus	V	s=s	0	root	_
+7	huvitav	A	sg=sg|n=n	8	acl	_
+8	elektronkiri	S	sg=sg|n=n	6	nsubj	_
+9	end	Y	?=?	6	obj	CHECK
+10	Mister	S	sg=sg|n=n	12	nmod	_
+11	Tixiks	H	sg=sg|n=n	10	flat	_
+12	nimetavalt	S	sg=sg|abl=abl	14	nmod	_
+13	Prantsusmaa	H	sg=sg|g=g	14	nmod	_
+14	kodanikult	S	sg=sg|abl=abl	6	nsubj	_
+15	,	Z	_	17	punct	_
+16	kes	P	sg=sg|n=n	17	nsubj	_
+17	pakkus	V	s=s	14	acl:relcl	_
+18	müüa	V	da=da	19	nmod	_
+19	pileteid	S	pl=pl|p=p	17	obj	_
+20	kõikidele	P	pl=pl|all=all	21	det	_
+21	alagrupimängudele	S	pl=pl|all=all	17	obj	_
+22	.	Z	_	6	punct	_
+
+# sent_id = 7892359
+# text = Seejärel selgitatakse otsese tahtluse puhul , et siin eesmärgi tunnus puudub , kuid et toimepanija teab tagajärge kindlalt saabuvat , siis tuleb ka sellist situatsiooni tahtluseks lugeda .
+1	Seejärel	D	_	2	advmod	_
+2	selgitatakse	V	takse=takse	0	root	_
+3	otsese	A	sg=sg|g=g	4	amod	_
+4	tahtluse	S	sg=sg|g=g	2	obl	_
+5	puhul	K	_	4	case	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	siin	D	_	11	advmod	_
+9	eesmärgi	S	sg=sg|g=g	11	nsubj	_
+10	tunnus	S	sg=sg|n=n	11	nsubj	_
+11	puudub	V	b=b	2	ccomp	_
+12	,	Z	_	19	punct	_
+13	kuid	J	_	19	cc	_
+14	et	J	_	19	mark	_
+15	toimepanija	S	sg=sg|n=n	16	nsubj	_
+16	teab	V	b=b	19	advcl	_
+17	tagajärge	S	sg=sg|p=p	19	nsubj	CHECK
+18	kindlalt	D	_	19	advmod	_
+19	saabuvat	V	vat=vat	11	conj	_
+20	,	Z	_	22	punct	_
+21	siis	D	_	22	advmod	_
+22	tuleb	V	b=b	11	conj	_
+23	ka	D	_	27	advmod	_
+24	sellist	P	sg=sg|p=p	26	det	_
+25	situatsiooni	S	sg=sg|p=p	26	nmod	_
+26	tahtluseks	S	sg=sg|tr=tr	27	obj	_
+27	lugeda	V	da=da	22	csubj	_
+28	.	Z	_	2	punct	_
+
+# sent_id = 2209655
+# text = ÜRO relvastusinspektorid on praeguseks kõik Iraaki saabunud ning nende pealiku sõnul asuvad nad esimesi inspektsioone läbi viima kolmapäeval , nagu esialgu plaanitud .
+1	ÜRO	Y	?=?	2	nmod	_
+2	relvastusinspektorid	S	pl=pl|n=n	7	obl	_
+3	on	V	vad=vad	7	aux	_
+4	praeguseks	A	sg=sg|tr=tr	7	obl	_
+5	kõik	P	pl=pl|n=n	6	det	CHECK
+6	Iraaki	H	adt=adt	7	nsubj	_
+7	saabunud	A	_	0	root	_
+8	ning	J	_	12	cc	_
+9	nende	P	pl=pl|g=g	10	det	_
+10	pealiku	S	sg=sg|g=g	11	nmod	_
+11	sõnul	S	pl=pl|ad=ad	12	obl	_
+12	asuvad	V	vad=vad	7	conj	_
+13	nad	P	pl=pl|n=n	12	nsubj	_
+14	esimesi	O	pl=pl|p=p	15	amod	_
+15	inspektsioone	S	pl=pl|p=p	17	obj	_
+16	läbi	D	_	17	compound:prt	_
+17	viima	V	ma=ma	18	acl	_
+18	kolmapäeval	S	sg=sg|ad=ad	12	nsubj	_
+19	,	Z	_	22	punct	_
+20	nagu	D	_	22	mark	_
+21	esialgu	D	_	22	advmod	_
+22	plaanitud	A	_	12	advcl	_
+23	.	Z	_	7	punct	_
+
+# sent_id = 17207833
+# text = Sundsvall lubas olukorda millalgi arutada , " kirjeldas Neemelo ning lootis selgust saabuvat hiljemalt detsembriks .
+1	Sundsvall	H	sg=sg|n=n	2	nsubj	_
+2	lubas	V	s=s	0	root	_
+3	olukorda	S	sg=sg|p=p	5	obj	_
+4	millalgi	D	_	5	advmod	_
+5	arutada	V	da=da	2	xcomp	_
+6	,	Z	_	2	punct	_
+7	"	Z	_	2	punct	_
+8	kirjeldas	V	s=s	2	parataxis	_
+9	Neemelo	H	sg=sg|n=n	8	nsubj	_
+10	ning	J	_	11	cc	_
+11	lootis	V	s=s	8	conj	_
+12	selgust	S	sg=sg|p=p	13	nsubj	CHECK
+13	saabuvat	V	vat=vat	11	obj	_
+14	hiljemalt	D	_	13	advmod	_
+15	detsembriks	S	sg=sg|tr=tr	13	obl	_
+16	.	Z	_	2	punct	_
+

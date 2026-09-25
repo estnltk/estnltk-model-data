@@ -1,0 +1,257 @@
+# sent_id = 838374
+# text = " Jeltsinist õhkus vaenu , teda ma ei usaldanud .
+1	"	Z	_	3	punct	_
+2	Jeltsinist	H	sg=sg|el=el	3	nsubj	_
+3	õhkus	V	s=s	0	root	_
+4	vaenu	S	sg=sg|g=g	3	obj	CHECK
+5	,	Z	_	9	punct	_
+6	teda	P	sg=sg|p=p	9	obj	_
+7	ma	P	sg=sg|n=n	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	usaldanud	A	_	3	conj	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 32128
+# text = Valeri Kirsist õhkub kibestumist .
+1	Valeri	H	sg=sg|n=n	3	nsubj	_
+2	Kirsist	H	sg=sg|n=n	1	flat	_
+3	õhkub	V	b=b	0	root	_
+4	kibestumist	S	sg=sg|p=p	3	obj	CHECK
+5	.	Z	_	3	punct	_
+
+# sent_id = 872728
+# text = Kui paari aasta eest peeti üheks võimekuse näitajaks lõppematut töökohtade vahetust , mitmekesist haridusteed ja võimet teha ületunde , siis aastal 2000 jääb personalijuhi pilk pidama eriharidusega inimesel , kes on väljamaganud ning eluga rahul , " kõva käsi " ühel kindlal alal , töötanud firmas pikemat aega ja teinud seda nii , et tema rõõm kordaminekutest õhkub kontori teise otsa .
+1	Kui	J	_	5	mark	_
+2	paari	N	sg=sg|g=g	3	nummod	_
+3	aasta	S	sg=sg|g=g	5	obl	_
+4	eest	K	_	3	case	_
+5	peeti	V	ti=ti	23	advcl	_
+6	üheks	P	sg=sg|tr=tr	8	det	_
+7	võimekuse	S	sg=sg|g=g	8	nmod	_
+8	näitajaks	S	sg=sg|tr=tr	5	nsubj	_
+9	lõppematut	A	sg=sg|p=p	11	amod	_
+10	töökohtade	S	pl=pl|g=g	11	nmod	_
+11	vahetust	S	sg=sg|p=p	5	obj	_
+12	,	Z	_	14	punct	_
+13	mitmekesist	A	sg=sg|p=p	14	amod	_
+14	haridusteed	S	sg=sg|p=p	11	conj	_
+15	ja	J	_	16	cc	_
+16	võimet	S	sg=sg|p=p	11	conj	_
+17	teha	V	da=da	5	conj	_
+18	ületunde	S	pl=pl|p=p	17	obj	_
+19	,	Z	_	23	punct	_
+20	siis	J	_	23	advmod	_
+21	aastal	S	sg=sg|ad=ad	23	obl	_
+22	2000	N	?=?	21	nummod	_
+23	jääb	V	b=b	0	root	_
+24	personalijuhi	S	sg=sg|g=g	25	nmod	_
+25	pilk	S	sg=sg|n=n	26	obj	_
+26	pidama	V	ma=ma	28	acl	_
+27	eriharidusega	S	sg=sg|kom=kom	28	nmod	_
+28	inimesel	S	sg=sg|ad=ad	23	nsubj	_
+29	,	Z	_	32	punct	_
+30	kes	P	sg=sg|n=n	32	nsubj	_
+31	on	V	vad=vad	32	aux	_
+32	väljamaganud	A	pl=pl|n=n	28	acl:relcl	_
+33	ning	J	_	35	cc	_
+34	eluga	S	sg=sg|kom=kom	35	obl	_
+35	rahul	D	_	32	conj	_
+36	,	Z	_	39	punct	_
+37	"	Z	_	39	punct	_
+38	kõva	A	sg=sg|n=n	39	amod	_
+39	käsi	S	sg=sg|n=n	43	nmod	_
+40	"	Z	_	39	punct	_
+41	ühel	P	sg=sg|ad=ad	43	det	_
+42	kindlal	A	sg=sg|ad=ad	43	amod	_
+43	alal	S	sg=sg|ad=ad	45	obl	_
+44	,	Z	_	45	punct	_
+45	töötanud	A	sg=sg|n=n	32	conj	_
+46	firmas	S	sg=sg|in=in	45	nsubj	_
+47	pikemat	C	sg=sg|p=p	48	amod	_
+48	aega	S	sg=sg|p=p	45	obl	_
+49	ja	J	_	50	cc	_
+50	teinud	A	_	5	conj	_
+51	seda	P	sg=sg|p=p	50	obj	_
+52	nii	D	_	50	advmod	_
+53	,	Z	_	58	punct	_
+54	et	J	_	58	mark	_
+55	tema	P	sg=sg|g=g	56	nmod	_
+56	rõõm	S	sg=sg|n=n	57	nmod	_
+57	kordaminekutest	S	pl=pl|el=el	58	nsubj	_
+58	õhkub	V	b=b	50	advcl	_
+59	kontori	S	sg=sg|g=g	58	obl	CHECK
+60	teise	P	adt=adt	61	amod	_
+61	otsa	S	adt=adt	58	obl	_
+62	.	Z	_	23	punct	_
+
+# sent_id = 5204673
+# text = [ [ 3 ] ] Selleks aga , et kevadise rõivamoe suursoosiku - beezhi - kandja näost õhkuks tervet jumekust , värvi takse juuksed kuldse säraga pruunidesbeezhides toonides .
+1	[	Z	_	3	punct	_
+2	[	Z	_	3	punct	_
+3	3	N	?=?	6	parataxis	_
+4	]	Z	_	3	punct	_
+5	]	Z	_	3	punct	_
+6	Selleks	P	sg=sg|tr=tr	0	root	_
+7	aga	J	_	6	advmod	_
+8	,	Z	_	18	punct	_
+9	et	J	_	18	mark	_
+10	kevadise	A	sg=sg|g=g	11	amod	_
+11	rõivamoe	S	sg=sg|g=g	12	nmod	_
+12	suursoosiku	S	sg=sg|g=g	18	nsubj	_
+13	-	Z	_	14	punct	_
+14	beezhi	S	sg=sg|g=g	12	appos	_
+15	-	Z	_	14	punct	_
+16	kandja	S	sg=sg|g=g	17	nmod	_
+17	näost	S	sg=sg|el=el	18	nsubj	_
+18	õhkuks	V	ks=ks	6	acl	_
+19	tervet	A	sg=sg|p=p	20	amod	_
+20	jumekust	S	sg=sg|p=p	18	obl	CHECK
+21	,	Z	_	24	punct	_
+22	värvi	S	sg=sg|p=p	23	nmod	_
+23	takse	S	pl=pl|p=p	24	nmod	_
+24	juuksed	S	pl=pl|n=n	18	conj	_
+25	kuldse	A	sg=sg|g=g	26	amod	_
+26	säraga	S	sg=sg|kom=kom	27	nmod	_
+27	pruunidesbeezhides	S	sg=sg|n=n	28	nmod	_
+28	toonides	S	pl=pl|in=in	18	obj	_
+29	.	Z	_	6	punct	_
+
+# sent_id = 2141165
+# text = Sama kompromissitut maailmaparandamist tundub õhkuvat Inglise ühiskonnas oma juuri otsivaist neegerlauljaist .
+1	Sama	P	sg=sg|g=g	2	advmod	_
+2	kompromissitut	A	sg=sg|p=p	3	amod	_
+3	maailmaparandamist	S	sg=sg|p=p	5	obj	CHECK
+4	tundub	V	b=b	5	aux	_
+5	õhkuvat	V	vat=vat	0	root	_
+6	Inglise	G	_	7	amod	_
+7	ühiskonnas	S	sg=sg|in=in	5	obl	_
+8	oma	P	sg=sg|g=g	9	nmod	_
+9	juuri	S	pl=pl|p=p	10	obj	_
+10	otsivaist	A	pl=pl|el=el	11	acl	_
+11	neegerlauljaist	S	pl=pl|el=el	5	nsubj	_
+12	.	Z	_	5	punct	_
+
+# sent_id = 36435
+# text = Tüdrukust õhkus tohutut energiat , mis lihtsalt sundis teda kuulama .
+1	Tüdrukust	S	sg=sg|el=el	2	nsubj	_
+2	õhkus	V	s=s	0	root	_
+3	tohutut	A	sg=sg|p=p	4	amod	_
+4	energiat	S	sg=sg|p=p	2	obj	CHECK
+5	,	Z	_	8	punct	_
+6	mis	P	sg=sg|n=n	8	nsubj	_
+7	lihtsalt	D	_	8	advmod	_
+8	sundis	V	s=s	4	acl:relcl	_
+9	teda	P	sg=sg|p=p	10	obj	_
+10	kuulama	V	ma=ma	8	xcomp	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 1316548
+# text = Teie ansamblist pole kunagi õhkunud meeleheitlikku soovi pidevalt orbiidil püsida ja niiöelda " kuumad " olla .
+1	Teie	P	pl=pl|g=g	2	nmod	_
+2	ansamblist	S	sg=sg|el=el	5	nsubj	_
+3	pole	V	neg=neg|o=o	5	aux	_
+4	kunagi	D	_	5	advmod	_
+5	õhkunud	A	sg=sg|n=n	0	root	_
+6	meeleheitlikku	A	sg=sg|p=p	7	amod	_
+7	soovi	S	sg=sg|p=p	5	obj	CHECK
+8	pidevalt	D	_	10	advmod	_
+9	orbiidil	S	sg=sg|ad=ad	10	obl	_
+10	püsida	V	da=da	7	acl	_
+11	ja	J	_	16	cc	_
+12	niiöelda	D	_	14	advmod	_
+13	"	Z	_	14	punct	_
+14	kuumad	A	pl=pl|n=n	10	conj	_
+15	"	Z	_	14	punct	_
+16	olla	V	da=da	14	cop	_
+17	.	Z	_	5	punct	_
+
+# sent_id = 6101152
+# text = Ajastuhõngu õhkub ka originaalist või arhiivikoopiast skanneeritud projektidest-plaanidest , isegi nõukogudeaegsed roosad valguskoopiad mõjuvad esteetilistena .
+1	Ajastuhõngu	S	adt=adt	2	obl	CHECK
+2	õhkub	V	b=b	0	root	_
+3	ka	D	_	8	advmod	_
+4	originaalist	S	sg=sg|el=el	7	obl	_
+5	või	J	_	8	cc	_
+6	arhiivikoopiast	S	sg=sg|el=el	7	obl	_
+7	skanneeritud	A	pl=pl|n=n	8	acl	_
+8	projektidest-plaanidest	S	pl=pl|el=el	2	nsubj	_
+9	,	Z	_	14	punct	_
+10	isegi	D	_	13	advmod	_
+11	nõukogudeaegsed	A	pl=pl|n=n	13	amod	_
+12	roosad	A	pl=pl|n=n	13	amod	_
+13	valguskoopiad	S	pl=pl|n=n	14	nsubj	_
+14	mõjuvad	V	vad=vad	2	conj	_
+15	esteetilistena	A	pl=pl|es=es	14	obl	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 3991087
+# text = Kõigi bändikaaslaste uuest elust justkui õhkuks eskapismi , mille õhkimise Viktor on endale eesmärgiks seadnud .
+1	Kõigi	P	pl=pl|g=g	2	det	_
+2	bändikaaslaste	S	pl=pl|g=g	4	nmod	_
+3	uuest	A	sg=sg|el=el	4	amod	_
+4	elust	S	sg=sg|el=el	6	obj	_
+5	justkui	D	_	6	mark	_
+6	õhkuks	V	ks=ks	0	root	_
+7	eskapismi	S	sg=sg|p=p	6	obj	CHECK
+8	,	Z	_	10	punct	_
+9	mille	P	pl=pl|g=g	10	nmod	_
+10	õhkimise	S	sg=sg|g=g	15	obj	_
+11	Viktor	H	sg=sg|n=n	10	appos	_
+12	on	V	vad=vad	15	aux	_
+13	endale	P	sg=sg|all=all	15	obl	_
+14	eesmärgiks	S	sg=sg|tr=tr	15	xcomp	_
+15	seadnud	V	nud=nud	7	acl:relcl	_
+16	.	Z	_	6	punct	_
+
+# sent_id = 8703573
+# text = Neist õhkus jõudu , neis oli energiat .
+1	Neist	P	pl=pl|el=el	2	nsubj	_
+2	õhkus	V	s=s	0	root	_
+3	jõudu	S	adt=adt	2	obj	CHECK
+4	,	Z	_	7	punct	_
+5	neis	P	pl=pl|in=in	7	nsubj:cop	_
+6	oli	V	s=s	7	cop	_
+7	energiat	S	sg=sg|p=p	2	conj	_
+8	.	Z	_	2	punct	_
+
+# sent_id = 1572683
+# text = Kuid ka siis jäävat hinge mõru maik , sest abikaasast õhkuvat hiljem kergendustunnet tüütust kohustusest vabanemise üle .
+1	Kuid	J	_	4	cc	_
+2	ka	D	_	3	advmod	_
+3	siis	D	_	4	advmod	_
+4	jäävat	A	sg=sg|p=p	0	root	_
+5	hinge	S	sg=sg|p=p	7	nmod	_
+6	mõru	A	sg=sg|n=n	7	amod	_
+7	maik	S	sg=sg|n=n	4	nsubj	_
+8	,	Z	_	11	punct	_
+9	sest	J	_	11	mark	_
+10	abikaasast	S	sg=sg|el=el	11	nsubj	_
+11	õhkuvat	V	vat=vat	4	advcl	_
+12	hiljem	D	_	11	advmod	_
+13	kergendustunnet	S	sg=sg|p=p	14	obl	CHECK
+14	tüütust	A	sg=sg|el=el	15	amod	_
+15	kohustusest	S	sg=sg|el=el	11	nsubj	_
+16	vabanemise	S	sg=sg|g=g	15	nmod	_
+17	üle	K	_	16	case	_
+18	.	Z	_	4	punct	_
+
+# sent_id = 10217937
+# text = Ühissammu ülevust ja hetke pidulikkust kahandab muidugi Fluxuse-absurdivaim , mis õhkub pea igast tööst Kunstihoone saalides .
+1	Ühissammu	S	sg=sg|g=g	2	nmod	_
+2	ülevust	S	sg=sg|p=p	6	obj	_
+3	ja	J	_	5	cc	_
+4	hetke	S	sg=sg|g=g	5	nmod	_
+5	pidulikkust	S	sg=sg|p=p	2	conj	_
+6	kahandab	V	b=b	0	root	_
+7	muidugi	D	_	6	advmod	_
+8	Fluxuse-absurdivaim	S	sg=sg|n=n	6	nsubj	_
+9	,	Z	_	11	punct	_
+10	mis	P	sg=sg|n=n	11	nsubj	_
+11	õhkub	V	b=b	8	acl:relcl	_
+12	pea	D	_	11	advmod	CHECK
+13	igast	P	sg=sg|el=el	16	det	_
+14	tööst	S	sg=sg|el=el	16	nmod	_
+15	Kunstihoone	S	sg=sg|g=g	16	nmod	_
+16	saalides	S	pl=pl|in=in	11	obl	_
+17	.	Z	_	6	punct	_
+

@@ -1,0 +1,276 @@
+# sent_id = 7428710
+# text = Plekist katus lendas mitmes osas maja ette kõnniteele ja muruplatsile ning isegi umbes 30–40 meetri kaugusele üle Otepää–Sihva maantee naabermaja hoovi .
+1	Plekist	S	sg=sg|el=el	2	nmod	_
+2	katus	S	sg=sg|n=n	3	obl	_
+3	lendas	V	s=s	0	root	_
+4	mitmes	P	sg=sg|in=in	5	det	_
+5	osas	S	sg=sg|in=in	3	obl	_
+6	maja	S	sg=sg|g=g	3	obl	_
+7	ette	K	_	6	case	_
+8	kõnniteele	S	sg=sg|all=all	3	nsubj	_
+9	ja	J	_	10	cc	_
+10	muruplatsile	S	sg=sg|all=all	8	conj	_
+11	ning	J	_	22	cc	_
+12	isegi	D	_	18	advmod	_
+13	umbes	D	_	14	advmod	_
+14	30	N	?=?	18	nummod	_
+15	–	Z	_	16	punct	_
+16	40	N	?=?	14	conj	_
+17	meetri	S	sg=sg|g=g	18	nmod	_
+18	kaugusele	S	sg=sg|all=all	3	conj	_
+19	üle	D	_	20	case	_
+20	Otepää	H	sg=sg|g=g	18	nmod	_
+21	–	Z	_	22	punct	_
+22	Sihva	V	o=o	3	parataxis	_
+23	maantee	S	sg=sg|g=g	22	obl	CHECK
+24	naabermaja	S	sg=sg|g=g	25	nmod	_
+25	hoovi	S	adt=adt	22	obj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 20519322
+# text = chokzkazz|away: sihva ;DDDDDDDDD emme
+1	chokzkazz	S	sg=sg|n=n	0	root	_
+2	|	Y	?=?	1	flat	_
+3	away	S	sg=sg|n=n	1	flat	_
+4	:	Z	_	5	punct	_
+5	sihva	V	o=o	1	parataxis	_
+6	;DDDDDDDDD	Z	?=?	7	acl	_
+7	emme	S	adt=adt	5	obj	CHECK
+
+# sent_id = 7319202
+# text = 10. mail kella 16.03 ajal juhtus liiklusõnnetus Otepää vallas Nüpli külas Otepää – Nüpli – Sihva tee 2. kilomeetril .
+1	10.	O	?=?	2	amod	_
+2	mail	S	sg=sg|ad=ad	6	obl	_
+3	kella	S	sg=sg|g=g	6	obl	_
+4	16.03	N	?=?	3	nummod	_
+5	ajal	S	sg=sg|ad=ad	6	obl	_
+6	juhtus	V	s=s	0	root	_
+7	liiklusõnnetus	S	sg=sg|n=n	6	nsubj	_
+8	Otepää	H	sg=sg|g=g	9	nmod	_
+9	vallas	S	sg=sg|in=in	6	obl	_
+10	Nüpli	H	sg=sg|g=g	11	nmod	_
+11	külas	S	sg=sg|in=in	6	obl	_
+12	Otepää	H	sg=sg|g=g	11	appos	_
+13	–	Z	_	14	punct	_
+14	Nüpli	H	sg=sg|n=n	12	appos	_
+15	–	Z	_	17	punct	_
+16	Sihva	V	o=o	17	nsubj	_
+17	tee	V	o=o	6	parataxis	CHECK
+18	2.	O	?=?	19	amod	_
+19	kilomeetril	S	sg=sg|ad=ad	17	obj	_
+20	.	Z	_	6	punct	_
+
+# sent_id = 19535146
+# text = chokoladk2tlin: sihva emme kalli kalli kalli kalli kalli kalli ;DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+1	chokoladk2tlin	S	sg=sg|n=n	0	root	_
+2	:	Z	_	3	punct	_
+3	sihva	V	o=o	1	parataxis	_
+4	emme	S	adt=adt	3	obj	CHECK
+5	kalli	A	sg=sg|g=g	4	amod	_
+6	kalli	A	sg=sg|g=g	11	amod	_
+7	kalli	A	sg=sg|g=g	11	amod	_
+8	kalli	A	sg=sg|g=g	11	amod	_
+9	kalli	A	sg=sg|g=g	10	amod	_
+10	kalli	A	sg=sg|g=g	11	amod	_
+11	;DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD	Z	_	3	advcl	_
+
+# sent_id = 6670666
+# text = Pühapäeval , 6. aprillil kella 12.15 ajal juhtus liiklusõnnetus Otepää vallas Nüpli külas Otepää – Nüpli – Sihva maantee 1. kilomeetril .
+1	Pühapäeval	S	sg=sg|ad=ad	8	obl	_
+2	,	Z	_	4	punct	_
+3	6.	O	?=?	4	amod	_
+4	aprillil	S	sg=sg|ad=ad	8	obl	_
+5	kella	S	sg=sg|g=g	8	obl	_
+6	12.15	N	?=?	5	nummod	_
+7	ajal	S	sg=sg|ad=ad	8	obl	_
+8	juhtus	V	s=s	0	root	_
+9	liiklusõnnetus	S	sg=sg|n=n	8	nsubj	_
+10	Otepää	H	sg=sg|g=g	11	nmod	_
+11	vallas	S	sg=sg|in=in	8	obl	_
+12	Nüpli	H	sg=sg|g=g	13	nmod	_
+13	külas	S	sg=sg|in=in	8	obl	_
+14	Otepää	H	sg=sg|g=g	13	appos	_
+15	–	Z	_	16	punct	_
+16	Nüpli	H	sg=sg|n=n	14	appos	_
+17	–	Z	_	18	punct	_
+18	Sihva	V	o=o	8	parataxis	_
+19	maantee	S	sg=sg|g=g	18	obl	CHECK
+20	1.	O	?=?	21	amod	_
+21	kilomeetril	S	sg=sg|ad=ad	18	obl	_
+22	.	Z	_	8	punct	_
+
+# sent_id = 19259079
+# text = h6bekas: sihva heips :)
+1	h6bekas	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	sihva	V	o=o	0	root	_
+4	heips	S	sg=sg|n=n	3	obj	CHECK
+5	:)	Z	_	3	punct	_
+
+# sent_id = 11986058
+# text = Kõigepealt sõidetakse rullidel soojenduseks paarkümmend minutit ja jõutakse Otepää–Sihva maanteel vajalikku punkti .
+1	Kõigepealt	D	_	2	advmod	_
+2	sõidetakse	V	takse=takse	0	root	_
+3	rullidel	S	pl=pl|ad=ad	4	nmod	_
+4	soojenduseks	S	sg=sg|tr=tr	2	obl	_
+5	paarkümmend	N	sg=sg|n=n	6	nummod	_
+6	minutit	S	sg=sg|p=p	2	obl	_
+7	ja	J	_	8	cc	_
+8	jõutakse	V	takse=takse	2	conj	_
+9	Otepää	H	sg=sg|g=g	8	obl	_
+10	–	Z	_	11	punct	_
+11	Sihva	V	o=o	2	parataxis	_
+12	maanteel	S	sg=sg|ad=ad	13	obl	_
+13	vajalikku	A	sg=sg|p=p	14	amod	_
+14	punkti	S	sg=sg|p=p	11	obj	CHECK
+15	.	Z	_	2	punct	_
+
+# sent_id = 19417606
+# text = ulluke: sihva remember me ?
+1	ulluke	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	sihva	V	o=o	0	root	_
+4	remember	S	sg=sg|n=n	3	obj	CHECK
+5	me	P	pl=pl|n=n	3	nsubj	_
+6	?	Z	_	3	punct	_
+
+# sent_id = 11986066
+# text = Kuniks mehed võimlevad , kisub keeristorm paari kilomeetri kaugusel maha Pühajärve puhkekodu katuse ja langetab hiljutises sprindipaigas Otepää–Sihva maanteel sedavõrd puid , et liiklus tükiks ajaks seiskub .
+1	Kuniks	D	_	3	advmod	_
+2	mehed	S	pl=pl|n=n	3	nsubj	_
+3	võimlevad	V	vad=vad	0	root	_
+4	,	Z	_	5	punct	_
+5	kisub	V	b=b	3	conj	_
+6	keeristorm	S	sg=sg|n=n	5	obj	_
+7	paari	N	sg=sg|g=g	8	nummod	_
+8	kilomeetri	S	sg=sg|g=g	5	obl	_
+9	kaugusel	K	_	8	case	_
+10	maha	D	_	5	compound:prt	_
+11	Pühajärve	S	sg=sg|g=g	12	nmod	_
+12	puhkekodu	S	sg=sg|g=g	13	nmod	_
+13	katuse	S	sg=sg|g=g	5	obj	_
+14	ja	J	_	15	cc	_
+15	langetab	V	b=b	3	conj	_
+16	hiljutises	A	sg=sg|in=in	17	amod	_
+17	sprindipaigas	S	sg=sg|in=in	15	obj	_
+18	Otepää	H	sg=sg|g=g	17	appos	_
+19	–	Z	_	20	punct	_
+20	Sihva	V	o=o	15	parataxis	_
+21	maanteel	S	sg=sg|ad=ad	20	obl	_
+22	sedavõrd	D	_	23	advmod	_
+23	puid	S	pl=pl|p=p	20	obj	CHECK
+24	,	Z	_	29	punct	_
+25	et	J	_	29	mark	_
+26	liiklus	S	sg=sg|n=n	29	nsubj	_
+27	tükiks	S	sg=sg|tr=tr	28	nmod	_
+28	ajaks	S	sg=sg|tr=tr	29	obl	_
+29	seiskub	V	b=b	20	advcl	_
+30	.	Z	_	3	punct	_
+
+# sent_id = 7450846
+# text = Otepää vallas Restu – Sihva tee 6. kilomeetril juhtus 17. septembril kella 20 ajal liiklusõnnetus , kus ATV Freeland , mida juhtis alkoholijoobes ja ilma kaitsekiivrita Kristo ( snd 1975 ) , kaldus valede sõiduvõtete tõttu külili .
+1	Otepää	H	sg=sg|g=g	2	nmod	_
+2	vallas	S	sg=sg|in=in	6	obl	_
+3	Restu	H	sg=sg|n=n	2	appos	_
+4	–	Z	_	6	punct	_
+5	Sihva	V	o=o	6	nmod	_
+6	tee	V	o=o	8	acl	CHECK
+7	6.	O	?=?	8	amod	_
+8	kilomeetril	S	sg=sg|ad=ad	9	obl	_
+9	juhtus	V	s=s	0	root	_
+10	17.	O	?=?	11	amod	_
+11	septembril	S	sg=sg|ad=ad	9	obl	_
+12	kella	S	sg=sg|g=g	9	obl	_
+13	20	N	?=?	12	nummod	_
+14	ajal	S	sg=sg|ad=ad	9	obl	_
+15	liiklusõnnetus	S	sg=sg|n=n	9	obl	_
+16	,	Z	_	33	punct	_
+17	kus	D	_	33	mark	_
+18	ATV	Y	?=?	33	nsubj	_
+19	Freeland	H	sg=sg|n=n	18	flat	_
+20	,	Z	_	22	punct	_
+21	mida	P	pl=pl|p=p	22	nsubj	_
+22	juhtis	V	s=s	18	acl:relcl	_
+23	alkoholijoobes	S	sg=sg|in=in	22	obj	_
+24	ja	J	_	26	cc	_
+25	ilma	K	_	26	case	_
+26	kaitsekiivrita	S	sg=sg|ab=ab	23	conj	_
+27	Kristo	H	sg=sg|n=n	26	appos	_
+28	(	Z	_	29	punct	_
+29	snd	Y	?=?	26	parataxis	_
+30	1975	N	?=?	29	nummod	_
+31	)	Z	_	29	punct	_
+32	,	Z	_	22	punct	_
+33	kaldus	V	s=s	9	conj	_
+34	valede	S	pl=pl|g=g	35	amod	_
+35	sõiduvõtete	S	pl=pl|g=g	33	obl	_
+36	tõttu	K	_	35	case	_
+37	külili	D	_	33	advmod	_
+38	.	Z	_	33	punct	_
+
+# sent_id = 19339148
+# text = pingviin: sihva mutuki :P
+1	pingviin	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	sihva	V	o=o	0	root	_
+4	mutuki	V	o=o	3	nsubj	CHECK
+5	:P	Z	?=?	3	punct	_
+
+# sent_id = 19417595
+# text = xxxx2er: sihva tere
+1	xxxx2er	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	sihva	V	o=o	0	root	_
+4	tere	S	sg=sg|n=n	3	obj	CHECK
+
+# sent_id = 6956546
+# text = Samal päeval juhtus liiklusõnnetus ka Otepää vallas Sihva külas Arula – Sihva maantee 5. kilomeetril , kus sõiduautole Audi 80 , mida juhtis 1976. aastal sündinud mees , sõitis paremasse esitiiba sisse rullsuuskadel Ene ( snd 1960 ) .
+1	Samal	P	sg=sg|ad=ad	2	det	_
+2	päeval	S	sg=sg|ad=ad	3	obl	_
+3	juhtus	V	s=s	0	root	_
+4	liiklusõnnetus	S	sg=sg|n=n	3	nsubj	_
+5	ka	D	_	3	advmod	_
+6	Otepää	H	sg=sg|g=g	7	nmod	_
+7	vallas	S	sg=sg|in=in	9	nmod	_
+8	Sihva	H	sg=sg|g=g	9	nmod	_
+9	külas	S	sg=sg|in=in	3	obl	_
+10	Arula	H	sg=sg|n=n	9	appos	_
+11	–	Z	_	12	punct	_
+12	Sihva	V	o=o	3	parataxis	_
+13	maantee	S	sg=sg|g=g	12	obl	CHECK
+14	5.	O	?=?	15	amod	_
+15	kilomeetril	S	sg=sg|ad=ad	12	obl	_
+16	,	Z	_	29	punct	_
+17	kus	D	_	29	mark	_
+18	sõiduautole	S	sg=sg|all=all	29	nsubj	_
+19	Audi	H	adt=adt	18	appos	_
+20	80	N	?=?	19	flat	_
+21	,	Z	_	23	punct	_
+22	mida	P	sg=sg|p=p	23	nsubj	_
+23	juhtis	V	s=s	19	acl:relcl	_
+24	1976.	O	?=?	25	amod	_
+25	aastal	S	sg=sg|ad=ad	26	obl	_
+26	sündinud	A	sg=sg|n=n	27	acl	_
+27	mees	S	sg=sg|n=n	23	obj	_
+28	,	Z	_	23	punct	_
+29	sõitis	V	s=s	12	conj	_
+30	paremasse	C	sg=sg|ill=ill	31	amod	_
+31	esitiiba	S	adt=adt	29	obl	_
+32	sisse	D	_	29	compound:prt	_
+33	rullsuuskadel	S	pl=pl|ad=ad	29	nsubj	_
+34	Ene	H	sg=sg|n=n	33	appos	_
+35	(	Z	_	36	punct	_
+36	snd	Y	?=?	33	parataxis	_
+37	1960	N	?=?	36	nummod	_
+38	)	Z	_	36	punct	_
+39	.	Z	_	3	punct	_
+
+# sent_id = 19414097
+# text = ema-anna-padruneid: agu sihva anna aru
+1	ema-anna-padruneid	S	pl=pl|p=p	0	root	_
+2	:	Z	_	4	punct	_
+3	agu	S	sg=sg|n=n	4	nsubj	_
+4	sihva	V	o=o	1	parataxis	_
+5	anna	V	o=o	4	nsubj	_
+6	aru	S	sg=sg|p=p	5	obj	CHECK
+

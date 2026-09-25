@@ -1,0 +1,334 @@
+# sent_id = 353000
+# text = Tartus selgus kardetud tõsiasi - see ei olnud originaalne ja iseseisev , vaid kattus Theodor Saare Eesti Rahvaluule Arhiivis asuvate materjalidega .
+1	Tartus	H	sg=sg|in=in	2	obl	_
+2	selgus	V	s=s	0	root	_
+3	kardetud	A	sg=sg|n=n	4	acl	_
+4	tõsiasi	S	sg=sg|n=n	2	nsubj	_
+5	-	Z	_	9	punct	_
+6	see	P	sg=sg|n=n	9	nsubj:cop	_
+7	ei	V	neg=neg	9	aux	_
+8	olnud	A	_	9	cop	_
+9	originaalne	A	sg=sg|n=n	2	parataxis	_
+10	ja	J	_	11	cc	_
+11	iseseisev	A	sg=sg|n=n	9	conj	_
+12	,	Z	_	14	punct	_
+13	vaid	J	_	14	cc	_
+14	kattus	V	s=s	9	conj	_
+15	Theodor	H	sg=sg|n=n	21	nmod	_
+16	Saare	H	sg=sg|g=g	15	flat	_
+17	Eesti	H	sg=sg|g=g	18	nmod	_
+18	Rahvaluule	S	sg=sg|n=n	19	nmod	CHECK
+19	Arhiivis	V	s=s	20	obl	_
+20	asuvate	A	pl=pl|g=g	21	acl	_
+21	materjalidega	S	pl=pl|kom=kom	14	obj	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 1608494
+# text = Endast : Helen Mahmastoli sõnul on Urban Corpil hulk erinevaid klubiüritusi , mille publik 60 protsendi osas kattub .
+1	Endast	P	sg=sg|el=el	5	nmod	_
+2	:	Z	_	6	punct	_
+3	Helen	H	sg=sg|n=n	5	nmod	_
+4	Mahmastoli	H	sg=sg|g=g	3	flat	_
+5	sõnul	S	pl=pl|ad=ad	6	obl	_
+6	on	V	b=b	0	root	_
+7	Urban	H	sg=sg|n=n	11	nmod	_
+8	Corpil	H	sg=sg|ad=ad	7	flat	_
+9	hulk	S	sg=sg|n=n	11	nmod	_
+10	erinevaid	A	pl=pl|p=p	11	acl	_
+11	klubiüritusi	S	pl=pl|p=p	6	nsubj	_
+12	,	Z	_	18	punct	_
+13	mille	P	pl=pl|g=g	18	nsubj	CHECK
+14	publik	S	sg=sg|n=n	18	obj	_
+15	60	N	?=?	16	nummod	_
+16	protsendi	S	sg=sg|g=g	18	obl	_
+17	osas	K	_	16	case	_
+18	kattub	V	b=b	11	acl:relcl	_
+19	.	Z	_	6	punct	_
+
+# sent_id = 2259593
+# text = Reformierakonna miljonärist liikme Neinar Seli 5000 krooni suuruse korterikompensatsiooni maksis riigikogu kantselei firmale OÜ Kaarna Koda , mille telefoninumber ja aadress kattuvad Selile kuuluva firmaga Rondami Väärtpaberite AS .
+1	Reformierakonna	H	sg=sg|g=g	2	nmod	_
+2	miljonärist	S	sg=sg|el=el	3	nmod	_
+3	liikme	S	sg=sg|g=g	8	obl	_
+4	Neinar	H	sg=sg|n=n	3	appos	_
+5	Seli	H	sg=sg|n=n	4	flat	_
+6	5000	N	?=?	7	nummod	_
+7	krooni	S	sg=sg|p=p	8	obl	_
+8	suuruse	A	sg=sg|g=g	9	amod	_
+9	korterikompensatsiooni	S	sg=sg|g=g	10	obj	_
+10	maksis	V	s=s	0	root	_
+11	riigikogu	S	sg=sg|g=g	12	nmod	_
+12	kantselei	S	sg=sg|g=g	13	nmod	_
+13	firmale	S	sg=sg|all=all	10	obj	_
+14	OÜ	Y	?=?	13	appos	_
+15	Kaarna	H	sg=sg|g=g	14	flat	_
+16	Koda	S	sg=sg|n=n	14	flat	_
+17	,	Z	_	22	punct	_
+18	mille	P	pl=pl|g=g	22	nsubj	_
+19	telefoninumber	S	sg=sg|n=n	22	obj	_
+20	ja	J	_	21	cc	_
+21	aadress	S	sg=sg|n=n	19	conj	_
+22	kattuvad	V	vad=vad	14	acl:relcl	_
+23	Selile	H	sg=sg|g=g	24	obl	_
+24	kuuluva	A	sg=sg|g=g	25	acl	_
+25	firmaga	S	sg=sg|kom=kom	27	nmod	_
+26	Rondami	H	sg=sg|g=g	25	appos	_
+27	Väärtpaberite	S	pl=pl|g=g	28	nmod	_
+28	AS	Y	?=?	22	obj	CHECK
+29	.	Z	_	10	punct	_
+
+# sent_id = 6523024
+# text = Väljanägemine ei kattu pildiga mitte grammigi , " lastejook " , kõlab kokkuvõttev otsus .
+1	Väljanägemine	S	sg=sg|n=n	3	obj	_
+2	ei	V	neg=neg	3	aux	_
+3	kattu	V	o=o	0	root	_
+4	pildiga	S	sg=sg|kom=kom	3	obj	_
+5	mitte	D	_	6	advmod	_
+6	grammigi	S	sg=sg|p=p	3	obl	CHECK
+7	,	Z	_	9	punct	_
+8	"	Z	_	9	punct	_
+9	lastejook	S	sg=sg|n=n	6	conj	_
+10	"	Z	_	9	punct	_
+11	,	Z	_	12	punct	_
+12	kõlab	V	b=b	3	conj	_
+13	kokkuvõttev	A	sg=sg|n=n	14	amod	_
+14	otsus	S	sg=sg|n=n	12	nsubj	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 262099
+# text = See suhe on Alleni enne ja kattuvad [ meets ] suhete segu ; st me arvestame võimalusega , et kahe sündmuse ajaline vahe on null .
+1	See	P	sg=sg|n=n	2	det	_
+2	suhe	S	sg=sg|n=n	4	nsubj:cop	_
+3	on	V	vad=vad	4	cop	_
+4	Alleni	H	sg=sg|n=n	0	root	_
+5	enne	D	_	4	advmod	_
+6	ja	J	_	7	cc	_
+7	kattuvad	V	vad=vad	4	conj	_
+8	[	Z	_	9	punct	_
+9	meets	S	sg=sg|n=n	11	parataxis	_
+10	]	Z	_	9	punct	_
+11	suhete	S	pl=pl|g=g	12	nmod	_
+12	segu	S	sg=sg|n=n	7	obj	CHECK
+13	;	Z	_	16	punct	_
+14	st	Y	?=?	16	mark	_
+15	me	P	pl=pl|n=n	16	nsubj	_
+16	arvestame	V	me=me	7	parataxis	_
+17	võimalusega	S	sg=sg|kom=kom	16	obj	_
+18	,	Z	_	25	punct	_
+19	et	J	_	25	mark	_
+20	kahe	N	sg=sg|g=g	21	nummod	_
+21	sündmuse	S	sg=sg|g=g	23	nmod	_
+22	ajaline	A	sg=sg|n=n	23	amod	_
+23	vahe	S	sg=sg|n=n	25	nsubj:cop	_
+24	on	V	b=b	25	cop	_
+25	null	S	sg=sg|n=n	17	acl	_
+26	.	Z	_	4	punct	_
+
+# sent_id = 863379
+# text = Lähis-Ida tabanud külmalaine tõi lumesaju kaasa ka Saudi Araabia põhjaosas ning reedel kattus lumega osa Jordaania piiri äärsest Tabuki regioonist .
+1	Lähis-Ida	H	sg=sg|n=n	2	obj	_
+2	tabanud	A	_	3	acl	_
+3	külmalaine	S	sg=sg|g=g	4	nsubj	_
+4	tõi	V	s=s	0	root	_
+5	lumesaju	S	sg=sg|g=g	4	nsubj	_
+6	kaasa	D	_	4	compound:prt	_
+7	ka	D	_	10	advmod	_
+8	Saudi	H	sg=sg|n=n	10	nmod	_
+9	Araabia	H	sg=sg|g=g	8	flat	_
+10	põhjaosas	S	sg=sg|in=in	4	obj	_
+11	ning	J	_	13	cc	_
+12	reedel	S	sg=sg|ad=ad	13	obl	_
+13	kattus	V	s=s	4	conj	_
+14	lumega	S	sg=sg|kom=kom	15	nmod	_
+15	osa	S	sg=sg|p=p	13	obj	CHECK
+16	Jordaania	H	sg=sg|g=g	17	nmod	_
+17	piiri	S	sg=sg|g=g	18	obl	_
+18	äärsest	A	sg=sg|el=el	19	amod	_
+19	Tabuki	H	sg=sg|g=g	20	nmod	_
+20	regioonist	S	sg=sg|el=el	13	obl	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 372175
+# text = “ Reigi õpetaja ” mitmed episoodid ei kattu ainult “ Hingesilla ” , vaid ka varasemate päevikulehekülgedega .
+1	“	Z	_	3	punct	_
+2	Reigi	H	sg=sg|g=g	3	nmod	_
+3	õpetaja	S	sg=sg|n=n	8	nsubj	_
+4	”	Z	_	3	punct	_
+5	mitmed	P	pl=pl|n=n	6	det	_
+6	episoodid	S	pl=pl|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	kattu	V	o=o	0	root	_
+9	ainult	D	_	11	advmod	_
+10	“	Z	_	11	punct	_
+11	Hingesilla	S	sg=sg|g=g	8	obj	CHECK
+12	”	Z	_	11	punct	_
+13	,	Z	_	17	punct	_
+14	vaid	J	_	17	cc	_
+15	ka	D	_	17	advmod	_
+16	varasemate	C	pl=pl|g=g	17	amod	_
+17	päevikulehekülgedega	S	pl=pl|kom=kom	11	conj	_
+18	.	Z	_	8	punct	_
+
+# sent_id = 1961329
+# text = Asjaolu , et meie seisukohad ei kattu ei elu ega ka kirjanduse osas , lisab ilmselt " Kirgedessegi " intriigi .
+1	Asjaolu	S	sg=sg|n=n	15	nsubj	_
+2	,	Z	_	7	punct	_
+3	et	J	_	7	mark	_
+4	meie	P	pl=pl|g=g	5	nmod	_
+5	seisukohad	S	pl=pl|n=n	7	nsubj	_
+6	ei	V	neg=neg	7	aux	_
+7	kattu	V	o=o	1	acl	_
+8	ei	V	neg=neg	9	advmod	_
+9	elu	S	sg=sg|n=n	7	obl	CHECK
+10	ega	J	_	12	cc	_
+11	ka	D	_	12	advmod	_
+12	kirjanduse	S	sg=sg|g=g	9	conj	_
+13	osas	K	_	9	case	_
+14	,	Z	_	7	punct	_
+15	lisab	V	b=b	0	root	_
+16	ilmselt	D	_	15	advmod	_
+17	"	Z	_	18	punct	_
+18	Kirgedessegi	H	sg=sg|g=g	20	nmod	_
+19	"	Z	_	18	punct	_
+20	intriigi	S	sg=sg|p=p	15	obj	_
+21	.	Z	_	15	punct	_
+
+# sent_id = 2278460
+# text = Teisisõnu , haigekassa hinnakiri raviteenuste kohta ei kattu ravi tegeliku hinnaga .
+1	Teisisõnu	D	_	8	advmod	_
+2	,	Z	_	8	punct	_
+3	haigekassa	S	sg=sg|g=g	8	nsubj	_
+4	hinnakiri	S	sg=sg|n=n	5	nmod	_
+5	raviteenuste	S	pl=pl|g=g	8	obl	_
+6	kohta	K	_	5	case	_
+7	ei	V	neg=neg	8	aux	_
+8	kattu	V	o=o	0	root	_
+9	ravi	S	sg=sg|p=p	8	obj	CHECK
+10	tegeliku	A	sg=sg|g=g	11	amod	_
+11	hinnaga	S	sg=sg|kom=kom	8	obj	_
+12	.	Z	_	8	punct	_
+
+# sent_id = 346232
+# text = Tegemist on sõltumatute mälusüsteemidega , mis küll mõjutavad teineteist , kuid mille sisu ei kattu .
+1	Tegemist	S	sg=sg|p=p	4	nsubj:cop	_
+2	on	V	b=b	4	cop	_
+3	sõltumatute	A	pl=pl|g=g	4	amod	_
+4	mälusüsteemidega	S	pl=pl|kom=kom	0	root	_
+5	,	Z	_	8	punct	_
+6	mis	P	sg=sg|n=n	8	nsubj	_
+7	küll	D	_	8	advmod	_
+8	mõjutavad	V	vad=vad	4	acl:relcl	_
+9	teineteist	P	sg=sg|p=p	8	obj	_
+10	,	Z	_	15	punct	_
+11	kuid	J	_	15	cc	_
+12	mille	P	sg=sg|g=g	13	nmod	_
+13	sisu	S	sg=sg|n=n	15	obj	CHECK
+14	ei	V	neg=neg	15	aux	_
+15	kattu	V	o=o	8	conj	_
+16	.	Z	_	4	punct	_
+
+# sent_id = 236717
+# text = Suur osa vastustest kattus esimese küsimuse -  Mida emakeel sinu jaoks tähendab ?
+1	Suur	A	sg=sg|n=n	2	amod	_
+2	osa	S	sg=sg|n=n	3	nmod	_
+3	vastustest	S	pl=pl|el=el	4	obj	_
+4	kattus	V	s=s	0	root	_
+5	esimese	O	sg=sg|g=g	6	amod	_
+6	küsimuse	S	sg=sg|g=g	4	obj	CHECK
+7	-	Z	_	12	punct	_
+8	Mida	P	sg=sg|p=p	9	nmod	_
+9	emakeel	S	sg=sg|n=n	12	obj	_
+10	sinu	P	sg=sg|g=g	12	obl	_
+11	jaoks	K	_	10	case	_
+12	tähendab	V	b=b	6	acl:relcl	_
+13	?	Z	_	4	punct	_
+
+# sent_id = 251846
+# text = A ( 22 ) : No juhtnööre jah , no ma ei osanud nii vaadata , et ega elud ju ei kattu aga midagi jah , kõrvataha ütleme nii .
+1	A	Y	?=?	13	parataxis	_
+2	(	Z	_	3	punct	_
+3	22	N	?=?	1	parataxis	_
+4	)	Z	_	3	punct	_
+5	:	Z	_	13	punct	_
+6	No	I	_	7	discourse	_
+7	juhtnööre	S	pl=pl|p=p	0	root	_
+8	jah	D	_	13	advmod	_
+9	,	Z	_	13	punct	_
+10	no	I	_	13	discourse	_
+11	ma	P	sg=sg|n=n	13	nsubj	_
+12	ei	V	neg=neg	13	aux	_
+13	osanud	A	_	7	conj	_
+14	nii	D	_	15	advmod	_
+15	vaadata	V	da=da	13	xcomp	_
+16	,	Z	_	22	punct	_
+17	et	J	_	22	mark	_
+18	ega	J	_	22	advmod	_
+19	elud	S	pl=pl|n=n	22	nsubj	_
+20	ju	D	_	22	advmod	_
+21	ei	V	neg=neg	22	aux	_
+22	kattu	V	o=o	15	ccomp	_
+23	aga	J	_	22	advmod	_
+24	midagi	P	sg=sg|p=p	22	nsubj	CHECK
+25	jah	D	_	22	advmod	_
+26	,	Z	_	28	punct	_
+27	kõrvataha	S	sg=sg|g=g	28	nsubj	_
+28	ütleme	V	me=me	13	conj	_
+29	nii	D	_	28	advmod	_
+30	.	Z	_	13	punct	_
+
+# sent_id = 1666807
+# text = Autod on ehitatud samale alusele ning ka osa keredetaile kattuvad .
+1	Autod	S	pl=pl|n=n	3	obj	_
+2	on	V	vad=vad	3	aux	_
+3	ehitatud	V	tud=tud	0	root	_
+4	samale	P	sg=sg|all=all	5	det	_
+5	alusele	S	sg=sg|all=all	3	obl	_
+6	ning	J	_	10	cc	_
+7	ka	D	_	8	advmod	_
+8	osa	S	sg=sg|g=g	10	obj	_
+9	keredetaile	S	pl=pl|p=p	10	nsubj	CHECK
+10	kattuvad	V	vad=vad	3	conj	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 1389795
+# text = " Mõne äriettevõtte arenguloogika kattub selle seisukohaga , aga mõne teise ettevõtte oma ei kattu .
+1	"	Z	_	5	punct	_
+2	Mõne	P	sg=sg|g=g	4	det	_
+3	äriettevõtte	S	sg=sg|g=g	4	nmod	_
+4	arenguloogika	S	sg=sg|n=n	5	nsubj	_
+5	kattub	V	b=b	0	root	_
+6	selle	P	sg=sg|g=g	7	det	_
+7	seisukohaga	S	sg=sg|kom=kom	5	obj	_
+8	,	Z	_	15	punct	_
+9	aga	J	_	15	cc	_
+10	mõne	P	sg=sg|g=g	11	det	_
+11	teise	P	sg=sg|g=g	12	det	_
+12	ettevõtte	S	sg=sg|g=g	15	nsubj	CHECK
+13	oma	P	sg=sg|g=g	15	obj	_
+14	ei	V	neg=neg	15	aux	_
+15	kattu	V	o=o	5	conj	_
+16	.	Z	_	5	punct	_
+
+# sent_id = 5957443
+# text = Võib juhtuda nii , et mingi sõna tavatähendus hakkab elama omaette elu ega kattu enam selle mõiste algse sisuga .
+1	Võib	V	b=b	2	aux	_
+2	juhtuda	V	da=da	0	root	_
+3	nii	D	_	2	advmod	_
+4	,	Z	_	9	punct	_
+5	et	J	_	9	mark	_
+6	mingi	P	sg=sg|g=g	8	det	_
+7	sõna	S	sg=sg|g=g	8	nmod	_
+8	tavatähendus	S	sg=sg|n=n	9	nsubj	_
+9	hakkab	V	b=b	2	csubj	_
+10	elama	V	ma=ma	9	xcomp	_
+11	omaette	D	_	12	advmod	_
+12	elu	S	sg=sg|p=p	10	obj	_
+13	ega	J	_	14	cc	_
+14	kattu	V	o=o	9	conj	_
+15	enam	D	_	14	advmod	_
+16	selle	P	sg=sg|g=g	17	det	_
+17	mõiste	S	sg=sg|g=g	14	obj	CHECK
+18	algse	A	sg=sg|g=g	19	amod	_
+19	sisuga	S	sg=sg|kom=kom	14	obj	_
+20	.	Z	_	2	punct	_
+

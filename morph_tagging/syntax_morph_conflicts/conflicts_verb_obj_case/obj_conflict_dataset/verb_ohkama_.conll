@@ -1,0 +1,265 @@
+# sent_id = 2315400
+# text = " Hea , et jope oli seljas , " ohkas teel poest koju Õismäe tee 79 juures liivatamata teel kukkunud Maimu .
+1	"	Z	_	2	punct	_
+2	Hea	A	sg=sg|n=n	0	root	_
+3	,	Z	_	7	punct	_
+4	et	J	_	7	mark	_
+5	jope	S	sg=sg|g=g	7	nsubj:cop	_
+6	oli	V	s=s	7	cop	_
+7	seljas	S	sg=sg|in=in	2	csubj:cop	_
+8	,	Z	_	2	punct	_
+9	"	Z	_	2	punct	_
+10	ohkas	V	s=s	2	parataxis	_
+11	teel	K	_	10	obl	_
+12	poest	S	sg=sg|el=el	10	obj	_
+13	koju	S	adt=adt	10	obl	_
+14	Õismäe	H	sg=sg|g=g	15	nmod	_
+15	tee	S	sg=sg|g=g	10	obl	_
+16	79	N	?=?	15	nummod	_
+17	juures	K	_	16	case	_
+18	liivatamata	A	_	19	amod	_
+19	teel	S	sg=sg|ad=ad	20	obl	_
+20	kukkunud	A	pl=pl|n=n	21	acl	_
+21	Maimu	S	adt=adt	10	nsubj	CHECK
+22	.	Z	_	2	punct	_
+
+# sent_id = 958525
+# text = Oleks võinud ju näkku hammustada , " ohkab Paomees telefoni .
+1	Oleks	V	ks=ks	5	aux	_
+2	võinud	V	nud=nud	5	aux	_
+3	ju	D	_	5	advmod	_
+4	näkku	S	adt=adt	5	obj	_
+5	hammustada	V	da=da	0	root	_
+6	,	Z	_	5	punct	_
+7	"	Z	_	5	punct	_
+8	ohkab	V	b=b	5	parataxis	_
+9	Paomees	H	sg=sg|n=n	8	nsubj	_
+10	telefoni	S	sg=sg|p=p	8	obj	CHECK
+11	.	Z	_	5	punct	_
+
+# sent_id = 6287918
+# text = Fännid ohkavad ilmselt pärast " Matrix : Revolutsiooni " , et see , mis olemata jäi , oli revolutsioon .
+1	Fännid	S	pl=pl|n=n	2	nsubj	_
+2	ohkavad	V	vad=vad	0	root	_
+3	ilmselt	D	_	2	advmod	_
+4	pärast	K	_	2	advmod	_
+5	"	Z	_	6	punct	_
+6	Matrix	H	sg=sg|n=n	2	obl	CHECK
+7	:	Z	_	6	punct	_
+8	Revolutsiooni	S	sg=sg|g=g	6	flat	_
+9	"	Z	_	6	punct	_
+10	,	Z	_	19	punct	_
+11	et	J	_	19	mark	_
+12	see	P	sg=sg|n=n	19	nsubj:cop	_
+13	,	Z	_	16	punct	_
+14	mis	P	pl=pl|n=n	16	nsubj	_
+15	olemata	V	mata=mata	16	aux	_
+16	jäi	V	s=s	12	acl:relcl	_
+17	,	Z	_	16	punct	_
+18	oli	V	s=s	19	cop	_
+19	revolutsioon	S	sg=sg|n=n	2	ccomp	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 10866655
+# text = Aina rohkem tehakse siingi maal asju , millest kuuldes veel mõni aasta tagasi oleks ohanud vene keeli : obaldeli ot netševo delatj ehk maakeeli : heast elust lolliks läinud .
+1	Aina	D	_	2	advmod	_
+2	rohkem	D	_	3	advmod	_
+3	tehakse	V	takse=takse	0	root	_
+4	siingi	D	_	3	advmod	_
+5	maal	S	sg=sg|ad=ad	3	obj	_
+6	asju	S	pl=pl|p=p	3	obj	_
+7	,	Z	_	9	punct	_
+8	millest	P	pl=pl|el=el	9	nsubj	_
+9	kuuldes	V	des=des	6	acl:relcl	_
+10	veel	D	_	11	advmod	_
+11	mõni	P	sg=sg|n=n	12	det	_
+12	aasta	S	sg=sg|n=n	15	obl	_
+13	tagasi	K	_	12	case	_
+14	oleks	V	ks=ks	15	aux	_
+15	ohanud	A	pl=pl|n=n	6	acl:relcl	_
+16	vene	G	_	17	amod	_
+17	keeli	S	pl=pl|p=p	15	obj	CHECK
+18	:	Z	_	19	punct	_
+19	obaldeli	S	sg=sg|g=g	17	appos	_
+20	ot	Y	?=?	19	flat	_
+21	netševo	S	sg=sg|g=g	22	nmod	_
+22	delatj	S	sg=sg|n=n	19	conj	_
+23	ehk	J	_	24	cc	_
+24	maakeeli	S	pl=pl|p=p	19	conj	_
+25	:	Z	_	29	punct	_
+26	heast	A	sg=sg|el=el	27	amod	_
+27	elust	S	sg=sg|el=el	29	nsubj	_
+28	lolliks	A	sg=sg|tr=tr	29	obl	_
+29	läinud	A	pl=pl|n=n	15	parataxis	_
+30	.	Z	_	3	punct	_
+
+# sent_id = 16769439
+# text = _ Ära ohka günekoloog .
+1	_	Z	_	3	punct	_
+2	Ära	V	neg=neg|o=o	3	aux	_
+3	ohka	V	o=o	0	root	_
+4	günekoloog	S	sg=sg|n=n	3	obj	CHECK
+5	.	Z	_	3	punct	_
+
+# sent_id = 1638879
+# text = " Neljandal ringil väsisin , teravad kurvid pole ka mu pikkadele jalgadele kõige sobivamad , " ohkas viimase ala ajaga 2.38 , 62 võitnu .
+1	"	Z	_	4	punct	_
+2	Neljandal	O	sg=sg|ad=ad	3	amod	_
+3	ringil	S	sg=sg|ad=ad	4	nsubj	_
+4	väsisin	V	sin=sin	0	root	_
+5	,	Z	_	14	punct	_
+6	teravad	A	pl=pl|n=n	7	amod	_
+7	kurvid	S	pl=pl|n=n	14	nsubj:cop	_
+8	pole	V	neg=neg|o=o	14	cop	_
+9	ka	D	_	14	advmod	_
+10	mu	P	sg=sg|g=g	12	nmod	_
+11	pikkadele	A	pl=pl|all=all	12	amod	_
+12	jalgadele	S	pl=pl|all=all	14	nsubj:cop	_
+13	kõige	D	_	14	advmod	_
+14	sobivamad	C	pl=pl|n=n	4	conj	_
+15	,	Z	_	4	punct	_
+16	"	Z	_	4	punct	_
+17	ohkas	V	s=s	4	parataxis	_
+18	viimase	A	sg=sg|g=g	19	amod	_
+19	ala	S	sg=sg|g=g	20	nmod	_
+20	ajaga	S	sg=sg|kom=kom	17	obl	_
+21	2.38 , 62	N	?=?	22	nummod	_
+22	võitnu	S	sg=sg|g=g	17	nsubj	CHECK
+23	.	Z	_	4	punct	_
+
+# sent_id = 98401
+# text = Nii nad tapsidki meie Lukase , ohkasid need vähesed Tartu Inseneride Maja ette kogunenud meeleavaldajad , kes jaksasid piinarikka protseduuri lõpu ära oodata .
+1	Nii	D	_	3	advmod	_
+2	nad	P	pl=pl|n=n	3	nsubj	_
+3	tapsidki	V	sid=sid	7	advcl	_
+4	meie	P	pl=pl|g=g	5	nmod	_
+5	Lukase	H	sg=sg|g=g	3	obj	_
+6	,	Z	_	7	punct	_
+7	ohkasid	V	sid=sid	0	root	_
+8	need	P	pl=pl|n=n	7	nsubj	_
+9	vähesed	A	pl=pl|n=n	15	amod	_
+10	Tartu	H	sg=sg|g=g	11	nmod	_
+11	Inseneride	S	pl=pl|g=g	12	nmod	_
+12	Maja	S	sg=sg|g=g	14	obl	_
+13	ette	K	_	12	case	_
+14	kogunenud	A	sg=sg|n=n	15	acl	_
+15	meeleavaldajad	S	pl=pl|n=n	7	obj	CHECK
+16	,	Z	_	18	punct	_
+17	kes	P	sg=sg|n=n	18	nsubj	_
+18	jaksasid	V	sid=sid	15	acl:relcl	_
+19	piinarikka	A	sg=sg|g=g	20	amod	_
+20	protseduuri	S	sg=sg|g=g	21	nmod	_
+21	lõpu	S	sg=sg|g=g	23	obj	_
+22	ära	D	_	23	compound:prt	_
+23	oodata	V	da=da	18	xcomp	_
+24	.	Z	_	7	punct	_
+
+# sent_id = 17240209
+# text = Ohkab kergelt end kogudes ja jätkab : “ Sellel on Gauguini mõjud .
+1	Ohkab	V	b=b	0	root	_
+2	kergelt	D	_	1	advmod	_
+3	end	Y	?=?	1	obj	CHECK
+4	kogudes	S	pl=pl|in=in	1	obl	_
+5	ja	J	_	6	cc	_
+6	jätkab	V	b=b	1	conj	_
+7	:	Z	_	12	punct	_
+8	“	Z	_	12	punct	_
+9	Sellel	P	sg=sg|ad=ad	12	nsubj:cop	_
+10	on	V	vad=vad	12	cop	_
+11	Gauguini	H	sg=sg|g=g	12	nmod	_
+12	mõjud	S	pl=pl|n=n	6	parataxis	_
+13	.	Z	_	1	punct	_
+
+# sent_id = 536457
+# text = Ülemkomissar Tarmo Vaher ohkab telefoni : " Kiirusemõõdikud ei fikseeri , kelle kiirust mõõdetakse .
+1	Ülemkomissar	S	sg=sg|n=n	4	nsubj	_
+2	Tarmo	H	sg=sg|n=n	1	appos	_
+3	Vaher	H	sg=sg|n=n	2	flat	_
+4	ohkab	V	b=b	0	root	_
+5	telefoni	S	sg=sg|g=g	4	obj	CHECK
+6	:	Z	_	10	punct	_
+7	"	Z	_	10	punct	_
+8	Kiirusemõõdikud	S	pl=pl|n=n	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	fikseeri	V	o=o	4	parataxis	_
+11	,	Z	_	14	punct	_
+12	kelle	P	sg=sg|g=g	14	nsubj	_
+13	kiirust	S	sg=sg|p=p	14	obj	_
+14	mõõdetakse	V	takse=takse	10	ccomp	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 543803
+# text = " Mul on kõik ükstapuha , " ohkas Ene eile telefoni .
+1	"	Z	_	5	punct	_
+2	Mul	P	sg=sg|ad=ad	5	nsubj:cop	_
+3	on	V	b=b	5	cop	_
+4	kõik	P	sg=sg|n=n	5	det	_
+5	ükstapuha	D	_	0	root	_
+6	,	Z	_	5	punct	_
+7	"	Z	_	5	punct	_
+8	ohkas	V	s=s	5	parataxis	_
+9	Ene	H	sg=sg|n=n	8	nsubj	_
+10	eile	D	_	8	advmod	_
+11	telefoni	S	sg=sg|p=p	8	obj	CHECK
+12	.	Z	_	5	punct	_
+
+# sent_id = 12153748
+# text = « See maha võtmine läks tõesti väga hinge , » poetas Saue pärast finišit vaikselt , pisarad voolamas , ja ohkas hiljem end kogudes : « Oleks võinud meil ikka lõpuni lasta sõita … »
+1	«	Z	_	5	punct	_
+2	See	P	sg=sg|n=n	4	det	_
+3	maha	D	_	4	compound:prt	_
+4	võtmine	S	sg=sg|n=n	5	obl	_
+5	läks	V	s=s	0	root	_
+6	tõesti	D	_	5	advmod	_
+7	väga	D	_	8	advmod	_
+8	hinge	S	sg=sg|p=p	5	obl	_
+9	,	Z	_	5	punct	_
+10	»	Z	_	5	punct	_
+11	poetas	V	s=s	5	parataxis	_
+12	Saue	H	sg=sg|n=n	11	nsubj	_
+13	pärast	K	_	14	case	_
+14	finišit	S	sg=sg|p=p	11	obl	_
+15	vaikselt	D	_	11	advmod	_
+16	,	Z	_	18	punct	_
+17	pisarad	S	pl=pl|n=n	18	nsubj	_
+18	voolamas	V	mas=mas	11	conj	_
+19	,	Z	_	21	punct	_
+20	ja	J	_	21	cc	_
+21	ohkas	V	s=s	11	conj	_
+22	hiljem	D	_	21	advmod	_
+23	end	Y	?=?	21	obj	CHECK
+24	kogudes	S	pl=pl|in=in	21	obl	_
+25	:	Z	_	32	punct	_
+26	«	Z	_	32	punct	_
+27	Oleks	V	ks=ks	32	aux	_
+28	võinud	V	nud=nud	32	aux	_
+29	meil	P	pl=pl|ad=ad	32	nsubj	_
+30	ikka	D	_	32	advmod	_
+31	lõpuni	S	sg=sg|ter=ter	32	obj	_
+32	lasta	V	da=da	21	parataxis	_
+33	sõita	V	da=da	32	advcl	_
+34	…	Y	?=?	32	punct	_
+35	»	Z	_	32	punct	_
+
+# sent_id = 19905014
+# text = erwin: ära ohka miskit
+1	erwin	S	sg=sg|n=n	4	parataxis	_
+2	:	Z	_	4	punct	_
+3	ära	V	neg=neg|o=o	4	aux	_
+4	ohka	V	o=o	0	root	_
+5	miskit	S	sg=sg|p=p	4	nsubj	CHECK
+
+# sent_id = 20635310
+# text = ants: yks kys kanalil oma nimi seksist ei ohkagi ?
+1	ants	S	sg=sg|n=n	0	root	_
+2	:	Z	_	10	punct	_
+3	yks	Y	?=?	5	nmod	_
+4	kys	Y	?=?	3	flat	_
+5	kanalil	S	sg=sg|ad=ad	10	obl	_
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	nimi	S	sg=sg|n=n	10	obj	CHECK
+8	seksist	S	sg=sg|el=el	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	ohkagi	V	o=o	1	parataxis	_
+11	?	Z	_	1	punct	_
+

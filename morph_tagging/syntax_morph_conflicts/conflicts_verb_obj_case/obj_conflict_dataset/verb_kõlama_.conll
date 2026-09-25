@@ -1,0 +1,353 @@
+# sent_id = 115965
+# text = ” Krahv Markus Bergi , Sangaste rüütlimõisa ainupärija suust ei kõla see feodaalaja maiguga lause sugugi kohatuna .
+1	”	Z	_	11	punct	_
+2	Krahv	S	sg=sg|n=n	11	nsubj	_
+3	Markus	H	sg=sg|n=n	2	flat	_
+4	Bergi	H	sg=sg|g=g	3	flat	_
+5	,	Z	_	8	punct	_
+6	Sangaste	H	sg=sg|g=g	7	nmod	_
+7	rüütlimõisa	S	sg=sg|g=g	8	nmod	_
+8	ainupärija	S	sg=sg|g=g	9	nmod	_
+9	suust	S	sg=sg|el=el	11	obl	_
+10	ei	V	neg=neg	11	aux	_
+11	kõla	V	o=o	0	root	_
+12	see	P	sg=sg|n=n	11	nsubj	_
+13	feodaalaja	S	sg=sg|g=g	14	nmod	_
+14	maiguga	S	sg=sg|kom=kom	15	nmod	_
+15	lause	S	sg=sg|g=g	11	obl	CHECK
+16	sugugi	D	_	17	advmod	_
+17	kohatuna	A	sg=sg|es=es	11	xcomp	_
+18	.	Z	_	11	punct	_
+
+# sent_id = 391475
+# text = Aatomiajastul võib see kujuneda maailmakatastroofiks , " kõlab Mihhalkovi sõnades ohutunnet .
+1	Aatomiajastul	S	sg=sg|ad=ad	4	obl	_
+2	võib	V	b=b	4	aux	_
+3	see	P	sg=sg|n=n	4	nsubj	_
+4	kujuneda	V	da=da	0	root	_
+5	maailmakatastroofiks	S	sg=sg|tr=tr	4	obl	_
+6	,	Z	_	4	punct	_
+7	"	Z	_	4	punct	_
+8	kõlab	V	b=b	4	parataxis	_
+9	Mihhalkovi	H	sg=sg|g=g	8	nsubj	_
+10	sõnades	S	pl=pl|in=in	11	nmod	_
+11	ohutunnet	S	sg=sg|p=p	8	obj	CHECK
+12	.	Z	_	4	punct	_
+
+# sent_id = 1485177
+# text = Ei kõlanud enam ta hääles positivismi ega optimismi .
+1	Ei	V	neg=neg	2	aux	_
+2	kõlanud	V	nud=nud	0	root	_
+3	enam	D	_	2	advmod	_
+4	ta	P	sg=sg|g=g	2	nsubj	_
+5	hääles	S	sg=sg|in=in	2	obl	_
+6	positivismi	S	sg=sg|p=p	2	obl	CHECK
+7	ega	J	_	8	cc	_
+8	optimismi	S	sg=sg|p=p	6	conj	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 733568
+# text = Tulen siia teinekordki suppi sööma , " kõlasid ta tunnustussõnad .
+1	Tulen	V	n=n	0	root	_
+2	siia	D	_	1	advmod	_
+3	teinekordki	D	_	1	advmod	_
+4	suppi	S	sg=sg|p=p	5	obj	_
+5	sööma	V	ma=ma	1	csubj	_
+6	,	Z	_	1	punct	_
+7	"	Z	_	1	punct	_
+8	kõlasid	V	sid=sid	1	parataxis	_
+9	ta	P	sg=sg|n=n	8	nsubj	_
+10	tunnustussõnad	S	pl=pl|n=n	8	obj	CHECK
+11	.	Z	_	1	punct	_
+
+# sent_id = 429255
+# text = Meie sotsiaal-kultuurilises kontekstis ei kõla haigele teda ennast puudutavates küsimustes otsustava koha andmine sama loomulikuna kui enamikus lääneriikides , kus see on juba aastakümneid enesestmõistetav .
+1	Meie	P	pl=pl|g=g	3	nmod	_
+2	sotsiaal-kultuurilises	A	sg=sg|in=in	3	amod	_
+3	kontekstis	S	sg=sg|in=in	5	obl	_
+4	ei	V	neg=neg	5	aux	_
+5	kõla	V	o=o	0	root	_
+6	haigele	A	sg=sg|all=all	7	amod	_
+7	teda	P	sg=sg|p=p	9	obj	CHECK
+8	ennast	P	sg=sg|p=p	9	obj	_
+9	puudutavates	A	pl=pl|in=in	10	acl	_
+10	küsimustes	S	pl=pl|in=in	5	obl	_
+11	otsustava	A	sg=sg|g=g	12	acl	_
+12	koha	S	sg=sg|g=g	13	nmod	_
+13	andmine	S	sg=sg|n=n	5	obl	_
+14	sama	P	sg=sg|p=p	15	advmod	_
+15	loomulikuna	A	sg=sg|es=es	5	xcomp	_
+16	kui	J	_	18	mark	_
+17	enamikus	S	sg=sg|in=in	18	nmod	_
+18	lääneriikides	S	pl=pl|in=in	15	advcl	_
+19	,	Z	_	25	punct	_
+20	kus	D	_	25	mark	_
+21	see	P	sg=sg|n=n	25	nsubj:cop	_
+22	on	V	b=b	25	cop	_
+23	juba	D	_	24	advmod	_
+24	aastakümneid	S	pl=pl|p=p	25	obl	_
+25	enesestmõistetav	A	sg=sg|n=n	18	acl	_
+26	.	Z	_	5	punct	_
+
+# sent_id = 170476
+# text = Sellel taustal kõlasid Moskva plahvatused Kremlile ülimalt sobival ajal , juhtides tähelepanu kõrvale skandaalilt , mis tõotas lõplikult kompromiteerida Venemaa praegust juhtkonda ja muuta väga põhjalikult poliitilist olukorda riigis .
+1	Sellel	P	sg=sg|ad=ad	2	det	_
+2	taustal	S	sg=sg|ad=ad	3	obl	_
+3	kõlasid	V	sid=sid	0	root	_
+4	Moskva	H	sg=sg|g=g	5	nmod	_
+5	plahvatused	S	pl=pl|n=n	3	obl	_
+6	Kremlile	S	sg=sg|all=all	5	appos	_
+7	ülimalt	D	_	8	advmod	_
+8	sobival	A	sg=sg|ad=ad	9	acl	_
+9	ajal	S	sg=sg|ad=ad	3	obl	_
+10	,	Z	_	11	punct	_
+11	juhtides	S	pl=pl|in=in	12	nmod	_
+12	tähelepanu	S	sg=sg|p=p	3	obl	CHECK
+13	kõrvale	D	_	14	case	_
+14	skandaalilt	S	sg=sg|abl=abl	3	obl	_
+15	,	Z	_	17	punct	_
+16	mis	P	pl=pl|n=n	17	nsubj	_
+17	tõotas	V	s=s	14	acl:relcl	_
+18	lõplikult	D	_	17	advmod	_
+19	kompromiteerida	V	da=da	17	obj	_
+20	Venemaa	H	sg=sg|g=g	22	nmod	_
+21	praegust	A	sg=sg|p=p	22	amod	_
+22	juhtkonda	S	sg=sg|p=p	19	obj	_
+23	ja	J	_	24	cc	_
+24	muuta	V	da=da	17	conj	_
+25	väga	D	_	26	advmod	_
+26	põhjalikult	D	_	24	advmod	_
+27	poliitilist	A	sg=sg|p=p	28	amod	_
+28	olukorda	S	sg=sg|p=p	24	obj	_
+29	riigis	S	sg=sg|in=in	24	obl	_
+30	.	Z	_	3	punct	_
+
+# sent_id = 5148478
+# text = Polnud poppi bändi , mille muusika neil kogumikel ei kõlanud .
+1	Polnud	V	neg=neg|nud=nud	0	root	_
+2	poppi	S	sg=sg|p=p	3	amod	_
+3	bändi	S	adt=adt	1	nsubj	_
+4	,	Z	_	10	punct	_
+5	mille	P	pl=pl|g=g	10	nsubj	CHECK
+6	muusika	S	sg=sg|n=n	10	obj	_
+7	neil	P	pl=pl|ad=ad	8	det	_
+8	kogumikel	S	pl=pl|ad=ad	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	kõlanud	A	pl=pl|n=n	3	acl:relcl	_
+11	.	Z	_	1	punct	_
+
+# sent_id = 8538673
+# text = Iroonia olemasolu filmis on küll kahtlane , kuivõrd ei näidata ega kõla ju võõrituselemente , groteski  de facto  ju pole !
+1	Iroonia	S	sg=sg|n=n	2	nmod	_
+2	olemasolu	S	sg=sg|g=g	6	nsubj:cop	_
+3	filmis	S	sg=sg|in=in	2	nmod	_
+4	on	V	vad=vad	6	cop	_
+5	küll	D	_	6	advmod	_
+6	kahtlane	A	sg=sg|n=n	0	root	_
+7	,	Z	_	10	punct	_
+8	kuivõrd	D	_	10	mark	_
+9	ei	V	neg=neg	10	aux	_
+10	näidata	V	da=da	6	advcl	_
+11	ega	J	_	12	cc	_
+12	kõla	V	o=o	10	conj	_
+13	ju	D	_	12	advmod	_
+14	võõrituselemente	S	pl=pl|p=p	12	obl	CHECK
+15	,	Z	_	20	punct	_
+16	groteski	S	sg=sg|g=g	20	nsubj	_
+17	de	H	?=?	16	flat	_
+18	facto	S	sg=sg|n=n	16	flat	_
+19	ju	D	_	20	advmod	_
+20	pole	V	neg=neg|o=o	6	conj	_
+21	!	Z	_	6	punct	_
+
+# sent_id = 263
+# text = “ Praegu ei oska ette arvata , mis seal uues kohas kõik toimuma hakkab , aga kindlasti saab ta linna südameks , kuna see maja võimaldab nii palju , ” kõlab ta optimistlik prognoos .
+1	“	Z	_	4	punct	_
+2	Praegu	D	_	4	advmod	_
+3	ei	V	neg=neg	4	aux	_
+4	oska	V	o=o	0	root	_
+5	ette	D	_	6	compound:prt	_
+6	arvata	V	da=da	4	xcomp	_
+7	,	Z	_	14	punct	_
+8	mis	P	sg=sg|n=n	14	nsubj	_
+9	seal	D	_	14	advmod	_
+10	uues	A	sg=sg|in=in	11	amod	_
+11	kohas	S	sg=sg|in=in	13	obl	_
+12	kõik	P	sg=sg|n=n	13	nsubj	_
+13	toimuma	V	ma=ma	14	advcl	_
+14	hakkab	V	b=b	6	ccomp	_
+15	,	Z	_	18	punct	_
+16	aga	J	_	18	cc	_
+17	kindlasti	D	_	18	advmod	_
+18	saab	V	b=b	4	conj	_
+19	ta	P	sg=sg|n=n	18	nsubj	_
+20	linna	S	sg=sg|g=g	18	obl	_
+21	südameks	S	sg=sg|tr=tr	18	obj	_
+22	,	Z	_	26	punct	_
+23	kuna	J	_	26	mark	_
+24	see	P	sg=sg|n=n	25	det	_
+25	maja	S	sg=sg|n=n	26	nsubj	_
+26	võimaldab	V	b=b	18	advcl	_
+27	nii	D	_	28	advmod	_
+28	palju	D	_	26	advmod	_
+29	,	Z	_	4	punct	_
+30	”	Z	_	4	punct	_
+31	kõlab	V	b=b	4	parataxis	_
+32	ta	P	sg=sg|n=n	31	nsubj	_
+33	optimistlik	A	sg=sg|n=n	34	amod	_
+34	prognoos	S	sg=sg|n=n	31	obj	CHECK
+35	.	Z	_	4	punct	_
+
+# sent_id = 2479391
+# text = Esimesena üksinda õhupallil ümber maakera lennanud ameeriklane Steve Fossett on pälvinud ohtralt kiidusõnu , kuid kõlanud on ka kriitikat - miljonär oleks võinud oma miljoneid kasulikumalt kasutada , leitakse USA meedias .
+1	Esimesena	O	sg=sg|es=es	7	amod	_
+2	üksinda	D	_	6	advmod	_
+3	õhupallil	S	sg=sg|ad=ad	6	obl	_
+4	ümber	K	_	5	case	_
+5	maakera	S	sg=sg|g=g	6	obl	_
+6	lennanud	V	nud=nud	7	acl	_
+7	ameeriklane	S	sg=sg|n=n	11	nsubj	_
+8	Steve	H	sg=sg|n=n	7	appos	_
+9	Fossett	H	sg=sg|n=n	8	flat	_
+10	on	V	b=b	11	aux	_
+11	pälvinud	A	pl=pl|n=n	0	root	_
+12	ohtralt	D	_	13	advmod	_
+13	kiidusõnu	S	pl=pl|p=p	11	obj	_
+14	,	Z	_	16	punct	_
+15	kuid	J	_	16	cc	_
+16	kõlanud	A	sg=sg|n=n	11	conj	_
+17	on	V	b=b	16	aux	_
+18	ka	D	_	19	advmod	_
+19	kriitikat	S	sg=sg|p=p	16	obj	CHECK
+20	-	Z	_	27	punct	_
+21	miljonär	S	sg=sg|n=n	27	nsubj	_
+22	oleks	V	ks=ks	27	aux	_
+23	võinud	V	nud=nud	27	aux	_
+24	oma	P	sg=sg|g=g	25	nmod	_
+25	miljoneid	N	pl=pl|p=p	27	obj	_
+26	kasulikumalt	D	_	27	advmod	_
+27	kasutada	V	da=da	16	parataxis	_
+28	,	Z	_	29	punct	_
+29	leitakse	V	takse=takse	11	conj	_
+30	USA	Y	?=?	31	nmod	_
+31	meedias	S	sg=sg|in=in	29	obj	_
+32	.	Z	_	11	punct	_
+
+# sent_id = 8943245
+# text = Kõlagu laulud rõõmurõkatusel nii nagu 130 aastat tagasi !
+1	Kõlagu	V	gu=gu	0	root	_
+2	laulud	S	pl=pl|n=n	1	nsubj	CHECK
+3	rõõmurõkatusel	S	sg=sg|ad=ad	1	obl	_
+4	nii	D	_	7	advmod	_
+5	nagu	D	_	4	fixed	_
+6	130	N	?=?	7	nummod	_
+7	aastat	S	sg=sg|p=p	1	obl	_
+8	tagasi	D	_	7	case	_
+9	!	Z	_	1	punct	_
+
+# sent_id = 2389393
+# text = " Ma ükspäev kohe mõtlesin , et kas Tallinnas ongi veel kohti , kus me pillid 20 aasta jooksul kõlanud pole .
+1	"	Z	_	5	punct	_
+2	Ma	P	sg=sg|n=n	5	nsubj	_
+3	ükspäev	S	sg=sg|n=n	5	obl	_
+4	kohe	D	_	5	advmod	_
+5	mõtlesin	V	sin=sin	0	root	_
+6	,	Z	_	12	punct	_
+7	et	J	_	12	mark	_
+8	kas	D	_	12	advmod	_
+9	Tallinnas	H	sg=sg|in=in	12	nsubj:cop	_
+10	ongi	V	vad=vad	12	cop	_
+11	veel	D	_	12	advmod	_
+12	kohti	S	pl=pl|p=p	5	ccomp	_
+13	,	Z	_	20	punct	_
+14	kus	D	_	20	mark	_
+15	me	P	pl=pl|n=n	20	nsubj	_
+16	pillid	S	pl=pl|n=n	20	obj	CHECK
+17	20	N	?=?	18	nummod	_
+18	aasta	S	sg=sg|g=g	20	obl	_
+19	jooksul	K	_	18	case	_
+20	kõlanud	A	sg=sg|n=n	12	acl	_
+21	pole	V	neg=neg|o=o	20	aux	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 1988029
+# text = " Ja mis see on ? " kõlas äkki üle haudvaikse ruumi ning õhku tõsteti punane salasuitsu plokk .
+1	"	Z	_	3	punct	_
+2	Ja	J	_	3	cc	_
+3	mis	P	pl=pl|n=n	0	root	_
+4	see	P	sg=sg|n=n	3	nsubj:cop	_
+5	on	V	vad=vad	3	cop	_
+6	?	Z	_	3	punct	_
+7	"	Z	_	3	punct	_
+8	kõlas	V	s=s	3	parataxis	_
+9	äkki	D	_	8	advmod	_
+10	üle	D	_	11	advmod	_
+11	haudvaikse	A	sg=sg|g=g	12	acl	_
+12	ruumi	S	sg=sg|g=g	8	nsubj	CHECK
+13	ning	J	_	15	cc	_
+14	õhku	S	adt=adt	15	nsubj	_
+15	tõsteti	V	ti=ti	8	conj	_
+16	punane	A	sg=sg|n=n	17	amod	_
+17	salasuitsu	S	sg=sg|g=g	15	obj	_
+18	plokk	S	sg=sg|n=n	15	obj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 16100523
+# text = Põhjendus kõlanud tiba pentsikult : " Me peame lennukit balansseerima .
+1	Põhjendus	S	sg=sg|n=n	2	obj	_
+2	kõlanud	A	sg=sg|n=n	3	acl	_
+3	tiba	S	sg=sg|g=g	0	root	CHECK
+4	pentsikult	D	_	3	advmod	_
+5	:	Z	_	10	punct	_
+6	"	Z	_	10	punct	_
+7	Me	P	pl=pl|n=n	10	nsubj	_
+8	peame	V	me=me	10	aux	_
+9	lennukit	S	sg=sg|p=p	10	obj	_
+10	balansseerima	V	ma=ma	3	parataxis	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 86884
+# text = Eelkõige kardetakse Iraagi sattumist täielikku isolatsiooni ja , nii paradoksaalselt kui see ka ei kõla , Iraagi nõrgenemist kuni lagunemiseni välja .
+1	Eelkõige	D	_	2	advmod	_
+2	kardetakse	V	takse=takse	0	root	_
+3	Iraagi	H	sg=sg|g=g	4	nmod	_
+4	sattumist	S	sg=sg|p=p	2	obj	_
+5	täielikku	A	sg=sg|p=p	6	amod	_
+6	isolatsiooni	S	sg=sg|p=p	2	obj	_
+7	ja	J	_	15	cc	_
+8	,	Z	_	15	punct	_
+9	nii	D	_	10	cc:preconj	_
+10	paradoksaalselt	D	_	15	advmod	_
+11	kui	J	_	15	mark	_
+12	see	P	sg=sg|n=n	15	nsubj	_
+13	ka	D	_	15	advmod	_
+14	ei	V	neg=neg	15	aux	_
+15	kõla	V	o=o	2	conj	_
+16	,	Z	_	18	punct	_
+17	Iraagi	H	sg=sg|g=g	18	nmod	_
+18	nõrgenemist	S	sg=sg|p=p	15	obl	CHECK
+19	kuni	K	_	20	case	_
+20	lagunemiseni	S	sg=sg|ter=ter	18	nmod	_
+21	välja	D	_	15	compound:prt	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 36201
+# text = Vaid vihmavarju ei saa tagumikus lahti lasta , ” kõlab korvpalli rahvuskoondise peatreeneri HEINO ENDENi kreedo .
+1	Vaid	D	_	2	advmod	_
+2	vihmavarju	S	adt=adt	7	nsubj	_
+3	ei	V	neg=neg	7	aux	_
+4	saa	V	o=o	7	aux	_
+5	tagumikus	S	sg=sg|in=in	7	obj	_
+6	lahti	D	_	7	compound:prt	_
+7	lasta	V	da=da	0	root	_
+8	,	Z	_	7	punct	_
+9	”	Z	_	7	punct	_
+10	kõlab	V	b=b	7	parataxis	_
+11	korvpalli	S	sg=sg|g=g	12	nmod	_
+12	rahvuskoondise	S	sg=sg|g=g	13	nmod	_
+13	peatreeneri	S	sg=sg|g=g	16	nmod	_
+14	HEINO	H	sg=sg|n=n	13	appos	_
+15	ENDENi	Y	adt=adt	14	flat	_
+16	kreedo	S	sg=sg|g=g	10	obj	CHECK
+17	.	Z	_	7	punct	_
+

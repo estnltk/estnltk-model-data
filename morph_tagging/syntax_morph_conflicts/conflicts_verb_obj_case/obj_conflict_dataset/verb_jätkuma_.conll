@@ -1,0 +1,522 @@
+# sent_id = 648169
+# text = Ei unustatud soovida head ööd ja tulla ütlema tere hommikust või maitsvale toidule lisamast - jätku leiba !
+1	Ei	V	neg=neg	2	aux	_
+2	unustatud	A	pl=pl|n=n	0	root	_
+3	soovida	V	da=da	2	obj	_
+4	head	A	sg=sg|p=p	5	amod	_
+5	ööd	S	sg=sg|p=p	3	obj	_
+6	ja	J	_	7	cc	_
+7	tulla	V	da=da	2	conj	_
+8	ütlema	V	ma=ma	7	xcomp	_
+9	tere	S	sg=sg|g=g	10	nmod	_
+10	hommikust	S	sg=sg|el=el	14	obl	_
+11	või	J	_	14	cc	_
+12	maitsvale	A	sg=sg|all=all	13	acl	_
+13	toidule	S	sg=sg|all=all	14	nsubj	_
+14	lisamast	V	mast=mast	7	conj	_
+15	-	Z	_	16	punct	_
+16	jätku	V	o=o	2	parataxis	_
+17	leiba	S	sg=sg|p=p	16	nsubj	CHECK
+18	!	Z	_	2	punct	_
+
+# sent_id = 2577340
+# text = " Eesti peab jätkama oma liberaalse majanduspoliitika jätkuvat rakendamist , ainult nii suudame me saavutada oodatud majanduskasvu , " seisab noorte programmis .
+1	"	Z	_	4	punct	_
+2	Eesti	H	sg=sg|n=n	4	nsubj	_
+3	peab	V	b=b	4	aux	_
+4	jätkama	V	ma=ma	0	root	_
+5	oma	P	sg=sg|g=g	7	nmod	_
+6	liberaalse	A	sg=sg|g=g	7	amod	_
+7	majanduspoliitika	S	sg=sg|n=n	8	obj	CHECK
+8	jätkuvat	V	vat=vat	9	acl	_
+9	rakendamist	S	sg=sg|p=p	4	obj	_
+10	,	Z	_	13	punct	_
+11	ainult	D	_	12	advmod	_
+12	nii	D	_	13	advmod	_
+13	suudame	V	me=me	4	conj	_
+14	me	P	pl=pl|n=n	13	nsubj	_
+15	saavutada	V	da=da	13	xcomp	_
+16	oodatud	A	sg=sg|n=n	17	acl	_
+17	majanduskasvu	S	sg=sg|g=g	15	obj	_
+18	,	Z	_	4	punct	_
+19	"	Z	_	4	punct	_
+20	seisab	V	b=b	4	parataxis	_
+21	noorte	S	pl=pl|g=g	22	nmod	_
+22	programmis	S	sg=sg|in=in	20	nsubj	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 726948
+# text = Arvestades selliste telekommunikatsioonigigantide nagu Nokia , Ericsson ja Motorola globaalset edu ja Eesti elaniku maksujõu suurenemist , võib ennustada mobiiliomanike arvu jätkuvat kasvu .
+1	Arvestades	V	des=des	0	root	_
+2	selliste	P	pl=pl|g=g	3	det	_
+3	telekommunikatsioonigigantide	S	pl=pl|g=g	1	obj	_
+4	nagu	J	_	5	mark	_
+5	Nokia	H	sg=sg|n=n	3	advcl	_
+6	,	Z	_	7	punct	_
+7	Ericsson	H	sg=sg|n=n	5	conj	_
+8	ja	J	_	9	cc	_
+9	Motorola	H	sg=sg|n=n	5	conj	_
+10	globaalset	A	sg=sg|p=p	11	amod	_
+11	edu	S	sg=sg|p=p	1	obj	_
+12	ja	J	_	16	cc	_
+13	Eesti	H	sg=sg|g=g	14	nmod	_
+14	elaniku	S	sg=sg|g=g	15	nmod	_
+15	maksujõu	S	sg=sg|g=g	16	nmod	_
+16	suurenemist	S	sg=sg|p=p	11	conj	_
+17	,	Z	_	19	punct	_
+18	võib	V	b=b	19	aux	_
+19	ennustada	V	da=da	1	conj	_
+20	mobiiliomanike	S	pl=pl|g=g	21	nmod	_
+21	arvu	S	sg=sg|p=p	22	obj	CHECK
+22	jätkuvat	V	vat=vat	23	acl	_
+23	kasvu	S	sg=sg|p=p	19	obj	_
+24	.	Z	_	1	punct	_
+
+# sent_id = 3592515
+# text = Otsa hinnagul ei jätkuks transpordiametil kommertsliini doteerimiseks raha .
+1	Otsa	S	sg=sg|g=g	2	nmod	_
+2	hinnagul	S	sg=sg|n=n	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	jätkuks	V	ks=ks	0	root	_
+5	transpordiametil	S	sg=sg|ad=ad	6	nmod	_
+6	kommertsliini	S	sg=sg|g=g	7	nmod	_
+7	doteerimiseks	S	sg=sg|tr=tr	4	obl	_
+8	raha	S	sg=sg|p=p	4	nsubj	CHECK
+9	.	Z	_	4	punct	_
+
+# sent_id = 3860748
+# text = Varahalduse spetsialistide juhtimisel saavutasid meie investeerimisfondid nii Baltimaade kui ka laiemalt Põhjamaade parimad tulemused omalaadsete seas ning jätkus koostöö piirkonna suurimate institutsioonidega .
+1	Varahalduse	S	sg=sg|g=g	2	nmod	_
+2	spetsialistide	S	pl=pl|g=g	3	nmod	_
+3	juhtimisel	S	sg=sg|ad=ad	4	obl	_
+4	saavutasid	V	sid=sid	0	root	_
+5	meie	P	pl=pl|g=g	6	nmod	_
+6	investeerimisfondid	S	pl=pl|n=n	4	obj	_
+7	nii	D	_	8	cc:preconj	_
+8	Baltimaade	H	pl=pl|g=g	4	obl	_
+9	kui	D	_	12	cc	_
+10	ka	D	_	12	advmod	_
+11	laiemalt	D	_	12	advmod	_
+12	Põhjamaade	H	pl=pl|g=g	8	conj	_
+13	parimad	U	pl=pl|n=n	14	amod	_
+14	tulemused	S	pl=pl|n=n	4	obj	_
+15	omalaadsete	A	pl=pl|g=g	14	nmod	_
+16	seas	K	_	15	case	_
+17	ning	J	_	18	cc	_
+18	jätkus	V	s=s	4	conj	_
+19	koostöö	S	sg=sg|g=g	18	nsubj	CHECK
+20	piirkonna	S	sg=sg|g=g	22	nmod	_
+21	suurimate	U	pl=pl|g=g	22	amod	_
+22	institutsioonidega	S	pl=pl|kom=kom	19	nmod	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 1329839
+# text = AS Eesti Telefon pakub alates 1. oktoobrist liitumistasuta Interneti-kasutaja soodustust Internet 901 Boonus , et odavamate kõneminuti hindadega soodustada Interneti kasutamise jätkuvat levikut Eestis .
+1	AS	Y	?=?	3	nmod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	Telefon	H	sg=sg|n=n	4	nsubj	_
+4	pakub	V	b=b	0	root	_
+5	alates	K	_	7	case	_
+6	1.	O	?=?	7	amod	_
+7	oktoobrist	S	sg=sg|el=el	4	obl	_
+8	liitumistasuta	S	sg=sg|ab=ab	4	obl	_
+9	Interneti-kasutaja	S	sg=sg|g=g	10	nmod	_
+10	soodustust	S	sg=sg|p=p	4	obj	_
+11	Internet	S	sg=sg|n=n	10	appos	_
+12	901	N	?=?	13	nummod	_
+13	Boonus	S	sg=sg|n=n	4	obj	_
+14	,	Z	_	19	punct	_
+15	et	J	_	19	mark	_
+16	odavamate	C	pl=pl|g=g	17	amod	_
+17	kõneminuti	S	sg=sg|g=g	18	nmod	_
+18	hindadega	S	pl=pl|kom=kom	19	obj	_
+19	soodustada	V	da=da	4	advcl	_
+20	Interneti	S	sg=sg|g=g	21	nmod	_
+21	kasutamise	S	sg=sg|g=g	22	obl	CHECK
+22	jätkuvat	V	vat=vat	23	acl	_
+23	levikut	S	sg=sg|p=p	19	nsubj	_
+24	Eestis	H	sg=sg|in=in	23	appos	_
+25	.	Z	_	4	punct	_
+
+# sent_id = 2175563
+# text = See jätkub " Loomingu " Raamatukogu kauaaegse toimetaja Lembe Hiedeli kirjutisega samuti Rajandi 60. sünnipäevaks , keeleteadlase Mati Erelti ja tõlkijast publitsisti Enn Soosaare ühise järelehüüdega siitilma teilt lahkunule , aga samuti elustatud häälega sealtpoolt - Ott Ojamaa 1988. aastal ilmunud looga Rajandist .
+1	See	P	sg=sg|n=n	2	nsubj	_
+2	jätkub	V	b=b	0	root	_
+3	"	Z	_	4	punct	_
+4	Loomingu	H	sg=sg|g=g	6	nmod	_
+5	"	Z	_	4	punct	_
+6	Raamatukogu	S	sg=sg|g=g	8	nmod	_
+7	kauaaegse	A	sg=sg|g=g	8	amod	_
+8	toimetaja	S	sg=sg|g=g	2	obl	_
+9	Lembe	H	sg=sg|n=n	8	appos	_
+10	Hiedeli	H	sg=sg|g=g	9	flat	_
+11	kirjutisega	S	sg=sg|kom=kom	2	obl	_
+12	samuti	D	_	2	advmod	_
+13	Rajandi	H	adt=adt	15	nmod	_
+14	60.	O	?=?	15	amod	_
+15	sünnipäevaks	S	sg=sg|tr=tr	2	obl	_
+16	,	Z	_	17	punct	_
+17	keeleteadlase	S	sg=sg|g=g	11	conj	_
+18	Mati	H	sg=sg|n=n	17	appos	_
+19	Erelti	H	sg=sg|g=g	18	flat	_
+20	ja	J	_	22	cc	_
+21	tõlkijast	S	sg=sg|el=el	22	nmod	_
+22	publitsisti	S	sg=sg|g=g	17	conj	_
+23	Enn	H	sg=sg|n=n	22	appos	_
+24	Soosaare	H	sg=sg|g=g	23	flat	_
+25	ühise	A	sg=sg|g=g	26	amod	_
+26	järelehüüdega	S	sg=sg|kom=kom	27	nmod	_
+27	siitilma	S	sg=sg|g=g	2	conj	CHECK
+28	teilt	P	pl=pl|abl=abl	27	appos	_
+29	lahkunule	S	sg=sg|all=all	2	obl	_
+30	,	Z	_	34	punct	_
+31	aga	J	_	34	cc	_
+32	samuti	D	_	33	advmod	_
+33	elustatud	A	pl=pl|n=n	34	acl	_
+34	häälega	S	sg=sg|kom=kom	2	conj	_
+35	sealtpoolt	K	_	34	case	_
+36	-	Z	_	2	punct	_
+37	Ott	S	sg=sg|n=n	38	nmod	_
+38	Ojamaa	S	sg=sg|g=g	42	nmod	_
+39	1988.	O	?=?	40	amod	_
+40	aastal	S	sg=sg|ad=ad	41	obl	_
+41	ilmunud	A	_	42	acl	_
+42	looga	S	sg=sg|kom=kom	2	obl	_
+43	Rajandist	H	sg=sg|el=el	42	appos	_
+44	.	Z	_	2	punct	_
+
+# sent_id = 974392
+# text = Saksamaalt saadud algtõukest on Roman Toil jätkunud energiat enam kui pooleks sajandiks .
+1	Saksamaalt	H	sg=sg|abl=abl	2	obl	_
+2	saadud	A	sg=sg|n=n	3	acl	_
+3	algtõukest	S	sg=sg|el=el	7	obl	_
+4	on	V	vad=vad	7	aux	_
+5	Roman	H	sg=sg|n=n	7	nsubj	_
+6	Toil	H	sg=sg|n=n	5	flat	_
+7	jätkunud	A	sg=sg|n=n	0	root	_
+8	energiat	S	sg=sg|p=p	7	nsubj	CHECK
+9	enam	D	_	7	advmod	_
+10	kui	D	_	9	fixed	_
+11	pooleks	N	sg=sg|tr=tr	12	nummod	_
+12	sajandiks	S	sg=sg|tr=tr	9	advcl	_
+13	.	Z	_	7	punct	_
+
+# sent_id = 998647
+# text = Kuid pea aastajagu on Saagimil ( 38 ) jätkunud tähelepanu ka juuksur Oskar Voitile ( 23 ) .
+1	Kuid	J	_	9	cc	_
+2	pea	S	sg=sg|g=g	3	advmod	_
+3	aastajagu	S	sg=sg|n=n	9	obl	_
+4	on	V	vad=vad	9	aux	_
+5	Saagimil	H	sg=sg|ad=ad	9	nsubj	_
+6	(	Z	_	7	punct	_
+7	38	N	?=?	5	parataxis	_
+8	)	Z	_	7	punct	_
+9	jätkunud	A	sg=sg|n=n	0	root	_
+10	tähelepanu	S	sg=sg|p=p	9	obj	CHECK
+11	ka	D	_	12	advmod	_
+12	juuksur	S	sg=sg|n=n	9	nsubj	_
+13	Oskar	H	sg=sg|n=n	12	appos	_
+14	Voitile	H	sg=sg|n=n	13	flat	_
+15	(	Z	_	16	punct	_
+16	23	N	?=?	12	parataxis	_
+17	)	Z	_	16	punct	_
+18	.	Z	_	9	punct	_
+
+# sent_id = 869154
+# text = Jätkugu Sul energiat ja jõudu ka edaspidiseks !
+1	Jätkugu	V	gu=gu	0	root	_
+2	Sul	P	sg=sg|ad=ad	1	nsubj	_
+3	energiat	S	sg=sg|p=p	1	nsubj	CHECK
+4	ja	J	_	5	cc	_
+5	jõudu	S	sg=sg|p=p	3	conj	_
+6	ka	D	_	7	advmod	_
+7	edaspidiseks	A	sg=sg|tr=tr	5	amod	_
+8	!	Z	_	1	punct	_
+
+# sent_id = 4676959
+# text = Loomulikult oleks parim , kui Laaril jätkuks veidigi riigimehelikkust oma vea tunnistamiseks ja sirge seljaga lahkumiseks .
+1	Loomulikult	D	_	3	advmod	_
+2	oleks	V	ks=ks	3	cop	_
+3	parim	U	sg=sg|n=n	0	root	_
+4	,	Z	_	7	punct	_
+5	kui	D	_	7	mark	_
+6	Laaril	H	sg=sg|n=n	7	nsubj	_
+7	jätkuks	V	ks=ks	3	advcl	_
+8	veidigi	D	_	9	advmod	_
+9	riigimehelikkust	S	sg=sg|p=p	7	nsubj	CHECK
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	vea	S	sg=sg|g=g	12	nmod	_
+12	tunnistamiseks	S	sg=sg|tr=tr	7	obl	_
+13	ja	J	_	16	cc	_
+14	sirge	A	sg=sg|g=g	16	amod	_
+15	seljaga	S	sg=sg|kom=kom	16	nmod	_
+16	lahkumiseks	S	sg=sg|tr=tr	12	conj	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 3319415
+# text = Tallinnas vahetasin panka , sest iga kord oli 10-15-minutiline vaidlus , miks koer peab kaasas olema , et jätku ma ta ukse taha , " imestab mees .
+1	Tallinnas	H	sg=sg|in=in	2	nsubj	_
+2	vahetasin	V	sin=sin	0	root	_
+3	panka	S	adt=adt	2	obj	_
+4	,	Z	_	8	punct	_
+5	sest	J	_	8	mark	_
+6	iga	P	sg=sg|n=n	7	det	_
+7	kord	S	sg=sg|n=n	8	obl	_
+8	oli	V	s=s	2	advcl	_
+9	10-15-minutiline	A	sg=sg|n=n	10	amod	_
+10	vaidlus	S	sg=sg|n=n	8	nsubj	_
+11	,	Z	_	15	punct	_
+12	miks	D	_	15	mark	_
+13	koer	S	sg=sg|n=n	15	nsubj:cop	_
+14	peab	V	b=b	15	aux	_
+15	kaasas	D	_	10	acl	_
+16	olema	V	ma=ma	15	cop	_
+17	,	Z	_	19	punct	_
+18	et	J	_	19	mark	_
+19	jätku	V	o=o	15	advcl	_
+20	ma	P	sg=sg|n=n	19	nsubj	_
+21	ta	P	sg=sg|g=g	19	nsubj	CHECK
+22	ukse	S	sg=sg|g=g	19	obl	_
+23	taha	K	_	22	case	_
+24	,	Z	_	26	punct	_
+25	"	Z	_	26	punct	_
+26	imestab	V	b=b	2	parataxis	_
+27	mees	S	sg=sg|n=n	26	nsubj	_
+28	.	Z	_	2	punct	_
+
+# sent_id = 19102790
+# text = Tõesti , ma pean teie jutu jätkuks ütlema , et te olete praegu vastu võtnud põllumehe jaoks ebapopulaarse otsuse .
+1	Tõesti	D	_	8	advmod	_
+2	,	Z	_	7	punct	_
+3	ma	P	sg=sg|n=n	7	nsubj	_
+4	pean	V	n=n	7	aux	_
+5	teie	P	pl=pl|g=g	6	nmod	_
+6	jutu	S	sg=sg|g=g	7	obj	CHECK
+7	jätkuks	V	ks=ks	8	ccomp	_
+8	ütlema	V	ma=ma	0	root	_
+9	,	Z	_	15	punct	_
+10	et	J	_	15	mark	_
+11	te	P	pl=pl|n=n	15	nsubj	_
+12	olete	V	te=te	15	aux	_
+13	praegu	D	_	15	advmod	_
+14	vastu	D	_	15	compound:prt	_
+15	võtnud	A	_	8	ccomp	_
+16	põllumehe	S	sg=sg|g=g	15	obl	_
+17	jaoks	K	_	16	case	_
+18	ebapopulaarse	A	sg=sg|g=g	19	amod	_
+19	otsuse	S	sg=sg|g=g	15	obj	_
+20	.	Z	_	8	punct	_
+
+# sent_id = 15859605
+# text = Te ei ole öelnud konkreetselt ja üheselt , kas te tunnistate Tartu rahu jätkuvat kehtimist , kas te peate õigeks , et Eesti Vabariik on taastatud järjepidevuse alusel , mitte ei ole uus riik .
+1	Te	P	pl=pl|n=n	4	nsubj	_
+2	ei	V	neg=neg	4	aux	_
+3	ole	V	o=o	4	aux	_
+4	öelnud	A	_	0	root	_
+5	konkreetselt	D	_	4	advmod	_
+6	ja	J	_	7	cc	_
+7	üheselt	D	_	5	conj	_
+8	,	Z	_	11	punct	_
+9	kas	D	_	11	advmod	_
+10	te	P	pl=pl|n=n	11	nsubj	_
+11	tunnistate	V	te=te	4	ccomp	_
+12	Tartu	H	sg=sg|g=g	13	nmod	_
+13	rahu	S	sg=sg|n=n	14	obl	CHECK
+14	jätkuvat	V	vat=vat	15	acl	_
+15	kehtimist	S	sg=sg|p=p	11	obj	_
+16	,	Z	_	19	punct	_
+17	kas	D	_	19	advmod	_
+18	te	P	pl=pl|n=n	19	nsubj	_
+19	peate	V	te=te	11	advcl	_
+20	õigeks	A	sg=sg|tr=tr	19	xcomp	_
+21	,	Z	_	26	punct	_
+22	et	J	_	26	mark	_
+23	Eesti	H	sg=sg|g=g	24	nmod	_
+24	Vabariik	S	sg=sg|n=n	26	obj	_
+25	on	V	b=b	26	aux	_
+26	taastatud	A	sg=sg|n=n	20	ccomp	_
+27	järjepidevuse	S	sg=sg|g=g	28	nmod	_
+28	alusel	S	sg=sg|ad=ad	26	obl	_
+29	,	Z	_	34	punct	_
+30	mitte	D	_	34	advmod	_
+31	ei	V	neg=neg	34	aux	_
+32	ole	V	o=o	34	cop	_
+33	uus	A	sg=sg|n=n	34	amod	_
+34	riik	S	sg=sg|n=n	26	conj	_
+35	.	Z	_	4	punct	_
+
+# sent_id = 11188394
+# text = “ Autoregistrikeskuse Tartu büroo juhataja Nikolai Sess ütles , et jätku ma dokumendid sinna , kui on probleeme , siis kohtus näeme , ” sõnas Aare .
+1	“	Z	_	8	punct	_
+2	Autoregistrikeskuse	H	sg=sg|g=g	5	nmod	_
+3	Tartu	H	sg=sg|g=g	4	nmod	_
+4	büroo	S	sg=sg|g=g	5	nmod	_
+5	juhataja	S	sg=sg|n=n	8	nsubj	_
+6	Nikolai	H	sg=sg|n=n	5	appos	_
+7	Sess	S	sg=sg|n=n	6	flat	_
+8	ütles	V	s=s	0	root	_
+9	,	Z	_	11	punct	_
+10	et	J	_	11	mark	_
+11	jätku	V	o=o	8	ccomp	_
+12	ma	P	sg=sg|n=n	11	nsubj	_
+13	dokumendid	S	pl=pl|n=n	11	obj	CHECK
+14	sinna	D	_	11	advmod	_
+15	,	Z	_	17	punct	_
+16	kui	D	_	17	mark	_
+17	on	V	b=b	11	advcl	_
+18	probleeme	S	pl=pl|p=p	17	nsubj	_
+19	,	Z	_	22	punct	_
+20	siis	J	_	22	advmod	_
+21	kohtus	S	sg=sg|in=in	22	obj	_
+22	näeme	V	me=me	11	conj	_
+23	,	Z	_	8	punct	_
+24	”	Z	_	8	punct	_
+25	sõnas	V	s=s	8	parataxis	_
+26	Aare	H	sg=sg|n=n	25	nsubj	_
+27	.	Z	_	8	punct	_
+
+# sent_id = 145822
+# text = Ja ilmselt negatiivne : “ Majandusreformide eest maksti ka 1995. aastal kõrget sotsiaalset hinda , ” ja “ Arvutused näitavad Eesti positsiooni jätkuvat halvenemist , ” deklareerib raport .
+1	Ja	J	_	3	cc	_
+2	ilmselt	D	_	3	advmod	_
+3	negatiivne	A	sg=sg|n=n	0	root	_
+4	:	Z	_	8	punct	_
+5	“	Z	_	8	punct	_
+6	Majandusreformide	S	pl=pl|g=g	8	obl	_
+7	eest	K	_	6	case	_
+8	maksti	V	ti=ti	3	parataxis	_
+9	ka	D	_	8	advmod	_
+10	1995.	O	?=?	11	amod	_
+11	aastal	S	sg=sg|ad=ad	8	obl	_
+12	kõrget	A	sg=sg|p=p	14	amod	_
+13	sotsiaalset	A	sg=sg|p=p	14	amod	_
+14	hinda	S	sg=sg|p=p	8	obj	_
+15	,	Z	_	8	punct	_
+16	”	Z	_	8	punct	_
+17	ja	J	_	20	cc	_
+18	“	Z	_	20	punct	_
+19	Arvutused	S	pl=pl|n=n	20	nsubj	_
+20	näitavad	V	vad=vad	8	conj	_
+21	Eesti	H	sg=sg|g=g	22	nmod	_
+22	positsiooni	S	sg=sg|p=p	23	obj	CHECK
+23	jätkuvat	V	vat=vat	24	acl	_
+24	halvenemist	S	sg=sg|p=p	20	obj	_
+25	,	Z	_	8	punct	_
+26	”	Z	_	8	punct	_
+27	deklareerib	V	b=b	3	parataxis	_
+28	raport	S	sg=sg|n=n	27	nsubj	_
+29	.	Z	_	3	punct	_
+
+# sent_id = 1680877
+# text = Seetõttu on Soome ja Rootsi energeetikafirmade investeering sisuliselt meie riikliku kapitali ( mida meil mitte kunagi ei jätku ) asendamine teise riigi riikliku kapitaliga .
+1	Seetõttu	D	_	2	advmod	_
+2	on	V	b=b	11	cop	_
+3	Soome	H	sg=sg|g=g	6	nmod	_
+4	ja	J	_	5	cc	_
+5	Rootsi	H	sg=sg|g=g	3	conj	_
+6	energeetikafirmade	S	pl=pl|g=g	7	nmod	_
+7	investeering	S	sg=sg|n=n	2	nsubj	_
+8	sisuliselt	D	_	11	advmod	_
+9	meie	P	pl=pl|g=g	11	nmod	_
+10	riikliku	A	sg=sg|g=g	11	amod	_
+11	kapitali	S	sg=sg|g=g	20	nmod	_
+12	(	Z	_	18	punct	_
+13	mida	P	sg=sg|p=p	18	nsubj	CHECK
+14	meil	P	pl=pl|ad=ad	18	nsubj	_
+15	mitte	D	_	16	advmod	_
+16	kunagi	D	_	18	advmod	_
+17	ei	V	neg=neg	18	aux	_
+18	jätku	V	o=o	11	acl:relcl	_
+19	)	Z	_	18	punct	_
+20	asendamine	S	sg=sg|n=n	0	root	_
+21	teise	O	sg=sg|g=g	22	det	_
+22	riigi	S	sg=sg|g=g	24	nmod	_
+23	riikliku	A	sg=sg|g=g	24	amod	_
+24	kapitaliga	S	sg=sg|kom=kom	20	nmod	_
+25	.	Z	_	11	punct	_
+
+# sent_id = 1943685
+# text = " Nii iseloomustavad oma valdkonna jätkuvat populaarsust pisiblufi sarjas ilmunud raamatukese " Seks " autorid Tim Webb ja Sarah Brewer .
+1	"	Z	_	3	punct	_
+2	Nii	D	_	3	advmod	_
+3	iseloomustavad	V	vad=vad	0	root	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	valdkonna	S	sg=sg|g=g	6	obl	CHECK
+6	jätkuvat	V	vat=vat	7	acl	_
+7	populaarsust	S	sg=sg|p=p	3	obj	_
+8	pisiblufi	S	sg=sg|g=g	9	nmod	_
+9	sarjas	S	sg=sg|in=in	10	obl	_
+10	ilmunud	A	_	11	acl	_
+11	raamatukese	S	sg=sg|g=g	15	nmod	_
+12	"	Z	_	13	punct	_
+13	Seks	S	sg=sg|n=n	11	appos	_
+14	"	Z	_	13	punct	_
+15	autorid	S	pl=pl|n=n	3	nsubj	_
+16	Tim	H	sg=sg|n=n	15	appos	_
+17	Webb	H	sg=sg|n=n	16	flat	_
+18	ja	J	_	19	cc	_
+19	Sarah	H	sg=sg|g=g	16	conj	_
+20	Brewer	H	sg=sg|n=n	19	flat	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 4963419
+# text = Kes on varem proovinud vaid külmutatud spinatit , see jätku eelnevad maitseelamused , sest värsked lehed maitsevad hoopis paremini ja " murumaitsest " pole jälgegi .
+1	Kes	P	pl=pl|n=n	4	nsubj	_
+2	on	V	vad=vad	4	aux	_
+3	varem	D	_	4	advmod	_
+4	proovinud	A	_	0	root	_
+5	vaid	D	_	7	advmod	_
+6	külmutatud	V	tud=tud	7	acl	_
+7	spinatit	S	sg=sg|p=p	4	obj	_
+8	,	Z	_	10	punct	_
+9	see	P	sg=sg|n=n	10	nsubj	_
+10	jätku	V	o=o	4	conj	_
+11	eelnevad	A	pl=pl|n=n	12	acl	_
+12	maitseelamused	S	pl=pl|n=n	10	obl	CHECK
+13	,	Z	_	17	punct	_
+14	sest	J	_	17	mark	_
+15	värsked	A	pl=pl|n=n	16	amod	_
+16	lehed	S	pl=pl|n=n	17	nsubj	_
+17	maitsevad	V	vad=vad	10	advcl	_
+18	hoopis	D	_	19	advmod	_
+19	paremini	D	_	17	advmod	_
+20	ja	J	_	22	cc	_
+21	"	Z	_	22	punct	_
+22	murumaitsest	S	sg=sg|el=el	25	nsubj:cop	_
+23	"	Z	_	22	punct	_
+24	pole	V	neg=neg|o=o	22	cop	_
+25	jälgegi	S	sg=sg|p=p	17	conj	_
+26	.	Z	_	10	punct	_
+
+# sent_id = 284328
+# text = See omakorda tingis , et üha tugevnes ka tsentrifugaaljõud , mis hakkas pidurdama gaasi koondumist pöörlemisteljega ristuvates suundades , samas kui pikki pöörlemistelge jätkus gaasi koondumine kasvava hooga .
+1	See	P	sg=sg|n=n	3	nsubj	_
+2	omakorda	D	_	3	advmod	_
+3	tingis	V	s=s	0	root	_
+4	,	Z	_	7	punct	_
+5	et	J	_	7	mark	_
+6	üha	D	_	7	advmod	_
+7	tugevnes	V	s=s	3	ccomp	_
+8	ka	D	_	9	advmod	_
+9	tsentrifugaaljõud	S	pl=pl|n=n	7	nsubj	_
+10	,	Z	_	12	punct	_
+11	mis	P	pl=pl|n=n	12	nsubj	_
+12	hakkas	V	s=s	9	acl:relcl	_
+13	pidurdama	V	ma=ma	12	xcomp	_
+14	gaasi	S	sg=sg|g=g	15	nmod	_
+15	koondumist	S	sg=sg|p=p	13	obl	_
+16	pöörlemisteljega	S	sg=sg|kom=kom	17	obj	_
+17	ristuvates	A	pl=pl|in=in	18	acl	_
+18	suundades	S	pl=pl|in=in	13	obj	_
+19	,	Z	_	24	punct	_
+20	samas	D	_	24	advmod	_
+21	kui	D	_	20	fixed	_
+22	pikki	A	pl=pl|p=p	23	amod	_
+23	pöörlemistelge	S	sg=sg|p=p	24	obl	CHECK
+24	jätkus	V	s=s	12	advcl	_
+25	gaasi	S	sg=sg|g=g	26	nmod	_
+26	koondumine	S	sg=sg|n=n	27	obl	_
+27	kasvava	A	sg=sg|g=g	28	acl	_
+28	hooga	S	sg=sg|kom=kom	24	nsubj	_
+29	.	Z	_	3	punct	_
+

@@ -1,0 +1,442 @@
+# sent_id = 11326388
+# text = Tallinnas on kümme kontserti , iga päev üks - jagugu vaid osalusnõudlust !
+1	Tallinnas	H	sg=sg|in=in	0	root	_
+2	on	V	b=b	1	cop	_
+3	kümme	N	sg=sg|n=n	4	nummod	_
+4	kontserti	S	sg=sg|p=p	1	nsubj:cop	_
+5	,	Z	_	8	punct	_
+6	iga	P	sg=sg|n=n	7	det	_
+7	päev	S	sg=sg|n=n	8	obl	_
+8	üks	N	sg=sg|n=n	1	conj	_
+9	-	Z	_	10	punct	_
+10	jagugu	V	gu=gu	1	parataxis	_
+11	vaid	D	_	12	advmod	_
+12	osalusnõudlust	S	sg=sg|p=p	10	obj	CHECK
+13	!	Z	_	1	punct	_
+
+# sent_id = 614734
+# text = Jagus jõudu tööd teha .
+1	Jagus	V	s=s	2	nmod	_
+2	jõudu	S	adt=adt	4	nsubj	CHECK
+3	tööd	S	sg=sg|p=p	4	obj	_
+4	teha	V	da=da	0	root	_
+5	.	Z	_	4	punct	_
+
+# sent_id = 14027415
+# text = Eesti jagub huvitavalt pooleks vanas Liivimaa piirkonnas on enamasti kuked , Eesti aladel , Põhja-Eestis on ristid tornis .
+1	Eesti	H	sg=sg|n=n	2	nsubj	_
+2	jagub	V	b=b	0	root	_
+3	huvitavalt	D	_	2	advmod	_
+4	pooleks	D	_	7	advmod	_
+5	vanas	A	sg=sg|in=in	7	amod	_
+6	Liivimaa	H	sg=sg|g=g	7	nmod	_
+7	piirkonnas	S	sg=sg|in=in	2	obl	_
+8	on	V	b=b	2	conj	_
+9	enamasti	D	_	2	advmod	_
+10	kuked	S	pl=pl|n=n	2	nsubj	CHECK
+11	,	Z	_	13	punct	_
+12	Eesti	H	sg=sg|g=g	13	nmod	_
+13	aladel	S	pl=pl|ad=ad	10	conj	_
+14	,	Z	_	18	punct	_
+15	Põhja-Eestis	H	sg=sg|in=in	18	nsubj:cop	_
+16	on	V	vad=vad	18	cop	_
+17	ristid	S	pl=pl|n=n	18	nmod	_
+18	tornis	S	sg=sg|in=in	2	conj	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 2756998
+# text = Et tagasiantavat euroraha ikka jaguks , on tulnud mitmel pool ette võtta drastilisi meetmeid .
+1	Et	J	_	5	mark	_
+2	tagasiantavat	A	sg=sg|p=p	3	acl	_
+3	euroraha	S	sg=sg|g=g	5	nsubj	CHECK
+4	ikka	D	_	5	advmod	_
+5	jaguks	V	ks=ks	8	advcl	_
+6	,	Z	_	5	punct	_
+7	on	V	b=b	8	aux	_
+8	tulnud	V	nud=nud	0	root	_
+9	mitmel	P	sg=sg|ad=ad	12	obl	_
+10	pool	K	_	9	fixed	_
+11	ette	D	_	12	compound:prt	_
+12	võtta	V	da=da	8	csubj	_
+13	drastilisi	A	pl=pl|p=p	14	amod	_
+14	meetmeid	S	pl=pl|p=p	12	obj	_
+15	.	Z	_	8	punct	_
+
+# sent_id = 4508899
+# text = Terve noore inimese aktiivne eluviis ja paljude asjadega tegelemine üheaegselt eeldab head kehalist vormi ja kampaania käigus juhitaksegi tähelepanu sellele , kui vajalik on igapäevane arukas toitumine kasvavale organismile , et jõudu jaguks nii kasvamiseks kui ka aktiivseks tegutsemiseks mitmel alal .
+1	Terve	A	sg=sg|n=n	3	amod	_
+2	noore	A	sg=sg|g=g	3	amod	_
+3	inimese	S	sg=sg|g=g	5	nmod	_
+4	aktiivne	A	sg=sg|n=n	5	amod	_
+5	eluviis	S	sg=sg|n=n	11	nsubj	_
+6	ja	J	_	9	cc	_
+7	paljude	P	pl=pl|g=g	8	nmod	_
+8	asjadega	S	pl=pl|kom=kom	9	nmod	_
+9	tegelemine	S	sg=sg|n=n	5	conj	_
+10	üheaegselt	D	_	11	advmod	_
+11	eeldab	V	b=b	0	root	_
+12	head	A	sg=sg|p=p	14	amod	_
+13	kehalist	A	sg=sg|p=p	14	amod	_
+14	vormi	S	sg=sg|p=p	11	obj	_
+15	ja	J	_	18	cc	_
+16	kampaania	S	sg=sg|g=g	18	obl	_
+17	käigus	K	_	16	case	_
+18	juhitaksegi	V	takse=takse	11	conj	_
+19	tähelepanu	S	sg=sg|p=p	18	obj	_
+20	sellele	P	sg=sg|all=all	18	nsubj	_
+21	,	Z	_	23	punct	_
+22	kui	J	_	23	mark	_
+23	vajalik	A	sg=sg|n=n	20	acl	_
+24	on	V	b=b	23	cop	_
+25	igapäevane	A	sg=sg|n=n	27	amod	_
+26	arukas	A	sg=sg|n=n	27	amod	_
+27	toitumine	S	sg=sg|n=n	28	obj	_
+28	kasvavale	A	sg=sg|all=all	29	acl	_
+29	organismile	S	sg=sg|all=all	23	nsubj:cop	_
+30	,	Z	_	33	punct	_
+31	et	J	_	33	mark	_
+32	jõudu	S	adt=adt	33	nsubj	CHECK
+33	jaguks	V	ks=ks	23	advcl	_
+34	nii	D	_	35	cc:preconj	_
+35	kasvamiseks	S	sg=sg|tr=tr	33	obl	_
+36	kui	J	_	39	cc	_
+37	ka	D	_	39	advmod	_
+38	aktiivseks	A	sg=sg|tr=tr	39	amod	_
+39	tegutsemiseks	S	sg=sg|tr=tr	35	conj	_
+40	mitmel	P	sg=sg|ad=ad	41	det	_
+41	alal	S	sg=sg|ad=ad	39	nmod	_
+42	.	Z	_	11	punct	_
+
+# sent_id = 2941680
+# text = Nii palju , et igale eestlasele oma isamaalaul jaguks .
+1	Nii	D	_	2	advmod	_
+2	palju	D	_	0	root	_
+3	,	Z	_	9	punct	_
+4	et	J	_	9	mark	_
+5	igale	P	sg=sg|all=all	6	det	_
+6	eestlasele	S	sg=sg|all=all	9	nsubj	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	isamaalaul	S	sg=sg|n=n	9	obj	CHECK
+9	jaguks	V	ks=ks	2	advcl	_
+10	.	Z	_	2	punct	_
+
+# sent_id = 8329123
+# text = Vene vägede lahkumise järel on hakatud tegelema aktiivse ülesehitustööga ja raha selleks paistab jaguvat .
+1	Vene	H	sg=sg|g=g	2	nmod	_
+2	vägede	S	pl=pl|g=g	3	nmod	_
+3	lahkumise	S	sg=sg|g=g	6	obl	_
+4	järel	K	_	3	case	_
+5	on	V	vad=vad	6	aux	_
+6	hakatud	A	sg=sg|n=n	0	root	_
+7	tegelema	V	ma=ma	6	advcl	_
+8	aktiivse	A	sg=sg|g=g	9	amod	_
+9	ülesehitustööga	S	sg=sg|kom=kom	7	nsubj	_
+10	ja	J	_	14	cc	_
+11	raha	S	sg=sg|g=g	14	obj	CHECK
+12	selleks	P	sg=sg|tr=tr	14	nsubj	_
+13	paistab	V	b=b	14	aux	_
+14	jaguvat	V	vat=vat	6	conj	_
+15	.	Z	_	6	punct	_
+
+# sent_id = 11162262
+# text = Kinoliste poolehoidu näis jaguvat peamiselt visuaalsetele eriefektidele ja märulitükkidele .
+1	Kinoliste	S	pl=pl|g=g	2	nmod	_
+2	poolehoidu	S	adt=adt	4	nsubj	CHECK
+3	näis	V	s=s	4	aux	_
+4	jaguvat	V	vat=vat	0	root	_
+5	peamiselt	D	_	7	advmod	_
+6	visuaalsetele	A	pl=pl|all=all	7	amod	_
+7	eriefektidele	S	pl=pl|all=all	4	obl	_
+8	ja	J	_	9	cc	_
+9	märulitükkidele	S	pl=pl|all=all	7	conj	_
+10	.	Z	_	4	punct	_
+
+# sent_id = 6220016
+# text = Seega oleks tervitatav , kui hinnalist loodusvara jaguks ka teiste tööde jaoks ning metsaomanikud ei alustaks aiapidajate nõudmiste rahuldamiseks üleriigilist lageraiet .
+1	Seega	D	_	3	advmod	_
+2	oleks	V	ks=ks	3	cop	_
+3	tervitatav	A	sg=sg|n=n	0	root	_
+4	,	Z	_	8	punct	_
+5	kui	J	_	8	mark	_
+6	hinnalist	A	sg=sg|p=p	7	amod	_
+7	loodusvara	S	sg=sg|g=g	8	nsubj	CHECK
+8	jaguks	V	ks=ks	3	csubj:cop	_
+9	ka	D	_	10	advmod	_
+10	teiste	P	pl=pl|g=g	11	det	_
+11	tööde	S	pl=pl|g=g	8	obl	_
+12	jaoks	K	_	11	case	_
+13	ning	J	_	16	cc	_
+14	metsaomanikud	S	pl=pl|n=n	16	nsubj	_
+15	ei	V	neg=neg	16	aux	_
+16	alustaks	V	ks=ks	8	conj	_
+17	aiapidajate	S	pl=pl|g=g	18	nmod	_
+18	nõudmiste	S	pl=pl|g=g	19	nmod	_
+19	rahuldamiseks	S	sg=sg|tr=tr	16	obj	_
+20	üleriigilist	A	sg=sg|p=p	21	amod	_
+21	lageraiet	S	sg=sg|p=p	16	obj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 354443
+# text = Toimetamist on jagunud mujalgi , nagu nähtub allpool : ( toimetaja ) Mari Must , Aili Univere “ Põhjaeesti keskmurre ” ( 2002 ) , Marja Kallasmaa “ Läänemurde loodus- ja viljelusnimed ” ( 2003 ) ; ( toimetuskolleegiumi liige ) Gustav Vilbaste “ Eesti taimenimetused ” ( 1993 ) , Mari Must “ Kirderannikumurde tekstid ” ( 1995 ) , Emakeele Seltsi aastaraamat ( alates numbrist 43 ) .
+1	Toimetamist	S	sg=sg|p=p	3	nsubj	CHECK
+2	on	V	vad=vad	3	aux	_
+3	jagunud	A	sg=sg|n=n	0	root	_
+4	mujalgi	D	_	3	advmod	_
+5	,	Z	_	7	punct	_
+6	nagu	D	_	7	mark	_
+7	nähtub	V	b=b	3	advcl	_
+8	allpool	D	_	7	advmod	_
+9	:	Z	_	7	punct	_
+10	(	Z	_	11	punct	_
+11	toimetaja	S	sg=sg|n=n	13	parataxis	_
+12	)	Z	_	11	punct	_
+13	Mari	H	sg=sg|n=n	7	parataxis	_
+14	Must	H	sg=sg|n=n	13	flat	_
+15	,	Z	_	16	punct	_
+16	Aili	H	sg=sg|n=n	13	conj	_
+17	Univere	S	sg=sg|g=g	16	flat	_
+18	“	Z	_	20	punct	_
+19	Põhjaeesti	H	sg=sg|g=g	20	nmod	_
+20	keskmurre	S	sg=sg|n=n	13	conj	_
+21	”	Z	_	20	punct	_
+22	(	Z	_	23	punct	_
+23	2002	N	?=?	20	parataxis	_
+24	)	Z	_	23	punct	_
+25	,	Z	_	26	punct	_
+26	Marja	H	sg=sg|n=n	13	conj	_
+27	Kallasmaa	H	sg=sg|g=g	26	flat	_
+28	“	Z	_	30	punct	_
+29	Läänemurde	S	sg=sg|g=g	30	nmod	_
+30	loodus-	S	sg=sg|n=n	26	parataxis	_
+31	ja	J	_	32	cc	_
+32	viljelusnimed	S	pl=pl|n=n	30	conj	_
+33	”	Z	_	30	punct	_
+34	(	Z	_	35	punct	_
+35	2003	N	?=?	30	parataxis	_
+36	)	Z	_	35	punct	_
+37	;	Z	_	40	punct	_
+38	(	Z	_	40	punct	_
+39	toimetuskolleegiumi	S	sg=sg|g=g	40	nmod	_
+40	liige	S	sg=sg|n=n	46	parataxis	_
+41	)	Z	_	40	punct	_
+42	Gustav	H	sg=sg|n=n	13	conj	_
+43	Vilbaste	S	pl=pl|g=g	42	flat	_
+44	“	Z	_	46	punct	_
+45	Eesti	H	sg=sg|g=g	46	nmod	_
+46	taimenimetused	S	pl=pl|n=n	42	appos	_
+47	”	Z	_	46	punct	_
+48	(	Z	_	49	punct	_
+49	1993	N	?=?	46	parataxis	_
+50	)	Z	_	49	punct	_
+51	,	Z	_	52	punct	_
+52	Mari	H	sg=sg|n=n	13	conj	_
+53	Must	H	sg=sg|n=n	52	flat	_
+54	“	Z	_	56	punct	_
+55	Kirderannikumurde	S	sg=sg|g=g	56	nmod	_
+56	tekstid	S	pl=pl|n=n	52	parataxis	_
+57	”	Z	_	56	punct	_
+58	(	Z	_	59	punct	_
+59	1995	N	?=?	56	parataxis	_
+60	)	Z	_	59	punct	_
+61	,	Z	_	64	punct	_
+62	Emakeele	S	sg=sg|g=g	63	nmod	_
+63	Seltsi	S	sg=sg|g=g	64	nmod	_
+64	aastaraamat	S	sg=sg|n=n	13	conj	_
+65	(	Z	_	67	punct	_
+66	alates	V	des=des	67	advmod	_
+67	numbrist	S	sg=sg|el=el	64	parataxis	_
+68	43	N	?=?	67	nummod	_
+69	)	Z	_	67	punct	_
+70	.	Z	_	3	punct	_
+
+# sent_id = 4504806
+# text = Samas jagus Meri üleskutsetesse ka piisav annus salapära .
+1	Samas	D	_	2	advmod	_
+2	jagus	V	s=s	0	root	_
+3	Meri	H	sg=sg|g=g	2	nsubj	_
+4	üleskutsetesse	S	pl=pl|ill=ill	2	obl	_
+5	ka	D	_	7	advmod	_
+6	piisav	A	sg=sg|n=n	7	acl	_
+7	annus	S	sg=sg|n=n	2	obj	_
+8	salapära	S	sg=sg|n=n	2	obl	CHECK
+9	.	Z	_	2	punct	_
+
+# sent_id = 667733
+# text = Keegi on korda saatnud midagi kahtlast ja eksperte tundub jaguvat .
+1	Keegi	P	sg=sg|n=n	4	nsubj	_
+2	on	V	vad=vad	4	aux	_
+3	korda	S	sg=sg|p=p	4	obl	_
+4	saatnud	A	_	0	root	_
+5	midagi	P	sg=sg|p=p	4	obj	_
+6	kahtlast	A	sg=sg|p=p	5	amod	_
+7	ja	J	_	10	cc	_
+8	eksperte	S	pl=pl|p=p	10	nsubj	CHECK
+9	tundub	V	b=b	10	aux	_
+10	jaguvat	V	vat=vat	4	conj	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 9692
+# text = Varsti üürisime endale ühise toa , kus talvel oli lumi nurgas , aga õnne ja romantikat jagus .
+1	Varsti	D	_	2	advmod	_
+2	üürisime	V	sime=sime	0	root	_
+3	endale	P	sg=sg|all=all	2	nsubj	_
+4	ühise	A	sg=sg|g=g	5	amod	_
+5	toa	S	sg=sg|g=g	2	obj	_
+6	,	Z	_	11	punct	_
+7	kus	D	_	11	mark	_
+8	talvel	S	sg=sg|ad=ad	11	obl	_
+9	oli	V	s=s	11	cop	_
+10	lumi	S	sg=sg|n=n	11	nsubj:cop	_
+11	nurgas	S	sg=sg|in=in	5	acl	_
+12	,	Z	_	17	punct	_
+13	aga	J	_	17	cc	_
+14	õnne	S	sg=sg|p=p	17	nsubj	CHECK
+15	ja	J	_	16	cc	_
+16	romantikat	S	sg=sg|p=p	14	conj	_
+17	jagus	V	s=s	11	conj	_
+18	.	Z	_	2	punct	_
+
+# sent_id = 3484673
+# text = Kui on vaja valves olla ja on kuus tasulist sünnitust , siis rohkemaks sind ämmaemandajana ei jagugi , " sõnas Piirimäe .
+1	Kui	D	_	2	mark	_
+2	on	V	vad=vad	17	advcl	_
+3	vaja	D	_	2	compound:prt	_
+4	valves	S	sg=sg|in=in	2	nsubj	_
+5	olla	V	da=da	2	csubj	_
+6	ja	J	_	7	cc	_
+7	on	V	b=b	2	conj	_
+8	kuus	N	sg=sg|n=n	10	nummod	_
+9	tasulist	A	sg=sg|p=p	10	amod	_
+10	sünnitust	S	sg=sg|p=p	7	nsubj	_
+11	,	Z	_	17	punct	_
+12	siis	J	_	17	advmod	_
+13	rohkemaks	C	sg=sg|tr=tr	17	obj	_
+14	sind	P	sg=sg|p=p	17	nsubj	CHECK
+15	ämmaemandajana	S	sg=sg|es=es	17	obj	_
+16	ei	V	neg=neg	17	aux	_
+17	jagugi	V	o=o	0	root	_
+18	,	Z	_	17	punct	_
+19	"	Z	_	17	punct	_
+20	sõnas	V	s=s	17	parataxis	_
+21	Piirimäe	H	sg=sg|n=n	20	nsubj	_
+22	.	Z	_	17	punct	_
+
+# sent_id = 3930971
+# text = Maksmist oleks SA Pärnu Haiglal jagunud veel 34 aastaks .
+1	Maksmist	S	sg=sg|p=p	6	obl	CHECK
+2	oleks	V	ks=ks	6	aux	_
+3	SA	P	sg=sg|n=n	6	nsubj	_
+4	Pärnu	H	sg=sg|g=g	5	nmod	_
+5	Haiglal	S	sg=sg|ad=ad	6	obl	_
+6	jagunud	A	pl=pl|n=n	0	root	_
+7	veel	D	_	6	advmod	_
+8	34	N	?=?	9	nummod	_
+9	aastaks	S	sg=sg|tr=tr	6	obl	_
+10	.	Z	_	6	punct	_
+
+# sent_id = 16437
+# text = Neid , kes on nõus Kroonikaga kaasa mängima , jagub .
+1	Neid	P	pl=pl|p=p	10	nsubj	CHECK
+2	,	Z	_	4	punct	_
+3	kes	P	sg=sg|n=n	4	nsubj	_
+4	on	V	vad=vad	1	acl:relcl	_
+5	nõus	D	_	4	compound:prt	_
+6	Kroonikaga	S	sg=sg|kom=kom	8	obj	_
+7	kaasa	D	_	8	compound:prt	_
+8	mängima	V	ma=ma	4	xcomp	_
+9	,	Z	_	4	punct	_
+10	jagub	V	b=b	0	root	_
+11	.	Z	_	10	punct	_
+
+# sent_id = 5913391
+# text = " Eesmärk on just nimelt see , et lastekaitsetöötajal jaguks ressurssi sisulise töö tegemiseks ning perede toetamiseks ja toetuse korraldamiseks enne , kui olukord on nii tõsine , et laps tuleb perest eraldada , " märkis Monika Luik .
+1	"	Z	_	6	punct	_
+2	Eesmärk	S	sg=sg|n=n	6	nsubj:cop	_
+3	on	V	vad=vad	6	cop	_
+4	just	I	_	5	advmod	_
+5	nimelt	D	_	6	advmod	_
+6	see	P	sg=sg|n=n	0	root	_
+7	,	Z	_	10	punct	_
+8	et	J	_	10	mark	_
+9	lastekaitsetöötajal	S	sg=sg|ad=ad	10	nsubj	_
+10	jaguks	V	ks=ks	6	acl	_
+11	ressurssi	S	adt=adt	10	obj	CHECK
+12	sisulise	A	sg=sg|g=g	13	amod	_
+13	töö	S	sg=sg|g=g	14	nmod	_
+14	tegemiseks	S	sg=sg|tr=tr	10	obl	_
+15	ning	J	_	20	cc	_
+16	perede	S	pl=pl|g=g	17	nmod	_
+17	toetamiseks	S	sg=sg|tr=tr	14	conj	_
+18	ja	J	_	20	cc	_
+19	toetuse	S	sg=sg|g=g	20	nmod	_
+20	korraldamiseks	S	sg=sg|tr=tr	14	conj	_
+21	enne	D	_	10	advmod	_
+22	,	Z	_	27	punct	_
+23	kui	D	_	27	mark	_
+24	olukord	S	sg=sg|n=n	27	nsubj:cop	_
+25	on	V	b=b	27	cop	_
+26	nii	D	_	27	advmod	_
+27	tõsine	A	sg=sg|n=n	10	advcl	_
+28	,	Z	_	31	punct	_
+29	et	J	_	31	mark	_
+30	laps	S	sg=sg|n=n	31	nsubj	_
+31	tuleb	V	b=b	27	advcl	_
+32	perest	S	sg=sg|el=el	33	obj	_
+33	eraldada	V	da=da	31	csubj	_
+34	,	Z	_	6	punct	_
+35	"	Z	_	6	punct	_
+36	märkis	V	s=s	6	parataxis	_
+37	Monika	H	sg=sg|n=n	36	nsubj	_
+38	Luik	H	sg=sg|n=n	37	flat	_
+39	.	Z	_	6	punct	_
+
+# sent_id = 378595
+# text = Ka rendihind 32 000 krooni kuus 240-ruutmeetrise pinna eest tundus taskukohane , sest sponsoreid paistis jaguvat .
+1	Ka	D	_	2	advmod	_
+2	rendihind	S	sg=sg|n=n	4	nmod	_
+3	32 000	N	?=?	4	nummod	_
+4	krooni	S	sg=sg|p=p	9	nsubj	_
+5	kuus	S	sg=sg|in=in	7	nmod	_
+6	240-ruutmeetrise	A	sg=sg|g=g	7	amod	_
+7	pinna	S	sg=sg|g=g	4	nmod	_
+8	eest	K	_	7	case	_
+9	tundus	V	s=s	0	root	_
+10	taskukohane	A	sg=sg|n=n	9	xcomp	_
+11	,	Z	_	15	punct	_
+12	sest	J	_	15	mark	_
+13	sponsoreid	S	pl=pl|p=p	15	nsubj	CHECK
+14	paistis	V	s=s	15	aux	_
+15	jaguvat	V	vat=vat	9	advcl	_
+16	.	Z	_	9	punct	_
+
+# sent_id = 2664060
+# text = Mõnesse neist lugudest novellilikku ülesehitust ei jagugi , need voogavad vaikselt ja ühtlaselt nagu suine veenire .
+1	Mõnesse	P	sg=sg|ill=ill	3	det	_
+2	neist	P	pl=pl|el=el	3	det	_
+3	lugudest	S	pl=pl|el=el	7	obj	_
+4	novellilikku	A	sg=sg|p=p	5	amod	_
+5	ülesehitust	S	sg=sg|p=p	7	obj	CHECK
+6	ei	V	neg=neg	7	aux	_
+7	jagugi	V	o=o	0	root	_
+8	,	Z	_	10	punct	_
+9	need	P	pl=pl|n=n	10	nsubj	_
+10	voogavad	V	vad=vad	7	conj	_
+11	vaikselt	D	_	10	advmod	_
+12	ja	J	_	13	cc	_
+13	ühtlaselt	D	_	11	conj	_
+14	nagu	D	_	16	mark	_
+15	suine	A	sg=sg|n=n	16	amod	_
+16	veenire	S	sg=sg|n=n	11	advcl	_
+17	.	Z	_	7	punct	_
+
+# sent_id = 1654384
+# text = Tema sõnul jagub jõuluraha firma kolmele juhile .
+1	Tema	P	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	3	obl	_
+3	jagub	V	b=b	0	root	_
+4	jõuluraha	S	sg=sg|n=n	5	nmod	_
+5	firma	S	sg=sg|g=g	3	nsubj	CHECK
+6	kolmele	N	sg=sg|all=all	7	nummod	_
+7	juhile	S	sg=sg|all=all	3	nsubj	_
+8	.	Z	_	3	punct	_
+

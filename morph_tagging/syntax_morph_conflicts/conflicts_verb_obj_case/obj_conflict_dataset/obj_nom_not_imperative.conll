@@ -1,0 +1,465 @@
+# sent_id = 8513903
+# text = nüüd , Annika , võta julgus kokku , et mitte röögatada , kui liftis mõni jota magab .
+1	nüüd	D	_	5	advmod	_
+2	,	Z	_	3	punct	_
+3	Annika	H	sg=sg|n=n	5	vocative	_
+4	,	Z	_	5	punct	_
+5	võta	V	o=o	0	root	_
+6	julgus	S	sg=sg|n=n	5	obj	CHECK
+7	kokku	D	_	5	compound:prt	_
+8	,	Z	_	11	punct	_
+9	et	J	_	11	mark	_
+10	mitte	D	_	11	advmod	_
+11	röögatada	V	da=da	5	advcl	_
+12	,	Z	_	17	punct	_
+13	kui	D	_	17	mark	_
+14	liftis	S	sg=sg|in=in	17	nsubj	_
+15	mõni	P	sg=sg|n=n	16	det	_
+16	jota	S	sg=sg|n=n	17	nsubj	_
+17	magab	V	b=b	11	advcl	_
+18	.	Z	_	5	punct	_
+
+# sent_id = 13369069
+# text = Kass tuli Jõgeval elava Hermanni hoovi esmaspäeval , mees proovis teda üle aia visata , kuid vastuseks lõi kass hambed mehe kätte ning läks seejärel tema koerale kallale .
+1	Kass	S	sg=sg|n=n	2	nsubj	_
+2	tuli	V	s=s	0	root	_
+3	Jõgeval	H	sg=sg|ad=ad	4	obl	_
+4	elava	A	sg=sg|g=g	6	acl	_
+5	Hermanni	H	sg=sg|g=g	6	nmod	_
+6	hoovi	S	sg=sg|g=g	2	obl	_
+7	esmaspäeval	S	sg=sg|ad=ad	2	obl	_
+8	,	Z	_	10	punct	_
+9	mees	S	sg=sg|n=n	10	nsubj	_
+10	proovis	V	s=s	2	conj	_
+11	teda	P	sg=sg|p=p	14	obj	_
+12	üle	K	_	13	case	_
+13	aia	S	sg=sg|g=g	14	obl	_
+14	visata	V	da=da	10	xcomp	_
+15	,	Z	_	18	punct	_
+16	kuid	J	_	18	cc	_
+17	vastuseks	S	sg=sg|tr=tr	18	obj	_
+18	lõi	V	s=s	2	conj	_
+19	kass	S	sg=sg|n=n	18	nsubj	_
+20	hambed	S	pl=pl|n=n	21	nmod	CHECK
+21	mehe	S	sg=sg|g=g	18	obl	_
+22	kätte	K	_	21	case	_
+23	ning	J	_	24	cc	_
+24	läks	V	s=s	2	conj	_
+25	seejärel	D	_	24	advmod	_
+26	tema	P	sg=sg|g=g	27	nmod	_
+27	koerale	S	sg=sg|all=all	24	obl	_
+28	kallale	D	_	24	compound:prt	_
+29	.	Z	_	2	punct	_
+
+# sent_id = 4770822
+# text = Rosenberg ei teadvat ka lapse sugu ning tema arvates polevat sellest praegu veel aimu ka tulevasel emal ja isal .
+1	Rosenberg	H	sg=sg|n=n	3	nsubj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	teadvat	V	vat=vat	0	root	_
+4	ka	D	_	3	advmod	_
+5	lapse	S	sg=sg|g=g	6	nmod	_
+6	sugu	S	sg=sg|n=n	3	obj	_
+7	ning	J	_	14	cc	_
+8	tema	P	sg=sg|g=g	9	nsubj	_
+9	arvates	V	des=des	3	conj	_
+10	polevat	V	neg=neg|vat=vat	14	cop	_
+11	sellest	P	sg=sg|el=el	14	nsubj:cop	_
+12	praegu	D	_	14	advmod	_
+13	veel	D	_	14	advmod	_
+14	aimu	S	sg=sg|p=p	3	conj	_
+15	ka	D	_	17	advmod	_
+16	tulevasel	A	sg=sg|ad=ad	17	amod	_
+17	emal	S	sg=sg|ad=ad	14	nsubj:cop	_
+18	ja	J	_	19	cc	_
+19	isal	S	sg=sg|ad=ad	17	conj	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 1954565
+# text = " Ma ei ole agressiivne inimene , kuid kui ma ta kätte saaksin , tapaksin ma ta kindlasti . "
+1	"	Z	_	6	punct	_
+2	Ma	P	sg=sg|n=n	6	nsubj:cop	_
+3	ei	V	neg=neg	6	aux	_
+4	ole	V	o=o	6	cop	_
+5	agressiivne	A	sg=sg|n=n	6	amod	_
+6	inimene	S	sg=sg|n=n	0	root	_
+7	,	Z	_	13	punct	_
+8	kuid	J	_	13	cc	_
+9	kui	D	_	13	mark	_
+10	ma	P	sg=sg|n=n	13	nsubj	_
+11	ta	P	sg=sg|g=g	13	obj	_
+12	kätte	K	_	13	compound:prt	_
+13	saaksin	V	ksin=ksin	15	advcl	_
+14	,	Z	_	15	punct	_
+15	tapaksin	V	ksin=ksin	6	conj	_
+16	ma	P	sg=sg|n=n	15	nsubj	_
+17	ta	P	sg=sg|n=n	15	obj	CHECK
+18	kindlasti	D	_	15	advmod	_
+19	.	Z	_	6	punct	_
+20	"	Z	_	6	punct	_
+
+# sent_id = 8100188
+# text = Linn nõuab firmalt ööpäev ringi dispetšerteenistust ning vähemalt 75 sõiduautot ja kaht puudega inimestele koha-ndatud bussi .
+1	Linn	S	sg=sg|n=n	2	nsubj	_
+2	nõuab	V	b=b	0	root	_
+3	firmalt	S	sg=sg|abl=abl	4	nmod	_
+4	ööpäev	S	sg=sg|n=n	2	obl	CHECK
+5	ringi	D	_	2	compound:prt	_
+6	dispetšerteenistust	S	sg=sg|p=p	2	obj	_
+7	ning	J	_	10	cc	_
+8	vähemalt	D	_	9	advmod	_
+9	75	N	?=?	10	nummod	_
+10	sõiduautot	S	sg=sg|p=p	6	conj	_
+11	ja	J	_	16	cc	_
+12	kaht	N	sg=sg|p=p	16	nummod	_
+13	puudega	S	pl=pl|kom=kom	14	nmod	_
+14	inimestele	S	pl=pl|all=all	15	obj	_
+15	koha-ndatud	V	tud=tud	16	acl	_
+16	bussi	S	sg=sg|p=p	6	conj	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 19740214
+# text = airwalker: sexgirl .... ära fckin läbusta ... ;)
+1	airwalker	S	sg=sg|n=n	0	root	_
+2	:	Z	_	7	punct	_
+3	sexgirl	S	sg=sg|n=n	7	obj	_
+4	....	Z	_	7	punct	_
+5	ära	D	_	7	compound:prt	_
+6	fckin	S	sg=sg|n=n	7	obj	CHECK
+7	läbusta	V	o=o	1	parataxis	_
+8	...	Z	_	1	punct	_
+9	;)	Z	_	1	punct	_
+
+# sent_id = 2224477
+# text = Selle tõestuseks esitas mees Venemaal välja antud sünnitunnistuse koopia , milles on tema isaks märgitud tallinlasest Eesti kodanik , kes oma isadust arvatavasti ka tunnistab .
+1	Selle	P	sg=sg|g=g	2	det	_
+2	tõestuseks	S	sg=sg|tr=tr	3	obl	_
+3	esitas	V	s=s	0	root	_
+4	mees	S	sg=sg|n=n	3	nsubj	_
+5	Venemaal	H	sg=sg|ad=ad	3	nsubj	_
+6	välja	D	_	3	compound:prt	_
+7	antud	A	_	8	acl	_
+8	sünnitunnistuse	S	sg=sg|g=g	9	nmod	_
+9	koopia	S	sg=sg|n=n	3	obj	CHECK
+10	,	Z	_	15	punct	_
+11	milles	P	pl=pl|in=in	15	obj	_
+12	on	V	vad=vad	15	aux	_
+13	tema	P	sg=sg|g=g	14	nmod	_
+14	isaks	S	sg=sg|tr=tr	15	obl	_
+15	märgitud	A	sg=sg|n=n	16	acl	_
+16	tallinlasest	S	sg=sg|el=el	18	nmod	_
+17	Eesti	H	sg=sg|g=g	18	nmod	_
+18	kodanik	S	sg=sg|n=n	9	conj	_
+19	,	Z	_	25	punct	_
+20	kes	P	pl=pl|n=n	25	nsubj	_
+21	oma	P	sg=sg|g=g	22	nmod	_
+22	isadust	S	sg=sg|p=p	25	obj	_
+23	arvatavasti	D	_	25	advmod	_
+24	ka	D	_	25	advmod	_
+25	tunnistab	V	b=b	18	acl:relcl	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 3037916
+# text = Tunnustatud fotograaf Annie Leibovitz pildistas erinevatest Disney joonisfilmidest tuttvateks tegelasteks maskeeritud kuulsusi Walt Disney lõbustuspargi uue reklaamikampaania tarvis , teatas BBC .
+1	Tunnustatud	A	_	2	acl	_
+2	fotograaf	S	sg=sg|n=n	5	nsubj	_
+3	Annie	H	sg=sg|n=n	2	appos	_
+4	Leibovitz	H	sg=sg|n=n	3	flat	_
+5	pildistas	V	s=s	0	root	_
+6	erinevatest	A	pl=pl|el=el	12	acl	_
+7	Disney	H	sg=sg|g=g	8	nmod	_
+8	joonisfilmidest	S	pl=pl|el=el	10	nmod	_
+9	tuttvateks	S	sg=sg|n=n	10	nmod	_
+10	tegelasteks	S	pl=pl|tr=tr	11	obj	_
+11	maskeeritud	A	_	12	acl	_
+12	kuulsusi	S	pl=pl|p=p	5	obj	_
+13	Walt	H	sg=sg|n=n	12	appos	_
+14	Disney	H	sg=sg|g=g	13	flat	_
+15	lõbustuspargi	S	sg=sg|g=g	17	nmod	_
+16	uue	A	sg=sg|g=g	17	amod	_
+17	reklaamikampaania	S	sg=sg|n=n	5	obj	CHECK
+18	tarvis	D	_	5	compound:prt	_
+19	,	Z	_	20	punct	_
+20	teatas	V	s=s	5	conj	_
+21	BBC	Y	?=?	20	nsubj	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 8479526
+# text = Kui me tarvitaksime mõistet vaibakloppimine ( mis iseenesest on küllaltki rumal ja sisutu mõiste , aga aitab siin ära piiritleda , millest jutt käib ) , siis see , mida Carolyn Hillyer ja Nigel Shaw toodavad , on täpselt seesama , mis vaibakloppimine , just samavõrra vaimne ( umbes nagu kipspea ) ja niisama väärtusetu .
+1	Kui	D	_	3	mark	_
+2	me	P	pl=pl|n=n	3	nsubj	_
+3	tarvitaksime	V	ksime=ksime	40	advcl	_
+4	mõistet	S	sg=sg|p=p	5	nmod	_
+5	vaibakloppimine	S	sg=sg|n=n	3	obj	CHECK
+6	(	Z	_	14	punct	_
+7	mis	P	pl=pl|n=n	14	nsubj:cop	_
+8	iseenesest	D	_	11	advmod	_
+9	on	V	b=b	14	cop	_
+10	küllaltki	D	_	11	advmod	_
+11	rumal	A	sg=sg|n=n	14	amod	_
+12	ja	J	_	13	cc	_
+13	sisutu	A	sg=sg|n=n	11	conj	_
+14	mõiste	S	sg=sg|n=n	17	parataxis	_
+15	,	Z	_	17	punct	_
+16	aga	J	_	17	cc	_
+17	aitab	V	b=b	3	conj	_
+18	siin	D	_	20	advmod	_
+19	ära	D	_	20	compound:prt	_
+20	piiritleda	V	da=da	17	xcomp	_
+21	,	Z	_	24	punct	_
+22	millest	P	sg=sg|el=el	24	nsubj	_
+23	jutt	S	sg=sg|n=n	24	nsubj	_
+24	käib	V	b=b	20	ccomp	_
+25	)	Z	_	24	punct	_
+26	,	Z	_	24	punct	_
+27	siis	J	_	40	advmod	_
+28	see	P	sg=sg|n=n	40	nsubj:cop	_
+29	,	Z	_	36	punct	_
+30	mida	P	sg=sg|p=p	36	nsubj	_
+31	Carolyn	H	sg=sg|n=n	36	nsubj	_
+32	Hillyer	H	sg=sg|n=n	31	flat	_
+33	ja	J	_	34	cc	_
+34	Nigel	H	sg=sg|n=n	31	conj	_
+35	Shaw	H	sg=sg|n=n	34	flat	_
+36	toodavad	V	vad=vad	28	acl:relcl	_
+37	,	Z	_	36	punct	_
+38	on	V	b=b	40	cop	_
+39	täpselt	D	_	40	advmod	_
+40	seesama	P	sg=sg|n=n	0	root	_
+41	,	Z	_	43	punct	_
+42	mis	P	pl=pl|n=n	43	nmod	_
+43	vaibakloppimine	S	sg=sg|n=n	40	acl:relcl	_
+44	,	Z	_	47	punct	_
+45	just	I	_	46	advmod	_
+46	samavõrra	D	_	47	advmod	_
+47	vaimne	A	sg=sg|n=n	43	conj	_
+48	(	Z	_	51	punct	_
+49	umbes	D	_	51	advmod	_
+50	nagu	D	_	49	mark	_
+51	kipspea	S	sg=sg|n=n	47	parataxis	_
+52	)	Z	_	51	punct	_
+53	ja	J	_	55	cc	_
+54	niisama	D	_	55	advmod	_
+55	väärtusetu	A	sg=sg|g=g	40	conj	_
+56	.	Z	_	40	punct	_
+
+# sent_id = 390513
+# text = Milline oleks hundid söönud , lambad alles-lahendus ?
+1	Milline	P	sg=sg|n=n	4	nsubj	CHECK
+2	oleks	V	ks=ks	4	aux	_
+3	hundid	S	pl=pl|n=n	4	obj	_
+4	söönud	A	_	0	root	_
+5	,	Z	_	7	punct	_
+6	lambad	S	pl=pl|n=n	7	obj	_
+7	alles-lahendus	V	s=s	4	conj	_
+8	?	Z	_	4	punct	_
+
+# sent_id = 1569287
+# text = Vägagi vajalik on suitsetajate sundimine söögikohas teise nurka , et nad mittesuitsetaja isu ja riideid ära ei rikuks .
+1	Vägagi	D	_	2	advmod	_
+2	vajalik	A	sg=sg|n=n	0	root	_
+3	on	V	b=b	2	cop	_
+4	suitsetajate	S	pl=pl|g=g	5	nmod	_
+5	sundimine	S	sg=sg|n=n	2	nsubj:cop	_
+6	söögikohas	S	sg=sg|in=in	8	nmod	_
+7	teise	P	adt=adt	8	amod	_
+8	nurka	S	adt=adt	2	nsubj:cop	_
+9	,	Z	_	18	punct	_
+10	et	J	_	18	mark	_
+11	nad	P	pl=pl|n=n	18	nsubj	_
+12	mittesuitsetaja	S	sg=sg|n=n	13	nmod	CHECK
+13	isu	S	sg=sg|p=p	18	obj	_
+14	ja	J	_	15	cc	_
+15	riideid	S	pl=pl|p=p	13	conj	_
+16	ära	D	_	18	compound:prt	_
+17	ei	V	neg=neg	18	aux	_
+18	rikuks	V	ks=ks	2	advcl	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 956629
+# text = See küsimus pingestab ELi suhteid maailma suurima GM põllumajandussaaduste tootja USAga .
+1	See	P	sg=sg|n=n	2	det	_
+2	küsimus	S	sg=sg|n=n	3	nsubj	_
+3	pingestab	V	b=b	0	root	_
+4	ELi	Y	sg=sg|g=g	5	nmod	_
+5	suhteid	S	pl=pl|p=p	3	obj	_
+6	maailma	S	sg=sg|g=g	9	nmod	_
+7	suurima	U	sg=sg|g=g	9	amod	_
+8	GM	Y	?=?	9	nmod	_
+9	põllumajandussaaduste	S	pl=pl|g=g	10	nmod	_
+10	tootja	S	sg=sg|n=n	3	nsubj	CHECK
+11	USAga	Y	sg=sg|kom=kom	10	appos	_
+12	.	Z	_	3	punct	_
+
+# sent_id = 6459144
+# text = Samas oli too nõue kirjas nii auto välja loosinud Kroonikeskuse koduleheküljel , kohalikus lehes kui ka võiduauto juures olnud tahvlil .
+1	Samas	D	_	5	advmod	_
+2	oli	V	s=s	5	cop	_
+3	too	P	sg=sg|n=n	4	det	_
+4	nõue	S	sg=sg|n=n	5	nsubj:cop	_
+5	kirjas	S	sg=sg|in=in	0	root	_
+6	nii	D	_	11	cc:preconj	_
+7	auto	S	sg=sg|n=n	9	obj	CHECK
+8	välja	D	_	9	compound:prt	_
+9	loosinud	V	nud=nud	10	acl	_
+10	Kroonikeskuse	S	sg=sg|g=g	11	nmod	_
+11	koduleheküljel	S	sg=sg|ad=ad	5	nsubj:cop	_
+12	,	Z	_	14	punct	_
+13	kohalikus	A	sg=sg|in=in	14	amod	_
+14	lehes	S	sg=sg|in=in	11	conj	_
+15	kui	D	_	17	cc	_
+16	ka	D	_	17	advmod	_
+17	võiduauto	S	sg=sg|g=g	14	conj	_
+18	juures	K	_	17	case	_
+19	olnud	A	sg=sg|n=n	20	acl	_
+20	tahvlil	S	sg=sg|ad=ad	5	nsubj:cop	_
+21	.	Z	_	5	punct	_
+
+# sent_id = 1639622
+# text = Kalev saatis koduteele alla kahemeetrise Lorraine Cleyburni , võõrjõuks sooviti pikemat meest .
+1	Kalev	H	sg=sg|n=n	2	nsubj	_
+2	saatis	V	s=s	0	root	_
+3	koduteele	S	sg=sg|all=all	2	obj	_
+4	alla	D	_	2	compound:prt	_
+5	kahemeetrise	A	sg=sg|g=g	6	amod	_
+6	Lorraine	H	sg=sg|n=n	2	obj	CHECK
+7	Cleyburni	H	sg=sg|n=n	6	flat	_
+8	,	Z	_	10	punct	_
+9	võõrjõuks	S	sg=sg|tr=tr	10	obj	_
+10	sooviti	V	ti=ti	2	conj	_
+11	pikemat	C	sg=sg|p=p	12	amod	_
+12	meest	S	sg=sg|p=p	10	nsubj	_
+13	.	Z	_	2	punct	_
+
+# sent_id = 13576198
+# text = " Kui maa oleks sama tugevusega kõikunud Tallinnas , " märgib Heinloo , " siis tekitanuks see paraja paanika .
+1	"	Z	_	7	punct	_
+2	Kui	J	_	7	mark	_
+3	maa	S	sg=sg|n=n	7	nsubj	_
+4	oleks	V	ks=ks	7	aux	_
+5	sama	P	sg=sg|g=g	6	det	_
+6	tugevusega	S	sg=sg|kom=kom	7	obj	_
+7	kõikunud	A	sg=sg|n=n	0	root	_
+8	Tallinnas	H	sg=sg|in=in	7	obl	_
+9	,	Z	_	7	punct	_
+10	"	Z	_	7	punct	_
+11	märgib	V	b=b	7	parataxis	_
+12	Heinloo	H	sg=sg|n=n	11	nsubj	_
+13	,	Z	_	16	punct	_
+14	"	Z	_	16	punct	_
+15	siis	D	_	16	advmod	_
+16	tekitanuks	V	nuks=nuks	11	parataxis	_
+17	see	P	sg=sg|n=n	16	nsubj	_
+18	paraja	A	sg=sg|g=g	19	amod	_
+19	paanika	S	sg=sg|n=n	16	obj	CHECK
+20	.	Z	_	7	punct	_
+
+# sent_id = 3388775
+# text = Rohkem kui siiras koostöösoov sunnib pankureid taga teadmine , et järgmisel aastal tuleb edukaks tegutsemiseks senisest võimsamaks saada .
+1	Rohkem	D	_	5	advmod	_
+2	kui	D	_	4	mark	_
+3	siiras	A	sg=sg|n=n	4	amod	_
+4	koostöösoov	S	sg=sg|n=n	5	nsubj	_
+5	sunnib	V	b=b	0	root	_
+6	pankureid	S	pl=pl|p=p	5	obl	_
+7	taga	D	_	5	compound:prt	_
+8	teadmine	S	sg=sg|n=n	5	obj	CHECK
+9	,	Z	_	13	punct	_
+10	et	J	_	13	mark	_
+11	järgmisel	A	sg=sg|ad=ad	12	amod	_
+12	aastal	S	sg=sg|ad=ad	13	obl	_
+13	tuleb	V	b=b	8	acl	_
+14	edukaks	A	sg=sg|tr=tr	15	amod	_
+15	tegutsemiseks	S	sg=sg|tr=tr	18	obj	_
+16	senisest	A	sg=sg|el=el	17	amod	_
+17	võimsamaks	C	sg=sg|tr=tr	18	obj	_
+18	saada	V	da=da	13	csubj	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 12829213
+# text = Paraku ei saa ma seda kontrollida tollal kolistas ta kusagil Colombia kandis ringi , nüüd alles läheneb Eestile .
+1	Paraku	D	_	6	advmod	_
+2	ei	V	neg=neg	6	aux	_
+3	saa	V	o=o	6	aux	_
+4	ma	P	sg=sg|n=n	6	nsubj	_
+5	seda	P	sg=sg|p=p	6	obj	_
+6	kontrollida	V	da=da	0	root	_
+7	tollal	D	_	6	advmod	_
+8	kolistas	V	s=s	6	obj	_
+9	ta	P	sg=sg|n=n	12	nsubj	_
+10	kusagil	D	_	12	advmod	_
+11	Colombia	H	sg=sg|n=n	12	obj	CHECK
+12	kandis	V	s=s	6	conj	_
+13	ringi	D	_	12	compound:prt	_
+14	,	Z	_	17	punct	_
+15	nüüd	D	_	17	advmod	_
+16	alles	D	_	17	advmod	_
+17	läheneb	V	b=b	6	conj	_
+18	Eestile	H	sg=sg|all=all	17	nsubj	_
+19	.	Z	_	6	punct	_
+
+# sent_id = 3522379
+# text = Kiljaki ütluste kohaselt kauples ta nimetatud summa Leshtshitski abiga 17.000 dollarini alla .
+1	Kiljaki	H	sg=sg|g=g	2	nmod	_
+2	ütluste	S	pl=pl|g=g	4	obl	_
+3	kohaselt	K	_	2	case	_
+4	kauples	V	s=s	0	root	_
+5	ta	P	sg=sg|g=g	4	nsubj	_
+6	nimetatud	A	pl=pl|n=n	7	acl	_
+7	summa	S	sg=sg|n=n	4	obj	CHECK
+8	Leshtshitski	H	sg=sg|g=g	9	nmod	_
+9	abiga	S	sg=sg|kom=kom	4	obj	_
+10	17.000	N	?=?	11	nummod	_
+11	dollarini	S	sg=sg|ter=ter	4	obl	_
+12	alla	D	_	11	case	_
+13	.	Z	_	4	punct	_
+
+# sent_id = 8643776
+# text = Linnavalitsuse linnavaraosakonna pearaamatupidaja Ester Pendarova kinnitas eespool öeldut : elamujaoskonnad ei taotle remondiraha ühestki valitsuse fondist ega looda pankadelt laenuraha , mida oleks korteriühistutel võimalik kasutada elamute korrastamiseks .
+1	Linnavalitsuse	S	sg=sg|g=g	2	nmod	_
+2	linnavaraosakonna	S	sg=sg|g=g	3	nmod	_
+3	pearaamatupidaja	S	sg=sg|n=n	6	nsubj	_
+4	Ester	H	sg=sg|n=n	3	appos	_
+5	Pendarova	H	sg=sg|n=n	4	flat	_
+6	kinnitas	V	s=s	0	root	_
+7	eespool	D	_	8	advmod	_
+8	öeldut	S	sg=sg|p=p	6	obj	_
+9	:	Z	_	12	punct	_
+10	elamujaoskonnad	S	pl=pl|n=n	12	nsubj	_
+11	ei	V	neg=neg	12	aux	_
+12	taotle	V	o=o	6	parataxis	_
+13	remondiraha	S	sg=sg|g=g	12	obj	_
+14	ühestki	N	sg=sg|el=el	16	nummod	_
+15	valitsuse	S	sg=sg|g=g	16	nmod	_
+16	fondist	S	sg=sg|el=el	12	obj	_
+17	ega	J	_	18	cc	_
+18	looda	V	o=o	12	conj	_
+19	pankadelt	S	pl=pl|abl=abl	20	nmod	_
+20	laenuraha	S	sg=sg|n=n	18	obj	CHECK
+21	,	Z	_	25	punct	_
+22	mida	P	pl=pl|p=p	25	nsubj:cop	_
+23	oleks	V	ks=ks	25	cop	_
+24	korteriühistutel	S	pl=pl|ad=ad	25	obl	_
+25	võimalik	A	sg=sg|n=n	20	acl:relcl	_
+26	kasutada	V	da=da	25	csubj:cop	_
+27	elamute	S	pl=pl|g=g	28	nmod	_
+28	korrastamiseks	S	sg=sg|tr=tr	26	obj	_
+29	.	Z	_	6	punct	_
+
+# sent_id = 3707971
+# text = Ta ütles , et arhitekt on " Komas " tabanud hästi ära jalakäijate liikumissuunad .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	ütles	V	s=s	0	root	_
+3	,	Z	_	10	punct	_
+4	et	J	_	10	mark	_
+5	arhitekt	S	sg=sg|n=n	10	nsubj	_
+6	on	V	vad=vad	10	aux	_
+7	"	Z	_	8	punct	_
+8	Komas	H	sg=sg|n=n	10	obj	CHECK
+9	"	Z	_	8	punct	_
+10	tabanud	A	_	2	ccomp	_
+11	hästi	D	_	10	advmod	_
+12	ära	D	_	10	compound:prt	_
+13	jalakäijate	S	pl=pl|g=g	14	nmod	_
+14	liikumissuunad	S	pl=pl|n=n	10	obj	_
+15	.	Z	_	2	punct	_
+

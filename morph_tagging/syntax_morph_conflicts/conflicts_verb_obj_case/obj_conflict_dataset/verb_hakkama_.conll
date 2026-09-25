@@ -1,0 +1,494 @@
+# sent_id = 7137
+# text = Laual hakkavad silma Gianni Versace ( mõne aasta eest mõrvatud itaalia moelooja - toim ) kaubamärgi , Medusa peaga lauanõud ja kristallklaasid .
+1	Laual	S	sg=sg|ad=ad	2	nsubj	_
+2	hakkavad	V	vad=vad	0	root	_
+3	silma	S	sg=sg|g=g	2	obj	CHECK
+4	Gianni	H	sg=sg|n=n	16	nmod	_
+5	Versace	H	sg=sg|g=g	4	flat	_
+6	(	Z	_	12	punct	_
+7	mõne	P	sg=sg|g=g	8	det	_
+8	aasta	S	sg=sg|g=g	10	obl	_
+9	eest	K	_	8	case	_
+10	mõrvatud	A	sg=sg|n=n	12	acl	_
+11	itaalia	G	_	12	amod	_
+12	moelooja	S	sg=sg|g=g	4	parataxis	_
+13	-	Z	_	12	punct	_
+14	toim	Y	sg=sg|n=n	12	parataxis	_
+15	)	Z	_	12	punct	_
+16	kaubamärgi	S	sg=sg|g=g	2	nsubj	_
+17	,	Z	_	20	punct	_
+18	Medusa	H	sg=sg|g=g	19	nmod	_
+19	peaga	S	sg=sg|kom=kom	20	nmod	_
+20	lauanõud	S	pl=pl|n=n	16	conj	_
+21	ja	J	_	22	cc	_
+22	kristallklaasid	S	pl=pl|n=n	20	conj	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 702347
+# text = Kõnede katkemine ja valeühendused on 1. mail kehtima hakanud kõnealustustasu vastu protestinute peamised argumendid .
+1	Kõnede	S	pl=pl|g=g	2	nmod	_
+2	katkemine	S	sg=sg|n=n	9	obl	_
+3	ja	J	_	4	cc	_
+4	valeühendused	S	pl=pl|n=n	2	conj	_
+5	on	V	b=b	9	aux	_
+6	1.	O	?=?	7	amod	_
+7	mail	S	pl=pl|ad=ad	8	obl	_
+8	kehtima	V	ma=ma	9	nsubj	_
+9	hakanud	A	sg=sg|n=n	0	root	_
+10	kõnealustustasu	S	sg=sg|p=p	9	obl	_
+11	vastu	K	_	12	case	_
+12	protestinute	S	pl=pl|g=g	14	nmod	_
+13	peamised	A	pl=pl|n=n	14	amod	_
+14	argumendid	S	pl=pl|n=n	9	nsubj	CHECK
+15	.	Z	_	9	punct	_
+
+# sent_id = 264752
+# text = Sest seda , mis edasi sai , ei hakka ma - oma Kaitsejanna truudusest hoolimata - teile siin nelja seina vahel rääkima . ”
+1	Sest	J	_	9	mark	_
+2	seda	P	sg=sg|p=p	9	nsubj	CHECK
+3	,	Z	_	6	punct	_
+4	mis	P	sg=sg|n=n	6	nsubj	_
+5	edasi	D	_	6	compound:prt	_
+6	sai	V	s=s	2	acl:relcl	_
+7	,	Z	_	6	punct	_
+8	ei	V	neg=neg	9	aux	_
+9	hakka	V	o=o	0	root	_
+10	ma	P	sg=sg|n=n	9	nsubj	_
+11	-	Z	_	9	punct	_
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	Kaitsejanna	S	sg=sg|g=g	14	nmod	_
+14	truudusest	S	sg=sg|el=el	9	obl	_
+15	hoolimata	K	_	14	case	_
+16	-	Z	_	22	punct	_
+17	teile	P	pl=pl|all=all	22	nsubj	_
+18	siin	D	_	22	advmod	_
+19	nelja	N	sg=sg|g=g	20	nummod	_
+20	seina	S	sg=sg|g=g	22	obl	_
+21	vahel	K	_	20	case	_
+22	rääkima	V	ma=ma	9	parataxis	_
+23	.	Z	_	9	punct	_
+24	”	Z	_	9	punct	_
+
+# sent_id = 3835571
+# text = Mullu hakkasime kaitses palju paremini pihta , nüüd peame suutma oma eksimused parandada , ütles koondise peatreener Tiit Sokk .
+1	Mullu	D	_	2	advmod	_
+2	hakkasime	V	sime=sime	0	root	_
+3	kaitses	V	s=s	2	nsubj	CHECK
+4	palju	D	_	5	advmod	_
+5	paremini	D	_	2	advmod	_
+6	pihta	D	_	2	compound:prt	_
+7	,	Z	_	10	punct	_
+8	nüüd	D	_	10	advmod	_
+9	peame	V	me=me	10	aux	_
+10	suutma	V	ma=ma	2	conj	_
+11	oma	P	sg=sg|g=g	12	nmod	_
+12	eksimused	S	pl=pl|n=n	13	obj	_
+13	parandada	V	da=da	10	xcomp	_
+14	,	Z	_	15	punct	_
+15	ütles	V	s=s	2	conj	_
+16	koondise	S	sg=sg|g=g	17	nmod	_
+17	peatreener	S	sg=sg|n=n	15	nsubj	_
+18	Tiit	H	sg=sg|n=n	17	appos	_
+19	Sokk	H	sg=sg|n=n	18	flat	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 983630
+# text = " Meie olime oma uutest hindadest juba enne koosolekut teatanud , nii et ega õige hõlma ei hakka keegi . "
+1	"	Z	_	10	punct	_
+2	Meie	P	pl=pl|n=n	10	nsubj	_
+3	olime	V	sime=sime	10	aux	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	uutest	A	pl=pl|el=el	6	amod	_
+6	hindadest	S	pl=pl|el=el	10	obj	_
+7	juba	D	_	10	advmod	_
+8	enne	K	_	9	case	_
+9	koosolekut	S	sg=sg|p=p	10	obl	_
+10	teatanud	A	_	0	root	_
+11	,	Z	_	18	punct	_
+12	nii	D	_	18	advmod	_
+13	et	J	_	12	fixed	_
+14	ega	J	_	15	cc	_
+15	õige	A	sg=sg|g=g	16	amod	_
+16	hõlma	S	sg=sg|g=g	18	nsubj	CHECK
+17	ei	V	neg=neg	18	aux	_
+18	hakka	V	o=o	10	advcl	_
+19	keegi	P	sg=sg|n=n	18	nsubj	_
+20	.	Z	_	10	punct	_
+21	"	Z	_	10	punct	_
+
+# sent_id = 200415
+# text = Järelikult on raske luua infotehnoloogilist lahendit , mida arst kasutama hakkaks , kui ei arvestata arsti vajadust surve all kõverkeelseid küsimusi teha .
+1	Järelikult	D	_	3	advmod	_
+2	on	V	b=b	3	cop	_
+3	raske	A	sg=sg|n=n	0	root	_
+4	luua	V	da=da	3	csubj:cop	_
+5	infotehnoloogilist	A	sg=sg|p=p	6	amod	_
+6	lahendit	S	sg=sg|p=p	4	obj	_
+7	,	Z	_	11	punct	_
+8	mida	P	pl=pl|p=p	11	nsubj	CHECK
+9	arst	S	sg=sg|n=n	10	obj	_
+10	kasutama	V	ma=ma	11	xcomp	_
+11	hakkaks	V	ks=ks	6	acl:relcl	_
+12	,	Z	_	15	punct	_
+13	kui	D	_	15	mark	_
+14	ei	V	neg=neg	15	aux	_
+15	arvestata	V	ta=ta	11	advcl	_
+16	arsti	S	sg=sg|g=g	17	nmod	_
+17	vajadust	S	sg=sg|p=p	15	obj	_
+18	surve	S	sg=sg|g=g	22	obl	_
+19	all	K	_	18	case	_
+20	kõverkeelseid	A	pl=pl|p=p	21	amod	_
+21	küsimusi	S	pl=pl|p=p	22	obj	_
+22	teha	V	da=da	17	acl	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 3774855
+# text = Komisjon tegeleb versiooniga , mille kohaselt raudtee infrastruktuuri hakkaks aktsiate tagasiostu korral haldama Tallinna Sadam .
+1	Komisjon	H	sg=sg|n=n	2	nsubj	_
+2	tegeleb	V	b=b	0	root	_
+3	versiooniga	S	sg=sg|kom=kom	2	nsubj	_
+4	,	Z	_	9	punct	_
+5	mille	P	sg=sg|g=g	9	obl	_
+6	kohaselt	K	_	5	case	_
+7	raudtee	S	sg=sg|g=g	8	nmod	_
+8	infrastruktuuri	S	sg=sg|g=g	9	nsubj	CHECK
+9	hakkaks	V	ks=ks	3	acl:relcl	_
+10	aktsiate	S	pl=pl|g=g	11	nmod	_
+11	tagasiostu	S	sg=sg|g=g	13	obl	_
+12	korral	K	_	11	case	_
+13	haldama	V	ma=ma	9	xcomp	_
+14	Tallinna	H	sg=sg|g=g	15	nmod	_
+15	Sadam	S	sg=sg|n=n	13	obj	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 44116
+# text = Tema oli ka idanema hakanud loos aktiivsem pool .
+1	Tema	P	sg=sg|n=n	5	nsubj	_
+2	oli	V	s=s	5	aux	_
+3	ka	D	_	4	advmod	_
+4	idanema	V	ma=ma	5	obl	_
+5	hakanud	A	_	0	root	_
+6	loos	S	sg=sg|in=in	8	nmod	_
+7	aktiivsem	C	sg=sg|n=n	8	amod	_
+8	pool	S	sg=sg|n=n	5	obl	CHECK
+9	.	Z	_	5	punct	_
+
+# sent_id = 1002385
+# text = " Valge wc-pott hakkaks aknas liialt silma ning juhiks tähelepanu Jeesuselt kõrvale .
+1	"	Z	_	4	punct	_
+2	Valge	A	sg=sg|n=n	3	amod	_
+3	wc-pott	S	sg=sg|n=n	4	nsubj	_
+4	hakkaks	V	ks=ks	0	root	_
+5	aknas	S	sg=sg|in=in	4	obj	_
+6	liialt	D	_	4	advmod	_
+7	silma	S	sg=sg|g=g	4	obj	CHECK
+8	ning	J	_	9	cc	_
+9	juhiks	S	sg=sg|tr=tr	4	conj	_
+10	tähelepanu	S	sg=sg|n=n	9	obj	_
+11	Jeesuselt	H	sg=sg|abl=abl	9	obl	_
+12	kõrvale	D	_	9	compound:prt	_
+13	.	Z	_	4	punct	_
+
+# sent_id = 15163318
+# text = Vaatamata kõigele tahab Mölder punktikohale jõuda , kuid ei enamat : « Hullu me ajama ei hakka , pole selleks kogemusi .
+1	Vaatamata	K	_	2	case	_
+2	kõigele	P	sg=sg|all=all	3	nsubj	_
+3	tahab	V	b=b	0	root	_
+4	Mölder	H	sg=sg|n=n	3	nsubj	_
+5	punktikohale	S	sg=sg|all=all	6	obl	_
+6	jõuda	V	da=da	3	xcomp	_
+7	,	Z	_	10	punct	_
+8	kuid	J	_	10	cc	_
+9	ei	V	neg=neg	10	advmod	_
+10	enamat	C	sg=sg|p=p	3	conj	_
+11	:	Z	_	17	punct	_
+12	«	Z	_	17	punct	_
+13	Hullu	V	o=o	17	aux	CHECK
+14	me	P	pl=pl|n=n	17	nsubj	_
+15	ajama	V	ma=ma	17	xcomp	_
+16	ei	V	neg=neg	17	aux	_
+17	hakka	V	o=o	10	parataxis	_
+18	,	Z	_	19	punct	_
+19	pole	V	neg=neg|o=o	17	conj	_
+20	selleks	P	sg=sg|tr=tr	21	det	_
+21	kogemusi	S	pl=pl|p=p	19	nsubj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 30220
+# text = Kas parteid pole sind kui tegusat naist värbama hakanud ?
+1	Kas	D	_	9	advmod	_
+2	parteid	S	sg=sg|p=p	9	nsubj	_
+3	pole	V	neg=neg|o=o	9	aux	_
+4	sind	P	sg=sg|p=p	9	nsubj	CHECK
+5	kui	D	_	7	mark	_
+6	tegusat	A	sg=sg|p=p	7	amod	_
+7	naist	S	sg=sg|p=p	4	advcl	_
+8	värbama	V	ma=ma	9	advcl	_
+9	hakanud	A	sg=sg|n=n	0	root	_
+10	?	Z	_	9	punct	_
+
+# sent_id = 23586
+# text = Olen nüüd roh-kem oma elu üle jä-re-le mõt-le-ma ha-ka-nud ning mu prio-ri-tee-did on muu-tu-nud . ”
+1	Olen	V	n=n	9	aux	_
+2	nüüd	D	_	9	advmod	_
+3	roh-kem	D	_	9	advmod	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	elu	S	sg=sg|g=g	9	obl	CHECK
+6	üle	K	_	5	case	_
+7	jä-re-le	D	_	8	advmod	_
+8	mõt-le-ma	V	ma=ma	9	xcomp	_
+9	ha-ka-nud	V	nud=nud	0	root	_
+10	ning	J	_	14	cc	_
+11	mu	P	sg=sg|g=g	12	nmod	_
+12	prio-ri-tee-did	S	pl=pl|n=n	14	nsubj	_
+13	on	V	b=b	14	aux	_
+14	muu-tu-nud	A	sg=sg|n=n	9	conj	_
+15	.	Z	_	9	punct	_
+16	”	Z	_	9	punct	_
+
+# sent_id = 5125164
+# text = USA ja Kanada teadlased avastasid , et maailma suurim sisevete kogum , Ühendriikide ja Kanada territooriumil paiknev Suur järvistu on end reostusest ise puhastama hakanud , mürgiseid aineid sõna otseses mõttes õhku hingates ; nüüd huvitab teadlasi ja keskkonnakaitsjaid , kas ja kuidas saaks selline isepuhastus toimida mujalgi , kirjutab Raadio Vaba Euroopa .
+1	USA	Y	?=?	4	nmod	_
+2	ja	J	_	3	cc	_
+3	Kanada	H	sg=sg|g=g	1	conj	_
+4	teadlased	S	pl=pl|n=n	5	nsubj	_
+5	avastasid	V	sid=sid	0	root	_
+6	,	Z	_	25	punct	_
+7	et	J	_	25	mark	_
+8	maailma	S	sg=sg|g=g	10	nmod	_
+9	suurim	U	sg=sg|n=n	10	amod	_
+10	sisevete	S	pl=pl|g=g	11	nmod	_
+11	kogum	S	sg=sg|n=n	25	nsubj	_
+12	,	Z	_	13	punct	_
+13	Ühendriikide	H	pl=pl|g=g	11	conj	_
+14	ja	J	_	19	cc	_
+15	Kanada	H	sg=sg|g=g	16	nmod	_
+16	territooriumil	S	sg=sg|ad=ad	17	obl	_
+17	paiknev	A	sg=sg|n=n	19	acl	_
+18	Suur	A	sg=sg|n=n	19	amod	_
+19	järvistu	S	sg=sg|n=n	11	conj	_
+20	on	V	vad=vad	25	aux	_
+21	end	Y	?=?	25	obj	CHECK
+22	reostusest	S	sg=sg|el=el	24	obj	_
+23	ise	D	_	22	nmod	_
+24	puhastama	V	ma=ma	25	advcl	_
+25	hakanud	A	sg=sg|n=n	5	ccomp	_
+26	,	Z	_	33	punct	_
+27	mürgiseid	A	pl=pl|p=p	28	amod	_
+28	aineid	S	pl=pl|p=p	33	obj	_
+29	sõna	S	sg=sg|p=p	31	nmod	_
+30	otseses	A	sg=sg|in=in	31	amod	_
+31	mõttes	S	sg=sg|in=in	33	obl	_
+32	õhku	S	adt=adt	33	compound:prt	_
+33	hingates	V	des=des	25	conj	_
+34	;	Z	_	36	punct	_
+35	nüüd	D	_	36	advmod	_
+36	huvitab	V	b=b	33	parataxis	_
+37	teadlasi	S	pl=pl|p=p	36	nsubj	_
+38	ja	J	_	39	cc	_
+39	keskkonnakaitsjaid	S	pl=pl|p=p	37	conj	_
+40	,	Z	_	47	punct	_
+41	kas	D	_	47	advmod	_
+42	ja	J	_	43	cc	_
+43	kuidas	D	_	41	conj	_
+44	saaks	V	ks=ks	47	aux	_
+45	selline	P	sg=sg|n=n	46	det	_
+46	isepuhastus	S	sg=sg|n=n	47	nsubj	_
+47	toimida	V	da=da	36	ccomp	_
+48	mujalgi	D	_	47	advmod	_
+49	,	Z	_	50	punct	_
+50	kirjutab	V	b=b	47	conj	_
+51	Raadio	H	sg=sg|n=n	50	nsubj	_
+52	Vaba	H	sg=sg|n=n	53	nmod	_
+53	Euroopa	H	sg=sg|n=n	50	nsubj	_
+54	.	Z	_	5	punct	_
+
+# sent_id = 867415
+# text = Naisnaturalismi hakkas ju Rakke korgi alt tasapisi visisema juba üle kümne aasta tagasi ( " Let's Go " , Vikerkaar 1989 , nr 11 ) , kuid , tjah , kümme aastat on kümme aastat ja kui kõik see aeg visiseb , siis nüüd korki avades pauku oodata on liiast .
+1	Naisnaturalismi	S	adt=adt	2	obj	CHECK
+2	hakkas	V	s=s	0	root	_
+3	ju	D	_	2	advmod	_
+4	Rakke	S	pl=pl|p=p	5	nmod	_
+5	korgi	S	sg=sg|g=g	2	obl	_
+6	alt	K	_	5	case	_
+7	tasapisi	D	_	8	advmod	_
+8	visisema	V	ma=ma	2	nsubj	_
+9	juba	D	_	8	advmod	_
+10	üle	K	_	12	case	_
+11	kümne	N	sg=sg|g=g	12	nummod	_
+12	aasta	S	sg=sg|g=g	8	obl	_
+13	tagasi	D	_	12	case	_
+14	(	Z	_	16	punct	_
+15	"	Z	_	16	punct	_
+16	Let's	H	sg=sg|in=in	8	parataxis	_
+17	Go	Y	?=?	16	flat	_
+18	"	Z	_	16	punct	_
+19	,	Z	_	20	punct	_
+20	Vikerkaar	H	sg=sg|n=n	16	conj	_
+21	1989	N	?=?	20	nummod	_
+22	,	Z	_	24	punct	_
+23	nr	Y	?=?	24	nmod	_
+24	11	N	?=?	16	nummod	_
+25	)	Z	_	16	punct	_
+26	,	Z	_	50	punct	_
+27	kuid	J	_	50	cc	_
+28	,	Z	_	29	punct	_
+29	tjah	I	_	32	discourse	_
+30	,	Z	_	32	punct	_
+31	kümme	N	sg=sg|n=n	32	nummod	_
+32	aastat	S	sg=sg|p=p	35	conj	_
+33	on	V	b=b	35	cop	_
+34	kümme	N	sg=sg|n=n	35	nummod	_
+35	aastat	S	sg=sg|p=p	50	obl	_
+36	ja	J	_	41	cc	_
+37	kui	D	_	41	mark	_
+38	kõik	P	sg=sg|n=n	41	nsubj	_
+39	see	P	sg=sg|n=n	40	det	_
+40	aeg	S	sg=sg|n=n	41	obl	_
+41	visiseb	V	b=b	50	advcl	_
+42	,	Z	_	50	punct	_
+43	siis	J	_	50	advmod	_
+44	nüüd	D	_	46	advmod	_
+45	korki	S	sg=sg|p=p	46	obj	_
+46	avades	V	des=des	47	acl	_
+47	pauku	S	sg=sg|p=p	50	nsubj:cop	_
+48	oodata	V	da=da	50	nsubj:cop	_
+49	on	V	b=b	50	cop	_
+50	liiast	A	sg=sg|p=p	2	conj	_
+51	.	Z	_	2	punct	_
+
+# sent_id = 45744
+# text = Mardi enda lemmikvanasõna on “ õige hõlma ei hakka keegi ” .
+1	Mardi	S	sg=sg|g=g	3	nmod	_
+2	enda	P	sg=sg|g=g	1	nmod	_
+3	lemmikvanasõna	S	sg=sg|n=n	0	root	_
+4	on	V	vad=vad	3	cop	_
+5	“	Z	_	9	punct	_
+6	õige	A	sg=sg|g=g	7	amod	_
+7	hõlma	S	sg=sg|g=g	9	nsubj	CHECK
+8	ei	V	neg=neg	9	aux	_
+9	hakka	V	o=o	3	parataxis	_
+10	keegi	P	sg=sg|n=n	9	nsubj	_
+11	”	Z	_	9	punct	_
+12	.	Z	_	3	punct	_
+
+# sent_id = 16476
+# text = “ Eelmisel sügisel , aasta tagasi , käis ta rääkimas , et ma hakkaks “ Knopkat ” iga nädal tegema , selle populaarsus oli võrreldav meelelahutussaadetega .
+1	“	Z	_	8	punct	_
+2	Eelmisel	A	sg=sg|ad=ad	3	amod	_
+3	sügisel	S	sg=sg|ad=ad	8	obl	_
+4	,	Z	_	5	punct	_
+5	aasta	S	sg=sg|g=g	3	nmod	_
+6	tagasi	D	_	5	case	_
+7	,	Z	_	8	punct	_
+8	käis	V	s=s	0	root	_
+9	ta	P	sg=sg|n=n	8	nsubj	_
+10	rääkimas	V	mas=mas	8	obl	_
+11	,	Z	_	14	punct	_
+12	et	J	_	14	mark	_
+13	ma	P	sg=sg|n=n	14	nsubj	_
+14	hakkaks	V	ks=ks	10	ccomp	_
+15	“	Z	_	16	punct	_
+16	Knopkat	H	sg=sg|n=n	14	obj	CHECK
+17	”	Z	_	16	punct	_
+18	iga	P	sg=sg|n=n	19	det	_
+19	nädal	S	sg=sg|n=n	20	obl	_
+20	tegema	V	ma=ma	14	xcomp	_
+21	,	Z	_	25	punct	_
+22	selle	P	sg=sg|g=g	23	det	_
+23	populaarsus	S	sg=sg|n=n	25	nsubj:cop	_
+24	oli	V	s=s	25	cop	_
+25	võrreldav	A	sg=sg|n=n	14	conj	_
+26	meelelahutussaadetega	S	pl=pl|kom=kom	25	obl	_
+27	.	Z	_	8	punct	_
+
+# sent_id = 1613069
+# text = Siiski on mõnel uuel tulijal suu banaanide peale vett jooksma hakanud ja tekkinud kiusatus maiuspala kotti pista .
+1	Siiski	D	_	11	advmod	_
+2	on	V	vad=vad	11	aux	_
+3	mõnel	P	sg=sg|ad=ad	5	det	_
+4	uuel	A	sg=sg|ad=ad	5	amod	_
+5	tulijal	S	sg=sg|ad=ad	11	nsubj	_
+6	suu	S	sg=sg|g=g	11	obj	CHECK
+7	banaanide	S	pl=pl|g=g	11	obl	_
+8	peale	K	_	7	case	_
+9	vett	S	sg=sg|p=p	10	obl	_
+10	jooksma	V	ma=ma	11	xcomp	_
+11	hakanud	A	_	0	root	_
+12	ja	J	_	17	cc	_
+13	tekkinud	V	nud=nud	14	acl	_
+14	kiusatus	S	sg=sg|n=n	17	obj	_
+15	maiuspala	S	sg=sg|g=g	17	obj	_
+16	kotti	S	adt=adt	17	obl	_
+17	pista	V	da=da	11	conj	_
+18	.	Z	_	11	punct	_
+
+# sent_id = 2158011
+# text = Haisu , mis vanadele tselluloositehastele omane , ei hakkavat Kunda tehas ka eritama .
+1	Haisu	S	adt=adt	9	nsubj	CHECK
+2	,	Z	_	6	punct	_
+3	mis	P	pl=pl|n=n	6	nsubj:cop	_
+4	vanadele	A	pl=pl|all=all	5	amod	_
+5	tselluloositehastele	S	pl=pl|all=all	6	obl	_
+6	omane	A	sg=sg|n=n	1	acl:relcl	_
+7	,	Z	_	6	punct	_
+8	ei	V	neg=neg	9	aux	_
+9	hakkavat	V	vat=vat	0	root	_
+10	Kunda	H	sg=sg|g=g	11	nmod	_
+11	tehas	S	sg=sg|n=n	13	obj	_
+12	ka	D	_	13	advmod	_
+13	eritama	V	ma=ma	9	xcomp	_
+14	.	Z	_	9	punct	_
+
+# sent_id = 8347522
+# text = Tuumanupu kaitseriivi ei hakka meie nimel keegi näppima ja ülejäänud asjad nagunii ei tööta .
+1	Tuumanupu	S	sg=sg|g=g	2	nmod	_
+2	kaitseriivi	S	adt=adt	4	obl	CHECK
+3	ei	V	neg=neg	4	aux	_
+4	hakka	V	o=o	0	root	_
+5	meie	P	pl=pl|g=g	4	obl	_
+6	nimel	K	_	5	case	_
+7	keegi	P	sg=sg|n=n	8	nsubj	_
+8	näppima	V	ma=ma	4	xcomp	_
+9	ja	J	_	14	cc	_
+10	ülejäänud	A	sg=sg|n=n	11	acl	_
+11	asjad	S	pl=pl|n=n	14	nsubj	_
+12	nagunii	D	_	14	advmod	_
+13	ei	V	neg=neg	14	aux	_
+14	tööta	V	o=o	4	conj	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 13895
+# text = Kõnetades mõnd armastatud staari , nagu “ meie Kiku ” või keegi Õnne tänavalt , keda pidevalt telerist nähes hakkame otsekui pereliikmeks pidama , võib sinatamine tahtmatult üle huulte lipsata .
+1	Kõnetades	V	des=des	0	root	_
+2	mõnd	P	sg=sg|p=p	4	det	_
+3	armastatud	A	_	4	acl	_
+4	staari	S	sg=sg|p=p	1	obj	_
+5	,	Z	_	9	punct	_
+6	nagu	J	_	9	mark	_
+7	“	Z	_	9	punct	_
+8	meie	P	pl=pl|g=g	9	nmod	_
+9	Kiku	S	sg=sg|n=n	4	appos	_
+10	”	Z	_	9	punct	_
+11	või	J	_	13	cc	_
+12	keegi	P	sg=sg|n=n	13	nmod	_
+13	Õnne	H	sg=sg|g=g	9	conj	_
+14	tänavalt	S	sg=sg|abl=abl	13	flat	_
+15	,	Z	_	20	punct	_
+16	keda	P	pl=pl|p=p	20	nsubj	CHECK
+17	pidevalt	D	_	20	advmod	_
+18	telerist	S	sg=sg|el=el	19	obj	_
+19	nähes	V	des=des	20	xcomp	_
+20	hakkame	V	me=me	14	acl:relcl	_
+21	otsekui	D	_	23	mark	_
+22	pereliikmeks	S	sg=sg|tr=tr	23	obj	_
+23	pidama	V	ma=ma	20	advcl	_
+24	,	Z	_	20	punct	_
+25	võib	V	b=b	30	aux	_
+26	sinatamine	S	sg=sg|n=n	30	obj	_
+27	tahtmatult	D	_	30	advmod	_
+28	üle	K	_	29	case	_
+29	huulte	S	pl=pl|g=g	30	obl	_
+30	lipsata	V	da=da	1	conj	_
+31	.	Z	_	1	punct	_
+

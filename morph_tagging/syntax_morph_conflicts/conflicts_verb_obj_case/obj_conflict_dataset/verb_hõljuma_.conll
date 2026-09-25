@@ -1,0 +1,507 @@
+# sent_id = 8043720
+# text = Tahan öelda seda , et Eestisse on ilmunud valimiskaevikud ja mitmed valimisrinded , kuid reklaamimeistrite kätt kohalike valimisvete peal ei hõlju .
+1	Tahan	V	n=n	0	root	_
+2	öelda	V	da=da	1	conj	_
+3	seda	P	sg=sg|p=p	2	nsubj	_
+4	,	Z	_	8	punct	_
+5	et	J	_	8	mark	_
+6	Eestisse	H	sg=sg|ill=ill	8	nsubj	_
+7	on	V	b=b	8	aux	_
+8	ilmunud	A	_	3	acl	_
+9	valimiskaevikud	S	pl=pl|n=n	8	obl	_
+10	ja	J	_	12	cc	_
+11	mitmed	P	pl=pl|n=n	12	nmod	_
+12	valimisrinded	S	pl=pl|n=n	9	conj	_
+13	,	Z	_	21	punct	_
+14	kuid	J	_	21	cc	_
+15	reklaamimeistrite	S	pl=pl|g=g	16	nmod	_
+16	kätt	S	sg=sg|p=p	21	obj	CHECK
+17	kohalike	A	pl=pl|g=g	18	amod	_
+18	valimisvete	S	pl=pl|g=g	21	obl	_
+19	peal	K	_	18	case	_
+20	ei	V	neg=neg	21	aux	_
+21	hõlju	V	o=o	8	conj	_
+22	.	Z	_	1	punct	_
+
+# sent_id = 12945420
+# text = Äratõukekiirus kasvab , lennutrajektoor läheb kõrgemaks , ent hüppaja ei hõlju enam mäe kohal viimaseid meetreid , nagu praeguse kombinesooni puhul .
+1	Äratõukekiirus	S	sg=sg|n=n	2	nsubj	_
+2	kasvab	V	b=b	0	root	_
+3	,	Z	_	5	punct	_
+4	lennutrajektoor	S	sg=sg|n=n	5	nsubj	_
+5	läheb	V	b=b	2	conj	_
+6	kõrgemaks	C	sg=sg|tr=tr	5	xcomp	_
+7	,	Z	_	11	punct	_
+8	ent	J	_	11	cc	_
+9	hüppaja	S	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	hõlju	V	o=o	2	conj	_
+12	enam	D	_	11	advmod	_
+13	mäe	S	sg=sg|g=g	11	obl	_
+14	kohal	K	_	13	case	_
+15	viimaseid	A	pl=pl|p=p	16	amod	_
+16	meetreid	S	pl=pl|p=p	11	obl	CHECK
+17	,	Z	_	20	punct	_
+18	nagu	J	_	20	mark	_
+19	praeguse	A	sg=sg|g=g	20	amod	_
+20	kombinesooni	S	sg=sg|g=g	11	advcl	_
+21	puhul	K	_	20	case	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 98915
+# text = Priimägi oskab keskendada pilku olulisele , pöörata tähelepanu just niisugustele asjadele ja nähtustele , mis veel tooretena õhus hõljuvad ja seal sõnastamist ootavad .
+1	Priimägi	H	sg=sg|n=n	2	nsubj	_
+2	oskab	V	b=b	0	root	_
+3	keskendada	V	da=da	4	acl	_
+4	pilku	S	sg=sg|p=p	2	obj	_
+5	olulisele	A	sg=sg|all=all	4	amod	_
+6	,	Z	_	7	punct	_
+7	pöörata	V	da=da	2	conj	_
+8	tähelepanu	S	sg=sg|p=p	7	obj	_
+9	just	D	_	10	advmod	_
+10	niisugustele	P	pl=pl|all=all	11	det	_
+11	asjadele	S	pl=pl|all=all	7	obj	_
+12	ja	J	_	13	cc	_
+13	nähtustele	S	pl=pl|all=all	11	conj	_
+14	,	Z	_	19	punct	_
+15	mis	P	sg=sg|n=n	19	nsubj	_
+16	veel	D	_	19	advmod	_
+17	tooretena	S	sg=sg|g=g	19	obj	CHECK
+18	õhus	S	sg=sg|in=in	19	obj	_
+19	hõljuvad	V	vad=vad	13	acl:relcl	_
+20	ja	J	_	23	cc	_
+21	seal	D	_	23	advmod	_
+22	sõnastamist	S	sg=sg|p=p	23	obj	_
+23	ootavad	V	vad=vad	19	conj	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 8555476
+# text = Ja võta näpust , käesolevaks hetkeks ei hõlju mu kohal selle tõotuse vaimugi !
+1	Ja	J	_	2	cc	_
+2	võta	V	o=o	0	root	_
+3	näpust	S	sg=sg|el=el	2	obj	_
+4	,	Z	_	8	punct	_
+5	käesolevaks	A	sg=sg|tr=tr	6	acl	_
+6	hetkeks	S	sg=sg|tr=tr	8	obl	_
+7	ei	V	neg=neg	8	aux	_
+8	hõlju	V	o=o	2	conj	_
+9	mu	P	sg=sg|g=g	8	obl	_
+10	kohal	K	_	9	case	_
+11	selle	P	sg=sg|g=g	13	det	_
+12	tõotuse	S	sg=sg|g=g	13	nmod	_
+13	vaimugi	S	sg=sg|p=p	8	obj	CHECK
+14	!	Z	_	2	punct	_
+
+# sent_id = 16554977
+# text = Mõlemad hõljusid lihtsa rahva kohal tol põlatud Nõukogude ajal ja kasutasid oma ametikoha hüvesid nagu seda tegi ka kolmas noorsoole eeskujuks sobimatu mees , Arnold Rüütel .
+1	Mõlemad	P	pl=pl|n=n	2	nsubj	_
+2	hõljusid	V	sid=sid	0	root	_
+3	lihtsa	A	sg=sg|g=g	4	amod	_
+4	rahva	S	sg=sg|g=g	2	obl	_
+5	kohal	K	_	4	case	_
+6	tol	P	sg=sg|ad=ad	9	det	_
+7	põlatud	A	_	9	acl	_
+8	Nõukogude	S	pl=pl|g=g	9	nmod	_
+9	ajal	K	_	2	obj	CHECK
+10	ja	J	_	11	cc	_
+11	kasutasid	V	sid=sid	2	conj	_
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	ametikoha	S	sg=sg|g=g	14	nmod	_
+14	hüvesid	S	pl=pl|p=p	11	obj	_
+15	nagu	J	_	17	mark	_
+16	seda	P	sg=sg|p=p	17	nsubj	_
+17	tegi	V	s=s	11	advcl	_
+18	ka	D	_	23	advmod	_
+19	kolmas	O	sg=sg|n=n	21	amod	_
+20	noorsoole	S	sg=sg|all=all	21	nmod	_
+21	eeskujuks	S	sg=sg|tr=tr	17	obj	_
+22	sobimatu	A	sg=sg|n=n	23	amod	_
+23	mees	S	sg=sg|n=n	17	nsubj	_
+24	,	Z	_	25	punct	_
+25	Arnold	H	sg=sg|n=n	23	appos	_
+26	Rüütel	H	sg=sg|n=n	25	flat	_
+27	.	Z	_	2	punct	_
+
+# sent_id = 1573349
+# text = Lipuvardad kalmistul , kus puhkab kes teab kui palju kihnlasi ning kus hõljub mälestusi kes teab kui paljudest kihnlastest , kes mujal maailma maadel ja meredel oma otsa leidnud .
+1	Lipuvardad	S	pl=pl|n=n	2	nmod	_
+2	kalmistul	S	sg=sg|ad=ad	0	root	_
+3	,	Z	_	5	punct	_
+4	kus	D	_	5	mark	_
+5	puhkab	V	b=b	2	acl	_
+6	kes	P	pl=pl|n=n	5	nsubj	_
+7	teab	V	b=b	5	xcomp	_
+8	kui	D	_	10	mark	_
+9	palju	D	_	10	advmod	_
+10	kihnlasi	S	pl=pl|p=p	7	advcl	_
+11	ning	J	_	13	cc	_
+12	kus	D	_	13	mark	_
+13	hõljub	V	b=b	5	conj	_
+14	mälestusi	S	pl=pl|p=p	13	nsubj	CHECK
+15	kes	P	pl=pl|n=n	16	nsubj	_
+16	teab	V	b=b	14	acl:relcl	_
+17	kui	D	_	19	mark	_
+18	paljudest	P	pl=pl|el=el	19	nmod	_
+19	kihnlastest	S	pl=pl|el=el	16	advcl	_
+20	,	Z	_	29	punct	_
+21	kes	P	sg=sg|n=n	29	nsubj	_
+22	mujal	D	_	23	advmod	_
+23	maailma	S	sg=sg|g=g	29	obl	_
+24	maadel	S	pl=pl|ad=ad	29	obj	_
+25	ja	J	_	26	cc	_
+26	meredel	S	pl=pl|ad=ad	24	conj	_
+27	oma	P	sg=sg|g=g	28	nmod	_
+28	otsa	K	_	29	obl	_
+29	leidnud	A	_	19	acl:relcl	_
+30	.	Z	_	2	punct	_
+
+# sent_id = 12499614
+# text = Hõljugu õhus lõbu ja pahelisus , eufooria ja suudlused , flirt ja glamuur !
+1	Hõljugu	V	gu=gu	0	root	_
+2	õhus	S	sg=sg|in=in	1	obj	_
+3	lõbu	S	sg=sg|n=n	1	obj	CHECK
+4	ja	J	_	5	cc	_
+5	pahelisus	S	sg=sg|n=n	3	conj	_
+6	,	Z	_	7	punct	_
+7	eufooria	S	sg=sg|n=n	3	conj	_
+8	ja	J	_	9	cc	_
+9	suudlused	S	pl=pl|n=n	3	conj	_
+10	,	Z	_	11	punct	_
+11	flirt	S	sg=sg|n=n	3	conj	_
+12	ja	J	_	13	cc	_
+13	glamuur	S	sg=sg|n=n	3	conj	_
+14	!	Z	_	1	punct	_
+
+# sent_id = 752438
+# text = Kui aga kaevajad Surnute Oaasi hauakambritesse sisenesid , hõljus õhus veel balsameerimisvõiete iidset haisu .
+1	Kui	J	_	7	mark	_
+2	aga	J	_	7	advmod	_
+3	kaevajad	S	pl=pl|n=n	7	nsubj	_
+4	Surnute	A	pl=pl|g=g	5	nmod	_
+5	Oaasi	S	sg=sg|g=g	6	nmod	_
+6	hauakambritesse	S	pl=pl|ill=ill	7	obl	_
+7	sisenesid	V	sid=sid	9	advcl	_
+8	,	Z	_	7	punct	_
+9	hõljus	V	s=s	0	root	_
+10	õhus	S	sg=sg|in=in	9	nsubj	_
+11	veel	D	_	9	advmod	_
+12	balsameerimisvõiete	S	pl=pl|g=g	14	nmod	_
+13	iidset	A	sg=sg|p=p	14	amod	_
+14	haisu	S	sg=sg|g=g	9	obj	CHECK
+15	.	Z	_	9	punct	_
+
+# sent_id = 1448059
+# text = Decoltes hõljusid eile peened lõhnad ja optimism
+1	Decoltes	H	sg=sg|n=n	2	nsubj	CHECK
+2	hõljusid	V	sid=sid	0	root	_
+3	eile	D	_	2	advmod	_
+4	peened	A	pl=pl|n=n	5	amod	_
+5	lõhnad	S	pl=pl|n=n	2	obj	_
+6	ja	J	_	7	cc	_
+7	optimism	S	sg=sg|n=n	5	conj	_
+
+# sent_id = 15226188
+# text = Ja kui vastupidist arvate , näidake kedagi , kes üle Viru keskuse hõljuks või midagi ...
+1	Ja	J	_	4	cc	_
+2	kui	D	_	4	mark	_
+3	vastupidist	A	sg=sg|p=p	4	obj	_
+4	arvate	V	te=te	6	advcl	_
+5	,	Z	_	4	punct	_
+6	näidake	V	ge=ge	0	root	_
+7	kedagi	P	sg=sg|p=p	6	nsubj	_
+8	,	Z	_	13	punct	_
+9	kes	P	pl=pl|n=n	13	nsubj	_
+10	üle	D	_	12	case	_
+11	Viru	H	sg=sg|g=g	12	nmod	_
+12	keskuse	S	sg=sg|g=g	13	obj	CHECK
+13	hõljuks	V	ks=ks	7	acl:relcl	_
+14	või	J	_	15	cc	_
+15	midagi	P	sg=sg|p=p	13	conj	_
+16	...	Z	_	6	punct	_
+
+# sent_id = 14319144
+# text = Probleem ( loe : ELi ahnus ) ei hõlju mitte niivõrd kulupeatükkide - põllumajanduse ja regionaalpoliitika rahastamise või institutsiooni peatüki arutluse - , kuivõrd just ühise juhtimise ja ELi tulupeatükkide - maksunduse ning eelarve rahastamise peatüki juures .
+1	Probleem	S	sg=sg|n=n	9	nsubj	_
+2	(	Z	_	3	punct	_
+3	loe	V	o=o	1	parataxis	_
+4	:	Z	_	3	punct	_
+5	ELi	Y	sg=sg|g=g	6	nmod	_
+6	ahnus	S	sg=sg|n=n	3	parataxis	_
+7	)	Z	_	3	punct	_
+8	ei	V	neg=neg	9	aux	_
+9	hõlju	V	o=o	0	root	_
+10	mitte	D	_	11	advmod	_
+11	niivõrd	D	_	12	advmod	_
+12	kulupeatükkide	S	pl=pl|g=g	9	nsubj	_
+13	-	Z	_	17	punct	_
+14	põllumajanduse	S	sg=sg|g=g	17	nmod	_
+15	ja	J	_	16	cc	_
+16	regionaalpoliitika	S	sg=sg|g=g	14	conj	_
+17	rahastamise	S	sg=sg|g=g	12	appos	_
+18	või	J	_	20	cc	_
+19	institutsiooni	S	sg=sg|g=g	20	nmod	_
+20	peatüki	S	sg=sg|g=g	17	conj	_
+21	arutluse	S	sg=sg|g=g	20	nmod	CHECK
+22	-	Z	_	27	punct	_
+23	,	Z	_	27	punct	_
+24	kuivõrd	D	_	27	mark	_
+25	just	D	_	27	advmod	_
+26	ühise	A	sg=sg|g=g	27	amod	_
+27	juhtimise	S	sg=sg|g=g	9	advcl	_
+28	ja	J	_	30	cc	_
+29	ELi	Y	sg=sg|g=g	30	nmod	_
+30	tulupeatükkide	S	pl=pl|g=g	27	conj	_
+31	-	Z	_	32	punct	_
+32	maksunduse	S	sg=sg|g=g	27	conj	_
+33	ning	J	_	35	cc	_
+34	eelarve	S	sg=sg|g=g	35	nmod	_
+35	rahastamise	S	sg=sg|g=g	32	conj	_
+36	peatüki	S	sg=sg|g=g	35	nmod	_
+37	juures	K	_	36	case	_
+38	.	Z	_	9	punct	_
+
+# sent_id = 270493
+# text = Ma ei jälginud vestlust väga tähelepanelikult , kui see lauast lauda hõljus ja pole mõtet selle detaile nüüd rekonstrueerida .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	jälginud	A	sg=sg|n=n	0	root	_
+4	vestlust	S	sg=sg|p=p	3	obj	_
+5	väga	D	_	6	advmod	_
+6	tähelepanelikult	D	_	3	advmod	_
+7	,	Z	_	12	punct	_
+8	kui	J	_	12	mark	_
+9	see	P	sg=sg|n=n	12	nsubj	_
+10	lauast	S	sg=sg|el=el	12	obj	_
+11	lauda	S	sg=sg|p=p	12	obl	CHECK
+12	hõljus	V	s=s	3	advcl	_
+13	ja	J	_	15	cc	_
+14	pole	V	neg=neg|o=o	15	cop	_
+15	mõtet	S	sg=sg|p=p	12	conj	_
+16	selle	P	sg=sg|g=g	17	det	_
+17	detaile	S	pl=pl|p=p	19	obj	_
+18	nüüd	D	_	19	advmod	_
+19	rekonstrueerida	V	da=da	15	csubj:cop	_
+20	.	Z	_	3	punct	_
+
+# sent_id = 15222719
+# text = Kui ta hõljuks oleks ta ju vaikselt .
+1	Kui	D	_	3	mark	_
+2	ta	P	sg=sg|n=n	3	nsubj	_
+3	hõljuks	V	ks=ks	0	root	_
+4	oleks	V	ks=ks	3	cop	_
+5	ta	P	sg=sg|n=n	3	nsubj	CHECK
+6	ju	D	_	7	advmod	_
+7	vaikselt	D	_	3	advmod	_
+8	.	Z	_	3	punct	_
+
+# sent_id = 6587296
+# text = Paul ei tõuse oma elus kõige kõrgematele parteipoliitilistele ametikohtadele ega hõlju üheski oma proosateoses eksperimenteerimise " õhutaruumi " , seni veel äraproovimata kõrguses , uudse filosoofia õhupalli küljes , mis läheb kõrgele ja kaob kuhugi ära .
+1	Paul	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	tõuse	V	o=o	0	root	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	elus	S	sg=sg|in=in	3	obl	_
+6	kõige	D	_	7	advmod	_
+7	kõrgematele	C	pl=pl|all=all	9	amod	_
+8	parteipoliitilistele	A	pl=pl|all=all	9	amod	_
+9	ametikohtadele	S	pl=pl|all=all	3	obl	_
+10	ega	J	_	11	cc	_
+11	hõlju	V	o=o	3	conj	_
+12	üheski	N	sg=sg|in=in	15	det	_
+13	oma	P	sg=sg|g=g	14	nmod	_
+14	proosateoses	S	sg=sg|in=in	15	nmod	_
+15	eksperimenteerimise	S	sg=sg|g=g	11	obj	_
+16	"	Z	_	17	punct	_
+17	õhutaruumi	S	sg=sg|g=g	15	appos	CHECK
+18	"	Z	_	17	punct	_
+19	,	Z	_	23	punct	_
+20	seni	D	_	23	advmod	_
+21	veel	D	_	22	advmod	_
+22	äraproovimata	A	_	23	amod	_
+23	kõrguses	S	sg=sg|in=in	15	conj	_
+24	,	Z	_	26	punct	_
+25	uudse	A	sg=sg|g=g	26	amod	_
+26	filosoofia	S	sg=sg|g=g	23	conj	_
+27	õhupalli	S	sg=sg|g=g	26	nmod	_
+28	küljes	K	_	27	case	_
+29	,	Z	_	31	punct	_
+30	mis	P	sg=sg|n=n	31	nsubj	_
+31	läheb	V	b=b	27	acl:relcl	_
+32	kõrgele	D	_	31	advmod	_
+33	ja	J	_	34	cc	_
+34	kaob	V	b=b	31	conj	_
+35	kuhugi	D	_	34	advmod	_
+36	ära	D	_	34	compound:prt	_
+37	.	Z	_	3	punct	_
+
+# sent_id = 665139
+# text = Nagu teletupsude taevas särav titenäoline päike hõljub tema vaim esimese Eesti Vabariigi mälestuse kohal ja kehastab väga paljudele möödunud õnnepäevi , mil eesti peekon oli kuulus üle maailma .
+1	Nagu	J	_	7	mark	_
+2	teletupsude	S	pl=pl|g=g	4	obj	_
+3	taevas	S	sg=sg|n=n	4	obl	_
+4	särav	A	sg=sg|n=n	6	acl	_
+5	titenäoline	A	sg=sg|n=n	6	amod	_
+6	päike	S	sg=sg|n=n	7	nsubj	_
+7	hõljub	V	b=b	0	root	_
+8	tema	P	sg=sg|g=g	9	nmod	_
+9	vaim	S	sg=sg|n=n	7	obj	CHECK
+10	esimese	O	sg=sg|g=g	13	amod	_
+11	Eesti	H	sg=sg|g=g	12	nmod	_
+12	Vabariigi	S	sg=sg|g=g	13	nmod	_
+13	mälestuse	S	sg=sg|g=g	7	obl	_
+14	kohal	K	_	13	case	_
+15	ja	J	_	16	cc	_
+16	kehastab	V	b=b	7	conj	_
+17	väga	D	_	18	advmod	_
+18	paljudele	P	pl=pl|all=all	20	nmod	_
+19	möödunud	A	sg=sg|n=n	20	acl	_
+20	õnnepäevi	S	pl=pl|p=p	16	obj	_
+21	,	Z	_	26	punct	_
+22	mil	D	_	26	mark	_
+23	eesti	G	_	24	amod	_
+24	peekon	S	sg=sg|n=n	26	nsubj:cop	_
+25	oli	V	s=s	26	cop	_
+26	kuulus	A	sg=sg|n=n	20	acl	_
+27	üle	D	_	28	case	_
+28	maailma	S	sg=sg|p=p	26	obl	_
+29	.	Z	_	7	punct	_
+
+# sent_id = 5870034
+# text = Kuid Frazeri raamatu auks tuleb ütelda , et mis siis , et paks - taevas ta siiski ei hõlju .
+1	Kuid	J	_	5	cc	_
+2	Frazeri	H	sg=sg|g=g	3	nmod	_
+3	raamatu	S	sg=sg|g=g	4	nmod	_
+4	auks	S	sg=sg|tr=tr	5	nsubj	_
+5	tuleb	V	b=b	0	root	_
+6	ütelda	V	da=da	5	csubj	_
+7	,	Z	_	9	punct	_
+8	et	J	_	9	mark	_
+9	mis	P	pl=pl|n=n	6	ccomp	_
+10	siis	D	_	9	advmod	_
+11	,	Z	_	19	punct	_
+12	et	J	_	19	mark	_
+13	paks	A	sg=sg|n=n	9	amod	_
+14	-	Z	_	19	punct	_
+15	taevas	S	sg=sg|n=n	19	obj	CHECK
+16	ta	P	sg=sg|n=n	19	nsubj	_
+17	siiski	D	_	19	advmod	_
+18	ei	V	neg=neg	19	aux	_
+19	hõlju	V	o=o	9	parataxis	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 1112093
+# text = Aga kogu aeg oli imeline tunne : vahel ma ei teadnud , kas see kestis minuteid või tunde , me hõljusime ühest dimensioonist teise ja päris teadvusel justkui polnudki . "
+1	Aga	J	_	3	cc	_
+2	kogu	A	_	3	det	_
+3	aeg	S	sg=sg|n=n	0	root	_
+4	oli	V	s=s	3	cop	_
+5	imeline	A	sg=sg|n=n	6	amod	_
+6	tunne	S	sg=sg|n=n	3	nsubj:cop	_
+7	:	Z	_	11	punct	_
+8	vahel	K	_	11	advmod	_
+9	ma	P	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	teadnud	A	sg=sg|n=n	3	parataxis	_
+12	,	Z	_	15	punct	_
+13	kas	D	_	15	advmod	_
+14	see	P	sg=sg|n=n	15	nsubj	_
+15	kestis	V	s=s	11	ccomp	_
+16	minuteid	S	pl=pl|p=p	15	obl	_
+17	või	J	_	18	cc	_
+18	tunde	S	pl=pl|p=p	16	conj	_
+19	,	Z	_	21	punct	_
+20	me	P	pl=pl|n=n	21	nsubj	_
+21	hõljusime	V	sime=sime	15	conj	_
+22	ühest	N	sg=sg|el=el	23	det	_
+23	dimensioonist	S	sg=sg|el=el	21	obj	_
+24	teise	P	adt=adt	21	obj	CHECK
+25	ja	J	_	27	cc	_
+26	päris	V	s=s	27	advmod	_
+27	teadvusel	S	sg=sg|ad=ad	21	conj	_
+28	justkui	D	_	29	mark	_
+29	polnudki	V	neg=neg|nud=nud	27	cop	_
+30	.	Z	_	3	punct	_
+31	"	Z	_	3	punct	_
+
+# sent_id = 352418
+# text = Selliste hulka kuuluvad üksnes füüsilised objektid , millel on võime või omadus toimida/eksisteerida maaga kokkupuudet omamata : lennuvõimelised olendid (  kull tiirutab , laugleb õhus  ) , õhusõidukid (  lennuk on juba õhus  ) , õhusarnased ja õhkkerged objektid (  õhus hõljub udu , suitsu  ;  õhus lendab lõkkesädemeid  ) .
+1	Selliste	P	pl=pl|g=g	2	det	_
+2	hulka	K	_	3	obl	_
+3	kuuluvad	V	vad=vad	0	root	_
+4	üksnes	D	_	6	advmod	_
+5	füüsilised	A	pl=pl|n=n	6	amod	_
+6	objektid	S	pl=pl|n=n	3	nsubj	_
+7	,	Z	_	8	punct	_
+8	millel	P	sg=sg|ad=ad	6	acl:relcl	_
+9	on	V	vad=vad	8	cop	_
+10	võime	S	sg=sg|n=n	8	nsubj:cop	_
+11	või	J	_	12	cc	_
+12	omadus	S	sg=sg|n=n	13	nsubj	_
+13	toimida	V	da=da	8	conj	_
+14	/	Z	_	15	punct	_
+15	eksisteerida	V	da=da	8	conj	_
+16	maaga	S	sg=sg|kom=kom	17	nmod	_
+17	kokkupuudet	S	sg=sg|p=p	18	obj	_
+18	omamata	V	mata=mata	15	conj	_
+19	:	Z	_	21	punct	_
+20	lennuvõimelised	A	pl=pl|n=n	21	amod	_
+21	olendid	S	pl=pl|n=n	18	parataxis	_
+22	(	Z	_	24	punct	_
+23	kull	S	sg=sg|n=n	24	nsubj	_
+24	tiirutab	V	b=b	21	parataxis	_
+25	,	Z	_	26	punct	_
+26	laugleb	V	b=b	24	conj	_
+27	õhus	S	sg=sg|in=in	26	obj	_
+28	)	Z	_	24	punct	_
+29	,	Z	_	30	punct	_
+30	õhusõidukid	S	pl=pl|n=n	21	conj	_
+31	(	Z	_	35	punct	_
+32	lennuk	S	sg=sg|n=n	35	nsubj:cop	_
+33	on	V	vad=vad	35	cop	_
+34	juba	D	_	35	advmod	_
+35	õhus	S	sg=sg|in=in	30	parataxis	_
+36	)	Z	_	35	punct	_
+37	,	Z	_	41	punct	_
+38	õhusarnased	A	pl=pl|n=n	41	amod	_
+39	ja	J	_	40	cc	_
+40	õhkkerged	A	pl=pl|n=n	38	conj	_
+41	objektid	S	pl=pl|n=n	21	conj	_
+42	(	Z	_	44	punct	_
+43	õhus	S	sg=sg|in=in	44	nsubj	_
+44	hõljub	V	b=b	41	parataxis	_
+45	udu	S	sg=sg|n=n	44	nsubj	_
+46	,	Z	_	47	punct	_
+47	suitsu	S	adt=adt	45	conj	CHECK
+48	;	Z	_	50	punct	_
+49	õhus	S	sg=sg|in=in	50	nsubj	_
+50	lendab	V	b=b	44	conj	_
+51	lõkkesädemeid	S	pl=pl|p=p	50	obl	_
+52	)	Z	_	44	punct	_
+53	.	Z	_	3	punct	_
+
+# sent_id = 15362381
+# text = Mereinstituudi direktori Ahto Järviku sõnul on sinivetikaid praegu mereinstituudi andmeil leitud Pärnu lahest , kus vetikad hõljuvad poole kuni kilomeetri kaugusel rannaveest .
+1	Mereinstituudi	S	sg=sg|g=g	2	nmod	_
+2	direktori	S	sg=sg|g=g	5	nmod	_
+3	Ahto	H	sg=sg|n=n	2	appos	_
+4	Järviku	H	sg=sg|g=g	3	flat	_
+5	sõnul	S	pl=pl|ad=ad	11	obl	_
+6	on	V	vad=vad	11	aux	_
+7	sinivetikaid	S	pl=pl|p=p	11	obj	_
+8	praegu	D	_	11	advmod	_
+9	mereinstituudi	S	sg=sg|g=g	10	nmod	_
+10	andmeil	S	pl=pl|ad=ad	11	obl	_
+11	leitud	A	_	0	root	_
+12	Pärnu	H	sg=sg|g=g	13	nmod	_
+13	lahest	S	sg=sg|el=el	11	obl	_
+14	,	Z	_	17	punct	_
+15	kus	D	_	17	mark	_
+16	vetikad	S	pl=pl|n=n	17	nsubj	_
+17	hõljuvad	V	vad=vad	13	acl	_
+18	poole	K	_	17	obl	CHECK
+19	kuni	K	_	20	advmod	_
+20	kilomeetri	S	sg=sg|g=g	17	obl	_
+21	kaugusel	K	_	20	case	_
+22	rannaveest	S	sg=sg|el=el	17	obj	_
+23	.	Z	_	11	punct	_
+

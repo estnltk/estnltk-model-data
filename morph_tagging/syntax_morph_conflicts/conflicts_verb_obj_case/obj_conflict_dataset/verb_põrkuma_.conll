@@ -1,0 +1,387 @@
+# sent_id = 5255667
+# text = Sealt põrkus pall auti , ent nii Rivaali mängijate kui mitmete pealtvaatajate nägemuse kohaselt riivas mänguvahend enne uuesti Kurikut .
+1	Sealt	D	_	2	advmod	_
+2	põrkus	V	s=s	0	root	_
+3	pall	S	sg=sg|n=n	2	nsubj	_
+4	auti	S	adt=adt	2	obl	CHECK
+5	,	Z	_	15	punct	_
+6	ent	J	_	15	cc	_
+7	nii	D	_	9	cc:preconj	_
+8	Rivaali	H	sg=sg|g=g	9	nmod	_
+9	mängijate	S	pl=pl|g=g	15	nsubj	_
+10	kui	J	_	13	cc	_
+11	mitmete	P	pl=pl|g=g	13	det	_
+12	pealtvaatajate	S	pl=pl|g=g	13	nmod	_
+13	nägemuse	S	sg=sg|g=g	9	conj	_
+14	kohaselt	K	_	13	case	_
+15	riivas	V	s=s	2	conj	_
+16	mänguvahend	S	sg=sg|n=n	15	obj	_
+17	enne	D	_	15	advmod	_
+18	uuesti	D	_	15	advmod	_
+19	Kurikut	H	sg=sg|p=p	15	obl	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 8977643
+# text = Kirjastuse eripära tõttu põrkuvad nad saladuslikule templirüütlite ürikule ajast 1344 pKr , kus jutustatakse iga 120 aasta tagant toimuvast kolmekümne kuue “ nähtamatu ” - kes on templirüütlite vaimsed järeltulijad - kokkutulekust aastani 2000 , mille eesmärgiks on muidugi saavutada ülemvõim kogu maailma üle .
+1	Kirjastuse	S	sg=sg|g=g	2	nmod	_
+2	eripära	S	sg=sg|n=n	4	obl	_
+3	tõttu	K	_	2	case	_
+4	põrkuvad	V	vad=vad	0	root	_
+5	nad	P	pl=pl|n=n	4	nsubj	_
+6	saladuslikule	A	sg=sg|all=all	7	amod	_
+7	templirüütlite	S	pl=pl|g=g	4	obj	_
+8	ürikule	S	sg=sg|all=all	4	obl	_
+9	ajast	S	sg=sg|el=el	4	obl	_
+10	1344	N	?=?	11	nummod	_
+11	pKr	Y	?=?	4	obj	CHECK
+12	,	Z	_	14	punct	_
+13	kus	D	_	14	mark	_
+14	jutustatakse	V	takse=takse	4	advcl	_
+15	iga	P	sg=sg|g=g	16	det	_
+16	120	N	?=?	17	nummod	_
+17	aasta	S	sg=sg|g=g	19	obl	_
+18	tagant	K	_	17	case	_
+19	toimuvast	A	sg=sg|el=el	23	acl	_
+20	kolmekümne	N	sg=sg|g=g	21	compound	_
+21	kuue	N	sg=sg|g=g	23	nummod	_
+22	“	Z	_	23	punct	_
+23	nähtamatu	S	sg=sg|n=n	14	nsubj	_
+24	”	Z	_	23	punct	_
+25	-	Z	_	26	punct	_
+26	kes	P	sg=sg|n=n	23	acl:relcl	_
+27	on	V	vad=vad	26	cop	_
+28	templirüütlite	S	pl=pl|g=g	30	nmod	_
+29	vaimsed	A	pl=pl|n=n	30	amod	_
+30	järeltulijad	S	pl=pl|n=n	26	nsubj:cop	_
+31	-	Z	_	32	punct	_
+32	kokkutulekust	S	sg=sg|el=el	30	appos	_
+33	aastani	S	sg=sg|ter=ter	32	nmod	_
+34	2000	N	?=?	33	nummod	_
+35	,	Z	_	37	punct	_
+36	mille	P	pl=pl|g=g	37	nmod	_
+37	eesmärgiks	S	sg=sg|tr=tr	40	nsubj	_
+38	on	V	b=b	40	aux	_
+39	muidugi	D	_	40	advmod	_
+40	saavutada	V	da=da	33	acl:relcl	_
+41	ülemvõim	S	sg=sg|n=n	40	obj	_
+42	kogu	A	_	43	det	_
+43	maailma	S	sg=sg|g=g	40	obl	_
+44	üle	K	_	43	case	_
+45	.	Z	_	4	punct	_
+
+# sent_id = 574014
+# text = Seepärast ongi läheduses inimene , kes saab ulatada näiteks joogiklaasi või hoolitseb selle eest , et ta vastu seina või teist inimest ei põrkuks .
+1	Seepärast	D	_	2	advmod	_
+2	ongi	V	vad=vad	0	root	_
+3	läheduses	S	sg=sg|in=in	2	nsubj	_
+4	inimene	S	sg=sg|n=n	3	nsubj:cop	_
+5	,	Z	_	8	punct	_
+6	kes	P	pl=pl|n=n	8	nsubj	_
+7	saab	V	b=b	8	aux	_
+8	ulatada	V	da=da	4	acl:relcl	_
+9	näiteks	S	sg=sg|tr=tr	10	advmod	_
+10	joogiklaasi	S	sg=sg|g=g	8	obj	_
+11	või	J	_	12	cc	_
+12	hoolitseb	V	b=b	8	conj	_
+13	selle	P	sg=sg|g=g	12	obl	_
+14	eest	K	_	13	case	_
+15	,	Z	_	24	punct	_
+16	et	J	_	24	mark	_
+17	ta	P	sg=sg|g=g	24	nsubj	_
+18	vastu	K	_	19	case	_
+19	seina	S	sg=sg|p=p	24	obl	_
+20	või	J	_	21	cc	_
+21	teist	O	sg=sg|p=p	22	amod	_
+22	inimest	S	sg=sg|p=p	24	nsubj	CHECK
+23	ei	V	neg=neg	24	aux	_
+24	põrkuks	V	ks=ks	13	acl	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 309733
+# text = Nad on põrkunud toore turumajanduse argumentidele , et üüritud saed ja mehhanismid ei tohi puhata , ” lausus  Lennart Meri  tänavu 24. veebruaril .
+1	Nad	P	pl=pl|n=n	3	nsubj	_
+2	on	V	vad=vad	3	aux	_
+3	põrkunud	V	nud=nud	0	root	_
+4	toore	S	sg=sg|n=n	5	nmod	CHECK
+5	turumajanduse	S	sg=sg|g=g	6	nmod	_
+6	argumentidele	S	pl=pl|all=all	3	obl	_
+7	,	Z	_	15	punct	_
+8	et	J	_	15	mark	_
+9	üüritud	V	tud=tud	10	acl	_
+10	saed	S	pl=pl|n=n	15	nsubj	_
+11	ja	J	_	12	cc	_
+12	mehhanismid	S	pl=pl|n=n	10	conj	_
+13	ei	V	neg=neg	15	aux	_
+14	tohi	V	o=o	15	aux	_
+15	puhata	V	da=da	6	acl	_
+16	,	Z	_	3	punct	_
+17	”	Z	_	3	punct	_
+18	lausus	V	s=s	3	parataxis	_
+19	Lennart	H	sg=sg|n=n	18	nsubj	_
+20	Meri	H	sg=sg|n=n	19	flat	_
+21	tänavu	D	_	18	advmod	_
+22	24.	O	?=?	23	amod	_
+23	veebruaril	S	sg=sg|ad=ad	18	obl	_
+24	.	Z	_	3	punct	_
+
+# sent_id = 774470
+# text = Kavatsused toota lootes valke või disainida elundeid põrkuvad tõsiste
+1	Kavatsused	S	pl=pl|n=n	2	obj	_
+2	toota	V	da=da	0	root	_
+3	lootes	V	des=des	2	conj	_
+4	valke	S	pl=pl|p=p	3	obj	_
+5	või	J	_	6	cc	_
+6	disainida	V	da=da	7	acl	_
+7	elundeid	S	pl=pl|p=p	8	obj	_
+8	põrkuvad	V	vad=vad	2	conj	_
+9	tõsiste	A	pl=pl|g=g	8	amod	CHECK
+
+# sent_id = 283666
+# text = Ta jalutas tänaval kui üks mööduja ta küünarnuki otsa põrkus .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	jalutas	V	s=s	0	root	_
+3	tänaval	S	sg=sg|ad=ad	2	obl	_
+4	kui	D	_	10	mark	_
+5	üks	P	sg=sg|n=n	6	nummod	_
+6	mööduja	S	sg=sg|n=n	10	obj	_
+7	ta	P	sg=sg|g=g	10	nsubj	CHECK
+8	küünarnuki	S	sg=sg|g=g	10	obl	_
+9	otsa	K	_	8	case	_
+10	põrkus	V	s=s	2	advcl	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 1082114
+# text = Itaalia politseinik hukkus , kui ta mootorratas põrkus maailmameister Tommi Mäkineni kehalise ettevalmistuse treeneri Pertti Siekkineniga .
+1	Itaalia	H	sg=sg|g=g	2	nmod	_
+2	politseinik	S	sg=sg|n=n	3	nsubj	_
+3	hukkus	V	s=s	0	root	_
+4	,	Z	_	8	punct	_
+5	kui	J	_	8	mark	_
+6	ta	P	sg=sg|g=g	8	nsubj	_
+7	mootorratas	S	sg=sg|n=n	8	obj	_
+8	põrkus	V	s=s	3	advcl	_
+9	maailmameister	S	sg=sg|n=n	8	obl	CHECK
+10	Tommi	H	sg=sg|n=n	9	appos	_
+11	Mäkineni	H	sg=sg|g=g	10	flat	_
+12	kehalise	A	sg=sg|g=g	13	amod	_
+13	ettevalmistuse	S	sg=sg|g=g	14	nmod	_
+14	treeneri	S	sg=sg|g=g	8	obj	_
+15	Pertti	H	sg=sg|n=n	14	appos	_
+16	Siekkineniga	H	sg=sg|kom=kom	15	flat	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 3528850
+# text = Vahepeal oli nahkkera väravaesisest saginast Sadama väravalatti põrkunud .
+1	Vahepeal	D	_	8	advmod	_
+2	oli	V	s=s	8	aux	_
+3	nahkkera	S	sg=sg|g=g	8	nsubj	_
+4	väravaesisest	S	sg=sg|el=el	5	nmod	_
+5	saginast	S	sg=sg|el=el	6	nmod	_
+6	Sadama	H	sg=sg|g=g	8	obl	_
+7	väravalatti	S	adt=adt	8	obl	CHECK
+8	põrkunud	V	nud=nud	0	root	_
+9	.	Z	_	8	punct	_
+
+# sent_id = 10145004
+# text = Kui aga Eesti Telefon on soovinud oma kaevudesse üleöö tekkinud märgistamata kaablites selgusele jõuda , on telefonikompanii peaaegu alati põrkunud vastu valitsusside jäika hoiakut , mis osutab riigisaladuse seaduse suunas .
+1	Kui	D	_	6	mark	_
+2	aga	J	_	6	advmod	_
+3	Eesti	H	sg=sg|n=n	4	nmod	_
+4	Telefon	H	sg=sg|n=n	6	nsubj	_
+5	on	V	vad=vad	6	aux	_
+6	soovinud	V	nud=nud	20	advcl	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	kaevudesse	S	pl=pl|ill=ill	10	obl	_
+9	üleöö	D	_	10	advmod	_
+10	tekkinud	A	sg=sg|n=n	12	acl	_
+11	märgistamata	A	_	12	amod	_
+12	kaablites	S	pl=pl|in=in	14	obl	_
+13	selgusele	S	sg=sg|all=all	14	obl	_
+14	jõuda	V	da=da	6	conj	_
+15	,	Z	_	6	punct	_
+16	on	V	vad=vad	20	aux	_
+17	telefonikompanii	S	sg=sg|n=n	20	nsubj	_
+18	peaaegu	D	_	19	advmod	_
+19	alati	D	_	20	advmod	_
+20	põrkunud	A	pl=pl|n=n	0	root	_
+21	vastu	K	_	22	case	_
+22	valitsusside	S	sg=sg|g=g	20	obl	_
+23	jäika	A	sg=sg|p=p	24	amod	_
+24	hoiakut	S	sg=sg|p=p	20	obl	CHECK
+25	,	Z	_	27	punct	_
+26	mis	P	sg=sg|n=n	27	nsubj	_
+27	osutab	V	b=b	24	acl:relcl	_
+28	riigisaladuse	S	sg=sg|g=g	29	nmod	_
+29	seaduse	S	sg=sg|g=g	27	obl	_
+30	suunas	K	_	29	case	_
+31	.	Z	_	20	punct	_
+
+# sent_id = 79694
+# text = 30. novembril 1954 magas 31-aastane proua Hewlett Hodges rahulikult oma kodus Sylacaugas ( Alabama , USA ) , kui läbi katuse ja lae tungis tuppa 3,9 -kilone meteoriit , mis tublisti kiirust kaotanuna põrkus vastu raadiot ja sealt voodisse .
+1	30.	O	?=?	2	amod	_
+2	novembril	S	sg=sg|ad=ad	4	obl	_
+3	1954	N	?=?	2	nummod	_
+4	magas	V	s=s	0	root	_
+5	31-aastane	A	sg=sg|n=n	6	amod	_
+6	proua	S	sg=sg|n=n	4	nsubj	_
+7	Hewlett	H	sg=sg|n=n	6	appos	_
+8	Hodges	H	sg=sg|n=n	7	flat	_
+9	rahulikult	D	_	4	advmod	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	kodus	S	sg=sg|in=in	4	obl	_
+12	Sylacaugas	H	sg=sg|n=n	11	appos	_
+13	(	Z	_	14	punct	_
+14	Alabama	H	sg=sg|n=n	12	parataxis	_
+15	,	Z	_	16	punct	_
+16	USA	Y	?=?	14	conj	_
+17	)	Z	_	14	punct	_
+18	,	Z	_	24	punct	_
+19	kui	D	_	24	mark	_
+20	läbi	D	_	21	case	_
+21	katuse	S	sg=sg|g=g	24	obl	_
+22	ja	J	_	23	cc	_
+23	lae	S	sg=sg|g=g	21	conj	_
+24	tungis	V	s=s	4	conj	_
+25	tuppa	S	adt=adt	24	obl	_
+26	3,9	N	?=?	29	nummod	_
+27	-	Z	_	28	punct	_
+28	kilone	A	sg=sg|n=n	26	conj	_
+29	meteoriit	S	sg=sg|n=n	24	nsubj	_
+30	,	Z	_	35	punct	_
+31	mis	P	sg=sg|n=n	35	nsubj	_
+32	tublisti	D	_	35	advmod	_
+33	kiirust	S	sg=sg|p=p	35	obj	CHECK
+34	kaotanuna	S	sg=sg|es=es	33	nmod	_
+35	põrkus	V	s=s	29	acl:relcl	_
+36	vastu	K	_	37	case	_
+37	raadiot	S	sg=sg|p=p	35	obl	_
+38	ja	J	_	40	cc	_
+39	sealt	D	_	40	advmod	_
+40	voodisse	S	sg=sg|ill=ill	37	conj	_
+41	.	Z	_	4	punct	_
+
+# sent_id = 3456963
+# text = Pall põrkus vv Poomist Imant Bleidelise jalale , kuid too lõi tühjast väravast lihtsalt mööda .
+1	Pall	S	sg=sg|n=n	2	nsubj	_
+2	põrkus	V	s=s	0	root	_
+3	vv	Y	?=?	2	nsubj	CHECK
+4	Poomist	S	sg=sg|p=p	3	flat	_
+5	Imant	H	sg=sg|n=n	7	nmod	_
+6	Bleidelise	H	sg=sg|g=g	5	flat	_
+7	jalale	S	sg=sg|all=all	2	obj	_
+8	,	Z	_	11	punct	_
+9	kuid	J	_	11	cc	_
+10	too	P	sg=sg|n=n	11	nsubj	_
+11	lõi	V	s=s	2	conj	_
+12	tühjast	A	sg=sg|el=el	13	amod	_
+13	väravast	S	sg=sg|el=el	11	obj	_
+14	lihtsalt	D	_	11	advmod	_
+15	mööda	D	_	11	compound:prt	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 1409146
+# text = Kolleeg Ants Juske kirjutas Eesti Päevalehes , et meil põrkuvat praegu kaks täiesti erinevat kunstimudelit : " puhas kunst " ning sotsiaalselt " angazheeritud kunst " .
+1	Kolleeg	S	sg=sg|n=n	4	nsubj	_
+2	Ants	H	sg=sg|n=n	1	appos	_
+3	Juske	H	sg=sg|n=n	2	flat	_
+4	kirjutas	V	s=s	0	root	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	Päevalehes	H	sg=sg|in=in	4	obl	_
+7	,	Z	_	10	punct	_
+8	et	J	_	10	mark	_
+9	meil	P	pl=pl|ad=ad	10	nsubj	_
+10	põrkuvat	V	vat=vat	4	ccomp	_
+11	praegu	D	_	10	advmod	_
+12	kaks	N	sg=sg|n=n	15	nummod	_
+13	täiesti	D	_	14	advmod	_
+14	erinevat	A	sg=sg|p=p	15	acl	_
+15	kunstimudelit	S	sg=sg|p=p	10	obj	CHECK
+16	:	Z	_	19	punct	_
+17	"	Z	_	19	punct	_
+18	puhas	A	sg=sg|n=n	19	amod	_
+19	kunst	S	sg=sg|n=n	15	appos	_
+20	"	Z	_	19	punct	_
+21	ning	J	_	25	cc	_
+22	sotsiaalselt	D	_	25	advmod	_
+23	"	Z	_	25	punct	_
+24	angazheeritud	A	_	25	acl	_
+25	kunst	S	sg=sg|n=n	19	conj	_
+26	"	Z	_	25	punct	_
+27	.	Z	_	4	punct	_
+
+# sent_id = 5207591
+# text = Esmalt tõrjub Given ristnurgast Ustritski löögi , pall põrkub Terehhovile , kelle löök ei tule välja - selgelt mööda .
+1	Esmalt	D	_	2	advmod	_
+2	tõrjub	V	b=b	0	root	_
+3	Given	H	sg=sg|n=n	2	nsubj	_
+4	ristnurgast	S	sg=sg|el=el	2	obj	_
+5	Ustritski	H	sg=sg|g=g	6	nmod	_
+6	löögi	S	sg=sg|g=g	2	obj	_
+7	,	Z	_	9	punct	_
+8	pall	S	sg=sg|n=n	9	obj	_
+9	põrkub	V	b=b	2	conj	_
+10	Terehhovile	H	sg=sg|n=n	9	nsubj	CHECK
+11	,	Z	_	15	punct	_
+12	kelle	P	sg=sg|g=g	15	nsubj	_
+13	löök	S	sg=sg|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	tule	V	o=o	10	acl:relcl	_
+16	välja	D	_	15	compound:prt	_
+17	-	Z	_	15	punct	_
+18	selgelt	D	_	15	advmod	_
+19	mööda	D	_	15	compound:prt	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 1205805
+# text = Väidetavalt peaminister Mart Laari vaikival toetusel tegutseva Asmeri haldusreformi üliradikaalne kava on põrkunud vastu poliitikute hirme , et enam kui 200 omavalitsuse likvideerimine röövib presidendi , kohalike ja riigikogu valimiste eel erakondadelt populaarsust .
+1	Väidetavalt	D	_	7	advmod	_
+2	peaminister	S	sg=sg|n=n	5	obl	_
+3	Mart	H	sg=sg|n=n	2	appos	_
+4	Laari	H	sg=sg|g=g	3	flat	_
+5	vaikival	A	sg=sg|ad=ad	6	acl	_
+6	toetusel	S	sg=sg|ad=ad	7	obl	_
+7	tegutseva	A	sg=sg|g=g	11	acl	_
+8	Asmeri	H	sg=sg|g=g	9	nmod	_
+9	haldusreformi	S	sg=sg|g=g	11	nmod	_
+10	üliradikaalne	A	sg=sg|n=n	11	amod	_
+11	kava	S	sg=sg|n=n	13	nsubj	_
+12	on	V	b=b	13	aux	_
+13	põrkunud	V	nud=nud	0	root	_
+14	vastu	K	_	15	case	_
+15	poliitikute	S	pl=pl|g=g	16	nmod	_
+16	hirme	S	pl=pl|p=p	13	nsubj	CHECK
+17	,	Z	_	24	punct	_
+18	et	J	_	24	mark	_
+19	enam	D	_	24	advmod	_
+20	kui	J	_	19	fixed	_
+21	200	N	?=?	22	nummod	_
+22	omavalitsuse	S	sg=sg|g=g	23	nmod	_
+23	likvideerimine	S	sg=sg|n=n	24	nsubj	_
+24	röövib	V	b=b	16	acl	_
+25	presidendi	S	sg=sg|g=g	30	nmod	_
+26	,	Z	_	30	punct	_
+27	kohalike	A	pl=pl|g=g	30	amod	_
+28	ja	J	_	29	cc	_
+29	riigikogu	S	sg=sg|g=g	27	conj	_
+30	valimiste	S	pl=pl|g=g	24	obl	_
+31	eel	K	_	30	case	_
+32	erakondadelt	S	pl=pl|abl=abl	33	nmod	_
+33	populaarsust	S	sg=sg|p=p	24	obj	_
+34	.	Z	_	13	punct	_
+
+# sent_id = 1637112
+# text = Rahvusvaheliseks skandaaliks paisunud Tallinna Keskhaigla neeruafäär põrkub Eestis vastu hämavate ametnike müüri .
+1	Rahvusvaheliseks	A	sg=sg|tr=tr	2	amod	_
+2	skandaaliks	S	sg=sg|tr=tr	3	obl	_
+3	paisunud	A	_	6	acl	_
+4	Tallinna	H	sg=sg|g=g	5	nmod	_
+5	Keskhaigla	S	sg=sg|g=g	6	nmod	_
+6	neeruafäär	S	sg=sg|n=n	7	nsubj	_
+7	põrkub	V	b=b	0	root	_
+8	Eestis	H	sg=sg|in=in	10	obl	_
+9	vastu	D	_	10	compound:prt	_
+10	hämavate	A	pl=pl|g=g	11	acl	_
+11	ametnike	S	pl=pl|g=g	12	nmod	_
+12	müüri	S	sg=sg|p=p	7	obl	CHECK
+13	.	Z	_	7	punct	_
+

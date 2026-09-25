@@ -1,0 +1,471 @@
+# sent_id = 24159
+# text = Eurolavale pürgis tänavu rekordiliselt 90 laulu , neist 40 teenisid žüriiliikmetelt ka punkte .
+1	Eurolavale	S	sg=sg|all=all	2	nsubj	_
+2	pürgis	V	s=s	0	root	_
+3	tänavu	D	_	2	advmod	_
+4	rekordiliselt	D	_	2	advmod	_
+5	90	N	?=?	6	nummod	_
+6	laulu	S	sg=sg|p=p	2	obj	CHECK
+7	,	Z	_	10	punct	_
+8	neist	P	pl=pl|el=el	9	det	_
+9	40	N	?=?	10	nsubj	_
+10	teenisid	V	sid=sid	2	conj	_
+11	žüriiliikmetelt	S	pl=pl|abl=abl	10	obj	_
+12	ka	D	_	13	advmod	_
+13	punkte	S	pl=pl|p=p	10	obj	_
+14	.	Z	_	2	punct	_
+
+# sent_id = 11867985
+# text = Kes selleks valmis pole , ärgu pürgigugi üldse 101 hulka .
+1	Kes	P	pl=pl|n=n	3	nsubj:cop	_
+2	selleks	P	sg=sg|tr=tr	3	nsubj:cop	_
+3	valmis	D	_	7	advcl	_
+4	pole	V	neg=neg|o=o	3	cop	_
+5	,	Z	_	3	punct	_
+6	ärgu	V	neg=neg|gu=gu	7	aux	_
+7	pürgigugi	V	gu=gu	0	root	_
+8	üldse	D	_	7	advmod	_
+9	101	N	?=?	10	nummod	_
+10	hulka	S	sg=sg|p=p	7	obj	CHECK
+11	.	Z	_	7	punct	_
+
+# sent_id = 806532
+# text = Nad on vanemate - isa Anatoli ja ema Rutt on samuti juunioride tiitlivõistlustelt medaleid võitnud - innustusel visalt pürginud maailma suusaeliiti .
+1	Nad	P	pl=pl|n=n	3	nsubj:cop	_
+2	on	V	vad=vad	3	cop	_
+3	vanemate	S	pl=pl|g=g	0	root	_
+4	-	Z	_	15	punct	_
+5	isa	S	sg=sg|n=n	15	nsubj	_
+6	Anatoli	H	sg=sg|n=n	5	appos	_
+7	ja	J	_	8	cc	_
+8	ema	S	sg=sg|n=n	5	conj	_
+9	Rutt	H	sg=sg|n=n	8	appos	_
+10	on	V	vad=vad	15	aux	_
+11	samuti	D	_	15	advmod	_
+12	juunioride	S	pl=pl|g=g	13	nmod	_
+13	tiitlivõistlustelt	S	pl=pl|abl=abl	14	nmod	_
+14	medaleid	S	pl=pl|p=p	15	obj	_
+15	võitnud	A	_	3	parataxis	_
+16	-	Z	_	19	punct	_
+17	innustusel	S	sg=sg|ad=ad	19	obj	_
+18	visalt	D	_	19	advmod	_
+19	pürginud	A	_	3	parataxis	_
+20	maailma	S	sg=sg|g=g	21	nmod	_
+21	suusaeliiti	S	sg=sg|p=p	19	obj	CHECK
+22	.	Z	_	3	punct	_
+
+# sent_id = 19975028
+# text = antrax: paula :))- ma ei pürgigi sellex isegi mitte - ei taha :(
+1	antrax	S	sg=sg|n=n	0	root	_
+2	:	Z	_	1	punct	_
+3	paula	S	sg=sg|n=n	1	parataxis	_
+4	:))	Z	_	3	punct	_
+5	-	Z	_	8	punct	_
+6	ma	P	sg=sg|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	pürgigi	V	o=o	1	parataxis	_
+9	sellex	S	sg=sg|n=n	8	obj	CHECK
+10	isegi	D	_	11	advmod	_
+11	mitte	D	_	8	advmod	_
+12	-	Z	_	14	punct	_
+13	ei	V	neg=neg	14	aux	_
+14	taha	V	o=o	8	parataxis	_
+15	:(	Z	_	1	punct	_
+
+# sent_id = 3445462
+# text = Aastate pärast peakski see kaitse-väes nii olema , aga hetkel on kaitseväes küll noori ohvitsere , kes on pürginud strateegia mängumaale , kuid ei tunneta taktika tähtsust .
+1	Aastate	S	pl=pl|g=g	6	obl	_
+2	pärast	K	_	1	case	_
+3	peakski	V	ks=ks	6	aux	_
+4	see	P	sg=sg|n=n	6	nsubj:cop	_
+5	kaitse-väes	S	sg=sg|in=in	6	nsubj:cop	_
+6	nii	D	_	0	root	_
+7	olema	V	ma=ma	6	cop	_
+8	,	Z	_	11	punct	_
+9	aga	J	_	10	cc	_
+10	hetkel	S	sg=sg|ad=ad	6	conj	_
+11	on	V	b=b	10	cop	_
+12	kaitseväes	S	sg=sg|in=in	10	nsubj:cop	_
+13	küll	D	_	10	advmod	_
+14	noori	A	pl=pl|p=p	15	amod	_
+15	ohvitsere	S	pl=pl|p=p	10	nsubj:cop	_
+16	,	Z	_	19	punct	_
+17	kes	P	pl=pl|n=n	19	nsubj	_
+18	on	V	b=b	19	aux	_
+19	pürginud	A	sg=sg|n=n	15	acl:relcl	_
+20	strateegia	S	sg=sg|g=g	19	obj	CHECK
+21	mängumaale	S	sg=sg|all=all	20	nmod	_
+22	,	Z	_	25	punct	_
+23	kuid	J	_	25	cc	_
+24	ei	V	neg=neg	25	aux	_
+25	tunneta	V	o=o	19	conj	_
+26	taktika	S	sg=sg|g=g	27	nmod	_
+27	tähtsust	S	sg=sg|p=p	25	obj	_
+28	.	Z	_	6	punct	_
+
+# sent_id = 585013
+# text = Ei teadnud ta midagi ka sellest , et 240 000 krooni World Visionile annetatud rahast oli kasutatud tema valimiskampaaniaks , kui ta 1996. aastal Austria Rahvapartei nimekirjas Europarlamenti pürgis ja sinna ka pääses .
+1	Ei	V	neg=neg	2	aux	_
+2	teadnud	A	pl=pl|n=n	0	root	_
+3	ta	P	sg=sg|n=n	2	nsubj	_
+4	midagi	P	sg=sg|p=p	2	obj	_
+5	ka	D	_	6	advmod	_
+6	sellest	P	sg=sg|el=el	2	obj	_
+7	,	Z	_	16	punct	_
+8	et	J	_	16	mark	_
+9	240 000	N	?=?	10	nummod	_
+10	krooni	S	sg=sg|p=p	13	obl	_
+11	World	H	sg=sg|n=n	13	obl	_
+12	Visionile	H	sg=sg|g=g	11	flat	_
+13	annetatud	A	sg=sg|n=n	14	acl	_
+14	rahast	S	sg=sg|el=el	16	obj	_
+15	oli	V	s=s	16	aux	_
+16	kasutatud	V	tud=tud	6	acl	_
+17	tema	P	sg=sg|g=g	18	nmod	_
+18	valimiskampaaniaks	S	sg=sg|tr=tr	16	obl	_
+19	,	Z	_	28	punct	_
+20	kui	J	_	28	mark	_
+21	ta	P	sg=sg|n=n	28	nsubj	_
+22	1996.	O	?=?	23	amod	_
+23	aastal	S	sg=sg|ad=ad	28	obl	_
+24	Austria	H	sg=sg|g=g	25	nmod	_
+25	Rahvapartei	H	sg=sg|g=g	26	nmod	_
+26	nimekirjas	S	sg=sg|in=in	28	obj	_
+27	Europarlamenti	S	adt=adt	28	obj	CHECK
+28	pürgis	V	s=s	16	advcl	_
+29	ja	J	_	32	cc	_
+30	sinna	D	_	32	advmod	_
+31	ka	D	_	32	advmod	_
+32	pääses	V	s=s	28	conj	_
+33	.	Z	_	2	punct	_
+
+# sent_id = 6657571
+# text = Oma kaebustes on mullu sügisel Keskerakonna nimekirjas edutult kohalikku volikokku pürginud Palover avaldanud arvamust , et Lasva valla jaoskonnakomisjon pidanuks korraldama valijatele transpordi tagamaks nende pääsemist valimisjaoskonda piirkonnas , kus vahemaad on pikad .
+1	Oma	P	sg=sg|g=g	2	nmod	_
+2	kaebustes	S	pl=pl|in=in	13	obl	_
+3	on	V	vad=vad	13	aux	_
+4	mullu	D	_	5	advmod	_
+5	sügisel	S	sg=sg|ad=ad	11	obl	_
+6	Keskerakonna	H	sg=sg|g=g	7	nmod	_
+7	nimekirjas	S	sg=sg|in=in	11	obj	_
+8	edutult	D	_	11	advmod	_
+9	kohalikku	A	sg=sg|p=p	10	amod	_
+10	volikokku	S	adt=adt	11	obj	CHECK
+11	pürginud	V	nud=nud	12	acl	_
+12	Palover	H	sg=sg|n=n	13	nsubj	_
+13	avaldanud	A	_	0	root	_
+14	arvamust	S	sg=sg|p=p	13	obj	_
+15	,	Z	_	21	punct	_
+16	et	J	_	21	mark	_
+17	Lasva	H	sg=sg|g=g	18	nmod	_
+18	valla	S	sg=sg|g=g	19	nmod	_
+19	jaoskonnakomisjon	S	sg=sg|n=n	21	obj	_
+20	pidanuks	V	nuks=nuks	21	aux	_
+21	korraldama	V	ma=ma	14	acl	_
+22	valijatele	S	pl=pl|all=all	23	nmod	_
+23	transpordi	S	sg=sg|g=g	24	obj	_
+24	tagamaks	V	maks=maks	21	conj	_
+25	nende	P	pl=pl|g=g	26	det	_
+26	pääsemist	S	sg=sg|p=p	24	obj	_
+27	valimisjaoskonda	S	adt=adt	28	nmod	_
+28	piirkonnas	S	sg=sg|in=in	24	obj	_
+29	,	Z	_	33	punct	_
+30	kus	D	_	33	mark	_
+31	vahemaad	S	pl=pl|n=n	33	nsubj:cop	_
+32	on	V	b=b	33	cop	_
+33	pikad	A	pl=pl|n=n	28	acl	_
+34	.	Z	_	13	punct	_
+
+# sent_id = 217032
+# text = Malaisia pürib valgesse maailma , mille iidoliks on USA .
+1	Malaisia	H	sg=sg|n=n	2	nsubj	_
+2	pürib	V	b=b	0	root	_
+3	valgesse	S	sg=sg|ill=ill	4	nmod	_
+4	maailma	S	sg=sg|g=g	2	obl	CHECK
+5	,	Z	_	9	punct	_
+6	mille	P	sg=sg|g=g	9	nsubj:cop	_
+7	iidoliks	S	sg=sg|tr=tr	9	nsubj:cop	_
+8	on	V	b=b	9	cop	_
+9	USA	Y	?=?	4	acl:relcl	_
+10	.	Z	_	2	punct	_
+
+# sent_id = 4011257
+# text = Pürime nelja hulka .
+1	Pürime	V	me=me	0	root	_
+2	nelja	N	sg=sg|g=g	3	nummod	_
+3	hulka	K	_	1	obl	CHECK
+4	.	Z	_	1	punct	_
+
+# sent_id = 4545085
+# text = Omaaegne Eesti koondislane ei püri enam esindusvõistkonda .
+1	Omaaegne	A	sg=sg|n=n	3	amod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	koondislane	S	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	püri	V	o=o	0	root	_
+6	enam	D	_	5	advmod	_
+7	esindusvõistkonda	S	sg=sg|p=p	5	obj	CHECK
+8	.	Z	_	5	punct	_
+
+# sent_id = 337777
+# text = Üha enam naisi Eestis pürgib Politseikooli ja -kolledžisse , et omandada politseiametniku elukutse .
+1	Üha	D	_	2	advmod	_
+2	enam	D	_	3	advmod	_
+3	naisi	S	pl=pl|p=p	5	obj	CHECK
+4	Eestis	H	sg=sg|in=in	3	appos	_
+5	pürgib	V	b=b	0	root	_
+6	Politseikooli	S	sg=sg|g=g	5	obj	_
+7	ja	J	_	9	cc	_
+8	-	Z	_	9	punct	_
+9	kolledžisse	S	sg=sg|ill=ill	6	conj	_
+10	,	Z	_	12	punct	_
+11	et	J	_	12	mark	_
+12	omandada	V	da=da	9	acl	_
+13	politseiametniku	S	sg=sg|g=g	14	nmod	_
+14	elukutse	S	sg=sg|n=n	12	obj	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 3687848
+# text = " Tasemelt nõrgemad ju enamasti kõrgkooli ei pürgi , nii nägingi esimest korda abiturientide üldist kirjandi kirjutamise oskust .
+1	"	Z	_	8	punct	_
+2	Tasemelt	S	sg=sg|abl=abl	3	nmod	_
+3	nõrgemad	C	pl=pl|n=n	8	nsubj	_
+4	ju	D	_	8	advmod	_
+5	enamasti	D	_	8	advmod	_
+6	kõrgkooli	S	sg=sg|g=g	8	obj	CHECK
+7	ei	V	neg=neg	8	aux	_
+8	pürgi	V	o=o	0	root	_
+9	,	Z	_	11	punct	_
+10	nii	D	_	11	advmod	_
+11	nägingi	V	sin=sin	8	conj	_
+12	esimest	O	sg=sg|p=p	13	amod	_
+13	korda	S	sg=sg|p=p	11	obl	_
+14	abiturientide	S	pl=pl|g=g	16	nmod	_
+15	üldist	A	sg=sg|p=p	16	amod	_
+16	kirjandi	S	sg=sg|g=g	17	nmod	_
+17	kirjutamise	S	sg=sg|g=g	18	nmod	_
+18	oskust	S	sg=sg|p=p	11	obj	_
+19	.	Z	_	8	punct	_
+
+# sent_id = 370907
+# text = “ Vabaarmastuse ” suhtes on Tammsaare seevastu leebem kui Adson , ta leiab , et vallaline naine on sageli parem armastaja , ausam ja omakasupüüdmatum kui kavaluse vms. võtetega abiellu pürginud naine .
+1	“	Z	_	2	punct	_
+2	Vabaarmastuse	S	sg=sg|g=g	8	obl	_
+3	”	Z	_	2	punct	_
+4	suhtes	K	_	2	case	_
+5	on	V	vad=vad	8	cop	_
+6	Tammsaare	H	sg=sg|g=g	8	nsubj:cop	_
+7	seevastu	D	_	8	advmod	_
+8	leebem	C	sg=sg|n=n	0	root	_
+9	kui	D	_	10	mark	_
+10	Adson	H	sg=sg|n=n	8	advcl	_
+11	,	Z	_	13	punct	_
+12	ta	P	sg=sg|n=n	13	nsubj	_
+13	leiab	V	b=b	8	conj	_
+14	,	Z	_	21	punct	_
+15	et	J	_	21	mark	_
+16	vallaline	A	sg=sg|n=n	17	amod	_
+17	naine	S	sg=sg|n=n	21	nsubj:cop	_
+18	on	V	vad=vad	21	cop	_
+19	sageli	D	_	21	advmod	_
+20	parem	C	sg=sg|n=n	21	amod	_
+21	armastaja	S	sg=sg|n=n	13	ccomp	_
+22	,	Z	_	23	punct	_
+23	ausam	C	sg=sg|n=n	21	conj	_
+24	ja	J	_	25	cc	_
+25	omakasupüüdmatum	C	sg=sg|n=n	23	conj	_
+26	kui	D	_	28	mark	_
+27	kavaluse	S	sg=sg|g=g	28	nmod	_
+28	vms	Y	?=?	23	advcl	_
+29	.	Z	_	30	punct	_
+30	võtetega	S	pl=pl|kom=kom	32	obj	_
+31	abiellu	S	adt=adt	32	obj	CHECK
+32	pürginud	V	nud=nud	33	acl	_
+33	naine	S	sg=sg|n=n	21	conj	_
+34	.	Z	_	8	punct	_
+
+# sent_id = 8785732
+# text = “ Kui Katariina kirikus ja Katariina käigu majades asuv kunagine kinomehaanikatehas põhja läks , saime siia asutada avatud ateljeedega Katariina gildi ja sealt pürgisime Vanalinna Hariduskolleegiumi ja fondiga Hereditas juba tippkultuuri poole , ” selgitas Niitvägi .
+1	“	Z	_	17	punct	_
+2	Kui	D	_	13	mark	_
+3	Katariina	H	sg=sg|g=g	4	nmod	_
+4	kirikus	S	sg=sg|in=in	13	nsubj	_
+5	ja	J	_	6	cc	_
+6	Katariina	H	sg=sg|g=g	4	conj	_
+7	käigu	S	sg=sg|g=g	9	obl	_
+8	majades	S	pl=pl|in=in	9	obl	_
+9	asuv	A	sg=sg|n=n	11	acl	_
+10	kunagine	A	sg=sg|n=n	11	amod	_
+11	kinomehaanikatehas	S	sg=sg|n=n	13	nsubj	_
+12	põhja	S	adt=adt	13	obl	_
+13	läks	V	s=s	17	advcl	_
+14	,	Z	_	13	punct	_
+15	saime	V	sime=sime	17	aux	_
+16	siia	D	_	17	advmod	_
+17	asutada	V	da=da	0	root	_
+18	avatud	A	sg=sg|n=n	19	acl	_
+19	ateljeedega	S	pl=pl|kom=kom	17	obj	_
+20	Katariina	H	sg=sg|g=g	19	appos	_
+21	gildi	S	sg=sg|g=g	17	obj	_
+22	ja	J	_	24	cc	_
+23	sealt	D	_	24	advmod	_
+24	pürgisime	V	sime=sime	17	conj	_
+25	Vanalinna	S	sg=sg|g=g	26	nmod	_
+26	Hariduskolleegiumi	S	sg=sg|g=g	24	obj	_
+27	ja	J	_	28	cc	_
+28	fondiga	S	sg=sg|kom=kom	26	conj	_
+29	Hereditas	H	sg=sg|n=n	28	appos	CHECK
+30	juba	D	_	31	advmod	_
+31	tippkultuuri	S	sg=sg|g=g	24	obl	_
+32	poole	K	_	31	case	_
+33	,	Z	_	17	punct	_
+34	”	Z	_	17	punct	_
+35	selgitas	V	s=s	17	parataxis	_
+36	Niitvägi	H	sg=sg|n=n	35	nsubj	_
+37	.	Z	_	17	punct	_
+
+# sent_id = 828818
+# text = Times oletab , et kui kuuldused Saddami tervisest tegelikkusele vastavad , teravneb võitlus Husseini kahe poja -- 36 aastase Uday ja 34-aastane Kusay vahel , kes mõlemad pürivad presidenditoolile .
+1	Times	H	sg=sg|n=n	2	nsubj	_
+2	oletab	V	b=b	0	root	_
+3	,	Z	_	10	punct	_
+4	et	J	_	10	mark	_
+5	kui	D	_	10	mark	_
+6	kuuldused	S	pl=pl|n=n	10	nsubj	_
+7	Saddami	H	sg=sg|g=g	6	appos	_
+8	tervisest	S	sg=sg|el=el	9	nmod	_
+9	tegelikkusele	S	sg=sg|all=all	10	obj	_
+10	vastavad	V	vad=vad	12	advcl	_
+11	,	Z	_	12	punct	_
+12	teravneb	V	b=b	2	ccomp	_
+13	võitlus	S	sg=sg|n=n	12	nsubj	_
+14	Husseini	H	sg=sg|g=g	13	nmod	_
+15	kahe	N	sg=sg|g=g	16	nummod	_
+16	poja	S	sg=sg|g=g	12	obj	_
+17	--	Z	_	20	punct	_
+18	36	N	?=?	19	nummod	_
+19	aastase	A	sg=sg|g=g	20	amod	_
+20	Uday	H	sg=sg|g=g	16	appos	_
+21	ja	J	_	22	cc	_
+22	34-aastane	A	sg=sg|n=n	20	conj	_
+23	Kusay	H	sg=sg|g=g	20	conj	_
+24	vahel	K	_	20	case	_
+25	,	Z	_	28	punct	_
+26	kes	P	pl=pl|n=n	28	nsubj	_
+27	mõlemad	P	pl=pl|n=n	28	nsubj	CHECK
+28	pürivad	V	vad=vad	23	acl:relcl	_
+29	presidenditoolile	S	sg=sg|all=all	28	obj	_
+30	.	Z	_	2	punct	_
+
+# sent_id = 1064787
+# text = Venemaa naftakontsern Lukoil , mis on pikka aega pürginud USA turule , teatas sel nädalal , et on ostnud 72% Getty Petroleum Marketingi aktsiatest .
+1	Venemaa	H	sg=sg|g=g	2	nmod	_
+2	naftakontsern	S	sg=sg|n=n	13	nsubj	_
+3	Lukoil	H	sg=sg|n=n	2	appos	_
+4	,	Z	_	9	punct	_
+5	mis	P	sg=sg|n=n	9	nsubj	_
+6	on	V	b=b	9	aux	_
+7	pikka	A	sg=sg|p=p	8	amod	_
+8	aega	S	sg=sg|p=p	9	obl	CHECK
+9	pürginud	A	sg=sg|n=n	3	acl:relcl	_
+10	USA	Y	?=?	11	nmod	_
+11	turule	S	sg=sg|all=all	9	obj	_
+12	,	Z	_	9	punct	_
+13	teatas	V	s=s	0	root	_
+14	sel	P	sg=sg|ad=ad	15	det	_
+15	nädalal	S	sg=sg|ad=ad	13	obl	_
+16	,	Z	_	19	punct	_
+17	et	J	_	19	mark	_
+18	on	V	vad=vad	19	aux	_
+19	ostnud	A	_	13	ccomp	_
+20	72%	N	?=?	24	nummod	_
+21	Getty	H	sg=sg|n=n	24	nmod	_
+22	Petroleum	H	sg=sg|n=n	21	flat	_
+23	Marketingi	H	sg=sg|g=g	21	flat	_
+24	aktsiatest	S	pl=pl|el=el	19	obj	_
+25	.	Z	_	13	punct	_
+
+# sent_id = 2843465
+# text = PÜRI PÜRGIMATA .
+1	PÜRI	V	o=o	0	root	_
+2	PÜRGIMATA	A	_	1	obj	CHECK
+3	.	Z	_	1	punct	_
+
+# sent_id = 153717
+# text = Jiang Zemin , kes on koondanud enda kätte riigi kolm kõige kõrgemat ametikohta - partei peasekretäri , Hiina Rahvavabariigi esimehe ja Riikliku Kaitsekomisjoni esimehe omad , pürgib ühte ritta oma suurte eelkäijate Mao Zedongi ja Deng Xiaopingiga .
+1	Jiang	H	sg=sg|n=n	27	nsubj	_
+2	Zemin	H	sg=sg|n=n	1	flat	_
+3	,	Z	_	6	punct	_
+4	kes	P	sg=sg|n=n	6	nsubj	_
+5	on	V	b=b	6	aux	_
+6	koondanud	V	nud=nud	1	acl:relcl	_
+7	enda	P	sg=sg|g=g	6	obl	_
+8	kätte	S	adt=adt	6	obl	_
+9	riigi	S	sg=sg|g=g	13	nmod	_
+10	kolm	N	sg=sg|n=n	13	nummod	_
+11	kõige	D	_	12	advmod	_
+12	kõrgemat	C	sg=sg|p=p	13	amod	_
+13	ametikohta	S	sg=sg|p=p	6	obj	_
+14	-	Z	_	16	punct	_
+15	partei	S	sg=sg|g=g	16	nmod	_
+16	peasekretäri	S	sg=sg|g=g	13	appos	_
+17	,	Z	_	20	punct	_
+18	Hiina	H	sg=sg|g=g	19	nmod	_
+19	Rahvavabariigi	S	sg=sg|g=g	20	nmod	_
+20	esimehe	S	sg=sg|g=g	16	conj	_
+21	ja	J	_	25	cc	_
+22	Riikliku	A	sg=sg|g=g	23	amod	_
+23	Kaitsekomisjoni	S	sg=sg|g=g	24	nmod	_
+24	esimehe	S	sg=sg|g=g	25	nmod	_
+25	omad	S	pl=pl|n=n	16	conj	_
+26	,	Z	_	6	punct	_
+27	pürgib	V	b=b	0	root	_
+28	ühte	N	adt=adt	29	det	_
+29	ritta	S	adt=adt	27	nsubj	CHECK
+30	oma	P	sg=sg|g=g	32	nmod	_
+31	suurte	A	pl=pl|g=g	32	amod	_
+32	eelkäijate	S	pl=pl|g=g	27	obj	_
+33	Mao	H	sg=sg|n=n	32	appos	_
+34	Zedongi	H	sg=sg|n=n	33	flat	_
+35	ja	J	_	36	cc	_
+36	Deng	H	sg=sg|n=n	33	conj	_
+37	Xiaopingiga	H	sg=sg|kom=kom	36	flat	_
+38	.	Z	_	27	punct	_
+
+# sent_id = 2649938
+# text = Teatavasti tekkis eelmisel sügisel uue ühenderakonna moodustamise järel pingeline võitlus peaministrikandidaatiteks pürginud praeguse kaitseministri Jaak Aaviksoo ja taaskord poliitikasse suundunud Mart Laari vahel .
+1	Teatavasti	D	_	2	advmod	_
+2	tekkis	V	s=s	0	root	_
+3	eelmisel	A	sg=sg|ad=ad	4	amod	_
+4	sügisel	S	sg=sg|ad=ad	2	obl	_
+5	uue	A	sg=sg|g=g	6	amod	_
+6	ühenderakonna	S	sg=sg|g=g	7	nmod	_
+7	moodustamise	S	sg=sg|g=g	2	obl	_
+8	järel	K	_	7	case	_
+9	pingeline	A	sg=sg|n=n	10	amod	_
+10	võitlus	S	sg=sg|n=n	2	nsubj	_
+11	peaministrikandidaatiteks	S	sg=sg|n=n	12	obj	CHECK
+12	pürginud	A	sg=sg|n=n	14	acl	_
+13	praeguse	A	sg=sg|g=g	14	amod	_
+14	kaitseministri	S	sg=sg|g=g	10	nmod	_
+15	Jaak	H	sg=sg|n=n	14	appos	_
+16	Aaviksoo	H	sg=sg|g=g	15	flat	_
+17	ja	J	_	21	cc	_
+18	taaskord	D	_	20	advmod	_
+19	poliitikasse	S	sg=sg|ill=ill	20	obl	_
+20	suundunud	A	sg=sg|n=n	21	acl	_
+21	Mart	H	sg=sg|n=n	14	conj	_
+22	Laari	H	sg=sg|g=g	21	flat	_
+23	vahel	K	_	14	case	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 684828
+# text = Riigipeaks ei pürgi ükski tugev parempoolne kandidaat
+1	Riigipeaks	H	sg=sg|n=n	3	obj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	pürgi	V	o=o	0	root	_
+4	ükski	N	sg=sg|n=n	7	det	_
+5	tugev	A	sg=sg|n=n	7	amod	_
+6	parempoolne	A	sg=sg|n=n	7	amod	_
+7	kandidaat	S	sg=sg|n=n	3	nsubj	_
+

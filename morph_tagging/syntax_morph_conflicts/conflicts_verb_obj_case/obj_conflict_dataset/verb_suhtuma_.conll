@@ -1,0 +1,437 @@
+# sent_id = 2330910
+# text = Aga inimesed suhtusid kõik väga mõistvalt , " tänas Iknojan .
+1	Aga	J	_	3	cc	_
+2	inimesed	S	pl=pl|n=n	3	nsubj	_
+3	suhtusid	V	sid=sid	0	root	_
+4	kõik	P	pl=pl|n=n	3	nsubj	CHECK
+5	väga	D	_	6	advmod	_
+6	mõistvalt	D	_	3	advmod	_
+7	,	Z	_	3	punct	_
+8	"	Z	_	3	punct	_
+9	tänas	V	s=s	3	parataxis	_
+10	Iknojan	H	sg=sg|n=n	9	nsubj	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 7218154
+# text = Suhtud sa muusikaärisse küüniliselt ?
+1	Suhtud	V	d=d	0	root	_
+2	sa	P	sg=sg|n=n	1	nsubj	CHECK
+3	muusikaärisse	S	sg=sg|ill=ill	1	obl	_
+4	küüniliselt	D	_	1	advmod	_
+5	?	Z	_	1	punct	_
+
+# sent_id = 187312
+# text = Ka rahandusminister Siim Kallas suhtus süsteemi pigem pessimistlikult : “ Ei maksa ka kõikide uuenduste efektiivsust üle hinnata , sest mõnikord teevad need asja keerulisemaks . ” .
+1	Ka	D	_	2	advmod	_
+2	rahandusminister	S	sg=sg|n=n	5	nsubj	_
+3	Siim	H	sg=sg|n=n	2	appos	_
+4	Kallas	H	sg=sg|n=n	3	flat	_
+5	suhtus	V	s=s	0	root	_
+6	süsteemi	S	sg=sg|p=p	5	obj	CHECK
+7	pigem	D	_	8	advmod	_
+8	pessimistlikult	D	_	5	advmod	_
+9	:	Z	_	12	punct	_
+10	“	Z	_	12	punct	_
+11	Ei	V	neg=neg	12	aux	_
+12	maksa	V	o=o	5	parataxis	_
+13	ka	D	_	12	advmod	_
+14	kõikide	P	pl=pl|g=g	16	det	_
+15	uuenduste	S	pl=pl|g=g	16	nmod	_
+16	efektiivsust	S	sg=sg|p=p	18	obj	_
+17	üle	D	_	18	compound:prt	_
+18	hinnata	V	da=da	12	csubj	_
+19	,	Z	_	22	punct	_
+20	sest	J	_	22	mark	_
+21	mõnikord	D	_	22	advmod	_
+22	teevad	V	vad=vad	12	advcl	_
+23	need	P	pl=pl|n=n	24	det	_
+24	asja	S	sg=sg|p=p	22	obj	_
+25	keerulisemaks	C	sg=sg|tr=tr	22	xcomp	_
+26	.	Z	_	12	punct	_
+27	”	Z	_	12	punct	_
+28	.	Z	_	5	punct	_
+
+# sent_id = 6594837
+# text = Läinud reedel lõppema pidanud kohtuprotsess katkestati , sest advokaat nõudis kohtunik Conceicao Miranda taandamist , kes ei suhtuvat protsessi erapooletult .
+1	Läinud	A	sg=sg|n=n	2	acl	_
+2	reedel	S	sg=sg|ad=ad	3	obl	_
+3	lõppema	V	ma=ma	6	advcl	_
+4	pidanud	V	nud=nud	5	acl	_
+5	kohtuprotsess	S	sg=sg|n=n	6	obj	_
+6	katkestati	V	ti=ti	0	root	_
+7	,	Z	_	10	punct	_
+8	sest	J	_	10	mark	_
+9	advokaat	S	sg=sg|n=n	10	nsubj	_
+10	nõudis	V	s=s	6	advcl	_
+11	kohtunik	S	sg=sg|n=n	14	nmod	_
+12	Conceicao	H	sg=sg|n=n	11	appos	_
+13	Miranda	H	sg=sg|n=n	12	flat	_
+14	taandamist	S	sg=sg|p=p	10	obj	_
+15	,	Z	_	18	punct	_
+16	kes	P	sg=sg|n=n	18	nsubj	_
+17	ei	V	neg=neg	18	aux	_
+18	suhtuvat	V	vat=vat	14	acl:relcl	_
+19	protsessi	S	sg=sg|p=p	18	obl	CHECK
+20	erapooletult	D	_	18	advmod	_
+21	.	Z	_	6	punct	_
+
+# sent_id = 18195758
+# text = Ja ma ütleksin , et ma eriti suure usaldusega ei suhtu härra siseministri vastustesse , kuna minu küsimustele vastab täna inimene , kes - kahjuks on ta praegu siseministri seisuses - on vähemalt lähiminevikus rikkunud seadusi , täpsemalt öeldes kriminaalseadust , kes on langenud kehtiva kriminaalkoodeksi § 53 lõike 1 alla , mis räägib sellest , et isikut ei või võtta kriminaalvastutusele , kui tema poolt kuriteo toimepanemisest on möödunud 5 aastat ( teise astme kuriteo puhul ) .
+1	Ja	J	_	3	cc	_
+2	ma	P	sg=sg|n=n	3	nsubj	_
+3	ütleksin	V	ksin=ksin	0	root	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	ma	P	sg=sg|n=n	11	nsubj	_
+7	eriti	D	_	8	advmod	_
+8	suure	A	sg=sg|g=g	9	amod	_
+9	usaldusega	S	sg=sg|kom=kom	11	obl	_
+10	ei	V	neg=neg	11	aux	_
+11	suhtu	V	o=o	3	ccomp	_
+12	härra	S	sg=sg|n=n	13	nmod	CHECK
+13	siseministri	S	sg=sg|g=g	14	nmod	_
+14	vastustesse	S	pl=pl|ill=ill	11	obl	_
+15	,	Z	_	19	punct	_
+16	kuna	J	_	19	mark	_
+17	minu	P	sg=sg|g=g	18	nmod	_
+18	küsimustele	S	pl=pl|all=all	19	obl	_
+19	vastab	V	b=b	11	advcl	_
+20	täna	D	_	19	advmod	_
+21	inimene	S	sg=sg|n=n	19	nsubj	_
+22	,	Z	_	30	punct	_
+23	kes	P	sg=sg|n=n	19	nsubj	_
+24	-	Z	_	30	punct	_
+25	kahjuks	D	_	30	advmod	_
+26	on	V	b=b	30	cop	_
+27	ta	P	sg=sg|n=n	30	nsubj:cop	_
+28	praegu	D	_	30	advmod	_
+29	siseministri	S	sg=sg|g=g	30	nmod	_
+30	seisuses	S	sg=sg|in=in	19	parataxis	_
+31	-	Z	_	35	punct	_
+32	on	V	vad=vad	35	aux	_
+33	vähemalt	D	_	34	advmod	_
+34	lähiminevikus	S	sg=sg|in=in	35	obl	_
+35	rikkunud	V	nud=nud	19	parataxis	_
+36	seadusi	S	pl=pl|p=p	35	obj	_
+37	,	Z	_	39	punct	_
+38	täpsemalt	D	_	39	advmod	_
+39	öeldes	V	des=des	3	conj	_
+40	kriminaalseadust	S	sg=sg|p=p	39	obj	_
+41	,	Z	_	44	punct	_
+42	kes	P	pl=pl|n=n	44	nsubj	_
+43	on	V	vad=vad	44	aux	_
+44	langenud	V	nud=nud	40	acl:relcl	_
+45	kehtiva	A	sg=sg|g=g	46	amod	_
+46	kriminaalkoodeksi	S	sg=sg|g=g	44	obl	_
+47	§	Y	?=?	49	nmod	_
+48	53	N	?=?	49	nummod	_
+49	lõike	S	sg=sg|g=g	46	conj	_
+50	1	N	?=?	49	nummod	_
+51	alla	K	_	50	case	_
+52	,	Z	_	54	punct	_
+53	mis	P	sg=sg|n=n	54	nsubj	_
+54	räägib	V	b=b	49	acl:relcl	_
+55	sellest	P	sg=sg|el=el	54	obj	_
+56	,	Z	_	59	punct	_
+57	et	J	_	59	mark	_
+58	isikut	S	sg=sg|p=p	59	nsubj	_
+59	ei	V	neg=neg	61	aux	_
+60	või	J	_	61	cc	_
+61	võtta	V	da=da	55	conj	_
+62	kriminaalvastutusele	S	sg=sg|all=all	61	obl	_
+63	,	Z	_	70	punct	_
+64	kui	J	_	70	mark	_
+65	tema	P	sg=sg|g=g	70	obl	_
+66	poolt	K	_	65	case	_
+67	kuriteo	S	sg=sg|g=g	68	nmod	_
+68	toimepanemisest	S	sg=sg|el=el	70	obl	_
+69	on	V	vad=vad	70	aux	_
+70	möödunud	A	_	61	advcl	_
+71	5	N	?=?	72	nummod	_
+72	aastat	S	sg=sg|p=p	70	obl	_
+73	(	Z	_	75	punct	_
+74	teise	P	sg=sg|g=g	75	amod	_
+75	astme	S	sg=sg|g=g	70	parataxis	_
+76	kuriteo	S	sg=sg|g=g	75	nmod	_
+77	puhul	K	_	76	case	_
+78	)	Z	_	75	punct	_
+79	.	Z	_	3	punct	_
+
+# sent_id = 4088
+# text = Diana suhtus mõistvalt Khani hirmu avalikkuse tähelepanu ees .
+1	Diana	H	sg=sg|n=n	2	nsubj	_
+2	suhtus	V	s=s	0	root	_
+3	mõistvalt	D	_	2	advmod	_
+4	Khani	H	sg=sg|g=g	5	nmod	_
+5	hirmu	S	sg=sg|g=g	2	obj	CHECK
+6	avalikkuse	S	sg=sg|g=g	5	nmod	_
+7	tähelepanu	S	sg=sg|g=g	2	obl	_
+8	ees	K	_	7	case	_
+9	.	Z	_	2	punct	_
+
+# sent_id = 1267520
+# text = Murru vangla direktor Viktor Jeliseikin nimetas alusetuks vangide süüdistusi , nagu koonerdaks vangla juhtkond zhiletiteradega ega suhtuks tõsiselt HI-viiruse ohtu , teatas BNS .
+1	Murru	S	sg=sg|g=g	2	nmod	_
+2	vangla	S	sg=sg|g=g	3	nmod	_
+3	direktor	S	sg=sg|n=n	6	nsubj	_
+4	Viktor	H	sg=sg|n=n	3	appos	_
+5	Jeliseikin	H	sg=sg|n=n	4	flat	_
+6	nimetas	V	s=s	0	root	_
+7	alusetuks	A	sg=sg|tr=tr	8	amod	_
+8	vangide	S	pl=pl|g=g	9	nmod	_
+9	süüdistusi	S	pl=pl|p=p	6	obj	_
+10	,	Z	_	12	punct	_
+11	nagu	D	_	12	mark	_
+12	koonerdaks	V	ks=ks	6	advcl	_
+13	vangla	S	sg=sg|g=g	14	nmod	_
+14	juhtkond	S	sg=sg|n=n	12	obj	_
+15	zhiletiteradega	S	pl=pl|kom=kom	12	nsubj	_
+16	ega	J	_	17	cc	_
+17	suhtuks	V	ks=ks	12	conj	_
+18	tõsiselt	D	_	17	advmod	_
+19	HI-viiruse	S	sg=sg|g=g	20	nmod	_
+20	ohtu	S	sg=sg|p=p	17	nsubj	CHECK
+21	,	Z	_	22	punct	_
+22	teatas	V	s=s	6	conj	_
+23	BNS	Y	?=?	22	nsubj	_
+24	.	Z	_	6	punct	_
+
+# sent_id = 4390866
+# text = Pealegi ei suhtunud ta korvpalli professionaalselt - sõitis pidu pidama ning jõudis kedagi ette hoitamata tagasi lubatust hiljem , siis , kui meeskond juba mõnda aega treenis .
+1	Pealegi	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	suhtunud	V	nud=nud	0	root	_
+4	ta	P	sg=sg|g=g	3	nsubj	_
+5	korvpalli	S	sg=sg|g=g	3	obl	CHECK
+6	professionaalselt	D	_	3	advmod	_
+7	-	Z	_	8	punct	_
+8	sõitis	V	s=s	3	parataxis	_
+9	pidu	S	sg=sg|p=p	10	obj	_
+10	pidama	V	ma=ma	8	xcomp	_
+11	ning	J	_	12	cc	_
+12	jõudis	V	s=s	8	conj	_
+13	kedagi	P	sg=sg|p=p	12	nsubj	_
+14	ette	D	_	12	compound:prt	_
+15	hoitamata	C	sg=sg|ab=ab	12	advcl	_
+16	tagasi	D	_	12	compound:prt	_
+17	lubatust	A	sg=sg|el=el	18	obl	_
+18	hiljem	D	_	12	advmod	_
+19	,	Z	_	20	punct	_
+20	siis	J	_	12	advmod	_
+21	,	Z	_	27	punct	_
+22	kui	D	_	27	mark	_
+23	meeskond	S	sg=sg|n=n	27	nsubj	_
+24	juba	D	_	27	advmod	_
+25	mõnda	P	sg=sg|p=p	26	det	_
+26	aega	S	sg=sg|p=p	27	obl	_
+27	treenis	V	s=s	12	advcl	_
+28	.	Z	_	3	punct	_
+
+# sent_id = 610428
+# text = Tõsisemad kommentaatorid ei suhtu Trumpi plaani sugugi positiivselt .
+1	Tõsisemad	C	pl=pl|n=n	2	amod	_
+2	kommentaatorid	S	pl=pl|n=n	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	suhtu	V	o=o	0	root	_
+5	Trumpi	S	adt=adt	4	obl	_
+6	plaani	S	sg=sg|p=p	4	nsubj	CHECK
+7	sugugi	D	_	8	advmod	_
+8	positiivselt	D	_	4	advmod	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 25674
+# text = Üsna rahulikult suhtub Dima ka alkoholi - keelatud pole miski , ent rasketel trenni- ja võistlusperioodidel pole selle jaoks lihtsalt aega . ”
+1	Üsna	D	_	2	advmod	_
+2	rahulikult	D	_	3	advmod	_
+3	suhtub	V	b=b	0	root	_
+4	Dima	H	sg=sg|n=n	3	nsubj	_
+5	ka	D	_	6	advmod	_
+6	alkoholi	S	sg=sg|p=p	3	nsubj	CHECK
+7	-	Z	_	8	punct	_
+8	keelatud	A	sg=sg|n=n	3	parataxis	_
+9	pole	V	neg=neg|o=o	8	aux	_
+10	miski	P	sg=sg|n=n	8	obj	_
+11	,	Z	_	21	punct	_
+12	ent	J	_	21	cc	_
+13	rasketel	A	pl=pl|ad=ad	14	amod	_
+14	trenni-	S	adt=adt	21	nsubj:cop	_
+15	ja	J	_	16	cc	_
+16	võistlusperioodidel	S	pl=pl|ad=ad	14	conj	_
+17	pole	V	neg=neg|o=o	21	cop	_
+18	selle	P	sg=sg|g=g	21	obl	_
+19	jaoks	K	_	18	case	_
+20	lihtsalt	D	_	21	advmod	_
+21	aega	S	sg=sg|p=p	8	conj	_
+22	.	Z	_	3	punct	_
+23	”	Z	_	3	punct	_
+
+# sent_id = 1390918
+# text = " Tahame alustada samm-sammult , " arvas treener Gregg Popovich , kes on ülimalt ettevaatlikult suhtunud meeskonnale nii vajaliku mängija liiga kiiresse tagasipöördumisse väljakule .
+1	"	Z	_	2	punct	_
+2	Tahame	V	me=me	0	root	_
+3	alustada	V	da=da	2	obj	_
+4	samm-sammult	D	_	2	advmod	_
+5	,	Z	_	2	punct	_
+6	"	Z	_	2	punct	_
+7	arvas	V	s=s	2	parataxis	_
+8	treener	S	sg=sg|n=n	7	nsubj	_
+9	Gregg	H	sg=sg|n=n	8	appos	_
+10	Popovich	H	sg=sg|n=n	9	flat	_
+11	,	Z	_	16	punct	_
+12	kes	P	sg=sg|n=n	16	nsubj	_
+13	on	V	b=b	16	aux	_
+14	ülimalt	D	_	16	advmod	_
+15	ettevaatlikult	D	_	16	advmod	_
+16	suhtunud	A	sg=sg|n=n	9	acl:relcl	_
+17	meeskonnale	S	sg=sg|all=all	16	obj	_
+18	nii	D	_	19	advmod	_
+19	vajaliku	A	sg=sg|g=g	20	amod	_
+20	mängija	S	sg=sg|n=n	16	obj	CHECK
+21	liiga	D	_	22	advmod	_
+22	kiiresse	A	sg=sg|ill=ill	23	amod	_
+23	tagasipöördumisse	S	adt=adt	16	obl	_
+24	väljakule	S	sg=sg|all=all	23	nmod	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 2778660
+# text = " Nojah , küllap olen ma sinu iseloomu väikestesse veidrustesse aastate jooksul liiga karmilt suhtunud .
+1	"	Z	_	15	punct	_
+2	Nojah	I	_	15	discourse	_
+3	,	Z	_	15	punct	_
+4	küllap	D	_	15	advmod	_
+5	olen	V	n=n	15	aux	_
+6	ma	P	sg=sg|n=n	15	nsubj	_
+7	sinu	P	sg=sg|g=g	8	nmod	_
+8	iseloomu	S	sg=sg|p=p	15	obl	CHECK
+9	väikestesse	A	pl=pl|ill=ill	10	amod	_
+10	veidrustesse	S	pl=pl|ill=ill	15	obl	_
+11	aastate	S	pl=pl|g=g	15	obl	_
+12	jooksul	K	_	11	case	_
+13	liiga	D	_	14	advmod	_
+14	karmilt	D	_	15	advmod	_
+15	suhtunud	A	pl=pl|n=n	0	root	_
+16	.	Z	_	15	punct	_
+
+# sent_id = 274038
+# text = Tegelikkuses oleks muidugi üllatav , kui alla 16-aastase tüdruku vanemad suhtuksid oma tütre raseduse katkestamisse negatiivselt .
+1	Tegelikkuses	S	sg=sg|in=in	4	nsubj:cop	_
+2	oleks	V	ks=ks	4	cop	_
+3	muidugi	D	_	4	advmod	_
+4	üllatav	A	sg=sg|n=n	0	root	_
+5	,	Z	_	11	punct	_
+6	kui	D	_	11	mark	_
+7	alla	K	_	9	case	_
+8	16-aastase	A	sg=sg|g=g	9	amod	_
+9	tüdruku	S	sg=sg|g=g	11	obl	_
+10	vanemad	S	pl=pl|n=n	11	nsubj	_
+11	suhtuksid	V	ksid=ksid	4	advcl	_
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	tütre	S	sg=sg|g=g	11	nsubj	CHECK
+14	raseduse	S	sg=sg|g=g	15	nmod	_
+15	katkestamisse	S	adt=adt	11	obl	_
+16	negatiivselt	D	_	11	advmod	_
+17	.	Z	_	4	punct	_
+
+# sent_id = 4937985
+# text = " Olen mitteametlikult vestelnud sel teemal Koondis Auto juhi Tõnis-Koit Pihuga , kes on minu hea sõber ja on positiivselt suhtunud võimalusse Võrus reisijateveoga tegelda , " ütles Treial .
+1	"	Z	_	4	punct	_
+2	Olen	V	n=n	4	aux	_
+3	mitteametlikult	D	_	4	advmod	_
+4	vestelnud	A	pl=pl|n=n	0	root	_
+5	sel	P	sg=sg|ad=ad	6	det	_
+6	teemal	S	sg=sg|ad=ad	4	obj	_
+7	Koondis	S	sg=sg|in=in	8	nmod	_
+8	Auto	S	sg=sg|g=g	9	nmod	_
+9	juhi	S	sg=sg|g=g	4	nsubj	_
+10	Tõnis-Koit	H	sg=sg|n=n	9	appos	_
+11	Pihuga	H	sg=sg|kom=kom	10	flat	_
+12	,	Z	_	17	punct	_
+13	kes	P	sg=sg|n=n	17	nsubj:cop	_
+14	on	V	b=b	17	cop	_
+15	minu	P	sg=sg|g=g	17	nmod	_
+16	hea	A	sg=sg|n=n	17	amod	_
+17	sõber	S	sg=sg|n=n	10	acl:relcl	_
+18	ja	J	_	21	cc	_
+19	on	V	vad=vad	21	aux	_
+20	positiivselt	D	_	21	advmod	_
+21	suhtunud	A	pl=pl|n=n	17	conj	_
+22	võimalusse	S	adt=adt	21	obj	CHECK
+23	Võrus	H	sg=sg|in=in	24	nmod	_
+24	reisijateveoga	S	sg=sg|kom=kom	25	obl	_
+25	tegelda	V	da=da	22	acl	_
+26	,	Z	_	4	punct	_
+27	"	Z	_	4	punct	_
+28	ütles	V	s=s	4	parataxis	_
+29	Treial	H	sg=sg|n=n	28	nsubj	_
+30	.	Z	_	4	punct	_
+
+# sent_id = 1118546
+# text = Mullu sügisel suhtusid Kivistik ja Kanepi ettevaatusega võimalusse võistelda juba tänavu mõnel Suure Slämmi noorteturniiril , kuid praegust seisu arvestades saab tenniseneiu etteaste Prantsusmaa lahtistel ilmselt teoks .
+1	Mullu	D	_	2	advmod	_
+2	sügisel	S	sg=sg|ad=ad	3	obl	_
+3	suhtusid	V	sid=sid	0	root	_
+4	Kivistik	H	sg=sg|n=n	7	nmod	_
+5	ja	J	_	6	cc	_
+6	Kanepi	H	sg=sg|n=n	4	conj	_
+7	ettevaatusega	S	sg=sg|kom=kom	8	nmod	_
+8	võimalusse	S	adt=adt	3	nsubj	CHECK
+9	võistelda	V	da=da	3	conj	_
+10	juba	D	_	11	advmod	_
+11	tänavu	D	_	9	advmod	_
+12	mõnel	P	sg=sg|ad=ad	15	det	_
+13	Suure	A	sg=sg|g=g	14	nmod	_
+14	Slämmi	S	sg=sg|g=g	15	nmod	_
+15	noorteturniiril	S	sg=sg|ad=ad	9	obl	_
+16	,	Z	_	20	punct	_
+17	kuid	J	_	20	cc	_
+18	praegust	A	sg=sg|p=p	19	amod	_
+19	seisu	S	adt=adt	20	obj	_
+20	arvestades	V	des=des	3	conj	_
+21	saab	V	b=b	20	nsubj	_
+22	tenniseneiu	S	sg=sg|g=g	23	nmod	_
+23	etteaste	S	sg=sg|n=n	20	obl	_
+24	Prantsusmaa	H	sg=sg|g=g	23	appos	_
+25	lahtistel	A	pl=pl|ad=ad	20	xcomp	_
+26	ilmselt	D	_	20	advmod	_
+27	teoks	S	sg=sg|tr=tr	20	obj	_
+28	.	Z	_	3	punct	_
+
+# sent_id = 71650
+# text = Kultuurimaja energilise direktrissi Ly Laugu sõnul suhtub vald kultuuri väga soosivalt .
+1	Kultuurimaja	S	sg=sg|g=g	3	nmod	_
+2	energilise	A	sg=sg|g=g	3	amod	_
+3	direktrissi	S	sg=sg|g=g	6	nmod	_
+4	Ly	H	sg=sg|n=n	3	appos	_
+5	Laugu	H	sg=sg|g=g	4	flat	_
+6	sõnul	S	pl=pl|ad=ad	7	obl	_
+7	suhtub	V	b=b	0	root	_
+8	vald	S	sg=sg|n=n	7	nsubj	_
+9	kultuuri	S	sg=sg|g=g	7	obl	CHECK
+10	väga	D	_	11	advmod	_
+11	soosivalt	D	_	7	advmod	_
+12	.	Z	_	7	punct	_
+
+# sent_id = 688280
+# text = Koolivormi suhtun väga halvasti - kui oma kooli vormis ühissõidukis pättust teed , siis märgatakse kohe ja kaevatakse kooli ära .
+1	Koolivormi	S	adt=adt	2	nsubj	CHECK
+2	suhtun	V	n=n	0	root	_
+3	väga	D	_	4	advmod	_
+4	halvasti	D	_	2	advmod	_
+5	-	Z	_	12	punct	_
+6	kui	J	_	12	mark	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	kooli	S	sg=sg|g=g	9	nmod	_
+9	vormis	S	sg=sg|in=in	10	nmod	_
+10	ühissõidukis	S	sg=sg|in=in	12	obj	_
+11	pättust	S	sg=sg|p=p	12	obj	_
+12	teed	S	sg=sg|p=p	15	advcl	_
+13	,	Z	_	15	punct	_
+14	siis	J	_	15	advmod	_
+15	märgatakse	V	takse=takse	2	parataxis	_
+16	kohe	D	_	15	advmod	_
+17	ja	J	_	18	cc	_
+18	kaevatakse	V	takse=takse	15	conj	_
+19	kooli	S	adt=adt	18	obj	_
+20	ära	D	_	18	compound:prt	_
+21	.	Z	_	2	punct	_
+

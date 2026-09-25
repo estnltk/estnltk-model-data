@@ -1,0 +1,449 @@
+# sent_id = 4122096
+# text = Mängu lõpp tundus 46 000 pealtvaatajale painajaliku unenäona .
+1	Mängu	S	sg=sg|g=g	2	nmod	_
+2	lõpp	S	sg=sg|n=n	3	obl	_
+3	tundus	V	s=s	0	root	_
+4	46 000	N	?=?	5	nummod	CHECK
+5	pealtvaatajale	S	sg=sg|all=all	3	nsubj	_
+6	painajaliku	A	sg=sg|g=g	7	amod	_
+7	unenäona	S	sg=sg|es=es	3	nsubj	_
+8	.	Z	_	3	punct	_
+
+# sent_id = 3983737
+# text = Jaama juht Roger Wright väitis , et ööpäev läbi kestva ettekandmise korral tundunuks osa Mozarti töid ?
+1	Jaama	H	sg=sg|g=g	2	nmod	_
+2	juht	S	sg=sg|n=n	5	nsubj	_
+3	Roger	H	sg=sg|n=n	2	appos	_
+4	Wright	H	sg=sg|n=n	3	flat	_
+5	väitis	V	s=s	0	root	_
+6	,	Z	_	13	punct	_
+7	et	J	_	13	mark	_
+8	ööpäev	S	sg=sg|n=n	10	obl	_
+9	läbi	K	_	11	case	_
+10	kestva	A	sg=sg|g=g	11	acl	_
+11	ettekandmise	S	sg=sg|g=g	13	obl	_
+12	korral	K	_	11	case	_
+13	tundunuks	V	nuks=nuks	5	ccomp	_
+14	osa	S	sg=sg|n=n	13	nsubj	_
+15	Mozarti	H	sg=sg|g=g	16	nmod	_
+16	töid	S	pl=pl|p=p	13	nsubj	CHECK
+17	?	Z	_	5	punct	_
+
+# sent_id = 20005920
+# text = Einsam: mrt sa ei tundu 2ra olevat ..
+1	Einsam	H	sg=sg|n=n	0	root	_
+2	:	Z	_	7	punct	_
+3	mrt	Y	?=?	7	advmod	_
+4	sa	P	sg=sg|n=n	7	nsubj:cop	_
+5	ei	V	neg=neg	7	aux	_
+6	tundu	V	o=o	7	aux	_
+7	2ra	Y	?=?	1	parataxis	CHECK
+8	olevat	V	vat=vat	7	cop	_
+9	..	Z	_	1	punct	_
+
+# sent_id = 2133347
+# text = Esimene etapp : elanikkond ja majandus kasvab kiiresti , linnastumisele ei tundu olevat alternatiivi .
+1	Esimene	O	sg=sg|n=n	2	amod	_
+2	etapp	S	sg=sg|n=n	0	root	_
+3	:	Z	_	7	punct	_
+4	elanikkond	S	sg=sg|n=n	7	nsubj	_
+5	ja	J	_	6	cc	_
+6	majandus	S	sg=sg|n=n	4	conj	_
+7	kasvab	V	b=b	2	acl	_
+8	kiiresti	D	_	7	advmod	_
+9	,	Z	_	12	punct	_
+10	linnastumisele	S	sg=sg|all=all	12	obl	_
+11	ei	V	neg=neg	12	aux	_
+12	tundu	V	o=o	7	conj	_
+13	olevat	A	sg=sg|p=p	14	acl	_
+14	alternatiivi	S	sg=sg|p=p	12	nsubj	CHECK
+15	.	Z	_	2	punct	_
+
+# sent_id = 7210893
+# text = Tänapäevast vaadutana ei tundu ju Hispaania õigupoolest muu kui Euroopa perifeeria .
+1	Tänapäevast	S	sg=sg|el=el	2	nmod	_
+2	vaadutana	S	sg=sg|n=n	8	nsubj:cop	_
+3	ei	V	neg=neg	8	aux	_
+4	tundu	V	o=o	8	aux	_
+5	ju	D	_	8	advmod	_
+6	Hispaania	H	sg=sg|g=g	8	nsubj:cop	CHECK
+7	õigupoolest	D	_	8	advmod	_
+8	muu	P	sg=sg|g=g	0	root	_
+9	kui	J	_	11	mark	_
+10	Euroopa	H	sg=sg|g=g	11	nmod	_
+11	perifeeria	S	sg=sg|n=n	8	advcl	_
+12	.	Z	_	8	punct	_
+
+# sent_id = 859361
+# text = " Kui on püütud propageerida , et see on väga magus krunt , siis neid arve vaadates küll nii ei tundu . "
+1	"	Z	_	17	punct	_
+2	Kui	J	_	4	mark	_
+3	on	V	b=b	4	aux	_
+4	püütud	V	tud=tud	17	advcl	_
+5	propageerida	V	da=da	4	xcomp	_
+6	,	Z	_	12	punct	_
+7	et	J	_	12	mark	_
+8	see	P	sg=sg|n=n	12	nsubj:cop	_
+9	on	V	b=b	12	cop	_
+10	väga	D	_	11	advmod	_
+11	magus	A	sg=sg|n=n	12	amod	_
+12	krunt	S	sg=sg|n=n	5	ccomp	_
+13	,	Z	_	17	punct	_
+14	siis	J	_	17	advmod	_
+15	neid	P	pl=pl|p=p	16	det	CHECK
+16	arve	S	sg=sg|g=g	17	obj	_
+17	vaadates	V	des=des	0	root	_
+18	küll	D	_	17	advmod	_
+19	nii	D	_	17	advmod	_
+20	ei	V	neg=neg	17	aux	_
+21	tundu	V	o=o	17	aux	_
+22	.	Z	_	17	punct	_
+23	"	Z	_	17	punct	_
+
+# sent_id = 11777341
+# text = Peab olema ideid , mis müüvad üle riigipiiride ja mis ei tundu väikeriigi jonnaka veidrusena .
+1	Peab	V	b=b	2	aux	_
+2	olema	V	ma=ma	0	root	_
+3	ideid	S	pl=pl|p=p	2	nsubj	_
+4	,	Z	_	6	punct	_
+5	mis	P	sg=sg|n=n	6	nsubj	_
+6	müüvad	V	vad=vad	3	acl:relcl	_
+7	üle	D	_	8	case	_
+8	riigipiiride	S	pl=pl|g=g	6	obj	_
+9	ja	J	_	12	cc	_
+10	mis	P	sg=sg|n=n	12	nsubj	_
+11	ei	V	neg=neg	12	aux	_
+12	tundu	V	o=o	6	conj	_
+13	väikeriigi	S	sg=sg|g=g	12	obl	CHECK
+14	jonnaka	A	sg=sg|g=g	15	amod	_
+15	veidrusena	S	sg=sg|es=es	12	obj	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 3983737
+# text = Jaama juht Roger Wright väitis , et ööpäev läbi kestva ettekandmise korral tundunuks osa Mozarti töid ?
+1	Jaama	H	sg=sg|g=g	2	nmod	_
+2	juht	S	sg=sg|n=n	5	nsubj	_
+3	Roger	H	sg=sg|n=n	2	appos	_
+4	Wright	H	sg=sg|n=n	3	flat	_
+5	väitis	V	s=s	0	root	_
+6	,	Z	_	13	punct	_
+7	et	J	_	13	mark	_
+8	ööpäev	S	sg=sg|n=n	10	obl	_
+9	läbi	K	_	11	case	_
+10	kestva	A	sg=sg|g=g	11	acl	_
+11	ettekandmise	S	sg=sg|g=g	13	obl	_
+12	korral	K	_	11	case	_
+13	tundunuks	V	nuks=nuks	5	ccomp	_
+14	osa	S	sg=sg|n=n	13	nsubj	_
+15	Mozarti	H	sg=sg|g=g	16	nmod	_
+16	töid	S	pl=pl|p=p	13	nsubj	CHECK
+17	?	Z	_	5	punct	_
+
+# sent_id = 16898584
+# text = aga karvast moderaatorit ei viitsi tõesti vaadata , ükskõik , kui nummi ta ka sulle ei tunduks .
+1	aga	J	_	5	cc	_
+2	karvast	A	sg=sg|p=p	3	amod	_
+3	moderaatorit	S	sg=sg|p=p	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	viitsi	V	o=o	0	root	_
+6	tõesti	D	_	5	advmod	_
+7	vaadata	V	da=da	5	xcomp	_
+8	,	Z	_	9	punct	_
+9	ükskõik	D	_	5	advmod	_
+10	,	Z	_	17	punct	_
+11	kui	J	_	17	mark	_
+12	nummi	S	adt=adt	17	advcl	CHECK
+13	ta	P	sg=sg|n=n	17	nsubj	_
+14	ka	D	_	17	advmod	_
+15	sulle	P	sg=sg|all=all	17	nsubj	_
+16	ei	V	neg=neg	17	aux	_
+17	tunduks	V	ks=ks	5	advcl	_
+18	.	Z	_	5	punct	_
+
+# sent_id = 2805094
+# text = Tema sõnul ei ole Baltic Property Trust ainuke firma , kes siinsete äriobjektide ostmise vastu huvi on tundunud , kuid siiani on kontaktid lõppenud tulemusteta .
+1	Tema	P	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	9	obl	_
+3	ei	V	neg=neg	9	aux	_
+4	ole	V	o=o	9	cop	_
+5	Baltic	H	sg=sg|n=n	9	nsubj:cop	_
+6	Property	H	sg=sg|g=g	5	flat	_
+7	Trust	S	sg=sg|n=n	5	flat	_
+8	ainuke	A	sg=sg|n=n	9	amod	_
+9	firma	S	sg=sg|n=n	0	root	_
+10	,	Z	_	18	punct	_
+11	kes	P	sg=sg|n=n	18	nsubj	_
+12	siinsete	A	pl=pl|g=g	13	amod	_
+13	äriobjektide	S	pl=pl|g=g	14	nmod	_
+14	ostmise	S	sg=sg|g=g	18	obl	_
+15	vastu	K	_	14	case	_
+16	huvi	S	sg=sg|n=n	18	obj	CHECK
+17	on	V	b=b	18	aux	_
+18	tundunud	A	pl=pl|n=n	9	acl:relcl	_
+19	,	Z	_	24	punct	_
+20	kuid	J	_	24	cc	_
+21	siiani	D	_	24	advmod	_
+22	on	V	vad=vad	24	aux	_
+23	kontaktid	S	pl=pl|n=n	24	nsubj	_
+24	lõppenud	A	pl=pl|n=n	18	conj	_
+25	tulemusteta	S	pl=pl|ab=ab	24	nsubj	_
+26	.	Z	_	9	punct	_
+
+# sent_id = 8460591
+# text = Kas see amet ei tundunud teile hüppena tundmatusse ?
+1	Kas	D	_	5	advmod	_
+2	see	P	sg=sg|n=n	3	det	_
+3	amet	S	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	tundunud	A	pl=pl|n=n	0	root	_
+6	teile	P	pl=pl|all=all	5	nsubj	_
+7	hüppena	S	sg=sg|es=es	5	obl	_
+8	tundmatusse	S	adt=adt	5	obl	CHECK
+9	?	Z	_	5	punct	_
+
+# sent_id = 3983737
+# text = Jaama juht Roger Wright väitis , et ööpäev läbi kestva ettekandmise korral tundunuks osa Mozarti töid ?
+1	Jaama	H	sg=sg|g=g	2	nmod	_
+2	juht	S	sg=sg|n=n	5	nsubj	_
+3	Roger	H	sg=sg|n=n	2	appos	_
+4	Wright	H	sg=sg|n=n	3	flat	_
+5	väitis	V	s=s	0	root	_
+6	,	Z	_	13	punct	_
+7	et	J	_	13	mark	_
+8	ööpäev	S	sg=sg|n=n	10	obl	_
+9	läbi	K	_	11	case	_
+10	kestva	A	sg=sg|g=g	11	acl	_
+11	ettekandmise	S	sg=sg|g=g	13	obl	_
+12	korral	K	_	11	case	_
+13	tundunuks	V	nuks=nuks	5	ccomp	_
+14	osa	S	sg=sg|n=n	13	nsubj	CHECK
+15	Mozarti	H	sg=sg|g=g	16	nmod	_
+16	töid	S	pl=pl|p=p	13	nsubj	_
+17	?	Z	_	5	punct	_
+
+# sent_id = 4030828
+# text = Kui me oleksime astunud sadakond meetrit laulukaare poole , ehk oleks laserite mäng tõesti tundunud " enneolematu " ning heli " erakordselt võimas " .
+1	Kui	D	_	4	mark	_
+2	me	P	pl=pl|n=n	4	nsubj	_
+3	oleksime	V	ksime=ksime	4	aux	_
+4	astunud	A	_	15	advcl	_
+5	sadakond	N	sg=sg|n=n	6	nummod	_
+6	meetrit	S	sg=sg|p=p	4	obl	_
+7	laulukaare	S	sg=sg|g=g	4	obl	_
+8	poole	K	_	7	case	_
+9	,	Z	_	15	punct	_
+10	ehk	D	_	15	cc	_
+11	oleks	V	ks=ks	15	aux	_
+12	laserite	S	pl=pl|g=g	13	nmod	_
+13	mäng	S	sg=sg|n=n	15	nsubj	_
+14	tõesti	D	_	15	advmod	_
+15	tundunud	A	pl=pl|n=n	0	root	_
+16	"	Z	_	17	punct	_
+17	enneolematu	A	sg=sg|g=g	15	nsubj	CHECK
+18	"	Z	_	17	punct	_
+19	ning	J	_	23	cc	_
+20	heli	S	sg=sg|n=n	23	nsubj:cop	_
+21	"	Z	_	23	punct	_
+22	erakordselt	D	_	23	advmod	_
+23	võimas	A	sg=sg|n=n	17	conj	_
+24	"	Z	_	23	punct	_
+25	.	Z	_	15	punct	_
+
+# sent_id = 7927354
+# text = Ma ei tea , kui ajassepühendatud oli ses suhtes Tiit , aga väimees ei tundud äia vist kuigivõrd ja tolle nagunii kinnise ning enam-vähem võõra mehe surm läks poisile vaevalt et eriti korda .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	tea	V	o=o	0	root	_
+4	,	Z	_	6	punct	_
+5	kui	J	_	6	mark	_
+6	ajassepühendatud	S	pl=pl|n=n	3	ccomp	_
+7	oli	V	s=s	6	cop	_
+8	ses	P	sg=sg|in=in	6	obl	_
+9	suhtes	K	_	8	case	_
+10	Tiit	H	sg=sg|n=n	6	nsubj:cop	_
+11	,	Z	_	15	punct	_
+12	aga	J	_	15	cc	_
+13	väimees	S	sg=sg|n=n	15	obl	_
+14	ei	V	neg=neg	15	aux	_
+15	tundud	V	d=d	6	conj	_
+16	äia	S	adt=adt	15	nsubj	CHECK
+17	vist	D	_	15	advmod	_
+18	kuigivõrd	D	_	15	advmod	_
+19	ja	J	_	28	cc	_
+20	tolle	P	sg=sg|g=g	22	nsubj:cop	_
+21	nagunii	D	_	22	advmod	_
+22	kinnise	A	sg=sg|g=g	26	amod	_
+23	ning	J	_	28	cc	_
+24	enam-vähem	D	_	25	advmod	_
+25	võõra	A	sg=sg|g=g	26	amod	_
+26	mehe	S	sg=sg|g=g	27	nmod	_
+27	surm	S	sg=sg|n=n	28	nsubj	_
+28	läks	V	s=s	6	conj	_
+29	poisile	S	sg=sg|all=all	28	obl	_
+30	vaevalt	D	_	28	advmod	_
+31	et	J	_	30	fixed	_
+32	eriti	D	_	33	advmod	_
+33	korda	S	sg=sg|p=p	28	obl	_
+34	.	Z	_	3	punct	_
+
+# sent_id = 387496
+# text = Sel taustal tundus märksa originaalsem lätlanna Ieva Rubeze video anglo-ameerika lipuvärvidega kaunistatud poisist , kes lõpus mängib püstoliga , sihtides kord vaatajat , kord ennast .
+1	Sel	P	sg=sg|ad=ad	2	det	_
+2	taustal	S	sg=sg|ad=ad	3	obl	_
+3	tundus	V	s=s	0	root	_
+4	märksa	D	_	5	advmod	_
+5	originaalsem	C	sg=sg|n=n	6	amod	_
+6	lätlanna	S	sg=sg|n=n	3	obl	_
+7	Ieva	H	sg=sg|n=n	6	appos	_
+8	Rubeze	H	sg=sg|g=g	7	flat	_
+9	video	S	sg=sg|g=g	11	nmod	CHECK
+10	anglo-ameerika	G	_	11	amod	_
+11	lipuvärvidega	S	pl=pl|kom=kom	12	obl	_
+12	kaunistatud	V	tud=tud	13	acl	_
+13	poisist	S	sg=sg|el=el	3	nsubj	_
+14	,	Z	_	17	punct	_
+15	kes	P	pl=pl|n=n	17	nsubj	_
+16	lõpus	S	sg=sg|in=in	17	obj	_
+17	mängib	V	b=b	13	acl:relcl	_
+18	püstoliga	S	sg=sg|kom=kom	17	obj	_
+19	,	Z	_	20	punct	_
+20	sihtides	V	des=des	17	conj	_
+21	kord	D	_	20	advmod	_
+22	vaatajat	S	sg=sg|p=p	20	obj	_
+23	,	Z	_	24	punct	_
+24	kord	D	_	20	advmod	_
+25	ennast	P	sg=sg|p=p	24	obj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 3599487
+# text = Fondi esindajate arvamuse kohaselt tuleks meeles pidada , et Eesti on nüüd seotud kogu maailma majandussüsteemiga , ja näiteks Mehhiko-laadne kriis mõjutab paratamatult ka Eestit , ükskõik kui kauge see siin ei tunduks .
+1	Fondi	H	sg=sg|g=g	2	nmod	_
+2	esindajate	S	pl=pl|g=g	3	nmod	_
+3	arvamuse	S	sg=sg|g=g	5	obl	_
+4	kohaselt	K	_	3	case	_
+5	tuleks	V	ks=ks	0	root	_
+6	meeles	S	sg=sg|in=in	7	obj	_
+7	pidada	V	da=da	5	csubj	_
+8	,	Z	_	13	punct	_
+9	et	J	_	13	mark	_
+10	Eesti	H	sg=sg|n=n	13	obj	_
+11	on	V	b=b	13	aux	_
+12	nüüd	D	_	13	advmod	_
+13	seotud	A	sg=sg|n=n	7	ccomp	_
+14	kogu	A	_	15	det	_
+15	maailma	S	sg=sg|g=g	16	nmod	_
+16	majandussüsteemiga	S	sg=sg|kom=kom	13	obl	_
+17	,	Z	_	22	punct	_
+18	ja	J	_	22	cc	_
+19	näiteks	D	_	22	advmod	_
+20	Mehhiko-laadne	A	sg=sg|n=n	21	amod	_
+21	kriis	S	sg=sg|n=n	22	nsubj	_
+22	mõjutab	V	b=b	13	conj	_
+23	paratamatult	D	_	22	advmod	_
+24	ka	D	_	25	advmod	_
+25	Eestit	H	sg=sg|p=p	22	obj	_
+26	,	Z	_	33	punct	_
+27	ükskõik	D	_	33	advmod	_
+28	kui	J	_	27	fixed	_
+29	kauge	A	sg=sg|g=g	33	advcl	CHECK
+30	see	P	sg=sg|n=n	33	nsubj	_
+31	siin	D	_	33	advmod	_
+32	ei	V	neg=neg	33	aux	_
+33	tunduks	V	ks=ks	22	advcl	_
+34	.	Z	_	5	punct	_
+
+# sent_id = 6764968
+# text = Tugevamad isiksused on prillidest kujundanud nii lahutamatu osa oma persoonist , et ilma tunduks nägu alasti .
+1	Tugevamad	C	pl=pl|n=n	2	amod	_
+2	isiksused	S	pl=pl|n=n	5	nsubj	_
+3	on	V	vad=vad	5	aux	_
+4	prillidest	S	pl=pl|el=el	5	obl	_
+5	kujundanud	A	_	0	root	_
+6	nii	D	_	8	advmod	_
+7	lahutamatu	A	sg=sg|n=n	8	amod	_
+8	osa	S	sg=sg|n=n	5	obj	_
+9	oma	P	sg=sg|g=g	10	nmod	_
+10	persoonist	S	sg=sg|el=el	5	obj	_
+11	,	Z	_	14	punct	_
+12	et	J	_	14	mark	_
+13	ilma	K	_	14	advmod	_
+14	tunduks	V	ks=ks	5	advcl	_
+15	nägu	S	sg=sg|p=p	14	nsubj	CHECK
+16	alasti	D	_	14	advmod	_
+17	.	Z	_	5	punct	_
+
+# sent_id = 2201083
+# text = Kooliminek ei tundunudki midagi erilist , sest koolimaja asus täpselt lasteaia kõrval ning titetunne esimese aasta jooksul õieti üle ei läinudki .
+1	Kooliminek	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	tundunudki	V	nud=nud	0	root	_
+4	midagi	P	sg=sg|p=p	3	obj	CHECK
+5	erilist	A	sg=sg|p=p	4	amod	_
+6	,	Z	_	9	punct	_
+7	sest	J	_	9	mark	_
+8	koolimaja	S	sg=sg|g=g	9	nsubj	_
+9	asus	V	s=s	3	advcl	_
+10	täpselt	D	_	9	advmod	_
+11	lasteaia	S	sg=sg|g=g	9	obl	_
+12	kõrval	K	_	11	case	_
+13	ning	J	_	21	cc	_
+14	titetunne	S	sg=sg|n=n	21	nsubj	_
+15	esimese	O	sg=sg|g=g	16	amod	_
+16	aasta	S	sg=sg|g=g	21	obl	_
+17	jooksul	K	_	16	case	_
+18	õieti	D	_	21	advmod	_
+19	üle	D	_	21	compound:prt	_
+20	ei	V	neg=neg	21	aux	_
+21	läinudki	V	nud=nud	9	conj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 213362
+# text = Nagu eelpool kirjutasin , ei nähtud narkokullerluses tollal just erilist kuritegu ning meie kaasmaalasi ähvardanud surmanuhtlus tundus muidugi liiast , mistõttu pöörduti abi saamiseks ka kõrgeim võimu poole .
+1	Nagu	D	_	3	mark	_
+2	eelpool	D	_	3	advmod	_
+3	kirjutasin	V	sin=sin	6	advcl	_
+4	,	Z	_	3	punct	_
+5	ei	V	neg=neg	6	aux	_
+6	nähtud	V	d=d	0	root	_
+7	narkokullerluses	S	sg=sg|in=in	6	obl	_
+8	tollal	D	_	6	advmod	_
+9	just	D	_	10	advmod	_
+10	erilist	A	sg=sg|p=p	11	amod	_
+11	kuritegu	S	sg=sg|p=p	6	obj	_
+12	ning	J	_	19	cc	_
+13	meie	P	pl=pl|g=g	16	nmod	_
+14	kaasmaalasi	S	pl=pl|p=p	15	obj	_
+15	ähvardanud	V	nud=nud	16	acl	_
+16	surmanuhtlus	S	sg=sg|n=n	19	nsubj:cop	_
+17	tundus	V	s=s	19	aux	_
+18	muidugi	D	_	19	advmod	_
+19	liiast	A	sg=sg|p=p	6	conj	CHECK
+20	,	Z	_	22	punct	_
+21	mistõttu	D	_	22	advmod	_
+22	pöörduti	V	ti=ti	19	advcl	_
+23	abi	S	sg=sg|p=p	24	nmod	_
+24	saamiseks	S	sg=sg|tr=tr	22	obl	_
+25	ka	D	_	27	advmod	_
+26	kõrgeim	U	sg=sg|n=n	27	amod	_
+27	võimu	S	sg=sg|g=g	22	obl	_
+28	poole	K	_	27	case	_
+29	.	Z	_	6	punct	_
+
+# sent_id = 4449730
+# text = Enamikule objektiivsust ja võrdset võimalust hindavatele Ameerika professoritele tunduks meie praegune hindamissüsteem lausa õudusunenäona .
+1	Enamikule	H	sg=sg|g=g	2	nmod	_
+2	objektiivsust	S	sg=sg|p=p	6	obl	CHECK
+3	ja	J	_	5	cc	_
+4	võrdset	A	sg=sg|p=p	5	amod	_
+5	võimalust	S	sg=sg|p=p	2	conj	_
+6	hindavatele	A	pl=pl|all=all	8	acl	_
+7	Ameerika	H	sg=sg|g=g	8	nmod	_
+8	professoritele	S	pl=pl|all=all	9	obl	_
+9	tunduks	V	ks=ks	0	root	_
+10	meie	P	pl=pl|g=g	12	nmod	_
+11	praegune	A	sg=sg|n=n	12	amod	_
+12	hindamissüsteem	S	sg=sg|n=n	9	obl	_
+13	lausa	D	_	14	advmod	_
+14	õudusunenäona	S	sg=sg|es=es	9	xcomp	_
+15	.	Z	_	9	punct	_
+

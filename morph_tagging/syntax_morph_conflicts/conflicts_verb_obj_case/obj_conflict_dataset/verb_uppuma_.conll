@@ -1,0 +1,418 @@
+# sent_id = 1425122
+# text = Hoiupanga Liisingule kuuluv kalalaev Vegas uppus 1998. aasta 1. veebruaril kell 17.56 Länemerel Eesti territoriaalvetes Tahkuna poolsaarest loodes paikneva Glotovi madaliku lähedal .
+1	Hoiupanga	H	sg=sg|g=g	2	nmod	_
+2	Liisingule	S	sg=sg|all=all	3	obl	_
+3	kuuluv	A	sg=sg|n=n	4	acl	_
+4	kalalaev	S	sg=sg|n=n	6	nsubj	_
+5	Vegas	H	sg=sg|n=n	4	appos	_
+6	uppus	V	s=s	0	root	_
+7	1998.	O	?=?	8	amod	_
+8	aasta	S	sg=sg|g=g	10	nmod	_
+9	1.	O	?=?	10	amod	_
+10	veebruaril	S	sg=sg|ad=ad	6	obl	_
+11	kell	S	sg=sg|n=n	6	obl	_
+12	17.56	N	?=?	11	nummod	_
+13	Länemerel	H	sg=sg|n=n	6	obl	CHECK
+14	Eesti	H	sg=sg|g=g	15	nmod	_
+15	territoriaalvetes	S	pl=pl|in=in	19	obl	_
+16	Tahkuna	H	sg=sg|g=g	17	nmod	_
+17	poolsaarest	S	sg=sg|el=el	18	nmod	_
+18	loodes	S	sg=sg|in=in	19	obl	_
+19	paikneva	A	sg=sg|g=g	20	acl	_
+20	Glotovi	H	sg=sg|g=g	21	nmod	_
+21	madaliku	S	sg=sg|g=g	6	obl	_
+22	lähedal	K	_	21	case	_
+23	.	Z	_	6	punct	_
+
+# sent_id = 1449662
+# text = Lootusetut pääste-operatsiooni vaatas pealt kogu maailm , kuigi Vene sõjaväejuhid ei ilmutanud kuigi suurt soovi kedagi uppunud laeva ligi lasta .
+1	Lootusetut	A	sg=sg|p=p	2	amod	_
+2	pääste-operatsiooni	S	sg=sg|p=p	3	nsubj	_
+3	vaatas	V	s=s	0	root	_
+4	pealt	D	_	3	compound:prt	_
+5	kogu	A	_	6	det	_
+6	maailm	S	sg=sg|n=n	3	obj	_
+7	,	Z	_	12	punct	_
+8	kuigi	J	_	12	mark	_
+9	Vene	H	sg=sg|g=g	10	nmod	_
+10	sõjaväejuhid	S	pl=pl|n=n	12	nsubj	_
+11	ei	V	neg=neg	12	aux	_
+12	ilmutanud	A	_	3	advcl	_
+13	kuigi	J	_	15	advmod	_
+14	suurt	A	sg=sg|p=p	15	amod	_
+15	soovi	S	sg=sg|p=p	12	obj	_
+16	kedagi	P	sg=sg|p=p	18	det	CHECK
+17	uppunud	A	_	18	acl	_
+18	laeva	S	sg=sg|p=p	20	obj	_
+19	ligi	D	_	20	compound:prt	_
+20	lasta	V	da=da	15	acl	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 1444740
+# text = Nende ülesanne on kergendada ka vene laste psüühilise koormuse kandmist ja vahepeal poetada jutu sisse ka paar vene sõna , et lapsed tunneksid , et nad pole heidetud " uju või upu " olukorda .
+1	Nende	P	pl=pl|g=g	2	nmod	_
+2	ülesanne	S	sg=sg|n=n	4	nsubj	_
+3	on	V	vad=vad	4	aux	_
+4	kergendada	V	da=da	0	root	_
+5	ka	D	_	10	advmod	_
+6	vene	G	_	7	amod	_
+7	laste	S	pl=pl|g=g	9	nmod	_
+8	psüühilise	A	sg=sg|g=g	9	amod	_
+9	koormuse	S	sg=sg|g=g	10	nmod	_
+10	kandmist	S	sg=sg|p=p	4	obj	_
+11	ja	J	_	13	cc	_
+12	vahepeal	D	_	13	advmod	_
+13	poetada	V	da=da	4	conj	_
+14	jutu	S	sg=sg|g=g	13	obj	_
+15	sisse	D	_	13	compound:prt	_
+16	ka	D	_	19	advmod	_
+17	paar	N	sg=sg|n=n	19	nummod	_
+18	vene	G	_	19	amod	_
+19	sõna	S	sg=sg|p=p	13	nsubj	_
+20	,	Z	_	23	punct	_
+21	et	J	_	23	mark	_
+22	lapsed	S	pl=pl|n=n	23	nsubj	_
+23	tunneksid	V	ksid=ksid	13	advcl	_
+24	,	Z	_	28	punct	_
+25	et	J	_	28	mark	_
+26	nad	P	pl=pl|n=n	28	obj	_
+27	pole	V	neg=neg|o=o	28	aux	_
+28	heidetud	A	pl=pl|n=n	23	ccomp	_
+29	"	Z	_	30	punct	_
+30	uju	S	sg=sg|n=n	28	obj	_
+31	või	J	_	32	cc	_
+32	upu	V	o=o	30	conj	_
+33	"	Z	_	32	punct	_
+34	olukorda	S	sg=sg|p=p	28	obl	CHECK
+35	.	Z	_	4	punct	_
+
+# sent_id = 2054135
+# text = Kõikjal on võimalik süüa korduvkasutusega serviisilt , kohvikud ei upu reklaami , õues pole enam õllekraane ja külmkappe ning ühtegi T-särgis teenindajat ei tule , " loetles Ojaveski .
+1	Kõikjal	D	_	3	advmod	_
+2	on	V	vad=vad	3	cop	_
+3	võimalik	A	sg=sg|n=n	0	root	_
+4	süüa	V	da=da	3	csubj:cop	_
+5	korduvkasutusega	S	sg=sg|kom=kom	4	obl	_
+6	serviisilt	S	sg=sg|abl=abl	4	obj	_
+7	,	Z	_	10	punct	_
+8	kohvikud	S	pl=pl|n=n	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	upu	V	o=o	3	conj	_
+11	reklaami	S	sg=sg|g=g	10	obj	CHECK
+12	,	Z	_	13	punct	_
+13	õues	S	sg=sg|in=in	14	mark	_
+14	pole	V	neg=neg|o=o	10	advcl	_
+15	enam	D	_	14	advmod	_
+16	õllekraane	S	pl=pl|p=p	13	nsubj:cop	_
+17	ja	J	_	18	cc	_
+18	külmkappe	S	pl=pl|p=p	16	conj	_
+19	ning	J	_	24	cc	_
+20	ühtegi	N	sg=sg|p=p	22	det	_
+21	T-särgis	S	sg=sg|in=in	22	nmod	_
+22	teenindajat	S	sg=sg|p=p	24	nsubj	_
+23	ei	V	neg=neg	24	aux	_
+24	tule	V	o=o	3	conj	_
+25	,	Z	_	27	punct	_
+26	"	Z	_	27	punct	_
+27	loetles	V	s=s	3	parataxis	_
+28	Ojaveski	S	sg=sg|n=n	27	nsubj	_
+29	.	Z	_	3	punct	_
+
+# sent_id = 1864011
+# text = Kui tuukrite töö uppunud allveelaeva Kursk neljandas sektsioonis osutub perspektiivituks , tehakse teisipäeval tööde edasise jätkamise kohta uus otsus , teatas Vene Põhjalaevastiku pressiesindaja eile õhtul .
+1	Kui	D	_	9	mark	_
+2	tuukrite	S	pl=pl|g=g	3	nmod	_
+3	töö	S	sg=sg|g=g	4	obl	CHECK
+4	uppunud	V	nud=nud	5	acl	_
+5	allveelaeva	S	sg=sg|g=g	9	nsubj	_
+6	Kursk	H	sg=sg|n=n	5	appos	_
+7	neljandas	O	sg=sg|in=in	8	amod	_
+8	sektsioonis	S	sg=sg|in=in	9	nsubj	_
+9	osutub	V	b=b	12	advcl	_
+10	perspektiivituks	A	sg=sg|tr=tr	9	xcomp	_
+11	,	Z	_	9	punct	_
+12	tehakse	V	takse=takse	0	root	_
+13	teisipäeval	S	sg=sg|ad=ad	12	obl	_
+14	tööde	S	pl=pl|g=g	16	nmod	_
+15	edasise	A	sg=sg|g=g	16	amod	_
+16	jätkamise	S	sg=sg|g=g	12	obl	_
+17	kohta	K	_	16	case	_
+18	uus	A	sg=sg|n=n	19	amod	_
+19	otsus	S	sg=sg|n=n	12	obj	_
+20	,	Z	_	21	punct	_
+21	teatas	V	s=s	12	conj	_
+22	Vene	G	_	23	nmod	_
+23	Põhjalaevastiku	S	sg=sg|g=g	24	nmod	_
+24	pressiesindaja	S	sg=sg|n=n	21	nsubj	_
+25	eile	D	_	21	advmod	_
+26	õhtul	S	sg=sg|ad=ad	21	obl	_
+27	.	Z	_	12	punct	_
+
+# sent_id = 697493
+# text = 12.41 Mees uppus Loobu jõkke .
+1	12.41	N	?=?	2	nummod	_
+2	Mees	S	sg=sg|n=n	3	nsubj	_
+3	uppus	V	s=s	0	root	_
+4	Loobu	V	o=o	3	obj	CHECK
+5	jõkke	S	adt=adt	3	obl	_
+6	.	Z	_	3	punct	_
+
+# sent_id = 1159418
+# text = Keskkonnakaitsjad hoiatasid Venemaad uppunud aatomiallveelaeva näol uut tragöödiat põhjustamast , öeldes , et laeva reaktorite ohutust tuleb kiiresti kontrollida .
+1	Keskkonnakaitsjad	H	pl=pl|n=n	2	nsubj	_
+2	hoiatasid	V	sid=sid	0	root	_
+3	Venemaad	H	sg=sg|p=p	4	obl	CHECK
+4	uppunud	A	pl=pl|n=n	5	acl	_
+5	aatomiallveelaeva	S	sg=sg|g=g	2	obl	_
+6	näol	K	_	5	case	_
+7	uut	A	sg=sg|p=p	8	amod	_
+8	tragöödiat	S	sg=sg|p=p	9	obj	_
+9	põhjustamast	V	mast=mast	2	advcl	_
+10	,	Z	_	11	punct	_
+11	öeldes	V	des=des	2	conj	_
+12	,	Z	_	17	punct	_
+13	et	J	_	17	mark	_
+14	laeva	S	sg=sg|g=g	15	nmod	_
+15	reaktorite	S	pl=pl|g=g	16	nmod	_
+16	ohutust	S	sg=sg|p=p	19	obj	_
+17	tuleb	V	b=b	11	ccomp	_
+18	kiiresti	D	_	19	advmod	_
+19	kontrollida	V	da=da	17	csubj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 20036158
+# text = PCD: kurat nastja vaata et tasse ää ei uppu siis :PPPPP
+1	PCD	Y	?=?	5	parataxis	_
+2	:	Z	_	5	punct	_
+3	kurat	I	_	5	discourse	_
+4	nastja	S	sg=sg|g=g	5	nsubj	_
+5	vaata	V	o=o	0	root	_
+6	et	J	_	10	mark	_
+7	tasse	S	pl=pl|p=p	10	nsubj	CHECK
+8	ää	Y	?=?	10	nsubj	_
+9	ei	V	neg=neg	10	aux	_
+10	uppu	V	o=o	5	ccomp	_
+11	siis	D	_	10	advmod	_
+12	:PPPPP	Z	?=?	5	punct	_
+
+# sent_id = 768414
+# text = Sel nädalal eestlasi pensionireformi küsimustes nõustamas käinud Briti ekspertide sõnul elab reformi toel hästi ka Poola massimeedia , vähemalt telekanalid lausa upuvad pensionifondide reklaami .
+1	Sel	P	sg=sg|ad=ad	2	det	_
+2	nädalal	S	sg=sg|ad=ad	7	obl	_
+3	eestlasi	S	pl=pl|p=p	6	obj	_
+4	pensionireformi	S	sg=sg|g=g	5	nmod	_
+5	küsimustes	S	pl=pl|in=in	7	obl	_
+6	nõustamas	V	mas=mas	7	xcomp	_
+7	käinud	V	nud=nud	9	acl	_
+8	Briti	G	_	9	nmod	_
+9	ekspertide	S	pl=pl|g=g	10	nmod	_
+10	sõnul	S	pl=pl|ad=ad	11	obl	_
+11	elab	V	b=b	0	root	_
+12	reformi	S	sg=sg|g=g	11	obl	_
+13	toel	K	_	12	case	_
+14	hästi	D	_	11	advmod	_
+15	ka	D	_	17	advmod	_
+16	Poola	H	sg=sg|g=g	17	nmod	_
+17	massimeedia	S	sg=sg|g=g	11	nsubj	_
+18	,	Z	_	22	punct	_
+19	vähemalt	D	_	20	advmod	_
+20	telekanalid	S	pl=pl|n=n	22	nsubj	_
+21	lausa	D	_	22	advmod	_
+22	upuvad	V	vad=vad	11	conj	_
+23	pensionifondide	S	pl=pl|g=g	24	nmod	_
+24	reklaami	S	sg=sg|g=g	22	obl	CHECK
+25	.	Z	_	11	punct	_
+
+# sent_id = 11303810
+# text = Täismahus avaldamise korral upuksid lugejad ( kahjuks iseäranis kultuuritegelaste kirjade puhul ) sõnavahtu .
+1	Täismahus	S	sg=sg|in=in	2	nmod	_
+2	avaldamise	S	sg=sg|g=g	4	obl	_
+3	korral	K	_	2	case	_
+4	upuksid	V	ksid=ksid	0	root	_
+5	lugejad	S	pl=pl|n=n	4	nsubj	_
+6	(	Z	_	9	punct	_
+7	kahjuks	D	_	9	advmod	_
+8	iseäranis	D	_	9	advmod	_
+9	kultuuritegelaste	S	pl=pl|g=g	5	parataxis	_
+10	kirjade	S	pl=pl|g=g	9	nmod	_
+11	puhul	K	_	10	case	_
+12	)	Z	_	9	punct	_
+13	sõnavahtu	S	sg=sg|p=p	4	obj	CHECK
+14	.	Z	_	4	punct	_
+
+# sent_id = 21131183
+# text = Girl19: vaata et ara ei uppu
+1	Girl19	Y	?=?	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	vaata	V	o=o	0	root	_
+4	et	J	_	7	mark	_
+5	ara	A	sg=sg|g=g	7	nsubj	CHECK
+6	ei	V	neg=neg	7	aux	_
+7	uppu	V	o=o	3	ccomp	_
+
+# sent_id = 7089823
+# text = Minu tähelepanekute järgi moslemid nagu ei tunnegi mingit vahepealset staadiumi , neil on nõnda , et kõik kas särab puhtusest või upuvad nad rokka ja mustusesse .
+1	Minu	P	sg=sg|g=g	2	nmod	_
+2	tähelepanekute	S	pl=pl|g=g	7	obl	_
+3	järgi	K	_	2	case	_
+4	moslemid	S	pl=pl|n=n	7	obj	_
+5	nagu	D	_	7	mark	_
+6	ei	V	neg=neg	7	aux	_
+7	tunnegi	V	o=o	0	root	_
+8	mingit	P	sg=sg|p=p	10	det	_
+9	vahepealset	A	sg=sg|p=p	10	amod	_
+10	staadiumi	S	sg=sg|p=p	7	obj	_
+11	,	Z	_	14	punct	_
+12	neil	P	pl=pl|ad=ad	14	nsubj:cop	_
+13	on	V	vad=vad	14	cop	_
+14	nõnda	D	_	7	conj	_
+15	,	Z	_	19	punct	_
+16	et	J	_	19	mark	_
+17	kõik	P	sg=sg|n=n	19	nsubj	_
+18	kas	D	_	19	advmod	_
+19	särab	V	b=b	14	advcl	_
+20	puhtusest	S	sg=sg|el=el	19	obl	_
+21	või	J	_	22	cc	_
+22	upuvad	V	vad=vad	19	conj	_
+23	nad	P	pl=pl|n=n	22	obj	CHECK
+24	rokka	S	adt=adt	22	obl	_
+25	ja	J	_	26	cc	_
+26	mustusesse	S	sg=sg|ill=ill	24	conj	_
+27	.	Z	_	7	punct	_
+
+# sent_id = 13492223
+# text = Õnneks ei upu autosid merre kümneid ning seni on kõik kuidagi kaldale saadud .
+1	Õnneks	H	sg=sg|n=n	3	obl	_
+2	ei	V	neg=neg	3	aux	_
+3	upu	V	o=o	0	root	_
+4	autosid	S	pl=pl|p=p	3	nsubj	CHECK
+5	merre	S	adt=adt	3	obl	_
+6	kümneid	N	pl=pl|p=p	3	obl	_
+7	ning	J	_	13	cc	_
+8	seni	D	_	13	advmod	_
+9	on	V	vad=vad	13	aux	_
+10	kõik	P	pl=pl|n=n	13	obj	_
+11	kuidagi	D	_	13	advmod	_
+12	kaldale	S	sg=sg|all=all	13	obl	_
+13	saadud	A	_	3	conj	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 427265
+# text = Reisiparvlaev Estonia uppus 28. septembri öösel teel Tallinnast Stockholmi .
+1	Reisiparvlaev	H	sg=sg|n=n	3	obl	_
+2	Estonia	H	sg=sg|n=n	1	appos	_
+3	uppus	V	s=s	0	root	_
+4	28.	O	?=?	5	amod	_
+5	septembri	S	sg=sg|g=g	3	obl	CHECK
+6	öösel	D	_	3	advmod	_
+7	teel	S	sg=sg|ad=ad	3	obj	_
+8	Tallinnast	H	sg=sg|el=el	3	obl	_
+9	Stockholmi	H	adt=adt	3	nsubj	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 19356162
+# text = QbaAff: upu upu
+1	QbaAff	H	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	upu	V	o=o	0	root	_
+4	upu	V	o=o	3	obj	CHECK
+
+# sent_id = 71724
+# text = Ta oli ülimalt korratu ja uppus rutiinselt depressiooni ning hüsteeriavoogudesse . ”
+1	Ta	P	sg=sg|n=n	4	nsubj:cop	_
+2	oli	V	s=s	4	cop	_
+3	ülimalt	D	_	4	advmod	_
+4	korratu	A	sg=sg|n=n	0	root	_
+5	ja	J	_	6	cc	_
+6	uppus	V	s=s	4	conj	_
+7	rutiinselt	D	_	6	advmod	_
+8	depressiooni	S	sg=sg|p=p	6	obj	CHECK
+9	ning	J	_	10	cc	_
+10	hüsteeriavoogudesse	S	pl=pl|ill=ill	8	conj	_
+11	.	Z	_	4	punct	_
+12	”	Z	_	4	punct	_
+
+# sent_id = 230356
+# text = sõnum ei “ upu ” saaja postkasti sadade e-mailide hulka
+1	sõnum	S	sg=sg|n=n	0	root	_
+2	ei	V	neg=neg	4	aux	_
+3	“	Z	_	4	punct	_
+4	upu	V	o=o	1	acl	_
+5	”	Z	_	4	punct	_
+6	saaja	S	sg=sg|g=g	7	nmod	_
+7	postkasti	S	adt=adt	4	obj	CHECK
+8	sadade	N	pl=pl|g=g	9	nummod	_
+9	e-mailide	S	pl=pl|g=g	7	nmod	_
+10	hulka	K	_	9	case	_
+
+# sent_id = 5904296
+# text = Päästetööd uppunud Vene allveelaeva Kursk ülestõstmiseks jätkusid eile pärast seda , kui saadi taas töökorda spetsiaalne veealusteks töödeks mõeldud saag , mille kett kolmapäeva hommikul purunes ; samas jätkuvad ka vaidlused selle üle , kas kogu päästeoperatsioon on pisavalt ohutu nii päästjatele kui keskkonnale
+1	Päästetööd	S	pl=pl|n=n	2	obl	CHECK
+2	uppunud	A	sg=sg|n=n	4	acl	_
+3	Vene	H	sg=sg|g=g	4	nmod	_
+4	allveelaeva	S	sg=sg|g=g	6	nmod	_
+5	Kursk	H	sg=sg|n=n	4	appos	_
+6	ülestõstmiseks	S	sg=sg|tr=tr	7	obl	_
+7	jätkusid	V	sid=sid	0	root	_
+8	eile	D	_	7	advmod	_
+9	pärast	K	_	10	case	_
+10	seda	P	sg=sg|p=p	7	obl	_
+11	,	Z	_	13	punct	_
+12	kui	D	_	13	mark	_
+13	saadi	V	ti=ti	7	advcl	_
+14	taas	D	_	13	advmod	_
+15	töökorda	S	adt=adt	13	obj	_
+16	spetsiaalne	A	sg=sg|n=n	17	amod	_
+17	veealusteks	S	pl=pl|tr=tr	18	nmod	_
+18	töödeks	S	pl=pl|tr=tr	19	obl	_
+19	mõeldud	A	sg=sg|n=n	20	acl	_
+20	saag	S	sg=sg|n=n	13	obj	_
+21	,	Z	_	26	punct	_
+22	mille	P	pl=pl|g=g	26	nsubj	_
+23	kett	S	sg=sg|n=n	24	nmod	_
+24	kolmapäeva	S	sg=sg|g=g	25	nmod	_
+25	hommikul	S	sg=sg|ad=ad	26	obl	_
+26	purunes	V	s=s	20	acl:relcl	_
+27	;	Z	_	29	punct	_
+28	samas	D	_	29	advmod	_
+29	jätkuvad	V	vad=vad	13	parataxis	_
+30	ka	D	_	31	advmod	_
+31	vaidlused	S	pl=pl|n=n	29	nsubj	_
+32	selle	P	sg=sg|g=g	31	nmod	_
+33	üle	K	_	32	case	_
+34	,	Z	_	40	punct	_
+35	kas	D	_	40	advmod	_
+36	kogu	A	_	37	det	_
+37	päästeoperatsioon	S	sg=sg|n=n	40	nsubj:cop	_
+38	on	V	b=b	40	cop	_
+39	pisavalt	D	_	40	advmod	_
+40	ohutu	A	sg=sg|n=n	32	acl	_
+41	nii	D	_	42	cc:preconj	_
+42	päästjatele	S	pl=pl|all=all	40	obl	_
+43	kui	J	_	44	cc	_
+44	keskkonnale	S	sg=sg|all=all	42	conj	_
+
+# sent_id = 9932229
+# text = Vaadake ja uppuge häbi anatoomiasse .
+1	Vaadake	V	ge=ge	0	root	_
+2	ja	J	_	3	cc	_
+3	uppuge	V	ge=ge	1	conj	_
+4	häbi	S	sg=sg|n=n	3	obj	CHECK
+5	anatoomiasse	S	sg=sg|ill=ill	3	obl	_
+6	.	Z	_	1	punct	_
+
+# sent_id = 8527088
+# text = Kui talvel sajaks meil lund suvise vihma intensiivsusega , upuksime lumme .
+1	Kui	D	_	3	mark	_
+2	talvel	S	sg=sg|ad=ad	3	obl	_
+3	sajaks	V	ks=ks	10	advcl	_
+4	meil	P	pl=pl|ad=ad	3	nsubj	_
+5	lund	S	sg=sg|p=p	3	nsubj	_
+6	suvise	A	sg=sg|g=g	7	amod	_
+7	vihma	S	sg=sg|g=g	8	nmod	_
+8	intensiivsusega	S	sg=sg|kom=kom	3	obl	_
+9	,	Z	_	3	punct	_
+10	upuksime	V	ksime=ksime	0	root	_
+11	lumme	S	adt=adt	10	obj	CHECK
+12	.	Z	_	10	punct	_
+

@@ -1,0 +1,484 @@
+# sent_id = 586859
+# text = Samal põhjusel katkeb ka järjest enam rasedusi .
+1	Samal	P	sg=sg|ad=ad	2	det	_
+2	põhjusel	S	sg=sg|ad=ad	3	obl	_
+3	katkeb	V	b=b	0	root	_
+4	ka	D	_	3	advmod	_
+5	järjest	D	_	6	advmod	_
+6	enam	D	_	7	advmod	_
+7	rasedusi	S	pl=pl|p=p	3	nsubj	CHECK
+8	.	Z	_	3	punct	_
+
+# sent_id = 4940917
+# text = Kui aga põhjas mõne augu avastate , kraapige augu servad haljaks , ja katke metall korralikult kruntvärviga .
+1	Kui	J	_	6	mark	_
+2	aga	J	_	6	advmod	_
+3	põhjas	S	sg=sg|in=in	6	nsubj	_
+4	mõne	P	sg=sg|g=g	5	det	_
+5	augu	S	sg=sg|g=g	6	obj	_
+6	avastate	V	te=te	8	advcl	_
+7	,	Z	_	6	punct	_
+8	kraapige	V	ge=ge	0	root	_
+9	augu	S	sg=sg|g=g	8	nsubj	_
+10	servad	S	pl=pl|n=n	8	obj	_
+11	haljaks	A	sg=sg|tr=tr	8	obl	_
+12	,	Z	_	14	punct	_
+13	ja	J	_	14	cc	_
+14	katke	V	ge=ge	8	conj	_
+15	metall	S	sg=sg|n=n	14	obj	CHECK
+16	korralikult	D	_	14	advmod	_
+17	kruntvärviga	S	sg=sg|kom=kom	14	obj	_
+18	.	Z	_	8	punct	_
+
+# sent_id = 2973203
+# text = Avareisile stardib Air Livonia väikelennuk Pärnust 20. detsembril kell 9 ja kell 15 , jõulude ajal ei katke õhutee meretaguse vallaga .
+1	Avareisile	S	sg=sg|all=all	2	obj	_
+2	stardib	V	b=b	0	root	_
+3	Air	H	sg=sg|n=n	5	nmod	_
+4	Livonia	H	sg=sg|n=n	3	flat	_
+5	väikelennuk	S	sg=sg|n=n	2	obj	_
+6	Pärnust	H	sg=sg|el=el	5	appos	_
+7	20.	O	?=?	8	amod	_
+8	detsembril	S	sg=sg|ad=ad	2	obl	_
+9	kell	S	sg=sg|n=n	2	obl	_
+10	9	N	?=?	9	nummod	_
+11	ja	J	_	12	cc	_
+12	kell	S	sg=sg|n=n	2	conj	_
+13	15	N	?=?	12	nummod	_
+14	,	Z	_	18	punct	_
+15	jõulude	S	pl=pl|g=g	18	obl	_
+16	ajal	K	_	15	case	_
+17	ei	V	neg=neg	18	aux	_
+18	katke	V	ge=ge	2	conj	_
+19	õhutee	S	sg=sg|g=g	18	nsubj	_
+20	meretaguse	S	sg=sg|g=g	21	nmod	CHECK
+21	vallaga	S	sg=sg|kom=kom	18	obj	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 12984545
+# text = Määrige näpuga riisipallile pisut wasabit ja katke lapiku kalatüki või suure lahtilõigatud krevetiga .
+1	Määrige	V	ge=ge	0	root	_
+2	näpuga	S	sg=sg|kom=kom	1	obj	_
+3	riisipallile	S	sg=sg|all=all	1	obj	_
+4	pisut	D	_	5	advmod	_
+5	wasabit	S	sg=sg|p=p	1	obl	_
+6	ja	J	_	7	cc	_
+7	katke	V	o=o	1	conj	_
+8	lapiku	A	sg=sg|g=g	9	amod	_
+9	kalatüki	S	sg=sg|g=g	7	nsubj	CHECK
+10	või	J	_	13	cc	_
+11	suure	A	sg=sg|g=g	13	amod	_
+12	lahtilõigatud	A	sg=sg|n=n	13	acl	_
+13	krevetiga	S	sg=sg|kom=kom	9	conj	_
+14	.	Z	_	1	punct	_
+
+# sent_id = 2719196
+# text = Katkenud on paar valgustusliini Jaama tn ja Kastani tänaval , teatas Pärnu linnavalitsus .
+1	Katkenud	A	sg=sg|n=n	0	root	_
+2	on	V	vad=vad	1	aux	_
+3	paar	N	sg=sg|n=n	4	nummod	_
+4	valgustusliini	S	sg=sg|p=p	1	nsubj	CHECK
+5	Jaama	H	sg=sg|g=g	4	appos	_
+6	tn	Y	?=?	5	flat	_
+7	ja	J	_	8	cc	_
+8	Kastani	S	sg=sg|g=g	9	nmod	_
+9	tänaval	S	sg=sg|ad=ad	5	conj	_
+10	,	Z	_	11	punct	_
+11	teatas	V	s=s	1	conj	_
+12	Pärnu	H	sg=sg|g=g	13	nmod	_
+13	linnavalitsus	S	sg=sg|n=n	11	nsubj	_
+14	.	Z	_	1	punct	_
+
+# sent_id = 4978571
+# text = Tartuga katkes Tallinnal ühendus pea täiesti , kui Piibe maanteel langesid puud sõiduteele ja suurel Tartu maanteel koguni mitmes paigas - näiteks Puurmanis ja Laeva teeristil .
+1	Tartuga	H	sg=sg|kom=kom	2	nsubj	_
+2	katkes	V	s=s	0	root	_
+3	Tallinnal	H	sg=sg|ad=ad	4	nmod	_
+4	ühendus	S	sg=sg|n=n	2	obl	_
+5	pea	V	o=o	2	obl	CHECK
+6	täiesti	D	_	2	advmod	_
+7	,	Z	_	11	punct	_
+8	kui	J	_	11	mark	_
+9	Piibe	H	sg=sg|g=g	10	nmod	_
+10	maanteel	S	sg=sg|ad=ad	11	obl	_
+11	langesid	V	sid=sid	2	advcl	_
+12	puud	S	sg=sg|n=n	13	nmod	_
+13	sõiduteele	S	sg=sg|all=all	11	obl	_
+14	ja	J	_	20	cc	_
+15	suurel	A	sg=sg|ad=ad	17	amod	_
+16	Tartu	H	sg=sg|g=g	17	nmod	_
+17	maanteel	S	sg=sg|ad=ad	13	conj	_
+18	koguni	D	_	20	advmod	_
+19	mitmes	P	sg=sg|in=in	20	det	_
+20	paigas	S	sg=sg|in=in	11	conj	_
+21	-	Z	_	23	punct	_
+22	näiteks	S	sg=sg|tr=tr	23	advmod	_
+23	Puurmanis	H	sg=sg|in=in	26	nmod	_
+24	ja	J	_	25	cc	_
+25	Laeva	S	sg=sg|p=p	23	conj	_
+26	teeristil	S	sg=sg|ad=ad	20	appos	_
+27	.	Z	_	2	punct	_
+
+# sent_id = 1817694
+# text = Seda ka siis , kui peresuhted on mis tahes põhjusel katkenud .
+1	Seda	P	sg=sg|p=p	0	root	_
+2	ka	D	_	3	advmod	_
+3	siis	J	_	1	advmod	_
+4	,	Z	_	11	punct	_
+5	kui	D	_	11	mark	_
+6	peresuhted	S	pl=pl|n=n	11	nsubj	_
+7	on	V	vad=vad	11	aux	_
+8	mis	P	sg=sg|n=n	11	nsubj	CHECK
+9	tahes	D	_	10	advmod	_
+10	põhjusel	S	sg=sg|ad=ad	11	obl	_
+11	katkenud	A	_	1	advcl	_
+12	.	Z	_	1	punct	_
+
+# sent_id = 1180986
+# text = Kui keegi helistab sellise jaki omanikule samal ajal , kui ta muusikat kuulab , katkeb muusika ja tekib võimalus rääkida .
+1	Kui	D	_	3	mark	_
+2	keegi	P	sg=sg|n=n	3	nsubj	_
+3	helistab	V	b=b	15	advcl	_
+4	sellise	P	sg=sg|g=g	6	det	_
+5	jaki	S	sg=sg|g=g	6	nmod	_
+6	omanikule	S	sg=sg|all=all	3	obl	_
+7	samal	P	sg=sg|ad=ad	8	det	_
+8	ajal	S	sg=sg|ad=ad	3	obl	_
+9	,	Z	_	13	punct	_
+10	kui	D	_	13	mark	_
+11	ta	P	sg=sg|n=n	13	nsubj	_
+12	muusikat	S	sg=sg|p=p	13	obj	_
+13	kuulab	V	b=b	3	advcl	_
+14	,	Z	_	13	punct	_
+15	katkeb	V	b=b	0	root	_
+16	muusika	S	sg=sg|g=g	15	nsubj	CHECK
+17	ja	J	_	18	cc	_
+18	tekib	V	b=b	15	conj	_
+19	võimalus	S	sg=sg|n=n	18	nsubj	_
+20	rääkida	V	da=da	18	advcl	_
+21	.	Z	_	15	punct	_
+
+# sent_id = 147563
+# text = Eesti avalikkuse üldine ükskõiksus siin ilmuvate venekeelsete ajalehtede vastu katkes selle aasta aprillis pärast Leivi Sheri artikli “ Orjad võimul ” ilmumist .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	avalikkuse	S	sg=sg|g=g	6	obl	_
+3	üldine	A	sg=sg|n=n	4	amod	_
+4	ükskõiksus	S	sg=sg|n=n	6	obj	_
+5	siin	D	_	6	advmod	_
+6	ilmuvate	A	pl=pl|g=g	8	acl	_
+7	venekeelsete	A	pl=pl|g=g	8	amod	_
+8	ajalehtede	S	pl=pl|g=g	10	obl	_
+9	vastu	K	_	8	case	_
+10	katkes	V	s=s	0	root	_
+11	selle	P	sg=sg|g=g	12	det	_
+12	aasta	S	sg=sg|g=g	10	obl	_
+13	aprillis	S	sg=sg|in=in	10	obl	_
+14	pärast	K	_	13	case	_
+15	Leivi	H	sg=sg|g=g	17	nmod	_
+16	Sheri	H	sg=sg|g=g	15	flat	_
+17	artikli	S	sg=sg|g=g	10	obl	_
+18	“	Z	_	20	punct	_
+19	Orjad	S	pl=pl|n=n	20	nmod	_
+20	võimul	S	sg=sg|ad=ad	17	appos	_
+21	”	Z	_	20	punct	_
+22	ilmumist	S	sg=sg|p=p	10	obl	CHECK
+23	.	Z	_	10	punct	_
+
+# sent_id = 98181
+# text = Märtsikuus katkes ka teise suure ettevõtjate ühenduse , ligi 1600 firmat ühendava Eesti Kaubandus-Tööstuskoja kannatus .
+1	Märtsikuus	H	sg=sg|n=n	2	obl	_
+2	katkes	V	s=s	0	root	_
+3	ka	D	_	7	advmod	_
+4	teise	P	sg=sg|g=g	7	det	_
+5	suure	A	sg=sg|g=g	6	amod	_
+6	ettevõtjate	S	pl=pl|g=g	7	nmod	_
+7	ühenduse	S	sg=sg|g=g	2	nsubj	CHECK
+8	,	Z	_	15	punct	_
+9	ligi	K	_	10	advmod	_
+10	1600	N	?=?	11	nummod	_
+11	firmat	S	sg=sg|p=p	12	obj	_
+12	ühendava	A	sg=sg|g=g	15	acl	_
+13	Eesti	H	sg=sg|g=g	15	nmod	_
+14	Kaubandus-Tööstuskoja	H	sg=sg|g=g	15	nmod	_
+15	kannatus	S	sg=sg|n=n	7	conj	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 589741
+# text = Valentin Kuigil katkeb kannatus ja ta teeb ettepaneku teha Kirjanike liidu põhikirjas muudatused kasvõi selles osas , et liidu koosolekuid ei tohi muuta õllereklaamimiseks .
+1	Valentin	H	sg=sg|n=n	3	nsubj	_
+2	Kuigil	H	sg=sg|n=n	1	flat	_
+3	katkeb	V	b=b	0	root	_
+4	kannatus	S	sg=sg|n=n	3	obl	CHECK
+5	ja	J	_	7	cc	_
+6	ta	P	sg=sg|n=n	7	nsubj	_
+7	teeb	V	b=b	3	conj	_
+8	ettepaneku	S	sg=sg|g=g	7	obj	_
+9	teha	V	da=da	8	acl	_
+10	Kirjanike	H	pl=pl|g=g	11	nmod	_
+11	liidu	S	sg=sg|g=g	12	nmod	_
+12	põhikirjas	S	sg=sg|in=in	13	nmod	_
+13	muudatused	S	pl=pl|n=n	9	obj	_
+14	kasvõi	D	_	15	advmod	_
+15	selles	P	sg=sg|in=in	16	det	_
+16	osas	S	sg=sg|in=in	9	obl	_
+17	,	Z	_	23	punct	_
+18	et	J	_	23	mark	_
+19	liidu	S	sg=sg|g=g	20	nmod	_
+20	koosolekuid	S	pl=pl|p=p	23	obj	_
+21	ei	V	neg=neg	23	aux	_
+22	tohi	V	o=o	23	aux	_
+23	muuta	V	da=da	16	acl	_
+24	õllereklaamimiseks	S	sg=sg|tr=tr	23	obl	_
+25	.	Z	_	3	punct	_
+
+# sent_id = 465150
+# text = Juhtima asus uuesti Ralf Schumacher , kuid kõigest üks ring pärast seda katkes sõit parema tagarehvi purunemise tõttu .
+1	Juhtima	V	ma=ma	2	nsubj	_
+2	asus	V	s=s	0	root	_
+3	uuesti	D	_	2	advmod	_
+4	Ralf	H	sg=sg|n=n	2	nsubj	_
+5	Schumacher	H	sg=sg|n=n	4	flat	_
+6	,	Z	_	13	punct	_
+7	kuid	J	_	13	cc	_
+8	kõigest	D	_	9	advmod	_
+9	üks	N	sg=sg|n=n	10	nummod	_
+10	ring	S	sg=sg|n=n	13	nsubj	_
+11	pärast	K	_	12	case	_
+12	seda	P	sg=sg|p=p	10	nmod	_
+13	katkes	V	s=s	2	conj	_
+14	sõit	S	sg=sg|n=n	13	obj	CHECK
+15	parema	C	sg=sg|g=g	16	amod	_
+16	tagarehvi	S	sg=sg|g=g	17	nmod	_
+17	purunemise	S	sg=sg|g=g	13	obl	_
+18	tõttu	K	_	17	case	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 479743
+# text = " Fuugakunsti " neljast häälest katkevad kõik eri ajal ja pikaks ajaks jääb helisema vaid üks .
+1	"	Z	_	2	punct	_
+2	Fuugakunsti	S	adt=adt	5	nmod	CHECK
+3	"	Z	_	2	punct	_
+4	neljast	N	sg=sg|el=el	5	nummod	_
+5	häälest	S	sg=sg|el=el	6	nsubj	_
+6	katkevad	V	vad=vad	0	root	_
+7	kõik	P	pl=pl|n=n	6	nsubj	_
+8	eri	A	_	9	amod	_
+9	ajal	S	sg=sg|ad=ad	6	obl	_
+10	ja	J	_	13	cc	_
+11	pikaks	A	sg=sg|tr=tr	12	amod	_
+12	ajaks	S	sg=sg|tr=tr	13	obl	_
+13	jääb	V	b=b	6	conj	_
+14	helisema	V	ma=ma	13	nsubj	_
+15	vaid	D	_	16	advmod	_
+16	üks	N	sg=sg|n=n	13	nsubj	_
+17	.	Z	_	6	punct	_
+
+# sent_id = 7747105
+# text = Katkenud linoleumi , hävinud seinavärvi , nõgise või hallitanud lae eredat väljajoonistumist pärsivad lagunenud laelampidesse keeratud puudulikult valgustavad pirnid .
+1	Katkenud	A	pl=pl|n=n	2	acl	_
+2	linoleumi	S	sg=sg|g=g	13	nsubj	CHECK
+3	,	Z	_	4	punct	_
+4	hävinud	A	sg=sg|n=n	2	conj	_
+5	seinavärvi	S	sg=sg|g=g	4	obj	_
+6	,	Z	_	7	punct	_
+7	nõgise	A	sg=sg|g=g	2	conj	_
+8	või	J	_	9	cc	_
+9	hallitanud	A	pl=pl|n=n	2	conj	_
+10	lae	S	sg=sg|g=g	12	nmod	_
+11	eredat	A	sg=sg|p=p	12	amod	_
+12	väljajoonistumist	S	sg=sg|p=p	13	obj	_
+13	pärsivad	V	vad=vad	0	root	_
+14	lagunenud	A	_	15	acl	_
+15	laelampidesse	S	pl=pl|ill=ill	16	obl	_
+16	keeratud	A	pl=pl|n=n	19	acl	_
+17	puudulikult	D	_	18	advmod	_
+18	valgustavad	A	pl=pl|n=n	19	acl	_
+19	pirnid	S	pl=pl|n=n	13	obj	_
+20	.	Z	_	13	punct	_
+
+# sent_id = 1357446
+# text = Praeguseks on USA maisi eksport Euroopasse peaaegu et katkenud .
+1	Praeguseks	A	sg=sg|tr=tr	9	obl	_
+2	on	V	vad=vad	9	aux	_
+3	USA	Y	?=?	4	nmod	_
+4	maisi	S	sg=sg|p=p	5	nmod	CHECK
+5	eksport	S	sg=sg|n=n	9	nsubj	_
+6	Euroopasse	H	sg=sg|ill=ill	5	appos	_
+7	peaaegu	D	_	9	advmod	_
+8	et	J	_	7	fixed	_
+9	katkenud	A	_	0	root	_
+10	.	Z	_	9	punct	_
+
+# sent_id = 13874817
+# text = Ema Jelena räägib , et kõik kontaktid neiu lähedastega ongi katkenud telefonis vastavad võõrad , kinnitades , et number on neile kogu aeg kuulunud , Oksana sõprade korterites elavad tundmatud inimesed .
+1	Ema	S	sg=sg|n=n	3	nsubj	_
+2	Jelena	H	sg=sg|n=n	1	appos	_
+3	räägib	V	b=b	0	root	_
+4	,	Z	_	11	punct	_
+5	et	J	_	11	mark	_
+6	kõik	P	pl=pl|n=n	9	det	_
+7	kontaktid	S	pl=pl|n=n	8	nmod	_
+8	neiu	S	sg=sg|g=g	9	nmod	_
+9	lähedastega	S	pl=pl|kom=kom	11	nsubj	_
+10	ongi	V	b=b	11	aux	_
+11	katkenud	V	nud=nud	3	ccomp	_
+12	telefonis	S	sg=sg|in=in	13	obj	_
+13	vastavad	A	pl=pl|n=n	14	acl	_
+14	võõrad	S	pl=pl|n=n	11	nsubj	CHECK
+15	,	Z	_	16	punct	_
+16	kinnitades	V	des=des	3	conj	_
+17	,	Z	_	24	punct	_
+18	et	J	_	24	mark	_
+19	number	S	sg=sg|n=n	24	nsubj	_
+20	on	V	b=b	24	aux	_
+21	neile	P	pl=pl|all=all	24	nsubj	_
+22	kogu	A	_	23	det	_
+23	aeg	S	sg=sg|n=n	24	obl	_
+24	kuulunud	A	_	16	ccomp	_
+25	,	Z	_	29	punct	_
+26	Oksana	H	sg=sg|g=g	27	nmod	_
+27	sõprade	S	pl=pl|g=g	28	nmod	_
+28	korterites	S	pl=pl|in=in	29	obj	_
+29	elavad	V	vad=vad	24	conj	_
+30	tundmatud	A	pl=pl|n=n	31	amod	_
+31	inimesed	S	pl=pl|n=n	29	nsubj	_
+32	.	Z	_	3	punct	_
+
+# sent_id = 10147369
+# text = Niisutage käterätt kange kummeliteega , pange kaela ümber ja katke sooja villase rätikuga .
+1	Niisutage	V	ge=ge	0	root	_
+2	käterätt	S	sg=sg|n=n	1	obj	_
+3	kange	A	sg=sg|g=g	4	amod	_
+4	kummeliteega	S	sg=sg|kom=kom	1	obj	_
+5	,	Z	_	6	punct	_
+6	pange	S	sg=sg|g=g	1	conj	_
+7	kaela	S	adt=adt	6	obl	_
+8	ümber	D	_	6	compound:prt	_
+9	ja	J	_	10	cc	_
+10	katke	V	ge=ge	1	conj	_
+11	sooja	S	sg=sg|p=p	13	nmod	CHECK
+12	villase	A	sg=sg|g=g	13	amod	_
+13	rätikuga	S	sg=sg|kom=kom	10	obj	_
+14	.	Z	_	1	punct	_
+
+# sent_id = 5000278
+# text = President Meri avaldas ordenit üle andes lootust , et Soome jääb Eestile jätkuvalt suureks toeks Eesti välispoliitiliste eesmärkide elluviimisel ning et suursaadik Oinoneni kontaktid Eestiga ei katke .
+1	President	S	sg=sg|n=n	3	nsubj	_
+2	Meri	H	sg=sg|n=n	1	appos	_
+3	avaldas	V	s=s	0	root	_
+4	ordenit	S	sg=sg|p=p	3	obj	_
+5	üle	D	_	6	compound:prt	_
+6	andes	V	des=des	3	advcl	_
+7	lootust	S	sg=sg|p=p	3	obj	_
+8	,	Z	_	11	punct	_
+9	et	J	_	11	mark	_
+10	Soome	H	sg=sg|n=n	11	obl	_
+11	jääb	V	b=b	7	acl	_
+12	Eestile	H	sg=sg|all=all	11	obl	_
+13	jätkuvalt	D	_	11	advmod	_
+14	suureks	A	sg=sg|tr=tr	15	amod	_
+15	toeks	S	sg=sg|tr=tr	11	obl	_
+16	Eesti	H	sg=sg|g=g	18	nmod	_
+17	välispoliitiliste	A	pl=pl|g=g	18	amod	_
+18	eesmärkide	S	pl=pl|g=g	19	nmod	_
+19	elluviimisel	S	sg=sg|ad=ad	11	obl	_
+20	ning	J	_	27	cc	_
+21	et	J	_	27	mark	_
+22	suursaadik	S	sg=sg|n=n	27	nsubj	_
+23	Oinoneni	H	sg=sg|p=p	24	nmod	_
+24	kontaktid	S	pl=pl|n=n	27	obl	CHECK
+25	Eestiga	H	sg=sg|kom=kom	27	nsubj	_
+26	ei	V	neg=neg	27	aux	_
+27	katke	V	o=o	11	conj	_
+28	.	Z	_	3	punct	_
+
+# sent_id = 9497774
+# text = Kujutan ette , et kui presidenti tabab  impeachment  , võiks ta telekas lahkumiseks lugeda Richard Teise sõnu : “ Pead katke , ärge liha pilgake / võltshardusega ; heitke endilt austus , / kõik tavad , vormid , kombekohused , / sest kogu aeg te eksisite minus : / nii nagu teiegi ma elan leivast , / ma tajun valu , vajan sõpru .
+1	Kujutan	V	n=n	0	root	_
+2	ette	D	_	1	compound:prt	_
+3	,	Z	_	7	punct	_
+4	et	J	_	7	mark	_
+5	kui	D	_	7	mark	_
+6	presidenti	S	sg=sg|p=p	7	nsubj	_
+7	tabab	V	b=b	14	advcl	_
+8	impeachment	S	sg=sg|n=n	7	obj	_
+9	,	Z	_	7	punct	_
+10	võiks	V	ks=ks	14	aux	_
+11	ta	P	sg=sg|n=n	14	nsubj	_
+12	telekas	S	sg=sg|in=in	13	nmod	_
+13	lahkumiseks	S	sg=sg|tr=tr	14	obl	_
+14	lugeda	V	da=da	1	ccomp	_
+15	Richard	H	sg=sg|n=n	17	nmod	_
+16	Teise	H	sg=sg|g=g	15	flat	_
+17	sõnu	S	pl=pl|p=p	14	obj	_
+18	:	Z	_	21	punct	_
+19	“	Z	_	21	punct	_
+20	Pead	S	sg=sg|p=p	21	nsubj	CHECK
+21	katke	V	ge=ge	14	parataxis	_
+22	,	Z	_	25	punct	_
+23	ärge	V	neg=neg|ge=ge	25	aux	_
+24	liha	S	sg=sg|p=p	25	nsubj	_
+25	pilgake	V	ge=ge	21	conj	_
+26	/	Z	_	25	punct	_
+27	võltshardusega	S	sg=sg|kom=kom	25	obj	_
+28	;	Z	_	29	punct	_
+29	heitke	V	ge=ge	21	conj	_
+30	endilt	P	pl=pl|abl=abl	29	obl	_
+31	austus	S	sg=sg|n=n	29	obj	_
+32	,	Z	_	35	punct	_
+33	/	Z	_	35	punct	_
+34	kõik	P	sg=sg|n=n	35	det	_
+35	tavad	S	pl=pl|n=n	29	conj	_
+36	,	Z	_	37	punct	_
+37	vormid	S	pl=pl|n=n	35	conj	_
+38	,	Z	_	39	punct	_
+39	kombekohused	S	pl=pl|n=n	35	conj	_
+40	,	Z	_	46	punct	_
+41	/	Z	_	46	punct	_
+42	sest	J	_	46	mark	_
+43	kogu	A	_	44	det	_
+44	aeg	S	sg=sg|n=n	46	obl	_
+45	te	P	pl=pl|n=n	46	nsubj	_
+46	eksisite	V	site=site	29	advcl	_
+47	minus	P	sg=sg|in=in	46	nsubj	_
+48	:	Z	_	54	punct	_
+49	/	Z	_	54	punct	_
+50	nii	D	_	54	advmod	_
+51	nagu	J	_	50	fixed	_
+52	teiegi	P	pl=pl|n=n	54	nsubj	_
+53	ma	P	sg=sg|n=n	54	nsubj	_
+54	elan	V	n=n	46	parataxis	_
+55	leivast	S	sg=sg|el=el	54	obl	_
+56	,	Z	_	59	punct	_
+57	/	Z	_	59	punct	_
+58	ma	P	sg=sg|n=n	59	nsubj	_
+59	tajun	V	n=n	54	conj	_
+60	valu	S	sg=sg|p=p	59	obj	_
+61	,	Z	_	62	punct	_
+62	vajan	V	n=n	59	conj	_
+63	sõpru	S	pl=pl|p=p	62	obj	_
+64	.	Z	_	1	punct	_
+
+# sent_id = 1536211
+# text = Nordic Jet Line'i materiaalse kahju katkenud laevaliikluse eest korvab vigase päästesüsteemi tootja , reisijate usalduse vähenemist laevafirma ei karda .
+1	Nordic	H	sg=sg|n=n	5	nmod	_
+2	Jet	H	sg=sg|n=n	1	flat	_
+3	Line'i	H	sg=sg|g=g	1	flat	_
+4	materiaalse	A	sg=sg|g=g	5	amod	_
+5	kahju	S	sg=sg|g=g	6	obj	CHECK
+6	katkenud	A	pl=pl|n=n	7	acl	_
+7	laevaliikluse	S	sg=sg|g=g	9	obl	_
+8	eest	K	_	7	case	_
+9	korvab	V	b=b	0	root	_
+10	vigase	A	sg=sg|g=g	11	amod	_
+11	päästesüsteemi	S	sg=sg|g=g	12	nmod	_
+12	tootja	S	sg=sg|g=g	9	nsubj	_
+13	,	Z	_	19	punct	_
+14	reisijate	S	pl=pl|g=g	19	nsubj	_
+15	usalduse	S	sg=sg|g=g	16	nmod	_
+16	vähenemist	S	sg=sg|p=p	19	obj	_
+17	laevafirma	S	sg=sg|n=n	19	nsubj	_
+18	ei	V	neg=neg	19	aux	_
+19	karda	V	o=o	9	conj	_
+20	.	Z	_	9	punct	_
+

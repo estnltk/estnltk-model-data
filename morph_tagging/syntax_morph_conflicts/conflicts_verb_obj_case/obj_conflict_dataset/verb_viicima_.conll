@@ -1,0 +1,436 @@
+# sent_id = 15876085
+# text = bah mul vaja kirjutada aga nero viskab yhe akna ette kui bini tahan kirjutada ... ja eriti ei viici neid isoks ymber convertida
+1	bah	S	sg=sg|n=n	4	obj	_
+2	mul	P	sg=sg|ad=ad	4	nsubj	_
+3	vaja	D	_	4	compound:prt	_
+4	kirjutada	V	da=da	0	root	_
+5	aga	J	_	7	cc	_
+6	nero	S	sg=sg|n=n	7	nsubj	_
+7	viskab	V	b=b	4	conj	_
+8	yhe	S	sg=sg|g=g	7	obj	_
+9	akna	S	sg=sg|g=g	7	obl	_
+10	ette	K	_	9	case	_
+11	kui	D	_	13	mark	_
+12	bini	S	adt=adt	13	nsubj	_
+13	tahan	V	n=n	7	advcl	_
+14	kirjutada	V	da=da	13	advcl	_
+15	...	Z	_	19	punct	_
+16	ja	J	_	19	cc	_
+17	eriti	D	_	19	advmod	_
+18	ei	V	neg=neg	19	aux	_
+19	viici	V	o=o	7	conj	_
+20	neid	P	pl=pl|p=p	19	nsubj	CHECK
+21	isoks	S	sg=sg|tr=tr	19	obj	_
+22	ymber	S	sg=sg|n=n	21	flat	_
+23	convertida	S	sg=sg|g=g	22	flat	_
+
+# sent_id = 19278800
+# text = plixz_Eyke: kas keegi viicib privada sest igav on
+1	plixz_Eyke	S	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	kas	D	_	5	advmod	_
+4	keegi	P	sg=sg|n=n	5	nsubj	_
+5	viicib	V	b=b	1	parataxis	_
+6	privada	S	sg=sg|g=g	5	obj	CHECK
+7	sest	J	_	8	mark	_
+8	igav	A	sg=sg|n=n	5	advcl	_
+9	on	V	b=b	5	advcl	_
+
+# sent_id = 19587282
+# text = kriska: ei viici sa liiga vana ic ..
+1	kriska	S	sg=sg|n=n	4	parataxis	_
+2	:	Z	_	4	punct	_
+3	ei	V	neg=neg	4	aux	_
+4	viici	V	o=o	0	root	_
+5	sa	P	sg=sg|n=n	4	nsubj	_
+6	liiga	D	_	7	advmod	_
+7	vana	A	sg=sg|n=n	8	amod	_
+8	ic	Y	?=?	4	obj	CHECK
+9	..	Z	_	4	punct	_
+
+# sent_id = 16033127
+# text = ära ennast e-mailiga piina sest ip j2rgi on pea võimatu sind akillist vabastada .. liiga tyytu tegevus neile .. 3 inimest tunnen ma irl ja kuuega neist olen suhelnud juba aastaid .. usu mind nad ei viici
+1	ära	V	neg=neg|o=o	0	root	_
+2	ennast	P	sg=sg|p=p	1	obj	_
+3	e-mailiga	S	sg=sg|kom=kom	4	obl	_
+4	piina	S	sg=sg|g=g	10	punct	_
+5	sest	J	_	10	mark	_
+6	ip	Y	?=?	7	nmod	_
+7	j2rgi	S	sg=sg|n=n	10	nsubj:cop	_
+8	on	V	b=b	10	cop	_
+9	pea	D	_	10	advmod	_
+10	võimatu	A	sg=sg|n=n	1	advcl	_
+11	sind	P	sg=sg|p=p	13	obj	_
+12	akillist	S	sg=sg|el=el	13	obj	_
+13	vabastada	V	da=da	10	csubj:cop	_
+14	..	Z	_	17	punct	_
+15	liiga	D	_	16	advmod	_
+16	tyytu	S	sg=sg|g=g	17	nmod	_
+17	tegevus	S	sg=sg|n=n	10	conj	_
+18	neile	P	pl=pl|all=all	17	nsubj:cop	_
+19	..	Z	_	22	punct	_
+20	3	N	?=?	21	nummod	_
+21	inimest	S	sg=sg|p=p	22	nsubj	_
+22	tunnen	V	n=n	10	conj	_
+23	ma	P	sg=sg|n=n	22	nsubj	_
+24	irl	S	sg=sg|n=n	22	obj	_
+25	ja	J	_	29	cc	_
+26	kuuega	S	sg=sg|kom=kom	29	nsubj	_
+27	neist	P	pl=pl|el=el	26	det	_
+28	olen	V	n=n	29	aux	_
+29	suhelnud	V	nud=nud	22	conj	_
+30	juba	D	_	31	advmod	_
+31	aastaid	S	pl=pl|p=p	29	obl	_
+32	..	Z	_	33	punct	_
+33	usu	V	o=o	22	conj	_
+34	mind	P	sg=sg|p=p	33	obj	CHECK
+35	nad	P	pl=pl|n=n	33	nsubj	_
+36	ei	V	neg=neg	33	aux	_
+37	viici	V	o=o	33	ccomp	_
+
+# sent_id = 15973224
+# text = Mina isiklikult ei viici cdrw'idega jännata
+1	Mina	P	sg=sg|n=n	4	nsubj	_
+2	isiklikult	D	_	4	advmod	_
+3	ei	V	neg=neg	4	aux	_
+4	viici	V	o=o	0	root	_
+5	cdrw	Y	?=?	4	obj	CHECK
+6	'	Z	_	5	flat	_
+7	idega	S	sg=sg|kom=kom	8	obj	_
+8	jännata	V	da=da	4	conj	_
+
+# sent_id = 15975232
+# text = kusjuures mul on ka swap faili jaoks eraldi partition 1GB ja on tõesti parem swappimine kui varem ( 1 suur järjestikune tühi auk on parem kui palju väikseid fragmente vabat ruumi ja kogu ketast defragmentida ma eriti ei viici )
+1	kusjuures	D	_	9	mark	_
+2	mul	P	sg=sg|ad=ad	9	nsubj:cop	_
+3	on	V	b=b	9	cop	_
+4	ka	D	_	6	advmod	_
+5	swap	S	sg=sg|n=n	6	nmod	_
+6	faili	S	sg=sg|g=g	9	obl	_
+7	jaoks	K	_	6	case	_
+8	eraldi	D	_	9	advmod	_
+9	partition	S	sg=sg|n=n	10	nmod	_
+10	1GB	Y	?=?	0	root	_
+11	ja	J	_	12	cc	_
+12	on	V	vad=vad	9	conj	_
+13	tõesti	D	_	12	advmod	_
+14	parem	C	sg=sg|n=n	15	amod	_
+15	swappimine	S	sg=sg|n=n	12	nsubj	_
+16	kui	D	_	17	mark	_
+17	varem	D	_	15	advcl	_
+18	(	Z	_	25	punct	_
+19	1	N	?=?	23	nummod	_
+20	suur	A	sg=sg|n=n	23	amod	_
+21	järjestikune	A	sg=sg|n=n	23	amod	_
+22	tühi	A	sg=sg|n=n	23	amod	_
+23	auk	S	sg=sg|n=n	25	nsubj:cop	_
+24	on	V	b=b	25	cop	_
+25	parem	C	sg=sg|n=n	15	parataxis	_
+26	kui	D	_	31	mark	_
+27	palju	D	_	29	advmod	_
+28	väikseid	A	pl=pl|p=p	29	amod	_
+29	fragmente	S	pl=pl|p=p	31	nmod	_
+30	vabat	S	sg=sg|n=n	31	nmod	_
+31	ruumi	S	sg=sg|g=g	25	advcl	_
+32	ja	J	_	39	cc	_
+33	kogu	A	_	34	det	_
+34	ketast	S	sg=sg|p=p	35	nmod	_
+35	defragmentida	S	sg=sg|g=g	39	obj	CHECK
+36	ma	P	sg=sg|n=n	39	nsubj	_
+37	eriti	D	_	39	advmod	_
+38	ei	V	neg=neg	39	aux	_
+39	viici	V	o=o	25	conj	_
+40	)	Z	_	25	punct	_
+
+# sent_id = 19275597
+# text = Eyke_14: sa viicid we
+1	Eyke_14	Y	?=?	0	root	_
+2	:	Z	_	4	punct	_
+3	sa	P	sg=sg|n=n	4	nsubj	_
+4	viicid	V	d=d	1	parataxis	_
+5	we	Y	?=?	4	obj	CHECK
+
+# sent_id = 16328840
+# text = tra ma ei viici seeda enam üldse mängida .. ja Kriimsilm .. kas sa enam rune ei mängigi vä ?
+1	tra	S	sg=sg|g=g	4	obj	CHECK
+2	ma	P	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	viici	V	o=o	0	root	_
+5	seeda	S	sg=sg|n=n	8	obj	_
+6	enam	D	_	8	advmod	_
+7	üldse	D	_	8	advmod	_
+8	mängida	V	da=da	4	conj	_
+9	..	Z	_	11	punct	_
+10	ja	J	_	11	cc	_
+11	Kriimsilm	H	sg=sg|n=n	8	conj	_
+12	..	Z	_	18	punct	_
+13	kas	D	_	18	advmod	_
+14	sa	P	sg=sg|n=n	18	nsubj	_
+15	enam	D	_	18	advmod	_
+16	rune	S	sg=sg|n=n	18	obj	_
+17	ei	V	neg=neg	18	aux	_
+18	mängigi	V	o=o	11	acl	_
+19	vä	Y	?=?	18	obj	_
+20	?	Z	_	8	punct	_
+
+# sent_id = 15420323
+# text = Eestis on seadus selle koha pealt natsa puudulik ja emane ja keegi ei viici sihukese nõmedusega eriti enivei teglda  )
+1	Eestis	H	sg=sg|in=in	8	obl	_
+2	on	V	vad=vad	8	cop	_
+3	seadus	S	sg=sg|n=n	8	nsubj:cop	_
+4	selle	P	sg=sg|g=g	5	det	_
+5	koha	S	sg=sg|g=g	8	obl	_
+6	pealt	K	_	5	case	_
+7	natsa	S	sg=sg|g=g	8	obl	_
+8	puudulik	A	sg=sg|n=n	0	root	_
+9	ja	J	_	10	cc	_
+10	emane	A	sg=sg|n=n	8	conj	_
+11	ja	J	_	14	cc	_
+12	keegi	P	sg=sg|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	viici	V	o=o	8	conj	_
+15	sihukese	P	sg=sg|g=g	16	det	_
+16	nõmedusega	S	sg=sg|kom=kom	14	obj	_
+17	eriti	D	_	18	advmod	_
+18	enivei	S	sg=sg|g=g	19	nmod	_
+19	teglda	S	sg=sg|n=n	14	obl	CHECK
+20	)	Z	_	8	punct	_
+
+# sent_id = 19298460
+# text = plix15: ma ka ei viici t ??? ja 2ra ytle et ma mingi v6tsin talt suhu sest see on vale jutt need on jeesuse luulud
+1	plix15	Y	?=?	6	parataxis	_
+2	:	Z	_	6	punct	_
+3	ma	P	sg=sg|n=n	6	nsubj	_
+4	ka	D	_	6	advmod	_
+5	ei	V	neg=neg	6	aux	_
+6	viici	V	o=o	0	root	_
+7	t	Y	?=?	6	obj	CHECK
+8	???	Z	_	6	obj	_
+9	ja	J	_	10	cc	_
+10	2ra	Y	?=?	6	conj	_
+11	ytle	S	sg=sg|n=n	10	flat	_
+12	et	J	_	15	mark	_
+13	ma	P	sg=sg|n=n	15	nsubj	_
+14	mingi	P	sg=sg|n=n	15	det	_
+15	v6tsin	S	sg=sg|n=n	6	advcl	_
+16	talt	P	sg=sg|abl=abl	15	obj	_
+17	suhu	S	adt=adt	15	obl	_
+18	sest	J	_	22	mark	_
+19	see	P	sg=sg|n=n	22	nsubj:cop	_
+20	on	V	vad=vad	22	cop	_
+21	vale	A	sg=sg|n=n	22	amod	_
+22	jutt	S	sg=sg|n=n	26	nsubj:cop	_
+23	need	P	pl=pl|n=n	26	nsubj:cop	_
+24	on	V	vad=vad	26	cop	_
+25	jeesuse	S	sg=sg|g=g	26	nmod	_
+26	luulud	S	pl=pl|n=n	6	conj	_
+
+# sent_id = 16315901
+# text = Mul on ka Poser4 aga ma ei oska sellega suurt midagi teha ja ega ma eriti ei viici kaa .
+1	Mul	P	sg=sg|ad=ad	8	nsubj	_
+2	on	V	vad=vad	8	aux	_
+3	ka	D	_	4	advmod	_
+4	Poser4	Y	?=?	8	obl	_
+5	aga	J	_	8	cc	_
+6	ma	P	sg=sg|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	oska	V	o=o	0	root	_
+9	sellega	P	sg=sg|kom=kom	11	det	_
+10	suurt	A	sg=sg|p=p	11	amod	_
+11	midagi	P	sg=sg|p=p	12	obj	_
+12	teha	V	da=da	8	xcomp	_
+13	ja	J	_	18	cc	_
+14	ega	D	_	18	advmod	_
+15	ma	P	sg=sg|n=n	18	nsubj	_
+16	eriti	D	_	18	advmod	_
+17	ei	V	neg=neg	18	aux	_
+18	viici	V	o=o	8	conj	_
+19	kaa	S	sg=sg|n=n	18	obj	CHECK
+20	.	Z	_	8	punct	_
+
+# sent_id = 15315926
+# text = ja k6ik mis v2hegi jabur .. ma ei taha , et siin on vastikult pikad teemad ( mis koosnevad 1 realistest m22gimistest ) mida keegi lugada ei viici vaid oleks rohkem pikad ja uurivad postid mis on sisurikkad ja huvitavad
+1	ja	J	_	2	cc	_
+2	k6ik	Y	?=?	5	mark	_
+3	mis	P	sg=sg|n=n	5	nsubj:cop	_
+4	v2hegi	S	sg=sg|n=n	5	obl	_
+5	jabur	A	sg=sg|n=n	9	ccomp	_
+6	..	Z	_	9	punct	_
+7	ma	P	sg=sg|n=n	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	taha	V	o=o	0	root	_
+10	,	Z	_	12	punct	_
+11	et	J	_	12	mark	_
+12	siin	D	_	9	ccomp	_
+13	on	V	vad=vad	12	cop	_
+14	vastikult	D	_	15	advmod	_
+15	pikad	A	pl=pl|n=n	16	amod	_
+16	teemad	S	pl=pl|n=n	12	nsubj:cop	_
+17	(	Z	_	19	punct	_
+18	mis	P	pl=pl|n=n	19	nsubj	_
+19	koosnevad	V	vad=vad	16	acl:relcl	_
+20	1	N	?=?	22	nummod	_
+21	realistest	A	pl=pl|el=el	22	amod	_
+22	m22gimistest	S	pl=pl|el=el	19	obl	_
+23	)	Z	_	19	punct	_
+24	mida	P	pl=pl|p=p	28	obj	CHECK
+25	keegi	P	sg=sg|n=n	26	nmod	_
+26	lugada	S	sg=sg|n=n	28	obj	_
+27	ei	V	neg=neg	28	aux	_
+28	viici	V	o=o	32	aux	_
+29	vaid	D	_	32	advmod	_
+30	oleks	V	ks=ks	32	cop	_
+31	rohkem	D	_	32	advmod	_
+32	pikad	A	pl=pl|n=n	16	acl:relcl	_
+33	ja	J	_	34	cc	_
+34	uurivad	A	pl=pl|n=n	32	conj	_
+35	postid	S	pl=pl|n=n	38	nsubj:cop	_
+36	mis	P	sg=sg|n=n	38	nsubj:cop	_
+37	on	V	b=b	38	cop	_
+38	sisurikkad	A	pl=pl|n=n	32	conj	_
+39	ja	J	_	40	cc	_
+40	huvitavad	A	pl=pl|n=n	38	conj	_
+
+# sent_id = 3869318
+# text = Tsiteerin kirjaviisi muutmata süütut tavateksti : " nii imelik kui see ka polex .. ma otsin endale .. kes olex nõus õhtuti muga väljas käima ... mul mingi sellised kes ei viixi õhtuti muga välja tulla .. : S mitte mdaigi ei viici ...
+1	Tsiteerin	V	n=n	2	nmod	_
+2	kirjaviisi	S	sg=sg|p=p	3	obj	_
+3	muutmata	V	mata=mata	0	root	_
+4	süütut	A	sg=sg|p=p	5	amod	_
+5	tavateksti	S	sg=sg|p=p	3	obj	_
+6	:	Z	_	9	punct	_
+7	"	Z	_	9	punct	_
+8	nii	D	_	9	advmod	_
+9	imelik	A	sg=sg|n=n	3	parataxis	_
+10	kui	D	_	13	mark	_
+11	see	P	sg=sg|n=n	9	nsubj:cop	_
+12	ka	D	_	13	advmod	_
+13	polex	S	sg=sg|n=n	9	advcl	_
+14	..	Z	_	16	punct	_
+15	ma	P	sg=sg|n=n	16	nsubj	_
+16	otsin	V	n=n	9	conj	_
+17	endale	P	sg=sg|all=all	16	obj	_
+18	..	Z	_	25	punct	_
+19	kes	P	sg=sg|n=n	25	nsubj	_
+20	olex	S	sg=sg|n=n	25	obl	_
+21	nõus	D	_	20	compound:prt	_
+22	õhtuti	D	_	25	advmod	_
+23	muga	P	sg=sg|kom=kom	25	nsubj	_
+24	väljas	D	_	25	advmod	_
+25	käima	V	ma=ma	16	ccomp	_
+26	...	Z	_	29	punct	_
+27	mul	P	sg=sg|ad=ad	29	nsubj:cop	_
+28	mingi	P	sg=sg|n=n	29	det	_
+29	sellised	P	pl=pl|n=n	16	parataxis	_
+30	kes	P	pl=pl|n=n	32	nsubj	_
+31	ei	V	neg=neg	32	aux	_
+32	viixi	V	o=o	29	acl:relcl	_
+33	õhtuti	D	_	36	advmod	_
+34	muga	P	sg=sg|kom=kom	36	nsubj	_
+35	välja	D	_	36	compound:prt	_
+36	tulla	V	da=da	32	conj	_
+37	..	Z	_	36	punct	_
+38	:	Z	_	43	punct	_
+39	S	Y	?=?	43	nsubj	_
+40	mitte	D	_	41	advmod	_
+41	mdaigi	S	adt=adt	43	obj	CHECK
+42	ei	V	neg=neg	43	aux	_
+43	viici	V	o=o	9	conj	_
+44	...	Z	_	3	punct	_
+
+# sent_id = 19357741
+# text = Marek13: kas keegin ei viici privada
+1	Marek13	Y	?=?	0	root	_
+2	:	Z	_	6	punct	_
+3	kas	D	_	6	advmod	_
+4	keegin	S	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	viici	V	o=o	1	parataxis	_
+7	privada	S	sg=sg|g=g	6	obj	CHECK
+
+# sent_id = 19558556
+# text = insomnia: goldenhair aga meibi ma ei viici
+1	insomnia	S	sg=sg|n=n	0	root	_
+2	:	Z	_	8	punct	_
+3	goldenhair	S	sg=sg|n=n	8	obj	_
+4	aga	J	_	8	advmod	_
+5	meibi	S	adt=adt	8	obj	CHECK
+6	ma	P	sg=sg|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	viici	V	o=o	1	parataxis	_
+
+# sent_id = 19289303
+# text = Ashley: ma ei viici @ hiline_jalutaja =PPP
+1	Ashley	H	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	viici	V	o=o	1	parataxis	_
+6	@	Y	?=?	7	nmod	_
+7	hiline_jalutaja	S	sg=sg|n=n	5	obj	CHECK
+8	=	Z	_	5	punct	_
+9	PPP	Y	?=?	7	appos	_
+
+# sent_id = 16874918
+# text = ma olen enda peal täheldanud et enamus viitsib panna negat reppi ja posit reppi ei viici peaaegu keegi panna
+1	ma	P	sg=sg|n=n	5	nsubj	_
+2	olen	V	n=n	5	aux	_
+3	enda	P	sg=sg|g=g	5	obl	_
+4	peal	K	_	3	case	_
+5	täheldanud	A	pl=pl|n=n	0	root	_
+6	et	J	_	8	mark	_
+7	enamus	S	sg=sg|n=n	8	obj	_
+8	viitsib	V	b=b	5	ccomp	_
+9	panna	V	da=da	8	xcomp	_
+10	negat	S	sg=sg|p=p	9	obj	_
+11	reppi	S	sg=sg|g=g	9	obl	_
+12	ja	J	_	19	cc	_
+13	posit	S	sg=sg|n=n	14	nmod	_
+14	reppi	S	adt=adt	19	obj	CHECK
+15	ei	V	neg=neg	19	aux	_
+16	viici	V	o=o	19	aux	_
+17	peaaegu	D	_	18	advmod	_
+18	keegi	P	sg=sg|n=n	19	nsubj	_
+19	panna	V	da=da	5	conj	_
+
+# sent_id = 15212111
+# text = keegi viicib soldatit praegu .
+1	keegi	P	sg=sg|n=n	2	nsubj	_
+2	viicib	V	b=b	0	root	_
+3	soldatit	S	sg=sg|p=p	2	obj	CHECK
+4	praegu	D	_	2	advmod	_
+5	.	Z	_	2	punct	_
+
+# sent_id = 16596286
+# text = Kui keegi viicib siis võix mulle ka mingi avatari teha võix olla näitex Squalli nägu FF'st ( final fantasyst ) või siis mingi eminemi nägu või fred dursti jne .
+1	Kui	J	_	3	mark	_
+2	keegi	P	sg=sg|n=n	3	nsubj	_
+3	viicib	V	b=b	15	advcl	_
+4	siis	D	_	3	advmod	_
+5	võix	S	sg=sg|n=n	10	obl	CHECK
+6	mulle	P	sg=sg|all=all	10	nsubj	_
+7	ka	D	_	10	advmod	_
+8	mingi	P	sg=sg|g=g	9	det	_
+9	avatari	S	sg=sg|g=g	10	obj	_
+10	teha	V	da=da	3	conj	_
+11	võix	S	sg=sg|n=n	15	punct	_
+12	olla	V	da=da	15	cop	_
+13	näitex	S	sg=sg|n=n	15	nmod	_
+14	Squalli	H	sg=sg|p=p	15	nmod	_
+15	nägu	S	sg=sg|p=p	0	root	_
+16	FF'st	S	sg=sg|el=el	15	nmod	_
+17	(	Z	_	18	punct	_
+18	final	S	sg=sg|n=n	16	appos	_
+19	fantasyst	S	sg=sg|n=n	18	flat:foreign	_
+20	)	Z	_	18	punct	_
+21	või	J	_	25	cc	_
+22	siis	D	_	25	advmod	_
+23	mingi	P	sg=sg|g=g	25	det	_
+24	eminemi	S	sg=sg|g=g	25	nmod	_
+25	nägu	S	sg=sg|n=n	15	conj	_
+26	või	J	_	28	cc	_
+27	fred	S	pl=pl|n=n	28	nmod	_
+28	dursti	S	adt=adt	25	conj	_
+29	jne	Y	?=?	28	nmod	_
+30	.	Z	_	15	punct	_
+

@@ -1,0 +1,428 @@
+# sent_id = 606401
+# text = Arheoloogid leidsid Niguliste kiriku endiselt kalmistult seni vanimad samast leitud luustikujäänused , mis kuulusid arvata 13.-14. sajandil elanud tüdrukule ja ilmselt katku surnud perekonnale - mehele , naisele ja lapsele .
+1	Arheoloogid	H	pl=pl|n=n	2	obl	_
+2	leidsid	V	sid=sid	0	root	_
+3	Niguliste	H	sg=sg|g=g	4	nmod	_
+4	kiriku	S	sg=sg|g=g	6	nmod	_
+5	endiselt	A	sg=sg|abl=abl	6	amod	_
+6	kalmistult	S	sg=sg|abl=abl	2	nsubj	_
+7	seni	D	_	2	advmod	_
+8	vanimad	U	pl=pl|n=n	11	amod	_
+9	samast	P	sg=sg|el=el	11	det	_
+10	leitud	A	pl=pl|n=n	11	acl	_
+11	luustikujäänused	S	pl=pl|n=n	2	obj	_
+12	,	Z	_	14	punct	_
+13	mis	P	sg=sg|n=n	14	nsubj	_
+14	kuulusid	V	sid=sid	11	acl:relcl	_
+15	arvata	V	da=da	14	advcl	_
+16	13.	O	?=?	21	amod	_
+17	-	Z	_	21	punct	_
+18	14.	O	?=?	19	amod	_
+19	sajandil	S	sg=sg|ad=ad	20	obl	_
+20	elanud	V	nud=nud	21	acl	_
+21	tüdrukule	S	sg=sg|all=all	15	obj	_
+22	ja	J	_	26	cc	_
+23	ilmselt	D	_	25	advmod	_
+24	katku	S	sg=sg|p=p	25	obl	CHECK
+25	surnud	V	nud=nud	26	acl	_
+26	perekonnale	S	sg=sg|all=all	21	conj	_
+27	-	Z	_	28	punct	_
+28	mehele	S	sg=sg|all=all	15	obj	_
+29	,	Z	_	30	punct	_
+30	naisele	S	sg=sg|all=all	28	conj	_
+31	ja	J	_	32	cc	_
+32	lapsele	S	sg=sg|all=all	28	conj	_
+33	.	Z	_	2	punct	_
+
+# sent_id = 21420716
+# text = erwin: ex me kunagi sure kõik
+1	erwin	S	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	ex	Y	?=?	6	obl	_
+4	me	P	pl=pl|n=n	6	nsubj	_
+5	kunagi	D	_	6	advmod	_
+6	sure	V	o=o	1	parataxis	_
+7	kõik	P	pl=pl|n=n	6	nsubj	CHECK
+
+# sent_id = 355545
+# text = Kas siis tõesti selle farmi töötajad on kogu talve jooksul rahuliku südamega kõndinud tööpäeva lõppedes koju , jättes nälgivad ja surevad loomad lauta .
+1	Kas	D	_	13	advmod	_
+2	siis	D	_	13	advmod	_
+3	tõesti	D	_	13	advmod	_
+4	selle	P	sg=sg|g=g	6	det	_
+5	farmi	S	sg=sg|g=g	6	nmod	_
+6	töötajad	S	pl=pl|n=n	13	nsubj	_
+7	on	V	vad=vad	13	aux	_
+8	kogu	A	_	9	det	_
+9	talve	S	sg=sg|g=g	13	obl	_
+10	jooksul	K	_	9	case	_
+11	rahuliku	A	sg=sg|g=g	12	amod	_
+12	südamega	S	sg=sg|kom=kom	13	obj	_
+13	kõndinud	V	nud=nud	14	acl	_
+14	tööpäeva	S	sg=sg|g=g	15	nsubj	_
+15	lõppedes	V	des=des	0	root	_
+16	koju	S	adt=adt	15	obl	_
+17	,	Z	_	18	punct	_
+18	jättes	V	des=des	15	conj	_
+19	nälgivad	V	vad=vad	18	obj	_
+20	ja	J	_	21	cc	_
+21	surevad	V	vad=vad	15	conj	_
+22	loomad	S	pl=pl|n=n	21	obl	CHECK
+23	lauta	S	adt=adt	21	obl	_
+24	.	Z	_	13	punct	_
+
+# sent_id = 62677
+# text = Ta naine kinnitanudki pärast Okudzhava varisemist , et Bulat ei surnud grippi , vaid ... üksindusse .
+1	Ta	P	sg=sg|g=g	3	nsubj	_
+2	naine	S	sg=sg|n=n	3	nsubj	_
+3	kinnitanudki	V	nud=nud	0	root	_
+4	pärast	K	_	6	case	_
+5	Okudzhava	H	sg=sg|g=g	6	nmod	_
+6	varisemist	S	sg=sg|p=p	3	obl	_
+7	,	Z	_	11	punct	_
+8	et	J	_	11	mark	_
+9	Bulat	H	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	surnud	A	sg=sg|n=n	3	ccomp	_
+12	grippi	S	sg=sg|p=p	11	obj	CHECK
+13	,	Z	_	16	punct	_
+14	vaid	J	_	16	cc	_
+15	...	Z	_	16	punct	_
+16	üksindusse	S	adt=adt	12	conj	_
+17	.	Z	_	3	punct	_
+
+# sent_id = 398340
+# text = Mullu sügisel suri Harku vallas naine infarkti , sest Tallinna ja Harjumaa kiirabi ei suutnud selgeks vaielda , kumb peab appi sõitma .
+1	Mullu	D	_	2	advmod	_
+2	sügisel	S	sg=sg|ad=ad	3	obl	_
+3	suri	V	s=s	0	root	_
+4	Harku	H	sg=sg|g=g	5	nmod	_
+5	vallas	S	sg=sg|in=in	3	nsubj	_
+6	naine	S	sg=sg|n=n	3	nsubj	_
+7	infarkti	S	sg=sg|g=g	3	obl	CHECK
+8	,	Z	_	15	punct	_
+9	sest	J	_	15	mark	_
+10	Tallinna	H	sg=sg|g=g	13	nmod	_
+11	ja	J	_	12	cc	_
+12	Harjumaa	H	sg=sg|g=g	10	conj	_
+13	kiirabi	S	sg=sg|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	suutnud	A	sg=sg|n=n	3	advcl	_
+16	selgeks	A	sg=sg|tr=tr	17	amod	_
+17	vaielda	V	da=da	15	xcomp	_
+18	,	Z	_	22	punct	_
+19	kumb	P	sg=sg|n=n	22	nsubj	_
+20	peab	V	b=b	22	aux	_
+21	appi	S	adt=adt	22	obl	_
+22	sõitma	V	ma=ma	17	acl:relcl	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 51966
+# text = Nad maksavad nende ristide eest miljoneid , unustades , et maailmas on inimesi , kes kannatavad ja surevad nälga .
+1	Nad	P	pl=pl|n=n	2	nsubj	_
+2	maksavad	V	vad=vad	0	root	_
+3	nende	P	pl=pl|g=g	2	obj	_
+4	ristide	S	pl=pl|g=g	2	obl	_
+5	eest	K	_	4	case	_
+6	miljoneid	N	pl=pl|p=p	2	obj	_
+7	,	Z	_	8	punct	_
+8	unustades	V	des=des	2	conj	_
+9	,	Z	_	13	punct	_
+10	et	J	_	13	mark	_
+11	maailmas	S	sg=sg|in=in	8	ccomp	_
+12	on	V	vad=vad	13	cop	_
+13	inimesi	S	pl=pl|p=p	8	ccomp	_
+14	,	Z	_	16	punct	_
+15	kes	P	pl=pl|n=n	16	nsubj	_
+16	kannatavad	V	vad=vad	13	acl:relcl	_
+17	ja	J	_	18	cc	_
+18	surevad	V	vad=vad	16	conj	_
+19	nälga	S	sg=sg|p=p	18	obl	CHECK
+20	.	Z	_	2	punct	_
+
+# sent_id = 16301191
+# text = make sure you typed the name correctly and then try again .
+1	make	S	sg=sg|n=n	2	obl	_
+2	sure	V	o=o	0	root	_
+3	you	S	sg=sg|g=g	2	nsubj	CHECK
+4	typed	S	sg=sg|n=n	3	flat	_
+5	the	S	sg=sg|g=g	3	flat	_
+6	name	S	sg=sg|g=g	3	flat	_
+7	correctly	S	sg=sg|g=g	3	flat	_
+8	and	S	sg=sg|n=n	3	flat	_
+9	then	S	sg=sg|n=n	3	flat	_
+10	try	Y	?=?	3	flat	_
+11	again	S	sg=sg|n=n	3	flat	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 11393
+# text = Griffithi isa oli nagu tütargi ahelsuitsetaja ning suri kopsuvähki erakliinikus 14. mail .
+1	Griffithi	H	sg=sg|g=g	2	nmod	_
+2	isa	S	sg=sg|n=n	6	nsubj:cop	_
+3	oli	V	s=s	6	cop	_
+4	nagu	J	_	6	mark	_
+5	tütargi	S	sg=sg|n=n	6	nmod	_
+6	ahelsuitsetaja	S	sg=sg|g=g	0	root	_
+7	ning	J	_	8	cc	_
+8	suri	V	s=s	6	conj	_
+9	kopsuvähki	S	sg=sg|p=p	8	obl	CHECK
+10	erakliinikus	S	sg=sg|in=in	8	obl	_
+11	14.	O	?=?	12	amod	_
+12	mail	S	sg=sg|ad=ad	8	obl	_
+13	.	Z	_	6	punct	_
+
+# sent_id = 4089790
+# text = Mürgitusse surnud Aleksandr Litvinenko äripartner ja endine KGB ohvitser Andrei Lugovoi rääkis eile oma kohtumisest Litvinenkoga ja ütles , et arvab teadvat , kes võis teda mürgitada .
+1	Mürgitusse	S	adt=adt	2	obl	CHECK
+2	surnud	V	nud=nud	5	acl	_
+3	Aleksandr	H	sg=sg|n=n	5	nmod	_
+4	Litvinenko	H	sg=sg|g=g	3	flat	_
+5	äripartner	S	sg=sg|n=n	12	nsubj	_
+6	ja	J	_	9	cc	_
+7	endine	A	sg=sg|n=n	9	amod	_
+8	KGB	Y	?=?	9	nmod	_
+9	ohvitser	S	sg=sg|n=n	5	conj	_
+10	Andrei	H	sg=sg|n=n	9	appos	_
+11	Lugovoi	H	sg=sg|n=n	10	flat	_
+12	rääkis	V	s=s	0	root	_
+13	eile	D	_	12	advmod	_
+14	oma	P	sg=sg|g=g	15	nmod	_
+15	kohtumisest	S	sg=sg|el=el	12	obj	_
+16	Litvinenkoga	H	sg=sg|kom=kom	15	nmod	_
+17	ja	J	_	18	cc	_
+18	ütles	V	s=s	12	conj	_
+19	,	Z	_	21	punct	_
+20	et	J	_	21	mark	_
+21	arvab	V	b=b	18	ccomp	_
+22	teadvat	V	vat=vat	21	ccomp	_
+23	,	Z	_	27	punct	_
+24	kes	P	pl=pl|n=n	27	nsubj	_
+25	võis	V	s=s	27	aux	_
+26	teda	P	sg=sg|p=p	27	obj	_
+27	mürgitada	V	da=da	22	ccomp	_
+28	.	Z	_	12	punct	_
+
+# sent_id = 2495021
+# text = Praegu on mees lesk , sest tema naised on kõik surnud , kirjutab China People's Daily .
+1	Praegu	D	_	4	advmod	_
+2	on	V	vad=vad	4	cop	_
+3	mees	S	sg=sg|n=n	4	nsubj:cop	_
+4	lesk	S	sg=sg|n=n	0	root	_
+5	,	Z	_	11	punct	_
+6	sest	J	_	11	mark	_
+7	tema	P	sg=sg|g=g	8	nmod	_
+8	naised	S	pl=pl|n=n	11	nsubj:cop	_
+9	on	V	vad=vad	11	cop	_
+10	kõik	P	pl=pl|n=n	11	obj	CHECK
+11	surnud	A	pl=pl|n=n	4	advcl	_
+12	,	Z	_	13	punct	_
+13	kirjutab	V	b=b	4	conj	_
+14	China	H	sg=sg|n=n	13	nsubj	_
+15	People's	H	sg=sg|in=in	14	flat	_
+16	Daily	H	sg=sg|n=n	14	flat	_
+17	.	Z	_	4	punct	_
+
+# sent_id = 466811
+# text = Esemed on surnud esivanemate maailma ja tänapäeva sidujad .
+1	Esemed	S	pl=pl|n=n	3	obj	_
+2	on	V	vad=vad	3	aux	_
+3	surnud	A	sg=sg|n=n	4	acl	_
+4	esivanemate	S	pl=pl|g=g	0	root	_
+5	maailma	S	sg=sg|g=g	4	nmod	_
+6	ja	J	_	8	cc	_
+7	tänapäeva	S	sg=sg|g=g	8	nmod	_
+8	sidujad	S	pl=pl|n=n	5	conj	CHECK
+9	.	Z	_	3	punct	_
+
+# sent_id = 4264021
+# text = Alkoholimürgistusse surnud inimeste arv on 1970. aastate algusega võrreldes tõusnud viis korda .
+1	Alkoholimürgistusse	S	adt=adt	2	obj	CHECK
+2	surnud	A	sg=sg|n=n	3	acl	_
+3	inimeste	S	pl=pl|g=g	4	nmod	_
+4	arv	S	sg=sg|n=n	10	nsubj	_
+5	on	V	vad=vad	10	aux	_
+6	1970.	O	?=?	7	amod	_
+7	aastate	S	pl=pl|g=g	8	nmod	_
+8	algusega	S	sg=sg|kom=kom	10	obl	_
+9	võrreldes	V	des=des	10	obl	_
+10	tõusnud	A	sg=sg|n=n	0	root	_
+11	viis	N	sg=sg|n=n	12	nummod	_
+12	korda	S	sg=sg|p=p	10	obl	_
+13	.	Z	_	10	punct	_
+
+# sent_id = 1144244
+# text = Kevadsuvel äkksurma surnud Lepo Sumera lesk Kersti Sumera jätkab oma mehe poolt Saksamaal alustatud kohtuteed .
+1	Kevadsuvel	S	sg=sg|ad=ad	2	nmod	_
+2	äkksurma	S	sg=sg|g=g	3	obl	CHECK
+3	surnud	A	sg=sg|n=n	6	acl	_
+4	Lepo	H	sg=sg|n=n	6	nmod	_
+5	Sumera	H	sg=sg|g=g	4	flat	_
+6	lesk	S	sg=sg|n=n	9	nsubj	_
+7	Kersti	H	sg=sg|n=n	6	appos	_
+8	Sumera	H	sg=sg|g=g	7	flat	_
+9	jätkab	V	b=b	0	root	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	mehe	S	sg=sg|g=g	14	obl	_
+12	poolt	K	_	11	case	_
+13	Saksamaal	H	sg=sg|ad=ad	14	obl	_
+14	alustatud	A	pl=pl|n=n	15	acl	_
+15	kohtuteed	S	pl=pl|n=n	9	obj	_
+16	.	Z	_	9	punct	_
+
+# sent_id = 371328
+# text = Annal pole õdede sitkust elu löökide talumiseks ega julgust trotsida seniseid tavasid , mehest lahku lüüa , ja nii sureb ta mehe armukadeduse vägivalla ohvrina .
+1	Annal	S	sg=sg|ad=ad	2	nsubj	_
+2	pole	V	neg=neg|o=o	6	cop	_
+3	õdede	S	pl=pl|g=g	4	nmod	_
+4	sitkust	S	sg=sg|p=p	5	nmod	_
+5	elu	S	sg=sg|g=g	6	nmod	_
+6	löökide	S	pl=pl|g=g	0	root	_
+7	talumiseks	S	sg=sg|tr=tr	6	nmod	_
+8	ega	J	_	10	cc	_
+9	julgust	S	sg=sg|p=p	10	nsubj	_
+10	trotsida	V	da=da	6	conj	_
+11	seniseid	A	pl=pl|p=p	12	amod	_
+12	tavasid	S	pl=pl|p=p	10	obj	_
+13	,	Z	_	16	punct	_
+14	mehest	S	sg=sg|el=el	16	obj	_
+15	lahku	D	_	16	compound:prt	_
+16	lüüa	V	da=da	10	conj	_
+17	,	Z	_	20	punct	_
+18	ja	J	_	20	cc	_
+19	nii	D	_	20	advmod	_
+20	sureb	V	b=b	2	conj	_
+21	ta	P	sg=sg|n=n	20	nsubj	_
+22	mehe	S	sg=sg|g=g	23	nmod	CHECK
+23	armukadeduse	S	sg=sg|g=g	24	nmod	_
+24	vägivalla	S	sg=sg|g=g	25	nmod	_
+25	ohvrina	S	sg=sg|es=es	20	obl	_
+26	.	Z	_	6	punct	_
+
+# sent_id = 3248810
+# text = Inimesed , kes mürgise suitsu sissehingamisse ka otseselt ei sure , kannatavad hingamisteede haiguste , nagu bronhiidi ja kopsupõletiku , käes .
+1	Inimesed	S	pl=pl|n=n	12	nsubj	_
+2	,	Z	_	10	punct	_
+3	kes	P	sg=sg|n=n	10	nsubj	_
+4	mürgise	A	sg=sg|g=g	5	amod	_
+5	suitsu	S	sg=sg|g=g	6	nmod	CHECK
+6	sissehingamisse	S	adt=adt	10	obl	_
+7	ka	D	_	10	advmod	_
+8	otseselt	D	_	10	advmod	_
+9	ei	V	neg=neg	10	aux	_
+10	sure	V	o=o	1	acl:relcl	_
+11	,	Z	_	10	punct	_
+12	kannatavad	V	vad=vad	0	root	_
+13	hingamisteede	S	pl=pl|g=g	14	nmod	_
+14	haiguste	S	pl=pl|g=g	12	obj	_
+15	,	Z	_	17	punct	_
+16	nagu	J	_	17	mark	_
+17	bronhiidi	S	sg=sg|g=g	14	advcl	_
+18	ja	J	_	19	cc	_
+19	kopsupõletiku	S	sg=sg|g=g	17	conj	_
+20	,	Z	_	17	punct	_
+21	käes	K	_	17	case	_
+22	.	Z	_	12	punct	_
+
+# sent_id = 328668
+# text = sure murre läbbi   / das Hertz ist schwer wegen grosser Bekümmernisz ( 112 )
+1	sure	V	o=o	0	root	_
+2	murre	S	sg=sg|n=n	1	nsubj	_
+3	läbbi	S	sg=sg|p=p	2	flat	CHECK
+4	/	Z	_	5	punct	_
+5	das	S	sg=sg|n=n	2	conj	_
+6	Hertz	H	sg=sg|n=n	5	flat	_
+7	ist	S	sg=sg|n=n	5	flat	_
+8	schwer	S	sg=sg|n=n	5	flat	_
+9	wegen	S	sg=sg|n=n	5	flat	_
+10	grosser	S	sg=sg|n=n	5	flat	_
+11	Bekümmernisz	H	sg=sg|n=n	5	flat	_
+12	(	Z	_	13	punct	_
+13	112	N	?=?	5	parataxis	_
+14	)	Z	_	13	punct	_
+
+# sent_id = 19505839
+# text = karlson: sure konn ... :))))
+1	karlson	S	sg=sg|n=n	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	sure	V	o=o	0	root	_
+4	konn	S	sg=sg|n=n	3	obl	CHECK
+5	...	Z	_	3	punct	_
+6	:))))	Z	_	3	punct	_
+
+# sent_id = 328953
+# text = Sure kotti pohjast ei sadda middagi wälja   ( H' 304 ( 5 ) ) .
+1	Sure	V	o=o	0	root	_
+2	kotti	S	adt=adt	1	obl	_
+3	pohjast	S	sg=sg|p=p	1	obl	CHECK
+4	ei	V	neg=neg	5	aux	_
+5	sadda	S	sg=sg|g=g	1	conj	_
+6	middagi	S	sg=sg|g=g	5	obj	_
+7	wälja	S	sg=sg|g=g	6	flat	_
+8	(	Z	_	9	punct	_
+9	H	Y	?=?	6	appos	_
+10	'	Z	_	9	flat	_
+11	304	N	?=?	9	flat	_
+12	(	Z	_	13	punct	_
+13	5	N	?=?	9	nummod	_
+14	)	Z	_	13	punct	_
+15	)	Z	_	9	punct	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 1074896
+# text = Maksimi sõnul oli ta kaaslanna ca 3 nädalat surnud olnud , surm oli saabunud alkoholijoobes kukkumise tagajärjel .
+1	Maksimi	H	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	9	obl	_
+3	oli	V	s=s	9	aux	_
+4	ta	P	sg=sg|n=n	9	nsubj:cop	_
+5	kaaslanna	S	sg=sg|g=g	9	obl	CHECK
+6	ca	Y	?=?	7	nmod	_
+7	3	N	?=?	8	nummod	_
+8	nädalat	S	sg=sg|p=p	9	obl	_
+9	surnud	A	sg=sg|n=n	0	root	_
+10	olnud	A	pl=pl|n=n	9	cop	_
+11	,	Z	_	14	punct	_
+12	surm	S	sg=sg|n=n	14	nsubj	_
+13	oli	V	s=s	14	aux	_
+14	saabunud	V	nud=nud	9	conj	_
+15	alkoholijoobes	S	sg=sg|in=in	16	nmod	_
+16	kukkumise	S	sg=sg|g=g	17	nmod	_
+17	tagajärjel	S	sg=sg|ad=ad	14	obl	_
+18	.	Z	_	9	punct	_
+
+# sent_id = 1352031
+# text = Asi on kindlasti seda väärt , sest Warholi võib koos Joseph Beuysiga pidada üheks olulisemaks sõjajärgse maailmakunsti mõjutajaks - suridki nad mõlemad aastase vahega , mis vallandas nii neopopi kui ka kontseptualismi buumi .
+1	Asi	S	sg=sg|n=n	5	nsubj:cop	_
+2	on	V	vad=vad	5	cop	_
+3	kindlasti	D	_	5	advmod	_
+4	seda	P	sg=sg|p=p	5	nsubj:cop	_
+5	väärt	A	_	0	root	_
+6	,	Z	_	13	punct	_
+7	sest	J	_	13	mark	_
+8	Warholi	H	sg=sg|n=n	13	nsubj	_
+9	võib	V	b=b	13	aux	_
+10	koos	K	_	11	case	_
+11	Joseph	H	sg=sg|n=n	13	obl	_
+12	Beuysiga	H	sg=sg|kom=kom	11	flat	_
+13	pidada	V	da=da	5	advcl	_
+14	üheks	N	sg=sg|tr=tr	18	det	_
+15	olulisemaks	C	sg=sg|tr=tr	18	amod	_
+16	sõjajärgse	A	sg=sg|g=g	17	amod	_
+17	maailmakunsti	S	sg=sg|g=g	18	nmod	_
+18	mõjutajaks	S	sg=sg|tr=tr	13	obj	_
+19	-	Z	_	20	punct	_
+20	suridki	V	sid=sid	5	parataxis	_
+21	nad	P	pl=pl|n=n	20	nsubj	_
+22	mõlemad	P	pl=pl|n=n	24	det	CHECK
+23	aastase	A	sg=sg|g=g	24	amod	_
+24	vahega	S	sg=sg|kom=kom	20	obj	_
+25	,	Z	_	27	punct	_
+26	mis	P	pl=pl|n=n	27	nsubj	_
+27	vallandas	V	s=s	24	acl:relcl	_
+28	nii	D	_	29	cc:preconj	_
+29	neopopi	S	sg=sg|g=g	33	nmod	_
+30	kui	D	_	32	cc	_
+31	ka	D	_	32	advmod	_
+32	kontseptualismi	S	sg=sg|g=g	29	conj	_
+33	buumi	S	adt=adt	27	obj	_
+34	.	Z	_	5	punct	_
+

@@ -1,0 +1,398 @@
+# sent_id = 124075
+# text = Eks me ole kõik need aastad näinud , palju lubadusi täidetud on .
+1	Eks	D	_	7	advmod	_
+2	me	P	pl=pl|n=n	7	nsubj	_
+3	ole	V	o=o	7	aux	_
+4	kõik	P	pl=pl|n=n	7	obj	_
+5	need	P	pl=pl|n=n	6	det	_
+6	aastad	S	pl=pl|n=n	7	obl	CHECK
+7	näinud	V	nud=nud	0	root	_
+8	,	Z	_	11	punct	_
+9	palju	D	_	10	advmod	_
+10	lubadusi	S	pl=pl|p=p	11	obj	_
+11	täidetud	A	_	7	conj	_
+12	on	V	b=b	11	aux	_
+13	.	Z	_	7	punct	_
+
+# sent_id = 2048118
+# text = Tehnikaimedel ei näi lõppu
+1	Tehnikaimedel	S	pl=pl|ad=ad	3	obj	_
+2	ei	V	neg=neg	3	aux	_
+3	näi	V	o=o	0	root	_
+4	lõppu	S	sg=sg|p=p	3	obl	CHECK
+
+# sent_id = 7264019
+# text = Saise järekõrran ja näi uma silmäge , kudas nuure poiskese ostsevä õlut ja müüja es küsü üttegi kähest määnestki dokumenti .
+1	Saise	H	sg=sg|g=g	2	nsubj	_
+2	järekõrran	S	sg=sg|n=n	0	root	_
+3	ja	J	_	4	cc	_
+4	näi	V	o=o	2	conj	_
+5	uma	S	sg=sg|n=n	4	obl	CHECK
+6	silmäge	A	sg=sg|n=n	12	amod	_
+7	,	Z	_	8	punct	_
+8	kudas	S	sg=sg|in=in	9	nmod	_
+9	nuure	S	sg=sg|g=g	10	nmod	_
+10	poiskese	S	sg=sg|n=n	11	nmod	_
+11	ostsevä	S	sg=sg|g=g	12	nmod	_
+12	õlut	S	sg=sg|p=p	4	obj	_
+13	ja	J	_	14	cc	_
+14	müüja	S	sg=sg|n=n	12	conj	_
+15	es	H	?=?	14	appos	_
+16	küsü	S	sg=sg|g=g	15	flat	_
+17	üttegi	S	sg=sg|g=g	18	nmod	_
+18	kähest	S	sg=sg|n=n	19	nmod	_
+19	määnestki	S	sg=sg|g=g	20	nmod	_
+20	dokumenti	S	adt=adt	4	obj	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 1778878
+# text = Kodumaal elavate venelaste käekäiku saaks Venemaa mõjutada märksa lihtsamini kui teistes riikides elavate oma , ent see ei näi võimulolijaid kuigi palju huvitavat .
+1	Kodumaal	S	sg=sg|ad=ad	2	obj	_
+2	elavate	A	pl=pl|g=g	4	acl	_
+3	venelaste	S	pl=pl|g=g	4	nmod	_
+4	käekäiku	S	sg=sg|p=p	5	obj	_
+5	saaks	V	ks=ks	7	aux	_
+6	Venemaa	H	sg=sg|g=g	7	nsubj	_
+7	mõjutada	V	da=da	0	root	_
+8	märksa	D	_	9	advmod	_
+9	lihtsamini	D	_	7	advmod	_
+10	kui	J	_	14	mark	_
+11	teistes	P	pl=pl|in=in	12	det	_
+12	riikides	S	pl=pl|in=in	13	obj	_
+13	elavate	A	pl=pl|g=g	14	acl	_
+14	oma	P	sg=sg|g=g	9	advcl	_
+15	,	Z	_	23	punct	_
+16	ent	J	_	23	cc	_
+17	see	P	sg=sg|n=n	23	nsubj:cop	_
+18	ei	V	neg=neg	23	aux	_
+19	näi	V	o=o	23	aux	_
+20	võimulolijaid	S	pl=pl|p=p	23	obl	CHECK
+21	kuigi	D	_	22	advmod	_
+22	palju	D	_	23	advmod	_
+23	huvitavat	A	sg=sg|p=p	7	conj	_
+24	.	Z	_	7	punct	_
+
+# sent_id = 173146
+# text = Kui afgaanid natuke edasi jalutanuks , näinuks nad Narva suitsevaid korstnaid .
+1	Kui	J	_	5	mark	_
+2	afgaanid	S	pl=pl|n=n	5	nsubj	_
+3	natuke	D	_	5	advmod	_
+4	edasi	D	_	5	compound:prt	_
+5	jalutanuks	V	nuks=nuks	7	advcl	_
+6	,	Z	_	5	punct	_
+7	näinuks	V	nuks=nuks	0	root	_
+8	nad	P	pl=pl|n=n	7	nsubj	_
+9	Narva	H	sg=sg|g=g	10	obj	_
+10	suitsevaid	A	pl=pl|p=p	11	acl	_
+11	korstnaid	S	pl=pl|p=p	7	obj	CHECK
+12	.	Z	_	7	punct	_
+
+# sent_id = 127488
+# text = Ehkki ringi sagis ka vilkaid noorukeid , näis suurem osa rahvast kuuluvat kulunud keskikka , nende sekka , kes mäletavad veel aegade tolmu mattunud korvpalli kuldaegu ja kes nende taastulekusse kinnisideeliselt ikka veel usuvad .
+1	Ehkki	J	_	3	mark	_
+2	ringi	D	_	3	compound:prt	_
+3	sagis	V	s=s	8	advcl	_
+4	ka	D	_	6	advmod	_
+5	vilkaid	A	pl=pl|p=p	6	amod	_
+6	noorukeid	S	pl=pl|p=p	3	nsubj	_
+7	,	Z	_	3	punct	_
+8	näis	V	s=s	0	root	_
+9	suurem	C	sg=sg|n=n	10	amod	_
+10	osa	S	sg=sg|n=n	8	obj	_
+11	rahvast	S	sg=sg|p=p	12	obl	_
+12	kuuluvat	A	sg=sg|p=p	14	acl	_
+13	kulunud	A	pl=pl|n=n	14	acl	_
+14	keskikka	S	adt=adt	8	nsubj	CHECK
+15	,	Z	_	16	punct	_
+16	nende	P	pl=pl|g=g	8	obl	_
+17	sekka	K	_	16	case	_
+18	,	Z	_	20	punct	_
+19	kes	P	sg=sg|n=n	20	nsubj	_
+20	mäletavad	V	vad=vad	16	acl:relcl	_
+21	veel	D	_	22	advmod	_
+22	aegade	S	pl=pl|g=g	24	obl	_
+23	tolmu	S	sg=sg|p=p	24	obl	_
+24	mattunud	A	sg=sg|n=n	25	acl	_
+25	korvpalli	S	sg=sg|g=g	26	nmod	_
+26	kuldaegu	S	pl=pl|p=p	20	obj	_
+27	ja	J	_	34	cc	_
+28	kes	P	pl=pl|n=n	34	nsubj	_
+29	nende	P	pl=pl|g=g	30	nmod	_
+30	taastulekusse	S	sg=sg|ill=ill	34	obj	_
+31	kinnisideeliselt	D	_	34	advmod	_
+32	ikka	D	_	34	advmod	_
+33	veel	D	_	34	advmod	_
+34	usuvad	V	vad=vad	20	conj	_
+35	.	Z	_	8	punct	_
+
+# sent_id = 10549
+# text = Ent ajalooõpingutes ei näinud mees siiski perspektiivi .
+1	Ent	J	_	4	cc	_
+2	ajalooõpingutes	S	pl=pl|in=in	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	näinud	V	nud=nud	0	root	_
+5	mees	S	sg=sg|n=n	4	nsubj	_
+6	siiski	D	_	4	advmod	_
+7	perspektiivi	S	adt=adt	4	obj	CHECK
+8	.	Z	_	4	punct	_
+
+# sent_id = 7665099
+# text = Näi teks seaduse see ja see paragrahv muu detakse järg mi selt : punkt üks - välja jäetud , punkt kaks - arv kolm asen dada ar vuga viis , punkt kolm - arv 1995 asendada ar vuga 1998.
+1	Näi	V	o=o	0	root	_
+2	teks	S	sg=sg|n=n	3	nmod	_
+3	seaduse	S	sg=sg|g=g	1	obj	CHECK
+4	see	P	sg=sg|n=n	1	nsubj	_
+5	ja	J	_	8	cc	_
+6	see	P	sg=sg|n=n	7	det	_
+7	paragrahv	S	sg=sg|n=n	8	nmod	_
+8	muu	P	sg=sg|g=g	10	amod	_
+9	detakse	S	sg=sg|g=g	10	nmod	_
+10	järg	S	sg=sg|n=n	11	obj	_
+11	mi	Y	?=?	12	cop	_
+12	selt	P	sg=sg|abl=abl	1	conj	_
+13	:	Z	_	15	punct	_
+14	punkt	S	sg=sg|n=n	15	nmod	_
+15	üks	P	sg=sg|n=n	12	parataxis	_
+16	-	Z	_	18	punct	_
+17	välja	D	_	18	compound:prt	_
+18	jäetud	V	tud=tud	15	acl	_
+19	,	Z	_	21	punct	_
+20	punkt	S	sg=sg|n=n	21	nmod	_
+21	kaks	N	sg=sg|n=n	18	conj	_
+22	-	Z	_	23	punct	_
+23	arv	S	sg=sg|n=n	21	conj	_
+24	kolm	N	sg=sg|n=n	23	nummod	_
+25	asen	S	sg=sg|n=n	23	nmod	_
+26	dada	S	sg=sg|g=g	25	flat	_
+27	ar	Y	?=?	28	punct	_
+28	vuga	S	sg=sg|g=g	29	nmod	_
+29	viis	S	sg=sg|n=n	26	flat	_
+30	,	Z	_	32	punct	_
+31	punkt	S	sg=sg|n=n	32	nmod	_
+32	kolm	N	sg=sg|n=n	18	conj	_
+33	-	Z	_	36	punct	_
+34	arv	S	sg=sg|n=n	36	obl	_
+35	1995	N	?=?	34	nummod	_
+36	asendada	V	da=da	18	conj	_
+37	ar	Y	?=?	38	nmod	_
+38	vuga	S	sg=sg|g=g	36	obj	_
+39	1998.	O	?=?	38	amod	_
+
+# sent_id = 503648
+# text = Te olete ju näinud tuukrite filmi , vähemalt osa , mida lubati näidata .
+1	Te	P	pl=pl|n=n	4	nsubj	_
+2	olete	V	te=te	4	aux	_
+3	ju	D	_	4	advmod	_
+4	näinud	V	nud=nud	0	root	_
+5	tuukrite	S	pl=pl|g=g	6	nmod	_
+6	filmi	S	adt=adt	4	obj	CHECK
+7	,	Z	_	9	punct	_
+8	vähemalt	D	_	9	advmod	_
+9	osa	S	sg=sg|n=n	6	conj	_
+10	,	Z	_	12	punct	_
+11	mida	P	sg=sg|p=p	12	nsubj	_
+12	lubati	V	ti=ti	9	acl:relcl	_
+13	näidata	V	da=da	12	obj	_
+14	.	Z	_	4	punct	_
+
+# sent_id = 1000011
+# text = Hashimoto ametisseasumine näis ümber lükkavat märgid , nagu oleks LDP Morile selga keeramas .
+1	Hashimoto	H	sg=sg|g=g	2	nmod	_
+2	ametisseasumine	S	sg=sg|n=n	5	obl	_
+3	näis	V	s=s	5	aux	_
+4	ümber	D	_	5	compound:prt	_
+5	lükkavat	A	sg=sg|p=p	0	root	_
+6	märgid	S	pl=pl|n=n	5	obj	CHECK
+7	,	Z	_	13	punct	_
+8	nagu	J	_	13	mark	_
+9	oleks	V	ks=ks	13	aux	_
+10	LDP	Y	?=?	13	nsubj	_
+11	Morile	H	sg=sg|g=g	10	flat	_
+12	selga	S	adt=adt	13	obj	_
+13	keeramas	V	mas=mas	5	advcl	_
+14	.	Z	_	5	punct	_
+
+# sent_id = 6150
+# text = “ Vene tänava maja number ühte olen lõputult unes näinud .
+1	“	Z	_	10	punct	_
+2	Vene	H	sg=sg|g=g	3	nmod	_
+3	tänava	S	sg=sg|g=g	4	nmod	_
+4	maja	S	sg=sg|g=g	10	obj	CHECK
+5	number	S	sg=sg|n=n	4	nmod	_
+6	ühte	D	_	5	case	_
+7	olen	V	n=n	10	aux	_
+8	lõputult	D	_	10	advmod	_
+9	unes	S	sg=sg|in=in	10	obl	_
+10	näinud	A	_	0	root	_
+11	.	Z	_	10	punct	_
+
+# sent_id = 7425312
+# text = Edimest , kui Valli näi , sis olli ütelnu , et mis ti raiskati sääst anumät , sijade oles saanu soolatsit kurke pandä , terve külä rafas oles kõtu täus saanu .
+1	Edimest	H	sg=sg|n=n	7	obl	_
+2	,	Z	_	5	punct	_
+3	kui	J	_	5	mark	_
+4	Valli	S	adt=adt	5	nsubj	CHECK
+5	näi	V	o=o	1	advcl	_
+6	,	Z	_	5	punct	_
+7	sis	S	sg=sg|n=n	0	root	_
+8	olli	S	sg=sg|g=g	7	nsubj	_
+9	ütelnu	S	sg=sg|n=n	7	obj	_
+10	,	Z	_	12	punct	_
+11	et	J	_	12	mark	_
+12	mis	P	sg=sg|n=n	1	advcl	_
+13	ti	Y	?=?	12	cop	_
+14	raiskati	S	sg=sg|g=g	13	flat	_
+15	sääst	S	sg=sg|n=n	13	flat	_
+16	anumät	S	sg=sg|n=n	13	flat	_
+17	,	Z	_	18	punct	_
+18	sijade	S	sg=sg|g=g	13	conj	_
+19	oles	S	sg=sg|n=n	18	flat	_
+20	saanu	S	sg=sg|g=g	18	flat	_
+21	soolatsit	S	sg=sg|p=p	18	flat	_
+22	kurke	S	pl=pl|p=p	18	flat	_
+23	pandä	S	sg=sg|g=g	18	flat	_
+24	,	Z	_	26	punct	_
+25	terve	A	sg=sg|g=g	26	amod	_
+26	külä	S	sg=sg|g=g	13	conj	_
+27	rafas	S	sg=sg|in=in	26	flat:foreign	_
+28	oles	S	sg=sg|n=n	26	flat:foreign	_
+29	kõtu	S	sg=sg|g=g	26	flat:foreign	_
+30	täus	S	sg=sg|in=in	26	flat:foreign	_
+31	saanu	S	sg=sg|n=n	26	flat:foreign	_
+32	.	Z	_	1	punct	_
+
+# sent_id = 9777045
+# text = Pärast jutt lahti : ma eiss näi , koes Vanapatt karass noodaauguht tulimusta hobetsega vällä .
+1	Pärast	K	_	2	case	_
+2	jutt	S	sg=sg|n=n	3	obl	_
+3	lahti	D	_	0	root	_
+4	:	Z	_	7	punct	_
+5	ma	P	sg=sg|n=n	7	nsubj	_
+6	eiss	S	sg=sg|n=n	7	obj	CHECK
+7	näi	V	o=o	3	parataxis	_
+8	,	Z	_	15	punct	_
+9	koes	S	sg=sg|in=in	11	nmod	_
+10	Vanapatt	S	sg=sg|n=n	9	appos	_
+11	karass	S	sg=sg|n=n	12	nmod	_
+12	noodaauguht	S	sg=sg|n=n	14	nmod	_
+13	tulimusta	A	sg=sg|g=g	14	amod	_
+14	hobetsega	S	sg=sg|kom=kom	15	nmod	_
+15	vällä	S	sg=sg|n=n	7	conj	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 13952652
+# text = Meil on oma nõudmised , ja nii kurb , kui see mõnele ka ei näi , oma õigusedki .
+1	Meil	P	pl=pl|ad=ad	2	nsubj	_
+2	on	V	vad=vad	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	nõudmised	S	pl=pl|n=n	2	obl	_
+5	,	Z	_	8	punct	_
+6	ja	J	_	8	cc	_
+7	nii	D	_	8	advmod	_
+8	kurb	A	sg=sg|n=n	2	conj	_
+9	,	Z	_	15	punct	_
+10	kui	D	_	15	mark	_
+11	see	P	sg=sg|n=n	15	nsubj	_
+12	mõnele	P	sg=sg|all=all	15	nsubj	_
+13	ka	D	_	15	advmod	_
+14	ei	V	neg=neg	15	aux	_
+15	näi	V	o=o	8	advcl	_
+16	,	Z	_	18	punct	_
+17	oma	P	sg=sg|g=g	18	nmod	_
+18	õigusedki	S	pl=pl|n=n	15	obj	CHECK
+19	.	Z	_	2	punct	_
+
+# sent_id = 19688234
+# text = k6ige_lahedam: näi in täh !
+1	k6ige_lahedam	C	sg=sg|n=n	0	root	_
+2	:	Z	_	3	punct	_
+3	näi	V	o=o	1	parataxis	_
+4	in	Y	?=?	3	nsubj	CHECK
+5	täh	I	_	4	flat	_
+6	!	Z	_	3	punct	_
+
+# sent_id = 16834
+# text = Seda beebit näis koos Parkeriga ootavat terve showmaailm .
+1	Seda	P	sg=sg|p=p	2	det	_
+2	beebit	S	sg=sg|p=p	6	obj	CHECK
+3	näis	V	s=s	6	aux	_
+4	koos	D	_	5	case	_
+5	Parkeriga	H	sg=sg|kom=kom	6	obl	_
+6	ootavat	V	vat=vat	0	root	_
+7	terve	A	sg=sg|n=n	8	amod	_
+8	showmaailm	S	sg=sg|n=n	6	obl	_
+9	.	Z	_	6	punct	_
+
+# sent_id = 3259785
+# text = Praegu ei näi Eestis olevat pürgijaid vaid roheliste fraktsiooni .
+1	Praegu	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	näi	V	o=o	0	root	_
+4	Eestis	H	sg=sg|in=in	5	obl	_
+5	olevat	A	sg=sg|p=p	6	acl	_
+6	pürgijaid	S	pl=pl|p=p	3	nsubj	_
+7	vaid	D	_	8	advmod	_
+8	roheliste	A	pl=pl|g=g	9	amod	_
+9	fraktsiooni	S	sg=sg|g=g	3	obj	CHECK
+10	.	Z	_	3	punct	_
+
+# sent_id = 3343391
+# text = Ei näi oma valdkonna keele puhtus huvitavat sporditoimetajaidki , kes rahumeeli sääraseid " miitinguid " levitavad ning eelistavad - või prioriteerivad ?
+1	Ei	V	neg=neg	2	aux	_
+2	näi	V	o=o	0	root	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	valdkonna	S	sg=sg|g=g	5	nmod	_
+5	keele	S	sg=sg|g=g	6	nmod	_
+6	puhtus	S	sg=sg|n=n	7	obj	_
+7	huvitavat	A	sg=sg|p=p	8	acl	_
+8	sporditoimetajaidki	S	pl=pl|p=p	2	nsubj	CHECK
+9	,	Z	_	16	punct	_
+10	kes	P	sg=sg|n=n	16	nsubj	_
+11	rahumeeli	D	_	16	advmod	_
+12	sääraseid	P	pl=pl|p=p	14	det	_
+13	"	Z	_	14	punct	_
+14	miitinguid	S	pl=pl|p=p	16	obj	_
+15	"	Z	_	14	punct	_
+16	levitavad	V	vad=vad	8	acl:relcl	_
+17	ning	J	_	18	cc	_
+18	eelistavad	V	vad=vad	16	conj	_
+19	-	Z	_	21	punct	_
+20	või	J	_	21	cc	_
+21	prioriteerivad	S	sg=sg|n=n	18	conj	_
+22	?	Z	_	2	punct	_
+
+# sent_id = 3120543
+# text = Ma pole näinud ü h t k i n u t v a t i n i m e s t.
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	pole	V	neg=neg|o=o	3	aux	_
+3	näinud	A	_	0	root	_
+4	ü	Y	?=?	3	obj	CHECK
+5	h	Y	?=?	3	obj	_
+6	t	Y	?=?	5	flat	_
+7	k	Y	?=?	5	flat	_
+8	i	Y	?=?	7	flat	_
+9	n	Y	?=?	7	flat	_
+10	u	Y	?=?	7	flat	_
+11	t	Y	?=?	7	flat	_
+12	v	Y	?=?	7	flat	_
+13	a	Y	?=?	7	flat	_
+14	t	Y	?=?	7	flat	_
+15	i	Y	?=?	7	flat	_
+16	n	Y	?=?	18	nmod	_
+17	i	Y	?=?	18	punct	_
+18	m	Y	?=?	3	obj	_
+19	e	Y	?=?	18	flat	_
+20	s	Y	?=?	18	flat	_
+21	t	Y	?=?	3	obj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 551
+# text = Täpsemalt , tühisena näivad 700 krooni .
+1	Täpsemalt	D	_	4	advmod	_
+2	,	Z	_	3	punct	_
+3	tühisena	A	sg=sg|es=es	4	nsubj	_
+4	näivad	V	vad=vad	0	root	_
+5	700	N	?=?	6	nummod	_
+6	krooni	S	sg=sg|p=p	4	obj	CHECK
+7	.	Z	_	4	punct	_
+

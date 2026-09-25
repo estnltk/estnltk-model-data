@@ -1,0 +1,564 @@
+# sent_id = 2323227
+# text = " Sahlene'i boyfriend on kitarrist küll , aga ta ei tegele tausta laulmisega ja ei ole seetõttu kandidaat , " ütles Kotkas .
+1	"	Z	_	5	punct	_
+2	Sahlene'i	H	sg=sg|g=g	5	nsubj:cop	_
+3	boyfriend	S	sg=sg|n=n	2	flat	_
+4	on	V	vad=vad	5	cop	_
+5	kitarrist	S	sg=sg|el=el	0	root	_
+6	küll	D	_	5	advmod	_
+7	,	Z	_	11	punct	_
+8	aga	J	_	11	cc	_
+9	ta	P	sg=sg|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	tegele	V	o=o	5	conj	_
+12	tausta	S	sg=sg|p=p	13	nmod	CHECK
+13	laulmisega	S	sg=sg|kom=kom	11	obl	_
+14	ja	J	_	18	cc	_
+15	ei	V	neg=neg	18	aux	_
+16	ole	V	o=o	18	cop	_
+17	seetõttu	D	_	18	advmod	_
+18	kandidaat	S	sg=sg|n=n	5	conj	_
+19	,	Z	_	5	punct	_
+20	"	Z	_	5	punct	_
+21	ütles	V	s=s	5	parataxis	_
+22	Kotkas	H	sg=sg|n=n	21	nsubj	_
+23	.	Z	_	5	punct	_
+
+# sent_id = 10040558
+# text = Nii kirjutab Ajutiste Probleemide Uurimise Keskus , kes väidab end tegelevat kosmose mõju uurimisega inimestele ja poliitikale , oma internetiküljel  , et pärast 20. oktoobrit muutuvad uued plahvatused Moskvas äärmiselt tõenäoliseks .
+1	Nii	D	_	2	advmod	_
+2	kirjutab	V	b=b	0	root	_
+3	Ajutiste	H	pl=pl|g=g	4	nmod	_
+4	Probleemide	S	pl=pl|g=g	5	nmod	_
+5	Uurimise	S	sg=sg|g=g	6	nmod	_
+6	Keskus	S	sg=sg|n=n	2	nsubj	_
+7	,	Z	_	9	punct	_
+8	kes	P	pl=pl|n=n	9	nsubj	_
+9	väidab	V	b=b	6	acl:relcl	_
+10	end	P	sg=sg|p=p	11	obj	CHECK
+11	tegelevat	V	vat=vat	13	acl	_
+12	kosmose	S	sg=sg|g=g	13	nmod	_
+13	mõju	S	sg=sg|g=g	9	obj	_
+14	uurimisega	S	sg=sg|kom=kom	13	nmod	_
+15	inimestele	S	pl=pl|all=all	14	nmod	_
+16	ja	J	_	17	cc	_
+17	poliitikale	S	sg=sg|all=all	15	conj	_
+18	,	Z	_	20	punct	_
+19	oma	P	sg=sg|g=g	20	nmod	_
+20	internetiküljel	S	sg=sg|ad=ad	2	obj	_
+21	,	Z	_	26	punct	_
+22	et	J	_	26	mark	_
+23	pärast	K	_	25	case	_
+24	20.	O	?=?	25	amod	_
+25	oktoobrit	S	sg=sg|p=p	26	obl	_
+26	muutuvad	V	vad=vad	20	acl	_
+27	uued	A	pl=pl|n=n	28	amod	_
+28	plahvatused	S	pl=pl|n=n	26	nsubj	_
+29	Moskvas	H	sg=sg|in=in	26	nsubj	_
+30	äärmiselt	D	_	31	advmod	_
+31	tõenäoliseks	A	sg=sg|tr=tr	26	xcomp	_
+32	.	Z	_	2	punct	_
+
+# sent_id = 12196776
+# text = Ei ole põhjust mujale vaadata : näitemäng köidab piisavalt , ka ümbruses ei uita keegi niisama ringi ega tegele millegi muu kui aktiivse vaatamisega .
+1	Ei	V	neg=neg	5	aux	_
+2	ole	V	o=o	5	cop	_
+3	põhjust	S	sg=sg|p=p	5	nsubj:cop	_
+4	mujale	D	_	5	advmod	_
+5	vaadata	V	da=da	0	root	_
+6	:	Z	_	8	punct	_
+7	näitemäng	S	sg=sg|n=n	8	nsubj	_
+8	köidab	V	b=b	5	parataxis	_
+9	piisavalt	D	_	8	advmod	_
+10	,	Z	_	14	punct	_
+11	ka	D	_	12	advmod	_
+12	ümbruses	S	sg=sg|in=in	14	obj	_
+13	ei	V	neg=neg	14	aux	_
+14	uita	V	o=o	8	conj	_
+15	keegi	P	sg=sg|n=n	14	nsubj	_
+16	niisama	D	_	14	advmod	_
+17	ringi	D	_	14	compound:prt	_
+18	ega	J	_	19	cc	_
+19	tegele	V	o=o	8	conj	_
+20	millegi	P	sg=sg|g=g	21	det	_
+21	muu	P	sg=sg|n=n	19	nsubj	CHECK
+22	kui	D	_	24	mark	_
+23	aktiivse	A	sg=sg|g=g	24	amod	_
+24	vaatamisega	S	sg=sg|kom=kom	21	advcl	_
+25	.	Z	_	5	punct	_
+
+# sent_id = 4438564
+# text = Asi selles , et me ise riistvara tootmise ja levitamisega ei tegele , igal tootjafirmast partneril on selle jaoks omad kanalid .
+1	Asi	S	sg=sg|n=n	2	nsubj:cop	_
+2	selles	P	sg=sg|in=in	0	root	_
+3	,	Z	_	12	punct	_
+4	et	J	_	12	mark	_
+5	me	P	pl=pl|n=n	12	nsubj	_
+6	ise	P	sg=sg|n=n	5	nmod	_
+7	riistvara	S	sg=sg|n=n	12	obl	CHECK
+8	tootmise	S	sg=sg|g=g	12	obl	_
+9	ja	J	_	10	cc	_
+10	levitamisega	S	sg=sg|kom=kom	8	conj	_
+11	ei	V	neg=neg	12	aux	_
+12	tegele	V	o=o	2	acl	_
+13	,	Z	_	16	punct	_
+14	igal	P	sg=sg|ad=ad	15	det	_
+15	tootjafirmast	S	sg=sg|el=el	16	nmod	_
+16	partneril	S	sg=sg|ad=ad	12	conj	_
+17	on	V	b=b	16	cop	_
+18	selle	P	sg=sg|g=g	16	obl	_
+19	jaoks	K	_	18	case	_
+20	omad	P	pl=pl|n=n	21	nmod	_
+21	kanalid	S	pl=pl|n=n	16	nsubj:cop	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 1619054
+# text = Üha suuremat mõjujõudu on viimastel aastakümnetel omandanud mitmesugused loomuõiguslikud õpetused , mis " ei tegele mitte nii-võrd õiguse formaalse kehtivuse , kuivõrd selle moraalse siduvusega " .
+1	Üha	D	_	2	advmod	_
+2	suuremat	C	sg=sg|p=p	3	amod	_
+3	mõjujõudu	S	sg=sg|p=p	7	obj	_
+4	on	V	b=b	7	aux	_
+5	viimastel	A	pl=pl|ad=ad	6	amod	_
+6	aastakümnetel	S	pl=pl|ad=ad	7	obl	_
+7	omandanud	A	sg=sg|n=n	0	root	_
+8	mitmesugused	P	pl=pl|n=n	10	det	_
+9	loomuõiguslikud	A	pl=pl|n=n	10	amod	_
+10	õpetused	S	pl=pl|n=n	7	obj	_
+11	,	Z	_	15	punct	_
+12	mis	P	pl=pl|n=n	15	nsubj	_
+13	"	Z	_	15	punct	_
+14	ei	V	neg=neg	15	aux	_
+15	tegele	V	o=o	10	acl:relcl	_
+16	mitte	D	_	17	advmod	_
+17	nii-võrd	D	_	18	advmod	_
+18	õiguse	S	sg=sg|g=g	15	obj	CHECK
+19	formaalse	A	sg=sg|g=g	20	amod	_
+20	kehtivuse	S	sg=sg|g=g	18	nmod	_
+21	,	Z	_	25	punct	_
+22	kuivõrd	D	_	25	mark	_
+23	selle	P	sg=sg|g=g	25	det	_
+24	moraalse	A	sg=sg|g=g	25	amod	_
+25	siduvusega	S	sg=sg|kom=kom	20	advcl	_
+26	"	Z	_	25	punct	_
+27	.	Z	_	7	punct	_
+
+# sent_id = 1808776
+# text = " Vastaste heade servide tõttu tegeles sidemängija Kert Toobal sageli palli päästmise , mitte korraliku tõstmisega .
+1	"	Z	_	6	punct	_
+2	Vastaste	A	pl=pl|g=g	4	amod	_
+3	heade	A	pl=pl|g=g	4	amod	_
+4	servide	S	pl=pl|g=g	6	obl	_
+5	tõttu	K	_	4	case	_
+6	tegeles	V	s=s	0	root	_
+7	sidemängija	S	sg=sg|n=n	6	nsubj	_
+8	Kert	H	sg=sg|n=n	7	appos	_
+9	Toobal	H	sg=sg|n=n	8	flat	_
+10	sageli	D	_	6	advmod	_
+11	palli	S	sg=sg|g=g	12	nmod	CHECK
+12	päästmise	S	sg=sg|g=g	6	obl	_
+13	,	Z	_	16	punct	_
+14	mitte	D	_	16	advmod	_
+15	korraliku	A	sg=sg|g=g	16	amod	_
+16	tõstmisega	S	sg=sg|kom=kom	12	conj	_
+17	.	Z	_	6	punct	_
+
+# sent_id = 4617105
+# text = Jüri II ( 38 ) on hariduselt raskejõustiku treener ja kooliõpetaja-malevakomandör ning on fotoga tegelenud suurema osa oma teadlikust elust .
+1	Jüri	H	sg=sg|n=n	9	nsubj:cop	_
+2	II	O	?=?	1	flat	_
+3	(	Z	_	4	punct	_
+4	38	N	?=?	1	parataxis	_
+5	)	Z	_	4	punct	_
+6	on	V	b=b	0	root	_
+7	hariduselt	S	sg=sg|abl=abl	8	nmod	_
+8	raskejõustiku	S	sg=sg|g=g	9	nmod	_
+9	treener	S	sg=sg|n=n	6	nsubj	_
+10	ja	J	_	11	cc	_
+11	kooliõpetaja-malevakomandör	S	sg=sg|n=n	9	conj	_
+12	ning	J	_	15	cc	_
+13	on	V	b=b	15	aux	_
+14	fotoga	S	sg=sg|kom=kom	15	nsubj	_
+15	tegelenud	A	sg=sg|n=n	6	conj	_
+16	suurema	C	sg=sg|g=g	17	amod	_
+17	osa	S	sg=sg|g=g	15	nsubj	CHECK
+18	oma	P	sg=sg|g=g	20	nmod	_
+19	teadlikust	A	sg=sg|el=el	20	amod	_
+20	elust	S	sg=sg|el=el	15	obl	_
+21	.	Z	_	6	punct	_
+
+# sent_id = 149551
+# text = Ka Eesti Postile , kelle käes kodukaubamajade teenindus täies mahus on , tähendab pakkide tõstmine suurt raha , aga naistele , kes põhiliselt käsitööna pakkide teisaldamise ja sorteerimisega tegelevad , ka rasket füüsilist tööd .
+1	Ka	D	_	3	advmod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	Postile	S	sg=sg|all=all	13	nsubj	_
+4	,	Z	_	5	punct	_
+5	kelle	P	sg=sg|g=g	3	acl:relcl	_
+6	käes	K	_	5	case	_
+7	kodukaubamajade	S	pl=pl|g=g	8	nmod	_
+8	teenindus	S	sg=sg|n=n	10	nmod	_
+9	täies	A	sg=sg|in=in	10	amod	_
+10	mahus	S	sg=sg|in=in	5	nsubj:cop	_
+11	on	V	vad=vad	10	cop	_
+12	,	Z	_	5	punct	_
+13	tähendab	V	b=b	0	root	_
+14	pakkide	S	pl=pl|g=g	15	nmod	_
+15	tõstmine	S	sg=sg|n=n	13	obl	_
+16	suurt	A	sg=sg|p=p	17	amod	_
+17	raha	S	sg=sg|p=p	13	obj	_
+18	,	Z	_	20	punct	_
+19	aga	J	_	20	cc	_
+20	naistele	S	pl=pl|all=all	13	conj	_
+21	,	Z	_	29	punct	_
+22	kes	P	sg=sg|n=n	29	nsubj	_
+23	põhiliselt	D	_	24	advmod	_
+24	käsitööna	S	sg=sg|es=es	26	nmod	_
+25	pakkide	S	pl=pl|g=g	26	nmod	_
+26	teisaldamise	S	sg=sg|g=g	29	obl	_
+27	ja	J	_	28	cc	_
+28	sorteerimisega	S	sg=sg|kom=kom	26	conj	_
+29	tegelevad	V	vad=vad	20	acl:relcl	_
+30	,	Z	_	34	punct	_
+31	ka	D	_	34	advmod	_
+32	rasket	A	sg=sg|p=p	34	amod	_
+33	füüsilist	A	sg=sg|p=p	34	amod	_
+34	tööd	S	sg=sg|p=p	29	nsubj	CHECK
+35	.	Z	_	13	punct	_
+
+# sent_id = 4141455
+# text = Teie ema , isa ja õde on kõik kõvasti spordiga tegelenud .
+1	Teie	P	pl=pl|g=g	2	nmod	_
+2	ema	S	sg=sg|n=n	11	nsubj	_
+3	,	Z	_	4	punct	_
+4	isa	S	sg=sg|n=n	2	conj	_
+5	ja	J	_	6	cc	_
+6	õde	S	sg=sg|n=n	2	conj	_
+7	on	V	b=b	11	aux	_
+8	kõik	P	pl=pl|n=n	11	obj	CHECK
+9	kõvasti	D	_	11	advmod	_
+10	spordiga	S	sg=sg|kom=kom	11	obl	_
+11	tegelenud	V	nud=nud	0	root	_
+12	.	Z	_	11	punct	_
+
+# sent_id = 270020
+# text = Soome 1950. aastate folkloristikat üle vaadates leiame näiteks uurimuse , mis tegeles rahvalaulude “ sõnumiga ” 1 ja 1960. aastatest töid , mis käsitlesid üleloomulike kogemuste algallika otsimist ja tõlgendamist.
+1	Soome	H	sg=sg|g=g	3	nmod	_
+2	1950.	O	?=?	3	amod	_
+3	aastate	S	pl=pl|g=g	4	nmod	_
+4	folkloristikat	S	sg=sg|p=p	6	obj	_
+5	üle	D	_	6	compound:prt	_
+6	vaadates	V	des=des	7	advcl	_
+7	leiame	V	me=me	0	root	_
+8	näiteks	D	_	9	advmod	_
+9	uurimuse	S	sg=sg|g=g	7	obj	_
+10	,	Z	_	12	punct	_
+11	mis	P	sg=sg|n=n	12	nsubj	_
+12	tegeles	V	s=s	9	acl:relcl	_
+13	rahvalaulude	S	pl=pl|g=g	12	obl	_
+14	“	Z	_	15	punct	_
+15	sõnumiga	S	sg=sg|kom=kom	13	appos	_
+16	”	Z	_	15	punct	_
+17	1	N	?=?	15	nummod	_
+18	ja	J	_	21	cc	_
+19	1960.	O	?=?	20	amod	_
+20	aastatest	S	pl=pl|el=el	21	nmod	_
+21	töid	S	pl=pl|p=p	12	obl	CHECK
+22	,	Z	_	24	punct	_
+23	mis	P	pl=pl|n=n	24	nsubj	_
+24	käsitlesid	V	sid=sid	21	acl:relcl	_
+25	üleloomulike	A	pl=pl|g=g	26	amod	_
+26	kogemuste	S	pl=pl|g=g	24	obj	_
+27	algallika	S	sg=sg|g=g	28	nmod	_
+28	otsimist	S	sg=sg|p=p	26	nmod	_
+29	ja	J	_	30	cc	_
+30	tõlgendamist	S	sg=sg|p=p	28	conj	_
+31	.	Z	_	7	punct	_
+
+# sent_id = 12018498
+# text = Ma ei väida , et vutijuhid mure lahendamisega ei tegele , aga julgen innustada neid murega innustunumalt tegelema .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	väida	V	o=o	0	root	_
+4	,	Z	_	10	punct	_
+5	et	J	_	10	mark	_
+6	vutijuhid	S	pl=pl|n=n	10	nsubj	_
+7	mure	S	sg=sg|n=n	8	nmod	CHECK
+8	lahendamisega	S	sg=sg|kom=kom	10	obl	_
+9	ei	V	neg=neg	10	aux	_
+10	tegele	V	o=o	3	ccomp	_
+11	,	Z	_	13	punct	_
+12	aga	J	_	13	cc	_
+13	julgen	V	n=n	10	conj	_
+14	innustada	V	da=da	13	nsubj	_
+15	neid	P	pl=pl|p=p	16	det	_
+16	murega	S	sg=sg|kom=kom	18	nsubj	_
+17	innustunumalt	D	_	18	advmod	_
+18	tegelema	V	ma=ma	13	xcomp	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 1502180
+# text = Vaatamata sellele , et Maaren on kogu oma teadliku elu spordiga tegelnud , on ta orienteerumises veel täiesti roheline .
+1	Vaatamata	K	_	2	case	_
+2	sellele	P	sg=sg|all=all	19	obl	_
+3	,	Z	_	12	punct	_
+4	et	J	_	12	mark	_
+5	Maaren	H	sg=sg|n=n	12	nsubj	_
+6	on	V	b=b	12	aux	_
+7	kogu	A	_	10	det	_
+8	oma	P	sg=sg|g=g	10	nmod	_
+9	teadliku	A	sg=sg|g=g	10	amod	_
+10	elu	S	sg=sg|g=g	12	obj	CHECK
+11	spordiga	S	sg=sg|kom=kom	12	obj	_
+12	tegelnud	A	pl=pl|n=n	2	acl	_
+13	,	Z	_	12	punct	_
+14	on	V	b=b	19	cop	_
+15	ta	P	sg=sg|n=n	19	nsubj:cop	_
+16	orienteerumises	S	sg=sg|in=in	19	obl	_
+17	veel	D	_	19	advmod	_
+18	täiesti	D	_	19	advmod	_
+19	roheline	A	sg=sg|n=n	0	root	_
+20	.	Z	_	19	punct	_
+
+# sent_id = 3893358
+# text = TALLINN , 9. september ( EPLO ) - Tallinna abilinnapea Jüri Ratas tahab arstiabi kättesaadavuse parandamiseks ja kiirabi töökoormuse vähendamiseks luua valvearstide rühma , mis tegeleb vältimatu abi andmisega inimestele , kes kiirabi ei vaja .
+1	TALLINN	H	sg=sg|n=n	13	nsubj	_
+2	,	Z	_	4	punct	_
+3	9.	O	?=?	4	amod	_
+4	september	S	sg=sg|n=n	1	conj	_
+5	(	Z	_	6	punct	_
+6	EPLO	Y	?=?	4	parataxis	_
+7	)	Z	_	6	punct	_
+8	-	Z	_	6	punct	_
+9	Tallinna	H	sg=sg|g=g	10	nmod	_
+10	abilinnapea	S	sg=sg|n=n	13	nsubj	_
+11	Jüri	H	sg=sg|n=n	10	appos	_
+12	Ratas	H	sg=sg|n=n	11	flat	_
+13	tahab	V	b=b	0	root	_
+14	arstiabi	S	sg=sg|g=g	15	nmod	_
+15	kättesaadavuse	S	sg=sg|g=g	16	nmod	_
+16	parandamiseks	S	sg=sg|tr=tr	13	obl	_
+17	ja	J	_	20	cc	_
+18	kiirabi	S	sg=sg|g=g	19	nmod	_
+19	töökoormuse	S	sg=sg|g=g	20	nmod	_
+20	vähendamiseks	S	sg=sg|tr=tr	16	conj	_
+21	luua	V	da=da	13	conj	_
+22	valvearstide	S	pl=pl|g=g	23	nmod	_
+23	rühma	S	adt=adt	21	obj	_
+24	,	Z	_	26	punct	_
+25	mis	P	pl=pl|n=n	26	nsubj	_
+26	tegeleb	V	b=b	23	acl:relcl	_
+27	vältimatu	A	sg=sg|n=n	28	amod	_
+28	abi	S	sg=sg|n=n	29	nmod	CHECK
+29	andmisega	S	sg=sg|kom=kom	26	obl	_
+30	inimestele	S	pl=pl|all=all	29	nmod	_
+31	,	Z	_	35	punct	_
+32	kes	P	sg=sg|n=n	35	nsubj	_
+33	kiirabi	S	sg=sg|n=n	35	obj	_
+34	ei	V	neg=neg	35	aux	_
+35	vaja	V	o=o	30	acl:relcl	_
+36	.	Z	_	13	punct	_
+
+# sent_id = 234991
+# text = Eeva Ahven , kes on avaldanud monograafia “ Eesti kirjakeele arenemine aastail 1900-1917 ” ( 1958 ) , peab tõenäoliseks , et see on Veski sõna , ega tea kedagi olevat tegelnud  võhiku  etümoloogiaga ( E. Ahvena suuline teade 21. XII 1998 ) .
+1	Eeva	H	sg=sg|n=n	22	nsubj:cop	_
+2	Ahven	H	sg=sg|n=n	1	flat	_
+3	,	Z	_	6	punct	_
+4	kes	P	pl=pl|n=n	6	nsubj	_
+5	on	V	b=b	6	aux	_
+6	avaldanud	A	pl=pl|n=n	1	acl:relcl	_
+7	monograafia	S	sg=sg|g=g	6	obj	_
+8	“	Z	_	11	punct	_
+9	Eesti	H	sg=sg|g=g	10	nmod	_
+10	kirjakeele	S	sg=sg|g=g	11	nmod	_
+11	arenemine	S	sg=sg|n=n	7	appos	_
+12	aastail	S	pl=pl|ad=ad	11	nmod	_
+13	1900	N	?=?	12	nummod	_
+14	-	Z	_	15	punct	_
+15	1917	N	?=?	11	nummod	_
+16	”	Z	_	15	punct	_
+17	(	Z	_	18	punct	_
+18	1958	N	?=?	11	parataxis	_
+19	)	Z	_	18	punct	_
+20	,	Z	_	11	punct	_
+21	peab	V	b=b	22	aux	_
+22	tõenäoliseks	A	sg=sg|tr=tr	0	root	_
+23	,	Z	_	28	punct	_
+24	et	J	_	28	mark	_
+25	see	P	sg=sg|n=n	28	nsubj:cop	_
+26	on	V	vad=vad	28	cop	_
+27	Veski	H	sg=sg|g=g	28	nmod	_
+28	sõna	S	sg=sg|n=n	22	csubj:cop	_
+29	,	Z	_	31	punct	_
+30	ega	J	_	31	cc	_
+31	tea	V	o=o	28	conj	_
+32	kedagi	P	sg=sg|p=p	34	nsubj	CHECK
+33	olevat	V	vat=vat	34	aux	_
+34	tegelnud	A	_	28	conj	_
+35	võhiku	S	sg=sg|g=g	36	nmod	_
+36	etümoloogiaga	S	sg=sg|kom=kom	34	obj	_
+37	(	Z	_	40	punct	_
+38	E. Ahvena	H	sg=sg|g=g	40	nmod	_
+39	suuline	A	sg=sg|n=n	40	amod	_
+40	teade	S	sg=sg|n=n	36	parataxis	_
+41	21. XII 1998	Y	?=?	40	nmod	_
+42	)	Z	_	38	punct	_
+43	.	Z	_	22	punct	_
+
+# sent_id = 4388586
+# text = Tegelnud kogu elu eri maade kultuurisuhete korraldamisega , pühendub ta nüüd juba viiendat aastat järjest festivali läbiviimisele .
+1	Tegelnud	A	sg=sg|n=n	9	advcl	_
+2	kogu	A	_	3	det	_
+3	elu	S	sg=sg|n=n	1	obj	CHECK
+4	eri	A	_	5	amod	_
+5	maade	S	pl=pl|g=g	7	nmod	_
+6	kultuurisuhete	S	pl=pl|g=g	7	nmod	_
+7	korraldamisega	S	sg=sg|kom=kom	1	obj	_
+8	,	Z	_	9	punct	_
+9	pühendub	V	b=b	0	root	_
+10	ta	P	sg=sg|n=n	9	nsubj	_
+11	nüüd	D	_	9	advmod	_
+12	juba	D	_	13	advmod	_
+13	viiendat	O	sg=sg|p=p	14	amod	_
+14	aastat	S	sg=sg|p=p	9	obl	_
+15	järjest	D	_	9	advmod	_
+16	festivali	S	sg=sg|g=g	17	nmod	_
+17	läbiviimisele	S	sg=sg|all=all	9	obl	_
+18	.	Z	_	9	punct	_
+
+# sent_id = 8478585
+# text = Optimaalne variant Eestis oleks : politsei tegeleks kuriteo ennetamise ning neutraliseerimisega , täitevamet karistuse täideviimisega ning kolmas institutsioon väljaspool neid kahte tegeleks inimeste ühiskonda tagasitoomisega .
+1	Optimaalne	H	sg=sg|g=g	2	amod	_
+2	variant	S	sg=sg|n=n	0	root	_
+3	Eestis	H	sg=sg|in=in	2	nsubj:cop	_
+4	oleks	V	ks=ks	2	cop	_
+5	:	Z	_	7	punct	_
+6	politsei	S	sg=sg|n=n	7	nsubj	_
+7	tegeleks	V	ks=ks	2	parataxis	_
+8	kuriteo	S	sg=sg|g=g	9	nmod	_
+9	ennetamise	S	sg=sg|g=g	7	obl	_
+10	ning	J	_	11	cc	_
+11	neutraliseerimisega	S	sg=sg|kom=kom	9	conj	_
+12	,	Z	_	13	punct	_
+13	täitevamet	S	sg=sg|n=n	14	nmod	_
+14	karistuse	S	sg=sg|g=g	15	nmod	_
+15	täideviimisega	S	sg=sg|kom=kom	9	conj	_
+16	ning	J	_	22	cc	_
+17	kolmas	O	sg=sg|n=n	18	amod	_
+18	institutsioon	S	sg=sg|n=n	22	obl	_
+19	väljaspool	K	_	21	case	_
+20	neid	P	pl=pl|p=p	21	det	_
+21	kahte	N	sg=sg|p=p	18	nummod	_
+22	tegeleks	V	ks=ks	7	conj	_
+23	inimeste	S	pl=pl|g=g	24	nmod	_
+24	ühiskonda	S	sg=sg|p=p	22	obl	CHECK
+25	tagasitoomisega	S	sg=sg|kom=kom	22	obl	_
+26	.	Z	_	2	punct	_
+
+# sent_id = 1185158
+# text = See , kes loodab nime ette seatud e-tähega firmat tegelevat internetikaubandusega , peab pettuma , sest e-kaubandusega on seotud vaid mõni e-ettevõte .
+1	See	P	sg=sg|n=n	14	nsubj	_
+2	,	Z	_	4	punct	_
+3	kes	P	sg=sg|n=n	4	nsubj	_
+4	loodab	V	b=b	1	acl:relcl	_
+5	nime	S	sg=sg|g=g	7	obl	_
+6	ette	D	_	7	compound:prt	_
+7	seatud	A	_	9	acl	_
+8	e-tähega	S	sg=sg|kom=kom	9	nmod	_
+9	firmat	S	sg=sg|p=p	4	obj	CHECK
+10	tegelevat	V	vat=vat	4	conj	_
+11	internetikaubandusega	S	sg=sg|kom=kom	10	obl	_
+12	,	Z	_	4	punct	_
+13	peab	V	b=b	14	aux	_
+14	pettuma	V	ma=ma	0	root	_
+15	,	Z	_	19	punct	_
+16	sest	J	_	19	mark	_
+17	e-kaubandusega	S	sg=sg|kom=kom	19	obl	_
+18	on	V	b=b	19	aux	_
+19	seotud	A	_	14	advcl	_
+20	vaid	D	_	21	advmod	_
+21	mõni	P	sg=sg|n=n	22	det	_
+22	e-ettevõte	S	sg=sg|n=n	19	obj	_
+23	.	Z	_	14	punct	_
+
+# sent_id = 6679233
+# text = " Kuna eriharidust mul pole , siis ehituslike asjadega ma suurt ei tegele , " räägib Loor .
+1	"	Z	_	13	punct	_
+2	Kuna	J	_	3	mark	_
+3	eriharidust	S	sg=sg|p=p	13	advcl	_
+4	mul	P	sg=sg|ad=ad	3	nsubj:cop	_
+5	pole	V	neg=neg|o=o	3	cop	_
+6	,	Z	_	3	punct	_
+7	siis	J	_	13	advmod	_
+8	ehituslike	A	pl=pl|g=g	9	amod	_
+9	asjadega	S	pl=pl|kom=kom	13	obl	_
+10	ma	P	sg=sg|n=n	13	nsubj	_
+11	suurt	A	sg=sg|p=p	13	advmod	CHECK
+12	ei	V	neg=neg	13	aux	_
+13	tegele	V	o=o	0	root	_
+14	,	Z	_	13	punct	_
+15	"	Z	_	13	punct	_
+16	räägib	V	b=b	13	parataxis	_
+17	Loor	H	sg=sg|n=n	16	nsubj	_
+18	.	Z	_	13	punct	_
+
+# sent_id = 466714
+# text = " Hetkel tegeleme kirjaliku ülevaate koostamisega toimunud sündmustest ja ilmselt lähema nädala jooksul paneme selle internetti oma koduleheküljele kõigile lugemiseks ka üles , " märkis Miller .
+1	"	Z	_	3	punct	_
+2	Hetkel	S	sg=sg|ad=ad	3	obl	_
+3	tegeleme	V	me=me	0	root	_
+4	kirjaliku	A	sg=sg|g=g	5	amod	_
+5	ülevaate	S	sg=sg|g=g	3	nsubj	CHECK
+6	koostamisega	S	sg=sg|kom=kom	7	obl	_
+7	toimunud	A	pl=pl|n=n	8	acl	_
+8	sündmustest	S	pl=pl|el=el	3	nsubj	_
+9	ja	J	_	14	cc	_
+10	ilmselt	D	_	14	advmod	_
+11	lähema	C	sg=sg|g=g	12	amod	_
+12	nädala	S	sg=sg|g=g	14	obl	_
+13	jooksul	K	_	12	case	_
+14	paneme	V	me=me	3	conj	_
+15	selle	P	sg=sg|g=g	14	nsubj	_
+16	internetti	S	sg=sg|p=p	14	obl	_
+17	oma	P	sg=sg|g=g	18	nmod	_
+18	koduleheküljele	S	sg=sg|all=all	14	obj	_
+19	kõigile	P	pl=pl|all=all	20	det	_
+20	lugemiseks	S	sg=sg|tr=tr	14	obl	_
+21	ka	D	_	14	advmod	_
+22	üles	D	_	14	compound:prt	_
+23	,	Z	_	3	punct	_
+24	"	Z	_	3	punct	_
+25	märkis	V	s=s	3	parataxis	_
+26	Miller	H	sg=sg|n=n	25	nsubj	_
+27	.	Z	_	3	punct	_
+
+# sent_id = 807975
+# text = Teist , 19. detsembril eetris olevat narkoteemalist " Labürinti " paneb kokku Mart Taevere , kes on narkoprobleemi kajastamisega mitu aastat tegelnud ka publitsistikasaates " Teateid tegelikkusest " .
+1	Teist	P	pl=pl|el=el	11	nsubj	_
+2	,	Z	_	9	punct	_
+3	19.	O	?=?	4	amod	_
+4	detsembril	S	sg=sg|ad=ad	5	nmod	_
+5	eetris	S	sg=sg|in=in	6	obl	_
+6	olevat	A	sg=sg|p=p	9	acl	_
+7	narkoteemalist	A	sg=sg|p=p	9	amod	_
+8	"	Z	_	9	punct	_
+9	Labürinti	S	sg=sg|p=p	1	appos	_
+10	"	Z	_	9	punct	_
+11	paneb	V	b=b	0	root	_
+12	kokku	D	_	11	compound:prt	_
+13	Mart	H	sg=sg|n=n	11	nsubj	_
+14	Taevere	H	sg=sg|g=g	13	flat	_
+15	,	Z	_	22	punct	_
+16	kes	P	pl=pl|n=n	22	nsubj	_
+17	on	V	vad=vad	22	aux	_
+18	narkoprobleemi	S	sg=sg|g=g	19	nmod	_
+19	kajastamisega	S	sg=sg|kom=kom	22	obl	_
+20	mitu	P	sg=sg|n=n	21	det	_
+21	aastat	S	sg=sg|p=p	22	obl	_
+22	tegelnud	A	pl=pl|n=n	13	acl:relcl	_
+23	ka	D	_	24	advmod	_
+24	publitsistikasaates	S	sg=sg|in=in	22	obj	_
+25	"	Z	_	26	punct	_
+26	Teateid	S	pl=pl|p=p	24	appos	CHECK
+27	tegelikkusest	S	sg=sg|el=el	26	nmod	_
+28	"	Z	_	26	punct	_
+29	.	Z	_	11	punct	_
+

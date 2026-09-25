@@ -1,0 +1,449 @@
+# sent_id = 6187425
+# text = Nüüd ole mees , valmistu ise korralikult , kogu vastaste kohta piisavalt infot ja mängi ! "
+1	Nüüd	D	_	3	advmod	_
+2	ole	V	o=o	0	root	_
+3	mees	S	sg=sg|n=n	2	nsubj	_
+4	,	Z	_	5	punct	_
+5	valmistu	V	o=o	3	conj	_
+6	ise	P	pl=pl|n=n	5	advmod	_
+7	korralikult	D	_	5	advmod	_
+8	,	Z	_	13	punct	_
+9	kogu	A	_	10	det	_
+10	vastaste	S	pl=pl|g=g	5	obl	_
+11	kohta	K	_	10	case	_
+12	piisavalt	D	_	13	advmod	_
+13	infot	S	sg=sg|p=p	5	obj	CHECK
+14	ja	J	_	15	cc	_
+15	mängi	V	o=o	5	conj	_
+16	!	Z	_	2	punct	_
+17	"	Z	_	2	punct	_
+
+# sent_id = 8830181
+# text = Sa valmistu käima teed aastate pikka ,
+1	Sa	P	sg=sg|n=n	2	nsubj	_
+2	valmistu	V	o=o	0	root	_
+3	käima	V	ma=ma	2	obj	_
+4	teed	S	sg=sg|p=p	2	obj	CHECK
+5	aastate	S	pl=pl|g=g	4	nmod	_
+6	pikka	A	sg=sg|p=p	5	amod	_
+7	,	Z	_	2	punct	_
+
+# sent_id = 3108163
+# text = TALLINN , 21. oktoober ( EPLO ) - Akadeemik Endel Lippmaa peab lubamatuks , et biotehnoloogiafirma Celecure teeb koostööd Venemaa sõjaliste ja kinniste asutustega ning teadlastega , kes nõukogude ajal valmistusid bioloogiliseks sõjaks .
+1	TALLINN	H	sg=sg|n=n	12	nsubj	_
+2	,	Z	_	4	punct	_
+3	21.	O	?=?	4	amod	_
+4	oktoober	S	sg=sg|n=n	1	appos	_
+5	(	Z	_	6	punct	_
+6	EPLO	Y	?=?	4	parataxis	_
+7	)	Z	_	6	punct	_
+8	-	Z	_	6	punct	_
+9	Akadeemik	S	sg=sg|n=n	12	nsubj	_
+10	Endel	H	sg=sg|n=n	9	appos	_
+11	Lippmaa	H	sg=sg|n=n	10	flat	_
+12	peab	V	b=b	0	root	_
+13	lubamatuks	A	sg=sg|tr=tr	12	xcomp	_
+14	,	Z	_	18	punct	_
+15	et	J	_	18	mark	_
+16	biotehnoloogiafirma	S	sg=sg|n=n	18	nsubj	_
+17	Celecure	H	sg=sg|n=n	16	appos	_
+18	teeb	V	b=b	12	ccomp	_
+19	koostööd	S	sg=sg|p=p	18	obj	_
+20	Venemaa	H	sg=sg|g=g	24	nmod	_
+21	sõjaliste	A	pl=pl|g=g	24	amod	_
+22	ja	J	_	23	cc	_
+23	kinniste	A	pl=pl|g=g	21	conj	_
+24	asutustega	S	pl=pl|kom=kom	18	obj	_
+25	ning	J	_	26	cc	_
+26	teadlastega	S	pl=pl|kom=kom	24	conj	_
+27	,	Z	_	31	punct	_
+28	kes	P	pl=pl|n=n	31	nsubj	_
+29	nõukogude	S	pl=pl|g=g	30	nmod	_
+30	ajal	K	_	31	obl	CHECK
+31	valmistusid	V	sid=sid	26	acl:relcl	_
+32	bioloogiliseks	A	sg=sg|tr=tr	33	amod	_
+33	sõjaks	S	sg=sg|tr=tr	31	obj	_
+34	.	Z	_	12	punct	_
+
+# sent_id = 240553
+# text = Umbes samamoodi rahustavad oma koduseid tuhanded USA , Briti või Kanada sõjaväelased , kes valmistuvad operatsiooni “ Kestev vabadus ” lahinguväljadel jahtima  dead or alive  Osama bin Ladenit , Talibani liidreid ja al-Quaida terrorivõrgu ämblikke .
+1	Umbes	D	_	2	advmod	_
+2	samamoodi	D	_	3	advmod	_
+3	rahustavad	V	vad=vad	0	root	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	koduseid	A	pl=pl|p=p	6	amod	_
+6	tuhanded	N	pl=pl|n=n	7	nummod	_
+7	USA	Y	?=?	3	nsubj	_
+8	,	Z	_	9	punct	_
+9	Briti	H	sg=sg|g=g	7	conj	_
+10	või	J	_	11	cc	_
+11	Kanada	H	sg=sg|g=g	7	conj	_
+12	sõjaväelased	S	pl=pl|n=n	3	obj	_
+13	,	Z	_	15	punct	_
+14	kes	P	sg=sg|n=n	15	nsubj	_
+15	valmistuvad	V	vad=vad	12	acl:relcl	_
+16	operatsiooni	S	sg=sg|p=p	15	obj	CHECK
+17	“	Z	_	19	punct	_
+18	Kestev	A	sg=sg|n=n	19	acl	_
+19	vabadus	S	sg=sg|n=n	16	appos	_
+20	”	Z	_	19	punct	_
+21	lahinguväljadel	S	pl=pl|ad=ad	22	obl	_
+22	jahtima	V	ma=ma	15	conj	_
+23	dead	S	sg=sg|p=p	25	nmod	_
+24	or	Y	?=?	23	flat	_
+25	alive	S	sg=sg|g=g	22	obj	_
+26	Osama	H	sg=sg|n=n	25	appos	_
+27	bin	S	sg=sg|n=n	26	flat	_
+28	Ladenit	H	sg=sg|p=p	26	flat	_
+29	,	Z	_	31	punct	_
+30	Talibani	H	sg=sg|g=g	31	nmod	_
+31	liidreid	S	pl=pl|p=p	25	conj	_
+32	ja	J	_	34	cc	_
+33	al-Quaida	H	sg=sg|g=g	34	nmod	_
+34	terrorivõrgu	S	sg=sg|g=g	35	nmod	_
+35	ämblikke	S	pl=pl|p=p	22	obj	_
+36	.	Z	_	3	punct	_
+
+# sent_id = 1380662
+# text = Tuntud prantsuse astroloogi ja arsti Michel de Nostre-Dame'i ehk Nostradamuse ( 1503-1566 ) õpetuse järgijad valmistusid eile Prahas tema kõige süngema ennustuse , maailmalõpu täideminekuks .
+1	Tuntud	A	sg=sg|n=n	3	acl	_
+2	prantsuse	G	_	3	amod	_
+3	astroloogi	S	sg=sg|g=g	16	nmod	_
+4	ja	J	_	5	cc	_
+5	arsti	S	sg=sg|g=g	3	conj	_
+6	Michel	H	sg=sg|n=n	5	appos	_
+7	de	H	?=?	6	flat	_
+8	Nostre-Dame'i	H	sg=sg|g=g	6	flat	_
+9	ehk	J	_	10	cc	_
+10	Nostradamuse	H	sg=sg|g=g	3	conj	_
+11	(	Z	_	12	punct	_
+12	1503	N	?=?	10	parataxis	_
+13	-	Z	_	12	punct	_
+14	1566	N	?=?	12	conj	_
+15	)	Z	_	12	punct	_
+16	õpetuse	S	sg=sg|g=g	17	nmod	_
+17	järgijad	S	pl=pl|n=n	18	nsubj	_
+18	valmistusid	V	sid=sid	0	root	_
+19	eile	D	_	18	advmod	_
+20	Prahas	H	sg=sg|in=in	18	nsubj	_
+21	tema	P	sg=sg|n=n	24	nmod	_
+22	kõige	D	_	23	advmod	_
+23	süngema	C	sg=sg|g=g	24	amod	_
+24	ennustuse	S	sg=sg|g=g	18	obj	CHECK
+25	,	Z	_	27	punct	_
+26	maailmalõpu	S	sg=sg|g=g	27	nmod	_
+27	täideminekuks	S	sg=sg|tr=tr	24	conj	_
+28	.	Z	_	18	punct	_
+
+# sent_id = 1127865
+# text = Mis tähendab , et terve aasta valmistud sa ainult üheks võistluseks .
+1	Mis	P	pl=pl|n=n	2	nsubj	_
+2	tähendab	V	b=b	0	root	_
+3	,	Z	_	7	punct	_
+4	et	J	_	7	mark	_
+5	terve	A	sg=sg|g=g	6	amod	_
+6	aasta	S	sg=sg|g=g	7	obl	_
+7	valmistud	V	d=d	2	ccomp	_
+8	sa	P	sg=sg|n=n	7	nsubj	CHECK
+9	ainult	D	_	10	advmod	_
+10	üheks	N	sg=sg|tr=tr	11	nummod	_
+11	võistluseks	S	sg=sg|tr=tr	7	obj	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 8018856
+# text = Seepeale ostis Ants Kaarlile kaamera ja ütles , et valmistugu ta oma tulevaseks elukutseks .
+1	Seepeale	D	_	2	advmod	_
+2	ostis	V	s=s	0	root	_
+3	Ants	H	sg=sg|n=n	2	nsubj	_
+4	Kaarlile	H	sg=sg|all=all	3	flat	_
+5	kaamera	S	sg=sg|g=g	2	obj	_
+6	ja	J	_	7	cc	_
+7	ütles	V	s=s	2	conj	_
+8	,	Z	_	10	punct	_
+9	et	J	_	10	mark	_
+10	valmistugu	V	gu=gu	7	ccomp	_
+11	ta	P	sg=sg|n=n	10	nsubj	CHECK
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	tulevaseks	S	sg=sg|tr=tr	14	nmod	_
+14	elukutseks	S	sg=sg|tr=tr	10	obj	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 1417000
+# text = Valmistusin Reval Cupiks ja püüan head tulemust ka sise-EM-võistlustelt .
+1	Valmistusin	V	sin=sin	0	root	_
+2	Reval	H	sg=sg|n=n	1	nsubj	CHECK
+3	Cupiks	H	sg=sg|tr=tr	2	flat	_
+4	ja	J	_	5	cc	_
+5	püüan	V	n=n	1	conj	_
+6	head	A	sg=sg|p=p	7	amod	_
+7	tulemust	S	sg=sg|p=p	5	obj	_
+8	ka	D	_	9	advmod	_
+9	sise-EM-võistlustelt	S	pl=pl|abl=abl	5	obl	_
+10	.	Z	_	1	punct	_
+
+# sent_id = 5315464
+# text = " Selle tulemuse saamiseks olen ka terve senise elu valmistunud , harrastanud erinevaid tantsustiile , džudžitsut ja aeroobikat , " räägib Dagmar .
+1	"	Z	_	10	punct	_
+2	Selle	P	sg=sg|g=g	3	det	_
+3	tulemuse	S	sg=sg|g=g	4	nmod	_
+4	saamiseks	S	sg=sg|tr=tr	10	obl	_
+5	olen	V	n=n	10	aux	_
+6	ka	D	_	10	advmod	_
+7	terve	A	sg=sg|g=g	9	amod	_
+8	senise	A	sg=sg|g=g	9	amod	_
+9	elu	S	sg=sg|g=g	10	nsubj	CHECK
+10	valmistunud	A	sg=sg|n=n	0	root	_
+11	,	Z	_	12	punct	_
+12	harrastanud	A	_	10	conj	_
+13	erinevaid	A	pl=pl|p=p	14	acl	_
+14	tantsustiile	S	pl=pl|p=p	12	obj	_
+15	,	Z	_	16	punct	_
+16	džudžitsut	S	sg=sg|p=p	14	conj	_
+17	ja	J	_	18	cc	_
+18	aeroobikat	S	sg=sg|p=p	14	conj	_
+19	,	Z	_	10	punct	_
+20	"	Z	_	10	punct	_
+21	räägib	V	b=b	10	parataxis	_
+22	Dagmar	H	sg=sg|n=n	21	nsubj	_
+23	.	Z	_	10	punct	_
+
+# sent_id = 5002509
+# text = Ootamatu ei olnud ka see , et mõned erakonnad ei valmistu valimisteks omaenda saavutusi reklaamides , vaid loobivad poliitiliste vastaste pihta pori .
+1	Ootamatu	A	sg=sg|n=n	0	root	_
+2	ei	V	neg=neg	1	aux	_
+3	olnud	V	nud=nud	1	cop	_
+4	ka	D	_	5	advmod	_
+5	see	P	sg=sg|n=n	1	nsubj:cop	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	mõned	P	pl=pl|n=n	9	det	_
+9	erakonnad	S	pl=pl|n=n	11	nsubj	_
+10	ei	V	neg=neg	11	aux	_
+11	valmistu	V	o=o	5	acl	_
+12	valimisteks	S	pl=pl|tr=tr	11	obl	_
+13	omaenda	P	sg=sg|g=g	14	nmod	_
+14	saavutusi	S	pl=pl|p=p	11	obj	CHECK
+15	reklaamides	S	pl=pl|in=in	14	nmod	_
+16	,	Z	_	18	punct	_
+17	vaid	J	_	18	cc	_
+18	loobivad	V	vad=vad	11	conj	_
+19	poliitiliste	A	pl=pl|g=g	20	amod	_
+20	vastaste	S	pl=pl|g=g	18	obl	_
+21	pihta	K	_	20	case	_
+22	pori	S	sg=sg|p=p	18	obj	_
+23	.	Z	_	1	punct	_
+
+# sent_id = 242292
+# text = Sipelgate kombel tegevust järjepidevalt kasvatanud elcoteqlased ehitasid peagi Tallinna tehasele laienduse ning selle kõrvale ka uue tehase ning valmistuvad oma tegutsemisareaali lähiajal veelgi hüppeliselt laiendama .
+1	Sipelgate	S	pl=pl|g=g	5	obl	_
+2	kombel	K	_	1	case	_
+3	tegevust	S	sg=sg|p=p	5	obj	_
+4	järjepidevalt	D	_	5	advmod	_
+5	kasvatanud	A	pl=pl|n=n	6	acl	_
+6	elcoteqlased	S	pl=pl|n=n	7	nsubj	_
+7	ehitasid	V	sid=sid	0	root	_
+8	peagi	D	_	7	advmod	_
+9	Tallinna	H	sg=sg|g=g	10	nmod	_
+10	tehasele	S	sg=sg|all=all	11	nmod	_
+11	laienduse	S	sg=sg|g=g	7	obj	_
+12	ning	J	_	13	cc	_
+13	selle	P	sg=sg|g=g	7	conj	_
+14	kõrvale	K	_	13	case	_
+15	ka	D	_	17	advmod	_
+16	uue	A	sg=sg|g=g	17	amod	_
+17	tehase	S	sg=sg|g=g	13	obj	_
+18	ning	J	_	19	cc	_
+19	valmistuvad	V	vad=vad	7	conj	_
+20	oma	P	sg=sg|g=g	21	nmod	_
+21	tegutsemisareaali	S	sg=sg|g=g	19	obj	CHECK
+22	lähiajal	S	sg=sg|ad=ad	25	obj	_
+23	veelgi	D	_	24	advmod	_
+24	hüppeliselt	D	_	25	advmod	_
+25	laiendama	V	ma=ma	19	xcomp	_
+26	.	Z	_	7	punct	_
+
+# sent_id = 3062101
+# text = Igal juhul on galerii täidetud kaubamaja kaupadega ja seninähtust tundub see avamisele kõige paremini valmistunud olevat .
+1	Igal	P	sg=sg|ad=ad	2	det	_
+2	juhul	S	sg=sg|ad=ad	5	obl	_
+3	on	V	vad=vad	5	aux	_
+4	galerii	S	sg=sg|n=n	5	obj	_
+5	täidetud	A	_	0	root	_
+6	kaubamaja	S	sg=sg|g=g	7	nmod	_
+7	kaupadega	S	pl=pl|kom=kom	5	obj	_
+8	ja	J	_	15	cc	_
+9	seninähtust	S	sg=sg|p=p	15	obl	CHECK
+10	tundub	V	b=b	15	aux	_
+11	see	P	sg=sg|n=n	12	det	_
+12	avamisele	S	sg=sg|all=all	15	nsubj	_
+13	kõige	D	_	14	advmod	_
+14	paremini	D	_	15	advmod	_
+15	valmistunud	V	nud=nud	5	conj	_
+16	olevat	V	vat=vat	15	aux	_
+17	.	Z	_	5	punct	_
+
+# sent_id = 401380
+# text = Kogu neljapäevase päeva koondusid Vene väed Groznõi lähedaste külade ümber , aga peaminister Vladimir Putin lükkas tagasi väited nagu valmistuks Vene väed pealetungiks Groznõile .
+1	Kogu	A	_	3	det	_
+2	neljapäevase	A	sg=sg|g=g	3	amod	_
+3	päeva	S	sg=sg|g=g	4	obl	_
+4	koondusid	V	sid=sid	0	root	_
+5	Vene	H	sg=sg|g=g	6	nmod	_
+6	väed	S	pl=pl|n=n	4	nsubj	_
+7	Groznõi	H	sg=sg|n=n	8	obl	_
+8	lähedaste	A	pl=pl|g=g	9	amod	_
+9	külade	S	pl=pl|g=g	4	obl	_
+10	ümber	K	_	9	case	_
+11	,	Z	_	16	punct	_
+12	aga	J	_	16	cc	_
+13	peaminister	S	sg=sg|n=n	16	nsubj	_
+14	Vladimir	H	sg=sg|n=n	13	appos	_
+15	Putin	H	sg=sg|n=n	14	flat	_
+16	lükkas	V	s=s	4	conj	_
+17	tagasi	D	_	16	compound:prt	_
+18	väited	S	pl=pl|n=n	16	obj	_
+19	nagu	J	_	20	mark	_
+20	valmistuks	V	ks=ks	16	advcl	_
+21	Vene	H	sg=sg|g=g	22	nmod	_
+22	väed	S	pl=pl|n=n	20	obj	CHECK
+23	pealetungiks	S	sg=sg|tr=tr	20	obl	_
+24	Groznõile	H	sg=sg|all=all	23	appos	_
+25	.	Z	_	4	punct	_
+
+# sent_id = 11587073
+# text = Seepärast valmistugem tähtsündmuse väärikaks vastuvõtmiseks !
+1	Seepärast	D	_	2	advmod	_
+2	valmistugem	V	gem=gem	0	root	_
+3	tähtsündmuse	S	sg=sg|g=g	2	obj	CHECK
+4	väärikaks	A	sg=sg|tr=tr	5	amod	_
+5	vastuvõtmiseks	S	sg=sg|tr=tr	2	obl	_
+6	!	Z	_	2	punct	_
+
+# sent_id = 164514
+# text = Keset melu , mil Eesti politseis ragistati ajusid selle üle , mis on luule ja mis seda ei ole ning kohus valmistus robinhuudlikku vabadusvõitlejat Tiit Madissoni süüdi ja katlakütjat vene marurahvuslast Pjotr Rozhokki õigeks mõistma , ei olnud pea kellelgi mahti märgata raamatulettidele ilmunud hoiatusromaani “ Operatsioon Narva ” .
+1	Keset	K	_	2	case	_
+2	melu	S	sg=sg|n=n	42	obl	_
+3	,	Z	_	7	punct	_
+4	mil	D	_	7	mark	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	politseis	S	sg=sg|in=in	7	nsubj	_
+7	ragistati	V	ti=ti	2	acl	_
+8	ajusid	S	pl=pl|p=p	7	obj	_
+9	selle	P	sg=sg|g=g	7	obl	_
+10	üle	K	_	9	case	_
+11	,	Z	_	14	punct	_
+12	mis	P	pl=pl|n=n	14	nsubj:cop	_
+13	on	V	b=b	14	cop	_
+14	luule	S	sg=sg|n=n	9	acl:relcl	_
+15	ja	J	_	16	cc	_
+16	mis	P	sg=sg|n=n	14	conj	_
+17	seda	P	sg=sg|p=p	16	nsubj:cop	_
+18	ei	V	neg=neg	16	aux	_
+19	ole	V	o=o	16	cop	_
+20	ning	J	_	22	cc	_
+21	kohus	S	sg=sg|n=n	22	nsubj	_
+22	valmistus	V	s=s	7	conj	_
+23	robinhuudlikku	A	sg=sg|p=p	24	amod	_
+24	vabadusvõitlejat	S	sg=sg|p=p	22	obj	CHECK
+25	Tiit	H	sg=sg|n=n	24	appos	_
+26	Madissoni	H	sg=sg|g=g	25	flat	_
+27	süüdi	D	_	22	advmod	_
+28	ja	J	_	35	cc	_
+29	katlakütjat	S	sg=sg|p=p	31	nmod	_
+30	vene	G	_	31	amod	_
+31	marurahvuslast	S	sg=sg|p=p	35	nsubj	_
+32	Pjotr	H	sg=sg|n=n	31	appos	_
+33	Rozhokki	H	sg=sg|n=n	32	flat	_
+34	õigeks	A	sg=sg|tr=tr	35	amod	_
+35	mõistma	V	ma=ma	7	conj	_
+36	,	Z	_	42	punct	_
+37	ei	V	neg=neg	42	aux	_
+38	olnud	A	pl=pl|n=n	42	aux	_
+39	pea	D	_	42	advmod	_
+40	kellelgi	P	sg=sg|ad=ad	42	nsubj	_
+41	mahti	X	_	42	advmod	_
+42	märgata	V	da=da	0	root	_
+43	raamatulettidele	S	pl=pl|all=all	44	obl	_
+44	ilmunud	A	_	45	acl	_
+45	hoiatusromaani	S	sg=sg|g=g	42	obj	_
+46	“	Z	_	47	punct	_
+47	Operatsioon	H	sg=sg|n=n	45	appos	_
+48	Narva	H	sg=sg|g=g	47	flat	_
+49	”	Z	_	48	punct	_
+50	.	Z	_	42	punct	_
+
+# sent_id = 11680805
+# text = Samas oli aga ka rahulolematu : " Valmistusin mullu sügisest saadik ikkagi eelkõige EMi 200 m ujumiseks , aga just see läks muust halvemini .
+1	Samas	D	_	5	advmod	_
+2	oli	V	s=s	5	cop	_
+3	aga	J	_	5	advmod	_
+4	ka	D	_	5	advmod	_
+5	rahulolematu	A	sg=sg|n=n	0	root	_
+6	:	Z	_	8	punct	_
+7	"	Z	_	8	punct	_
+8	Valmistusin	V	sin=sin	5	parataxis	_
+9	mullu	D	_	8	advmod	_
+10	sügisest	S	sg=sg|el=el	8	obl	_
+11	saadik	K	_	10	case	_
+12	ikkagi	D	_	8	advmod	_
+13	eelkõige	D	_	8	advmod	_
+14	EMi	Y	adt=adt	16	nmod	CHECK
+15	200	N	?=?	16	nummod	_
+16	m	Y	?=?	17	nmod	_
+17	ujumiseks	S	sg=sg|tr=tr	8	obj	_
+18	,	Z	_	22	punct	_
+19	aga	J	_	22	cc	_
+20	just	I	_	21	advmod	_
+21	see	P	sg=sg|n=n	22	nsubj	_
+22	läks	V	s=s	8	conj	_
+23	muust	P	sg=sg|el=el	22	nsubj	_
+24	halvemini	D	_	22	advmod	_
+25	.	Z	_	5	punct	_
+
+# sent_id = 15214724
+# text = Meremehed olevat näinud suurt musta linna ja palju laevu sadamas , kas see võis tähendada , et nad valmistuvad desanti siia maale ?
+1	Meremehed	S	pl=pl|n=n	3	nsubj	_
+2	olevat	V	vat=vat	3	aux	_
+3	näinud	V	nud=nud	0	root	_
+4	suurt	A	sg=sg|p=p	6	amod	_
+5	musta	A	sg=sg|p=p	6	amod	_
+6	linna	S	sg=sg|p=p	3	obj	_
+7	ja	J	_	10	cc	_
+8	palju	D	_	10	advmod	_
+9	laevu	S	pl=pl|p=p	10	nmod	_
+10	sadamas	S	sg=sg|in=in	6	conj	_
+11	,	Z	_	15	punct	_
+12	kas	D	_	15	advmod	_
+13	see	P	sg=sg|n=n	15	nsubj	_
+14	võis	V	s=s	15	aux	_
+15	tähendada	V	da=da	10	acl	_
+16	,	Z	_	19	punct	_
+17	et	J	_	19	mark	_
+18	nad	P	pl=pl|n=n	19	nsubj	_
+19	valmistuvad	V	vad=vad	15	ccomp	_
+20	desanti	S	adt=adt	19	obl	CHECK
+21	siia	D	_	19	advmod	_
+22	maale	S	sg=sg|all=all	19	obl	_
+23	?	Z	_	3	punct	_
+
+# sent_id = 2823424
+# text = Kui ameeriklased valmistuvad hoogsalt US Openiks , siis eurooplaste tänavune tähtsaim võistlus peetakse augusti esimestel päevadel Pariisis .
+1	Kui	J	_	3	mark	_
+2	ameeriklased	S	pl=pl|n=n	3	nsubj	_
+3	valmistuvad	V	vad=vad	13	advcl	_
+4	hoogsalt	D	_	3	advmod	_
+5	US	Y	?=?	3	obl	CHECK
+6	Openiks	H	sg=sg|n=n	5	flat	_
+7	,	Z	_	3	punct	_
+8	siis	J	_	13	advmod	_
+9	eurooplaste	S	pl=pl|g=g	12	nmod	_
+10	tänavune	A	sg=sg|n=n	12	amod	_
+11	tähtsaim	U	sg=sg|n=n	12	amod	_
+12	võistlus	S	sg=sg|n=n	13	obj	_
+13	peetakse	V	takse=takse	0	root	_
+14	augusti	S	sg=sg|g=g	13	obl	_
+15	esimestel	O	pl=pl|ad=ad	16	amod	_
+16	päevadel	S	pl=pl|ad=ad	13	obl	_
+17	Pariisis	H	sg=sg|in=in	13	nsubj	_
+18	.	Z	_	13	punct	_
+

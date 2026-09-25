@@ -1,0 +1,606 @@
+# sent_id = 3310359
+# text = Kriminaalpolitsei palub kõigil inimestel , kes nägid esmaspäeva õhtul kella 16-18 paiku Pirita velodroomi ümbruses toimuvat midagi kahtlast või liikumas ringi mõnda kampa , helistada telefonidel 53 422 549 või 612 4452.
+1	Kriminaalpolitsei	S	sg=sg|n=n	2	obj	_
+2	palub	V	b=b	0	root	_
+3	kõigil	P	pl=pl|ad=ad	4	det	_
+4	inimestel	S	pl=pl|ad=ad	2	nsubj	_
+5	,	Z	_	7	punct	_
+6	kes	P	pl=pl|n=n	7	nsubj	_
+7	nägid	V	sid=sid	4	acl:relcl	_
+8	esmaspäeva	S	sg=sg|g=g	9	nmod	_
+9	õhtul	S	sg=sg|ad=ad	7	obl	_
+10	kella	S	sg=sg|g=g	7	obl	_
+11	16	N	?=?	10	nummod	_
+12	-	Z	_	13	punct	_
+13	18	N	?=?	11	flat	_
+14	paiku	S	pl=pl|p=p	18	obl	_
+15	Pirita	H	sg=sg|g=g	16	nmod	_
+16	velodroomi	S	sg=sg|g=g	17	nmod	_
+17	ümbruses	S	sg=sg|in=in	18	obl	_
+18	toimuvat	V	vat=vat	7	conj	_
+19	midagi	P	sg=sg|p=p	18	nsubj	CHECK
+20	kahtlast	A	sg=sg|p=p	19	amod	_
+21	või	J	_	22	cc	_
+22	liikumas	V	mas=mas	18	conj	_
+23	ringi	D	_	22	compound:prt	_
+24	mõnda	P	sg=sg|p=p	25	det	_
+25	kampa	S	adt=adt	22	obl	_
+26	,	Z	_	27	punct	_
+27	helistada	V	da=da	2	conj	_
+28	telefonidel	S	pl=pl|ad=ad	27	nsubj	_
+29	53 422 549	N	?=?	27	obl	_
+30	või	J	_	31	cc	_
+31	612 4452	N	?=?	29	conj	_
+32	.	Z	_	2	punct	_
+
+# sent_id = 9266418
+# text = Nimelt olevat ministrid huvitatud tollitulude jagamisest , mis toimuvat mõistagi tarbija tasku arvel , kes pidavat toiduainete hinnatõusu kinni maksma .
+1	Nimelt	D	_	4	advmod	_
+2	olevat	V	vat=vat	4	aux	_
+3	ministrid	S	pl=pl|n=n	4	obj	_
+4	huvitatud	V	tud=tud	0	root	_
+5	tollitulude	S	pl=pl|g=g	6	nmod	_
+6	jagamisest	S	sg=sg|el=el	4	obl	_
+7	,	Z	_	9	punct	_
+8	mis	P	pl=pl|n=n	9	nsubj	_
+9	toimuvat	V	vat=vat	6	acl:relcl	_
+10	mõistagi	D	_	9	advmod	_
+11	tarbija	S	sg=sg|g=g	12	nmod	CHECK
+12	tasku	S	sg=sg|g=g	9	obl	_
+13	arvel	K	_	12	case	_
+14	,	Z	_	20	punct	_
+15	kes	P	sg=sg|n=n	20	nsubj	_
+16	pidavat	V	vat=vat	20	aux	_
+17	toiduainete	S	pl=pl|g=g	18	nmod	_
+18	hinnatõusu	S	sg=sg|g=g	20	obj	_
+19	kinni	D	_	20	compound:prt	_
+20	maksma	V	ma=ma	12	acl:relcl	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 1666222
+# text = Üks viimaseid küsitlusi näitab , et kui aastal 2000 aset leidvad presidendivalimised toimuksid praegu , siis võidaks vabariiklasest George Bush demokraatide ilmset kandidaati , praegust asepresidenti Al Gore'i .
+1	Üks	P	sg=sg|n=n	3	det	_
+2	viimaseid	A	pl=pl|p=p	3	amod	_
+3	küsitlusi	S	pl=pl|p=p	4	nsubj	_
+4	näitab	V	b=b	0	root	_
+5	,	Z	_	13	punct	_
+6	et	J	_	13	mark	_
+7	kui	D	_	13	mark	_
+8	aastal	S	sg=sg|ad=ad	11	obl	_
+9	2000	N	?=?	8	nummod	_
+10	aset	S	sg=sg|p=p	11	obj	_
+11	leidvad	A	pl=pl|n=n	12	acl	_
+12	presidendivalimised	S	pl=pl|n=n	13	nsubj	_
+13	toimuksid	V	ksid=ksid	4	ccomp	_
+14	praegu	D	_	13	advmod	_
+15	,	Z	_	13	punct	_
+16	siis	J	_	21	advmod	_
+17	võidaks	V	taks=taks	4	ccomp	_
+18	vabariiklasest	S	sg=sg|el=el	21	nmod	_
+19	George	H	pl=pl|p=p	18	appos	_
+20	Bush	H	sg=sg|n=n	19	flat	_
+21	demokraatide	S	pl=pl|g=g	23	nmod	_
+22	ilmset	A	sg=sg|p=p	23	amod	_
+23	kandidaati	S	sg=sg|p=p	4	ccomp	CHECK
+24	,	Z	_	26	punct	_
+25	praegust	A	sg=sg|p=p	26	amod	_
+26	asepresidenti	S	sg=sg|p=p	23	conj	_
+27	Al	Y	?=?	26	appos	_
+28	Gore'i	H	sg=sg|g=g	27	flat	_
+29	.	Z	_	4	punct	_
+
+# sent_id = 296821
+# text = Arest toimub sundenampakkumise või sundvalitsemise korralduse tegemisega kinnisasja suhtes ( sundtäitmiskohtu /  Vollstreckungsgericht  /otsuse alusel , mis pole ulatuse poolest mitte alati täielikult ühesugune , ZVG §-d 20 , 21 , 148 ) , ulatus on lisaks veel piiratud vastutavate esemete eelneva arestiga ( mobiliaartäidesaatmise teel , v.a. päraldised , vt. ZPO § 865 ) , lõpuks veel eraldamata viljade arestiga ZPO § 810 järgi , nii et võlausaldaja ees on avatud kaks täideviimise teed .
+1	Arest	S	sg=sg|n=n	2	nsubj	_
+2	toimub	V	b=b	0	root	_
+3	sundenampakkumise	S	sg=sg|g=g	2	obl	_
+4	või	J	_	5	cc	_
+5	sundvalitsemise	S	sg=sg|g=g	3	conj	_
+6	korralduse	S	sg=sg|g=g	2	nsubj	CHECK
+7	tegemisega	S	sg=sg|kom=kom	6	nmod	_
+8	kinnisasja	S	sg=sg|g=g	6	nmod	_
+9	suhtes	K	_	8	case	_
+10	(	Z	_	11	punct	_
+11	sundtäitmiskohtu	S	sg=sg|g=g	8	parataxis	_
+12	/	Z	_	11	punct	_
+13	Vollstreckungsgericht	H	sg=sg|n=n	11	conj	_
+14	/	Z	_	11	punct	_
+15	otsuse	S	sg=sg|g=g	16	nmod	_
+16	alusel	S	sg=sg|ad=ad	6	nmod	_
+17	,	Z	_	25	punct	_
+18	mis	P	pl=pl|n=n	25	nsubj:cop	_
+19	pole	V	neg=neg|o=o	25	cop	_
+20	ulatuse	S	sg=sg|g=g	25	obl	_
+21	poolest	K	_	20	case	_
+22	mitte	D	_	23	advmod	_
+23	alati	D	_	25	advmod	_
+24	täielikult	D	_	25	advmod	_
+25	ühesugune	A	sg=sg|n=n	16	acl:relcl	_
+26	,	Z	_	27	punct	_
+27	ZVG	Y	?=?	25	parataxis	_
+28	§-	Y	?=?	27	flat	_
+29	d	Y	?=?	27	flat	_
+30	20 , 21	N	?=?	29	nummod	_
+31	,	Z	_	32	punct	_
+32	148	N	?=?	27	parataxis	_
+33	)	Z	_	27	punct	_
+34	,	Z	_	35	punct	_
+35	ulatus	S	sg=sg|n=n	25	conj	_
+36	on	V	vad=vad	35	cop	_
+37	lisaks	S	sg=sg|tr=tr	39	obl	_
+38	veel	D	_	39	advmod	_
+39	piiratud	V	tud=tud	35	acl	_
+40	vastutavate	A	pl=pl|g=g	41	acl	_
+41	esemete	S	pl=pl|g=g	39	obj	_
+42	eelneva	A	sg=sg|g=g	43	acl	_
+43	arestiga	S	sg=sg|kom=kom	41	nmod	_
+44	(	Z	_	45	punct	_
+45	mobiliaartäidesaatmise	S	sg=sg|g=g	43	parataxis	_
+46	teel	K	_	45	case	_
+47	,	Z	_	49	punct	_
+48	v.a.	Y	?=?	49	nmod	_
+49	päraldised	S	pl=pl|n=n	45	conj	_
+50	,	Z	_	51	punct	_
+51	vt.	Y	?=?	45	conj	_
+52	ZPO	Y	?=?	51	flat	_
+53	§	Y	?=?	52	flat	_
+54	865	N	?=?	52	nummod	_
+55	)	Z	_	45	punct	_
+56	,	Z	_	60	punct	_
+57	lõpuks	D	_	60	advmod	_
+58	veel	D	_	59	advmod	_
+59	eraldamata	A	_	60	amod	_
+60	viljade	S	pl=pl|g=g	43	conj	_
+61	arestiga	S	sg=sg|kom=kom	60	nmod	_
+62	ZPO	Y	?=?	61	nmod	_
+63	§	Y	?=?	62	flat	_
+64	810	N	?=?	62	nummod	_
+65	järgi	K	_	64	case	_
+66	,	Z	_	72	punct	_
+67	nii	D	_	72	advmod	_
+68	et	J	_	67	fixed	_
+69	võlausaldaja	S	sg=sg|g=g	72	obl	_
+70	ees	K	_	69	case	_
+71	on	V	b=b	72	aux	_
+72	avatud	V	tud=tud	61	advcl	_
+73	kaks	N	sg=sg|n=n	75	nummod	_
+74	täideviimise	S	sg=sg|g=g	75	nmod	_
+75	teed	S	sg=sg|p=p	72	obj	_
+76	.	Z	_	2	punct	_
+
+# sent_id = 468447
+# text = Nagu näha , Norra NATO-ga liitumine on toimunud leidlikult ja paindlikult , selgelt silmas pidades Norra erihuve .
+1	Nagu	D	_	2	mark	_
+2	näha	V	da=da	0	root	_
+3	,	Z	_	8	punct	_
+4	Norra	H	sg=sg|g=g	6	nmod	_
+5	NATO-ga	Y	sg=sg|kom=kom	6	nmod	_
+6	liitumine	S	sg=sg|n=n	8	nsubj	_
+7	on	V	b=b	8	aux	_
+8	toimunud	A	pl=pl|n=n	2	ccomp	_
+9	leidlikult	D	_	8	advmod	_
+10	ja	J	_	11	cc	_
+11	paindlikult	D	_	9	conj	_
+12	,	Z	_	15	punct	_
+13	selgelt	D	_	15	advmod	_
+14	silmas	S	sg=sg|in=in	15	obj	_
+15	pidades	V	des=des	8	conj	_
+16	Norra	H	sg=sg|g=g	17	nmod	_
+17	erihuve	S	pl=pl|p=p	15	obj	CHECK
+18	.	Z	_	15	punct	_
+
+# sent_id = 2673471
+# text = 1959. aastal toimus esmakordselt võistlus parima üürimaja aia selgitamiseks .
+1	1959.	O	?=?	2	amod	_
+2	aastal	S	sg=sg|ad=ad	3	obl	_
+3	toimus	V	s=s	0	root	_
+4	esmakordselt	D	_	3	advmod	_
+5	võistlus	S	sg=sg|n=n	7	nmod	_
+6	parima	U	sg=sg|g=g	7	amod	_
+7	üürimaja	S	sg=sg|g=g	3	nsubj	CHECK
+8	aia	S	sg=sg|g=g	9	nmod	_
+9	selgitamiseks	S	sg=sg|tr=tr	3	obl	_
+10	.	Z	_	3	punct	_
+
+# sent_id = 12088544
+# text = Maakohus vähendas küll konstaabel Jans Tuvikesele piirivalve poolt määratud rahatrahvi 220 kroonilt 22-ni , kuid tunnistas ebaseadusliku piiriületuse toimunuks .
+1	Maakohus	S	sg=sg|n=n	2	obj	_
+2	vähendas	V	s=s	0	root	_
+3	küll	D	_	2	advmod	_
+4	konstaabel	S	sg=sg|n=n	2	nsubj	_
+5	Jans	H	sg=sg|n=n	4	appos	_
+6	Tuvikesele	H	sg=sg|all=all	5	flat	_
+7	piirivalve	S	sg=sg|g=g	9	obl	_
+8	poolt	K	_	7	case	_
+9	määratud	A	_	10	acl	_
+10	rahatrahvi	S	sg=sg|g=g	2	nsubj	_
+11	220	N	?=?	12	nummod	_
+12	kroonilt	S	sg=sg|abl=abl	2	obl	_
+13	22-ni	N	sg=sg|ter=ter	12	nummod	_
+14	,	Z	_	16	punct	_
+15	kuid	J	_	16	cc	_
+16	tunnistas	V	s=s	2	conj	_
+17	ebaseadusliku	A	sg=sg|g=g	18	amod	_
+18	piiriületuse	S	sg=sg|g=g	19	obj	CHECK
+19	toimunuks	V	nuks=nuks	16	obj	_
+20	.	Z	_	2	punct	_
+
+# sent_id = 1321396
+# text = Ta lisas , et Optiva Pangaga praegu mingeid läbirääkimisi ei toimu ja pole kunagi teinud Optiva Panga omanikule ühtegi pakkumist .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	lisas	V	s=s	0	root	_
+3	,	Z	_	11	punct	_
+4	et	J	_	11	mark	_
+5	Optiva	H	sg=sg|n=n	6	nmod	_
+6	Pangaga	H	sg=sg|kom=kom	11	nsubj	_
+7	praegu	D	_	11	advmod	_
+8	mingeid	P	pl=pl|p=p	9	det	_
+9	läbirääkimisi	S	pl=pl|p=p	11	obj	CHECK
+10	ei	V	neg=neg	11	aux	_
+11	toimu	V	o=o	2	ccomp	_
+12	ja	J	_	15	cc	_
+13	pole	V	neg=neg|o=o	15	aux	_
+14	kunagi	D	_	15	advmod	_
+15	teinud	V	nud=nud	11	conj	_
+16	Optiva	H	sg=sg|n=n	17	nmod	_
+17	Panga	H	sg=sg|g=g	18	nmod	_
+18	omanikule	S	sg=sg|all=all	15	obj	_
+19	ühtegi	P	sg=sg|p=p	20	nummod	_
+20	pakkumist	S	sg=sg|p=p	15	obj	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 1220009
+# text = Alati üliviisakas ja hoolikalt sõnu valiv olümpiavõitja Sokk oli pärast mängu toimunud pressikonverentsil ootamatu otseütleja : " Küsisin kohtunike käest , kas neil on kohustus mängu järel treeneril kätt suruda või mitte ?
+1	Alati	D	_	6	advmod	_
+2	üliviisakas	A	sg=sg|n=n	7	amod	_
+3	ja	J	_	6	cc	_
+4	hoolikalt	D	_	6	advmod	_
+5	sõnu	S	pl=pl|p=p	6	obj	_
+6	valiv	A	sg=sg|n=n	2	conj	_
+7	olümpiavõitja	S	sg=sg|n=n	12	nsubj	_
+8	Sokk	S	sg=sg|n=n	7	appos	_
+9	oli	V	s=s	12	aux	_
+10	pärast	K	_	11	case	_
+11	mängu	S	sg=sg|p=p	12	obl	_
+12	toimunud	A	pl=pl|n=n	0	root	_
+13	pressikonverentsil	S	sg=sg|ad=ad	15	nmod	_
+14	ootamatu	A	sg=sg|n=n	15	amod	_
+15	otseütleja	S	sg=sg|n=n	12	obl	CHECK
+16	:	Z	_	18	punct	_
+17	"	Z	_	18	punct	_
+18	Küsisin	V	sin=sin	12	parataxis	_
+19	kohtunike	S	pl=pl|g=g	18	obl	_
+20	käest	K	_	19	case	_
+21	,	Z	_	25	punct	_
+22	kas	D	_	25	advmod	_
+23	neil	P	pl=pl|ad=ad	25	nsubj:cop	_
+24	on	V	vad=vad	25	cop	_
+25	kohustus	S	sg=sg|n=n	18	ccomp	_
+26	mängu	S	sg=sg|g=g	30	obl	_
+27	järel	K	_	26	case	_
+28	treeneril	S	sg=sg|ad=ad	30	obj	_
+29	kätt	S	sg=sg|p=p	30	obj	_
+30	suruda	V	da=da	25	acl	_
+31	või	J	_	32	cc	_
+32	mitte	D	_	30	conj	_
+33	?	Z	_	12	punct	_
+
+# sent_id = 580692
+# text = Tema järjekordne meelemuutus toimus Laeva kristlikus kodus töökoosolekul .
+1	Tema	P	sg=sg|g=g	3	nmod	_
+2	järjekordne	A	sg=sg|n=n	3	amod	_
+3	meelemuutus	S	sg=sg|n=n	4	nsubj	_
+4	toimus	V	s=s	0	root	_
+5	Laeva	S	sg=sg|p=p	7	nmod	CHECK
+6	kristlikus	A	sg=sg|in=in	7	amod	_
+7	kodus	S	sg=sg|in=in	8	nmod	_
+8	töökoosolekul	S	sg=sg|ad=ad	4	obl	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 3203650
+# text = Nii ka " Maris Stellas " ( " Mere tähte " peaks see vanast ladina laulust võetud rida maakeeli tähendama ) - üks inimestest , kelle silmade läbi toimuvat nähakse , on omas ajas tunnustatud , tegelikult elanud helilooja Guillaume Dufay , kelle muusika tolles Hargla painutatud ajaloos veenabki Jeanne'i , kes on Prantsusmaal oma töö lõpule viinud , oma meelekindlust , oma surmapõlgust , oma kompromissitust , oma tule- ja mõõgamaigulist usku Uude Maailma viima .
+1	Nii	D	_	2	advmod	_
+2	ka	D	_	4	advmod	_
+3	"	Z	_	4	punct	_
+4	Maris	H	sg=sg|in=in	20	nsubj	_
+5	Stellas	H	sg=sg|n=n	4	flat	_
+6	"	Z	_	4	punct	_
+7	(	Z	_	10	punct	_
+8	"	Z	_	10	punct	_
+9	Mere	H	sg=sg|n=n	10	nmod	_
+10	tähte	S	sg=sg|p=p	4	parataxis	_
+11	"	Z	_	10	punct	_
+12	peaks	V	ks=ks	20	aux	_
+13	see	P	sg=sg|n=n	10	det	_
+14	vanast	A	sg=sg|el=el	16	amod	_
+15	ladina	G	_	16	amod	_
+16	laulust	S	sg=sg|el=el	17	obj	_
+17	võetud	V	tud=tud	18	acl	_
+18	rida	S	sg=sg|n=n	19	nmod	_
+19	maakeeli	S	pl=pl|p=p	20	obj	_
+20	tähendama	V	ma=ma	0	root	_
+21	)	Z	_	20	punct	_
+22	-	Z	_	24	punct	_
+23	üks	P	sg=sg|n=n	24	det	_
+24	inimestest	S	pl=pl|el=el	20	nsubj	_
+25	,	Z	_	30	punct	_
+26	kelle	P	pl=pl|g=g	30	nsubj	_
+27	silmade	S	pl=pl|g=g	30	obj	CHECK
+28	läbi	D	_	29	compound:prt	_
+29	toimuvat	V	vat=vat	30	conj	_
+30	nähakse	V	takse=takse	24	acl:relcl	_
+31	,	Z	_	35	punct	_
+32	on	V	b=b	35	aux	_
+33	omas	A	sg=sg|in=in	34	nmod	_
+34	ajas	S	sg=sg|in=in	35	obl	_
+35	tunnustatud	V	tud=tud	24	acl:relcl	_
+36	,	Z	_	38	punct	_
+37	tegelikult	D	_	38	advmod	_
+38	elanud	A	pl=pl|n=n	35	conj	_
+39	helilooja	S	sg=sg|n=n	38	nsubj	_
+40	Guillaume	H	sg=sg|n=n	39	appos	_
+41	Dufay	H	sg=sg|n=n	40	flat	_
+42	,	Z	_	49	punct	_
+43	kelle	P	pl=pl|g=g	49	nsubj	_
+44	muusika	S	sg=sg|n=n	48	nmod	_
+45	tolles	P	sg=sg|in=in	48	det	_
+46	Hargla	H	sg=sg|g=g	47	obl	_
+47	painutatud	V	tud=tud	48	acl	_
+48	ajaloos	S	sg=sg|in=in	49	obj	_
+49	veenabki	V	b=b	40	acl:relcl	_
+50	Jeanne'i	H	sg=sg|g=g	49	obj	_
+51	,	Z	_	58	punct	_
+52	kes	P	sg=sg|n=n	58	nsubj	_
+53	on	V	vad=vad	58	aux	_
+54	Prantsusmaal	H	sg=sg|ad=ad	58	obj	_
+55	oma	P	sg=sg|g=g	56	nmod	_
+56	töö	S	sg=sg|g=g	57	nmod	_
+57	lõpule	S	sg=sg|all=all	58	obj	_
+58	viinud	V	nud=nud	50	acl:relcl	_
+59	,	Z	_	76	punct	_
+60	oma	P	sg=sg|g=g	61	nmod	_
+61	meelekindlust	S	sg=sg|p=p	76	obj	_
+62	,	Z	_	64	punct	_
+63	oma	P	sg=sg|g=g	64	nmod	_
+64	surmapõlgust	S	sg=sg|p=p	61	conj	_
+65	,	Z	_	67	punct	_
+66	oma	P	sg=sg|g=g	67	nmod	_
+67	kompromissitust	S	sg=sg|p=p	61	conj	_
+68	,	Z	_	76	punct	_
+69	oma	P	sg=sg|g=g	70	nmod	_
+70	tule-	S	sg=sg|g=g	73	amod	_
+71	ja	J	_	72	cc	_
+72	mõõgamaigulist	A	sg=sg|p=p	70	conj	_
+73	usku	S	sg=sg|p=p	76	obj	_
+74	Uude	A	adt=adt	75	amod	_
+75	Maailma	S	sg=sg|g=g	76	obl	_
+76	viima	V	ma=ma	58	conj	_
+77	.	Z	_	76	punct	_
+
+# sent_id = 3022716
+# text = Gallenkirchis toimunud lumelauakrossi FIS etapil kolmanda koha .
+1	Gallenkirchis	H	sg=sg|in=in	2	obl	_
+2	toimunud	A	sg=sg|n=n	3	acl	_
+3	lumelauakrossi	S	sg=sg|g=g	4	obl	_
+4	FIS	Y	?=?	0	root	_
+5	etapil	S	sg=sg|ad=ad	4	obl	_
+6	kolmanda	O	sg=sg|g=g	7	amod	_
+7	koha	S	sg=sg|g=g	4	obj	CHECK
+8	.	Z	_	4	punct	_
+
+# sent_id = 298712
+# text = Tavaliselt , siis kui kasutusvalduse seadja ja omanik on üks ja seesama isik , ei tulene sellest eeskirjast omanikule § 985 järgi kuuluvat nõuet silmas pidades midagi uut ; see väärib ainult siis rõhutamist , kui seadja ei olnud omanik , sest tagasiandmine ei toimu õiguse seadjale .
+1	Tavaliselt	D	_	16	advmod	_
+2	,	Z	_	13	punct	_
+3	siis	J	_	13	advmod	_
+4	kui	J	_	13	mark	_
+5	kasutusvalduse	S	sg=sg|g=g	6	nmod	_
+6	seadja	S	sg=sg|n=n	13	nsubj:cop	_
+7	ja	J	_	8	cc	_
+8	omanik	S	sg=sg|n=n	6	conj	_
+9	on	V	vad=vad	13	cop	_
+10	üks	N	sg=sg|n=n	13	nummod	_
+11	ja	J	_	12	cc	_
+12	seesama	P	sg=sg|n=n	10	conj	_
+13	isik	S	sg=sg|n=n	16	advcl	_
+14	,	Z	_	16	punct	_
+15	ei	V	neg=neg	16	aux	_
+16	tulene	V	o=o	0	root	_
+17	sellest	P	sg=sg|el=el	24	det	_
+18	eeskirjast	S	sg=sg|el=el	19	nmod	_
+19	omanikule	S	sg=sg|all=all	23	obl	_
+20	§	Y	?=?	23	obl	_
+21	985	N	?=?	20	nummod	_
+22	järgi	K	_	21	case	_
+23	kuuluvat	A	sg=sg|p=p	24	acl	_
+24	nõuet	S	sg=sg|p=p	26	obj	_
+25	silmas	S	sg=sg|in=in	26	obj	_
+26	pidades	V	des=des	16	conj	_
+27	midagi	P	sg=sg|p=p	26	nsubj	_
+28	uut	A	sg=sg|p=p	27	amod	_
+29	;	Z	_	31	punct	_
+30	see	P	sg=sg|n=n	31	nsubj	_
+31	väärib	V	b=b	16	parataxis	_
+32	ainult	D	_	33	advmod	_
+33	siis	D	_	31	advmod	_
+34	rõhutamist	S	sg=sg|p=p	31	obj	_
+35	,	Z	_	37	punct	_
+36	kui	J	_	37	mark	_
+37	seadja	S	sg=sg|n=n	31	advcl	_
+38	ei	V	neg=neg	37	aux	_
+39	olnud	V	nud=nud	37	cop	_
+40	omanik	S	sg=sg|n=n	37	nsubj:cop	_
+41	,	Z	_	45	punct	_
+42	sest	J	_	45	mark	_
+43	tagasiandmine	S	sg=sg|n=n	45	nsubj	_
+44	ei	V	neg=neg	45	aux	_
+45	toimu	V	o=o	37	advcl	_
+46	õiguse	S	sg=sg|g=g	45	nsubj	CHECK
+47	seadjale	S	sg=sg|all=all	46	nmod	_
+48	.	Z	_	16	punct	_
+
+# sent_id = 243046
+# text = Ka Tallinna börs annab oma leheküljel reaalajas infot toimunud tehingute kohta .
+1	Ka	D	_	3	advmod	_
+2	Tallinna	H	sg=sg|g=g	3	nmod	_
+3	börs	S	sg=sg|n=n	4	nsubj	_
+4	annab	V	b=b	0	root	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	leheküljel	S	sg=sg|ad=ad	4	obl	_
+7	reaalajas	S	sg=sg|in=in	4	obj	_
+8	infot	S	sg=sg|p=p	9	obl	CHECK
+9	toimunud	A	pl=pl|n=n	10	acl	_
+10	tehingute	S	pl=pl|g=g	4	obl	_
+11	kohta	K	_	10	case	_
+12	.	Z	_	4	punct	_
+
+# sent_id = 1277615
+# text = Eile Saare maakohtus end 30. aprillil toimunud avarii toimumises süüdi tunnistanud Rahu kahetses juhtunut ja palus õnnetuses hukkunud Liana Rattase ( 19 ) vanematelt kohtusaalis andestust .
+1	Eile	D	_	11	advmod	_
+2	Saare	H	sg=sg|g=g	3	nmod	_
+3	maakohtus	S	sg=sg|in=in	13	nsubj	_
+4	end	Y	?=?	11	obj	CHECK
+5	30.	O	?=?	6	amod	_
+6	aprillil	S	sg=sg|ad=ad	7	obl	_
+7	toimunud	A	pl=pl|n=n	8	acl	_
+8	avarii	S	sg=sg|g=g	9	nmod	_
+9	toimumises	S	sg=sg|in=in	11	obj	_
+10	süüdi	D	_	11	advmod	_
+11	tunnistanud	A	pl=pl|n=n	12	acl	_
+12	Rahu	S	sg=sg|n=n	13	nsubj	_
+13	kahetses	V	s=s	0	root	_
+14	juhtunut	S	sg=sg|p=p	13	obj	_
+15	ja	J	_	16	cc	_
+16	palus	V	s=s	13	conj	_
+17	õnnetuses	S	sg=sg|in=in	18	obl	_
+18	hukkunud	V	nud=nud	19	acl	_
+19	Liana	H	sg=sg|n=n	26	nmod	_
+20	Rattase	H	sg=sg|g=g	19	flat	_
+21	(	Z	_	22	punct	_
+22	19	N	?=?	19	parataxis	_
+23	)	Z	_	22	punct	_
+24	vanematelt	S	pl=pl|abl=abl	25	amod	_
+25	kohtusaalis	S	sg=sg|in=in	26	nmod	_
+26	andestust	S	sg=sg|p=p	16	obj	_
+27	.	Z	_	13	punct	_
+
+# sent_id = 14707255
+# text = Krt , Janno pani vist küll naelapea pihta , nii hästi pole tükk aega keegi asja sisust aru saanud : ) Üks väike erand - viimased kolm korda see aasta on nad vist kõik vähemalt kolmapäeval toimunud , regulaarsus juba hakkab sisse tulema .
+1	Krt	H	sg=sg|n=n	4	nsubj	_
+2	,	Z	_	4	punct	_
+3	Janno	H	sg=sg|n=n	4	nsubj	_
+4	pani	V	s=s	0	root	_
+5	vist	D	_	4	advmod	_
+6	küll	D	_	4	advmod	_
+7	naelapea	S	sg=sg|g=g	4	obl	_
+8	pihta	K	_	7	case	_
+9	,	Z	_	19	punct	_
+10	nii	D	_	11	advmod	_
+11	hästi	D	_	19	advmod	_
+12	pole	V	neg=neg|o=o	19	aux	_
+13	tükk	S	sg=sg|n=n	14	nmod	_
+14	aega	S	sg=sg|p=p	19	obl	_
+15	keegi	P	sg=sg|n=n	16	nmod	_
+16	asja	S	sg=sg|p=p	19	obj	_
+17	sisust	S	sg=sg|el=el	19	obj	_
+18	aru	S	sg=sg|p=p	19	obj	_
+19	saanud	A	sg=sg|n=n	24	parataxis	_
+20	:	Z	_	19	punct	_
+21	)	Z	_	24	punct	_
+22	Üks	P	sg=sg|n=n	24	det	_
+23	väike	A	sg=sg|n=n	24	amod	_
+24	erand	S	sg=sg|n=n	4	conj	_
+25	-	Z	_	37	punct	_
+26	viimased	A	pl=pl|n=n	27	amod	_
+27	kolm	N	sg=sg|n=n	28	nummod	_
+28	korda	S	sg=sg|p=p	37	obl	_
+29	see	P	sg=sg|n=n	30	det	_
+30	aasta	S	sg=sg|n=n	37	obl	_
+31	on	V	b=b	37	aux	_
+32	nad	P	pl=pl|n=n	37	nsubj	_
+33	vist	D	_	37	advmod	_
+34	kõik	P	pl=pl|n=n	37	nsubj	CHECK
+35	vähemalt	D	_	36	advmod	_
+36	kolmapäeval	S	sg=sg|ad=ad	37	obl	_
+37	toimunud	A	pl=pl|n=n	24	parataxis	_
+38	,	Z	_	41	punct	_
+39	regulaarsus	S	sg=sg|n=n	41	nsubj	_
+40	juba	D	_	41	advmod	_
+41	hakkab	V	b=b	37	conj	_
+42	sisse	D	_	43	compound:prt	_
+43	tulema	V	ma=ma	41	xcomp	_
+44	.	Z	_	24	punct	_
+
+# sent_id = 629316
+# text = Sotsialism tundus arenevat ja vähemalt minu eluajal ei tundunud olulisi muudatusi toimuvat .
+1	Sotsialism	S	sg=sg|n=n	3	nsubj:cop	_
+2	tundus	V	s=s	3	aux	_
+3	arenevat	A	sg=sg|p=p	0	root	_
+4	ja	J	_	12	cc	_
+5	vähemalt	D	_	7	advmod	_
+6	minu	P	sg=sg|g=g	7	nmod	_
+7	eluajal	S	sg=sg|ad=ad	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	tundunud	A	_	3	conj	_
+10	olulisi	A	pl=pl|p=p	11	amod	_
+11	muudatusi	S	pl=pl|p=p	12	nsubj	CHECK
+12	toimuvat	V	vat=vat	3	conj	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 296843
+# text = Võõrandamine ja eemaldamine toimuvad mõlemad alles pärast arestimist .
+1	Võõrandamine	S	sg=sg|n=n	4	nsubj	_
+2	ja	J	_	3	cc	_
+3	eemaldamine	S	sg=sg|n=n	1	conj	_
+4	toimuvad	V	vad=vad	0	root	_
+5	mõlemad	P	pl=pl|n=n	4	nsubj	CHECK
+6	alles	D	_	4	advmod	_
+7	pärast	K	_	8	case	_
+8	arestimist	S	sg=sg|p=p	4	obl	_
+9	.	Z	_	4	punct	_
+
+# sent_id = 284706
+# text = Medalite pidulik kätteandmine toimub reeglina Tartu Ülikooli Õpetatud Nõukogu saalis prof Gerhard Rägo sünnipäeva 5. detsembri paiku .
+1	Medalite	S	pl=pl|g=g	3	nmod	_
+2	pidulik	A	sg=sg|n=n	3	amod	_
+3	kätteandmine	S	sg=sg|n=n	4	nsubj	_
+4	toimub	V	b=b	0	root	_
+5	reeglina	S	sg=sg|es=es	4	obl	_
+6	Tartu	H	sg=sg|g=g	7	nmod	_
+7	Ülikooli	H	sg=sg|g=g	8	obl	_
+8	Õpetatud	A	pl=pl|n=n	9	acl	_
+9	Nõukogu	H	sg=sg|g=g	10	nmod	_
+10	saalis	S	sg=sg|in=in	4	obl	_
+11	prof	Y	?=?	14	nmod	_
+12	Gerhard	H	sg=sg|n=n	11	flat	_
+13	Rägo	H	sg=sg|g=g	12	flat	_
+14	sünnipäeva	S	sg=sg|p=p	4	obl	CHECK
+15	5.	O	?=?	16	amod	_
+16	detsembri	S	sg=sg|g=g	4	obl	_
+17	paiku	K	_	16	case	_
+18	.	Z	_	4	punct	_
+
+# sent_id = 4187533
+# text = Vähemalt kümme inimest sai surma raudteejaamas toimunud kahes pommiplahvatuses , viis hukkus Gangese jõe äärde ehitatud templis , kõneles Sinha .
+1	Vähemalt	D	_	2	advmod	_
+2	kümme	N	sg=sg|n=n	3	nummod	_
+3	inimest	S	sg=sg|p=p	4	nsubj	_
+4	sai	V	s=s	0	root	_
+5	surma	S	sg=sg|g=g	4	obl	CHECK
+6	raudteejaamas	S	sg=sg|in=in	7	obl	_
+7	toimunud	A	_	9	acl	_
+8	kahes	N	sg=sg|in=in	9	nummod	_
+9	pommiplahvatuses	S	sg=sg|in=in	4	obj	_
+10	,	Z	_	12	punct	_
+11	viis	S	sg=sg|n=n	12	nsubj	_
+12	hukkus	V	s=s	4	conj	_
+13	Gangese	G	_	14	nmod	_
+14	jõe	S	sg=sg|g=g	16	obl	_
+15	äärde	K	_	14	case	_
+16	ehitatud	A	_	17	acl	_
+17	templis	S	sg=sg|in=in	12	nsubj	_
+18	,	Z	_	19	punct	_
+19	kõneles	V	s=s	4	conj	_
+20	Sinha	H	sg=sg|n=n	19	nsubj	_
+21	.	Z	_	4	punct	_
+

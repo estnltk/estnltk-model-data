@@ -1,0 +1,242 @@
+# sent_id = 2881287
+# text = Ta leidis ennast pikalt marmorrõdult , mis viis basiilika kesklöövi , mille apsiidi kaunistas hiiglaslike mõõtmetega Pantokraatori mosaiikkujutis , mida oli vaevu paista helkleva kulla õrnas kumas .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	leidis	V	s=s	0	root	_
+3	ennast	P	sg=sg|p=p	2	obj	_
+4	pikalt	D	_	2	advmod	_
+5	marmorrõdult	S	sg=sg|abl=abl	2	obj	_
+6	,	Z	_	8	punct	_
+7	mis	P	pl=pl|n=n	8	nsubj	_
+8	viis	V	s=s	5	acl:relcl	_
+9	basiilika	S	sg=sg|g=g	8	obj	_
+10	kesklöövi	S	sg=sg|g=g	8	obj	_
+11	,	Z	_	14	punct	_
+12	mille	P	pl=pl|g=g	14	nsubj	_
+13	apsiidi	S	adt=adt	14	obj	_
+14	kaunistas	V	s=s	10	acl:relcl	_
+15	hiiglaslike	A	pl=pl|g=g	16	amod	_
+16	mõõtmetega	S	pl=pl|kom=kom	14	obj	_
+17	Pantokraatori	H	sg=sg|g=g	16	appos	_
+18	mosaiikkujutis	S	sg=sg|n=n	14	obj	_
+19	,	Z	_	27	punct	_
+20	mida	P	pl=pl|p=p	27	nsubj	_
+21	oli	V	s=s	27	aux	_
+22	vaevu	D	_	27	advmod	_
+23	paista	V	da=da	27	aux	_
+24	helkleva	A	sg=sg|g=g	25	acl	_
+25	kulla	S	sg=sg|g=g	27	obj	CHECK
+26	õrnas	A	sg=sg|in=in	27	amod	_
+27	kumas	V	s=s	18	acl:relcl	_
+28	.	Z	_	2	punct	_
+
+# sent_id = 368646
+# text = 1938. aastal ilmunud romaanis kumab läbi uue maailmakatastroofi , Teise maailmasõja aim .
+1	1938.	O	?=?	2	amod	_
+2	aastal	S	sg=sg|ad=ad	3	obl	_
+3	ilmunud	A	sg=sg|n=n	4	acl	_
+4	romaanis	S	sg=sg|in=in	5	nsubj	_
+5	kumab	V	b=b	0	root	_
+6	läbi	K	_	8	case	_
+7	uue	A	sg=sg|g=g	8	amod	_
+8	maailmakatastroofi	S	sg=sg|g=g	5	obl	CHECK
+9	,	Z	_	11	punct	_
+10	Teise	O	sg=sg|g=g	11	amod	_
+11	maailmasõja	S	sg=sg|g=g	5	obl	_
+12	aim	S	sg=sg|n=n	11	nmod	_
+13	.	Z	_	5	punct	_
+
+# sent_id = 13067972
+# text = Parim universaalne puhastusvahend Cifilt , » kumab kõrvus reklaamist kuuldu .
+1	Parim	U	sg=sg|n=n	3	amod	_
+2	universaalne	A	sg=sg|n=n	3	amod	_
+3	puhastusvahend	S	sg=sg|n=n	7	nsubj	_
+4	Cifilt	H	sg=sg|n=n	3	appos	_
+5	,	Z	_	7	punct	_
+6	»	Z	_	7	punct	_
+7	kumab	V	b=b	0	root	_
+8	kõrvus	S	pl=pl|in=in	9	nmod	_
+9	reklaamist	S	sg=sg|el=el	7	obj	_
+10	kuuldu	S	adt=adt	7	obj	CHECK
+11	.	Z	_	7	punct	_
+
+# sent_id = 8620127
+# text = Öökardinad olnud akendel ees ja et oli juba õhtupoolik ja päike loojumas , kumanud aknaruudud soojalt ja kollaselt .
+1	Öökardinad	S	pl=pl|n=n	3	nsubj:cop	_
+2	olnud	A	sg=sg|n=n	3	cop	_
+3	akendel	S	pl=pl|ad=ad	0	root	_
+4	ees	K	_	3	case	_
+5	ja	J	_	7	cc	_
+6	et	J	_	7	mark	_
+7	oli	V	s=s	3	conj	_
+8	juba	D	_	9	advmod	_
+9	õhtupoolik	S	sg=sg|n=n	7	nsubj	_
+10	ja	J	_	12	cc	_
+11	päike	S	sg=sg|n=n	12	nsubj	_
+12	loojumas	V	mas=mas	9	conj	_
+13	,	Z	_	14	punct	_
+14	kumanud	A	pl=pl|n=n	3	conj	_
+15	aknaruudud	S	pl=pl|n=n	14	obj	CHECK
+16	soojalt	D	_	14	advmod	_
+17	ja	J	_	18	cc	_
+18	kollaselt	D	_	16	conj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 28906
+# text = Eurolaulja SAHLENE'i tänase sära ja enesekindluse tagant kumab ta lapsepõlv .
+1	Eurolaulja	S	sg=sg|g=g	2	nmod	_
+2	SAHLENE'i	S	sg=sg|g=g	8	obl	_
+3	tänase	A	sg=sg|g=g	4	amod	_
+4	sära	S	sg=sg|g=g	8	obl	_
+5	ja	J	_	6	cc	_
+6	enesekindluse	S	sg=sg|g=g	4	conj	_
+7	tagant	K	_	4	case	_
+8	kumab	V	b=b	0	root	_
+9	ta	P	sg=sg|g=g	8	nsubj	_
+10	lapsepõlv	S	sg=sg|n=n	8	obj	CHECK
+11	.	Z	_	8	punct	_
+
+# sent_id = 4760479
+# text = Tihti kumas Mati Sirkli aken Müürivahe tänaval veel hommikulgi , kui restoran Euroopast tänavale valgunud kära oli vaibunud .
+1	Tihti	D	_	2	advmod	_
+2	kumas	V	s=s	0	root	_
+3	Mati	H	sg=sg|n=n	2	nsubj	_
+4	Sirkli	H	sg=sg|n=n	3	flat	_
+5	aken	S	sg=sg|n=n	2	obj	CHECK
+6	Müürivahe	H	sg=sg|g=g	7	nmod	_
+7	tänaval	S	sg=sg|ad=ad	2	obl	_
+8	veel	D	_	2	advmod	_
+9	hommikulgi	S	sg=sg|ad=ad	2	obj	_
+10	,	Z	_	18	punct	_
+11	kui	D	_	18	mark	_
+12	restoran	S	sg=sg|n=n	18	nsubj	_
+13	Euroopast	H	sg=sg|el=el	14	nmod	_
+14	tänavale	S	sg=sg|all=all	15	obl	_
+15	valgunud	A	_	16	acl	_
+16	kära	S	sg=sg|n=n	18	nsubj	_
+17	oli	V	s=s	18	aux	_
+18	vaibunud	A	sg=sg|n=n	2	advcl	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 641121
+# text = Laupäeval jäi võistluseni veel aega , ning maailma paremikku tõusnud hooldeboksidest kumas üllatusvõitjaile omast ülemeelikust .
+1	Laupäeval	S	sg=sg|ad=ad	2	obl	_
+2	jäi	V	s=s	0	root	_
+3	võistluseni	S	sg=sg|ter=ter	2	nsubj	_
+4	veel	D	_	5	advmod	_
+5	aega	S	sg=sg|p=p	2	obl	_
+6	,	Z	_	12	punct	_
+7	ning	J	_	12	cc	_
+8	maailma	S	sg=sg|g=g	9	nmod	_
+9	paremikku	S	sg=sg|p=p	10	obl	_
+10	tõusnud	A	sg=sg|n=n	11	acl	_
+11	hooldeboksidest	S	pl=pl|el=el	12	nsubj	_
+12	kumas	V	s=s	2	conj	_
+13	üllatusvõitjaile	S	pl=pl|all=all	14	obl	_
+14	omast	A	sg=sg|p=p	15	amod	_
+15	ülemeelikust	S	sg=sg|p=p	12	obj	CHECK
+16	.	Z	_	2	punct	_
+
+# sent_id = 12512320
+# text = Isegi teada-tuntud viikingite ülistaja Vaapo Vaher ( " Saksamaa on minu naine , Norra aga armuke " ) kahtles ETV otsestuudios penalti määramise õigsuses , kuid mängutulemust 2 : 1 põhjamaalastele pidas igati õiglaseks - jalgpall olevatki konservatiivne nähtus ning kumagu sealt alati veidi salapärasust ning eksigu kohtunikudki lihtsureliku kombel . . .
+1	Isegi	D	_	2	advmod	_
+2	teada-tuntud	V	tud=tud	3	acl	_
+3	viikingite	S	pl=pl|g=g	4	nmod	_
+4	ülistaja	S	sg=sg|n=n	19	nsubj	_
+5	Vaapo	H	sg=sg|n=n	4	appos	_
+6	Vaher	H	sg=sg|n=n	5	flat	_
+7	(	Z	_	12	punct	_
+8	"	Z	_	12	punct	_
+9	Saksamaa	H	sg=sg|n=n	12	nsubj:cop	_
+10	on	V	b=b	12	cop	_
+11	minu	P	sg=sg|g=g	12	nmod	_
+12	naine	S	sg=sg|n=n	4	parataxis	_
+13	,	Z	_	16	punct	_
+14	Norra	H	sg=sg|g=g	12	conj	_
+15	aga	J	_	16	advmod	_
+16	armuke	S	sg=sg|n=n	12	conj	_
+17	"	Z	_	12	punct	_
+18	)	Z	_	12	punct	_
+19	kahtles	V	s=s	0	root	_
+20	ETV	Y	?=?	21	nmod	_
+21	otsestuudios	S	sg=sg|in=in	19	obl	_
+22	penalti	S	sg=sg|n=n	23	nmod	_
+23	määramise	S	sg=sg|g=g	24	nmod	_
+24	õigsuses	S	sg=sg|in=in	19	obl	_
+25	,	Z	_	32	punct	_
+26	kuid	J	_	32	cc	_
+27	mängutulemust	S	sg=sg|p=p	32	obl	_
+28	2	N	?=?	27	nummod	_
+29	:	Z	_	30	punct	_
+30	1	N	?=?	28	flat	_
+31	põhjamaalastele	S	pl=pl|all=all	32	nsubj	_
+32	pidas	V	s=s	19	conj	_
+33	igati	D	_	34	advmod	_
+34	õiglaseks	A	sg=sg|tr=tr	32	obj	_
+35	-	Z	_	39	punct	_
+36	jalgpall	S	sg=sg|n=n	39	nsubj:cop	_
+37	olevatki	V	vat=vat	39	cop	_
+38	konservatiivne	A	sg=sg|n=n	39	amod	_
+39	nähtus	S	sg=sg|n=n	32	parataxis	_
+40	ning	J	_	41	cc	_
+41	kumagu	V	gu=gu	39	conj	_
+42	sealt	D	_	41	advmod	_
+43	alati	D	_	41	advmod	_
+44	veidi	D	_	45	advmod	_
+45	salapärasust	S	sg=sg|p=p	41	obj	CHECK
+46	ning	J	_	47	cc	_
+47	eksigu	V	gu=gu	39	conj	_
+48	kohtunikudki	S	pl=pl|n=n	47	obl	_
+49	lihtsureliku	A	sg=sg|g=g	50	amod	_
+50	kombel	S	sg=sg|ad=ad	47	obl	_
+51	.	Z	_	19	punct	_
+52	.	Z	_	19	punct	_
+53	.	Z	_	19	punct	_
+
+# sent_id = 8418806
+# text = Alles selle alt on siin-seal kumanud midagi teadvustamatut ja teispoolset .
+1	Alles	D	_	2	advmod	_
+2	selle	P	sg=sg|g=g	6	obl	_
+3	alt	K	_	2	case	_
+4	on	V	b=b	6	aux	_
+5	siin-seal	D	_	6	advmod	_
+6	kumanud	A	_	0	root	_
+7	midagi	P	sg=sg|p=p	6	nsubj	CHECK
+8	teadvustamatut	A	sg=sg|p=p	7	amod	_
+9	ja	J	_	10	cc	_
+10	teispoolset	A	sg=sg|p=p	8	conj	_
+11	.	Z	_	6	punct	_
+
+# sent_id = 5659144
+# text = " Kasela pidi täna end näitama ja näitas , " kumas juhendaja ütlusest sarkasmi .
+1	"	Z	_	6	punct	_
+2	Kasela	H	sg=sg|g=g	6	nsubj	_
+3	pidi	V	s=s	6	aux	_
+4	täna	D	_	6	advmod	_
+5	end	P	sg=sg|p=p	6	obj	_
+6	näitama	V	ma=ma	0	root	_
+7	ja	J	_	8	cc	_
+8	näitas	V	s=s	6	conj	_
+9	,	Z	_	6	punct	_
+10	"	Z	_	6	punct	_
+11	kumas	V	s=s	6	parataxis	_
+12	juhendaja	S	sg=sg|n=n	13	nmod	_
+13	ütlusest	S	sg=sg|el=el	14	nmod	_
+14	sarkasmi	S	adt=adt	11	nsubj	CHECK
+15	.	Z	_	6	punct	_
+
+# sent_id = 111747
+# text = Sellest kumab süütut õnnetunnet .
+1	Sellest	P	sg=sg|el=el	2	nsubj	_
+2	kumab	V	b=b	0	root	_
+3	süütut	A	sg=sg|p=p	4	amod	_
+4	õnnetunnet	S	sg=sg|p=p	2	obj	CHECK
+5	.	Z	_	2	punct	_
+
+# sent_id = 7542692
+# text = Ei kumanud sealt midagi .
+1	Ei	V	neg=neg	2	aux	_
+2	kumanud	A	pl=pl|n=n	0	root	_
+3	sealt	D	_	2	advmod	_
+4	midagi	P	sg=sg|p=p	2	nsubj	CHECK
+5	.	Z	_	2	punct	_
+

@@ -1,0 +1,422 @@
+# sent_id = 226066
+# text = Pole ohtu , et riistvaras tekiks liigseid ressursside dubleerimisi ja liigseid ajakadusid andmete edastamisel erinevate töötlusüksuste vahel .
+1	Pole	V	neg=neg|o=o	0	root	_
+2	ohtu	S	sg=sg|p=p	1	nsubj	_
+3	,	Z	_	6	punct	_
+4	et	J	_	6	mark	_
+5	riistvaras	S	sg=sg|n=n	6	obl	_
+6	tekiks	V	ks=ks	2	acl	_
+7	liigseid	A	pl=pl|p=p	8	amod	_
+8	ressursside	S	pl=pl|g=g	9	nmod	_
+9	dubleerimisi	S	pl=pl|p=p	6	obl	CHECK
+10	ja	J	_	12	cc	_
+11	liigseid	A	pl=pl|p=p	12	amod	_
+12	ajakadusid	S	pl=pl|p=p	9	conj	_
+13	andmete	S	pl=pl|g=g	14	nmod	_
+14	edastamisel	S	sg=sg|ad=ad	9	conj	_
+15	erinevate	A	pl=pl|g=g	16	acl	_
+16	töötlusüksuste	S	pl=pl|g=g	14	nmod	_
+17	vahel	K	_	16	case	_
+18	.	Z	_	1	punct	_
+
+# sent_id = 8852497
+# text = Mina põhimõtteliselt pooldan selle ala hoonestamist vanamoelisel kujul niimoodi , et vähemasti hoonete ehitusmahud oleksid vanadel vundamentidel ja enam-vähem endistes suurustes , nii et katusemaastik ei muutuks kõrgemaks ega tekiks lamedaid katuseid .
+1	Mina	P	sg=sg|n=n	3	nsubj	_
+2	põhimõtteliselt	D	_	3	advmod	_
+3	pooldan	V	n=n	0	root	_
+4	selle	P	sg=sg|g=g	5	det	_
+5	ala	S	sg=sg|g=g	6	nmod	_
+6	hoonestamist	S	sg=sg|p=p	3	obj	_
+7	vanamoelisel	A	sg=sg|ad=ad	8	amod	_
+8	kujul	S	sg=sg|ad=ad	3	obj	_
+9	niimoodi	D	_	3	advmod	_
+10	,	Z	_	14	punct	_
+11	et	J	_	14	mark	_
+12	vähemasti	D	_	13	advmod	_
+13	hoonete	S	pl=pl|g=g	14	nmod	_
+14	ehitusmahud	S	pl=pl|n=n	3	advcl	_
+15	oleksid	V	ksid=ksid	14	cop	_
+16	vanadel	A	pl=pl|ad=ad	17	amod	_
+17	vundamentidel	S	pl=pl|ad=ad	14	nsubj:cop	_
+18	ja	J	_	21	cc	_
+19	enam-vähem	D	_	20	advmod	_
+20	endistes	A	pl=pl|in=in	21	amod	_
+21	suurustes	S	pl=pl|in=in	17	conj	_
+22	,	Z	_	27	punct	_
+23	nii	D	_	27	advmod	_
+24	et	J	_	23	fixed	_
+25	katusemaastik	S	sg=sg|n=n	27	nsubj	_
+26	ei	V	neg=neg	27	aux	_
+27	muutuks	V	ks=ks	3	advcl	_
+28	kõrgemaks	C	sg=sg|tr=tr	27	xcomp	_
+29	ega	J	_	30	cc	_
+30	tekiks	V	ks=ks	27	conj	_
+31	lamedaid	A	pl=pl|p=p	32	amod	_
+32	katuseid	S	pl=pl|p=p	30	nsubj	CHECK
+33	.	Z	_	3	punct	_
+
+# sent_id = 298252
+# text = Kui panditud õiguse alusel saab nõuda sooritust , siis tekib paratamatult õigussuhe pandipidaja ja soorituse võlgniku vahel , see on sarnane suhtega , mis tekib õiguse ülekandmisel uue võlausaldaja ja võlgniku vahel .
+1	Kui	J	_	6	mark	_
+2	panditud	V	tud=tud	3	acl	_
+3	õiguse	S	sg=sg|g=g	4	nmod	_
+4	alusel	S	sg=sg|ad=ad	6	obj	_
+5	saab	V	b=b	6	aux	_
+6	nõuda	V	da=da	10	advcl	_
+7	sooritust	S	sg=sg|p=p	6	obj	_
+8	,	Z	_	6	punct	_
+9	siis	J	_	10	advmod	_
+10	tekib	V	b=b	0	root	_
+11	paratamatult	D	_	10	advmod	_
+12	õigussuhe	S	sg=sg|n=n	13	nmod	_
+13	pandipidaja	S	sg=sg|g=g	10	obl	_
+14	ja	J	_	15	cc	_
+15	soorituse	S	sg=sg|g=g	13	conj	_
+16	võlgniku	S	sg=sg|g=g	13	conj	_
+17	vahel	K	_	16	case	_
+18	,	Z	_	21	punct	_
+19	see	P	sg=sg|n=n	21	nsubj:cop	_
+20	on	V	vad=vad	21	cop	_
+21	sarnane	A	sg=sg|n=n	10	conj	_
+22	suhtega	S	sg=sg|kom=kom	21	obl	_
+23	,	Z	_	25	punct	_
+24	mis	P	sg=sg|n=n	25	nsubj	_
+25	tekib	V	b=b	22	acl:relcl	_
+26	õiguse	S	sg=sg|g=g	25	nsubj	CHECK
+27	ülekandmisel	S	sg=sg|ad=ad	26	nmod	_
+28	uue	A	sg=sg|g=g	29	amod	_
+29	võlausaldaja	S	sg=sg|g=g	27	nmod	_
+30	ja	J	_	31	cc	_
+31	võlgniku	S	sg=sg|g=g	29	conj	_
+32	vahel	K	_	29	case	_
+33	.	Z	_	10	punct	_
+
+# sent_id = 55674
+# text = Inimene hakkab vältima olukordi , kus arvab hirmusööste tekkivat .
+1	Inimene	S	sg=sg|n=n	2	nsubj	_
+2	hakkab	V	b=b	0	root	_
+3	vältima	V	ma=ma	2	xcomp	_
+4	olukordi	S	pl=pl|p=p	3	obj	_
+5	,	Z	_	7	punct	_
+6	kus	D	_	7	mark	_
+7	arvab	V	b=b	4	acl	_
+8	hirmusööste	S	pl=pl|p=p	9	nsubj	CHECK
+9	tekkivat	V	vat=vat	7	nsubj	_
+10	.	Z	_	2	punct	_
+
+# sent_id = 509895
+# text = Kahtlus tekkis aga koha valiku suhtes Postimehe toimetuse vastas Gildi tänaval .
+1	Kahtlus	S	sg=sg|n=n	2	obl	_
+2	tekkis	V	s=s	0	root	_
+3	aga	J	_	2	advmod	_
+4	koha	S	sg=sg|g=g	2	nsubj	CHECK
+5	valiku	S	sg=sg|g=g	2	obl	_
+6	suhtes	K	_	5	case	_
+7	Postimehe	H	sg=sg|g=g	2	nsubj	_
+8	toimetuse	S	sg=sg|g=g	2	obl	_
+9	vastas	K	_	8	case	_
+10	Gildi	H	sg=sg|g=g	11	nmod	_
+11	tänaval	S	sg=sg|ad=ad	2	obl	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 300051
+# text = Atmosfääris ja biosfääris toimub arvukalt selliseid reaktsioone , milles reageerimisvõimelised osakesed tekivad reaktsiooni käigus .
+1	Atmosfääris	S	sg=sg|in=in	4	obl	_
+2	ja	J	_	3	cc	_
+3	biosfääris	S	sg=sg|in=in	1	conj	_
+4	toimub	V	b=b	0	root	_
+5	arvukalt	D	_	4	advmod	_
+6	selliseid	P	pl=pl|p=p	7	det	_
+7	reaktsioone	S	pl=pl|p=p	4	nsubj	_
+8	,	Z	_	12	punct	_
+9	milles	P	pl=pl|in=in	12	nsubj	_
+10	reageerimisvõimelised	A	pl=pl|n=n	11	amod	_
+11	osakesed	S	pl=pl|n=n	12	obl	_
+12	tekivad	V	vad=vad	7	acl:relcl	_
+13	reaktsiooni	S	sg=sg|p=p	14	nmod	CHECK
+14	käigus	S	sg=sg|in=in	12	obl	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 18744990
+# text = pildid tee väiksemaks pane kokku et ülevaade tekiks võibolla mingid raamid piltidele
+1	pildid	S	pl=pl|n=n	4	nsubj	_
+2	tee	S	sg=sg|g=g	4	obl	_
+3	väiksemaks	C	sg=sg|tr=tr	4	obl	_
+4	pane	V	o=o	0	root	_
+5	kokku	D	_	4	compound:prt	_
+6	et	J	_	8	mark	_
+7	ülevaade	S	sg=sg|n=n	8	nsubj	_
+8	tekiks	V	ks=ks	4	ccomp	_
+9	võibolla	D	_	8	advmod	_
+10	mingid	P	pl=pl|n=n	11	det	_
+11	raamid	S	pl=pl|n=n	12	nmod	CHECK
+12	piltidele	S	pl=pl|all=all	8	nsubj	_
+
+# sent_id = 747407
+# text = Seebinäitamiseks sobivat aega proovis ETV täita originaalsaadetega , mida tekkis hooaja alguses suur hulk .
+1	Seebinäitamiseks	S	sg=sg|tr=tr	2	obl	_
+2	sobivat	A	sg=sg|p=p	3	acl	_
+3	aega	S	sg=sg|p=p	4	obl	_
+4	proovis	V	s=s	0	root	_
+5	ETV	Y	?=?	4	nsubj	_
+6	täita	V	da=da	4	xcomp	_
+7	originaalsaadetega	S	pl=pl|kom=kom	6	obj	_
+8	,	Z	_	10	punct	_
+9	mida	P	sg=sg|p=p	10	nsubj	CHECK
+10	tekkis	V	s=s	7	acl:relcl	_
+11	hooaja	S	sg=sg|g=g	12	nmod	_
+12	alguses	S	sg=sg|in=in	10	obl	_
+13	suur	A	sg=sg|n=n	14	amod	_
+14	hulk	S	sg=sg|n=n	10	obl	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 419592
+# text = Link ütles , et lahendamatuid olukordi ei tohiks olla ja ka praegu võiks Kilingi-Nõmme linnavalitsus tekkinud olukorra soovi korral edukalt lahendada .
+1	Link	S	sg=sg|n=n	2	nsubj	_
+2	ütles	V	s=s	0	root	_
+3	,	Z	_	9	punct	_
+4	et	J	_	9	mark	_
+5	lahendamatuid	A	pl=pl|p=p	6	amod	_
+6	olukordi	S	pl=pl|p=p	9	nsubj	_
+7	ei	V	neg=neg	9	aux	_
+8	tohiks	V	ks=ks	9	aux	_
+9	olla	V	da=da	2	ccomp	_
+10	ja	J	_	21	cc	_
+11	ka	D	_	12	advmod	_
+12	praegu	D	_	21	advmod	_
+13	võiks	V	ks=ks	21	aux	_
+14	Kilingi-Nõmme	H	sg=sg|g=g	15	nmod	_
+15	linnavalitsus	S	sg=sg|n=n	16	nsubj	_
+16	tekkinud	A	sg=sg|n=n	17	acl	_
+17	olukorra	S	sg=sg|g=g	21	obj	CHECK
+18	soovi	S	sg=sg|g=g	21	obl	_
+19	korral	K	_	18	case	_
+20	edukalt	D	_	21	advmod	_
+21	lahendada	V	da=da	9	conj	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 287533
+# text = T. Headi esitatud mudelist on tekkinud mitmeid erinevaid variatsioone ja siin esitame versiooni , mis on toodud artiklis [ 5 ] .
+1	T. Headi	H	?=?	2	obl	_
+2	esitatud	A	_	3	acl	_
+3	mudelist	S	sg=sg|n=n	5	obl	_
+4	on	V	b=b	5	aux	_
+5	tekkinud	V	nud=nud	0	root	_
+6	mitmeid	P	pl=pl|p=p	8	det	_
+7	erinevaid	A	pl=pl|p=p	8	acl	_
+8	variatsioone	S	pl=pl|p=p	5	nsubj	CHECK
+9	ja	J	_	11	cc	_
+10	siin	D	_	11	advmod	_
+11	esitame	V	me=me	5	conj	_
+12	versiooni	S	sg=sg|p=p	11	obj	_
+13	,	Z	_	16	punct	_
+14	mis	P	pl=pl|n=n	16	obj	_
+15	on	V	b=b	16	aux	_
+16	toodud	A	_	12	acl:relcl	_
+17	artiklis	S	sg=sg|in=in	16	obl	_
+18	[	Z	_	19	punct	_
+19	5	N	?=?	5	parataxis	_
+20	]	Z	_	19	punct	_
+21	.	Z	_	5	punct	_
+
+# sent_id = 1900619
+# text = Ilmet usub , et vangistatud täiskasvanud kähriku söötmisega loomapargis probleeme ei tekki .
+1	Ilmet	S	sg=sg|p=p	2	obj	_
+2	usub	V	b=b	0	root	_
+3	,	Z	_	12	punct	_
+4	et	J	_	12	mark	_
+5	vangistatud	A	pl=pl|n=n	6	acl	_
+6	täiskasvanud	S	pl=pl|n=n	7	nmod	_
+7	kähriku	S	sg=sg|g=g	8	nmod	_
+8	söötmisega	S	sg=sg|kom=kom	12	obl	_
+9	loomapargis	S	sg=sg|in=in	10	nmod	_
+10	probleeme	S	pl=pl|p=p	12	nsubj	CHECK
+11	ei	V	neg=neg	12	aux	_
+12	tekki	V	o=o	2	ccomp	_
+13	.	Z	_	2	punct	_
+
+# sent_id = 1723941
+# text = Majandusjuhi sõnul oli restorani sulgemine pärast lohakuse tõttu tekkinud tulekahju ainus võimalik viis olukorda lahendada , sest koha maine oli langenud juba mõni aasta varem .
+1	Majandusjuhi	S	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	9	obl	_
+3	oli	V	s=s	9	aux	_
+4	restorani	S	sg=sg|g=g	5	nmod	_
+5	sulgemine	S	sg=sg|n=n	9	nsubj	_
+6	pärast	K	_	7	case	_
+7	lohakuse	S	sg=sg|g=g	9	obl	_
+8	tõttu	K	_	7	case	_
+9	tekkinud	V	nud=nud	0	root	_
+10	tulekahju	S	sg=sg|g=g	13	nmod	_
+11	ainus	A	sg=sg|n=n	13	amod	_
+12	võimalik	A	sg=sg|n=n	13	amod	_
+13	viis	S	sg=sg|n=n	14	nmod	CHECK
+14	olukorda	S	sg=sg|p=p	15	obj	_
+15	lahendada	V	da=da	9	conj	_
+16	,	Z	_	21	punct	_
+17	sest	J	_	21	mark	_
+18	koha	S	sg=sg|g=g	19	nmod	_
+19	maine	S	sg=sg|n=n	21	nsubj	_
+20	oli	V	s=s	21	aux	_
+21	langenud	A	pl=pl|n=n	15	advcl	_
+22	juba	D	_	21	advmod	_
+23	mõni	P	sg=sg|n=n	24	det	_
+24	aasta	S	sg=sg|n=n	25	obl	_
+25	varem	D	_	21	advmod	_
+26	.	Z	_	9	punct	_
+
+# sent_id = 2609324
+# text = " Eesti kandidatuur Global Free Trade Associationisse on suuresti sealt tekkinud tuntuse ja tunnustuse järelmõju . "
+1	"	Z	_	11	punct	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	kandidatuur	S	sg=sg|n=n	11	nsubj	_
+4	Global	H	sg=sg|n=n	3	appos	_
+5	Free	H	sg=sg|n=n	4	flat	_
+6	Trade	H	sg=sg|n=n	4	flat	_
+7	Associationisse	H	sg=sg|ill=ill	4	flat	_
+8	on	V	vad=vad	11	aux	_
+9	suuresti	D	_	11	advmod	_
+10	sealt	D	_	11	advmod	_
+11	tekkinud	A	pl=pl|n=n	0	root	_
+12	tuntuse	S	sg=sg|g=g	11	obl	_
+13	ja	J	_	15	cc	_
+14	tunnustuse	S	sg=sg|g=g	15	nmod	_
+15	järelmõju	S	sg=sg|g=g	12	conj	CHECK
+16	.	Z	_	11	punct	_
+17	"	Z	_	11	punct	_
+
+# sent_id = 1582855
+# text = " Küsitluse eesmärk oli selgitada välja arusaamatuste põhjused ja tekkinud olukorra lahendamise võimalused , " ütles politseiameti pressibüroo juhataja Indrek Raudjalg .
+1	"	Z	_	5	punct	_
+2	Küsitluse	S	sg=sg|g=g	3	nmod	_
+3	eesmärk	S	sg=sg|n=n	5	nsubj	_
+4	oli	V	s=s	5	aux	_
+5	selgitada	V	da=da	0	root	_
+6	välja	D	_	5	compound:prt	_
+7	arusaamatuste	S	pl=pl|g=g	8	nmod	_
+8	põhjused	S	pl=pl|n=n	5	obj	_
+9	ja	J	_	10	cc	_
+10	tekkinud	V	nud=nud	5	conj	_
+11	olukorra	S	sg=sg|g=g	12	nmod	_
+12	lahendamise	S	sg=sg|g=g	13	nmod	_
+13	võimalused	S	pl=pl|n=n	10	obj	CHECK
+14	,	Z	_	5	punct	_
+15	"	Z	_	5	punct	_
+16	ütles	V	s=s	5	parataxis	_
+17	politseiameti	S	sg=sg|g=g	18	nmod	_
+18	pressibüroo	S	sg=sg|g=g	19	nmod	_
+19	juhataja	S	sg=sg|n=n	16	nsubj	_
+20	Indrek	H	sg=sg|n=n	19	appos	_
+21	Raudjalg	H	sg=sg|n=n	20	flat	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 357078
+# text = Ahnus , konkurents ja kadedus tekivad kõik ühiskondlikest jagunemistest ja vaesusest ; ideaalne ühiskond likvideerib need pahed .
+1	Ahnus	S	sg=sg|n=n	6	nsubj	_
+2	,	Z	_	3	punct	_
+3	konkurents	S	sg=sg|n=n	1	conj	_
+4	ja	J	_	5	cc	_
+5	kadedus	S	sg=sg|n=n	1	conj	_
+6	tekivad	V	vad=vad	0	root	_
+7	kõik	P	pl=pl|n=n	9	det	CHECK
+8	ühiskondlikest	A	pl=pl|el=el	9	amod	_
+9	jagunemistest	S	pl=pl|el=el	6	nsubj	_
+10	ja	J	_	11	cc	_
+11	vaesusest	S	sg=sg|el=el	9	conj	_
+12	;	Z	_	15	punct	_
+13	ideaalne	A	sg=sg|n=n	14	amod	_
+14	ühiskond	S	sg=sg|n=n	15	nsubj	_
+15	likvideerib	V	b=b	6	parataxis	_
+16	need	P	pl=pl|n=n	17	det	_
+17	pahed	S	pl=pl|n=n	15	obj	_
+18	.	Z	_	6	punct	_
+
+# sent_id = 207929
+# text = Seetõttu tuleks võimalusel kasutada esialgseks kohtumiseks või tekkinud probleemide kiireks lahendamiseks silmast-silma kohtumisi .
+1	Seetõttu	D	_	2	advmod	_
+2	tuleks	V	ks=ks	0	root	_
+3	võimalusel	S	sg=sg|ad=ad	2	nsubj	_
+4	kasutada	V	da=da	3	acl	_
+5	esialgseks	A	sg=sg|tr=tr	6	amod	_
+6	kohtumiseks	S	sg=sg|tr=tr	4	obj	_
+7	või	J	_	9	cc	_
+8	tekkinud	V	nud=nud	9	acl	_
+9	probleemide	S	pl=pl|g=g	6	conj	_
+10	kiireks	A	sg=sg|tr=tr	11	amod	_
+11	lahendamiseks	S	sg=sg|tr=tr	13	nmod	_
+12	silmast-silma	S	sg=sg|g=g	13	nmod	_
+13	kohtumisi	S	pl=pl|p=p	4	obj	CHECK
+14	.	Z	_	2	punct	_
+
+# sent_id = 4903403
+# text = Bosniasse Eesti rahuvalvajaid külastama sõitnud kaitseväe juhatajal kontradmiral Tarmo Kõutsil tekkisid saabumisel Sarajevo lennujaamas tõrked piiri ületamisel , kuna bosnialased nõudsid talt viisat .
+1	Bosniasse	H	sg=sg|ill=ill	3	nmod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	rahuvalvajaid	S	pl=pl|p=p	4	obj	_
+4	külastama	V	ma=ma	11	advcl	_
+5	sõitnud	A	sg=sg|n=n	7	acl	_
+6	kaitseväe	S	sg=sg|g=g	7	nmod	_
+7	juhatajal	S	sg=sg|ad=ad	8	nmod	_
+8	kontradmiral	S	sg=sg|n=n	11	nsubj	_
+9	Tarmo	H	sg=sg|n=n	8	appos	_
+10	Kõutsil	H	sg=sg|n=n	9	flat	_
+11	tekkisid	V	sid=sid	0	root	_
+12	saabumisel	S	sg=sg|ad=ad	11	obl	_
+13	Sarajevo	H	sg=sg|g=g	14	nmod	_
+14	lennujaamas	S	sg=sg|in=in	16	nmod	_
+15	tõrked	S	pl=pl|n=n	16	nmod	CHECK
+16	piiri	S	sg=sg|g=g	17	nmod	_
+17	ületamisel	S	sg=sg|ad=ad	11	obl	_
+18	,	Z	_	21	punct	_
+19	kuna	J	_	21	mark	_
+20	bosnialased	S	pl=pl|n=n	21	obj	_
+21	nõudsid	V	sid=sid	11	advcl	_
+22	talt	P	sg=sg|abl=abl	21	nsubj	_
+23	viisat	S	sg=sg|p=p	21	obj	_
+24	.	Z	_	11	punct	_
+
+# sent_id = 563408
+# text = Ühispangas esialgu viitenumbritega probleemi ei teki , sest seal muutub süsteem Enslingu sõnul kohustuslikuks järgmisel aastal .
+1	Ühispangas	S	sg=sg|n=n	6	nsubj	_
+2	esialgu	D	_	6	advmod	_
+3	viitenumbritega	S	pl=pl|kom=kom	4	nmod	_
+4	probleemi	S	sg=sg|p=p	6	nsubj	CHECK
+5	ei	V	neg=neg	6	aux	_
+6	teki	V	o=o	0	root	_
+7	,	Z	_	10	punct	_
+8	sest	J	_	10	mark	_
+9	seal	D	_	10	advmod	_
+10	muutub	V	b=b	6	advcl	_
+11	süsteem	S	sg=sg|n=n	10	nsubj	_
+12	Enslingu	H	sg=sg|g=g	13	nmod	_
+13	sõnul	S	pl=pl|ad=ad	10	obl	_
+14	kohustuslikuks	A	sg=sg|tr=tr	16	amod	_
+15	järgmisel	A	sg=sg|ad=ad	16	amod	_
+16	aastal	S	sg=sg|ad=ad	10	obl	_
+17	.	Z	_	6	punct	_
+
+# sent_id = 839650
+# text = Hea oleks , kui talvesaabastest kingadesse üleminekul kontsa kõrgus oluliselt ei kasvaks - siis ei väsi jalg nii ruttu ega teki pöiavalusid .
+1	Hea	A	sg=sg|n=n	0	root	_
+2	oleks	V	ks=ks	1	cop	_
+3	,	Z	_	12	punct	_
+4	kui	J	_	12	mark	_
+5	talvesaabastest	S	pl=pl|el=el	7	nmod	_
+6	kingadesse	S	pl=pl|ill=ill	7	nmod	_
+7	üleminekul	S	sg=sg|ad=ad	12	obl	_
+8	kontsa	S	sg=sg|g=g	9	nmod	_
+9	kõrgus	S	sg=sg|n=n	12	nsubj	_
+10	oluliselt	D	_	12	advmod	_
+11	ei	V	neg=neg	12	aux	_
+12	kasvaks	V	ks=ks	1	advcl	_
+13	-	Z	_	16	punct	_
+14	siis	D	_	16	advmod	_
+15	ei	V	neg=neg	16	aux	_
+16	väsi	V	o=o	1	parataxis	_
+17	jalg	S	sg=sg|n=n	16	nsubj	_
+18	nii	D	_	19	advmod	_
+19	ruttu	D	_	16	advmod	_
+20	ega	J	_	21	cc	_
+21	teki	V	o=o	16	conj	_
+22	pöiavalusid	S	pl=pl|p=p	21	obl	CHECK
+23	.	Z	_	1	punct	_
+

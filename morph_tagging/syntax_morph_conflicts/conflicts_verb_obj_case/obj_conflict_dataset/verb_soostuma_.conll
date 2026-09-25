@@ -1,0 +1,448 @@
+# sent_id = 10748021
+# text = ” Tarbijahinda , nagu ka kehtivustähtaega , Raudtee Kinnisvara Äriüksus lepingusse kirjutama ei soostu .
+1	”	Z	_	14	punct	_
+2	Tarbijahinda	S	adt=adt	14	nsubj	CHECK
+3	,	Z	_	6	punct	_
+4	nagu	J	_	6	mark	_
+5	ka	D	_	6	advmod	_
+6	kehtivustähtaega	S	sg=sg|p=p	2	advcl	_
+7	,	Z	_	6	punct	_
+8	Raudtee	S	sg=sg|g=g	11	nmod	_
+9	Kinnisvara	S	sg=sg|g=g	10	nmod	_
+10	Äriüksus	S	sg=sg|n=n	11	nmod	_
+11	lepingusse	S	sg=sg|ill=ill	12	obj	_
+12	kirjutama	V	ma=ma	14	xcomp	_
+13	ei	V	neg=neg	14	aux	_
+14	soostu	V	o=o	0	root	_
+15	.	Z	_	14	punct	_
+
+# sent_id = 524080
+# text = Uudisteagentuuri ETA erastaja taotles erastamisagentuurilt ettevõtte ligi nelja miljoni krooni suuruse maksuvõla kustutamist , valitsus soostus selle seitsmeks aastaks ajatama .
+1	Uudisteagentuuri	H	sg=sg|g=g	3	nmod	_
+2	ETA	Y	?=?	3	nmod	_
+3	erastaja	S	sg=sg|g=g	4	nsubj	_
+4	taotles	V	s=s	0	root	_
+5	erastamisagentuurilt	S	sg=sg|abl=abl	4	obj	_
+6	ettevõtte	S	sg=sg|g=g	4	nsubj	_
+7	ligi	D	_	8	advmod	_
+8	nelja	N	sg=sg|g=g	9	compound	_
+9	miljoni	N	sg=sg|g=g	10	nummod	_
+10	krooni	S	sg=sg|g=g	11	obl	_
+11	suuruse	A	sg=sg|g=g	12	amod	_
+12	maksuvõla	S	sg=sg|g=g	13	nmod	_
+13	kustutamist	S	sg=sg|p=p	4	obj	_
+14	,	Z	_	16	punct	_
+15	valitsus	S	sg=sg|n=n	16	nsubj	_
+16	soostus	V	s=s	4	conj	_
+17	selle	P	sg=sg|g=g	16	obj	CHECK
+18	seitsmeks	N	sg=sg|tr=tr	19	nummod	_
+19	aastaks	S	sg=sg|tr=tr	20	obl	_
+20	ajatama	V	ma=ma	16	obj	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 4052440
+# text = Samas ei soostu firma esindajad veel tehase rajamise koha , töötajate hulga ega tooraine kohta kommentaare jagama .
+1	Samas	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	soostu	V	o=o	0	root	_
+4	firma	S	sg=sg|g=g	5	nmod	_
+5	esindajad	S	pl=pl|n=n	3	nsubj	_
+6	veel	D	_	3	advmod	_
+7	tehase	S	sg=sg|g=g	8	nmod	_
+8	rajamise	S	sg=sg|g=g	9	nmod	_
+9	koha	S	sg=sg|g=g	3	obj	CHECK
+10	,	Z	_	17	punct	_
+11	töötajate	S	pl=pl|g=g	12	nmod	_
+12	hulga	S	sg=sg|g=g	17	obl	_
+13	ega	J	_	14	cc	_
+14	tooraine	S	sg=sg|g=g	12	conj	_
+15	kohta	K	_	12	case	_
+16	kommentaare	S	pl=pl|p=p	17	obj	_
+17	jagama	V	ma=ma	3	conj	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 13053944
+# text = Täiskasvanutel , kes tiiki ronima soostuvad , tuleb kaugemale ujudes hoiduda rohketest paadi ja veejalgrattaga sõitjatest .
+1	Täiskasvanutel	S	pl=pl|ad=ad	8	nsubj	_
+2	,	Z	_	6	punct	_
+3	kes	P	pl=pl|n=n	6	nsubj	_
+4	tiiki	S	adt=adt	5	obl	CHECK
+5	ronima	V	ma=ma	1	acl:relcl	_
+6	soostuvad	V	vad=vad	1	acl:relcl	_
+7	,	Z	_	6	punct	_
+8	tuleb	V	b=b	0	root	_
+9	kaugemale	D	_	8	advmod	_
+10	ujudes	S	pl=pl|in=in	11	obl	_
+11	hoiduda	V	da=da	8	csubj	_
+12	rohketest	A	pl=pl|el=el	13	amod	_
+13	paadi	S	sg=sg|g=g	11	nsubj	_
+14	ja	J	_	16	cc	_
+15	veejalgrattaga	S	sg=sg|kom=kom	16	nmod	_
+16	sõitjatest	S	pl=pl|el=el	13	conj	_
+17	.	Z	_	8	punct	_
+
+# sent_id = 6410330
+# text = Väravavahti , kes kaitseb Eesti puuri Slovakki vastu , ei soostunud Goes nimetama .
+1	Väravavahti	S	adt=adt	11	nsubj	CHECK
+2	,	Z	_	4	punct	_
+3	kes	P	pl=pl|n=n	4	nsubj	_
+4	kaitseb	V	b=b	1	acl:relcl	_
+5	Eesti	H	sg=sg|g=g	6	nmod	_
+6	puuri	S	sg=sg|g=g	4	obl	_
+7	Slovakki	S	adt=adt	4	obj	_
+8	vastu	D	_	4	compound:prt	_
+9	,	Z	_	4	punct	_
+10	ei	V	neg=neg	11	aux	_
+11	soostunud	A	pl=pl|n=n	0	root	_
+12	Goes	H	sg=sg|n=n	13	nsubj	_
+13	nimetama	V	ma=ma	11	xcomp	_
+14	.	Z	_	11	punct	_
+
+# sent_id = 387254
+# text = Ühispank ei soostunud andmeid pakkumiste arvu kohta avaldama , sest panga ettevõtte rahanduse juhi Eero Sirendi sõnul ei luba seda rahvusvaheline tava .
+1	Ühispank	H	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	soostunud	V	nud=nud	0	root	_
+4	andmeid	S	pl=pl|p=p	3	obj	CHECK
+5	pakkumiste	S	pl=pl|g=g	6	nmod	_
+6	arvu	S	sg=sg|g=g	8	obl	_
+7	kohta	K	_	6	case	_
+8	avaldama	V	ma=ma	3	xcomp	_
+9	,	Z	_	19	punct	_
+10	sest	J	_	19	mark	_
+11	panga	S	sg=sg|g=g	12	nmod	_
+12	ettevõtte	S	sg=sg|g=g	13	nmod	_
+13	rahanduse	S	sg=sg|g=g	14	nmod	_
+14	juhi	S	sg=sg|g=g	17	nmod	_
+15	Eero	H	sg=sg|n=n	14	appos	_
+16	Sirendi	H	sg=sg|g=g	15	flat	_
+17	sõnul	S	pl=pl|ad=ad	19	obl	_
+18	ei	V	neg=neg	19	aux	_
+19	luba	V	o=o	3	advcl	_
+20	seda	P	sg=sg|p=p	19	nsubj	_
+21	rahvusvaheline	A	sg=sg|n=n	22	amod	_
+22	tava	S	sg=sg|n=n	19	nsubj	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 13509475
+# text = President Lennart Meri ei soostunud Mõisa eile pärastlõunal ametist vabastama , pidades enne vajalikuks kontrollida tema linnapeaks valimise seaduslikkust ning pöördus Harju maavanema Orm Valtsoni poole , et saada hinnang Tallinna linnapea valimisele .
+1	President	S	sg=sg|n=n	5	nsubj	_
+2	Lennart	H	sg=sg|n=n	1	appos	_
+3	Meri	H	sg=sg|n=n	2	flat	_
+4	ei	V	neg=neg	5	aux	_
+5	soostunud	A	_	0	root	_
+6	Mõisa	H	sg=sg|g=g	5	obl	CHECK
+7	eile	D	_	5	advmod	_
+8	pärastlõunal	S	sg=sg|ad=ad	9	nmod	_
+9	ametist	S	sg=sg|el=el	10	obj	_
+10	vabastama	V	ma=ma	5	xcomp	_
+11	,	Z	_	12	punct	_
+12	pidades	V	des=des	5	conj	_
+13	enne	D	_	14	advmod	_
+14	vajalikuks	A	sg=sg|tr=tr	15	advmod	_
+15	kontrollida	V	da=da	12	conj	_
+16	tema	P	sg=sg|g=g	17	nmod	_
+17	linnapeaks	S	sg=sg|tr=tr	18	nmod	_
+18	valimise	S	sg=sg|g=g	15	obl	_
+19	seaduslikkust	S	sg=sg|p=p	15	obj	_
+20	ning	J	_	21	cc	_
+21	pöördus	V	s=s	5	conj	_
+22	Harju	H	sg=sg|g=g	23	nmod	_
+23	maavanema	S	sg=sg|g=g	21	obl	_
+24	Orm	H	sg=sg|n=n	23	appos	_
+25	Valtsoni	H	sg=sg|g=g	24	flat	_
+26	poole	K	_	24	case	_
+27	,	Z	_	29	punct	_
+28	et	J	_	29	mark	_
+29	saada	V	da=da	21	advcl	_
+30	hinnang	S	sg=sg|n=n	29	obj	_
+31	Tallinna	H	sg=sg|g=g	32	nmod	_
+32	linnapea	S	sg=sg|g=g	33	nmod	_
+33	valimisele	S	sg=sg|all=all	29	obl	_
+34	.	Z	_	5	punct	_
+
+# sent_id = 14951022
+# text = « Macho on teinud kaks nullimängu järjest - oleksin mina tema nahas , ei soostuks samuti kohta uuele mehele loovutama .
+1	«	Z	_	4	punct	_
+2	Macho	S	sg=sg|n=n	4	nsubj	_
+3	on	V	vad=vad	4	aux	_
+4	teinud	V	nud=nud	0	root	_
+5	kaks	N	sg=sg|n=n	6	nummod	_
+6	nullimängu	S	sg=sg|p=p	4	obj	_
+7	järjest	D	_	4	advmod	_
+8	-	Z	_	9	punct	_
+9	oleksin	V	ksin=ksin	4	parataxis	_
+10	mina	S	sg=sg|n=n	9	nsubj	_
+11	tema	P	sg=sg|g=g	12	nmod	_
+12	nahas	S	sg=sg|in=in	9	obl	_
+13	,	Z	_	15	punct	_
+14	ei	V	neg=neg	15	aux	_
+15	soostuks	V	ks=ks	4	conj	_
+16	samuti	D	_	15	advmod	_
+17	kohta	K	_	15	obl	CHECK
+18	uuele	A	sg=sg|all=all	19	amod	_
+19	mehele	S	sg=sg|all=all	20	obj	_
+20	loovutama	V	ma=ma	15	xcomp	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 10340283
+# text = Müügihinda ei soostu Pohlak veel kommenteerima , sest lepingule norralastega pole alla kirjutatud .
+1	Müügihinda	S	adt=adt	3	obj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	soostu	V	o=o	0	root	_
+4	Pohlak	H	sg=sg|n=n	3	nsubj	_
+5	veel	D	_	6	advmod	_
+6	kommenteerima	V	ma=ma	3	xcomp	_
+7	,	Z	_	13	punct	_
+8	sest	J	_	13	mark	_
+9	lepingule	S	sg=sg|all=all	10	nmod	_
+10	norralastega	S	pl=pl|kom=kom	13	obj	_
+11	pole	V	neg=neg|o=o	13	aux	_
+12	alla	D	_	13	compound:prt	_
+13	kirjutatud	A	sg=sg|n=n	3	advcl	_
+14	.	Z	_	3	punct	_
+
+# sent_id = 9961102
+# text = Valge Maja on valmis abistama Venemaad Siberis asuva radarijaama lõpuniehitamisel , kui Moskva soostub varasemad tuumarelvalepingud USA huvides ümber vaatama .
+1	Valge	A	sg=sg|n=n	2	amod	_
+2	Maja	S	sg=sg|n=n	4	nsubj:cop	_
+3	on	V	vad=vad	4	cop	_
+4	valmis	D	_	0	root	_
+5	abistama	V	ma=ma	4	csubj:cop	_
+6	Venemaad	H	sg=sg|p=p	7	nmod	_
+7	Siberis	H	sg=sg|in=in	8	obl	_
+8	asuva	A	sg=sg|g=g	9	acl	_
+9	radarijaama	S	adt=adt	10	nmod	_
+10	lõpuniehitamisel	S	sg=sg|ad=ad	5	obj	_
+11	,	Z	_	14	punct	_
+12	kui	D	_	14	mark	_
+13	Moskva	H	sg=sg|n=n	14	nsubj	_
+14	soostub	V	b=b	4	advcl	_
+15	varasemad	C	pl=pl|n=n	16	amod	_
+16	tuumarelvalepingud	S	pl=pl|n=n	20	obj	CHECK
+17	USA	Y	?=?	18	nmod	_
+18	huvides	S	pl=pl|in=in	20	obj	_
+19	ümber	D	_	20	compound:prt	_
+20	vaatama	V	ma=ma	14	xcomp	_
+21	.	Z	_	4	punct	_
+
+# sent_id = 5328396
+# text = UEFA meediaametnik Margus Luik saatis kolmapäeval Lilleküla staadioni kohta UEFA- le raporti , mille sisu ei soostunud ta lähemalt kommenteerima .
+1	UEFA	Y	?=?	2	nmod	_
+2	meediaametnik	S	sg=sg|n=n	5	nsubj	_
+3	Margus	H	sg=sg|n=n	2	appos	_
+4	Luik	H	sg=sg|n=n	3	flat	_
+5	saatis	V	s=s	0	root	_
+6	kolmapäeval	S	sg=sg|ad=ad	5	obj	_
+7	Lilleküla	S	sg=sg|g=g	8	nmod	_
+8	staadioni	S	sg=sg|p=p	9	nmod	_
+9	kohta	S	adt=adt	5	obl	_
+10	UEFA- le	Y	sg=sg|all=all	11	nmod	_
+11	raporti	S	sg=sg|g=g	5	obj	_
+12	,	Z	_	14	punct	_
+13	mille	P	sg=sg|g=g	14	nmod	_
+14	sisu	S	sg=sg|n=n	16	obj	CHECK
+15	ei	V	neg=neg	16	aux	_
+16	soostunud	A	_	11	acl:relcl	_
+17	ta	P	sg=sg|n=n	16	nsubj	_
+18	lähemalt	D	_	19	advmod	_
+19	kommenteerima	V	ma=ma	16	xcomp	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 100935
+# text = Reiljan soostus nimetatud eriala spetsialistide koolitust keskkonnafondi koolitusrahade arvelt 1997. aasta jooksul 350 000 krooniga rahastama .
+1	Reiljan	H	sg=sg|n=n	2	nsubj	_
+2	soostus	V	s=s	0	root	_
+3	nimetatud	V	tud=tud	4	acl	_
+4	eriala	S	sg=sg|g=g	5	nmod	_
+5	spetsialistide	S	pl=pl|g=g	2	nsubj	_
+6	koolitust	S	sg=sg|p=p	2	obj	CHECK
+7	keskkonnafondi	S	sg=sg|g=g	8	nmod	_
+8	koolitusrahade	S	pl=pl|g=g	2	obl	_
+9	arvelt	K	_	8	case	_
+10	1997.	O	?=?	11	amod	_
+11	aasta	S	sg=sg|g=g	2	obl	_
+12	jooksul	K	_	11	case	_
+13	350 000	N	?=?	14	nummod	_
+14	krooniga	S	sg=sg|kom=kom	15	nmod	_
+15	rahastama	V	ma=ma	2	obl	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 144297
+# text = ” See on pea kõik , mida VW-de kohta soostub endast pigistama automajandi direktor .
+1	”	Z	_	5	punct	_
+2	See	P	sg=sg|n=n	5	nsubj:cop	_
+3	on	V	vad=vad	5	cop	_
+4	pea	D	_	5	advmod	_
+5	kõik	P	pl=pl|n=n	0	root	_
+6	,	Z	_	10	punct	_
+7	mida	P	pl=pl|p=p	10	nsubj	CHECK
+8	VW-de	Y	pl=pl|g=g	10	obl	_
+9	kohta	K	_	8	case	_
+10	soostub	V	b=b	5	acl:relcl	_
+11	endast	P	sg=sg|el=el	12	obl	_
+12	pigistama	V	ma=ma	13	acl	_
+13	automajandi	S	sg=sg|g=g	14	nmod	_
+14	direktor	S	sg=sg|n=n	10	nsubj	_
+15	.	Z	_	5	punct	_
+
+# sent_id = 5023374
+# text = Tallinna Kadaka turu direktor Peet Kall ei soostunud rohkem kui 4,6 miljoni krooni maksva salakauba kinnipidamise mõju turule kommenteerima .
+1	Tallinna	H	sg=sg|g=g	2	nmod	_
+2	Kadaka	H	sg=sg|g=g	3	nmod	_
+3	turu	S	sg=sg|g=g	4	nmod	_
+4	direktor	S	sg=sg|n=n	8	nsubj	_
+5	Peet	H	sg=sg|n=n	4	appos	_
+6	Kall	H	sg=sg|n=n	5	flat	_
+7	ei	V	neg=neg	8	aux	_
+8	soostunud	A	_	0	root	_
+9	rohkem	D	_	14	advmod	_
+10	kui	J	_	9	fixed	_
+11	4,6	N	?=?	12	compound	_
+12	miljoni	N	sg=sg|g=g	13	nummod	_
+13	krooni	S	sg=sg|g=g	14	obl	_
+14	maksva	A	sg=sg|g=g	15	acl	_
+15	salakauba	S	sg=sg|g=g	16	nmod	_
+16	kinnipidamise	S	sg=sg|g=g	17	nmod	_
+17	mõju	S	sg=sg|g=g	8	obj	CHECK
+18	turule	S	sg=sg|all=all	19	obj	_
+19	kommenteerima	V	ma=ma	8	conj	_
+20	.	Z	_	8	punct	_
+
+# sent_id = 130790
+# text = Möödunud kevadel lubas Ühendriikide valitsus kehtestada Jaapani luksautodele 100-protsendilise tollitariifi , kui jaapanlased ei soostu oma turgu Ameerika autotööstureile rohkem avama .
+1	Möödunud	A	sg=sg|n=n	2	acl	_
+2	kevadel	S	sg=sg|ad=ad	3	obl	_
+3	lubas	V	s=s	0	root	_
+4	Ühendriikide	H	pl=pl|g=g	5	nmod	_
+5	valitsus	S	sg=sg|n=n	3	nsubj	_
+6	kehtestada	V	da=da	3	xcomp	_
+7	Jaapani	H	sg=sg|g=g	8	nmod	_
+8	luksautodele	S	pl=pl|all=all	6	obj	_
+9	100-protsendilise	A	sg=sg|g=g	10	amod	_
+10	tollitariifi	S	sg=sg|g=g	6	obj	_
+11	,	Z	_	15	punct	_
+12	kui	D	_	15	mark	_
+13	jaapanlased	S	pl=pl|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	soostu	V	o=o	3	advcl	_
+16	oma	P	sg=sg|g=g	17	nmod	_
+17	turgu	S	sg=sg|p=p	21	obj	CHECK
+18	Ameerika	H	sg=sg|g=g	19	nmod	_
+19	autotööstureile	S	pl=pl|all=all	21	obj	_
+20	rohkem	D	_	21	advmod	_
+21	avama	V	ma=ma	15	advcl	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 5316325
+# text = " Alkmaar ei soostuks Raiot ostma , vaid ihkaks mõneks kuuks rendile võtta , " märkis vana sõbra van Steega vestelnud FC Flora treener Arno Pijpers .
+1	"	Z	_	4	punct	_
+2	Alkmaar	H	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	soostuks	V	ks=ks	0	root	_
+5	Raiot	H	sg=sg|n=n	6	obj	CHECK
+6	ostma	V	ma=ma	4	obj	_
+7	,	Z	_	9	punct	_
+8	vaid	J	_	9	cc	_
+9	ihkaks	V	ks=ks	4	conj	_
+10	mõneks	P	sg=sg|tr=tr	11	det	_
+11	kuuks	S	sg=sg|tr=tr	13	obl	_
+12	rendile	S	sg=sg|all=all	13	obj	_
+13	võtta	V	da=da	9	conj	_
+14	,	Z	_	4	punct	_
+15	"	Z	_	4	punct	_
+16	märkis	V	s=s	4	parataxis	_
+17	vana	A	sg=sg|g=g	18	nmod	_
+18	sõbra	S	sg=sg|g=g	21	obl	_
+19	van	Y	?=?	18	appos	_
+20	Steega	H	sg=sg|g=g	19	flat	_
+21	vestelnud	V	nud=nud	24	acl	_
+22	FC	Y	?=?	24	nmod	_
+23	Flora	H	sg=sg|g=g	22	flat	_
+24	treener	S	sg=sg|n=n	16	nsubj	_
+25	Arno	H	sg=sg|n=n	24	appos	_
+26	Pijpers	H	sg=sg|n=n	25	flat	_
+27	.	Z	_	4	punct	_
+
+# sent_id = 2778194
+# text = " See on esimene kord , kui eraomanik soostub osa kinnistust tasuta linnale loovutama , " ütles abilinnapea Taavi Aas .
+1	"	Z	_	5	punct	_
+2	See	P	sg=sg|n=n	5	nsubj:cop	_
+3	on	V	vad=vad	5	cop	_
+4	esimene	O	sg=sg|n=n	5	amod	_
+5	kord	S	sg=sg|n=n	0	root	_
+6	,	Z	_	9	punct	_
+7	kui	D	_	9	mark	_
+8	eraomanik	S	sg=sg|n=n	9	nsubj	_
+9	soostub	V	b=b	5	advcl	_
+10	osa	S	sg=sg|g=g	11	nmod	CHECK
+11	kinnistust	S	sg=sg|el=el	14	obj	_
+12	tasuta	S	sg=sg|ab=ab	13	nmod	_
+13	linnale	S	sg=sg|all=all	14	obj	_
+14	loovutama	V	ma=ma	9	xcomp	_
+15	,	Z	_	5	punct	_
+16	"	Z	_	5	punct	_
+17	ütles	V	s=s	5	parataxis	_
+18	abilinnapea	S	sg=sg|n=n	17	nsubj	_
+19	Taavi	H	sg=sg|n=n	18	appos	_
+20	Aas	H	sg=sg|n=n	19	flat	_
+21	.	Z	_	5	punct	_
+
+# sent_id = 1041346
+# text = Säästumarketite kuukäibeid ei soostunud Prants jaekaubanduse teravale konkurentsisituatsioonle viidates avaldama .
+1	Säästumarketite	S	pl=pl|g=g	2	nmod	_
+2	kuukäibeid	S	pl=pl|p=p	4	obl	CHECK
+3	ei	V	neg=neg	4	aux	_
+4	soostunud	A	pl=pl|n=n	0	root	_
+5	Prants	H	sg=sg|n=n	6	nmod	_
+6	jaekaubanduse	S	sg=sg|g=g	10	obj	_
+7	teravale	A	sg=sg|all=all	8	amod	_
+8	konkurentsisituatsioonle	S	sg=sg|g=g	10	nsubj	_
+9	viidates	V	des=des	10	obj	_
+10	avaldama	V	ma=ma	4	conj	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 30384
+# text = Siiri Sisaski uueks väljavalituks on sakslasest noormees , kelle nime ei soostu ta mingil juhul avalikustama , sest selline on väljavalitu , ja seega ka Siiri enda soov .
+1	Siiri	H	sg=sg|n=n	4	nmod	_
+2	Sisaski	H	sg=sg|g=g	1	flat	_
+3	uueks	A	sg=sg|tr=tr	4	amod	_
+4	väljavalituks	S	sg=sg|tr=tr	7	obl	_
+5	on	V	vad=vad	7	cop	_
+6	sakslasest	S	sg=sg|el=el	7	nmod	_
+7	noormees	S	sg=sg|n=n	0	root	_
+8	,	Z	_	10	punct	_
+9	kelle	P	sg=sg|g=g	10	nmod	_
+10	nime	S	sg=sg|p=p	12	obj	CHECK
+11	ei	V	neg=neg	12	aux	_
+12	soostu	V	o=o	7	acl:relcl	_
+13	ta	P	sg=sg|n=n	12	nsubj	_
+14	mingil	P	sg=sg|ad=ad	15	det	_
+15	juhul	S	sg=sg|ad=ad	12	obl	_
+16	avalikustama	V	ma=ma	12	xcomp	_
+17	,	Z	_	21	punct	_
+18	sest	J	_	21	mark	_
+19	selline	P	sg=sg|n=n	21	nsubj:cop	_
+20	on	V	b=b	21	cop	_
+21	väljavalitu	S	sg=sg|n=n	12	advcl	_
+22	,	Z	_	28	punct	_
+23	ja	J	_	28	cc	_
+24	seega	D	_	28	advmod	_
+25	ka	D	_	28	advmod	_
+26	Siiri	H	sg=sg|n=n	28	nmod	_
+27	enda	P	sg=sg|g=g	26	nmod	_
+28	soov	S	sg=sg|n=n	21	conj	_
+29	.	Z	_	7	punct	_
+
+# sent_id = 572011
+# text = Veebikülje loomiseks tehtud kulutusi ei soostu Veltmann avalikustama .
+1	Veebikülje	S	sg=sg|g=g	2	nmod	_
+2	loomiseks	S	sg=sg|tr=tr	3	obl	_
+3	tehtud	A	sg=sg|n=n	4	acl	_
+4	kulutusi	S	pl=pl|p=p	6	obj	CHECK
+5	ei	V	neg=neg	6	aux	_
+6	soostu	V	o=o	0	root	_
+7	Veltmann	H	sg=sg|n=n	8	nsubj	_
+8	avalikustama	V	ma=ma	6	conj	_
+9	.	Z	_	6	punct	_
+

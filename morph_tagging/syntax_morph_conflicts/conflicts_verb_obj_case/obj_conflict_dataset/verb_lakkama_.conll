@@ -1,0 +1,454 @@
+# sent_id = 524715
+# text = Maailmameister lakkas ühe hetkega olemast kodumaa sümbol .
+1	Maailmameister	S	sg=sg|n=n	2	obj	_
+2	lakkas	V	s=s	7	nsubj:cop	_
+3	ühe	P	sg=sg|g=g	4	nummod	_
+4	hetkega	S	sg=sg|kom=kom	7	nsubj:cop	_
+5	olemast	V	mast=mast	7	cop	_
+6	kodumaa	S	sg=sg|g=g	7	nmod	_
+7	sümbol	S	sg=sg|n=n	0	root	CHECK
+8	.	Z	_	7	punct	_
+
+# sent_id = 1935828
+# text = Keskkonnaprobleeme on teadvustatud vähemalt 30 aastat , kuid alles viimasel kümnendil on keskkonnapoliitika lakanud olemast fanaatikute või unistajate jaosmaa .
+1	Keskkonnaprobleeme	S	pl=pl|p=p	3	obj	_
+2	on	V	vad=vad	3	aux	_
+3	teadvustatud	A	sg=sg|n=n	0	root	_
+4	vähemalt	D	_	5	advmod	_
+5	30	N	?=?	6	nummod	_
+6	aastat	S	sg=sg|p=p	3	obl	_
+7	,	Z	_	14	punct	_
+8	kuid	J	_	14	cc	_
+9	alles	D	_	10	advmod	_
+10	viimasel	A	sg=sg|ad=ad	11	amod	_
+11	kümnendil	S	sg=sg|ad=ad	14	obl	_
+12	on	V	vad=vad	14	aux	_
+13	keskkonnapoliitika	S	sg=sg|n=n	14	nsubj	_
+14	lakanud	A	sg=sg|n=n	3	conj	_
+15	olemast	V	mast=mast	14	aux	_
+16	fanaatikute	S	pl=pl|g=g	14	nsubj	_
+17	või	J	_	19	cc	_
+18	unistajate	S	pl=pl|g=g	16	conj	_
+19	jaosmaa	S	sg=sg|n=n	16	conj	CHECK
+20	.	Z	_	3	punct	_
+
+# sent_id = 2758779
+# text = Ajal , mil president tsiteerib oma kõnes sotsiolooge , on rahvusülikooli juhtkond leidnud võimaluse lämmatada sotsiaalteadusi , nõnda et eksisteerima jääksid vaid neile " mugavad " sotsiaalteadused ning lakkaks kriitiline mõtlemine ja arendustöö ühiskonna kitsaskohtade kallal .
+1	Ajal	S	sg=sg|ad=ad	13	obl	_
+2	,	Z	_	5	punct	_
+3	mil	D	_	5	mark	_
+4	president	S	sg=sg|n=n	5	nsubj	_
+5	tsiteerib	V	b=b	1	acl	_
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	kõnes	S	sg=sg|in=in	5	obj	_
+8	sotsiolooge	S	pl=pl|p=p	5	obj	_
+9	,	Z	_	5	punct	_
+10	on	V	b=b	13	aux	_
+11	rahvusülikooli	S	sg=sg|g=g	12	nmod	_
+12	juhtkond	S	sg=sg|n=n	13	obj	_
+13	leidnud	A	sg=sg|n=n	0	root	_
+14	võimaluse	S	sg=sg|g=g	13	obj	_
+15	lämmatada	V	da=da	14	acl	_
+16	sotsiaalteadusi	S	pl=pl|p=p	15	obj	_
+17	,	Z	_	20	punct	_
+18	nõnda	D	_	20	advmod	_
+19	et	J	_	18	fixed	_
+20	eksisteerima	V	ma=ma	13	advcl	_
+21	jääksid	V	ksid=ksid	20	advcl	_
+22	vaid	D	_	27	advmod	_
+23	neile	P	pl=pl|all=all	27	nmod	_
+24	"	Z	_	25	punct	_
+25	mugavad	A	pl=pl|n=n	27	amod	_
+26	"	Z	_	25	punct	_
+27	sotsiaalteadused	S	pl=pl|n=n	21	nsubj	_
+28	ning	J	_	29	cc	_
+29	lakkaks	V	ks=ks	21	conj	_
+30	kriitiline	A	sg=sg|n=n	31	amod	_
+31	mõtlemine	S	sg=sg|n=n	29	obj	CHECK
+32	ja	J	_	33	cc	_
+33	arendustöö	S	sg=sg|n=n	31	conj	_
+34	ühiskonna	S	sg=sg|g=g	35	nmod	_
+35	kitsaskohtade	S	pl=pl|g=g	33	nmod	_
+36	kallal	K	_	35	case	_
+37	.	Z	_	13	punct	_
+
+# sent_id = 7559134
+# text = Alguses tahtsin tal meele härdaks teha ja rääkisin oma südame ülemusest , keda ma ei lakka armastamast , kuigi peaksin , ja kes on küll võimas ja hüpertark , aga liiderlik ja kitsi .
+1	Alguses	S	sg=sg|in=in	2	obl	_
+2	tahtsin	V	sin=sin	0	root	_
+3	tal	P	sg=sg|ad=ad	2	nsubj	_
+4	meele	S	sg=sg|g=g	6	obj	_
+5	härdaks	A	sg=sg|tr=tr	6	obj	_
+6	teha	V	da=da	2	xcomp	_
+7	ja	J	_	8	cc	_
+8	rääkisin	V	sin=sin	2	conj	_
+9	oma	P	sg=sg|g=g	10	nmod	_
+10	südame	S	sg=sg|g=g	11	nmod	_
+11	ülemusest	S	sg=sg|el=el	8	obj	_
+12	,	Z	_	16	punct	_
+13	keda	P	pl=pl|p=p	16	obj	CHECK
+14	ma	P	sg=sg|n=n	16	nsubj	_
+15	ei	V	neg=neg	16	aux	_
+16	lakka	V	o=o	11	acl:relcl	_
+17	armastamast	V	mast=mast	16	xcomp	_
+18	,	Z	_	20	punct	_
+19	kuigi	D	_	20	mark	_
+20	peaksin	V	ksin=ksin	16	advcl	_
+21	,	Z	_	26	punct	_
+22	ja	J	_	26	cc	_
+23	kes	P	pl=pl|n=n	26	nsubj:cop	_
+24	on	V	b=b	26	cop	_
+25	küll	D	_	26	advmod	_
+26	võimas	A	sg=sg|n=n	20	conj	_
+27	ja	J	_	28	cc	_
+28	hüpertark	A	sg=sg|n=n	26	conj	_
+29	,	Z	_	31	punct	_
+30	aga	J	_	31	cc	_
+31	liiderlik	A	sg=sg|n=n	26	conj	_
+32	ja	J	_	33	cc	_
+33	kitsi	A	sg=sg|n=n	26	conj	_
+34	.	Z	_	2	punct	_
+
+# sent_id = 2228128
+# text = Kell kuus õhtul polnud rahvavool loomaaeda veel lakanud .
+1	Kell	S	sg=sg|n=n	8	obl	_
+2	kuus	N	sg=sg|n=n	1	nummod	_
+3	õhtul	S	sg=sg|ad=ad	8	obl	_
+4	polnud	V	neg=neg|nud=nud	8	aux	_
+5	rahvavool	S	sg=sg|n=n	6	nmod	_
+6	loomaaeda	S	adt=adt	8	obj	CHECK
+7	veel	D	_	8	advmod	_
+8	lakanud	A	sg=sg|n=n	0	root	_
+9	.	Z	_	8	punct	_
+
+# sent_id = 3656538
+# text = Siitpeale lakkasid Sa kaasautorina pressis eksisteerimast .
+1	Siitpeale	D	_	2	advmod	_
+2	lakkasid	V	sid=sid	0	root	_
+3	Sa	P	sg=sg|n=n	2	nsubj	_
+4	kaasautorina	S	sg=sg|es=es	5	nmod	_
+5	pressis	V	s=s	6	obl	CHECK
+6	eksisteerimast	V	mast=mast	2	obj	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 640549
+# text = Ome-ti on haljasala lakanud ole-mast , sest linn lämmatas ta .
+1	Ome-ti	D	_	4	advmod	_
+2	on	V	vad=vad	4	aux	_
+3	haljasala	S	sg=sg|n=n	4	obj	_
+4	lakanud	A	sg=sg|n=n	0	root	_
+5	ole-mast	S	sg=sg|n=n	4	nsubj	CHECK
+6	,	Z	_	9	punct	_
+7	sest	J	_	9	mark	_
+8	linn	S	sg=sg|n=n	9	nsubj	_
+9	lämmatas	V	s=s	4	advcl	_
+10	ta	P	sg=sg|n=n	9	nsubj	_
+11	.	Z	_	4	punct	_
+
+# sent_id = 202707
+# text = Inimene lakkab olemast “ kõigi asjade mõõt ” , maailma põhiparameetriks saab määramatus .
+1	Inimene	S	sg=sg|n=n	2	nsubj	_
+2	lakkab	V	b=b	0	root	_
+3	olemast	V	mast=mast	2	cop	_
+4	“	Z	_	7	punct	_
+5	kõigi	P	pl=pl|g=g	7	det	_
+6	asjade	S	pl=pl|g=g	7	nmod	_
+7	mõõt	S	sg=sg|n=n	2	obj	CHECK
+8	”	Z	_	7	punct	_
+9	,	Z	_	12	punct	_
+10	maailma	S	sg=sg|g=g	11	nmod	_
+11	põhiparameetriks	S	sg=sg|tr=tr	12	nsubj	_
+12	saab	V	b=b	2	conj	_
+13	määramatus	S	sg=sg|n=n	12	obj	_
+14	.	Z	_	2	punct	_
+
+# sent_id = 17720068
+# text = Seejärel need kustutatakse ning sellega seoses lakkab isiku suhtes karistatusega kaasnevate ebasoodsate tagajärgede toime .
+1	Seejärel	D	_	3	advmod	_
+2	need	P	pl=pl|n=n	3	nsubj	_
+3	kustutatakse	V	takse=takse	0	root	_
+4	ning	J	_	7	cc	_
+5	sellega	P	sg=sg|kom=kom	7	obl	_
+6	seoses	K	_	5	case	_
+7	lakkab	V	b=b	3	conj	_
+8	isiku	S	sg=sg|g=g	11	obl	_
+9	suhtes	K	_	8	case	_
+10	karistatusega	S	sg=sg|kom=kom	11	obl	_
+11	kaasnevate	A	pl=pl|g=g	13	acl	_
+12	ebasoodsate	A	pl=pl|g=g	13	amod	_
+13	tagajärgede	S	pl=pl|g=g	14	nmod	_
+14	toime	S	adt=adt	7	obj	CHECK
+15	.	Z	_	3	punct	_
+
+# sent_id = 8986635
+# text = Selle operatsiooni eesmärgiks on Vene-Tshetsheenia suhetele lõpp peale teha , et lakkaksid ometi vaidlused selle ümber , kas Tshetsheenia on Vene Föderatsiooni subjekt või mitte .
+1	Selle	P	sg=sg|g=g	2	det	_
+2	operatsiooni	S	sg=sg|g=g	3	nmod	_
+3	eesmärgiks	S	sg=sg|tr=tr	0	root	_
+4	on	V	vad=vad	3	cop	_
+5	Vene-Tshetsheenia	H	sg=sg|g=g	6	nmod	_
+6	suhetele	S	pl=pl|all=all	9	obj	_
+7	lõpp	A	sg=sg|n=n	9	amod	_
+8	peale	D	_	9	compound:prt	_
+9	teha	V	da=da	3	csubj:cop	_
+10	,	Z	_	12	punct	_
+11	et	J	_	12	mark	_
+12	lakkaksid	V	ksid=ksid	9	ccomp	_
+13	ometi	D	_	12	advmod	_
+14	vaidlused	S	pl=pl|n=n	12	obj	CHECK
+15	selle	P	sg=sg|g=g	12	obl	_
+16	ümber	K	_	15	case	_
+17	,	Z	_	23	punct	_
+18	kas	D	_	23	advmod	_
+19	Tshetsheenia	H	sg=sg|g=g	23	nsubj:cop	_
+20	on	V	b=b	23	cop	_
+21	Vene	H	sg=sg|g=g	22	nmod	_
+22	Föderatsiooni	H	sg=sg|g=g	23	nmod	_
+23	subjekt	S	sg=sg|n=n	15	acl	_
+24	või	J	_	25	cc	_
+25	mitte	D	_	23	conj	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 2172108
+# text = Ajal mil arenenud maailma ajakirjandus pühitseb naise ilu ja mil peetakse täiesti loomulikuks , et naine ei lakka olemast naine ainult sellepärast , et ta on rase , näitab , et me oleme oma arusaamadelt muust maailmast paar sajandit maas .
+1	Ajal	S	sg=sg|ad=ad	6	obl	_
+2	mil	D	_	6	mark	_
+3	arenenud	A	sg=sg|n=n	4	acl	_
+4	maailma	S	sg=sg|g=g	5	nmod	_
+5	ajakirjandus	S	sg=sg|n=n	6	nsubj	_
+6	pühitseb	V	b=b	29	ccomp	_
+7	naise	S	sg=sg|g=g	8	nmod	_
+8	ilu	S	sg=sg|p=p	6	obj	_
+9	ja	J	_	11	cc	_
+10	mil	D	_	11	mark	_
+11	peetakse	V	takse=takse	6	conj	_
+12	täiesti	D	_	13	advmod	_
+13	loomulikuks	A	sg=sg|tr=tr	11	xcomp	_
+14	,	Z	_	18	punct	_
+15	et	J	_	18	mark	_
+16	naine	S	sg=sg|n=n	18	nsubj	_
+17	ei	V	neg=neg	18	aux	_
+18	lakka	V	o=o	11	ccomp	_
+19	olemast	V	mast=mast	18	advcl	_
+20	naine	S	sg=sg|n=n	18	obj	CHECK
+21	ainult	D	_	22	advmod	_
+22	sellepärast	D	_	18	advmod	_
+23	,	Z	_	27	punct	_
+24	et	J	_	27	mark	_
+25	ta	P	sg=sg|n=n	27	nsubj:cop	_
+26	on	V	vad=vad	27	cop	_
+27	rase	A	sg=sg|n=n	18	advcl	_
+28	,	Z	_	27	punct	_
+29	näitab	V	b=b	0	root	_
+30	,	Z	_	40	punct	_
+31	et	J	_	40	mark	_
+32	me	P	pl=pl|n=n	40	nsubj:cop	_
+33	oleme	V	me=me	40	cop	_
+34	oma	P	sg=sg|g=g	35	nmod	_
+35	arusaamadelt	S	pl=pl|abl=abl	37	nmod	_
+36	muust	P	sg=sg|el=el	37	amod	_
+37	maailmast	S	sg=sg|el=el	40	obl	_
+38	paar	N	sg=sg|n=n	39	nummod	_
+39	sajandit	S	sg=sg|p=p	40	obl	_
+40	maas	D	_	29	ccomp	_
+41	.	Z	_	29	punct	_
+
+# sent_id = 52299
+# text = Kui sa lakkad õnne uskumast , lakkad ka jumalasse uskumast .
+1	Kui	J	_	3	mark	_
+2	sa	P	sg=sg|n=n	3	nsubj	_
+3	lakkad	V	d=d	7	advcl	_
+4	õnne	S	sg=sg|p=p	5	obj	CHECK
+5	uskumast	V	mast=mast	3	conj	_
+6	,	Z	_	3	punct	_
+7	lakkad	V	d=d	0	root	_
+8	ka	D	_	7	advmod	_
+9	jumalasse	S	sg=sg|ill=ill	10	obj	_
+10	uskumast	V	mast=mast	7	nsubj	_
+11	.	Z	_	7	punct	_
+
+# sent_id = 6674967
+# text = Kui hää Taevaisa oma " programmi kohaselt " ( professor Evald Saagi väljend ) asetab mind elama kuhugi mujale , ei lakka Eesti olemast mu isamaa .
+1	Kui	J	_	15	mark	_
+2	hää	I	_	15	nsubj	_
+3	Taevaisa	H	sg=sg|g=g	15	nsubj	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	"	Z	_	6	punct	_
+6	programmi	S	sg=sg|g=g	15	obl	_
+7	kohaselt	K	_	6	case	_
+8	"	Z	_	6	punct	_
+9	(	Z	_	10	punct	_
+10	professor	S	sg=sg|n=n	6	parataxis	_
+11	Evald	H	sg=sg|n=n	10	appos	_
+12	Saagi	H	sg=sg|n=n	11	flat	_
+13	väljend	S	sg=sg|n=n	10	appos	_
+14	)	Z	_	10	punct	_
+15	asetab	V	b=b	26	advcl	_
+16	mind	P	sg=sg|p=p	15	nsubj	_
+17	elama	V	ma=ma	15	obj	_
+18	kuhugi	D	_	19	advmod	_
+19	mujale	D	_	15	advmod	_
+20	,	Z	_	22	punct	_
+21	ei	V	neg=neg	22	aux	_
+22	lakka	V	o=o	26	aux	_
+23	Eesti	H	sg=sg|n=n	26	nsubj:cop	_
+24	olemast	V	mast=mast	26	cop	_
+25	mu	P	sg=sg|g=g	26	nmod	_
+26	isamaa	S	sg=sg|g=g	0	root	CHECK
+27	.	Z	_	26	punct	_
+
+# sent_id = 721386
+# text = Mitu atentaati üle elanud Lähis-Ida jõu ja stabiilsuse sümbol Jordaania kuningas Husseinil lakkasid eile töötamast kõik elutähtsad organid peale aparaadi abil töötava südame .
+1	Mitu	P	sg=sg|n=n	2	det	_
+2	atentaati	S	sg=sg|p=p	4	obl	_
+3	üle	D	_	4	compound:prt	_
+4	elanud	V	nud=nud	9	acl	_
+5	Lähis-Ida	H	sg=sg|g=g	6	nmod	_
+6	jõu	S	sg=sg|g=g	9	nmod	_
+7	ja	J	_	8	cc	_
+8	stabiilsuse	S	sg=sg|g=g	6	conj	_
+9	sümbol	S	sg=sg|n=n	13	nsubj	_
+10	Jordaania	H	sg=sg|g=g	11	appos	_
+11	kuningas	S	sg=sg|n=n	9	appos	_
+12	Husseinil	H	sg=sg|ad=ad	11	appos	_
+13	lakkasid	V	sid=sid	0	root	_
+14	eile	D	_	13	advmod	_
+15	töötamast	V	mast=mast	13	obl	_
+16	kõik	P	pl=pl|n=n	18	det	_
+17	elutähtsad	A	pl=pl|n=n	18	amod	_
+18	organid	S	pl=pl|n=n	15	obl	_
+19	peale	K	_	20	case	_
+20	aparaadi	S	sg=sg|g=g	22	obl	_
+21	abil	K	_	20	case	_
+22	töötava	A	sg=sg|g=g	23	acl	_
+23	südame	S	sg=sg|g=g	15	obj	CHECK
+24	.	Z	_	13	punct	_
+
+# sent_id = 5791647
+# text = Just selleks Eesti riik olemas ongi , et eestlus selle sõna kõige laiemas mõttes ei lakkaks .
+1	Just	D	_	2	advmod	_
+2	selleks	P	sg=sg|tr=tr	0	root	_
+3	Eesti	H	sg=sg|g=g	4	nmod	_
+4	riik	S	sg=sg|n=n	2	nsubj:cop	_
+5	olemas	V	mas=mas	2	cop	_
+6	ongi	V	vad=vad	2	cop	_
+7	,	Z	_	16	punct	_
+8	et	J	_	16	mark	_
+9	eestlus	S	sg=sg|n=n	16	obj	_
+10	selle	P	sg=sg|g=g	11	det	_
+11	sõna	S	sg=sg|p=p	16	nsubj	CHECK
+12	kõige	D	_	13	advmod	_
+13	laiemas	C	sg=sg|in=in	14	amod	_
+14	mõttes	S	sg=sg|in=in	16	obl	_
+15	ei	V	neg=neg	16	aux	_
+16	lakkaks	V	ks=ks	2	advcl	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 3585643
+# text = Eile kell 11.30 tekisid Hansapanga arvutivõrgu töös esimesed häired , kella 14-ks lakkas panga harukontoreid ja sularahaautomaate peakontoriga ühendanud arvutivõrk täielikult töötamast .
+1	Eile	D	_	4	advmod	_
+2	kell	S	sg=sg|n=n	4	obl	_
+3	11.30	N	?=?	2	nummod	_
+4	tekisid	V	sid=sid	0	root	_
+5	Hansapanga	H	sg=sg|g=g	6	nmod	_
+6	arvutivõrgu	S	sg=sg|g=g	7	nmod	_
+7	töös	S	sg=sg|in=in	4	obj	_
+8	esimesed	O	pl=pl|n=n	9	amod	_
+9	häired	S	pl=pl|n=n	4	obj	_
+10	,	Z	_	13	punct	_
+11	kella	S	sg=sg|g=g	13	obl	_
+12	14-ks	O	sg=sg|tr=tr	11	appos	_
+13	lakkas	V	s=s	4	conj	_
+14	panga	S	sg=sg|g=g	15	nmod	_
+15	harukontoreid	S	pl=pl|p=p	19	obj	CHECK
+16	ja	J	_	20	cc	_
+17	sularahaautomaate	S	pl=pl|p=p	18	nmod	_
+18	peakontoriga	S	sg=sg|kom=kom	19	obj	_
+19	ühendanud	A	_	20	acl	_
+20	arvutivõrk	S	sg=sg|n=n	22	nsubj	_
+21	täielikult	D	_	22	advmod	_
+22	töötamast	V	mast=mast	4	conj	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 879093
+# text = Kuna inimeste voor volikogu suurde saali tutvustuse algusajaks ei lakanud , lükkasid abilinnapea Priit Vilba ja volikogu esimees Rein Voog ürituse algust mõned minutid edasi .
+1	Kuna	J	_	10	mark	_
+2	inimeste	S	pl=pl|g=g	3	nmod	_
+3	voor	S	sg=sg|n=n	10	obj	_
+4	volikogu	S	sg=sg|g=g	6	nmod	_
+5	suurde	A	adt=adt	6	amod	_
+6	saali	S	adt=adt	10	obl	_
+7	tutvustuse	S	sg=sg|g=g	10	nsubj	CHECK
+8	algusajaks	S	sg=sg|tr=tr	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	lakanud	A	sg=sg|n=n	12	advcl	_
+11	,	Z	_	10	punct	_
+12	lükkasid	V	sid=sid	0	root	_
+13	abilinnapea	S	sg=sg|n=n	12	nsubj	_
+14	Priit	H	sg=sg|n=n	13	appos	_
+15	Vilba	H	sg=sg|n=n	14	flat	_
+16	ja	J	_	18	cc	_
+17	volikogu	S	sg=sg|g=g	18	nmod	_
+18	esimees	S	sg=sg|n=n	13	conj	_
+19	Rein	H	sg=sg|n=n	18	appos	_
+20	Voog	H	sg=sg|n=n	19	flat	_
+21	ürituse	S	sg=sg|g=g	22	nmod	_
+22	algust	S	sg=sg|p=p	12	obj	_
+23	mõned	P	pl=pl|n=n	24	det	_
+24	minutid	S	pl=pl|n=n	12	obl	_
+25	edasi	D	_	12	compound:prt	_
+26	.	Z	_	12	punct	_
+
+# sent_id = 7103748
+# text = või siis armastama ainult oma haiget Aleksandrat , kes teda , Joosti , on ammu lakanud mitte üksnes armastamast , vaid ka austamast ?
+1	või	J	_	3	cc	_
+2	siis	D	_	3	advmod	_
+3	armastama	V	ma=ma	0	root	_
+4	ainult	D	_	6	advmod	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	haiget	S	sg=sg|p=p	3	obj	_
+7	Aleksandrat	H	sg=sg|p=p	6	appos	_
+8	,	Z	_	16	punct	_
+9	kes	P	pl=pl|n=n	16	nsubj	_
+10	teda	P	sg=sg|p=p	16	obj	CHECK
+11	,	Z	_	12	punct	_
+12	Joosti	H	sg=sg|g=g	10	conj	_
+13	,	Z	_	16	punct	_
+14	on	V	b=b	16	aux	_
+15	ammu	D	_	16	advmod	_
+16	lakanud	A	pl=pl|n=n	7	acl:relcl	_
+17	mitte	D	_	18	advmod	_
+18	üksnes	D	_	19	advmod	_
+19	armastamast	V	mast=mast	16	xcomp	_
+20	,	Z	_	23	punct	_
+21	vaid	J	_	23	cc	_
+22	ka	D	_	23	advmod	_
+23	austamast	V	mast=mast	16	conj	_
+24	?	Z	_	3	punct	_
+
+# sent_id = 6703118
+# text = Tükk aigä oli lännu , kui lakka lätsivä .
+1	Tükk	S	sg=sg|n=n	2	nmod	_
+2	aigä	S	sg=sg|n=n	4	nsubj:cop	_
+3	oli	V	s=s	4	cop	_
+4	lännu	S	sg=sg|n=n	0	root	_
+5	,	Z	_	7	punct	_
+6	kui	D	_	7	mark	_
+7	lakka	V	o=o	4	advcl	_
+8	lätsivä	S	sg=sg|n=n	7	nsubj	CHECK
+9	.	Z	_	4	punct	_
+
+# sent_id = 3772241
+# text = Ema sõnade kohaselt oli lapse elu maailmaga kohtumise hetkeks lakanud .
+1	Ema	S	sg=sg|n=n	2	nmod	_
+2	sõnade	S	pl=pl|g=g	10	obl	_
+3	kohaselt	K	_	2	case	_
+4	oli	V	s=s	10	aux	_
+5	lapse	S	sg=sg|g=g	6	nmod	_
+6	elu	S	sg=sg|g=g	10	nsubj	CHECK
+7	maailmaga	S	sg=sg|kom=kom	8	nmod	_
+8	kohtumise	S	sg=sg|g=g	10	obl	_
+9	hetkeks	S	sg=sg|tr=tr	10	obl	_
+10	lakanud	A	pl=pl|n=n	0	root	_
+11	.	Z	_	10	punct	_
+

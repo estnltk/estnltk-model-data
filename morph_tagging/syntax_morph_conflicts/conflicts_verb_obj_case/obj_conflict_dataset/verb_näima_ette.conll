@@ -1,0 +1,218 @@
+# sent_id = 94093
+# text = Lossi ette kogunenud rahvas , kes kannatlikult ootas just s e d a hetke - ei ilmalik ega ka kiriklik abiellumistseremoonia-laulatus polnud suudlemist ette näinud - , oli vaimustuses .
+1	Lossi	D	_	3	obl	_
+2	ette	D	_	3	compound:prt	_
+3	kogunenud	A	_	4	acl	_
+4	rahvas	S	sg=sg|n=n	29	nsubj:cop	_
+5	,	Z	_	8	punct	_
+6	kes	P	pl=pl|n=n	8	nsubj	_
+7	kannatlikult	D	_	8	advmod	_
+8	ootas	V	s=s	4	acl:relcl	_
+9	just	I	_	10	advmod	_
+10	s	Y	?=?	14	nmod	_
+11	e	Y	?=?	12	cc	_
+12	d	Y	?=?	10	conj	_
+13	a	Y	?=?	14	nmod	_
+14	hetke	S	sg=sg|g=g	8	obj	_
+15	-	Z	_	25	punct	_
+16	ei	D	_	17	advmod	_
+17	ilmalik	A	sg=sg|n=n	21	amod	_
+18	ega	J	_	20	cc	_
+19	ka	D	_	20	advmod	_
+20	kiriklik	A	sg=sg|n=n	17	conj	_
+21	abiellumistseremoonia-laulatus	S	sg=sg|n=n	25	obj	_
+22	polnud	V	neg=neg|nud=nud	25	aux	_
+23	suudlemist	S	sg=sg|p=p	25	obj	CHECK
+24	ette	D	_	25	compound:prt	_
+25	näinud	A	_	8	parataxis	_
+26	-	Z	_	25	punct	_
+27	,	Z	_	25	punct	_
+28	oli	V	s=s	29	cop	_
+29	vaimustuses	S	sg=sg|in=in	0	root	_
+30	.	Z	_	29	punct	_
+
+# sent_id = 1017769
+# text = Mis puudutab teisi tarkvaratootjaid , siis nende õiguste valdajad pole veel teatanud , et oleksid Eesti tasulistele internetipunktidele täiendava lepinguvormi ette näinud , ütles Leppik .
+1	Mis	P	sg=sg|n=n	2	nsubj	_
+2	puudutab	V	b=b	12	advcl	_
+3	teisi	P	pl=pl|p=p	4	det	_
+4	tarkvaratootjaid	S	pl=pl|p=p	2	obj	_
+5	,	Z	_	2	punct	_
+6	siis	J	_	12	advmod	_
+7	nende	P	pl=pl|g=g	8	det	_
+8	õiguste	S	pl=pl|g=g	9	nmod	_
+9	valdajad	S	pl=pl|n=n	12	nsubj	_
+10	pole	V	neg=neg|o=o	12	aux	_
+11	veel	D	_	12	advmod	_
+12	teatanud	V	nud=nud	0	root	_
+13	,	Z	_	22	punct	_
+14	et	J	_	22	mark	_
+15	oleksid	V	ksid=ksid	22	aux	_
+16	Eesti	H	sg=sg|g=g	22	nsubj	_
+17	tasulistele	A	pl=pl|all=all	18	amod	_
+18	internetipunktidele	S	pl=pl|all=all	22	obj	_
+19	täiendava	A	sg=sg|g=g	20	acl	_
+20	lepinguvormi	S	sg=sg|g=g	22	obj	CHECK
+21	ette	D	_	22	compound:prt	_
+22	näinud	A	sg=sg|n=n	12	ccomp	_
+23	,	Z	_	22	punct	_
+24	ütles	V	s=s	12	conj	_
+25	Leppik	H	sg=sg|n=n	24	nsubj	_
+26	.	Z	_	12	punct	_
+
+# sent_id = 1880097
+# text = Aga seadusandja on ju ette näinud selle moraalse punkti , millest te aru ei saa .
+1	Aga	J	_	6	cc	_
+2	seadusandja	S	sg=sg|g=g	6	nsubj	_
+3	on	V	vad=vad	6	aux	_
+4	ju	D	_	6	advmod	_
+5	ette	D	_	6	compound:prt	_
+6	näinud	V	nud=nud	0	root	_
+7	selle	P	sg=sg|g=g	9	det	_
+8	moraalse	A	sg=sg|g=g	9	amod	_
+9	punkti	S	sg=sg|g=g	6	obj	CHECK
+10	,	Z	_	15	punct	_
+11	millest	P	pl=pl|el=el	15	obj	_
+12	te	P	pl=pl|n=n	15	nsubj	_
+13	aru	S	sg=sg|p=p	15	obj	_
+14	ei	V	neg=neg	15	aux	_
+15	saa	V	o=o	9	acl:relcl	_
+16	.	Z	_	6	punct	_
+
+# sent_id = 311473
+# text = Umbes nõnda on mõned meediakanalid eeloleva reede sündmu-si juba paar aastat “ ette näinud ” .
+1	Umbes	D	_	2	advmod	_
+2	nõnda	D	_	14	advmod	_
+3	on	V	b=b	14	aux	_
+4	mõned	P	pl=pl|n=n	5	det	_
+5	meediakanalid	S	pl=pl|n=n	14	nsubj	_
+6	eeloleva	A	sg=sg|g=g	7	acl	_
+7	reede	S	sg=sg|g=g	14	obl	_
+8	sündmu-si	S	pl=pl|p=p	14	obj	CHECK
+9	juba	D	_	14	advmod	_
+10	paar	N	sg=sg|n=n	11	nummod	_
+11	aastat	S	sg=sg|p=p	14	obl	_
+12	“	Z	_	14	punct	_
+13	ette	D	_	14	compound:prt	_
+14	näinud	A	_	0	root	_
+15	”	Z	_	14	punct	_
+16	.	Z	_	14	punct	_
+
+# sent_id = 7200038
+# text = Vahepeal arutas meeleheitele aetud peamaja aga isegi nn “ Hansapanga-varianti ” , mis näinuks ette osanikpankadelt koore riisumist ja selle põhjal uue panga asutamist .
+1	Vahepeal	D	_	2	advmod	_
+2	arutas	V	s=s	0	root	_
+3	meeleheitele	S	sg=sg|all=all	4	obl	_
+4	aetud	V	tud=tud	5	acl	_
+5	peamaja	S	sg=sg|n=n	2	nsubj	_
+6	aga	J	_	2	advmod	_
+7	isegi	D	_	2	advmod	_
+8	nn	Y	?=?	10	nmod	_
+9	“	Z	_	10	punct	_
+10	Hansapanga-varianti	S	sg=sg|p=p	2	obj	_
+11	”	Z	_	10	punct	_
+12	,	Z	_	14	punct	_
+13	mis	P	pl=pl|n=n	14	nsubj	_
+14	näinuks	V	nuks=nuks	10	acl:relcl	_
+15	ette	D	_	14	compound:prt	_
+16	osanikpankadelt	S	pl=pl|abl=abl	17	nmod	_
+17	koore	S	sg=sg|g=g	14	obj	_
+18	riisumist	S	sg=sg|p=p	14	obj	CHECK
+19	ja	J	_	24	cc	_
+20	selle	P	sg=sg|g=g	24	nmod	_
+21	põhjal	K	_	20	case	_
+22	uue	A	sg=sg|g=g	23	amod	_
+23	panga	S	sg=sg|g=g	24	nmod	_
+24	asutamist	S	sg=sg|p=p	18	conj	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 2774009
+# text = Viimase aja sündmused ei ole muutnud Iisraeli valmisolekut diplomaatiliste kontaktide jätkamiseks ja rahu saavutamiseks vastavalt sellele , kuidas on ( USA ) president ( George Walker ) Bush ette näinud . "
+1	Viimase	A	sg=sg|g=g	2	amod	_
+2	aja	S	sg=sg|g=g	3	nmod	_
+3	sündmused	S	pl=pl|n=n	6	obl	_
+4	ei	V	neg=neg	6	aux	_
+5	ole	V	o=o	6	aux	_
+6	muutnud	A	sg=sg|n=n	0	root	_
+7	Iisraeli	H	sg=sg|g=g	8	nmod	_
+8	valmisolekut	S	sg=sg|p=p	6	obj	_
+9	diplomaatiliste	A	pl=pl|g=g	10	amod	_
+10	kontaktide	S	pl=pl|g=g	11	nmod	_
+11	jätkamiseks	S	sg=sg|tr=tr	8	nmod	_
+12	ja	J	_	14	cc	_
+13	rahu	S	sg=sg|g=g	14	nmod	_
+14	saavutamiseks	S	sg=sg|tr=tr	11	conj	_
+15	vastavalt	K	_	16	case	_
+16	sellele	P	sg=sg|all=all	6	obl	_
+17	,	Z	_	30	punct	_
+18	kuidas	D	_	30	mark	_
+19	on	V	vad=vad	30	aux	_
+20	(	Z	_	21	punct	_
+21	USA	Y	?=?	23	parataxis	_
+22	)	Z	_	21	punct	_
+23	president	S	sg=sg|n=n	30	nsubj	_
+24	(	Z	_	25	punct	_
+25	George	H	pl=pl|p=p	23	appos	_
+26	Walker	H	sg=sg|n=n	25	flat	_
+27	)	Z	_	25	punct	_
+28	Bush	H	sg=sg|n=n	30	obj	CHECK
+29	ette	D	_	30	compound:prt	_
+30	näinud	V	nud=nud	16	acl	_
+31	.	Z	_	6	punct	_
+32	"	Z	_	6	punct	_
+
+# sent_id = 5592195
+# text = Ka autojuhti pole linn ette näinud .
+1	Ka	D	_	2	advmod	_
+2	autojuhti	S	adt=adt	6	obj	CHECK
+3	pole	V	neg=neg|o=o	6	aux	_
+4	linn	S	sg=sg|n=n	6	obj	_
+5	ette	D	_	6	compound:prt	_
+6	näinud	A	sg=sg|n=n	0	root	_
+7	.	Z	_	6	punct	_
+
+# sent_id = 1554768
+# text = Aga ta tunnistab , et enamasti piirdutakse ka Kosovos nelja treeningutunniga nädalas , mida meiegi kaitseväeseadus ette näib .
+1	Aga	J	_	3	cc	_
+2	ta	P	sg=sg|n=n	3	nsubj	_
+3	tunnistab	V	b=b	0	root	_
+4	,	Z	_	7	punct	_
+5	et	J	_	7	mark	_
+6	enamasti	D	_	7	advmod	_
+7	piirdutakse	V	takse=takse	3	ccomp	_
+8	ka	D	_	7	advmod	_
+9	Kosovos	H	sg=sg|in=in	7	nsubj	_
+10	nelja	N	sg=sg|g=g	11	nummod	_
+11	treeningutunniga	S	sg=sg|kom=kom	7	nsubj	_
+12	nädalas	S	sg=sg|in=in	11	nmod	_
+13	,	Z	_	18	punct	_
+14	mida	P	sg=sg|p=p	18	obj	CHECK
+15	meiegi	P	pl=pl|n=n	18	nsubj	_
+16	kaitseväeseadus	S	sg=sg|n=n	18	obl	_
+17	ette	D	_	18	compound:prt	_
+18	näib	V	b=b	11	acl:relcl	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 4454160
+# text = Hetkel on selline olukord , et FIFA on meile mingi raha ette näinud , mis on vaja ära kulutada .
+1	Hetkel	S	sg=sg|ad=ad	0	root	_
+2	on	V	vad=vad	1	cop	_
+3	selline	P	sg=sg|n=n	4	det	_
+4	olukord	S	sg=sg|n=n	1	nsubj:cop	_
+5	,	Z	_	13	punct	_
+6	et	J	_	13	mark	_
+7	FIFA	Y	?=?	13	obl	_
+8	on	V	vad=vad	13	aux	_
+9	meile	P	pl=pl|all=all	13	nsubj	_
+10	mingi	P	sg=sg|n=n	11	det	_
+11	raha	S	sg=sg|n=n	13	obj	CHECK
+12	ette	D	_	13	compound:prt	_
+13	näinud	A	_	4	acl	_
+14	,	Z	_	16	punct	_
+15	mis	P	pl=pl|n=n	16	nsubj	_
+16	on	V	vad=vad	13	conj	_
+17	vaja	D	_	16	compound:prt	_
+18	ära	D	_	19	compound:prt	_
+19	kulutada	V	da=da	16	csubj	_
+20	.	Z	_	1	punct	_
+

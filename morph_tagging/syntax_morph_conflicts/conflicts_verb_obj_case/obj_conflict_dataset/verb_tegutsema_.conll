@@ -1,0 +1,260 @@
+# sent_id = 175081
+# text = “ Need , kes tegutsevad 90-ndate alguse vabaduse vaimus , võiksid oma tegude üle järele mõelda .
+1	“	Z	_	16	punct	_
+2	Need	P	pl=pl|n=n	16	nsubj	_
+3	,	Z	_	5	punct	_
+4	kes	P	pl=pl|n=n	5	nsubj	_
+5	tegutsevad	V	vad=vad	2	acl:relcl	_
+6	90-ndate	O	pl=pl|g=g	7	amod	_
+7	alguse	S	sg=sg|g=g	5	obj	CHECK
+8	vabaduse	S	sg=sg|g=g	9	nmod	_
+9	vaimus	S	sg=sg|in=in	5	obl	_
+10	,	Z	_	5	punct	_
+11	võiksid	V	ksid=ksid	16	aux	_
+12	oma	P	sg=sg|g=g	13	nmod	_
+13	tegude	S	pl=pl|g=g	16	obj	_
+14	üle	K	_	13	case	_
+15	järele	D	_	16	compound:prt	_
+16	mõelda	V	da=da	0	root	_
+17	.	Z	_	16	punct	_
+
+# sent_id = 695895
+# text = Tegutsen juba nädalapäevad peanäitejuhi ametis , olen kohtunud lavastajatega , kõigil on konkreetsed plaanid olemas .
+1	Tegutsen	V	n=n	0	root	_
+2	juba	D	_	1	advmod	_
+3	nädalapäevad	S	pl=pl|n=n	1	obl	CHECK
+4	peanäitejuhi	S	sg=sg|g=g	5	nmod	_
+5	ametis	S	sg=sg|in=in	1	obl	_
+6	,	Z	_	8	punct	_
+7	olen	V	n=n	8	aux	_
+8	kohtunud	A	_	1	conj	_
+9	lavastajatega	S	pl=pl|kom=kom	8	obj	_
+10	,	Z	_	12	punct	_
+11	kõigil	P	pl=pl|ad=ad	12	nsubj	_
+12	on	V	b=b	1	conj	_
+13	konkreetsed	A	pl=pl|n=n	14	amod	_
+14	plaanid	S	pl=pl|n=n	12	nsubj	_
+15	olemas	V	mas=mas	12	xcomp	_
+16	.	Z	_	1	punct	_
+
+# sent_id = 13996251
+# text = Ta tahtis laenu oma mitmetele ettevõtetele Eestis , mis väidetavalt ka kõik hoogsalt tegutsesid .
+1	Ta	P	sg=sg|n=n	2	nsubj	_
+2	tahtis	V	s=s	0	root	_
+3	laenu	S	sg=sg|p=p	2	obj	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	mitmetele	P	pl=pl|all=all	6	det	_
+6	ettevõtetele	S	pl=pl|all=all	2	obj	_
+7	Eestis	H	sg=sg|in=in	6	appos	_
+8	,	Z	_	14	punct	_
+9	mis	P	sg=sg|n=n	14	nsubj	_
+10	väidetavalt	D	_	14	advmod	_
+11	ka	D	_	14	advmod	_
+12	kõik	P	sg=sg|n=n	14	nsubj	CHECK
+13	hoogsalt	D	_	14	advmod	_
+14	tegutsesid	V	sid=sid	7	acl:relcl	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 869398
+# text = " Haldur on solvunud sellepärast , et väljapääsu otsiv tankla tegutses lube oodates ilma nendeta vähem kui nädala , aga : " Need , kes aastaid ilma tegutsevad , panevad rahulikult edasi . "
+1	"	Z	_	4	punct	_
+2	Haldur	S	sg=sg|n=n	4	nsubj	_
+3	on	V	vad=vad	4	aux	_
+4	solvunud	A	pl=pl|n=n	0	root	_
+5	sellepärast	D	_	4	advmod	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	väljapääsu	S	sg=sg|g=g	9	obj	_
+9	otsiv	A	sg=sg|n=n	10	acl	_
+10	tankla	S	sg=sg|n=n	11	nsubj	_
+11	tegutses	V	s=s	4	csubj	_
+12	lube	S	pl=pl|p=p	11	nsubj	CHECK
+13	oodates	V	des=des	12	acl	_
+14	ilma	K	_	15	case	_
+15	nendeta	P	pl=pl|ab=ab	16	obl	_
+16	vähem	D	_	13	advmod	_
+17	kui	J	_	18	mark	_
+18	nädala	S	sg=sg|g=g	16	advcl	_
+19	,	Z	_	30	punct	_
+20	aga	J	_	30	cc	_
+21	:	Z	_	30	punct	_
+22	"	Z	_	30	punct	_
+23	Need	P	pl=pl|n=n	30	nsubj	_
+24	,	Z	_	28	punct	_
+25	kes	P	pl=pl|n=n	28	nsubj	_
+26	aastaid	S	pl=pl|p=p	28	obl	_
+27	ilma	D	_	28	compound:prt	_
+28	tegutsevad	V	vad=vad	23	acl:relcl	_
+29	,	Z	_	28	punct	_
+30	panevad	V	vad=vad	11	parataxis	_
+31	rahulikult	D	_	30	advmod	_
+32	edasi	D	_	30	compound:prt	_
+33	.	Z	_	30	punct	_
+34	"	Z	_	30	punct	_
+
+# sent_id = 307922
+# text = USA on varemgi tegutsenud oma valuutat nõrgendavalt , et tõsta riigi konkurentsivõimet ning reeglina on keskpankade ühisinterventsioonid tulemuseni jõudnud ( tavaliselt mõnekuise viivitusega ) .
+1	USA	Y	?=?	4	nsubj	_
+2	on	V	b=b	4	aux	_
+3	varemgi	D	_	4	advmod	_
+4	tegutsenud	V	nud=nud	0	root	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	valuutat	S	sg=sg|p=p	4	obl	CHECK
+7	nõrgendavalt	D	_	4	advmod	_
+8	,	Z	_	10	punct	_
+9	et	J	_	10	mark	_
+10	tõsta	V	da=da	4	advcl	_
+11	riigi	S	sg=sg|g=g	12	nmod	_
+12	konkurentsivõimet	S	sg=sg|p=p	10	obj	_
+13	ning	J	_	19	cc	_
+14	reeglina	S	sg=sg|es=es	19	obl	_
+15	on	V	b=b	19	aux	_
+16	keskpankade	S	pl=pl|g=g	17	nmod	_
+17	ühisinterventsioonid	S	pl=pl|n=n	18	nmod	_
+18	tulemuseni	S	sg=sg|ter=ter	19	nsubj	_
+19	jõudnud	A	pl=pl|n=n	10	conj	_
+20	(	Z	_	23	punct	_
+21	tavaliselt	D	_	23	advmod	_
+22	mõnekuise	A	sg=sg|g=g	23	amod	_
+23	viivitusega	S	sg=sg|kom=kom	19	parataxis	_
+24	)	Z	_	23	punct	_
+25	.	Z	_	4	punct	_
+
+# sent_id = 705924
+# text = On organisatsioone , kes alles otsivad end , samas on ordusid , kes aastasadu tegutsenud ja väga kindlad .
+1	On	V	vad=vad	0	root	_
+2	organisatsioone	S	pl=pl|p=p	1	nsubj	_
+3	,	Z	_	6	punct	_
+4	kes	P	sg=sg|n=n	6	nsubj	_
+5	alles	D	_	6	advmod	_
+6	otsivad	V	vad=vad	2	acl:relcl	_
+7	end	P	sg=sg|p=p	6	obj	_
+8	,	Z	_	11	punct	_
+9	samas	P	sg=sg|in=in	11	advmod	_
+10	on	V	b=b	11	cop	_
+11	ordusid	S	pl=pl|p=p	6	conj	_
+12	,	Z	_	15	punct	_
+13	kes	P	pl=pl|n=n	15	nsubj	_
+14	aastasadu	S	pl=pl|p=p	15	obl	CHECK
+15	tegutsenud	A	pl=pl|n=n	11	acl:relcl	_
+16	ja	J	_	18	cc	_
+17	väga	D	_	18	advmod	_
+18	kindlad	A	pl=pl|n=n	15	conj	_
+19	.	Z	_	1	punct	_
+
+# sent_id = 5935677
+# text = " Nii teevad anonüümset entsüklopeediat fännid , kes ei tegutse omale nime tegemise pärast , vaid kellele pakub naudingut sisu .
+1	"	Z	_	3	punct	_
+2	Nii	D	_	3	advmod	_
+3	teevad	V	vad=vad	0	root	_
+4	anonüümset	A	sg=sg|p=p	5	amod	_
+5	entsüklopeediat	S	sg=sg|p=p	3	obj	_
+6	fännid	S	pl=pl|n=n	3	nsubj	_
+7	,	Z	_	10	punct	_
+8	kes	P	pl=pl|n=n	10	nsubj	_
+9	ei	V	neg=neg	10	aux	_
+10	tegutse	V	o=o	6	acl:relcl	_
+11	omale	P	sg=sg|all=all	12	nmod	_
+12	nime	S	sg=sg|p=p	13	nmod	CHECK
+13	tegemise	S	sg=sg|g=g	10	obl	_
+14	pärast	K	_	13	case	_
+15	,	Z	_	18	punct	_
+16	vaid	J	_	18	cc	_
+17	kellele	P	pl=pl|all=all	18	nsubj	_
+18	pakub	V	b=b	10	conj	_
+19	naudingut	S	sg=sg|p=p	20	nmod	_
+20	sisu	S	sg=sg|n=n	18	obj	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 5975752
+# text = Seega on usaldusväärsuse ja eetilisuse küsimus aktuaalne veel ka täna , kuigi säästuoperaatorid Diil , Bravocom , TeleYks ja Tele2.net on turul tegutsenud kõik juba peaaegu aasta .
+1	Seega	D	_	7	advmod	_
+2	on	V	b=b	7	cop	_
+3	usaldusväärsuse	S	sg=sg|g=g	6	nmod	_
+4	ja	J	_	5	cc	_
+5	eetilisuse	S	sg=sg|g=g	3	conj	_
+6	küsimus	S	sg=sg|n=n	7	nsubj:cop	_
+7	aktuaalne	A	sg=sg|n=n	0	root	_
+8	veel	D	_	10	advmod	_
+9	ka	D	_	10	advmod	_
+10	täna	D	_	7	advmod	_
+11	,	Z	_	25	punct	_
+12	kuigi	D	_	25	mark	_
+13	säästuoperaatorid	S	pl=pl|n=n	25	nsubj	_
+14	Diil	H	sg=sg|n=n	13	appos	_
+15	,	Z	_	16	punct	_
+16	Bravocom	H	sg=sg|n=n	14	conj	_
+17	,	Z	_	18	punct	_
+18	TeleYks	H	sg=sg|n=n	14	conj	_
+19	ja	J	_	20	cc	_
+20	Tele2	Y	?=?	14	conj	_
+21	.	Z	_	25	punct	_
+22	net	S	sg=sg|n=n	25	obl	_
+23	on	V	vad=vad	25	aux	_
+24	turul	S	sg=sg|ad=ad	25	nsubj	_
+25	tegutsenud	A	_	7	advcl	_
+26	kõik	P	pl=pl|n=n	25	nsubj	CHECK
+27	juba	D	_	28	advmod	_
+28	peaaegu	D	_	29	advmod	_
+29	aasta	S	sg=sg|g=g	25	obl	_
+30	.	Z	_	7	punct	_
+
+# sent_id = 240203
+# text = Üheksakümnendate alguses tegutses ta väga jõuliselt maa lõuna- ja lääneosas - värbas inimesi , maksis neile raha .
+1	Üheksakümnendate	O	pl=pl|g=g	2	amod	_
+2	alguses	S	sg=sg|in=in	3	obl	_
+3	tegutses	V	s=s	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	väga	D	_	6	advmod	_
+6	jõuliselt	D	_	3	advmod	_
+7	maa	S	sg=sg|g=g	8	nmod	CHECK
+8	lõuna-	S	sg=sg|g=g	3	obl	_
+9	ja	J	_	10	cc	_
+10	lääneosas	S	sg=sg|in=in	8	conj	_
+11	-	Z	_	12	punct	_
+12	värbas	V	s=s	3	parataxis	_
+13	inimesi	S	pl=pl|p=p	12	obj	_
+14	,	Z	_	15	punct	_
+15	maksis	V	s=s	3	conj	_
+16	neile	P	pl=pl|all=all	15	obj	_
+17	raha	S	sg=sg|p=p	15	obj	_
+18	.	Z	_	3	punct	_
+
+# sent_id = 590959
+# text = 22. aprillist saavad golfihuvilised mängida Eesti seni ainukesel golfiväljakul Niitväljal , mis tegutseb seitsmendat hooaega .
+1	22.	O	?=?	2	amod	_
+2	aprillist	S	sg=sg|el=el	3	obl	_
+3	saavad	V	vad=vad	5	aux	_
+4	golfihuvilised	S	pl=pl|n=n	5	obj	_
+5	mängida	V	da=da	0	root	_
+6	Eesti	H	sg=sg|g=g	5	nsubj	_
+7	seni	D	_	5	advmod	_
+8	ainukesel	A	sg=sg|ad=ad	9	amod	_
+9	golfiväljakul	S	sg=sg|ad=ad	5	obj	_
+10	Niitväljal	S	sg=sg|ad=ad	9	appos	_
+11	,	Z	_	13	punct	_
+12	mis	P	pl=pl|n=n	13	nsubj	_
+13	tegutseb	V	b=b	10	acl:relcl	_
+14	seitsmendat	O	sg=sg|p=p	15	amod	_
+15	hooaega	S	sg=sg|p=p	13	obl	CHECK
+16	.	Z	_	5	punct	_
+
+# sent_id = 14527380
+# text = " Praegu me ei tunne , et politsei meid aitavalt tegutseks , ” ütles Ainjärv .
+1	"	Z	_	5	punct	_
+2	Praegu	D	_	5	advmod	_
+3	me	P	pl=pl|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	tunne	V	o=o	0	root	_
+6	,	Z	_	11	punct	_
+7	et	J	_	11	mark	_
+8	politsei	S	sg=sg|n=n	11	nsubj	_
+9	meid	P	pl=pl|p=p	11	obj	CHECK
+10	aitavalt	D	_	11	advmod	_
+11	tegutseks	V	ks=ks	5	ccomp	_
+12	,	Z	_	5	punct	_
+13	”	Z	_	5	punct	_
+14	ütles	V	s=s	5	parataxis	_
+15	Ainjärv	H	sg=sg|n=n	14	nsubj	_
+16	.	Z	_	5	punct	_
+

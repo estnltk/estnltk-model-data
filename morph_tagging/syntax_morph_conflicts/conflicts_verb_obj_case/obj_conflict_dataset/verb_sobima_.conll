@@ -1,0 +1,570 @@
+# sent_id = 2221062
+# text = Saja-aastased soomallid lihtsalt ei sobi tänapäeva ühiskonda , arvab meestearst Margus Punab ja peab seda suurimaks probleemiks .
+1	Saja-aastased	A	pl=pl|n=n	2	amod	_
+2	soomallid	S	pl=pl|n=n	5	nsubj	_
+3	lihtsalt	D	_	5	advmod	_
+4	ei	V	neg=neg	5	aux	_
+5	sobi	V	o=o	0	root	_
+6	tänapäeva	S	sg=sg|g=g	7	nmod	_
+7	ühiskonda	S	sg=sg|p=p	5	nsubj	CHECK
+8	,	Z	_	9	punct	_
+9	arvab	V	b=b	5	conj	_
+10	meestearst	S	sg=sg|n=n	9	nsubj	_
+11	Margus	H	sg=sg|n=n	10	appos	_
+12	Punab	H	sg=sg|n=n	11	flat	_
+13	ja	J	_	17	cc	_
+14	peab	V	b=b	17	aux	_
+15	seda	P	sg=sg|p=p	17	nsubj:cop	_
+16	suurimaks	U	sg=sg|tr=tr	17	amod	_
+17	probleemiks	S	sg=sg|tr=tr	5	conj	_
+18	.	Z	_	5	punct	_
+
+# sent_id = 15127886
+# text = Siis tuletan endale meelde , et mänguga ma teenin küll raha , aga see pole kogu mu elu , » räägib Imre , kellele paaripäevasest eemalolekust täitsa piisab , sest ütleb endale selle elustiili sobivat .
+1	Siis	D	_	2	advmod	_
+2	tuletan	V	n=n	0	root	_
+3	endale	P	sg=sg|all=all	2	nsubj	_
+4	meelde	S	adt=adt	2	obl	_
+5	,	Z	_	9	punct	_
+6	et	J	_	9	mark	_
+7	mänguga	S	sg=sg|kom=kom	9	obl	_
+8	ma	P	sg=sg|n=n	9	nsubj	_
+9	teenin	V	n=n	2	ccomp	_
+10	küll	D	_	9	advmod	_
+11	raha	S	sg=sg|p=p	9	obj	_
+12	,	Z	_	18	punct	_
+13	aga	J	_	18	cc	_
+14	see	P	sg=sg|n=n	18	nsubj:cop	_
+15	pole	V	neg=neg|o=o	18	cop	_
+16	kogu	A	_	18	det	_
+17	mu	P	sg=sg|g=g	18	nmod	_
+18	elu	S	sg=sg|n=n	9	conj	_
+19	,	Z	_	2	punct	_
+20	»	Z	_	2	punct	_
+21	räägib	V	b=b	2	parataxis	_
+22	Imre	H	sg=sg|n=n	21	nsubj	_
+23	,	Z	_	28	punct	_
+24	kellele	P	sg=sg|all=all	28	nsubj	_
+25	paaripäevasest	A	sg=sg|el=el	26	amod	_
+26	eemalolekust	S	sg=sg|el=el	28	obl	_
+27	täitsa	D	_	28	advmod	_
+28	piisab	V	b=b	22	acl:relcl	_
+29	,	Z	_	31	punct	_
+30	sest	J	_	31	mark	_
+31	ütleb	V	b=b	28	advcl	_
+32	endale	P	sg=sg|all=all	31	obl	_
+33	selle	P	sg=sg|g=g	34	det	_
+34	elustiili	S	sg=sg|g=g	35	obj	CHECK
+35	sobivat	V	vat=vat	31	ccomp	_
+36	.	Z	_	2	punct	_
+
+# sent_id = 3741257
+# text = Shanghai võimud kaalusid ameeriklasele isegi linna aukodaniku tiitli andmist , kuid otsustasid lõpuks ikkagi , et nii mitmel kohal seadustega pahuksisse läinud mees ei sobi tunnustuse osaliseks .
+1	Shanghai	H	sg=sg|g=g	0	root	_
+2	võimud	S	pl=pl|n=n	3	nmod	_
+3	kaalusid	S	pl=pl|p=p	4	nmod	_
+4	ameeriklasele	S	sg=sg|all=all	1	obj	_
+5	isegi	D	_	6	advmod	_
+6	linna	S	sg=sg|g=g	9	nmod	_
+7	aukodaniku	S	sg=sg|g=g	8	nmod	_
+8	tiitli	S	sg=sg|g=g	9	nmod	_
+9	andmist	S	sg=sg|p=p	1	obl	_
+10	,	Z	_	12	punct	_
+11	kuid	J	_	12	cc	_
+12	otsustasid	V	sid=sid	1	conj	_
+13	lõpuks	D	_	12	advmod	_
+14	ikkagi	D	_	12	advmod	_
+15	,	Z	_	25	punct	_
+16	et	J	_	25	mark	_
+17	nii	D	_	18	advmod	_
+18	mitmel	P	sg=sg|ad=ad	19	det	_
+19	kohal	S	sg=sg|ad=ad	22	advmod	_
+20	seadustega	S	pl=pl|kom=kom	22	obl	_
+21	pahuksisse	D	_	22	advmod	_
+22	läinud	A	_	23	acl	_
+23	mees	S	sg=sg|n=n	25	nsubj	_
+24	ei	V	neg=neg	25	aux	_
+25	sobi	V	o=o	12	ccomp	_
+26	tunnustuse	S	sg=sg|g=g	27	nmod	CHECK
+27	osaliseks	A	sg=sg|tr=tr	25	obl	_
+28	.	Z	_	1	punct	_
+
+# sent_id = 10455828
+# text = Alternatiiviks KMÜle ei pruugi sugugi olla opositsiooni valimisliit , vaid pigem sobib selleks end KMÜle vastandavate erakondade koostöö ja sisuline valmisolek ühise valitsuse moodustamiseks pärast Riigikogu valimist .
+1	Alternatiiviks	S	sg=sg|tr=tr	4	nsubj	_
+2	KMÜle	Y	sg=sg|all=all	1	nmod	_
+3	ei	V	neg=neg	4	aux	_
+4	pruugi	V	o=o	0	root	_
+5	sugugi	D	_	4	advmod	_
+6	olla	V	da=da	4	aux	_
+7	opositsiooni	S	sg=sg|g=g	8	nmod	_
+8	valimisliit	S	sg=sg|n=n	4	obl	_
+9	,	Z	_	12	punct	_
+10	vaid	J	_	12	cc	_
+11	pigem	D	_	12	advmod	_
+12	sobib	V	b=b	4	conj	_
+13	selleks	P	sg=sg|tr=tr	12	nsubj	_
+14	end	Y	?=?	16	obj	CHECK
+15	KMÜle	Y	sg=sg|all=all	16	obl	_
+16	vastandavate	A	pl=pl|g=g	17	acl	_
+17	erakondade	S	pl=pl|g=g	18	nmod	_
+18	koostöö	S	sg=sg|n=n	12	nsubj	_
+19	ja	J	_	21	cc	_
+20	sisuline	A	sg=sg|n=n	21	amod	_
+21	valmisolek	S	sg=sg|n=n	18	conj	_
+22	ühise	A	sg=sg|g=g	23	amod	_
+23	valitsuse	S	sg=sg|g=g	24	nmod	_
+24	moodustamiseks	S	sg=sg|tr=tr	21	nmod	_
+25	pärast	K	_	27	case	_
+26	Riigikogu	S	sg=sg|g=g	27	nmod	_
+27	valimist	S	sg=sg|el=el	24	nmod	_
+28	.	Z	_	4	punct	_
+
+# sent_id = 273086
+# text = Et väljend “ ebasünnis mõjutamine ” oma ähmasuse tõttu kriminaalkonteksti ei sobi , on tehtud ettepanek presumeerida sellist mõjustamist , kui ilmneb , et kannatanut näiteks peibutati materiaalselt või kui kuritarvitati usaldus- või sõltuvussuhet ( 495 ) .
+1	Et	J	_	12	mark	_
+2	väljend	S	sg=sg|n=n	12	nsubj	_
+3	“	Z	_	5	punct	_
+4	ebasünnis	A	sg=sg|n=n	5	amod	_
+5	mõjutamine	S	sg=sg|n=n	2	appos	_
+6	”	Z	_	5	punct	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	ähmasuse	S	sg=sg|g=g	12	obl	_
+9	tõttu	K	_	8	case	_
+10	kriminaalkonteksti	S	sg=sg|p=p	12	obl	CHECK
+11	ei	V	neg=neg	12	aux	_
+12	sobi	V	o=o	15	advcl	_
+13	,	Z	_	12	punct	_
+14	on	V	vad=vad	15	aux	_
+15	tehtud	A	pl=pl|n=n	0	root	_
+16	ettepanek	S	sg=sg|n=n	15	obj	_
+17	presumeerida	V	da=da	16	acl	_
+18	sellist	P	sg=sg|p=p	19	det	_
+19	mõjustamist	S	sg=sg|p=p	17	obj	_
+20	,	Z	_	22	punct	_
+21	kui	D	_	22	mark	_
+22	ilmneb	V	b=b	15	advcl	_
+23	,	Z	_	27	punct	_
+24	et	J	_	27	mark	_
+25	kannatanut	S	sg=sg|p=p	27	nsubj	_
+26	näiteks	S	sg=sg|tr=tr	27	advmod	_
+27	peibutati	V	ti=ti	22	csubj	_
+28	materiaalselt	D	_	27	advmod	_
+29	või	J	_	31	cc	_
+30	kui	J	_	31	mark	_
+31	kuritarvitati	V	ti=ti	27	conj	_
+32	usaldus-	S	sg=sg|n=n	31	obj	_
+33	või	J	_	34	cc	_
+34	sõltuvussuhet	S	sg=sg|p=p	32	conj	_
+35	(	Z	_	36	punct	_
+36	495	N	?=?	15	parataxis	_
+37	)	Z	_	36	punct	_
+38	.	Z	_	15	punct	_
+
+# sent_id = 12806319
+# text = Mulluse ERKI moesõu aegu esitles ta kostüüme , mis kontseptuaalselt sobisid « Tii » -loo idee ja värvigammaga .
+1	Mulluse	H	sg=sg|g=g	3	nmod	_
+2	ERKI	H	sg=sg|g=g	1	flat	_
+3	moesõu	S	sg=sg|g=g	5	obl	_
+4	aegu	K	_	3	case	_
+5	esitles	V	s=s	0	root	_
+6	ta	P	sg=sg|g=g	5	nsubj	_
+7	kostüüme	S	pl=pl|p=p	5	obj	_
+8	,	Z	_	11	punct	_
+9	mis	P	sg=sg|n=n	11	nsubj	_
+10	kontseptuaalselt	D	_	11	advmod	_
+11	sobisid	V	sid=sid	7	acl:relcl	_
+12	«	Z	_	13	punct	_
+13	Tii	H	sg=sg|n=n	11	obl	_
+14	»	Z	_	13	flat	_
+15	-	Z	_	13	punct	_
+16	loo	S	sg=sg|g=g	17	nmod	CHECK
+17	idee	S	sg=sg|g=g	11	obl	_
+18	ja	J	_	19	cc	_
+19	värvigammaga	S	sg=sg|kom=kom	17	conj	_
+20	.	Z	_	5	punct	_
+
+# sent_id = 8416803
+# text = Külameeste jutt , millest sulpsavad ootamatult ja hetkeks pinnale kontekstiga lõdvalt seotud , tähendusrikastena tunduvad ambivalentsed lausungid , mis nagu ei sobiks külameeste kõne diskursusesse , aga pole ka päris sententsi väärtusega .
+1	Külameeste	S	pl=pl|g=g	2	nmod	_
+2	jutt	S	sg=sg|n=n	15	nsubj	_
+3	,	Z	_	5	punct	_
+4	millest	P	pl=pl|el=el	5	nsubj	_
+5	sulpsavad	V	vad=vad	2	acl:relcl	_
+6	ootamatult	D	_	12	advmod	_
+7	ja	J	_	8	cc	_
+8	hetkeks	S	sg=sg|tr=tr	6	conj	_
+9	pinnale	S	sg=sg|all=all	10	nmod	_
+10	kontekstiga	S	sg=sg|kom=kom	12	obj	_
+11	lõdvalt	D	_	12	advmod	_
+12	seotud	V	tud=tud	5	conj	_
+13	,	Z	_	5	punct	_
+14	tähendusrikastena	A	pl=pl|es=es	15	nsubj	_
+15	tunduvad	V	vad=vad	0	root	_
+16	ambivalentsed	A	pl=pl|n=n	17	amod	_
+17	lausungid	S	pl=pl|n=n	15	obj	_
+18	,	Z	_	22	punct	_
+19	mis	P	sg=sg|n=n	22	nsubj	_
+20	nagu	J	_	22	mark	_
+21	ei	V	neg=neg	22	aux	_
+22	sobiks	V	ks=ks	17	acl:relcl	_
+23	külameeste	S	pl=pl|g=g	24	nmod	_
+24	kõne	S	sg=sg|g=g	22	obl	CHECK
+25	diskursusesse	S	sg=sg|ill=ill	22	obl	_
+26	,	Z	_	32	punct	_
+27	aga	J	_	32	cc	_
+28	pole	V	neg=neg|o=o	32	cop	_
+29	ka	D	_	32	advmod	_
+30	päris	A	_	31	advmod	_
+31	sententsi	S	sg=sg|g=g	32	nmod	_
+32	väärtusega	S	sg=sg|kom=kom	22	conj	_
+33	.	Z	_	15	punct	_
+
+# sent_id = 3266383
+# text = Siis pole ohtu , et esitatakse projekt , mis meetme raamesse ei sobi .
+1	Siis	D	_	0	root	_
+2	pole	V	neg=neg|o=o	1	cop	_
+3	ohtu	S	sg=sg|p=p	1	nsubj:cop	_
+4	,	Z	_	6	punct	_
+5	et	J	_	6	mark	_
+6	esitatakse	V	takse=takse	1	ccomp	_
+7	projekt	S	sg=sg|n=n	6	obj	_
+8	,	Z	_	13	punct	_
+9	mis	P	sg=sg|n=n	13	nsubj	_
+10	meetme	S	sg=sg|g=g	13	obj	CHECK
+11	raamesse	S	pl=pl|ill=ill	13	obl	_
+12	ei	V	neg=neg	13	aux	_
+13	sobi	V	o=o	7	acl:relcl	_
+14	.	Z	_	1	punct	_
+
+# sent_id = 8082065
+# text = Arvukad õdusad hoovid , mis potentsiaalilt kõik hästi suviseks istumispaigaks sobiksid , on kas üldse välja surnud või sisustatud paari luitunud plastmasstooli ja pleekinud Coca-Cola päevavarjuga .
+1	Arvukad	A	pl=pl|n=n	3	amod	_
+2	õdusad	A	pl=pl|n=n	3	amod	_
+3	hoovid	S	pl=pl|n=n	17	nsubj:cop	_
+4	,	Z	_	11	punct	_
+5	mis	P	pl=pl|n=n	11	nsubj	_
+6	potentsiaalilt	S	sg=sg|abl=abl	11	obl	_
+7	kõik	P	sg=sg|n=n	10	det	CHECK
+8	hästi	D	_	9	advmod	_
+9	suviseks	A	sg=sg|tr=tr	10	amod	_
+10	istumispaigaks	S	sg=sg|tr=tr	11	obl	_
+11	sobiksid	V	ksid=ksid	3	acl:relcl	_
+12	,	Z	_	11	punct	_
+13	on	V	vad=vad	17	cop	_
+14	kas	D	_	17	advmod	_
+15	üldse	D	_	17	advmod	_
+16	välja	D	_	17	compound:prt	_
+17	surnud	A	pl=pl|n=n	0	root	_
+18	või	J	_	19	cc	_
+19	sisustatud	A	_	17	conj	_
+20	paari	N	sg=sg|g=g	22	nummod	_
+21	luitunud	A	_	22	acl	_
+22	plastmasstooli	S	sg=sg|g=g	19	obj	_
+23	ja	J	_	24	cc	_
+24	pleekinud	A	pl=pl|n=n	17	conj	_
+25	Coca-Cola	H	sg=sg|n=n	26	nmod	_
+26	päevavarjuga	S	sg=sg|kom=kom	24	nsubj	_
+27	.	Z	_	17	punct	_
+
+# sent_id = 3801433
+# text = Oleks ta paarkümmend sentimeetrit madalam olnud või maja paarkümmend sentimeetrit madalamale " istutatud " , siis oleks ta ka keskkonda paremini sobinud .
+1	Oleks	V	ks=ks	5	aux	_
+2	ta	P	sg=sg|n=n	5	nsubj:cop	_
+3	paarkümmend	N	sg=sg|n=n	4	nummod	_
+4	sentimeetrit	S	sg=sg|p=p	5	obl	_
+5	madalam	C	sg=sg|n=n	0	root	_
+6	olnud	A	sg=sg|n=n	5	cop	_
+7	või	J	_	13	cc	_
+8	maja	S	sg=sg|g=g	13	obj	_
+9	paarkümmend	N	sg=sg|n=n	10	nummod	_
+10	sentimeetrit	S	sg=sg|p=p	11	obl	_
+11	madalamale	D	_	13	advmod	_
+12	"	Z	_	13	punct	_
+13	istutatud	A	sg=sg|n=n	5	conj	_
+14	"	Z	_	13	punct	_
+15	,	Z	_	22	punct	_
+16	siis	D	_	22	advmod	_
+17	oleks	V	ks=ks	22	aux	_
+18	ta	P	sg=sg|n=n	22	nsubj	_
+19	ka	D	_	22	advmod	_
+20	keskkonda	S	sg=sg|p=p	22	obl	CHECK
+21	paremini	D	_	22	advmod	_
+22	sobinud	A	pl=pl|n=n	5	conj	_
+23	.	Z	_	5	punct	_
+
+# sent_id = 5175912
+# text = 5- ja 6käigulised käsi- ning 4- kui ka 5käigulised automaadid ei sobi küll kõik kõigi võimalike mootoritega , kuid pea igaks elujuhtumiks peaks leidma sobiva komplekti .
+1	5	N	?=?	5	parataxis	_
+2	-	Z	_	5	punct	_
+3	ja	J	_	4	cc	_
+4	6käigulised	A	pl=pl|n=n	1	conj	_
+5	käsi-	S	sg=sg|n=n	0	root	_
+6	ning	J	_	14	cc	_
+7	4	N	?=?	5	conj	_
+8	-	Z	_	12	punct	_
+9	kui	D	_	12	mark	_
+10	ka	D	_	12	advmod	_
+11	5käigulised	A	pl=pl|n=n	12	amod	_
+12	automaadid	S	pl=pl|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	sobi	V	o=o	5	advcl	_
+15	küll	D	_	14	advmod	_
+16	kõik	P	sg=sg|n=n	19	det	CHECK
+17	kõigi	P	pl=pl|g=g	19	det	_
+18	võimalike	A	pl=pl|g=g	19	amod	_
+19	mootoritega	S	pl=pl|kom=kom	14	nsubj	_
+20	,	Z	_	26	punct	_
+21	kuid	J	_	26	cc	_
+22	pea	V	o=o	26	aux	_
+23	igaks	P	sg=sg|tr=tr	24	det	_
+24	elujuhtumiks	S	sg=sg|tr=tr	26	nsubj	_
+25	peaks	V	ks=ks	26	aux	_
+26	leidma	V	ma=ma	14	conj	_
+27	sobiva	A	sg=sg|g=g	28	acl	_
+28	komplekti	S	sg=sg|g=g	26	obj	_
+29	.	Z	_	14	punct	_
+
+# sent_id = 893483
+# text = Otse emadepäeva eel on kirjastuselt Varrak meie raamatulettidele jõudnud raamat , milles avanev naisekäsitlus ja sellega seotud teemad justkui ei sobiks kauniks kujundatud pidupäeva : rahulolematus , umb-isikuline mürk , koduperenaise tõbi , sugudevaheline sõda , agressiivsus , üksindus , süütunne , vägivald , paanika , kaos , hul-
+1	Otse	D	_	2	advmod	_
+2	emadepäeva	S	sg=sg|g=g	9	obl	_
+3	eel	K	_	2	case	_
+4	on	V	b=b	9	aux	_
+5	kirjastuselt	S	sg=sg|abl=abl	9	obl	_
+6	Varrak	H	sg=sg|n=n	5	appos	_
+7	meie	P	pl=pl|g=g	8	nmod	_
+8	raamatulettidele	S	pl=pl|all=all	9	obl	_
+9	jõudnud	V	nud=nud	0	root	_
+10	raamat	S	sg=sg|n=n	9	nsubj	_
+11	,	Z	_	13	punct	_
+12	milles	P	pl=pl|in=in	13	nsubj	_
+13	avanev	A	sg=sg|n=n	10	acl:relcl	_
+14	naisekäsitlus	S	sg=sg|n=n	13	obj	_
+15	ja	J	_	18	cc	_
+16	sellega	P	sg=sg|kom=kom	17	obl	_
+17	seotud	A	pl=pl|n=n	18	acl	_
+18	teemad	S	pl=pl|n=n	14	conj	_
+19	justkui	D	_	21	mark	_
+20	ei	V	neg=neg	21	aux	_
+21	sobiks	V	ks=ks	10	acl	_
+22	kauniks	A	sg=sg|tr=tr	24	amod	_
+23	kujundatud	V	tud=tud	24	acl	_
+24	pidupäeva	S	sg=sg|g=g	21	nsubj	CHECK
+25	:	Z	_	26	punct	_
+26	rahulolematus	S	sg=sg|n=n	24	appos	_
+27	,	Z	_	29	punct	_
+28	umb-isikuline	A	sg=sg|n=n	29	amod	_
+29	mürk	S	sg=sg|n=n	26	conj	_
+30	,	Z	_	32	punct	_
+31	koduperenaise	S	sg=sg|g=g	32	nmod	_
+32	tõbi	S	sg=sg|n=n	26	conj	_
+33	,	Z	_	35	punct	_
+34	sugudevaheline	A	sg=sg|n=n	35	amod	_
+35	sõda	S	sg=sg|n=n	26	conj	_
+36	,	Z	_	37	punct	_
+37	agressiivsus	S	sg=sg|n=n	26	conj	_
+38	,	Z	_	39	punct	_
+39	üksindus	S	sg=sg|n=n	26	conj	_
+40	,	Z	_	41	punct	_
+41	süütunne	S	sg=sg|n=n	26	conj	_
+42	,	Z	_	43	punct	_
+43	vägivald	S	sg=sg|n=n	26	conj	_
+44	,	Z	_	45	punct	_
+45	paanika	S	sg=sg|n=n	26	conj	_
+46	,	Z	_	47	punct	_
+47	kaos	S	sg=sg|n=n	26	conj	_
+48	,	Z	_	49	punct	_
+49	hul	S	sg=sg|n=n	26	conj	_
+50	-	Z	_	9	punct	_
+
+# sent_id = 3536
+# text = Ennast suureks unistajaks tunnistav Madis arvab , et praegune mäng on täpselt see , mida temasugune “ noor ja energiline kutt ” tegema sobib .
+1	Ennast	P	sg=sg|p=p	4	obl	_
+2	suureks	A	sg=sg|tr=tr	3	amod	_
+3	unistajaks	S	sg=sg|tr=tr	4	obj	_
+4	tunnistav	A	sg=sg|n=n	5	acl	_
+5	Madis	H	sg=sg|n=n	6	nsubj	_
+6	arvab	V	b=b	0	root	_
+7	,	Z	_	13	punct	_
+8	et	J	_	13	mark	_
+9	praegune	A	sg=sg|n=n	10	amod	_
+10	mäng	S	sg=sg|n=n	13	nsubj:cop	_
+11	on	V	b=b	13	cop	_
+12	täpselt	D	_	13	advmod	_
+13	see	P	sg=sg|n=n	6	ccomp	_
+14	,	Z	_	24	punct	_
+15	mida	P	pl=pl|p=p	24	nsubj	CHECK
+16	temasugune	P	sg=sg|n=n	21	det	_
+17	“	Z	_	21	punct	_
+18	noor	A	sg=sg|n=n	21	amod	_
+19	ja	J	_	20	cc	_
+20	energiline	A	sg=sg|n=n	18	conj	_
+21	kutt	S	sg=sg|n=n	23	obj	_
+22	”	Z	_	21	punct	_
+23	tegema	V	ma=ma	13	acl:relcl	_
+24	sobib	V	b=b	13	acl:relcl	_
+25	.	Z	_	6	punct	_
+
+# sent_id = 3286718
+# text = Kuid president sobiks oma sõbraliku perepea olekuga ideaalselt vedavasse rolli .
+1	Kuid	J	_	3	cc	_
+2	president	S	sg=sg|n=n	3	nsubj	_
+3	sobiks	V	ks=ks	0	root	_
+4	oma	P	sg=sg|g=g	7	nmod	_
+5	sõbraliku	A	sg=sg|g=g	6	amod	_
+6	perepea	S	sg=sg|g=g	7	nmod	_
+7	olekuga	S	sg=sg|kom=kom	10	nmod	_
+8	ideaalselt	D	_	9	advmod	_
+9	vedavasse	A	sg=sg|ill=ill	10	acl	_
+10	rolli	S	sg=sg|p=p	3	obl	CHECK
+11	.	Z	_	3	punct	_
+
+# sent_id = 6727
+# text = Ma ei sobiks sinna keskkonda .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	sobiks	V	ks=ks	0	root	_
+4	sinna	D	_	3	advmod	_
+5	keskkonda	S	sg=sg|p=p	3	obl	CHECK
+6	.	Z	_	3	punct	_
+
+# sent_id = 1028085
+# text = Loomulikult eeldab muutuste läbiviimiseks vajaliku personali kriitilise massi saavutamine võtmeisikute vahetamist , ümberpaigutamist ja juurdetoomist , ehk otse välja öeldes - kellele ei sobi punktist A punkti B jõudmise plaan või kes ei sobi selle plaani osaks , see saab veidi " pappi " ja läheb mõnda teise ettevõttesse .
+1	Loomulikult	D	_	2	advmod	_
+2	eeldab	V	b=b	0	root	_
+3	muutuste	S	pl=pl|g=g	4	nmod	_
+4	läbiviimiseks	S	sg=sg|tr=tr	2	obj	_
+5	vajaliku	A	sg=sg|g=g	6	amod	_
+6	personali	S	sg=sg|g=g	2	obj	_
+7	kriitilise	A	sg=sg|g=g	8	amod	_
+8	massi	S	sg=sg|g=g	9	nmod	_
+9	saavutamine	S	sg=sg|n=n	2	obj	_
+10	võtmeisikute	S	pl=pl|g=g	11	nmod	_
+11	vahetamist	S	sg=sg|p=p	9	nmod	_
+12	,	Z	_	13	punct	_
+13	ümberpaigutamist	S	sg=sg|p=p	9	conj	_
+14	ja	J	_	15	cc	_
+15	juurdetoomist	S	sg=sg|p=p	11	conj	_
+16	,	Z	_	20	punct	_
+17	ehk	J	_	20	cc	_
+18	otse	D	_	20	advmod	_
+19	välja	D	_	20	compound:prt	_
+20	öeldes	V	des=des	2	conj	_
+21	-	Z	_	24	punct	_
+22	kellele	P	pl=pl|all=all	24	nsubj	_
+23	ei	V	neg=neg	24	aux	_
+24	sobi	V	o=o	20	parataxis	_
+25	punktist	S	sg=sg|el=el	24	obl	_
+26	A	Y	?=?	27	nummod	_
+27	punkti	S	sg=sg|g=g	29	nmod	_
+28	B	Y	?=?	29	nmod	_
+29	jõudmise	S	sg=sg|g=g	24	obl	_
+30	plaan	S	sg=sg|n=n	24	obj	_
+31	või	J	_	34	cc	_
+32	kes	P	sg=sg|n=n	34	nsubj	_
+33	ei	V	neg=neg	34	aux	_
+34	sobi	V	o=o	24	conj	_
+35	selle	P	sg=sg|g=g	36	det	_
+36	plaani	S	sg=sg|g=g	34	obj	CHECK
+37	osaks	S	sg=sg|tr=tr	34	obl	_
+38	,	Z	_	40	punct	_
+39	see	P	sg=sg|n=n	40	nsubj	_
+40	saab	V	b=b	34	conj	_
+41	veidi	D	_	43	advmod	_
+42	"	Z	_	43	punct	_
+43	pappi	S	sg=sg|p=p	40	obj	_
+44	"	Z	_	43	punct	_
+45	ja	J	_	46	cc	_
+46	läheb	V	b=b	24	conj	_
+47	mõnda	P	sg=sg|p=p	48	det	_
+48	teise	O	adt=adt	49	det	_
+49	ettevõttesse	S	sg=sg|ill=ill	46	obl	_
+50	.	Z	_	2	punct	_
+
+# sent_id = 4906189
+# text = " Multiplexkinode puhul on külastatavuse kasvu põhiliseks tagatiseks suur filmivalik , st korraga on ekraanil nii palju erinevaid filme , et igaüks peaks leidma igal ajahetkel midagi endale sobivat , " leiab Kaare .
+1	"	Z	_	8	punct	_
+2	Multiplexkinode	S	pl=pl|g=g	8	obl	_
+3	puhul	K	_	2	case	_
+4	on	V	vad=vad	8	cop	_
+5	külastatavuse	S	sg=sg|g=g	6	nmod	_
+6	kasvu	S	sg=sg|g=g	8	nmod	_
+7	põhiliseks	A	sg=sg|tr=tr	8	amod	_
+8	tagatiseks	S	sg=sg|tr=tr	0	root	_
+9	suur	A	sg=sg|n=n	10	amod	_
+10	filmivalik	S	sg=sg|n=n	8	nsubj:cop	_
+11	,	Z	_	15	punct	_
+12	st	Y	?=?	15	mark	_
+13	korraga	S	sg=sg|kom=kom	15	obl	_
+14	on	V	vad=vad	15	cop	_
+15	ekraanil	S	sg=sg|ad=ad	8	conj	_
+16	nii	D	_	19	advmod	_
+17	palju	D	_	19	advmod	_
+18	erinevaid	A	pl=pl|p=p	19	acl	_
+19	filme	S	pl=pl|p=p	15	nsubj:cop	_
+20	,	Z	_	24	punct	_
+21	et	J	_	24	mark	_
+22	igaüks	P	sg=sg|n=n	24	nsubj	_
+23	peaks	V	ks=ks	24	aux	_
+24	leidma	V	ma=ma	15	advcl	_
+25	igal	P	sg=sg|ad=ad	26	det	_
+26	ajahetkel	S	sg=sg|ad=ad	24	obl	_
+27	midagi	P	sg=sg|p=p	29	obj	CHECK
+28	endale	P	sg=sg|all=all	27	nmod	_
+29	sobivat	V	vat=vat	24	xcomp	_
+30	,	Z	_	8	punct	_
+31	"	Z	_	8	punct	_
+32	leiab	V	b=b	8	parataxis	_
+33	Kaare	H	sg=sg|n=n	32	nsubj	_
+34	.	Z	_	8	punct	_
+
+# sent_id = 633395
+# text = See romaan oma südametunnistuse hääle pateetikaga sobib pagulaskirjanduse alguse jõuliseks sümboliks .
+1	See	P	sg=sg|n=n	2	det	_
+2	romaan	S	sg=sg|n=n	7	nsubj	_
+3	oma	P	sg=sg|g=g	4	nmod	_
+4	südametunnistuse	S	sg=sg|g=g	5	nmod	_
+5	hääle	S	sg=sg|g=g	6	nmod	_
+6	pateetikaga	S	sg=sg|kom=kom	2	nmod	_
+7	sobib	V	b=b	0	root	_
+8	pagulaskirjanduse	S	sg=sg|g=g	9	nmod	_
+9	alguse	S	sg=sg|g=g	7	obl	CHECK
+10	jõuliseks	A	sg=sg|tr=tr	11	amod	_
+11	sümboliks	S	sg=sg|tr=tr	7	nsubj	_
+12	.	Z	_	7	punct	_
+
+# sent_id = 4712151
+# text = Tavaliselt müüakse poes erinevaid puhastusvahendeid , mis kõik ühe ja sama varre otsa sobivad .
+1	Tavaliselt	D	_	2	advmod	_
+2	müüakse	V	takse=takse	0	root	_
+3	poes	S	sg=sg|in=in	2	nsubj	_
+4	erinevaid	A	pl=pl|p=p	5	acl	_
+5	puhastusvahendeid	S	pl=pl|p=p	2	obj	_
+6	,	Z	_	14	punct	_
+7	mis	P	pl=pl|n=n	14	nsubj	_
+8	kõik	P	pl=pl|n=n	9	det	CHECK
+9	ühe	N	sg=sg|g=g	14	nsubj	_
+10	ja	J	_	11	cc	_
+11	sama	P	sg=sg|g=g	9	conj	_
+12	varre	S	sg=sg|g=g	14	obl	_
+13	otsa	K	_	12	case	_
+14	sobivad	V	vad=vad	5	acl:relcl	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 8244871
+# text = “ Tsiviilühiskonda nad ikka ei sobi , ” märgib üks Fauna fänn .
+1	“	Z	_	6	punct	_
+2	Tsiviilühiskonda	S	adt=adt	6	obl	CHECK
+3	nad	P	pl=pl|n=n	6	nsubj	_
+4	ikka	D	_	6	advmod	_
+5	ei	V	neg=neg	6	aux	_
+6	sobi	V	o=o	0	root	_
+7	,	Z	_	6	punct	_
+8	”	Z	_	6	punct	_
+9	märgib	V	b=b	6	parataxis	_
+10	üks	P	sg=sg|n=n	12	det	_
+11	Fauna	S	sg=sg|g=g	12	nmod	_
+12	fänn	S	sg=sg|n=n	9	nsubj	_
+13	.	Z	_	6	punct	_
+

@@ -1,0 +1,491 @@
+# sent_id = 3855553
+# text = Tema enda sõnul ei kuulunud ta hooldusfirmade konkursikomisjoni ega vastuta selle otsuste eest .
+1	Tema	P	sg=sg|g=g	3	nmod	_
+2	enda	P	sg=sg|g=g	1	nmod	_
+3	sõnul	S	pl=pl|ad=ad	5	obl	_
+4	ei	V	neg=neg	5	aux	_
+5	kuulunud	A	sg=sg|n=n	0	root	_
+6	ta	P	sg=sg|g=g	5	nsubj	_
+7	hooldusfirmade	S	pl=pl|g=g	8	nmod	_
+8	konkursikomisjoni	S	sg=sg|g=g	5	obl	CHECK
+9	ega	J	_	10	cc	_
+10	vastuta	V	o=o	5	conj	_
+11	selle	P	sg=sg|g=g	10	obj	_
+12	otsuste	S	pl=pl|g=g	10	obl	_
+13	eest	K	_	12	case	_
+14	.	Z	_	5	punct	_
+
+# sent_id = 872709
+# text = Thomas Radström oli kiireim avakatsel , mees ei kuulu muideks tehasevõistkonda , vaid on nö . iseseisev piloot !
+1	Thomas	H	sg=sg|n=n	5	nsubj:cop	_
+2	Radström	H	sg=sg|n=n	1	flat	_
+3	oli	V	s=s	5	cop	_
+4	kiireim	U	sg=sg|n=n	5	amod	_
+5	avakatsel	S	sg=sg|ad=ad	0	root	_
+6	,	Z	_	9	punct	_
+7	mees	S	sg=sg|n=n	9	nsubj	_
+8	ei	V	neg=neg	9	aux	_
+9	kuulu	V	o=o	5	conj	_
+10	muideks	S	pl=pl|tr=tr	11	nmod	_
+11	tehasevõistkonda	S	sg=sg|p=p	9	obl	CHECK
+12	,	Z	_	15	punct	_
+13	vaid	J	_	17	cc	_
+14	on	V	vad=vad	15	aux	_
+15	nö .	Y	?=?	5	conj	_
+16	iseseisev	A	sg=sg|n=n	17	acl	_
+17	piloot	S	sg=sg|n=n	15	obj	_
+18	!	Z	_	5	punct	_
+
+# sent_id = 6936672
+# text = Enne 2000. aasta tulumaksureformi kehtinud 26%-se maksumääraga kuuluks Eesti seega ettevõtteid raskelt maksustavate maade hulka - 26%-st kõrgem on maksumäär praegu üksnes Tšehhimaal ( 31% ) .
+1	Enne	K	_	7	case	_
+2	2000.	O	?=?	3	amod	_
+3	aasta	S	sg=sg|g=g	4	nmod	_
+4	tulumaksureformi	S	adt=adt	5	obl	_
+5	kehtinud	A	pl=pl|n=n	7	acl	_
+6	26%-se	Y	?=?	7	nmod	_
+7	maksumääraga	S	sg=sg|kom=kom	8	obl	_
+8	kuuluks	V	ks=ks	0	root	_
+9	Eesti	H	sg=sg|n=n	8	nsubj	_
+10	seega	D	_	8	advmod	_
+11	ettevõtteid	S	pl=pl|p=p	8	nsubj	CHECK
+12	raskelt	D	_	13	advmod	_
+13	maksustavate	A	pl=pl|g=g	14	acl	_
+14	maade	S	pl=pl|g=g	8	obl	_
+15	hulka	K	_	14	case	_
+16	-	Z	_	18	punct	_
+17	26%-st	Y	sg=sg|el=el	18	obl	_
+18	kõrgem	C	sg=sg|n=n	8	parataxis	_
+19	on	V	vad=vad	18	cop	_
+20	maksumäär	S	sg=sg|n=n	18	nsubj:cop	_
+21	praegu	D	_	18	advmod	_
+22	üksnes	D	_	23	advmod	_
+23	Tšehhimaal	H	sg=sg|ad=ad	18	nsubj:cop	_
+24	(	Z	_	25	punct	_
+25	31%	N	?=?	8	parataxis	_
+26	)	Z	_	25	punct	_
+27	.	Z	_	8	punct	_
+
+# sent_id = 787691
+# text = Baini sõnul on Ruma terminali kaudu metalli valmis Läände saatma Severstali ja Novolipetski terasetehased , mis kuuluvad mõlemad Venemaa kolme suurima terasetehase hulka Venemaal .
+1	Baini	H	sg=sg|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	8	obl	_
+3	on	V	b=b	8	cop	_
+4	Ruma	H	sg=sg|g=g	8	obl	_
+5	terminali	S	sg=sg|g=g	8	obl	_
+6	kaudu	K	_	5	case	_
+7	metalli	S	sg=sg|g=g	8	obl	_
+8	valmis	A	_	0	root	_
+9	Läände	S	adt=adt	10	obj	_
+10	saatma	V	ma=ma	8	conj	_
+11	Severstali	H	sg=sg|g=g	14	nmod	_
+12	ja	J	_	13	cc	_
+13	Novolipetski	H	sg=sg|g=g	11	conj	_
+14	terasetehased	S	pl=pl|n=n	10	obj	_
+15	,	Z	_	17	punct	_
+16	mis	P	pl=pl|n=n	17	nsubj	_
+17	kuuluvad	V	vad=vad	14	acl:relcl	_
+18	mõlemad	P	pl=pl|n=n	20	det	CHECK
+19	Venemaa	H	sg=sg|g=g	22	nmod	_
+20	kolme	N	sg=sg|g=g	22	nummod	_
+21	suurima	U	sg=sg|g=g	22	amod	_
+22	terasetehase	S	sg=sg|g=g	17	obl	_
+23	hulka	K	_	22	case	_
+24	Venemaal	H	sg=sg|ad=ad	17	obl	_
+25	.	Z	_	8	punct	_
+
+# sent_id = 3232220
+# text = " Pakkumisi hinnanud komisjoni kuulusid spetsialistid , kes on võimelised eri tootjate busside sobivust meie linna tingimustest lähtuvalt kaaluma ( mina komisjoni ei kuulunud ) , " lausus ta .
+1	"	Z	_	5	punct	_
+2	Pakkumisi	S	pl=pl|p=p	3	obj	_
+3	hinnanud	A	_	4	acl	_
+4	komisjoni	S	sg=sg|g=g	5	nsubj	_
+5	kuulusid	V	sid=sid	0	root	_
+6	spetsialistid	S	pl=pl|n=n	5	nsubj	_
+7	,	Z	_	10	punct	_
+8	kes	P	sg=sg|n=n	10	nsubj:cop	_
+9	on	V	b=b	10	cop	_
+10	võimelised	A	pl=pl|n=n	6	acl:relcl	_
+11	eri	A	_	12	amod	_
+12	tootjate	S	pl=pl|g=g	13	nmod	_
+13	busside	S	pl=pl|g=g	14	nmod	_
+14	sobivust	S	sg=sg|p=p	19	obj	_
+15	meie	P	pl=pl|g=g	16	nmod	_
+16	linna	S	sg=sg|g=g	17	nmod	_
+17	tingimustest	S	pl=pl|el=el	19	obj	_
+18	lähtuvalt	D	_	19	advmod	_
+19	kaaluma	V	ma=ma	10	xcomp	_
+20	(	Z	_	24	punct	_
+21	mina	S	sg=sg|n=n	24	nsubj	_
+22	komisjoni	S	sg=sg|g=g	24	nsubj	CHECK
+23	ei	V	neg=neg	24	aux	_
+24	kuulunud	A	pl=pl|n=n	10	parataxis	_
+25	)	Z	_	24	punct	_
+26	,	Z	_	5	punct	_
+27	"	Z	_	5	punct	_
+28	lausus	V	s=s	5	parataxis	_
+29	ta	P	sg=sg|n=n	28	nsubj	_
+30	.	Z	_	5	punct	_
+
+# sent_id = 36045
+# text = Viimseis hingepiinades helistas Meeli Söödile , kes kuulus komisjoni , ja kurtis patutegu ning sedagi , et ei julge tulla .
+1	Viimseis	A	pl=pl|in=in	2	amod	_
+2	hingepiinades	S	pl=pl|in=in	3	obl	_
+3	helistas	V	s=s	0	root	_
+4	Meeli	H	sg=sg|n=n	3	nsubj	_
+5	Söödile	H	sg=sg|n=n	4	flat	_
+6	,	Z	_	8	punct	_
+7	kes	P	sg=sg|n=n	8	nsubj	_
+8	kuulus	V	s=s	4	acl:relcl	_
+9	komisjoni	S	sg=sg|g=g	8	obl	CHECK
+10	,	Z	_	12	punct	_
+11	ja	J	_	12	cc	_
+12	kurtis	V	s=s	8	conj	_
+13	patutegu	S	sg=sg|p=p	12	obj	_
+14	ning	J	_	15	cc	_
+15	sedagi	P	sg=sg|p=p	12	nsubj	_
+16	,	Z	_	19	punct	_
+17	et	J	_	19	mark	_
+18	ei	V	neg=neg	19	aux	_
+19	julge	V	o=o	15	acl	_
+20	tulla	V	da=da	19	xcomp	_
+21	.	Z	_	3	punct	_
+
+# sent_id = 80964
+# text = Kui siinsele loole pühendus kirjutada , siis kuuluks see meie noore erakapitali sellele osale , kes on asunud kontserdielu praktiliselt toetama .
+1	Kui	J	_	4	mark	_
+2	siinsele	A	sg=sg|all=all	3	amod	_
+3	loole	S	sg=sg|all=all	5	obj	_
+4	pühendus	V	s=s	8	advcl	_
+5	kirjutada	V	da=da	4	nsubj	_
+6	,	Z	_	4	punct	_
+7	siis	J	_	8	advmod	_
+8	kuuluks	V	ks=ks	0	root	_
+9	see	P	sg=sg|n=n	8	nsubj	_
+10	meie	P	pl=pl|g=g	12	nmod	_
+11	noore	A	sg=sg|g=g	12	amod	_
+12	erakapitali	S	sg=sg|g=g	8	obl	CHECK
+13	sellele	P	sg=sg|all=all	14	det	_
+14	osale	S	sg=sg|all=all	8	obl	_
+15	,	Z	_	18	punct	_
+16	kes	P	pl=pl|n=n	18	nsubj	_
+17	on	V	b=b	18	aux	_
+18	asunud	A	_	14	acl:relcl	_
+19	kontserdielu	S	sg=sg|n=n	21	obj	_
+20	praktiliselt	D	_	21	advmod	_
+21	toetama	V	ma=ma	18	xcomp	_
+22	.	Z	_	8	punct	_
+
+# sent_id = 61323
+# text = Reformierakonda ei kuulu ei kantsler ega ka kaks kolmest asekantslerist .
+1	Reformierakonda	H	sg=sg|p=p	3	nsubj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	kuulu	V	o=o	0	root	_
+4	ei	V	neg=neg	5	advmod	_
+5	kantsler	S	sg=sg|n=n	3	nsubj	_
+6	ega	J	_	10	cc	_
+7	ka	D	_	10	advmod	_
+8	kaks	N	sg=sg|n=n	9	compound	_
+9	kolmest	N	sg=sg|el=el	10	nummod	_
+10	asekantslerist	S	sg=sg|el=el	5	conj	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 2416999
+# text = Raudne , Kiisler ja Leinatamm ei kuulu praegu volikogus ühtegi fraktsiooni .
+1	Raudne	H	sg=sg|n=n	7	nsubj	_
+2	,	Z	_	3	punct	_
+3	Kiisler	H	sg=sg|n=n	1	conj	_
+4	ja	J	_	5	cc	_
+5	Leinatamm	H	sg=sg|n=n	1	conj	_
+6	ei	V	neg=neg	7	aux	_
+7	kuulu	V	o=o	0	root	_
+8	praegu	D	_	7	advmod	_
+9	volikogus	S	sg=sg|in=in	7	obl	_
+10	ühtegi	N	sg=sg|p=p	11	nummod	_
+11	fraktsiooni	S	sg=sg|g=g	7	nsubj	CHECK
+12	.	Z	_	7	punct	_
+
+# sent_id = 60704
+# text = Luteri kirikule , aga ka teistele , kuulub sadu mälestistena kaitse alla võetud hooneid .
+1	Luteri	H	sg=sg|g=g	2	nmod	_
+2	kirikule	S	sg=sg|all=all	8	nsubj	_
+3	,	Z	_	6	punct	_
+4	aga	J	_	6	cc	_
+5	ka	D	_	6	advmod	_
+6	teistele	O	pl=pl|all=all	2	conj	_
+7	,	Z	_	8	punct	_
+8	kuulub	V	b=b	0	root	_
+9	sadu	S	sg=sg|n=n	10	nmod	_
+10	mälestistena	S	pl=pl|es=es	11	nmod	_
+11	kaitse	S	sg=sg|g=g	13	obl	_
+12	alla	K	_	11	case	_
+13	võetud	V	tud=tud	14	acl	_
+14	hooneid	S	pl=pl|p=p	8	nsubj	CHECK
+15	.	Z	_	8	punct	_
+
+# sent_id = 1444144
+# text = Kuigi ta on hurdy-gurdy mängimist õppinud vaid kahetunnisel kiirkursusel ( " Pillimeister ise käis Hollandis kaks kuud väntamistehnikat õppimas . " ) , väidab Joonas end kuuluvat Eesti kümne parima hurdy-gurdy mängija hulka .
+1	Kuigi	D	_	6	mark	_
+2	ta	P	sg=sg|n=n	6	nsubj	_
+3	on	V	b=b	6	aux	_
+4	hurdy-gurdy	S	sg=sg|g=g	5	nmod	_
+5	mängimist	S	sg=sg|p=p	6	obj	_
+6	õppinud	V	nud=nud	24	advcl	_
+7	vaid	D	_	9	advmod	_
+8	kahetunnisel	A	sg=sg|ad=ad	9	amod	_
+9	kiirkursusel	S	sg=sg|ad=ad	6	obj	_
+10	(	Z	_	14	punct	_
+11	"	Z	_	14	punct	_
+12	Pillimeister	S	sg=sg|n=n	14	nsubj	_
+13	ise	P	pl=pl|n=n	12	nmod	_
+14	käis	V	s=s	6	parataxis	_
+15	Hollandis	H	sg=sg|in=in	14	nsubj	_
+16	kaks	N	sg=sg|n=n	17	nummod	_
+17	kuud	S	sg=sg|p=p	14	obl	_
+18	väntamistehnikat	S	sg=sg|p=p	19	obj	_
+19	õppimas	V	mas=mas	14	obl	_
+20	.	Z	_	14	punct	_
+21	"	Z	_	14	punct	_
+22	)	Z	_	14	punct	_
+23	,	Z	_	14	punct	_
+24	väidab	V	b=b	0	root	_
+25	Joonas	H	sg=sg|n=n	24	nsubj	_
+26	end	P	sg=sg|p=p	27	obj	CHECK
+27	kuuluvat	V	vat=vat	24	xcomp	_
+28	Eesti	H	sg=sg|n=n	24	nsubj	_
+29	kümne	N	sg=sg|g=g	31	nummod	_
+30	parima	U	sg=sg|g=g	32	amod	_
+31	hurdy-gurdy	S	sg=sg|g=g	32	nmod	_
+32	mängija	S	sg=sg|n=n	24	obl	_
+33	hulka	K	_	32	case	_
+34	.	Z	_	24	punct	_
+
+# sent_id = 2974417
+# text = Samas polnud seda retrospektiivi raske kokku panna , sest Stuhri näitleja- ja lavastajafilmograafia sisaldab rohkesti filmikunsti maailmavaramusse kuuluvat .
+1	Samas	D	_	5	advmod	_
+2	polnud	V	neg=neg|nud=nud	5	cop	_
+3	seda	P	sg=sg|p=p	4	det	_
+4	retrospektiivi	S	sg=sg|p=p	7	obj	_
+5	raske	A	sg=sg|n=n	0	root	_
+6	kokku	D	_	7	compound:prt	_
+7	panna	V	da=da	5	csubj:cop	_
+8	,	Z	_	14	punct	_
+9	sest	J	_	14	mark	_
+10	Stuhri	H	sg=sg|g=g	11	nmod	_
+11	näitleja-	S	sg=sg|n=n	14	nsubj	_
+12	ja	J	_	13	cc	_
+13	lavastajafilmograafia	S	sg=sg|n=n	11	conj	_
+14	sisaldab	V	b=b	5	advcl	_
+15	rohkesti	D	_	16	advmod	_
+16	filmikunsti	S	sg=sg|g=g	14	obj	CHECK
+17	maailmavaramusse	S	sg=sg|ill=ill	18	obl	_
+18	kuuluvat	V	vat=vat	14	xcomp	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 287154
+# text = Need päevad ei kuulunud vabariigi ürituste plaani ja olid seega poolpõrandaalused .
+1	Need	P	pl=pl|n=n	2	det	_
+2	päevad	S	pl=pl|n=n	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	kuulunud	A	pl=pl|n=n	0	root	_
+5	vabariigi	S	sg=sg|g=g	6	nmod	_
+6	ürituste	S	pl=pl|g=g	4	obl	_
+7	plaani	S	sg=sg|p=p	4	nsubj	CHECK
+8	ja	J	_	11	cc	_
+9	olid	V	sid=sid	11	cop	_
+10	seega	D	_	11	advmod	_
+11	poolpõrandaalused	A	pl=pl|n=n	4	conj	_
+12	.	Z	_	4	punct	_
+
+# sent_id = 42555
+# text = Pikki aastaid treenis neid kuulus norrakas Thor Floysvik , kes on koolitanud üle kahekümne maailmameistri .
+1	Pikki	A	pl=pl|p=p	2	amod	_
+2	aastaid	S	pl=pl|p=p	3	obl	_
+3	treenis	V	s=s	0	root	_
+4	neid	P	pl=pl|p=p	3	nsubj	CHECK
+5	kuulus	V	s=s	3	xcomp	_
+6	norrakas	A	sg=sg|n=n	7	amod	_
+7	Thor	H	sg=sg|n=n	3	obl	_
+8	Floysvik	H	sg=sg|n=n	7	flat	_
+9	,	Z	_	12	punct	_
+10	kes	P	sg=sg|n=n	12	nsubj	_
+11	on	V	vad=vad	12	aux	_
+12	koolitanud	A	_	7	acl:relcl	_
+13	üle	K	_	14	case	_
+14	kahekümne	N	sg=sg|g=g	15	nummod	_
+15	maailmameistri	S	sg=sg|g=g	12	obj	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 4661816
+# text = Kahe mehe suhted on silmanähtavalt halvad , mistõttu tundub vaid aja küsimusena , millal Kadõrov võtab selle , mis näib talle kuuluvat - võimutäiuse .
+1	Kahe	N	sg=sg|g=g	3	nummod	_
+2	mehe	S	sg=sg|g=g	3	nmod	_
+3	suhted	S	pl=pl|n=n	6	nsubj:cop	_
+4	on	V	vad=vad	6	cop	_
+5	silmanähtavalt	D	_	6	advmod	_
+6	halvad	A	pl=pl|n=n	0	root	_
+7	,	Z	_	9	punct	_
+8	mistõttu	D	_	9	advmod	_
+9	tundub	V	b=b	6	advcl	_
+10	vaid	D	_	11	advmod	_
+11	aja	S	sg=sg|g=g	9	obl	_
+12	küsimusena	S	sg=sg|es=es	9	obl	_
+13	,	Z	_	16	punct	_
+14	millal	D	_	16	mark	_
+15	Kadõrov	H	sg=sg|n=n	16	nsubj	_
+16	võtab	V	b=b	12	acl	_
+17	selle	P	sg=sg|g=g	16	obj	_
+18	,	Z	_	22	punct	_
+19	mis	P	sg=sg|n=n	22	nsubj	_
+20	näib	V	b=b	22	aux	_
+21	talle	P	sg=sg|all=all	22	nsubj	_
+22	kuuluvat	V	vat=vat	17	acl:relcl	_
+23	-	Z	_	22	punct	_
+24	võimutäiuse	S	sg=sg|g=g	22	obl	CHECK
+25	.	Z	_	6	punct	_
+
+# sent_id = 1434702
+# text = " Ma pole ühtegi parteisse kuulunud , ega kavatse ka kuhugi astuda , " kinnitas ta .
+1	"	Z	_	6	punct	_
+2	Ma	P	sg=sg|n=n	6	nsubj	_
+3	pole	V	neg=neg|o=o	6	aux	_
+4	ühtegi	P	sg=sg|p=p	5	det	CHECK
+5	parteisse	S	sg=sg|ill=ill	6	obl	_
+6	kuulunud	A	_	0	root	_
+7	,	Z	_	9	punct	_
+8	ega	J	_	9	cc	_
+9	kavatse	V	o=o	6	conj	_
+10	ka	D	_	12	advmod	_
+11	kuhugi	D	_	12	advmod	_
+12	astuda	V	da=da	9	xcomp	_
+13	,	Z	_	6	punct	_
+14	"	Z	_	6	punct	_
+15	kinnitas	V	s=s	6	parataxis	_
+16	ta	P	sg=sg|n=n	15	nsubj	_
+17	.	Z	_	6	punct	_
+
+# sent_id = 1941820
+# text = " TV 3-ga oleme veel vaid niipalju seotud , et meie firma töötajad vaatavad aeg-ajalt seda kanalit , kuid telejaama omanikeringi me enam kasvõi mõne teise firma kaudu ei kuulu , " osutas Laak , kes ei soovinud kommenteerida tehingu suurust .
+1	"	Z	_	8	punct	_
+2	TV	Y	?=?	8	obj	_
+3	3-ga	N	sg=sg|kom=kom	2	nummod	_
+4	oleme	V	me=me	8	aux	_
+5	veel	D	_	8	advmod	_
+6	vaid	D	_	7	advmod	_
+7	niipalju	D	_	8	advmod	_
+8	seotud	A	_	0	root	_
+9	,	Z	_	14	punct	_
+10	et	J	_	14	mark	_
+11	meie	P	pl=pl|g=g	12	nmod	_
+12	firma	S	sg=sg|g=g	13	nmod	_
+13	töötajad	S	pl=pl|n=n	14	nsubj	_
+14	vaatavad	V	vad=vad	8	ccomp	_
+15	aeg-ajalt	D	_	14	advmod	_
+16	seda	P	sg=sg|p=p	17	det	_
+17	kanalit	S	sg=sg|p=p	14	obj	_
+18	,	Z	_	30	punct	_
+19	kuid	J	_	30	cc	_
+20	telejaama	S	sg=sg|g=g	21	nmod	_
+21	omanikeringi	S	sg=sg|g=g	30	obl	CHECK
+22	me	P	pl=pl|n=n	30	nsubj	_
+23	enam	D	_	30	advmod	_
+24	kasvõi	D	_	25	advmod	_
+25	mõne	P	sg=sg|g=g	27	det	_
+26	teise	O	sg=sg|g=g	27	det	_
+27	firma	S	sg=sg|g=g	30	obl	_
+28	kaudu	K	_	27	case	_
+29	ei	V	neg=neg	30	aux	_
+30	kuulu	V	o=o	14	conj	_
+31	,	Z	_	8	punct	_
+32	"	Z	_	8	punct	_
+33	osutas	V	s=s	8	parataxis	_
+34	Laak	H	sg=sg|n=n	33	nsubj	_
+35	,	Z	_	38	punct	_
+36	kes	P	pl=pl|n=n	38	nsubj	_
+37	ei	V	neg=neg	38	aux	_
+38	soovinud	V	nud=nud	34	acl:relcl	_
+39	kommenteerida	V	da=da	38	obj	_
+40	tehingu	S	sg=sg|g=g	41	nmod	_
+41	suurust	S	sg=sg|p=p	38	obj	_
+42	.	Z	_	8	punct	_
+
+# sent_id = 5013266
+# text = On vaja eriti rõhutada , et sellesse raamatusse sattunud majad ei kuulu kõik automaatselt ajalukku ja väljajäänud prügikasti .
+1	On	V	b=b	0	root	_
+2	vaja	D	_	1	compound:prt	_
+3	eriti	D	_	4	advmod	_
+4	rõhutada	V	da=da	1	csubj	_
+5	,	Z	_	12	punct	_
+6	et	J	_	12	mark	_
+7	sellesse	P	sg=sg|ill=ill	10	det	_
+8	raamatusse	S	sg=sg|ill=ill	9	obl	_
+9	sattunud	V	nud=nud	10	acl	_
+10	majad	S	pl=pl|n=n	12	nsubj	_
+11	ei	V	neg=neg	12	aux	_
+12	kuulu	V	o=o	4	ccomp	_
+13	kõik	P	sg=sg|n=n	12	nsubj	CHECK
+14	automaatselt	D	_	12	advmod	_
+15	ajalukku	S	adt=adt	12	obl	_
+16	ja	J	_	18	cc	_
+17	väljajäänud	A	_	18	acl	_
+18	prügikasti	S	adt=adt	15	conj	_
+19	.	Z	_	1	punct	_
+
+# sent_id = 3724834
+# text = Hiiglasuurde kompleksi kuuluks rahvusvahelistele nõuetele vastav ringrada koos bokside , võistluskeskuse , tribüünide , ovaalraja , kardiraja , spordihalli , noorte motokooli , hotelli ja messikeskuse , tenniseväljakute , basseini ja suusaradadega .
+1	Hiiglasuurde	H	sg=sg|g=g	2	amod	_
+2	kompleksi	S	sg=sg|p=p	3	obl	CHECK
+3	kuuluks	V	ks=ks	0	root	_
+4	rahvusvahelistele	A	pl=pl|all=all	5	amod	_
+5	nõuetele	S	pl=pl|all=all	3	nsubj	_
+6	vastav	A	sg=sg|n=n	7	acl	_
+7	ringrada	S	sg=sg|n=n	3	nsubj	_
+8	koos	K	_	9	case	_
+9	bokside	S	pl=pl|g=g	7	nmod	_
+10	,	Z	_	11	punct	_
+11	võistluskeskuse	S	sg=sg|g=g	9	conj	_
+12	,	Z	_	13	punct	_
+13	tribüünide	S	pl=pl|g=g	9	conj	_
+14	,	Z	_	15	punct	_
+15	ovaalraja	S	sg=sg|g=g	9	conj	_
+16	,	Z	_	17	punct	_
+17	kardiraja	S	sg=sg|g=g	9	conj	_
+18	,	Z	_	19	punct	_
+19	spordihalli	S	sg=sg|g=g	9	conj	_
+20	,	Z	_	22	punct	_
+21	noorte	A	pl=pl|g=g	22	amod	_
+22	motokooli	S	sg=sg|g=g	9	conj	_
+23	,	Z	_	24	punct	_
+24	hotelli	S	sg=sg|g=g	9	conj	_
+25	ja	J	_	26	cc	_
+26	messikeskuse	S	sg=sg|g=g	9	conj	_
+27	,	Z	_	28	punct	_
+28	tenniseväljakute	S	pl=pl|g=g	9	conj	_
+29	,	Z	_	30	punct	_
+30	basseini	S	sg=sg|g=g	9	conj	_
+31	ja	J	_	32	cc	_
+32	suusaradadega	S	pl=pl|kom=kom	9	conj	_
+33	.	Z	_	3	punct	_
+
+# sent_id = 15142385
+# text = Samuti oli tal aegsasti kavandatud profilitsentsi järjekordse kursuse läbimine seekord kuuluvat kavva visiidid FC Barcelonasse ja Glasgow Rangersisse .
+1	Samuti	D	_	5	advmod	_
+2	oli	V	s=s	5	aux	_
+3	tal	P	sg=sg|ad=ad	5	obj	_
+4	aegsasti	D	_	5	advmod	_
+5	kavandatud	A	_	0	root	_
+6	profilitsentsi	S	sg=sg|g=g	8	nmod	_
+7	järjekordse	A	sg=sg|g=g	8	amod	_
+8	kursuse	S	sg=sg|g=g	9	nmod	_
+9	läbimine	S	sg=sg|n=n	5	obl	_
+10	seekord	D	_	11	advmod	_
+11	kuuluvat	V	vat=vat	12	acl	_
+12	kavva	S	adt=adt	5	obj	_
+13	visiidid	S	pl=pl|n=n	12	nmod	CHECK
+14	FC	Y	?=?	13	appos	_
+15	Barcelonasse	H	sg=sg|ill=ill	14	flat	_
+16	ja	J	_	17	cc	_
+17	Glasgow	H	sg=sg|n=n	14	conj	_
+18	Rangersisse	H	sg=sg|ill=ill	17	flat	_
+19	.	Z	_	5	punct	_
+

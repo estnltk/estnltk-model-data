@@ -1,0 +1,343 @@
+# sent_id = 16610004
+# text = Nendega ma ropendasin koguaeg ning peale lasteaeda me asutasime ropendamise klubi mille nimi oli , on ja jääb , see nimi on « SITAKOTILOLLID » .
+1	Nendega	P	pl=pl|kom=kom	3	obj	_
+2	ma	P	sg=sg|n=n	3	nsubj	_
+3	ropendasin	V	sin=sin	0	root	_
+4	koguaeg	S	sg=sg|n=n	3	obj	CHECK
+5	ning	J	_	9	cc	_
+6	peale	K	_	7	case	_
+7	lasteaeda	S	sg=sg|p=p	9	obl	_
+8	me	P	pl=pl|n=n	9	nsubj	_
+9	asutasime	V	sime=sime	3	conj	_
+10	ropendamise	S	sg=sg|g=g	9	obj	_
+11	klubi	S	sg=sg|g=g	9	obj	_
+12	mille	P	pl=pl|g=g	13	nmod	_
+13	nimi	S	sg=sg|n=n	14	nsubj	_
+14	oli	V	s=s	9	advcl	_
+15	,	Z	_	16	punct	_
+16	on	V	b=b	3	conj	_
+17	ja	J	_	18	cc	_
+18	jääb	V	b=b	3	conj	_
+19	,	Z	_	24	punct	_
+20	see	P	sg=sg|n=n	21	det	_
+21	nimi	S	sg=sg|n=n	24	nsubj:cop	_
+22	on	V	b=b	24	cop	_
+23	«	Z	_	24	punct	_
+24	SITAKOTILOLLID	H	pl=pl|n=n	3	conj	_
+25	»	Z	_	24	punct	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 19787680
+# text = maigi: ma ei saa pihta mix ei tohi jutukas ropendada , nagu nii kõik räigelt ropendavad !!! ma eitea ühtegi kes ei ropendaks :P
+1	maigi	S	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	saa	V	o=o	1	parataxis	_
+6	pihta	D	_	5	compound:prt	_
+7	mix	S	sg=sg|n=n	11	obj	_
+8	ei	V	neg=neg	11	aux	_
+9	tohi	V	o=o	11	aux	_
+10	jutukas	A	sg=sg|n=n	11	obj	_
+11	ropendada	V	da=da	5	conj	_
+12	,	Z	_	17	punct	_
+13	nagu	D	_	17	mark	_
+14	nii	D	_	17	advmod	_
+15	kõik	P	pl=pl|n=n	17	nsubj	_
+16	räigelt	D	_	17	advmod	_
+17	ropendavad	V	vad=vad	11	advcl	_
+18	!!!	Z	_	24	punct	_
+19	ma	P	sg=sg|n=n	24	nsubj	_
+20	eitea	S	sg=sg|g=g	24	obj	_
+21	ühtegi	N	sg=sg|p=p	24	obj	_
+22	kes	P	pl=pl|n=n	24	nsubj	CHECK
+23	ei	V	neg=neg	24	aux	_
+24	ropendaks	V	ks=ks	17	conj	_
+25	:P	Z	?=?	1	punct	_
+
+# sent_id = 19669636
+# text = vasp: ära ropenda pede
+1	vasp	S	sg=sg|n=n	4	parataxis	_
+2	:	Z	_	4	punct	_
+3	ära	V	neg=neg|o=o	4	aux	_
+4	ropenda	V	o=o	0	root	_
+5	pede	S	sg=sg|g=g	4	obj	CHECK
+
+# sent_id = 21330061
+# text = Shad: kairi ei ropenda
+1	Shad	H	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	kairi	S	adt=adt	5	nsubj	CHECK
+4	ei	V	neg=neg	5	aux	_
+5	ropenda	V	o=o	1	parataxis	_
+
+# sent_id = 21160289
+# text = Shad: liina  ma ei ole ropendanudki
+1	Shad	H	sg=sg|n=n	0	root	_
+2	:	Z	_	7	punct	_
+3	liina	S	sg=sg|g=g	7	obj	CHECK
+4	ma	P	sg=sg|n=n	7	nsubj	_
+5	ei	V	neg=neg	7	aux	_
+6	ole	V	o=o	7	aux	_
+7	ropendanudki	V	nud=nud	1	parataxis	_
+
+# sent_id = 20367334
+# text = tuki: oih sry et ropendasin sydamest palun andeks
+1	tuki	S	sg=sg|g=g	0	root	_
+2	:	Z	_	6	punct	_
+3	oih	I	_	6	discourse	_
+4	sry	Y	?=?	6	punct	_
+5	et	J	_	6	mark	_
+6	ropendasin	V	sin=sin	1	parataxis	_
+7	sydamest	S	sg=sg|el=el	8	nmod	_
+8	palun	V	n=n	6	obj	CHECK
+9	andeks	X	_	6	advmod	_
+
+# sent_id = 19787680
+# text = maigi: ma ei saa pihta mix ei tohi jutukas ropendada , nagu nii kõik räigelt ropendavad !!! ma eitea ühtegi kes ei ropendaks :P
+1	maigi	S	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	saa	V	o=o	1	parataxis	_
+6	pihta	D	_	5	compound:prt	_
+7	mix	S	sg=sg|n=n	11	obj	_
+8	ei	V	neg=neg	11	aux	_
+9	tohi	V	o=o	11	aux	_
+10	jutukas	A	sg=sg|n=n	11	obj	_
+11	ropendada	V	da=da	5	conj	_
+12	,	Z	_	17	punct	_
+13	nagu	J	_	17	mark	_
+14	nii	D	_	17	advmod	_
+15	kõik	P	pl=pl|n=n	17	nsubj	_
+16	räigelt	D	_	17	advmod	_
+17	ropendavad	V	vad=vad	11	advcl	_
+18	!!!	Z	_	24	punct	_
+19	ma	P	sg=sg|n=n	24	nsubj	_
+20	eitea	S	sg=sg|g=g	24	obj	CHECK
+21	ühtegi	P	sg=sg|p=p	24	obj	_
+22	kes	P	sg=sg|n=n	24	nsubj	_
+23	ei	V	neg=neg	24	aux	_
+24	ropendaks	V	ks=ks	17	conj	_
+25	:P	Z	?=?	1	punct	_
+
+# sent_id = 19478272
+# text = Alexya: ja sina ei ropenda ve ? :P
+1	Alexya	H	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	ja	J	_	6	cc	_
+4	sina	P	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	ropenda	V	o=o	1	conj	_
+7	ve	Y	?=?	6	obj	CHECK
+8	?	Z	_	1	punct	_
+
+# sent_id = 19351699
+# text = The-Krabamatu: Hellbender sa ei saand aru ei ropenda siin
+1	The-Krabamatu	H	sg=sg|n=n	0	root	_
+2	:	Z	_	6	punct	_
+3	Hellbender	H	sg=sg|n=n	6	obl	_
+4	sa	P	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	saand	S	pl=pl|n=n	9	aux	_
+7	aru	S	sg=sg|p=p	6	obj	CHECK
+8	ei	V	neg=neg	9	aux	_
+9	ropenda	V	o=o	1	parataxis	_
+10	siin	D	_	9	advmod	_
+
+# sent_id = 394425
+# text = Kindlasti ei süüdista , ähvarda , sõima ega ropenda põllumehed ilma häda ja põhjuseta .
+1	Kindlasti	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	süüdista	V	o=o	0	root	_
+4	,	Z	_	5	punct	_
+5	ähvarda	V	o=o	3	conj	_
+6	,	Z	_	7	punct	_
+7	sõima	V	o=o	3	conj	_
+8	ega	J	_	9	cc	_
+9	ropenda	V	o=o	3	conj	_
+10	põllumehed	S	pl=pl|n=n	9	obj	CHECK
+11	ilma	K	_	12	case	_
+12	häda	S	sg=sg|p=p	9	obl	_
+13	ja	J	_	14	cc	_
+14	põhjuseta	S	sg=sg|ab=ab	12	conj	_
+15	.	Z	_	3	punct	_
+
+# sent_id = 15079303
+# text = Ropendage minupihta !
+1	Ropendage	V	ge=ge	0	root	_
+2	minupihta	S	sg=sg|p=p	1	obj	CHECK
+3	!	Z	_	1	punct	_
+
+# sent_id = 11631624
+# text = Samuti ropendab pärast kaardikaotust kindral Rezuhhin , kuigi on kindral , mis kangesti meeldib polkovnik Sipailole , kes ise kah roppu moodi ropendab ja teiste roppuste peale naerab .
+1	Samuti	D	_	2	advmod	_
+2	ropendab	V	b=b	0	root	_
+3	pärast	K	_	4	case	_
+4	kaardikaotust	S	sg=sg|p=p	2	obl	_
+5	kindral	S	sg=sg|n=n	2	nsubj	_
+6	Rezuhhin	H	sg=sg|n=n	5	appos	_
+7	,	Z	_	9	punct	_
+8	kuigi	J	_	9	mark	_
+9	on	V	vad=vad	2	advcl	_
+10	kindral	S	sg=sg|n=n	9	nsubj	_
+11	,	Z	_	14	punct	_
+12	mis	P	sg=sg|n=n	14	nsubj	_
+13	kangesti	D	_	14	advmod	_
+14	meeldib	V	b=b	10	acl:relcl	_
+15	polkovnik	S	sg=sg|n=n	14	nsubj	_
+16	Sipailole	H	sg=sg|n=n	15	appos	_
+17	,	Z	_	23	punct	_
+18	kes	P	sg=sg|n=n	23	nsubj	_
+19	ise	P	pl=pl|n=n	18	nmod	_
+20	kah	D	_	23	advmod	_
+21	roppu	A	sg=sg|p=p	23	obj	_
+22	moodi	S	sg=sg|p=p	23	compound:prt	CHECK
+23	ropendab	V	b=b	16	acl:relcl	_
+24	ja	J	_	28	cc	_
+25	teiste	P	pl=pl|g=g	26	det	_
+26	roppuste	S	pl=pl|g=g	28	obl	_
+27	peale	K	_	26	case	_
+28	naerab	V	b=b	23	conj	_
+29	.	Z	_	2	punct	_
+
+# sent_id = 19289974
+# text = neiuke: krt te ropendate
+1	neiuke	S	sg=sg|n=n	0	root	_
+2	:	Z	_	5	punct	_
+3	krt	Y	?=?	5	obj	CHECK
+4	te	P	pl=pl|n=n	5	nsubj	_
+5	ropendate	V	te=te	1	parataxis	_
+
+# sent_id = 9864004
+# text = Keskkooli 12. klassi poiss ropendas Võidu sillal , nimetas politseinikke koerteks ning karjus : “ Las buss sõidab politseist üle !
+1	Keskkooli	S	sg=sg|g=g	3	nmod	_
+2	12.	O	?=?	3	amod	_
+3	klassi	S	sg=sg|g=g	4	nmod	_
+4	poiss	S	sg=sg|n=n	5	nsubj	_
+5	ropendas	V	s=s	0	root	_
+6	Võidu	S	sg=sg|g=g	5	obj	CHECK
+7	sillal	S	sg=sg|ad=ad	5	obl	_
+8	,	Z	_	9	punct	_
+9	nimetas	V	s=s	5	conj	_
+10	politseinikke	S	pl=pl|p=p	9	obj	_
+11	koerteks	S	pl=pl|tr=tr	9	obj	_
+12	ning	J	_	13	cc	_
+13	karjus	V	s=s	5	conj	_
+14	:	Z	_	18	punct	_
+15	“	Z	_	18	punct	_
+16	Las	D	_	18	advmod	_
+17	buss	S	sg=sg|n=n	18	nsubj	_
+18	sõidab	V	b=b	13	parataxis	_
+19	politseist	S	sg=sg|el=el	18	nsubj	_
+20	üle	D	_	18	compound:prt	_
+21	!	Z	_	5	punct	_
+
+# sent_id = 18758322
+# text = Ära ropenda sa järjekordne läbustaja ...
+1	Ära	V	neg=neg|o=o	2	aux	_
+2	ropenda	V	o=o	0	root	_
+3	sa	P	sg=sg|n=n	2	nsubj	_
+4	järjekordne	A	sg=sg|n=n	5	amod	_
+5	läbustaja	S	sg=sg|n=n	2	obj	CHECK
+6	...	Z	_	2	punct	_
+
+# sent_id = 5071903
+# text = " Poole staadioni jagu rahvast ropendas ja vehkis kaigastega ! "
+1	"	Z	_	6	punct	_
+2	Poole	N	sg=sg|g=g	3	nummod	_
+3	staadioni	S	sg=sg|p=p	6	obl	_
+4	jagu	S	sg=sg|n=n	6	obl	_
+5	rahvast	S	sg=sg|p=p	6	obj	CHECK
+6	ropendas	V	s=s	0	root	_
+7	ja	J	_	8	cc	_
+8	vehkis	V	s=s	6	conj	_
+9	kaigastega	S	pl=pl|kom=kom	8	obj	_
+10	!	Z	_	6	punct	_
+11	"	Z	_	6	punct	_
+
+# sent_id = 13457449
+# text = Tegelikult pole see üldse mingi näitaja - ma võin kihla vedada , et iga teine poisike ropendab poole rohkem kui mina , neil on ainult väiksem sõnavara .
+1	Tegelikult	D	_	6	advmod	_
+2	pole	V	neg=neg|o=o	6	cop	_
+3	see	P	sg=sg|n=n	6	nsubj:cop	_
+4	üldse	D	_	6	advmod	_
+5	mingi	P	sg=sg|n=n	6	det	_
+6	näitaja	S	sg=sg|n=n	0	root	_
+7	-	Z	_	11	punct	_
+8	ma	P	sg=sg|n=n	11	nsubj	_
+9	võin	V	n=n	11	aux	_
+10	kihla	X	_	11	advmod	_
+11	vedada	V	da=da	6	parataxis	_
+12	,	Z	_	17	punct	_
+13	et	J	_	17	mark	_
+14	iga	P	sg=sg|n=n	16	det	_
+15	teine	O	sg=sg|n=n	16	det	_
+16	poisike	S	sg=sg|n=n	17	nsubj	_
+17	ropendab	V	b=b	11	ccomp	_
+18	poole	S	sg=sg|g=g	17	obj	CHECK
+19	rohkem	D	_	17	advmod	_
+20	kui	J	_	19	fixed	_
+21	mina	S	sg=sg|n=n	19	advcl	_
+22	,	Z	_	27	punct	_
+23	neil	P	pl=pl|ad=ad	27	nsubj:cop	_
+24	on	V	b=b	27	cop	_
+25	ainult	D	_	26	advmod	_
+26	väiksem	C	sg=sg|n=n	27	amod	_
+27	sõnavara	S	sg=sg|n=n	17	conj	_
+28	.	Z	_	6	punct	_
+
+# sent_id = 2689266
+# text = Pärast aastatepikkust vaikust on hiilinud meediasse tagasi üheksakümnendatel kollase ajakirjanduse veergudel ohjeldamatult joonud , vägivallatsenud ja ropendanud koomiks " Pesakond " .
+1	Pärast	K	_	3	case	_
+2	aastatepikkust	A	sg=sg|p=p	3	amod	_
+3	vaikust	S	sg=sg|p=p	5	obl	_
+4	on	V	vad=vad	5	aux	_
+5	hiilinud	A	_	0	root	_
+6	meediasse	S	sg=sg|ill=ill	13	nsubj	_
+7	tagasi	D	_	13	compound:prt	_
+8	üheksakümnendatel	O	pl=pl|ad=ad	11	amod	_
+9	kollase	A	sg=sg|g=g	10	amod	_
+10	ajakirjanduse	S	sg=sg|g=g	11	nmod	_
+11	veergudel	S	pl=pl|ad=ad	13	obj	_
+12	ohjeldamatult	D	_	13	advmod	_
+13	joonud	A	_	5	conj	_
+14	,	Z	_	15	punct	_
+15	vägivallatsenud	A	sg=sg|n=n	13	conj	_
+16	ja	J	_	17	cc	_
+17	ropendanud	A	_	13	conj	_
+18	koomiks	S	sg=sg|n=n	17	obj	CHECK
+19	"	Z	_	20	punct	_
+20	Pesakond	H	sg=sg|n=n	18	appos	_
+21	"	Z	_	20	punct	_
+22	.	Z	_	5	punct	_
+
+# sent_id = 19563600
+# text = maris14: ok me ei ropenda enam
+1	maris14	Y	?=?	6	parataxis	_
+2	:	Z	_	6	punct	_
+3	ok	Y	?=?	6	obj	CHECK
+4	me	P	pl=pl|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	ropenda	V	o=o	0	root	_
+7	enam	D	_	6	advmod	_
+
+# sent_id = 394436
+# text = Kannatab kaua , kuid ebaõiglaselt nurka surutult ka ropendab või isegi karistab Põrgupõhja Jürka kombel .
+1	Kannatab	V	b=b	0	root	_
+2	kaua	D	_	1	advmod	_
+3	,	Z	_	9	punct	_
+4	kuid	J	_	9	cc	_
+5	ebaõiglaselt	D	_	9	advmod	_
+6	nurka	S	adt=adt	9	obj	CHECK
+7	surutult	D	_	9	advmod	_
+8	ka	D	_	9	advmod	_
+9	ropendab	V	b=b	1	conj	_
+10	või	J	_	12	cc	_
+11	isegi	D	_	12	advmod	_
+12	karistab	V	b=b	1	conj	_
+13	Põrgupõhja	H	sg=sg|g=g	12	obj	_
+14	Jürka	H	sg=sg|g=g	12	obl	_
+15	kombel	S	sg=sg|ad=ad	14	case	_
+16	.	Z	_	1	punct	_
+

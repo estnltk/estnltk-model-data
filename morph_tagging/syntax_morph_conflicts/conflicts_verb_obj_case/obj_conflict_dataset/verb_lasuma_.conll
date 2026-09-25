@@ -1,0 +1,382 @@
+# sent_id = 1423566
+# text = Keskkriminaalpolitsei Lääne regionaalkeskuse komissar Vahur Metsatalu teatel lasub Sergeil postuumselt süü näiteks tänavu 9. juunil Audrus toimunud röövimises .
+1	Keskkriminaalpolitsei	S	sg=sg|n=n	3	nmod	_
+2	Lääne	H	sg=sg|g=g	3	nmod	_
+3	regionaalkeskuse	S	sg=sg|g=g	4	nmod	_
+4	komissar	S	sg=sg|n=n	7	nmod	_
+5	Vahur	H	sg=sg|n=n	4	appos	_
+6	Metsatalu	H	sg=sg|g=g	5	flat	_
+7	teatel	S	sg=sg|ad=ad	8	obl	_
+8	lasub	V	b=b	0	root	_
+9	Sergeil	H	sg=sg|ad=ad	8	nsubj	_
+10	postuumselt	D	_	8	advmod	_
+11	süü	S	sg=sg|g=g	8	obj	CHECK
+12	näiteks	S	sg=sg|tr=tr	18	advmod	_
+13	tänavu	D	_	17	advmod	_
+14	9.	O	?=?	15	amod	_
+15	juunil	S	sg=sg|ad=ad	17	obl	_
+16	Audrus	H	sg=sg|in=in	15	appos	_
+17	toimunud	A	_	18	acl	_
+18	röövimises	S	sg=sg|in=in	8	obl	_
+19	.	Z	_	8	punct	_
+
+# sent_id = 74651
+# text = Samas ei lasu erakondadel kohustust oma tegevuse käigus tekkinud dokumente riigiarhiivi anda .
+1	Samas	D	_	3	advmod	_
+2	ei	V	neg=neg	3	aux	_
+3	lasu	V	o=o	0	root	_
+4	erakondadel	S	pl=pl|ad=ad	5	nmod	_
+5	kohustust	S	sg=sg|p=p	3	obj	CHECK
+6	oma	P	sg=sg|g=g	7	nmod	_
+7	tegevuse	S	sg=sg|g=g	9	obl	_
+8	käigus	K	_	7	case	_
+9	tekkinud	V	nud=nud	10	acl	_
+10	dokumente	S	pl=pl|p=p	12	obj	_
+11	riigiarhiivi	S	adt=adt	12	obj	_
+12	anda	V	da=da	3	xcomp	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 5505931
+# text = Samas lasus Martinil väga suur koormus kaitses , " ütles Kerde .
+1	Samas	D	_	2	advmod	_
+2	lasus	V	s=s	0	root	_
+3	Martinil	H	sg=sg|ad=ad	2	nsubj	_
+4	väga	D	_	5	advmod	_
+5	suur	A	sg=sg|n=n	6	amod	_
+6	koormus	S	sg=sg|n=n	7	obj	_
+7	kaitses	V	s=s	2	xcomp	CHECK
+8	,	Z	_	2	punct	_
+9	"	Z	_	2	punct	_
+10	ütles	V	s=s	2	parataxis	_
+11	Kerde	H	sg=sg|n=n	10	nsubj	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 7804995
+# text = Kui õnnelikult vargusest päästetud ukse omanik läks turvaukse müünud ja paigaldanud firmasse küsima , kas praaktöö talle ka kuidagi heastatakse , ei leidnud Terassiili esindajad endal mingit vastutust lasuvat .
+1	Kui	D	_	7	mark	_
+2	õnnelikult	D	_	4	advmod	_
+3	vargusest	S	sg=sg|el=el	4	obl	_
+4	päästetud	A	sg=sg|n=n	5	acl	_
+5	ukse	S	sg=sg|g=g	6	nmod	_
+6	omanik	S	sg=sg|n=n	7	nsubj	_
+7	läks	V	s=s	23	advcl	_
+8	turvaukse	S	sg=sg|g=g	9	obj	_
+9	müünud	V	nud=nud	12	acl	_
+10	ja	J	_	11	cc	_
+11	paigaldanud	V	nud=nud	9	conj	_
+12	firmasse	S	sg=sg|ill=ill	13	nsubj	_
+13	küsima	V	ma=ma	7	conj	_
+14	,	Z	_	20	punct	_
+15	kas	D	_	20	advmod	_
+16	praaktöö	S	sg=sg|n=n	20	obj	_
+17	talle	P	sg=sg|all=all	20	nsubj	_
+18	ka	D	_	20	advmod	_
+19	kuidagi	D	_	20	advmod	_
+20	heastatakse	V	takse=takse	13	ccomp	_
+21	,	Z	_	20	punct	_
+22	ei	V	neg=neg	23	aux	_
+23	leidnud	A	pl=pl|n=n	0	root	_
+24	Terassiili	S	sg=sg|g=g	25	nmod	_
+25	esindajad	S	pl=pl|n=n	23	nsubj	_
+26	endal	P	sg=sg|ad=ad	25	nmod	_
+27	mingit	P	sg=sg|p=p	28	det	_
+28	vastutust	S	sg=sg|p=p	29	obj	CHECK
+29	lasuvat	V	vat=vat	23	xcomp	_
+30	.	Z	_	23	punct	_
+
+# sent_id = 117852
+# text = Pere argielu lasus Hillary õlul , kirjutavad Allen ja Portis .
+1	Pere	S	sg=sg|g=g	2	nmod	_
+2	argielu	S	sg=sg|n=n	3	nsubj	_
+3	lasus	V	s=s	0	root	_
+4	Hillary	H	sg=sg|n=n	3	obj	CHECK
+5	õlul	S	pl=pl|ad=ad	3	obl	_
+6	,	Z	_	7	punct	_
+7	kirjutavad	V	vad=vad	3	conj	_
+8	Allen	H	sg=sg|n=n	7	obj	_
+9	ja	J	_	10	cc	_
+10	Portis	V	s=s	3	conj	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 389289
+# text = Peatreeneri meelest pole Veerpalu ja 35. kohaga lõpetanud Raul Olle Tartu maratonist veel täielikult taastunud , kuid nende pearõhk lasuvatki teatesõidul ja Ramsau MM-i lõpupäeva 50 kilomeetril .
+1	Peatreeneri	S	sg=sg|g=g	15	obl	_
+2	meelest	K	_	1	case	_
+3	pole	V	neg=neg|o=o	15	aux	_
+4	Veerpalu	S	sg=sg|n=n	7	nmod	_
+5	ja	J	_	6	cc	_
+6	35.	O	?=?	4	conj	_
+7	kohaga	S	sg=sg|kom=kom	8	obj	_
+8	lõpetanud	A	sg=sg|n=n	9	acl	_
+9	Raul	H	sg=sg|n=n	15	nsubj	_
+10	Olle	H	sg=sg|n=n	9	flat	_
+11	Tartu	H	sg=sg|g=g	12	nmod	_
+12	maratonist	S	sg=sg|el=el	15	nsubj	_
+13	veel	D	_	14	advmod	_
+14	täielikult	D	_	15	advmod	_
+15	taastunud	A	_	0	root	_
+16	,	Z	_	20	punct	_
+17	kuid	J	_	20	cc	_
+18	nende	P	pl=pl|g=g	19	nmod	_
+19	pearõhk	S	sg=sg|n=n	20	nsubj	_
+20	lasuvatki	V	vat=vat	15	conj	_
+21	teatesõidul	S	sg=sg|ad=ad	20	obj	_
+22	ja	J	_	25	cc	_
+23	Ramsau	H	sg=sg|n=n	24	nmod	_
+24	MM-i	Y	adt=adt	25	nmod	_
+25	lõpupäeva	S	sg=sg|g=g	20	obl	CHECK
+26	50	N	?=?	27	nummod	_
+27	kilomeetril	S	sg=sg|ad=ad	20	obl	_
+28	.	Z	_	15	punct	_
+
+# sent_id = 3050698
+# text = Suurim topeltkoormus lasub tööga hõivatud alaealiste laste emadel , kus see läheneb 10 tunnile päevas ning ületab isade kogutööpanuse 1,1 tunni võrra .
+1	Suurim	U	sg=sg|n=n	2	amod	_
+2	topeltkoormus	S	sg=sg|n=n	3	nsubj	_
+3	lasub	V	b=b	0	root	_
+4	tööga	S	sg=sg|kom=kom	5	obl	_
+5	hõivatud	A	sg=sg|n=n	8	acl	CHECK
+6	alaealiste	A	pl=pl|g=g	7	amod	_
+7	laste	S	pl=pl|g=g	8	nmod	_
+8	emadel	S	pl=pl|ad=ad	3	nsubj	_
+9	,	Z	_	12	punct	_
+10	kus	D	_	12	mark	_
+11	see	P	sg=sg|n=n	12	nsubj	_
+12	läheneb	V	b=b	8	acl	_
+13	10	N	?=?	14	nummod	_
+14	tunnile	S	sg=sg|all=all	12	obl	_
+15	päevas	S	sg=sg|in=in	14	nmod	_
+16	ning	J	_	17	cc	_
+17	ületab	V	b=b	12	conj	_
+18	isade	S	pl=pl|g=g	19	nmod	_
+19	kogutööpanuse	S	sg=sg|g=g	17	obj	_
+20	1,1	N	?=?	21	nummod	_
+21	tunni	S	sg=sg|g=g	17	obl	_
+22	võrra	K	_	21	case	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 2707550
+# text = Tänavu mais lasus eestlaste õlul kahe või enama kuuga maksetähtaja ületanud tarbimislaene rohkem kui 300 miljoni krooni eest .
+1	Tänavu	D	_	2	advmod	_
+2	mais	S	pl=pl|in=in	3	obl	_
+3	lasus	V	s=s	0	root	_
+4	eestlaste	S	pl=pl|g=g	5	nmod	_
+5	õlul	S	pl=pl|ad=ad	3	obl	_
+6	kahe	N	sg=sg|g=g	9	nummod	_
+7	või	J	_	8	cc	_
+8	enama	C	sg=sg|g=g	6	conj	_
+9	kuuga	S	sg=sg|kom=kom	11	obl	_
+10	maksetähtaja	S	sg=sg|g=g	11	obj	_
+11	ületanud	A	pl=pl|n=n	12	acl	_
+12	tarbimislaene	S	pl=pl|p=p	3	nsubj	CHECK
+13	rohkem	D	_	3	advmod	_
+14	kui	J	_	13	fixed	_
+15	300	N	?=?	16	compound	_
+16	miljoni	N	sg=sg|g=g	17	nummod	_
+17	krooni	S	sg=sg|g=g	13	advcl	_
+18	eest	K	_	17	case	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 8655445
+# text = Arledge'i väitel soovib Coastal , et Esoili varadel ei lasuks mingeid kohustusi ning firma ei oleks seotud ühegi pooleli oleva kohtuprotsessiga .
+1	Arledge'i	H	sg=sg|g=g	2	nmod	_
+2	väitel	S	sg=sg|ad=ad	3	obl	_
+3	soovib	V	b=b	0	root	_
+4	Coastal	H	sg=sg|n=n	3	nsubj	_
+5	,	Z	_	10	punct	_
+6	et	J	_	10	mark	_
+7	Esoili	H	sg=sg|g=g	8	nmod	_
+8	varadel	S	pl=pl|ad=ad	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	lasuks	V	ks=ks	3	ccomp	_
+11	mingeid	P	pl=pl|p=p	12	det	_
+12	kohustusi	S	pl=pl|p=p	10	nsubj	CHECK
+13	ning	J	_	17	cc	_
+14	firma	S	sg=sg|n=n	17	obj	_
+15	ei	V	neg=neg	17	aux	_
+16	oleks	V	ks=ks	17	aux	_
+17	seotud	A	_	10	conj	_
+18	ühegi	N	sg=sg|g=g	21	det	_
+19	pooleli	D	_	20	advmod	_
+20	oleva	A	sg=sg|g=g	21	acl	_
+21	kohtuprotsessiga	S	sg=sg|kom=kom	17	obj	_
+22	.	Z	_	3	punct	_
+
+# sent_id = 5640591
+# text = Politseil leidis süüd lasuvat 7 protsenti vastanutest .
+1	Politseil	H	sg=sg|n=n	2	obl	_
+2	leidis	V	s=s	0	root	_
+3	süüd	S	sg=sg|p=p	4	obj	CHECK
+4	lasuvat	V	vat=vat	6	acl	_
+5	7	N	?=?	6	nummod	_
+6	protsenti	S	sg=sg|p=p	2	nsubj	_
+7	vastanutest	S	pl=pl|el=el	6	nmod	_
+8	.	Z	_	2	punct	_
+
+# sent_id = 296874
+# text = Omanikul ei lasu seaduslikku kindlustamise kohustust võlausaldaja tarvis ( vt. VVG §-d 101 , 102 ) .
+1	Omanikul	S	sg=sg|ad=ad	3	obj	_
+2	ei	V	neg=neg	3	aux	_
+3	lasu	V	o=o	0	root	_
+4	seaduslikku	A	sg=sg|p=p	5	amod	_
+5	kindlustamise	S	sg=sg|g=g	3	obj	_
+6	kohustust	S	sg=sg|p=p	3	obj	CHECK
+7	võlausaldaja	S	sg=sg|g=g	6	nmod	_
+8	tarvis	K	_	7	case	_
+9	(	Z	_	10	punct	_
+10	vt.	Y	?=?	3	parataxis	_
+11	VVG	Y	?=?	10	obj	_
+12	§-	Y	?=?	11	flat	_
+13	d	Y	?=?	10	obj	_
+14	101 , 102	N	?=?	10	nummod	_
+15	)	Z	_	10	punct	_
+16	.	Z	_	3	punct	_
+
+# sent_id = 2364830
+# text = Möödunud laupäeval süüdistas Liisinguühingute Liidu tegevdirektor Reet Hääl kohtutäitur Aunsi Postimehes 393 trahvinõude sissenõudmises Ühisliisingult pärast 5. märtsil tehtud riigikohtu otsust , mille järgi ei lasu vastutus auto valesti parkimise eest auto omanikul , vaid kasutajal .
+1	Möödunud	V	nud=nud	2	acl	_
+2	laupäeval	S	sg=sg|ad=ad	3	obl	_
+3	süüdistas	V	s=s	0	root	_
+4	Liisinguühingute	H	pl=pl|g=g	5	nmod	_
+5	Liidu	H	sg=sg|g=g	6	nmod	_
+6	tegevdirektor	S	sg=sg|n=n	3	nsubj	_
+7	Reet	H	sg=sg|n=n	6	appos	_
+8	Hääl	H	sg=sg|n=n	7	flat	_
+9	kohtutäitur	S	sg=sg|n=n	3	obj	_
+10	Aunsi	H	sg=sg|n=n	6	appos	_
+11	Postimehes	H	sg=sg|in=in	10	flat	_
+12	393	N	?=?	13	nummod	_
+13	trahvinõude	S	pl=pl|g=g	14	nmod	_
+14	sissenõudmises	S	sg=sg|in=in	3	obj	_
+15	Ühisliisingult	S	sg=sg|abl=abl	14	nmod	_
+16	pärast	K	_	18	case	_
+17	5.	O	?=?	18	amod	_
+18	märtsil	S	sg=sg|ad=ad	19	obl	_
+19	tehtud	A	pl=pl|n=n	20	acl	_
+20	riigikohtu	S	sg=sg|g=g	21	nmod	_
+21	otsust	S	sg=sg|p=p	3	obj	_
+22	,	Z	_	26	punct	_
+23	mille	P	pl=pl|g=g	26	obl	_
+24	järgi	K	_	23	case	_
+25	ei	V	neg=neg	26	aux	_
+26	lasu	V	o=o	21	acl:relcl	_
+27	vastutus	S	sg=sg|n=n	26	obj	_
+28	auto	S	sg=sg|g=g	26	nsubj	CHECK
+29	valesti	D	_	30	advmod	_
+30	parkimise	S	sg=sg|g=g	26	obl	_
+31	eest	K	_	30	case	_
+32	auto	S	sg=sg|g=g	33	nmod	_
+33	omanikul	S	sg=sg|ad=ad	26	obj	_
+34	,	Z	_	36	punct	_
+35	vaid	J	_	36	cc	_
+36	kasutajal	S	sg=sg|ad=ad	33	conj	_
+37	.	Z	_	3	punct	_
+
+# sent_id = 3012018
+# text = Kuid vastutus puudujääkide eest ei lasu üksnes Toivo Maimetsa ega tema eelkäija Mailis Repsi õlul .
+1	Kuid	J	_	6	cc	_
+2	vastutus	S	sg=sg|n=n	6	obj	_
+3	puudujääkide	S	pl=pl|g=g	2	nmod	_
+4	eest	K	_	3	case	_
+5	ei	V	neg=neg	6	aux	_
+6	lasu	V	o=o	0	root	_
+7	üksnes	D	_	8	advmod	_
+8	Toivo	H	sg=sg|n=n	6	nsubj	CHECK
+9	Maimetsa	S	sg=sg|g=g	8	flat	_
+10	ega	J	_	12	cc	_
+11	tema	P	sg=sg|g=g	12	nmod	_
+12	eelkäija	S	sg=sg|n=n	8	conj	_
+13	Mailis	H	sg=sg|n=n	12	appos	_
+14	Repsi	H	sg=sg|g=g	13	flat	_
+15	õlul	S	pl=pl|ad=ad	6	obj	_
+16	.	Z	_	6	punct	_
+
+# sent_id = 369352
+# text = Suguvõsa pärandust ja traditsioone kandma jääb Olavi ja Ingunni tütar Cecilia , kes väärib oma pühakunime , tema hingel ei lasu kuritegusid .
+1	Suguvõsa	S	sg=sg|g=g	2	nmod	_
+2	pärandust	S	sg=sg|p=p	5	obj	_
+3	ja	J	_	4	cc	_
+4	traditsioone	S	pl=pl|p=p	2	conj	_
+5	kandma	V	ma=ma	6	advcl	_
+6	jääb	V	b=b	0	root	_
+7	Olavi	H	sg=sg|g=g	10	nmod	_
+8	ja	J	_	9	cc	_
+9	Ingunni	H	sg=sg|g=g	7	conj	_
+10	tütar	S	sg=sg|n=n	6	nsubj	_
+11	Cecilia	H	sg=sg|n=n	10	appos	_
+12	,	Z	_	14	punct	_
+13	kes	P	sg=sg|n=n	14	nsubj	_
+14	väärib	V	b=b	11	acl:relcl	_
+15	oma	P	sg=sg|g=g	16	nmod	_
+16	pühakunime	S	sg=sg|g=g	14	obj	_
+17	,	Z	_	21	punct	_
+18	tema	P	sg=sg|g=g	19	nmod	_
+19	hingel	S	sg=sg|ad=ad	21	nsubj	_
+20	ei	V	neg=neg	21	aux	_
+21	lasu	V	o=o	14	conj	_
+22	kuritegusid	S	pl=pl|p=p	21	obj	CHECK
+23	.	Z	_	6	punct	_
+
+# sent_id = 8282962
+# text = Seega on oluline , et lapsevanemate endi taldrikul ei lasuks hunnik friikartuleid , kui proovite lapsele porgandeid pakkuda , rääkides , kui kasulikud need on .
+1	Seega	D	_	3	advmod	_
+2	on	V	vad=vad	3	cop	_
+3	oluline	A	sg=sg|n=n	0	root	_
+4	,	Z	_	10	punct	_
+5	et	J	_	10	mark	_
+6	lapsevanemate	S	pl=pl|g=g	10	nsubj	_
+7	endi	P	pl=pl|g=g	6	nmod	_
+8	taldrikul	S	sg=sg|ad=ad	10	obj	_
+9	ei	V	neg=neg	10	aux	_
+10	lasuks	V	ks=ks	3	csubj:cop	_
+11	hunnik	S	sg=sg|n=n	12	nmod	_
+12	friikartuleid	S	pl=pl|p=p	10	obj	CHECK
+13	,	Z	_	15	punct	_
+14	kui	D	_	15	mark	_
+15	proovite	V	te=te	10	advcl	_
+16	lapsele	S	sg=sg|all=all	18	obj	_
+17	porgandeid	S	pl=pl|p=p	18	obj	_
+18	pakkuda	V	da=da	15	xcomp	_
+19	,	Z	_	20	punct	_
+20	rääkides	V	des=des	10	conj	_
+21	,	Z	_	23	punct	_
+22	kui	D	_	23	mark	_
+23	kasulikud	A	pl=pl|n=n	20	ccomp	_
+24	need	P	pl=pl|n=n	23	nsubj:cop	_
+25	on	V	vad=vad	23	cop	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 2793030
+# text = Teisalt lasus teil ränkraske vastutuse koorem .
+1	Teisalt	D	_	2	advmod	_
+2	lasus	V	s=s	0	root	_
+3	teil	P	pl=pl|ad=ad	2	nsubj	_
+4	ränkraske	A	sg=sg|g=g	5	amod	_
+5	vastutuse	S	sg=sg|g=g	2	obj	CHECK
+6	koorem	S	sg=sg|n=n	2	obl	_
+7	.	Z	_	2	punct	_
+
+# sent_id = 165967
+# text = ” Põlevkivi lasub siin peeaegu maapinnal .
+1	”	Z	_	3	punct	_
+2	Põlevkivi	S	sg=sg|n=n	3	nsubj	_
+3	lasub	V	b=b	0	root	_
+4	siin	D	_	3	advmod	_
+5	peeaegu	S	pl=pl|p=p	6	nmod	CHECK
+6	maapinnal	S	sg=sg|ad=ad	3	nsubj	_
+7	.	Z	_	3	punct	_
+
+# sent_id = 47302
+# text = Sellest ajast saadik lasub neiu õlul puuetega inimeste kaitseingli roll .
+1	Sellest	P	sg=sg|el=el	2	det	_
+2	ajast	S	sg=sg|el=el	4	obl	_
+3	saadik	K	_	2	case	_
+4	lasub	V	b=b	0	root	_
+5	neiu	S	sg=sg|n=n	6	nmod	_
+6	õlul	S	pl=pl|ad=ad	4	obl	_
+7	puuetega	S	pl=pl|kom=kom	8	nmod	_
+8	inimeste	S	pl=pl|g=g	9	nmod	_
+9	kaitseingli	S	sg=sg|g=g	10	nmod	_
+10	roll	S	sg=sg|n=n	4	obj	CHECK
+11	.	Z	_	4	punct	_
+

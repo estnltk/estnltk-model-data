@@ -1,0 +1,106 @@
+# sent_id = 7856502
+# text = PAPA PUTIN : Tulevane president koos oma ema ja isaga .
+1	PAPA	S	sg=sg|g=g	2	nsubj	CHECK
+2	PUTIN	V	n=n	0	root	_
+3	:	Z	_	5	punct	_
+4	Tulevane	A	sg=sg|n=n	5	amod	_
+5	president	S	sg=sg|n=n	2	parataxis	_
+6	koos	K	_	8	case	_
+7	oma	P	sg=sg|g=g	8	nmod	_
+8	ema	S	sg=sg|g=g	5	nmod	_
+9	ja	J	_	10	cc	_
+10	isaga	S	sg=sg|kom=kom	8	conj	_
+11	.	Z	_	2	punct	_
+
+# sent_id = 16603770
+# text = putin silitas vldimrit seljale ning lausus : Mootor saed on kuuris .
+1	putin	V	n=n	2	nsubj	_
+2	silitas	V	s=s	0	root	CHECK
+3	vldimrit	S	sg=sg|n=n	4	nmod	_
+4	seljale	S	sg=sg|all=all	2	obl	_
+5	ning	J	_	6	cc	_
+6	lausus	V	s=s	2	conj	_
+7	:	Z	_	11	punct	_
+8	Mootor	S	sg=sg|n=n	9	nmod	_
+9	saed	S	pl=pl|n=n	11	nsubj:cop	_
+10	on	V	b=b	11	cop	_
+11	kuuris	S	sg=sg|in=in	6	parataxis	_
+12	.	Z	_	2	punct	_
+
+# sent_id = 19861523
+# text = KessukasN: putin ju aar töötu meibi. .
+1	KessukasN	Y	?=?	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	putin	V	n=n	0	root	_
+4	ju	D	_	3	advmod	_
+5	aar	S	sg=sg|n=n	3	obj	CHECK
+6	töötu	S	sg=sg|g=g	7	nmod	_
+7	meibi	S	adt=adt	3	obj	_
+8	.	Z	_	3	punct	_
+9	.	Z	_	3	punct	_
+
+# sent_id = 19861523
+# text = KessukasN: putin ju aar töötu meibi. .
+1	KessukasN	Y	?=?	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	putin	V	n=n	0	root	_
+4	ju	D	_	3	advmod	_
+5	aar	S	sg=sg|n=n	3	obj	_
+6	töötu	S	sg=sg|g=g	7	nmod	_
+7	meibi	S	adt=adt	3	obj	CHECK
+8	.	Z	_	3	punct	_
+9	.	Z	_	3	punct	_
+
+# sent_id = 12067614
+# text = Puti elamurajoon K : Sauga vald A : AP Ehitus M : AP Kinnisvara V : sügis
+1	Puti	V	o=o	0	root	_
+2	elamurajoon	S	sg=sg|n=n	3	nmod	CHECK
+3	K	Y	?=?	1	obj	_
+4	:	Z	_	1	punct	_
+5	Sauga	H	sg=sg|n=n	6	nmod	_
+6	vald	S	sg=sg|n=n	7	nmod	_
+7	A	Y	?=?	1	parataxis	_
+8	:	Z	_	11	punct	_
+9	AP	Y	?=?	10	nmod	_
+10	Ehitus	H	sg=sg|n=n	11	nmod	_
+11	M	Y	?=?	7	appos	_
+12	:	Z	_	13	punct	_
+13	AP	Y	?=?	11	appos	_
+14	Kinnisvara	S	sg=sg|g=g	13	flat	_
+15	V	O	?=?	13	flat	_
+16	:	Z	_	17	punct	_
+17	sügis	S	sg=sg|n=n	15	flat	_
+
+# sent_id = 19861523
+# text = KessukasN: putin ju aar töötu meibi. .
+1	KessukasN	Y	?=?	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	putin	V	n=n	0	root	_
+4	ju	D	_	3	advmod	_
+5	aar	S	sg=sg|n=n	3	obj	_
+6	töötu	S	sg=sg|g=g	7	nmod	_
+7	meibi	S	adt=adt	3	obj	CHECK
+8	.	Z	_	3	punct	_
+9	.	Z	_	3	punct	_
+
+# sent_id = 13995025
+# text = Venetos tähendab sõna putin beebit .
+1	Venetos	H	sg=sg|n=n	2	nsubj	_
+2	tähendab	V	b=b	0	root	_
+3	sõna	S	sg=sg|p=p	2	obj	_
+4	putin	V	n=n	5	nmod	_
+5	beebit	S	sg=sg|p=p	2	obj	CHECK
+6	.	Z	_	2	punct	_
+
+# sent_id = 19861523
+# text = KessukasN: putin ju aar töötu meibi. .
+1	KessukasN	Y	?=?	3	parataxis	_
+2	:	Z	_	3	punct	_
+3	putin	V	n=n	0	root	_
+4	ju	D	_	3	advmod	_
+5	aar	S	sg=sg|n=n	3	obj	CHECK
+6	töötu	S	sg=sg|g=g	7	nmod	_
+7	meibi	S	adt=adt	3	obj	_
+8	.	Z	_	3	punct	_
+9	.	Z	_	3	punct	_
+

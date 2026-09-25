@@ -1,0 +1,487 @@
+# sent_id = 15431997
+# text = See ei ole kloonimine - siis oleks asi isegi lihtne aga kuna mõistusega olendit teleporteerides loodaks justkui uus inimene muutuks asi raskeks .
+1	See	P	sg=sg|n=n	4	nsubj:cop	_
+2	ei	V	neg=neg	4	aux	_
+3	ole	V	o=o	4	cop	_
+4	kloonimine	S	sg=sg|n=n	0	root	_
+5	-	Z	_	10	punct	_
+6	siis	D	_	10	advmod	_
+7	oleks	V	ks=ks	10	cop	_
+8	asi	S	sg=sg|n=n	10	nsubj:cop	_
+9	isegi	D	_	10	advmod	_
+10	lihtne	A	sg=sg|n=n	4	parataxis	_
+11	aga	J	_	15	cc	_
+12	kuna	J	_	15	mark	_
+13	mõistusega	S	sg=sg|kom=kom	14	nmod	_
+14	olendit	S	sg=sg|p=p	15	nsubj	_
+15	teleporteerides	V	des=des	10	advcl	_
+16	loodaks	V	ks=ks	10	advcl	_
+17	justkui	D	_	20	mark	_
+18	uus	A	sg=sg|n=n	19	amod	_
+19	inimene	S	sg=sg|n=n	20	nsubj	_
+20	muutuks	V	ks=ks	16	advcl	_
+21	asi	S	sg=sg|n=n	22	obl	CHECK
+22	raskeks	A	sg=sg|tr=tr	20	xcomp	_
+23	.	Z	_	4	punct	_
+
+# sent_id = 160517
+# text = Hoolimata selgepiirilisest kommunistlikust ideoloogiast , mida ta esindas , muutus tema karismaatiline isiksus mässulise noorsoo üheks iidoliks .
+1	Hoolimata	K	_	4	case	_
+2	selgepiirilisest	A	sg=sg|el=el	4	amod	_
+3	kommunistlikust	A	sg=sg|el=el	4	amod	_
+4	ideoloogiast	S	sg=sg|el=el	10	obl	_
+5	,	Z	_	8	punct	_
+6	mida	P	sg=sg|p=p	8	obj	_
+7	ta	P	sg=sg|n=n	8	nsubj	_
+8	esindas	V	s=s	4	acl:relcl	_
+9	,	Z	_	8	punct	_
+10	muutus	V	s=s	0	root	_
+11	tema	P	sg=sg|g=g	13	nmod	_
+12	karismaatiline	A	sg=sg|n=n	13	amod	_
+13	isiksus	S	sg=sg|n=n	10	nsubj	_
+14	mässulise	A	sg=sg|g=g	15	amod	_
+15	noorsoo	S	sg=sg|g=g	10	obl	CHECK
+16	üheks	N	sg=sg|tr=tr	17	nummod	_
+17	iidoliks	S	sg=sg|tr=tr	10	nsubj	_
+18	.	Z	_	10	punct	_
+
+# sent_id = 7849931
+# text = Just seetõttu tundub mõistlikuna Soome töölepingu seaduse säte , mis fikseerib majanduslikud või tootmisalased põhjendamatud põhjused koondamiseks , näiteks viitamine tootmise uuendamisele , kui tegelik tööjõuvajadus ei vähene ega muutu töö sisu .
+1	Just	I	_	2	advmod	_
+2	seetõttu	D	_	3	advmod	_
+3	tundub	V	b=b	0	root	_
+4	mõistlikuna	A	sg=sg|es=es	3	xcomp	_
+5	Soome	H	sg=sg|g=g	6	nmod	_
+6	töölepingu	S	sg=sg|g=g	7	nmod	_
+7	seaduse	S	sg=sg|g=g	8	nmod	_
+8	säte	S	sg=sg|n=n	3	nsubj	_
+9	,	Z	_	11	punct	_
+10	mis	P	pl=pl|n=n	11	nsubj	_
+11	fikseerib	V	b=b	8	acl:relcl	_
+12	majanduslikud	A	pl=pl|n=n	16	amod	_
+13	või	J	_	14	cc	_
+14	tootmisalased	A	pl=pl|n=n	12	conj	_
+15	põhjendamatud	A	pl=pl|n=n	16	amod	_
+16	põhjused	S	pl=pl|n=n	17	nmod	_
+17	koondamiseks	S	sg=sg|tr=tr	11	obl	_
+18	,	Z	_	20	punct	_
+19	näiteks	S	sg=sg|tr=tr	20	advmod	_
+20	viitamine	S	sg=sg|n=n	17	conj	_
+21	tootmise	S	sg=sg|g=g	22	nmod	_
+22	uuendamisele	S	sg=sg|all=all	20	nmod	_
+23	,	Z	_	28	punct	_
+24	kui	D	_	28	mark	_
+25	tegelik	A	sg=sg|n=n	26	amod	_
+26	tööjõuvajadus	S	sg=sg|n=n	28	nsubj:cop	_
+27	ei	V	neg=neg	28	aux	_
+28	vähene	A	sg=sg|n=n	11	advcl	_
+29	ega	J	_	30	cc	_
+30	muutu	V	o=o	28	conj	_
+31	töö	S	sg=sg|g=g	32	nmod	_
+32	sisu	S	sg=sg|n=n	30	nsubj	CHECK
+33	.	Z	_	3	punct	_
+
+# sent_id = 775332
+# text = 9000-kroonise palga lootuses ei pane lugeja tähelegi , et Kallase artikli ridade vahelt kumab sõnum - tõu-seb nominaalpalk , kuid reaalpalk suurt ei muutu .
+1	9000-kroonise	A	sg=sg|g=g	2	amod	_
+2	palga	S	sg=sg|g=g	3	nmod	_
+3	lootuses	S	sg=sg|in=in	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	pane	V	o=o	0	root	_
+6	lugeja	S	sg=sg|n=n	5	obj	_
+7	tähelegi	X	_	5	advmod	_
+8	,	Z	_	14	punct	_
+9	et	J	_	14	mark	_
+10	Kallase	H	sg=sg|g=g	11	nmod	_
+11	artikli	S	sg=sg|g=g	14	obj	_
+12	ridade	S	pl=pl|g=g	14	obl	_
+13	vahelt	K	_	12	case	_
+14	kumab	V	b=b	5	advcl	_
+15	sõnum	S	sg=sg|n=n	14	obj	_
+16	-	Z	_	17	punct	_
+17	tõu-seb	V	b=b	5	parataxis	_
+18	nominaalpalk	S	sg=sg|n=n	17	obl	_
+19	,	Z	_	24	punct	_
+20	kuid	J	_	24	cc	_
+21	reaalpalk	S	sg=sg|n=n	24	nsubj	_
+22	suurt	A	sg=sg|p=p	24	nsubj	CHECK
+23	ei	V	neg=neg	24	aux	_
+24	muutu	V	o=o	17	conj	_
+25	.	Z	_	5	punct	_
+
+# sent_id = 208252
+# text = Püüe edukalt kohandada oma lapsi muutunud tingimuste ja uue situatsiooniga tingib perekasvatuse adaptiivse funktsiooni suurenemist ning uute käitumisstandardite kujundamist , kus tähtsaks faktoriks muutub konkurentsivõime .
+1	Püüe	S	sg=sg|n=n	3	nsubj	_
+2	edukalt	D	_	3	advmod	_
+3	kohandada	V	da=da	0	root	_
+4	oma	P	sg=sg|g=g	5	nmod	_
+5	lapsi	S	pl=pl|p=p	6	obl	CHECK
+6	muutunud	A	_	7	acl	_
+7	tingimuste	S	pl=pl|g=g	3	obj	_
+8	ja	J	_	11	cc	_
+9	uue	A	sg=sg|g=g	10	amod	_
+10	situatsiooniga	S	sg=sg|kom=kom	11	nsubj	_
+11	tingib	V	b=b	3	conj	_
+12	perekasvatuse	S	sg=sg|g=g	14	nmod	_
+13	adaptiivse	A	sg=sg|g=g	14	amod	_
+14	funktsiooni	S	sg=sg|g=g	15	nmod	_
+15	suurenemist	S	sg=sg|p=p	11	obj	_
+16	ning	J	_	19	cc	_
+17	uute	A	pl=pl|g=g	18	amod	_
+18	käitumisstandardite	S	pl=pl|g=g	19	nmod	_
+19	kujundamist	S	sg=sg|p=p	15	conj	_
+20	,	Z	_	24	punct	_
+21	kus	D	_	24	mark	_
+22	tähtsaks	A	sg=sg|tr=tr	23	amod	_
+23	faktoriks	S	sg=sg|tr=tr	24	nsubj	_
+24	muutub	V	b=b	19	acl	_
+25	konkurentsivõime	S	sg=sg|g=g	24	obl	_
+26	.	Z	_	3	punct	_
+
+# sent_id = 2503987
+# text = Tuletegemise keeld tuleneb pikast põuaperioodist , mis on muutunud metsad väga tuleohtlikuks .
+1	Tuletegemise	S	sg=sg|g=g	2	nmod	_
+2	keeld	S	sg=sg|n=n	3	obl	_
+3	tuleneb	V	b=b	0	root	_
+4	pikast	A	sg=sg|el=el	5	amod	_
+5	põuaperioodist	S	sg=sg|el=el	3	nsubj	_
+6	,	Z	_	9	punct	_
+7	mis	P	sg=sg|n=n	9	nsubj	_
+8	on	V	b=b	9	aux	_
+9	muutunud	A	_	5	acl:relcl	_
+10	metsad	S	pl=pl|n=n	9	obl	CHECK
+11	väga	D	_	12	advmod	_
+12	tuleohtlikuks	A	sg=sg|tr=tr	9	xcomp	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 424809
+# text = Paratamatult tundub , et nii nagu need organisatsioonid on muutunud iseenda olemasolu ainsaks õigustuseks , saavad seal käivad rahvaasemikud esindada ainult iseennast .
+1	Paratamatult	D	_	2	advmod	_
+2	tundub	V	b=b	0	root	_
+3	,	Z	_	10	punct	_
+4	et	J	_	10	mark	_
+5	nii	D	_	10	advmod	_
+6	nagu	D	_	5	fixed	_
+7	need	P	pl=pl|n=n	8	det	_
+8	organisatsioonid	S	pl=pl|n=n	10	nsubj	_
+9	on	V	b=b	10	aux	_
+10	muutunud	A	sg=sg|n=n	20	advcl	_
+11	iseenda	P	sg=sg|g=g	12	nmod	_
+12	olemasolu	S	sg=sg|g=g	10	nsubj	CHECK
+13	ainsaks	A	sg=sg|tr=tr	14	amod	_
+14	õigustuseks	S	sg=sg|tr=tr	10	obl	_
+15	,	Z	_	10	punct	_
+16	saavad	V	vad=vad	20	aux	_
+17	seal	D	_	18	advmod	_
+18	käivad	V	vad=vad	19	acl	_
+19	rahvaasemikud	S	pl=pl|n=n	20	obj	_
+20	esindada	V	da=da	2	csubj	_
+21	ainult	D	_	22	advmod	_
+22	iseennast	P	sg=sg|p=p	20	nsubj	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 1186498
+# text = " Kui me sooviksime , et leping , mida me keegi näinud ei ole , muutuks siseriikliku õiguse osaks , tuleks anda see parlamendi kätte , " lisas minister .
+1	"	Z	_	21	punct	_
+2	Kui	J	_	4	mark	_
+3	me	P	pl=pl|n=n	4	nsubj	_
+4	sooviksime	V	ksime=ksime	21	advcl	_
+5	,	Z	_	16	punct	_
+6	et	J	_	16	mark	_
+7	leping	S	sg=sg|n=n	16	nsubj	_
+8	,	Z	_	12	punct	_
+9	mida	P	sg=sg|p=p	12	obj	_
+10	me	P	pl=pl|n=n	12	nsubj	_
+11	keegi	P	sg=sg|n=n	12	nsubj	_
+12	näinud	V	nud=nud	7	acl:relcl	_
+13	ei	V	neg=neg	12	aux	_
+14	ole	V	o=o	12	aux	_
+15	,	Z	_	12	punct	_
+16	muutuks	V	ks=ks	4	ccomp	_
+17	siseriikliku	A	sg=sg|g=g	18	amod	_
+18	õiguse	S	sg=sg|g=g	16	nsubj	CHECK
+19	osaks	S	sg=sg|tr=tr	16	nsubj	_
+20	,	Z	_	16	punct	_
+21	tuleks	V	ks=ks	0	root	_
+22	anda	V	da=da	21	csubj	_
+23	see	P	sg=sg|n=n	22	obj	_
+24	parlamendi	S	sg=sg|g=g	22	obl	_
+25	kätte	K	_	22	compound:prt	_
+26	,	Z	_	21	punct	_
+27	"	Z	_	21	punct	_
+28	lisas	V	s=s	21	parataxis	_
+29	minister	S	sg=sg|n=n	28	nsubj	_
+30	.	Z	_	21	punct	_
+
+# sent_id = 24800
+# text = Olen märganud , et mida enamate asjadega ma hakkama saan ja mida tugevamaks muutun , seda rohkem mehed mind kardavad .
+1	Olen	V	n=n	2	aux	_
+2	märganud	V	nud=nud	0	root	_
+3	,	Z	_	10	punct	_
+4	et	J	_	10	mark	_
+5	mida	P	pl=pl|p=p	6	obl	_
+6	enamate	C	pl=pl|g=g	7	amod	_
+7	asjadega	S	pl=pl|kom=kom	10	obj	_
+8	ma	P	sg=sg|n=n	10	nsubj	_
+9	hakkama	V	ma=ma	10	xcomp	_
+10	saan	V	n=n	2	ccomp	_
+11	ja	J	_	14	cc	_
+12	mida	P	sg=sg|p=p	14	nsubj	CHECK
+13	tugevamaks	C	sg=sg|tr=tr	14	xcomp	_
+14	muutun	V	n=n	10	conj	_
+15	,	Z	_	20	punct	_
+16	seda	P	sg=sg|p=p	17	obl	_
+17	rohkem	D	_	18	advmod	_
+18	mehed	S	pl=pl|n=n	20	obj	_
+19	mind	P	sg=sg|p=p	20	nsubj	_
+20	kardavad	V	vad=vad	2	conj	_
+21	.	Z	_	2	punct	_
+
+# sent_id = 420137
+# text = Lisavarustusena paigaldatud parkimisabi elimineerib nõudliku piiksuga tagurdamisel tekkivad gabariiditunnetuse puudujäägid ning muutub poole meetri kaugusel takistusest udusireeni taoliseks .
+1	Lisavarustusena	S	sg=sg|es=es	2	obl	_
+2	paigaldatud	A	sg=sg|n=n	3	acl	_
+3	parkimisabi	S	sg=sg|n=n	4	nsubj	_
+4	elimineerib	V	b=b	0	root	_
+5	nõudliku	A	sg=sg|g=g	6	amod	_
+6	piiksuga	S	sg=sg|kom=kom	7	nmod	_
+7	tagurdamisel	S	sg=sg|ad=ad	8	obl	_
+8	tekkivad	A	pl=pl|n=n	9	acl	_
+9	gabariiditunnetuse	S	sg=sg|g=g	4	obj	_
+10	puudujäägid	S	pl=pl|n=n	4	obj	_
+11	ning	J	_	12	cc	_
+12	muutub	V	b=b	4	conj	_
+13	poole	N	sg=sg|g=g	14	nummod	_
+14	meetri	S	sg=sg|g=g	12	obl	_
+15	kaugusel	K	_	14	case	_
+16	takistusest	S	sg=sg|el=el	12	nsubj	_
+17	udusireeni	S	sg=sg|g=g	12	obl	CHECK
+18	taoliseks	P	sg=sg|tr=tr	12	nsubj	_
+19	.	Z	_	4	punct	_
+
+# sent_id = 300836
+# text = Nüüdseks on osa neist põlluks tehtud ja osa võsaks muutunud või juba metsaga kattunud .
+1	Nüüdseks	A	sg=sg|tr=tr	6	obl	_
+2	on	V	vad=vad	6	aux	_
+3	osa	S	sg=sg|n=n	6	obj	_
+4	neist	P	pl=pl|el=el	5	det	_
+5	põlluks	S	sg=sg|tr=tr	6	obj	_
+6	tehtud	A	pl=pl|n=n	0	root	_
+7	ja	J	_	10	cc	_
+8	osa	S	sg=sg|g=g	10	nsubj	CHECK
+9	võsaks	S	sg=sg|tr=tr	10	obl	_
+10	muutunud	V	nud=nud	6	conj	_
+11	või	J	_	14	cc	_
+12	juba	D	_	14	advmod	_
+13	metsaga	S	sg=sg|kom=kom	14	obl	_
+14	kattunud	A	_	6	conj	_
+15	.	Z	_	6	punct	_
+
+# sent_id = 52443
+# text = Üksvahe muutus tema juuksevärv sõna otseses mõttes iga päev .
+1	Üksvahe	D	_	2	advmod	_
+2	muutus	V	s=s	0	root	_
+3	tema	P	sg=sg|g=g	4	nmod	_
+4	juuksevärv	S	sg=sg|n=n	2	nsubj	_
+5	sõna	S	sg=sg|p=p	7	nmod	CHECK
+6	otseses	A	sg=sg|in=in	7	amod	_
+7	mõttes	S	sg=sg|in=in	2	obl	_
+8	iga	P	sg=sg|n=n	9	det	_
+9	päev	S	sg=sg|n=n	2	obl	_
+10	.	Z	_	2	punct	_
+
+# sent_id = 1593749
+# text = Pankurid kaotaksid devalveerimise järel raskustesse sattunud kliendid või muutub klientidel enamasti Saksa margaga seotud pikaajaliste laenude tagasimaksmine raskeks .
+1	Pankurid	S	pl=pl|n=n	2	nsubj	_
+2	kaotaksid	V	ksid=ksid	0	root	_
+3	devalveerimise	S	sg=sg|g=g	6	obl	_
+4	järel	K	_	3	case	_
+5	raskustesse	S	pl=pl|ill=ill	6	obl	_
+6	sattunud	A	_	7	acl	_
+7	kliendid	S	pl=pl|n=n	2	obj	_
+8	või	J	_	9	cc	_
+9	muutub	V	b=b	2	conj	_
+10	klientidel	S	pl=pl|ad=ad	9	obl	_
+11	enamasti	D	_	14	advmod	_
+12	Saksa	G	_	13	amod	_
+13	margaga	S	sg=sg|kom=kom	14	obl	_
+14	seotud	A	sg=sg|n=n	16	acl	_
+15	pikaajaliste	A	pl=pl|g=g	16	amod	_
+16	laenude	S	pl=pl|g=g	17	nmod	_
+17	tagasimaksmine	S	sg=sg|n=n	9	obl	CHECK
+18	raskeks	A	sg=sg|tr=tr	9	xcomp	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 4077047
+# text = Väiksemgi viivitus seaks ohtu niigi pingeliseks muutunud ajakava ühisrahale üleminekuks , stabiilsuspakti vastuvõtu venimine oleks aga seni suurimaks tagasilöögiks .
+1	Väiksemgi	C	sg=sg|n=n	2	amod	_
+2	viivitus	S	sg=sg|n=n	19	nsubj:cop	_
+3	seaks	S	sg=sg|tr=tr	4	nmod	_
+4	ohtu	S	adt=adt	7	obl	CHECK
+5	niigi	D	_	6	advmod	_
+6	pingeliseks	A	sg=sg|tr=tr	7	obl	_
+7	muutunud	V	nud=nud	8	acl	_
+8	ajakava	S	sg=sg|g=g	10	nmod	_
+9	ühisrahale	S	sg=sg|all=all	10	nmod	_
+10	üleminekuks	S	sg=sg|tr=tr	19	obl	_
+11	,	Z	_	14	punct	_
+12	stabiilsuspakti	S	sg=sg|g=g	13	nmod	_
+13	vastuvõtu	S	sg=sg|g=g	14	nmod	_
+14	venimine	S	sg=sg|n=n	4	conj	_
+15	oleks	V	ks=ks	19	cop	_
+16	aga	J	_	19	advmod	_
+17	seni	D	_	19	advmod	_
+18	suurimaks	U	sg=sg|tr=tr	19	amod	_
+19	tagasilöögiks	S	sg=sg|tr=tr	0	root	_
+20	.	Z	_	19	punct	_
+
+# sent_id = 2163596
+# text = Aga kõige lihtsamalt öeldes : GTA3-s on alati midagi teha , ta ei muutu end kordavaks ega tüütuks .
+1	Aga	J	_	4	cc	_
+2	kõige	D	_	3	advmod	_
+3	lihtsamalt	D	_	4	advmod	_
+4	öeldes	V	des=des	0	root	_
+5	:	Z	_	10	punct	_
+6	GTA3-s	Y	sg=sg|in=in	10	obl	_
+7	on	V	vad=vad	10	aux	_
+8	alati	D	_	10	advmod	_
+9	midagi	P	sg=sg|p=p	10	nsubj	_
+10	teha	V	da=da	4	parataxis	_
+11	,	Z	_	14	punct	_
+12	ta	P	sg=sg|n=n	14	nsubj	_
+13	ei	V	neg=neg	14	aux	_
+14	muutu	V	o=o	10	conj	_
+15	end	P	sg=sg|p=p	14	obj	CHECK
+16	kordavaks	A	sg=sg|tr=tr	14	xcomp	_
+17	ega	J	_	18	cc	_
+18	tüütuks	A	sg=sg|tr=tr	16	conj	_
+19	.	Z	_	4	punct	_
+
+# sent_id = 910695
+# text = Kesk- ja kohalik omavalitsus muutuksid mõlemad tunduvalt efektiivsemaks ühetasandiliseks .
+1	Kesk-	S	?=?	4	nmod	_
+2	ja	J	_	3	cc	_
+3	kohalik	A	sg=sg|n=n	1	conj	_
+4	omavalitsus	S	sg=sg|n=n	5	nsubj	_
+5	muutuksid	V	ksid=ksid	0	root	_
+6	mõlemad	P	pl=pl|n=n	5	nsubj	CHECK
+7	tunduvalt	D	_	8	advmod	_
+8	efektiivsemaks	C	sg=sg|tr=tr	9	amod	_
+9	ühetasandiliseks	A	sg=sg|tr=tr	5	obl	_
+10	.	Z	_	5	punct	_
+
+# sent_id = 15795184
+# text = Mõnikord kaotab ärevus oma kohastumusliku tähenduse ja muutub inimese elukvaliteeti oluliselt häirivaks haiguslikuks seisundiks .
+1	Mõnikord	D	_	2	advmod	_
+2	kaotab	V	b=b	0	root	_
+3	ärevus	S	sg=sg|n=n	2	nsubj	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	kohastumusliku	A	sg=sg|g=g	6	amod	_
+6	tähenduse	S	sg=sg|g=g	2	obj	_
+7	ja	J	_	8	cc	_
+8	muutub	V	b=b	2	conj	_
+9	inimese	S	sg=sg|g=g	10	nmod	_
+10	elukvaliteeti	S	adt=adt	12	obj	CHECK
+11	oluliselt	D	_	12	advmod	_
+12	häirivaks	A	sg=sg|tr=tr	14	acl	_
+13	haiguslikuks	A	sg=sg|tr=tr	14	amod	_
+14	seisundiks	S	sg=sg|tr=tr	8	obl	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 440050
+# text = Uuringud näitavad , et kuigi tervislikke eluviise osatakse Eestis varasemast enam hinnata , on toitumisharjumused lääneliku kaubavaliku mõjul pigem tervist laastavamaks muutunud .
+1	Uuringud	S	pl=pl|n=n	2	nsubj	_
+2	näitavad	V	vad=vad	0	root	_
+3	,	Z	_	8	punct	_
+4	et	J	_	8	mark	_
+5	kuigi	J	_	8	mark	_
+6	tervislikke	A	pl=pl|p=p	7	amod	_
+7	eluviise	S	pl=pl|p=p	8	nsubj	_
+8	osatakse	V	takse=takse	22	advcl	_
+9	Eestis	H	sg=sg|in=in	8	nsubj	_
+10	varasemast	C	sg=sg|el=el	12	obl	_
+11	enam	D	_	12	advmod	_
+12	hinnata	V	da=da	8	xcomp	_
+13	,	Z	_	22	punct	_
+14	on	V	b=b	22	aux	_
+15	toitumisharjumused	S	pl=pl|n=n	22	nsubj	_
+16	lääneliku	A	sg=sg|g=g	17	amod	_
+17	kaubavaliku	S	sg=sg|g=g	22	obl	_
+18	mõjul	K	_	17	case	_
+19	pigem	D	_	22	advmod	_
+20	tervist	S	sg=sg|p=p	21	obj	CHECK
+21	laastavamaks	C	sg=sg|tr=tr	22	advcl	_
+22	muutunud	A	pl=pl|n=n	2	ccomp	_
+23	.	Z	_	2	punct	_
+
+# sent_id = 2472099
+# text = Tiina Sori sõnul aastatega korterijärjekorras seisjate arv suurt ei muutu , püsides jätkuvalt nelja ja poole tuhande kandis .
+1	Tiina	H	sg=sg|n=n	3	nmod	_
+2	Sori	H	sg=sg|g=g	1	flat	_
+3	sõnul	S	pl=pl|ad=ad	10	obl	_
+4	aastatega	S	pl=pl|kom=kom	10	obl	_
+5	korterijärjekorras	S	sg=sg|in=in	6	nmod	_
+6	seisjate	S	pl=pl|g=g	7	nmod	_
+7	arv	S	sg=sg|n=n	10	nsubj	_
+8	suurt	A	sg=sg|p=p	10	xcomp	CHECK
+9	ei	V	neg=neg	10	aux	_
+10	muutu	V	o=o	12	advcl	_
+11	,	Z	_	12	punct	_
+12	püsides	V	des=des	0	root	_
+13	jätkuvalt	D	_	12	advmod	_
+14	nelja	N	sg=sg|g=g	17	compound	_
+15	ja	J	_	16	cc	_
+16	poole	N	sg=sg|g=g	14	conj	_
+17	tuhande	N	sg=sg|g=g	12	obl	_
+18	kandis	K	_	17	case	_
+19	.	Z	_	12	punct	_
+
+# sent_id = 2840764
+# text = Ei Brüssel ega Moskva nõustu , et Läänemere idakaldale tekiks suletud enklaav , kus elatakse " oma " reeglite järgi ( umbes nagu kunagi Enver Hoxha Albaanias ) , või et Eesti muutuks hämarat raha keerutavaks ja võimukliki taktikepi all demokraatiat mängivaks Singapuri-taoliseks rikkaks väikeriigiks .
+1	Ei	D	_	2	advmod	_
+2	Brüssel	H	sg=sg|n=n	5	nsubj	_
+3	ega	J	_	4	cc	_
+4	Moskva	H	sg=sg|n=n	2	conj	_
+5	nõustu	V	o=o	0	root	_
+6	,	Z	_	10	punct	_
+7	et	J	_	10	mark	_
+8	Läänemere	H	sg=sg|g=g	9	nmod	_
+9	idakaldale	S	sg=sg|all=all	10	obl	_
+10	tekiks	V	ks=ks	5	ccomp	_
+11	suletud	V	tud=tud	12	acl	_
+12	enklaav	S	sg=sg|n=n	10	obl	_
+13	,	Z	_	15	punct	_
+14	kus	D	_	15	mark	_
+15	elatakse	V	takse=takse	10	advcl	_
+16	"	Z	_	17	punct	_
+17	oma	P	sg=sg|g=g	19	nmod	_
+18	"	Z	_	17	punct	_
+19	reeglite	S	pl=pl|g=g	15	obl	_
+20	järgi	K	_	19	case	_
+21	(	Z	_	25	punct	_
+22	umbes	D	_	25	advmod	_
+23	nagu	D	_	22	fixed	_
+24	kunagi	D	_	25	advmod	_
+25	Enver	H	sg=sg|n=n	19	parataxis	_
+26	Hoxha	H	sg=sg|n=n	25	flat	_
+27	Albaanias	H	sg=sg|in=in	25	flat	_
+28	)	Z	_	25	punct	_
+29	,	Z	_	33	punct	_
+30	või	J	_	33	cc	_
+31	et	J	_	33	mark	_
+32	Eesti	H	sg=sg|n=n	33	nsubj	_
+33	muutuks	V	ks=ks	10	conj	_
+34	hämarat	A	sg=sg|p=p	35	amod	_
+35	raha	S	sg=sg|p=p	36	obj	CHECK
+36	keerutavaks	A	sg=sg|tr=tr	45	acl	_
+37	ja	J	_	42	cc	_
+38	võimukliki	S	sg=sg|g=g	39	nmod	_
+39	taktikepi	S	sg=sg|g=g	42	obl	_
+40	all	K	_	39	case	_
+41	demokraatiat	S	sg=sg|p=p	42	obj	_
+42	mängivaks	A	sg=sg|tr=tr	36	conj	_
+43	Singapuri-taoliseks	A	sg=sg|tr=tr	45	amod	_
+44	rikkaks	A	sg=sg|tr=tr	45	amod	_
+45	väikeriigiks	S	sg=sg|tr=tr	33	obj	_
+46	.	Z	_	5	punct	_
+

@@ -1,0 +1,368 @@
+# sent_id = 1858808
+# text = Esinejateks on EMA klavessiini õppejõud Imbi Tarum , tema õpilased Ele Sonn , Iren Lill ja Saale Metsar , kes kõik hiljuti edukalt Bachi konkursil osalesid , samuti viiuldaja Terje Raidmets ja flöödimängija Maria Krjukova EMA Tartu filiaalist .
+1	Esinejateks	S	pl=pl|tr=tr	0	root	_
+2	on	V	vad=vad	1	cop	_
+3	EMA	S	sg=sg|g=g	4	nmod	_
+4	klavessiini	S	sg=sg|g=g	5	nmod	_
+5	õppejõud	S	sg=sg|n=n	1	nsubj:cop	_
+6	Imbi	H	sg=sg|n=n	5	appos	_
+7	Tarum	H	sg=sg|n=n	6	flat	_
+8	,	Z	_	10	punct	_
+9	tema	P	sg=sg|g=g	10	nmod	_
+10	õpilased	S	pl=pl|n=n	5	conj	_
+11	Ele	H	sg=sg|n=n	10	appos	_
+12	Sonn	H	sg=sg|n=n	11	flat	_
+13	,	Z	_	14	punct	_
+14	Iren	H	sg=sg|n=n	5	conj	_
+15	Lill	H	sg=sg|n=n	14	flat	_
+16	ja	J	_	17	cc	_
+17	Saale	H	sg=sg|n=n	5	conj	_
+18	Metsar	H	sg=sg|n=n	17	flat	_
+19	,	Z	_	26	punct	_
+20	kes	P	sg=sg|n=n	26	nsubj	_
+21	kõik	P	sg=sg|n=n	26	nsubj	CHECK
+22	hiljuti	D	_	26	advmod	_
+23	edukalt	D	_	26	advmod	_
+24	Bachi	H	sg=sg|g=g	25	nmod	_
+25	konkursil	S	sg=sg|ad=ad	26	obj	_
+26	osalesid	V	sid=sid	17	acl:relcl	_
+27	,	Z	_	29	punct	_
+28	samuti	D	_	29	advmod	_
+29	viiuldaja	S	sg=sg|n=n	5	conj	_
+30	Terje	H	sg=sg|n=n	29	appos	_
+31	Raidmets	H	sg=sg|n=n	30	flat	_
+32	ja	J	_	33	cc	_
+33	flöödimängija	S	sg=sg|n=n	29	conj	_
+34	Maria	H	sg=sg|n=n	33	appos	_
+35	Krjukova	H	sg=sg|n=n	34	flat	_
+36	EMA	S	sg=sg|g=g	38	nmod	_
+37	Tartu	H	sg=sg|g=g	38	nmod	_
+38	filiaalist	S	sg=sg|el=el	29	orphan	_
+39	.	Z	_	1	punct	_
+
+# sent_id = 85108
+# text = Viimase eesmärgiks on see , et inimesed , kes elavad kõrgema kuritegevusega piirkondades , osaleksid aktiivselt toimepandu tunnistajatena ega jääks vaid anonüümseiks nurisejaiks .
+1	Viimase	A	sg=sg|g=g	2	amod	_
+2	eesmärgiks	S	sg=sg|tr=tr	0	root	_
+3	on	V	vad=vad	2	cop	_
+4	see	P	sg=sg|n=n	2	nsubj:cop	_
+5	,	Z	_	15	punct	_
+6	et	J	_	15	mark	_
+7	inimesed	S	pl=pl|n=n	15	nsubj	_
+8	,	Z	_	10	punct	_
+9	kes	P	pl=pl|n=n	10	nsubj	_
+10	elavad	V	vad=vad	7	acl:relcl	_
+11	kõrgema	C	sg=sg|g=g	12	amod	_
+12	kuritegevusega	S	sg=sg|kom=kom	13	nmod	_
+13	piirkondades	S	pl=pl|in=in	10	obj	_
+14	,	Z	_	10	punct	_
+15	osaleksid	V	ksid=ksid	4	acl	_
+16	aktiivselt	D	_	15	advmod	_
+17	toimepandu	S	pl=pl|p=p	18	nmod	CHECK
+18	tunnistajatena	S	pl=pl|es=es	15	nsubj	_
+19	ega	J	_	20	cc	_
+20	jääks	S	sg=sg|tr=tr	18	conj	_
+21	vaid	D	_	23	advmod	_
+22	anonüümseiks	A	pl=pl|tr=tr	23	amod	_
+23	nurisejaiks	S	pl=pl|tr=tr	18	conj	_
+24	.	Z	_	2	punct	_
+
+# sent_id = 11896283
+# text = Küsimusest , kas talle meeldiks , kui ta oma naine missisevõitlusel osaleks , põikles Susi kõrvale .
+1	Küsimusest	S	sg=sg|el=el	14	obl	_
+2	,	Z	_	5	punct	_
+3	kas	D	_	5	advmod	_
+4	talle	P	sg=sg|all=all	5	nsubj	_
+5	meeldiks	V	ks=ks	1	acl	_
+6	,	Z	_	12	punct	_
+7	kui	D	_	12	mark	_
+8	ta	P	sg=sg|n=n	12	nsubj	_
+9	oma	P	sg=sg|g=g	10	nmod	_
+10	naine	S	sg=sg|n=n	12	obj	CHECK
+11	missisevõitlusel	S	sg=sg|ad=ad	12	obl	_
+12	osaleks	V	ks=ks	5	advcl	_
+13	,	Z	_	12	punct	_
+14	põikles	V	s=s	0	root	_
+15	Susi	H	sg=sg|n=n	14	nsubj	_
+16	kõrvale	D	_	14	compound:prt	_
+17	.	Z	_	14	punct	_
+
+# sent_id = 1822018
+# text = Venemaa kaalub , kas anda Lätile välja kaht noormeest , kes väidavad end olevat osalenud grupiseksis Läti siseministriga .
+1	Venemaa	H	sg=sg|n=n	2	nsubj	_
+2	kaalub	V	b=b	0	root	_
+3	,	Z	_	5	punct	_
+4	kas	D	_	5	advmod	_
+5	anda	V	da=da	2	ccomp	_
+6	Lätile	H	sg=sg|all=all	5	nsubj	_
+7	välja	D	_	5	compound:prt	_
+8	kaht	N	sg=sg|p=p	9	nummod	_
+9	noormeest	S	sg=sg|p=p	5	obj	_
+10	,	Z	_	12	punct	_
+11	kes	P	pl=pl|n=n	12	nsubj	_
+12	väidavad	V	vad=vad	9	acl:relcl	_
+13	end	P	sg=sg|p=p	15	obj	CHECK
+14	olevat	V	vat=vat	15	aux	_
+15	osalenud	V	nud=nud	9	acl:relcl	_
+16	grupiseksis	S	sg=sg|in=in	18	nmod	_
+17	Läti	H	sg=sg|g=g	18	nmod	_
+18	siseministriga	S	sg=sg|kom=kom	15	obl	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 836760
+# text = USA välisminister Madeleine Albright ( pildil ) osaleb Saksamaade taasühinemise 10. aastapäeva pidustustel , teatas USA välisministeeriumi esindaja Richard Boucher .
+1	USA	Y	?=?	2	nmod	_
+2	välisminister	S	sg=sg|n=n	8	nsubj	_
+3	Madeleine	H	sg=sg|n=n	2	appos	_
+4	Albright	H	sg=sg|n=n	3	flat	_
+5	(	Z	_	6	punct	_
+6	pildil	S	sg=sg|ad=ad	2	parataxis	_
+7	)	Z	_	6	punct	_
+8	osaleb	V	b=b	0	root	_
+9	Saksamaade	S	pl=pl|g=g	10	nmod	_
+10	taasühinemise	S	sg=sg|g=g	8	obl	CHECK
+11	10.	O	?=?	12	amod	_
+12	aastapäeva	S	sg=sg|g=g	13	nmod	_
+13	pidustustel	S	pl=pl|ad=ad	8	obl	_
+14	,	Z	_	15	punct	_
+15	teatas	V	s=s	8	conj	_
+16	USA	Y	?=?	17	nmod	_
+17	välisministeeriumi	S	sg=sg|g=g	18	nmod	_
+18	esindaja	S	sg=sg|n=n	15	nsubj	_
+19	Richard	H	sg=sg|n=n	18	appos	_
+20	Boucher	H	sg=sg|n=n	19	flat	_
+21	.	Z	_	8	punct	_
+
+# sent_id = 207657
+# text = Pärast ülikooli Tallinnasse tulles sattus Kristiina tööle justiitsministeeriumisse ja kuna ta osales Eesti Vabariigi jaoks seadusi loovates töörühmades , kutsuti noor jurist 1991. aastal Oslosse kahenädalasele seminarile .
+1	Pärast	K	_	2	case	_
+2	ülikooli	S	sg=sg|p=p	4	obl	_
+3	Tallinnasse	H	sg=sg|ill=ill	4	obl	_
+4	tulles	V	des=des	5	advcl	_
+5	sattus	V	s=s	0	root	_
+6	Kristiina	H	sg=sg|n=n	5	nsubj	_
+7	tööle	S	sg=sg|all=all	6	flat	_
+8	justiitsministeeriumisse	S	sg=sg|ill=ill	5	obl	_
+9	ja	J	_	12	cc	_
+10	kuna	J	_	12	mark	_
+11	ta	P	sg=sg|n=n	12	nsubj	_
+12	osales	V	s=s	20	advcl	_
+13	Eesti	H	sg=sg|g=g	14	nmod	_
+14	Vabariigi	S	sg=sg|g=g	17	obl	_
+15	jaoks	K	_	14	case	_
+16	seadusi	S	pl=pl|p=p	17	obj	CHECK
+17	loovates	A	pl=pl|in=in	18	acl	_
+18	töörühmades	S	pl=pl|in=in	12	obl	_
+19	,	Z	_	20	punct	_
+20	kutsuti	V	ti=ti	5	conj	_
+21	noor	A	sg=sg|n=n	22	amod	_
+22	jurist	S	sg=sg|n=n	20	obj	_
+23	1991.	O	?=?	24	amod	_
+24	aastal	S	sg=sg|ad=ad	20	obl	_
+25	Oslosse	H	sg=sg|ill=ill	27	nmod	_
+26	kahenädalasele	A	sg=sg|all=all	27	amod	_
+27	seminarile	S	sg=sg|all=all	20	obj	_
+28	.	Z	_	5	punct	_
+
+# sent_id = 650148
+# text = Osalenud üle-eile 4x100 m vabaujumise Euroopa rekordi püsti-tamises , võttis ta nüüd 23,89 -ga kindlal kulla .
+1	Osalenud	A	sg=sg|n=n	10	advcl	_
+2	üle-eile	D	_	1	advmod	_
+3	4x100	Y	?=?	4	nummod	_
+4	m	Y	?=?	5	nmod	_
+5	vabaujumise	S	sg=sg|g=g	1	obl	CHECK
+6	Euroopa	H	sg=sg|g=g	7	nmod	_
+7	rekordi	S	sg=sg|g=g	8	nmod	_
+8	püsti-tamises	S	sg=sg|in=in	1	obl	_
+9	,	Z	_	10	punct	_
+10	võttis	V	s=s	0	root	_
+11	ta	P	sg=sg|n=n	10	nsubj	_
+12	nüüd	D	_	10	advmod	_
+13	23,89 -ga	N	sg=sg|kom=kom	10	obj	_
+14	kindlal	A	sg=sg|ad=ad	15	amod	_
+15	kulla	A	_	10	obj	_
+16	.	Z	_	10	punct	_
+
+# sent_id = 10669130
+# text = Res Publica esimees Maret Maripuu teatas , et ühendus ei ole osalenud Tartu rahu 77. aastapäeva ürituste ettevalmistamises ega nende läbiviimisel .
+1	Res	Y	?=?	3	nmod	_
+2	Publica	H	sg=sg|g=g	1	flat	_
+3	esimees	S	sg=sg|n=n	6	nsubj	_
+4	Maret	H	sg=sg|n=n	3	appos	_
+5	Maripuu	H	sg=sg|n=n	4	flat	_
+6	teatas	V	s=s	0	root	_
+7	,	Z	_	12	punct	_
+8	et	J	_	12	mark	_
+9	ühendus	S	sg=sg|n=n	12	nsubj	_
+10	ei	V	neg=neg	12	aux	_
+11	ole	V	o=o	12	aux	_
+12	osalenud	A	sg=sg|n=n	6	ccomp	_
+13	Tartu	H	sg=sg|g=g	14	nmod	_
+14	rahu	S	sg=sg|n=n	16	nmod	CHECK
+15	77.	O	?=?	16	amod	_
+16	aastapäeva	S	sg=sg|g=g	12	obl	_
+17	ürituste	S	pl=pl|g=g	18	nmod	_
+18	ettevalmistamises	S	sg=sg|in=in	16	nmod	_
+19	ega	J	_	21	cc	_
+20	nende	P	pl=pl|g=g	21	nmod	_
+21	läbiviimisel	S	sg=sg|ad=ad	18	conj	_
+22	.	Z	_	6	punct	_
+
+# sent_id = 718538
+# text = Pariisis rahvusvahelisel organiseeritud kuritegevuse vastu suunatud õigusloomet käsitleval seminaril osalenud riigikogu õiguskomisjoni esimehe Jüri Adamsi sõnul on Eesti globaalses kontekstis vaid organiseeritud kuritegevuse transiitmaa .
+1	Pariisis	H	sg=sg|in=in	4	nmod	_
+2	rahvusvahelisel	A	sg=sg|ad=ad	4	amod	_
+3	organiseeritud	A	pl=pl|n=n	4	acl	_
+4	kuritegevuse	S	sg=sg|g=g	6	obl	_
+5	vastu	K	_	4	case	_
+6	suunatud	A	sg=sg|n=n	13	acl	_
+7	õigusloomet	S	sg=sg|p=p	8	obj	CHECK
+8	käsitleval	A	sg=sg|ad=ad	13	acl	_
+9	seminaril	S	sg=sg|ad=ad	10	obj	_
+10	osalenud	A	_	13	acl	_
+11	riigikogu	S	sg=sg|g=g	12	nmod	_
+12	õiguskomisjoni	S	sg=sg|g=g	13	nmod	_
+13	esimehe	S	sg=sg|g=g	16	nmod	_
+14	Jüri	H	sg=sg|n=n	13	appos	_
+15	Adamsi	H	sg=sg|g=g	14	flat	_
+16	sõnul	S	pl=pl|ad=ad	24	obl	_
+17	on	V	vad=vad	24	cop	_
+18	Eesti	H	sg=sg|g=g	24	nsubj:cop	_
+19	globaalses	A	sg=sg|in=in	20	amod	_
+20	kontekstis	S	sg=sg|in=in	24	obl	_
+21	vaid	D	_	24	advmod	_
+22	organiseeritud	A	pl=pl|n=n	23	acl	_
+23	kuritegevuse	S	sg=sg|g=g	24	nmod	_
+24	transiitmaa	S	sg=sg|n=n	0	root	_
+25	.	Z	_	24	punct	_
+
+# sent_id = 18045339
+# text = Erastamisagentuuri Nõukogu otsustas oma 16. augusti 2000. aasta koosolekul valida AS-i Eesti Raudtee 66% aktsiate erastamisel pakkumise teises etapis osalema kõik esimeses etapis osalenud .
+1	Erastamisagentuuri	H	sg=sg|g=g	2	nmod	_
+2	Nõukogu	S	sg=sg|n=n	3	nsubj	_
+3	otsustas	V	s=s	0	root	_
+4	oma	P	sg=sg|g=g	6	nmod	_
+5	16.	O	?=?	6	amod	_
+6	augusti	S	sg=sg|g=g	3	obl	_
+7	2000.	O	?=?	8	amod	_
+8	aasta	S	sg=sg|g=g	9	nmod	_
+9	koosolekul	S	sg=sg|ad=ad	10	obl	_
+10	valida	V	da=da	3	conj	_
+11	AS-i	Y	sg=sg|g=g	16	nmod	_
+12	Eesti	H	sg=sg|g=g	13	nmod	_
+13	Raudtee	S	sg=sg|g=g	14	nmod	_
+14	66%	N	?=?	15	nummod	_
+15	aktsiate	S	pl=pl|g=g	16	nmod	_
+16	erastamisel	S	sg=sg|ad=ad	10	obl	_
+17	pakkumise	S	sg=sg|g=g	19	nmod	_
+18	teises	O	sg=sg|in=in	19	amod	_
+19	etapis	S	sg=sg|in=in	20	obl	_
+20	osalema	V	ma=ma	24	nsubj	_
+21	kõik	P	pl=pl|n=n	24	nsubj	CHECK
+22	esimeses	O	sg=sg|in=in	23	amod	_
+23	etapis	S	sg=sg|in=in	24	obl	_
+24	osalenud	A	sg=sg|n=n	10	conj	_
+25	.	Z	_	3	punct	_
+
+# sent_id = 798100
+# text = President Leonid Kutšma , parlamendispiiker Ivan Pljuštš , peaminister Viktor Juštšenko ja Kiievi linnapea Aleksandr Omeltšenko osalesid teisipaeval monumentaalkompleksi kolme loomekollektiivi loodud projekti arutelul .
+1	President	S	sg=sg|n=n	17	nsubj	_
+2	Leonid	H	sg=sg|n=n	1	appos	_
+3	Kutšma	H	sg=sg|n=n	2	flat	_
+4	,	Z	_	5	punct	_
+5	parlamendispiiker	S	sg=sg|n=n	1	conj	_
+6	Ivan	H	sg=sg|n=n	5	appos	_
+7	Pljuštš	H	sg=sg|n=n	6	flat	_
+8	,	Z	_	9	punct	_
+9	peaminister	S	sg=sg|n=n	1	conj	_
+10	Viktor	H	sg=sg|n=n	9	appos	_
+11	Juštšenko	H	sg=sg|g=g	10	flat	_
+12	ja	J	_	14	cc	_
+13	Kiievi	H	sg=sg|g=g	14	nmod	_
+14	linnapea	S	sg=sg|n=n	1	conj	_
+15	Aleksandr	H	sg=sg|n=n	14	appos	_
+16	Omeltšenko	H	sg=sg|n=n	15	flat	_
+17	osalesid	V	sid=sid	0	root	_
+18	teisipaeval	S	sg=sg|ad=ad	19	nmod	_
+19	monumentaalkompleksi	S	sg=sg|g=g	17	obl	CHECK
+20	kolme	N	sg=sg|g=g	21	nummod	_
+21	loomekollektiivi	S	sg=sg|g=g	22	obl	_
+22	loodud	V	tud=tud	23	acl	_
+23	projekti	S	sg=sg|g=g	24	nmod	_
+24	arutelul	S	sg=sg|ad=ad	17	nsubj	_
+25	.	Z	_	17	punct	_
+
+# sent_id = 352097
+# text = Lilleaianduses osalevad nad mõneti kõik .
+1	Lilleaianduses	S	sg=sg|in=in	2	obl	_
+2	osalevad	V	vad=vad	0	root	_
+3	nad	P	pl=pl|n=n	2	nsubj	_
+4	mõneti	D	_	2	advmod	_
+5	kõik	P	pl=pl|n=n	2	nsubj	CHECK
+6	.	Z	_	2	punct	_
+
+# sent_id = 790794
+# text = Ajalehe andmetel saab kahe inimese surmaga lõppenud avariis osalenud Metsamaa süüdistuse järgmisel nädalal , sest sel nädalal pole temal ega ta esindajal aega uurija juurde minna .
+1	Ajalehe	S	sg=sg|g=g	2	nmod	_
+2	andmetel	S	pl=pl|ad=ad	9	obl	_
+3	saab	V	b=b	9	aux	_
+4	kahe	N	sg=sg|g=g	8	nummod	_
+5	inimese	S	sg=sg|g=g	6	nmod	_
+6	surmaga	S	sg=sg|kom=kom	7	obl	_
+7	lõppenud	V	nud=nud	8	acl	_
+8	avariis	S	sg=sg|in=in	9	nsubj	_
+9	osalenud	A	sg=sg|n=n	0	root	_
+10	Metsamaa	H	sg=sg|n=n	11	nmod	_
+11	süüdistuse	S	sg=sg|g=g	9	obj	CHECK
+12	järgmisel	A	sg=sg|ad=ad	13	amod	_
+13	nädalal	S	sg=sg|ad=ad	9	obl	_
+14	,	Z	_	26	punct	_
+15	sest	J	_	26	mark	_
+16	sel	P	sg=sg|ad=ad	17	det	_
+17	nädalal	S	sg=sg|ad=ad	26	obl	_
+18	pole	V	neg=neg|o=o	26	aux	_
+19	temal	P	sg=sg|ad=ad	26	nsubj	_
+20	ega	J	_	26	cc	_
+21	ta	P	sg=sg|g=g	26	nsubj	_
+22	esindajal	S	sg=sg|ad=ad	23	nmod	_
+23	aega	S	sg=sg|p=p	26	obl	_
+24	uurija	S	sg=sg|g=g	26	obl	_
+25	juurde	K	_	24	case	_
+26	minna	V	da=da	9	advcl	_
+27	.	Z	_	9	punct	_
+
+# sent_id = 210598
+# text = Skandinaaviast alguse saanud lähenemise järgi , mida suurem arv inimesi osaleb kas täis- või osaajaga tööturul , seda suurem on võimalus adekvaatsel tasemel sotsiaalkaitse säilitamiseks ja arendamiseks ( Hemerijck 2004 ) .
+1	Skandinaaviast	H	sg=sg|el=el	3	obl	_
+2	alguse	S	sg=sg|g=g	3	obj	_
+3	saanud	V	nud=nud	4	acl	_
+4	lähenemise	S	sg=sg|g=g	19	obl	_
+5	järgi	K	_	4	case	_
+6	,	Z	_	11	punct	_
+7	mida	P	sg=sg|p=p	11	nsubj	CHECK
+8	suurem	C	sg=sg|n=n	9	amod	_
+9	arv	S	sg=sg|n=n	10	nmod	_
+10	inimesi	S	pl=pl|p=p	11	nsubj	_
+11	osaleb	V	b=b	4	acl:relcl	_
+12	kas	D	_	13	cc:preconj	_
+13	täis-	D	_	16	nmod	_
+14	või	J	_	15	cc	_
+15	osaajaga	S	sg=sg|kom=kom	13	conj	_
+16	tööturul	S	sg=sg|ad=ad	11	obl	_
+17	,	Z	_	11	punct	_
+18	seda	P	sg=sg|p=p	19	obl	_
+19	suurem	C	sg=sg|n=n	0	root	_
+20	on	V	b=b	19	cop	_
+21	võimalus	S	sg=sg|n=n	19	nsubj:cop	_
+22	adekvaatsel	A	sg=sg|ad=ad	23	amod	_
+23	tasemel	S	sg=sg|ad=ad	24	nmod	_
+24	sotsiaalkaitse	S	sg=sg|g=g	25	nmod	_
+25	säilitamiseks	S	sg=sg|tr=tr	21	nmod	_
+26	ja	J	_	27	cc	_
+27	arendamiseks	S	sg=sg|tr=tr	25	conj	_
+28	(	Z	_	29	punct	_
+29	Hemerijck	H	sg=sg|n=n	19	parataxis	_
+30	2004	N	?=?	29	nummod	_
+31	)	Z	_	29	punct	_
+32	.	Z	_	19	punct	_
+

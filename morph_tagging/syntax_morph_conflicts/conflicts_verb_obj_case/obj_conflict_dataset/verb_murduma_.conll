@@ -1,0 +1,381 @@
+# sent_id = 8579181
+# text = Ka Eesti demokraatiale on ülimalt oluline , et murduks seni meie poliitikas ainus seinast seina kehtinud kokkulepe - see on rivaalide rahaasjadest vaikimine .
+1	Ka	D	_	3	advmod	_
+2	Eesti	H	sg=sg|g=g	3	nmod	_
+3	demokraatiale	S	sg=sg|all=all	6	nsubj:cop	_
+4	on	V	vad=vad	6	cop	_
+5	ülimalt	D	_	6	advmod	_
+6	oluline	A	sg=sg|n=n	0	root	_
+7	,	Z	_	9	punct	_
+8	et	J	_	9	mark	_
+9	murduks	V	ks=ks	6	csubj:cop	_
+10	seni	D	_	9	advmod	_
+11	meie	P	pl=pl|g=g	12	nmod	_
+12	poliitikas	S	sg=sg|in=in	14	nmod	_
+13	ainus	A	sg=sg|n=n	14	amod	_
+14	seinast	S	sg=sg|el=el	16	obl	_
+15	seina	S	sg=sg|p=p	16	obl	_
+16	kehtinud	A	sg=sg|n=n	17	acl	_
+17	kokkulepe	S	sg=sg|n=n	9	obj	CHECK
+18	-	Z	_	23	punct	_
+19	see	P	sg=sg|n=n	23	nsubj:cop	_
+20	on	V	b=b	23	cop	_
+21	rivaalide	S	pl=pl|g=g	23	nmod	_
+22	rahaasjadest	S	pl=pl|el=el	23	nmod	_
+23	vaikimine	S	sg=sg|n=n	9	parataxis	_
+24	.	Z	_	6	punct	_
+
+# sent_id = 2413057
+# text = " Isegi puude oksad murduvad Pädastes südamekujuliselt , tiigist tõmmatakse välja südameid , " jutustab Endel .
+1	"	Z	_	5	punct	_
+2	Isegi	D	_	4	advmod	_
+3	puude	S	sg=sg|g=g	4	nmod	_
+4	oksad	S	pl=pl|n=n	5	nsubj	_
+5	murduvad	V	vad=vad	0	root	_
+6	Pädastes	H	sg=sg|n=n	5	nsubj	CHECK
+7	südamekujuliselt	D	_	5	advmod	_
+8	,	Z	_	10	punct	_
+9	tiigist	S	sg=sg|el=el	10	nsubj	_
+10	tõmmatakse	V	takse=takse	5	conj	_
+11	välja	D	_	10	compound:prt	_
+12	südameid	S	pl=pl|p=p	10	obj	_
+13	,	Z	_	5	punct	_
+14	"	Z	_	5	punct	_
+15	jutustab	V	b=b	5	parataxis	_
+16	Endel	H	sg=sg|n=n	15	nsubj	_
+17	.	Z	_	5	punct	_
+
+# sent_id = 3420400
+# text = Tiku kinnitusel on murdunud puude koristamine terves linnas nende töö , tuletõrje- ja päästeamet kutsutakse appi sel juhul , kui tüvi on tee kohal või muidu ohtlik .
+1	Tiku	S	sg=sg|g=g	2	nmod	_
+2	kinnitusel	S	sg=sg|ad=ad	4	obl	_
+3	on	V	vad=vad	4	aux	_
+4	murdunud	A	pl=pl|n=n	0	root	_
+5	puude	S	pl=pl|g=g	6	nmod	_
+6	koristamine	S	sg=sg|n=n	4	nsubj	_
+7	terves	A	sg=sg|in=in	8	amod	_
+8	linnas	S	sg=sg|in=in	4	nsubj	_
+9	nende	P	pl=pl|g=g	10	det	_
+10	töö	S	sg=sg|g=g	4	nsubj	CHECK
+11	,	Z	_	15	punct	_
+12	tuletõrje-	S	sg=sg|g=g	15	nsubj	_
+13	ja	J	_	14	cc	_
+14	päästeamet	S	sg=sg|n=n	12	conj	_
+15	kutsutakse	V	takse=takse	4	conj	_
+16	appi	S	adt=adt	15	obj	_
+17	sel	P	sg=sg|ad=ad	18	det	_
+18	juhul	S	sg=sg|ad=ad	15	obl	_
+19	,	Z	_	23	punct	_
+20	kui	D	_	23	mark	_
+21	tüvi	S	sg=sg|n=n	23	nsubj:cop	_
+22	on	V	vad=vad	23	cop	_
+23	tee	S	sg=sg|g=g	15	advcl	_
+24	kohal	K	_	23	case	_
+25	või	J	_	27	cc	_
+26	muidu	D	_	27	advmod	_
+27	ohtlik	A	sg=sg|n=n	23	conj	_
+28	.	Z	_	4	punct	_
+
+# sent_id = 5999215
+# text = Nii hindab Euroopa Komisjon , et torm läks Rootsile kokku maksma 2,3 miljardit eurot , kusjuures hukkus üheksa inimest ning murdus 75 miljonit kuupmeetrit puitu .
+1	Nii	D	_	2	advmod	_
+2	hindab	V	b=b	0	root	_
+3	Euroopa	H	sg=sg|g=g	4	nmod	_
+4	Komisjon	S	sg=sg|n=n	2	nsubj	_
+5	,	Z	_	8	punct	_
+6	et	J	_	8	mark	_
+7	torm	S	sg=sg|n=n	8	obl	_
+8	läks	V	s=s	2	ccomp	_
+9	Rootsile	H	sg=sg|all=all	8	nsubj	_
+10	kokku	D	_	8	compound:prt	_
+11	maksma	V	ma=ma	8	obl	_
+12	2,3	N	?=?	13	compound	_
+13	miljardit	N	sg=sg|p=p	14	nummod	_
+14	eurot	S	sg=sg|p=p	8	obl	_
+15	,	Z	_	17	punct	_
+16	kusjuures	D	_	17	mark	_
+17	hukkus	V	s=s	8	advcl	_
+18	üheksa	N	sg=sg|n=n	19	nummod	_
+19	inimest	S	sg=sg|p=p	17	nsubj	_
+20	ning	J	_	21	cc	_
+21	murdus	V	s=s	8	conj	_
+22	75	N	?=?	23	compound	_
+23	miljonit	N	sg=sg|p=p	24	nummod	_
+24	kuupmeetrit	S	sg=sg|p=p	25	nmod	_
+25	puitu	S	adt=adt	21	obj	CHECK
+26	.	Z	_	2	punct	_
+
+# sent_id = 12550955
+# text = Et kobaraid täis tomatitaim ei murduks , võib muist vilju rohelisena ära võtta ja panna pimedasse kohta - mõne päeva pärast on tomatid punased ja mitte sugugi kehvemad kui need , mis taime külge jäid .
+1	Et	J	_	6	mark	_
+2	kobaraid	S	pl=pl|p=p	6	nsubj	CHECK
+3	täis	A	_	6	advmod	_
+4	tomatitaim	S	sg=sg|n=n	6	nsubj	_
+5	ei	V	neg=neg	6	aux	_
+6	murduks	V	ks=ks	13	advcl	_
+7	,	Z	_	6	punct	_
+8	võib	V	b=b	13	aux	_
+9	muist	P	_	10	det	_
+10	vilju	S	pl=pl|p=p	13	obj	_
+11	rohelisena	A	sg=sg|es=es	13	obj	_
+12	ära	D	_	13	compound:prt	_
+13	võtta	V	da=da	0	root	_
+14	ja	J	_	15	cc	_
+15	panna	V	da=da	13	conj	_
+16	pimedasse	A	sg=sg|ill=ill	15	obl	_
+17	kohta	K	_	15	obj	_
+18	-	Z	_	24	punct	_
+19	mõne	P	sg=sg|g=g	20	det	_
+20	päeva	S	sg=sg|g=g	24	obl	_
+21	pärast	K	_	20	case	_
+22	on	V	b=b	24	cop	_
+23	tomatid	S	pl=pl|n=n	24	nsubj:cop	_
+24	punased	A	pl=pl|n=n	13	parataxis	_
+25	ja	J	_	28	cc	_
+26	mitte	D	_	27	advmod	_
+27	sugugi	D	_	28	advmod	_
+28	kehvemad	C	pl=pl|n=n	24	conj	_
+29	kui	D	_	30	mark	_
+30	need	P	pl=pl|n=n	28	advcl	_
+31	,	Z	_	35	punct	_
+32	mis	P	sg=sg|n=n	35	nsubj	_
+33	taime	S	sg=sg|g=g	35	obl	_
+34	külge	K	_	33	case	_
+35	jäid	V	sid=sid	30	acl:relcl	_
+36	.	Z	_	13	punct	_
+
+# sent_id = 21384
+# text = Murdus haavapuu ja Marko jalaluu .
+1	Murdus	V	s=s	0	root	_
+2	haavapuu	S	sg=sg|g=g	1	obj	CHECK
+3	ja	J	_	4	cc	_
+4	Marko	H	sg=sg|n=n	2	conj	_
+5	jalaluu	S	sg=sg|g=g	2	conj	_
+6	.	Z	_	1	punct	_
+
+# sent_id = 728475
+# text = Nädala alguse tormiööl , mis laastas kogu Eestimaad , murdus tugevas tuules pooleks president Lennart Meri Viimsi poolsaare tipus asuva vastvalminud kodu lipuvarras .
+1	Nädala	S	sg=sg|g=g	2	nmod	_
+2	alguse	S	sg=sg|g=g	3	nmod	_
+3	tormiööl	S	sg=sg|ad=ad	10	nsubj	_
+4	,	Z	_	6	punct	_
+5	mis	P	pl=pl|n=n	6	nsubj	_
+6	laastas	V	s=s	3	acl:relcl	_
+7	kogu	A	_	8	det	_
+8	Eestimaad	H	sg=sg|p=p	6	obj	_
+9	,	Z	_	6	punct	_
+10	murdus	V	s=s	0	root	_
+11	tugevas	A	sg=sg|in=in	12	amod	_
+12	tuules	S	sg=sg|in=in	10	nsubj	_
+13	pooleks	D	_	10	advmod	_
+14	president	S	sg=sg|n=n	10	nsubj	_
+15	Lennart	H	sg=sg|n=n	14	appos	_
+16	Meri	H	sg=sg|n=n	15	flat	_
+17	Viimsi	H	sg=sg|g=g	18	nmod	_
+18	poolsaare	S	sg=sg|g=g	19	nmod	_
+19	tipus	S	sg=sg|in=in	20	obl	_
+20	asuva	A	sg=sg|g=g	22	acl	_
+21	vastvalminud	A	_	22	acl	_
+22	kodu	S	sg=sg|g=g	23	nmod	_
+23	lipuvarras	S	sg=sg|n=n	10	obj	CHECK
+24	.	Z	_	10	punct	_
+
+# sent_id = 18758767
+# text = Lahenduseks oleks kasutada kas lihtsalt tavalisi tühikuid , või siis kui tõesti on hirmus oluline , et read ei murduks , siis konkreetset unicode'i numbrit .
+1	Lahenduseks	S	sg=sg|tr=tr	3	nsubj	_
+2	oleks	V	ks=ks	3	aux	_
+3	kasutada	V	da=da	0	root	_
+4	kas	D	_	7	advmod	_
+5	lihtsalt	D	_	3	advmod	_
+6	tavalisi	A	pl=pl|p=p	7	amod	_
+7	tühikuid	S	pl=pl|p=p	3	obj	_
+8	,	Z	_	15	punct	_
+9	või	J	_	15	cc	_
+10	siis	D	_	15	advmod	_
+11	kui	J	_	15	mark	_
+12	tõesti	D	_	15	advmod	_
+13	on	V	vad=vad	15	cop	_
+14	hirmus	D	_	15	advmod	_
+15	oluline	A	sg=sg|n=n	3	advcl	_
+16	,	Z	_	20	punct	_
+17	et	J	_	20	mark	_
+18	read	S	pl=pl|n=n	20	obj	_
+19	ei	V	neg=neg	20	aux	_
+20	murduks	V	ks=ks	15	csubj:cop	_
+21	,	Z	_	25	punct	_
+22	siis	D	_	25	advmod	_
+23	konkreetset	A	sg=sg|p=p	25	amod	_
+24	unicode'i	S	sg=sg|g=g	25	nmod	_
+25	numbrit	S	sg=sg|p=p	20	conj	CHECK
+26	.	Z	_	3	punct	_
+
+# sent_id = 21072724
+# text = +inglikene: dodge , kyll sa murdud
+1	+	Z	_	2	punct	_
+2	inglikene	S	sg=sg|n=n	0	root	_
+3	:	Z	_	4	punct	_
+4	dodge	S	sg=sg|n=n	2	parataxis	_
+5	,	Z	_	8	punct	_
+6	kyll	Y	?=?	8	obj	CHECK
+7	sa	P	sg=sg|n=n	8	nsubj	_
+8	murdud	V	d=d	2	parataxis	_
+
+# sent_id = 1625366
+# text = Päästjad said kaevuritega teisipäeval ühenduse murdunud ventilatsioonitoru kaudu ning valasid neile sealt vett ja vedelat toitu .
+1	Päästjad	S	pl=pl|n=n	2	obj	_
+2	said	V	sid=sid	0	root	_
+3	kaevuritega	S	pl=pl|kom=kom	2	obj	_
+4	teisipäeval	S	sg=sg|ad=ad	2	obl	_
+5	ühenduse	S	sg=sg|g=g	6	obl	CHECK
+6	murdunud	A	pl=pl|n=n	7	acl	_
+7	ventilatsioonitoru	S	sg=sg|g=g	2	obl	_
+8	kaudu	K	_	7	case	_
+9	ning	J	_	10	cc	_
+10	valasid	V	sid=sid	2	conj	_
+11	neile	P	pl=pl|all=all	10	obj	_
+12	sealt	D	_	10	advmod	_
+13	vett	S	sg=sg|p=p	10	obj	_
+14	ja	J	_	16	cc	_
+15	vedelat	A	sg=sg|p=p	16	amod	_
+16	toitu	S	sg=sg|p=p	13	conj	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 4819528
+# text = Laiendades vaimse eliidi eneseotsimise teed kogu rahvale , küsin , miks nüüd on väsinud ja murdunud inimesi rohkem kui Balti keti ajal ?
+1	Laiendades	V	des=des	0	root	_
+2	vaimse	A	sg=sg|g=g	3	amod	_
+3	eliidi	S	sg=sg|g=g	4	nmod	_
+4	eneseotsimise	S	sg=sg|g=g	1	obj	_
+5	teed	S	sg=sg|p=p	1	obj	_
+6	kogu	A	_	7	det	_
+7	rahvale	S	sg=sg|all=all	5	nmod	_
+8	,	Z	_	9	punct	_
+9	küsin	V	n=n	1	conj	_
+10	,	Z	_	14	punct	_
+11	miks	D	_	14	mark	_
+12	nüüd	D	_	14	advmod	_
+13	on	V	vad=vad	14	aux	_
+14	väsinud	V	nud=nud	9	ccomp	_
+15	ja	J	_	16	cc	_
+16	murdunud	A	sg=sg|n=n	14	conj	_
+17	inimesi	S	pl=pl|p=p	16	nsubj	CHECK
+18	rohkem	D	_	16	advmod	_
+19	kui	J	_	18	fixed	_
+20	Balti	G	_	21	nmod	_
+21	keti	S	sg=sg|g=g	18	advcl	_
+22	ajal	K	_	21	case	_
+23	?	Z	_	1	punct	_
+
+# sent_id = 65469
+# text = Viimasena murdus kujutlus Koonderakonnast kui üksmeelselt Eesti pürgimusi Euroopa Liitu ja NATO-sse toetavast parteist .
+1	Viimasena	A	sg=sg|es=es	2	nsubj	_
+2	murdus	V	s=s	0	root	_
+3	kujutlus	S	sg=sg|n=n	2	obj	_
+4	Koonderakonnast	S	sg=sg|el=el	2	obl	_
+5	kui	J	_	8	mark	_
+6	üksmeelselt	D	_	8	advmod	_
+7	Eesti	H	sg=sg|g=g	8	nmod	_
+8	pürgimusi	S	pl=pl|p=p	4	advcl	CHECK
+9	Euroopa	H	sg=sg|g=g	10	nmod	_
+10	Liitu	H	adt=adt	8	nmod	_
+11	ja	J	_	14	cc	_
+12	NATO-sse	Y	sg=sg|ill=ill	10	conj	_
+13	toetavast	A	sg=sg|el=el	14	acl	_
+14	parteist	S	sg=sg|el=el	8	conj	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 19415475
+# text = kiisu15: miks küün siis ää murdus
+1	kiisu15	Y	?=?	0	root	_
+2	:	Z	_	7	punct	_
+3	miks	D	_	7	mark	_
+4	küün	S	sg=sg|n=n	7	nsubj	_
+5	siis	D	_	7	advmod	_
+6	ää	Y	?=?	7	obj	CHECK
+7	murdus	V	s=s	1	parataxis	_
+
+# sent_id = 1497467
+# text = Alpinist Jaan Künnap , üks matka korraldajaid , väljendas osavõtjate rohkuse üle heameelt ja oli eriti rahul , et pangaseinal mägironimisega tutvust teha ei peljanud poisikeste kõrval ka tüdrukud ja täiskasvanud : " Mingit suurt ohtu siin ju ei olnud ja keegi konti ei murdunud , " kommenteerib Künnap .
+1	Alpinist	S	sg=sg|n=n	9	nsubj	_
+2	Jaan	H	sg=sg|n=n	1	appos	_
+3	Künnap	H	sg=sg|n=n	2	flat	_
+4	,	Z	_	7	punct	_
+5	üks	P	sg=sg|n=n	7	det	_
+6	matka	S	sg=sg|g=g	7	nmod	_
+7	korraldajaid	S	pl=pl|p=p	1	appos	_
+8	,	Z	_	9	punct	_
+9	väljendas	V	s=s	0	root	_
+10	osavõtjate	S	pl=pl|g=g	11	nmod	_
+11	rohkuse	S	sg=sg|g=g	9	obj	_
+12	üle	K	_	13	case	_
+13	heameelt	S	sg=sg|p=p	9	obl	_
+14	ja	J	_	15	cc	_
+15	oli	V	s=s	9	conj	_
+16	eriti	D	_	15	advmod	_
+17	rahul	D	_	15	compound:prt	_
+18	,	Z	_	25	punct	_
+19	et	J	_	25	mark	_
+20	pangaseinal	S	sg=sg|ad=ad	21	nmod	_
+21	mägironimisega	S	sg=sg|kom=kom	23	obj	_
+22	tutvust	S	sg=sg|p=p	23	obj	_
+23	teha	V	da=da	25	advcl	_
+24	ei	V	neg=neg	25	aux	_
+25	peljanud	A	pl=pl|n=n	15	ccomp	_
+26	poisikeste	S	pl=pl|g=g	25	obl	_
+27	kõrval	K	_	26	case	_
+28	ka	D	_	29	advmod	_
+29	tüdrukud	S	pl=pl|n=n	25	nsubj	_
+30	ja	J	_	31	cc	_
+31	täiskasvanud	S	pl=pl|n=n	29	conj	_
+32	:	Z	_	37	punct	_
+33	"	Z	_	37	punct	_
+34	Mingit	P	sg=sg|p=p	36	det	_
+35	suurt	A	sg=sg|p=p	36	amod	_
+36	ohtu	S	sg=sg|p=p	37	nsubj:cop	_
+37	siin	D	_	31	parataxis	_
+38	ju	D	_	37	advmod	_
+39	ei	V	neg=neg	37	aux	_
+40	olnud	V	nud=nud	37	cop	_
+41	ja	J	_	45	cc	_
+42	keegi	P	sg=sg|n=n	45	nsubj	_
+43	konti	S	sg=sg|p=p	45	nsubj	CHECK
+44	ei	V	neg=neg	45	aux	_
+45	murdunud	A	_	37	conj	_
+46	,	Z	_	37	punct	_
+47	"	Z	_	37	punct	_
+48	kommenteerib	V	b=b	9	parataxis	_
+49	Künnap	H	sg=sg|n=n	48	nsubj	_
+50	.	Z	_	9	punct	_
+
+# sent_id = 11783432
+# text = Oli kuulda , kuidas õnnetu suitsutatud loomakese roie või kaks vastu kurivaimu pead murduvad .
+1	Oli	V	s=s	2	aux	_
+2	kuulda	V	da=da	0	root	_
+3	,	Z	_	14	punct	_
+4	kuidas	D	_	14	mark	_
+5	õnnetu	A	sg=sg|n=n	7	amod	_
+6	suitsutatud	S	pl=pl|n=n	7	acl	_
+7	loomakese	S	sg=sg|g=g	8	nmod	_
+8	roie	S	sg=sg|n=n	14	nsubj	_
+9	või	J	_	12	cc	_
+10	kaks	N	sg=sg|n=n	12	nummod	_
+11	vastu	K	_	12	case	_
+12	kurivaimu	S	sg=sg|g=g	8	conj	_
+13	pead	S	sg=sg|p=p	14	compound:prt	CHECK
+14	murduvad	V	vad=vad	2	ccomp	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 4839276
+# text = Kui noor inimene kukub , ei murdu ta luud kergesti .
+1	Kui	J	_	4	mark	_
+2	noor	A	sg=sg|n=n	3	amod	_
+3	inimene	S	sg=sg|n=n	4	nsubj	_
+4	kukub	V	b=b	7	advcl	_
+5	,	Z	_	4	punct	_
+6	ei	V	neg=neg	7	aux	_
+7	murdu	V	o=o	0	root	_
+8	ta	P	sg=sg|g=g	7	nsubj	_
+9	luud	S	sg=sg|n=n	7	obj	CHECK
+10	kergesti	D	_	7	advmod	_
+11	.	Z	_	7	punct	_
+

@@ -1,0 +1,447 @@
+# sent_id = 9812
+# text = 57aastane Deneuve on kaasa löönud 94 filmis , võitnud kaks Prantsuse filmiauhinda Cesar ning kandideerinud Oscarile .
+1	57aastane	A	sg=sg|n=n	2	amod	_
+2	Deneuve	H	sg=sg|n=n	5	nsubj	_
+3	on	V	vad=vad	5	aux	_
+4	kaasa	D	_	5	compound:prt	_
+5	löönud	A	sg=sg|n=n	0	root	_
+6	94	N	?=?	7	nummod	_
+7	filmis	S	sg=sg|in=in	5	obj	_
+8	,	Z	_	9	punct	_
+9	võitnud	A	sg=sg|n=n	5	conj	_
+10	kaks	N	sg=sg|n=n	12	nummod	_
+11	Prantsuse	G	_	12	nmod	_
+12	filmiauhinda	S	sg=sg|p=p	9	nsubj	_
+13	Cesar	H	sg=sg|n=n	12	appos	_
+14	ning	J	_	15	cc	_
+15	kandideerinud	A	sg=sg|n=n	5	conj	_
+16	Oscarile	H	sg=sg|g=g	15	obj	CHECK
+17	.	Z	_	5	punct	_
+
+# sent_id = 1086367
+# text = Quebeci provintsi iseseisvust pooldav Quebeci Blokk , mis väljaspool oma provintsi ei kandideeri , oli võitmas 37 kohta varasema 44 asemel .
+1	Quebeci	H	sg=sg|g=g	2	nmod	_
+2	provintsi	S	sg=sg|g=g	3	nmod	_
+3	iseseisvust	S	sg=sg|p=p	4	obl	_
+4	pooldav	A	sg=sg|n=n	5	acl	_
+5	Quebeci	H	sg=sg|g=g	16	nsubj	_
+6	Blokk	S	sg=sg|n=n	5	flat	_
+7	,	Z	_	13	punct	_
+8	mis	P	sg=sg|n=n	13	nsubj	_
+9	väljaspool	K	_	11	case	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	provintsi	S	sg=sg|g=g	13	obj	CHECK
+12	ei	V	neg=neg	13	aux	_
+13	kandideeri	V	o=o	5	acl:relcl	_
+14	,	Z	_	13	punct	_
+15	oli	V	s=s	16	cop	_
+16	võitmas	V	mas=mas	0	root	_
+17	37	N	?=?	18	nummod	_
+18	kohta	S	sg=sg|p=p	16	nsubj:cop	_
+19	varasema	C	sg=sg|g=g	20	amod	_
+20	44	N	?=?	16	obl	_
+21	asemel	K	_	20	case	_
+22	.	Z	_	16	punct	_
+
+# sent_id = 511039
+# text = " Kõik , kes kandideerivad EME või mõnes muus nimekirjas , lähevad erakonnast välja , " ütles Arengupartei juhatuse liige Toivo Keva .
+1	"	Z	_	12	punct	_
+2	Kõik	P	pl=pl|n=n	12	nsubj	_
+3	,	Z	_	5	punct	_
+4	kes	P	pl=pl|n=n	5	nsubj	_
+5	kandideerivad	V	vad=vad	2	acl:relcl	_
+6	EME	Y	?=?	5	obl	CHECK
+7	või	J	_	10	cc	_
+8	mõnes	P	sg=sg|in=in	10	det	_
+9	muus	P	sg=sg|in=in	10	amod	_
+10	nimekirjas	S	sg=sg|in=in	6	conj	_
+11	,	Z	_	5	punct	_
+12	lähevad	V	vad=vad	0	root	_
+13	erakonnast	S	sg=sg|el=el	12	obl	_
+14	välja	D	_	12	compound:prt	_
+15	,	Z	_	12	punct	_
+16	"	Z	_	12	punct	_
+17	ütles	V	s=s	12	parataxis	_
+18	Arengupartei	S	sg=sg|g=g	19	nmod	_
+19	juhatuse	S	sg=sg|g=g	20	nmod	_
+20	liige	S	sg=sg|n=n	17	nsubj	_
+21	Toivo	H	sg=sg|n=n	20	appos	_
+22	Keva	H	sg=sg|n=n	21	flat	_
+23	.	Z	_	12	punct	_
+
+# sent_id = 598
+# text = Märtsikuistel valimistel kandideerib ta vabariiklasena riigikokku .
+1	Märtsikuistel	A	pl=pl|ad=ad	2	amod	_
+2	valimistel	S	pl=pl|ad=ad	3	obl	_
+3	kandideerib	V	b=b	0	root	_
+4	ta	P	sg=sg|n=n	3	nsubj	_
+5	vabariiklasena	S	sg=sg|es=es	6	nmod	_
+6	riigikokku	S	adt=adt	3	obl	CHECK
+7	.	Z	_	3	punct	_
+
+# sent_id = 5774404
+# text = Mees kuulus Soome Sotsiaaldemokraatliku Partei ridadesse ja on varem edutult kandideerinud ka eduskunda .
+1	Mees	S	sg=sg|n=n	2	nsubj	_
+2	kuulus	V	s=s	0	root	_
+3	Soome	H	sg=sg|g=g	5	nmod	_
+4	Sotsiaaldemokraatliku	A	sg=sg|g=g	5	amod	_
+5	Partei	S	sg=sg|g=g	6	nmod	_
+6	ridadesse	S	pl=pl|ill=ill	2	obl	_
+7	ja	J	_	11	cc	_
+8	on	V	vad=vad	11	aux	_
+9	varem	D	_	11	advmod	_
+10	edutult	D	_	11	advmod	_
+11	kandideerinud	A	pl=pl|n=n	2	conj	_
+12	ka	D	_	13	advmod	_
+13	eduskunda	G	_	11	obj	CHECK
+14	.	Z	_	2	punct	_
+
+# sent_id = 982376
+# text = Linn hoidis kohti väga kaua kinni ja lõpuks kandideerisime igale poole .
+1	Linn	S	sg=sg|n=n	2	nsubj	_
+2	hoidis	V	s=s	0	root	_
+3	kohti	S	pl=pl|p=p	2	obj	_
+4	väga	D	_	5	advmod	_
+5	kaua	D	_	2	advmod	_
+6	kinni	D	_	2	compound:prt	_
+7	ja	J	_	9	cc	_
+8	lõpuks	D	_	9	advmod	_
+9	kandideerisime	V	sime=sime	2	conj	_
+10	igale	P	sg=sg|all=all	9	nsubj	_
+11	poole	K	_	9	obl	CHECK
+12	.	Z	_	2	punct	_
+
+# sent_id = 1125393
+# text = Aga ma pole kandideerinud igale v õ i m a t u l e ametipostile , nagu küsija vist oleks tahtnud küsida , kui tal poleks emakeelega probleeme .
+1	Aga	J	_	4	cc	_
+2	ma	P	sg=sg|n=n	4	nsubj	_
+3	pole	V	neg=neg|o=o	4	aux	_
+4	kandideerinud	A	pl=pl|n=n	0	root	_
+5	igale	P	sg=sg|all=all	6	det	_
+6	v	Y	?=?	10	nmod	CHECK
+7	õ	Y	?=?	6	flat	_
+8	i	Y	?=?	9	flat	_
+9	m	Y	?=?	10	nmod	_
+10	a	Y	?=?	4	obl	_
+11	t	Y	?=?	10	nmod	_
+12	u	Y	?=?	11	flat	_
+13	l	Y	?=?	11	flat	_
+14	e	Y	?=?	15	cc	_
+15	ametipostile	S	sg=sg|all=all	4	obj	_
+16	,	Z	_	21	punct	_
+17	nagu	D	_	21	mark	_
+18	küsija	S	sg=sg|n=n	21	nsubj	_
+19	vist	D	_	21	advmod	_
+20	oleks	V	ks=ks	21	aux	_
+21	tahtnud	A	sg=sg|n=n	4	advcl	_
+22	küsida	V	da=da	21	xcomp	_
+23	,	Z	_	27	punct	_
+24	kui	J	_	27	mark	_
+25	tal	P	sg=sg|ad=ad	27	nsubj:cop	_
+26	poleks	V	neg=neg|ks=ks	27	cop	_
+27	emakeelega	S	sg=sg|kom=kom	22	ccomp	_
+28	probleeme	S	pl=pl|p=p	27	nsubj:cop	_
+29	.	Z	_	4	punct	_
+
+# sent_id = 1650659
+# text = Brazauskas ise 8. oktoobri valimistel parlamendi ei kandideeri , kuid on avaldanud valmisolekut asuda tulevase valitsuse etteotsa .
+1	Brazauskas	H	sg=sg|n=n	8	nsubj	_
+2	ise	P	sg=sg|n=n	1	nmod	_
+3	8.	O	?=?	4	amod	_
+4	oktoobri	S	sg=sg|g=g	5	nmod	_
+5	valimistel	S	pl=pl|ad=ad	8	obl	_
+6	parlamendi	S	sg=sg|g=g	8	obj	CHECK
+7	ei	V	neg=neg	8	aux	_
+8	kandideeri	V	o=o	0	root	_
+9	,	Z	_	12	punct	_
+10	kuid	J	_	12	cc	_
+11	on	V	b=b	12	aux	_
+12	avaldanud	A	sg=sg|n=n	8	conj	_
+13	valmisolekut	S	sg=sg|p=p	12	obj	_
+14	asuda	V	da=da	12	conj	_
+15	tulevase	A	sg=sg|g=g	16	amod	_
+16	valitsuse	S	sg=sg|g=g	14	nsubj	_
+17	etteotsa	D	_	14	advmod	_
+18	.	Z	_	8	punct	_
+
+# sent_id = 2379105
+# text = Altman on kandideerinud varem Kuld-
+1	Altman	H	sg=sg|n=n	3	nsubj	_
+2	on	V	vad=vad	3	aux	_
+3	kandideerinud	A	_	0	root	_
+4	varem	D	_	3	advmod	_
+5	Kuld	S	sg=sg|n=n	3	obj	_
+6	-	Z	_	3	punct	_
+
+# sent_id = 48271
+# text = Kuni filmini “ Erin Brockovich ” oli Julia kõige tuntum roll komöödias “ Pretty Woman ” , mille eest ta kandideeris ka Oscarile .
+1	Kuni	K	_	2	case	_
+2	filmini	S	sg=sg|ter=ter	0	root	_
+3	“	Z	_	4	punct	_
+4	Erin	H	sg=sg|n=n	2	appos	_
+5	Brockovich	H	sg=sg|n=n	4	flat	_
+6	”	Z	_	4	punct	_
+7	oli	V	s=s	4	cop	_
+8	Julia	H	sg=sg|n=n	11	nmod	_
+9	kõige	D	_	10	advmod	_
+10	tuntum	C	sg=sg|n=n	11	amod	_
+11	roll	S	sg=sg|n=n	2	nsubj:cop	_
+12	komöödias	S	sg=sg|in=in	11	nmod	_
+13	“	Z	_	14	punct	_
+14	Pretty	H	sg=sg|n=n	12	appos	_
+15	Woman	H	sg=sg|n=n	14	flat	_
+16	”	Z	_	14	punct	_
+17	,	Z	_	21	punct	_
+18	mille	P	pl=pl|g=g	21	obl	_
+19	eest	K	_	18	case	_
+20	ta	P	sg=sg|n=n	21	nsubj	_
+21	kandideeris	V	s=s	14	acl:relcl	_
+22	ka	D	_	23	advmod	_
+23	Oscarile	H	sg=sg|g=g	21	obl	CHECK
+24	.	Z	_	2	punct	_
+
+# sent_id = 503076
+# text = Rüütlit ja temaga koos Lõuna-Eestis kandideerinud peaminister Mart Siimanni ( 1874 häält ) ei aidanud isiklik sarm , põllumeestele otsetoetusteks jagatud sajad miljonid ega kiirkorras vabamajandustsoonide loomine .
+1	Rüütlit	H	sg=sg|p=p	15	nsubj	CHECK
+2	ja	J	_	3	cc	_
+3	temaga	P	sg=sg|kom=kom	1	conj	_
+4	koos	K	_	5	case	_
+5	Lõuna-Eestis	H	sg=sg|in=in	6	obl	_
+6	kandideerinud	A	pl=pl|n=n	7	acl	_
+7	peaminister	S	sg=sg|n=n	15	nsubj	_
+8	Mart	H	sg=sg|n=n	7	appos	_
+9	Siimanni	H	sg=sg|g=g	8	flat	_
+10	(	Z	_	11	punct	_
+11	1874	N	?=?	7	parataxis	_
+12	häält	S	sg=sg|p=p	11	flat	_
+13	)	Z	_	11	punct	_
+14	ei	V	neg=neg	15	aux	_
+15	aidanud	A	pl=pl|n=n	0	root	_
+16	isiklik	A	sg=sg|n=n	17	amod	_
+17	sarm	S	sg=sg|n=n	15	obj	_
+18	,	Z	_	21	punct	_
+19	põllumeestele	S	pl=pl|all=all	20	nmod	_
+20	otsetoetusteks	S	pl=pl|tr=tr	21	obj	_
+21	jagatud	A	sg=sg|n=n	15	conj	_
+22	sajad	N	pl=pl|n=n	23	compound	_
+23	miljonid	N	pl=pl|n=n	27	nummod	_
+24	ega	J	_	27	cc	_
+25	kiirkorras	D	_	27	advmod	_
+26	vabamajandustsoonide	S	pl=pl|g=g	27	nmod	_
+27	loomine	S	sg=sg|n=n	21	obl	_
+28	.	Z	_	15	punct	_
+
+# sent_id = 2142672
+# text = Riigikokku ei kandideeri ka tuntud Reformierakonna poliitikud ja praegused riigikogu liikmed Neinar Seli , Uno Mereste , Teet Helm , Aap Neljas , Rein Voog , Kaljo Kiisk ja Valve Kirsipuu .
+1	Riigikokku	H	adt=adt	3	nsubj	CHECK
+2	ei	V	neg=neg	3	aux	_
+3	kandideeri	V	o=o	0	root	_
+4	ka	D	_	7	advmod	_
+5	tuntud	A	pl=pl|n=n	7	acl	_
+6	Reformierakonna	H	sg=sg|g=g	7	nmod	_
+7	poliitikud	S	pl=pl|n=n	3	nsubj	_
+8	ja	J	_	11	cc	_
+9	praegused	A	pl=pl|n=n	11	amod	_
+10	riigikogu	S	sg=sg|n=n	11	nmod	_
+11	liikmed	S	pl=pl|n=n	7	conj	_
+12	Neinar	H	sg=sg|n=n	11	appos	_
+13	Seli	H	sg=sg|n=n	12	flat	_
+14	,	Z	_	15	punct	_
+15	Uno	H	sg=sg|n=n	7	conj	_
+16	Mereste	H	sg=sg|n=n	15	flat	_
+17	,	Z	_	18	punct	_
+18	Teet	H	sg=sg|n=n	7	conj	_
+19	Helm	H	sg=sg|n=n	18	flat	_
+20	,	Z	_	21	punct	_
+21	Aap	H	sg=sg|n=n	7	conj	_
+22	Neljas	H	sg=sg|n=n	21	flat	_
+23	,	Z	_	24	punct	_
+24	Rein	H	sg=sg|n=n	7	conj	_
+25	Voog	H	sg=sg|n=n	24	flat	_
+26	,	Z	_	27	punct	_
+27	Kaljo	H	sg=sg|n=n	7	conj	_
+28	Kiisk	H	sg=sg|n=n	27	flat	_
+29	ja	J	_	30	cc	_
+30	Valve	H	sg=sg|n=n	7	conj	_
+31	Kirsipuu	H	sg=sg|n=n	30	flat	_
+32	.	Z	_	3	punct	_
+
+# sent_id = 6222410
+# text = Kaastundest pisikese rahva vastu ei kandideeri riigikokku keegi .
+1	Kaastundest	S	sg=sg|el=el	6	obl	_
+2	pisikese	A	sg=sg|g=g	3	amod	_
+3	rahva	S	sg=sg|g=g	1	nmod	_
+4	vastu	K	_	3	case	_
+5	ei	V	neg=neg	6	aux	_
+6	kandideeri	V	o=o	0	root	_
+7	riigikokku	S	adt=adt	6	nsubj	CHECK
+8	keegi	P	sg=sg|n=n	6	nsubj	_
+9	.	Z	_	6	punct	_
+
+# sent_id = 5188816
+# text = Matti Pätsist , Jevgeni Tombergist , Aarand Roosist , Peeter Paemurrust ja kes need kõik veel ei kandideeri , ei pea me vajalikuks rääkida .
+1	Matti	H	sg=sg|n=n	24	nsubj	_
+2	Pätsist	H	sg=sg|n=n	1	flat	_
+3	,	Z	_	4	punct	_
+4	Jevgeni	H	sg=sg|n=n	1	conj	_
+5	Tombergist	H	sg=sg|el=el	4	flat	_
+6	,	Z	_	7	punct	_
+7	Aarand	H	sg=sg|n=n	1	conj	_
+8	Roosist	H	sg=sg|n=n	7	flat	_
+9	,	Z	_	10	punct	_
+10	Peeter	H	sg=sg|n=n	1	conj	_
+11	Paemurrust	H	sg=sg|el=el	10	flat	_
+12	ja	J	_	18	cc	_
+13	kes	P	pl=pl|n=n	18	nsubj	_
+14	need	P	pl=pl|n=n	18	nsubj	CHECK
+15	kõik	P	pl=pl|n=n	14	det	_
+16	veel	D	_	18	advmod	_
+17	ei	V	neg=neg	18	aux	_
+18	kandideeri	V	o=o	1	conj	_
+19	,	Z	_	18	punct	_
+20	ei	V	neg=neg	24	aux	_
+21	pea	V	o=o	24	aux	_
+22	me	P	pl=pl|n=n	24	nsubj	_
+23	vajalikuks	A	sg=sg|tr=tr	24	xcomp	_
+24	rääkida	V	da=da	0	root	_
+25	.	Z	_	24	punct	_
+
+# sent_id = 2018838
+# text = Hiljem nõuab Miša nii aktiivselt endast ja Renarsist ühise pildi tegemist , et tekib kahtlus , kas ta mitte ise number üks fänni positsioonile ei kandideeri .
+1	Hiljem	D	_	2	advmod	_
+2	nõuab	V	b=b	0	root	_
+3	Miša	H	sg=sg|n=n	2	nsubj	_
+4	nii	D	_	5	advmod	_
+5	aktiivselt	D	_	2	advmod	_
+6	endast	P	sg=sg|el=el	2	obl	_
+7	ja	J	_	8	cc	_
+8	Renarsist	H	sg=sg|el=el	6	conj	_
+9	ühise	A	sg=sg|g=g	10	amod	_
+10	pildi	S	sg=sg|g=g	2	obj	_
+11	tegemist	S	sg=sg|p=p	2	obj	_
+12	,	Z	_	14	punct	_
+13	et	J	_	14	mark	_
+14	tekib	V	b=b	11	acl	_
+15	kahtlus	S	sg=sg|n=n	14	nsubj	_
+16	,	Z	_	26	punct	_
+17	kas	D	_	26	advmod	_
+18	ta	P	sg=sg|n=n	26	nsubj	_
+19	mitte	D	_	20	advmod	_
+20	ise	P	pl=pl|n=n	26	advmod	_
+21	number	S	sg=sg|n=n	26	obl	CHECK
+22	üks	N	sg=sg|n=n	23	det	_
+23	fänni	S	sg=sg|g=g	24	nmod	_
+24	positsioonile	S	sg=sg|all=all	26	obj	_
+25	ei	V	neg=neg	26	aux	_
+26	kandideeri	V	o=o	15	acl	_
+27	.	Z	_	2	punct	_
+
+# sent_id = 85307
+# text = 1995. aasta kevadeks oli Neesoni nime väärtus tõusnud , seda ennekõike tänu peaosale Steven Spielbergi draamas “ Schindleri nimekiri ” , mille eest ta ka Oscarile kandideeris .
+1	1995.	O	?=?	2	amod	_
+2	aasta	S	sg=sg|g=g	3	nmod	_
+3	kevadeks	S	sg=sg|tr=tr	8	obl	_
+4	oli	V	s=s	8	aux	_
+5	Neesoni	H	sg=sg|g=g	6	nmod	_
+6	nime	S	sg=sg|g=g	8	nsubj	_
+7	väärtus	S	sg=sg|n=n	8	nsubj	_
+8	tõusnud	A	pl=pl|n=n	0	root	_
+9	,	Z	_	10	punct	_
+10	seda	P	sg=sg|p=p	8	conj	_
+11	ennekõike	D	_	10	advmod	_
+12	tänu	K	_	13	case	_
+13	peaosale	S	sg=sg|all=all	10	obl	_
+14	Steven	H	sg=sg|n=n	13	appos	_
+15	Spielbergi	H	sg=sg|g=g	14	flat	_
+16	draamas	S	sg=sg|in=in	10	obl	_
+17	“	Z	_	19	punct	_
+18	Schindleri	H	sg=sg|g=g	19	nmod	_
+19	nimekiri	S	sg=sg|n=n	16	appos	_
+20	”	Z	_	19	punct	_
+21	,	Z	_	27	punct	_
+22	mille	P	sg=sg|g=g	27	obl	_
+23	eest	K	_	22	case	_
+24	ta	P	sg=sg|n=n	27	nsubj	_
+25	ka	D	_	27	advmod	_
+26	Oscarile	H	sg=sg|n=n	27	obl	CHECK
+27	kandideeris	V	s=s	19	acl:relcl	_
+28	.	Z	_	8	punct	_
+
+# sent_id = 3220995
+# text = Muidugi , kes lugenud lehti või viitsib pisutki reklaami süveneda , saab kohe aru , et Kallas ja Ojuland europarlamenti ei kandideeri .
+1	Muidugi	D	_	12	advmod	_
+2	,	Z	_	4	punct	_
+3	kes	P	sg=sg|n=n	4	nsubj	_
+4	lugenud	V	nud=nud	12	advcl	_
+5	lehti	S	pl=pl|p=p	4	obj	_
+6	või	J	_	7	cc	_
+7	viitsib	V	b=b	4	conj	_
+8	pisutki	D	_	9	advmod	_
+9	reklaami	S	sg=sg|g=g	10	obl	_
+10	süveneda	V	da=da	7	xcomp	_
+11	,	Z	_	4	punct	_
+12	saab	V	b=b	0	root	_
+13	kohe	D	_	12	advmod	_
+14	aru	S	sg=sg|p=p	12	obj	_
+15	,	Z	_	22	punct	_
+16	et	J	_	22	mark	_
+17	Kallas	H	sg=sg|n=n	22	nsubj	_
+18	ja	J	_	19	cc	_
+19	Ojuland	H	sg=sg|n=n	17	conj	_
+20	europarlamenti	S	sg=sg|p=p	22	nsubj	CHECK
+21	ei	V	neg=neg	22	aux	_
+22	kandideeri	V	o=o	12	advcl	_
+23	.	Z	_	12	punct	_
+
+# sent_id = 2441374
+# text = Ei kandideeri ju küsimuses toodud 100-200 isikut mitte kogu valiku tegemise vältel .
+1	Ei	V	neg=neg	2	aux	_
+2	kandideeri	V	o=o	0	root	_
+3	ju	D	_	2	advmod	_
+4	küsimuses	S	sg=sg|in=in	5	obl	_
+5	toodud	A	pl=pl|n=n	9	acl	_
+6	100	N	?=?	9	nummod	_
+7	-	Z	_	8	punct	_
+8	200	N	?=?	6	conj	_
+9	isikut	S	sg=sg|p=p	2	nsubj	CHECK
+10	mitte	D	_	11	advmod	_
+11	kogu	A	_	12	det	_
+12	valiku	S	sg=sg|g=g	13	nmod	_
+13	tegemise	S	sg=sg|g=g	2	obl	_
+14	vältel	K	_	13	case	_
+15	.	Z	_	2	punct	_
+
+# sent_id = 140731
+# text = Kohalikel valimistel kandideeriski 84 Riigikogu liiget ja 13 ministrit - olgugi , et seadus ei luba ministri ja volikogu liikme ametit ühitada .
+1	Kohalikel	A	pl=pl|ad=ad	2	amod	_
+2	valimistel	S	pl=pl|ad=ad	3	obl	_
+3	kandideeriski	V	s=s	0	root	_
+4	84	N	?=?	6	nummod	_
+5	Riigikogu	S	sg=sg|g=g	6	nmod	_
+6	liiget	S	sg=sg|p=p	3	nsubj	CHECK
+7	ja	J	_	9	cc	_
+8	13	N	?=?	9	nummod	_
+9	ministrit	S	sg=sg|p=p	6	conj	_
+10	-	Z	_	11	punct	_
+11	olgugi	J	_	3	obl	_
+12	,	Z	_	16	punct	_
+13	et	J	_	16	mark	_
+14	seadus	S	sg=sg|n=n	16	nsubj	_
+15	ei	V	neg=neg	16	aux	_
+16	luba	V	o=o	11	ccomp	_
+17	ministri	S	sg=sg|g=g	22	obj	_
+18	ja	J	_	22	cc	_
+19	volikogu	S	sg=sg|g=g	20	nmod	_
+20	liikme	S	sg=sg|g=g	21	nmod	_
+21	ametit	S	sg=sg|p=p	22	obj	_
+22	ühitada	V	da=da	16	conj	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 2103445
+# text = " Ma ei kandideeri 106.
+1	"	Z	_	4	punct	_
+2	Ma	P	sg=sg|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	kandideeri	V	o=o	0	root	_
+5	106.	O	?=?	4	obl	CHECK
+

@@ -1,0 +1,456 @@
+# sent_id = 400893
+# text = No , kuulge , ega siis Riigikogu juhatuse valimisi mängita .
+1	No	I	_	3	discourse	_
+2	,	Z	_	3	punct	_
+3	kuulge	V	ge=ge	0	root	_
+4	,	Z	_	10	punct	_
+5	ega	J	_	10	advmod	_
+6	siis	D	_	10	advmod	_
+7	Riigikogu	S	sg=sg|g=g	8	nmod	_
+8	juhatuse	S	sg=sg|g=g	9	nmod	_
+9	valimisi	S	pl=pl|p=p	10	obj	CHECK
+10	mängita	V	o=o	3	conj	_
+11	.	Z	_	3	punct	_
+
+# sent_id = 2914220
+# text = Sel korral ei mängita Valge Daami legendi sõna- ja muusikalavastusena , vaid valgusetendusena , mille lavastab Haapsalu oma nüüdseks kodulinnaks nimetav Ago-Endrik Kerge .
+1	Sel	P	sg=sg|ad=ad	2	det	_
+2	korral	S	sg=sg|ad=ad	4	obl	_
+3	ei	V	neg=neg	4	aux	_
+4	mängita	V	o=o	0	root	_
+5	Valge	A	sg=sg|g=g	6	nmod	_
+6	Daami	S	sg=sg|g=g	7	nmod	_
+7	legendi	S	sg=sg|g=g	4	obj	CHECK
+8	sõna-	S	sg=sg|g=g	7	nmod	_
+9	ja	J	_	10	cc	_
+10	muusikalavastusena	S	sg=sg|es=es	8	conj	_
+11	,	Z	_	13	punct	_
+12	vaid	J	_	13	cc	_
+13	valgusetendusena	S	sg=sg|es=es	8	conj	_
+14	,	Z	_	16	punct	_
+15	mille	P	sg=sg|g=g	16	nsubj	_
+16	lavastab	V	b=b	13	acl:relcl	_
+17	Haapsalu	H	sg=sg|n=n	16	obj	_
+18	oma	P	sg=sg|g=g	21	nmod	_
+19	nüüdseks	A	sg=sg|tr=tr	21	amod	_
+20	kodulinnaks	S	sg=sg|tr=tr	21	nmod	_
+21	nimetav	S	sg=sg|n=n	16	obj	_
+22	Ago-Endrik	H	sg=sg|n=n	21	appos	_
+23	Kerge	H	sg=sg|n=n	22	flat	_
+24	.	Z	_	4	punct	_
+
+# sent_id = 5475223
+# text = Ei mängita kasimata lastega , rikkusest ei küsi mudilaste seas keegi , " räägib ta .
+1	Ei	V	neg=neg	2	aux	_
+2	mängita	V	o=o	0	root	_
+3	kasimata	A	_	4	amod	CHECK
+4	lastega	S	pl=pl|kom=kom	2	nsubj	_
+5	,	Z	_	8	punct	_
+6	rikkusest	S	sg=sg|el=el	8	obj	_
+7	ei	V	neg=neg	8	aux	_
+8	küsi	V	o=o	2	conj	_
+9	mudilaste	S	pl=pl|g=g	8	obl	_
+10	seas	K	_	9	case	_
+11	keegi	P	sg=sg|n=n	8	nsubj	_
+12	,	Z	_	2	punct	_
+13	"	Z	_	2	punct	_
+14	räägib	V	b=b	2	parataxis	_
+15	ta	P	sg=sg|n=n	14	nsubj	_
+16	.	Z	_	2	punct	_
+
+# sent_id = 6133780
+# text = Maailmas ei möödu päevagi , mil mõnel kontserdil või raadiolainel ei mängitaks Pärdi muusikat .
+1	Maailmas	S	sg=sg|in=in	3	obl	_
+2	ei	V	neg=neg	3	aux	_
+3	möödu	V	o=o	0	root	_
+4	päevagi	S	sg=sg|p=p	3	nsubj	_
+5	,	Z	_	12	punct	_
+6	mil	D	_	12	mark	_
+7	mõnel	P	sg=sg|ad=ad	8	det	_
+8	kontserdil	S	sg=sg|ad=ad	12	nsubj	_
+9	või	J	_	10	cc	_
+10	raadiolainel	S	sg=sg|ad=ad	8	conj	_
+11	ei	V	neg=neg	12	aux	_
+12	mängitaks	V	ks=ks	4	acl	_
+13	Pärdi	H	sg=sg|g=g	14	nmod	_
+14	muusikat	S	sg=sg|p=p	12	obj	CHECK
+15	.	Z	_	3	punct	_
+
+# sent_id = 1220276
+# text = Esimese mänguga võrreldes sootuks erinevat , kuid mitte nõrgemat koosseisu kasutanud soomlaste juhendaja Timo Hoivala tunnistas , et Heinolas mängitas ta mehi katsetamise eesmärgil harjumatutes rollides ning seetõttu oli Porvoos võidus hoopis enam veendunud .
+1	Esimese	O	sg=sg|g=g	2	amod	_
+2	mänguga	S	sg=sg|kom=kom	3	obl	_
+3	võrreldes	V	des=des	16	ccomp	_
+4	sootuks	D	_	5	advmod	_
+5	erinevat	A	sg=sg|p=p	13	acl	_
+6	,	Z	_	11	punct	_
+7	kuid	J	_	11	cc	_
+8	mitte	D	_	9	advmod	_
+9	nõrgemat	C	sg=sg|p=p	5	conj	_
+10	koosseisu	S	sg=sg|p=p	11	obj	_
+11	kasutanud	A	sg=sg|n=n	13	acl	_
+12	soomlaste	S	pl=pl|g=g	13	nmod	_
+13	juhendaja	S	sg=sg|n=n	16	nsubj	_
+14	Timo	H	sg=sg|n=n	13	appos	_
+15	Hoivala	H	sg=sg|n=n	14	flat	_
+16	tunnistas	V	s=s	0	root	_
+17	,	Z	_	20	punct	_
+18	et	J	_	20	mark	_
+19	Heinolas	H	sg=sg|n=n	20	obl	_
+20	mängitas	V	s=s	16	ccomp	_
+21	ta	P	sg=sg|g=g	20	nsubj	CHECK
+22	mehi	S	pl=pl|p=p	23	nmod	_
+23	katsetamise	S	sg=sg|g=g	20	obl	_
+24	eesmärgil	S	sg=sg|ad=ad	20	obl	_
+25	harjumatutes	A	pl=pl|in=in	26	amod	_
+26	rollides	S	pl=pl|in=in	20	obj	_
+27	ning	J	_	34	cc	_
+28	seetõttu	D	_	34	advmod	_
+29	oli	V	s=s	34	aux	_
+30	Porvoos	H	sg=sg|n=n	34	nsubj	_
+31	võidus	S	sg=sg|in=in	34	obj	_
+32	hoopis	D	_	33	advmod	_
+33	enam	D	_	34	advmod	_
+34	veendunud	A	_	20	conj	_
+35	.	Z	_	16	punct	_
+
+# sent_id = 8648576
+# text = Koitu ja Hämarikku siin ei mängita .
+1	Koitu	S	adt=adt	6	nsubj	CHECK
+2	ja	J	_	3	cc	_
+3	Hämarikku	S	adt=adt	1	conj	_
+4	siin	D	_	6	advmod	_
+5	ei	V	neg=neg	6	aux	_
+6	mängita	V	o=o	0	root	_
+7	.	Z	_	6	punct	_
+
+# sent_id = 1627935
+# text = Kuulnud , et pesapalli meil ei mängita , jäi sõelale korvpall , " muigas Kundla .
+1	Kuulnud	A	_	9	advcl	_
+2	,	Z	_	7	punct	_
+3	et	J	_	7	mark	_
+4	pesapalli	S	adt=adt	7	obj	CHECK
+5	meil	P	pl=pl|ad=ad	7	nsubj	_
+6	ei	V	neg=neg	7	aux	_
+7	mängita	V	o=o	1	ccomp	_
+8	,	Z	_	7	punct	_
+9	jäi	V	s=s	0	root	_
+10	sõelale	S	sg=sg|all=all	9	obl	_
+11	korvpall	S	sg=sg|n=n	9	obl	_
+12	,	Z	_	9	punct	_
+13	"	Z	_	9	punct	_
+14	muigas	V	s=s	9	parataxis	_
+15	Kundla	H	sg=sg|n=n	14	nsubj	_
+16	.	Z	_	9	punct	_
+
+# sent_id = 387671
+# text = Bullsi uus peatreener Tim Floyd mängitas 16 meest .
+1	Bullsi	H	sg=sg|g=g	3	nmod	_
+2	uus	A	sg=sg|n=n	3	amod	_
+3	peatreener	S	sg=sg|n=n	6	nsubj	_
+4	Tim	H	sg=sg|n=n	3	appos	_
+5	Floyd	H	sg=sg|n=n	4	flat	_
+6	mängitas	V	s=s	0	root	_
+7	16	N	?=?	8	nummod	_
+8	meest	S	sg=sg|p=p	6	nsubj	CHECK
+9	.	Z	_	6	punct	_
+
+# sent_id = 486992
+# text = Mustamäe metsaäärsete korruselamute õuel mänguväljaku naabruses vedelenud miini lõhkamiskõmakas tiris kolmapäeva õhtul akendele kõik ümberkaudsed elanikud , seni polnud lagealal päevitanud ja lapsi mängitanud emad paika ohtlikuks pidanud .
+1	Mustamäe	H	sg=sg|g=g	3	nmod	_
+2	metsaäärsete	A	pl=pl|g=g	3	amod	_
+3	korruselamute	S	pl=pl|g=g	7	obl	_
+4	õuel	S	sg=sg|ad=ad	5	nmod	_
+5	mänguväljaku	S	sg=sg|g=g	6	nmod	_
+6	naabruses	S	sg=sg|in=in	7	obl	_
+7	vedelenud	A	pl=pl|n=n	8	acl	_
+8	miini	S	sg=sg|p=p	9	nmod	_
+9	lõhkamiskõmakas	S	sg=sg|in=in	10	obl	_
+10	tiris	V	s=s	0	root	_
+11	kolmapäeva	S	sg=sg|g=g	12	nmod	_
+12	õhtul	S	sg=sg|ad=ad	10	obl	_
+13	akendele	S	pl=pl|all=all	10	obl	_
+14	kõik	P	pl=pl|n=n	16	det	_
+15	ümberkaudsed	A	pl=pl|n=n	16	amod	_
+16	elanikud	S	pl=pl|n=n	10	obj	_
+17	,	Z	_	21	punct	_
+18	seni	D	_	21	advmod	_
+19	polnud	V	neg=neg|nud=nud	21	aux	_
+20	lagealal	S	sg=sg|ad=ad	21	nsubj	_
+21	päevitanud	V	nud=nud	10	conj	_
+22	ja	J	_	24	cc	_
+23	lapsi	S	pl=pl|p=p	24	obj	CHECK
+24	mängitanud	V	nud=nud	21	conj	_
+25	emad	S	pl=pl|n=n	28	nsubj	_
+26	paika	S	adt=adt	28	obl	_
+27	ohtlikuks	A	sg=sg|tr=tr	28	obj	_
+28	pidanud	A	_	10	conj	_
+29	.	Z	_	10	punct	_
+
+# sent_id = 1498719
+# text = Pärast laupäevast poolfinaali teatasid soomlased ootamatult , et kui finaali ei mängita järgmisel hommikul kell 9 , peavad nad laevale tõttama .
+1	Pärast	K	_	3	case	_
+2	laupäevast	A	sg=sg|p=p	3	amod	_
+3	poolfinaali	S	sg=sg|g=g	4	obl	_
+4	teatasid	V	sid=sid	0	root	_
+5	soomlased	S	pl=pl|n=n	4	nsubj	_
+6	ootamatult	D	_	4	advmod	_
+7	,	Z	_	12	punct	_
+8	et	J	_	12	mark	_
+9	kui	J	_	12	mark	_
+10	finaali	S	sg=sg|g=g	12	obl	CHECK
+11	ei	V	neg=neg	12	aux	_
+12	mängita	V	o=o	21	advcl	_
+13	järgmisel	A	sg=sg|ad=ad	14	amod	_
+14	hommikul	S	sg=sg|ad=ad	12	obl	_
+15	kell	S	sg=sg|n=n	12	obl	_
+16	9	N	?=?	15	nummod	_
+17	,	Z	_	21	punct	_
+18	peavad	V	vad=vad	21	aux	_
+19	nad	P	pl=pl|n=n	21	nsubj	_
+20	laevale	S	sg=sg|all=all	21	obj	_
+21	tõttama	V	ma=ma	4	ccomp	_
+22	.	Z	_	4	punct	_
+
+# sent_id = 7749485
+# text = Harva tuleb ette sellist hooaega , kui seal ei mängitaks mõnda Neil Simoni hiti , väidavad jänkid .
+1	Harva	D	_	2	advmod	_
+2	tuleb	V	b=b	0	root	_
+3	ette	D	_	2	compound:prt	_
+4	sellist	P	sg=sg|p=p	5	det	_
+5	hooaega	S	sg=sg|p=p	2	nsubj	_
+6	,	Z	_	10	punct	_
+7	kui	D	_	10	mark	_
+8	seal	D	_	10	advmod	_
+9	ei	V	neg=neg	10	aux	_
+10	mängitaks	V	ks=ks	2	advcl	_
+11	mõnda	P	sg=sg|p=p	12	det	_
+12	Neil	P	pl=pl|ad=ad	10	nsubj	_
+13	Simoni	H	sg=sg|g=g	14	nmod	_
+14	hiti	S	sg=sg|g=g	10	obj	CHECK
+15	,	Z	_	16	punct	_
+16	väidavad	V	vad=vad	2	conj	_
+17	jänkid	S	pl=pl|n=n	16	nsubj	_
+18	.	Z	_	2	punct	_
+
+# sent_id = 9518505
+# text = “ Võimalus , et Eesti mängitaks rahvusvahelisse isolatsiooni , nagu see juhtus osalt ka president Pätsi mitte väga professionaalse välispoliitika tõttu - see situatsioon on praegu meile võõras , sest Eesti on integreerunud paljude Euroopa ja transatlantiliste organisatsioonidega .
+1	“	Z	_	2	punct	_
+2	Võimalus	S	sg=sg|n=n	0	root	_
+3	,	Z	_	6	punct	_
+4	et	J	_	6	mark	_
+5	Eesti	H	sg=sg|n=n	6	nsubj	_
+6	mängitaks	V	ks=ks	2	acl	_
+7	rahvusvahelisse	A	adt=adt	8	amod	_
+8	isolatsiooni	S	adt=adt	6	obj	CHECK
+9	,	Z	_	12	punct	_
+10	nagu	D	_	12	mark	_
+11	see	P	sg=sg|n=n	12	nsubj	_
+12	juhtus	V	s=s	6	advcl	_
+13	osalt	D	_	12	advmod	_
+14	ka	D	_	15	advmod	_
+15	president	S	sg=sg|n=n	20	nmod	_
+16	Pätsi	H	sg=sg|g=g	15	appos	_
+17	mitte	D	_	18	advmod	_
+18	väga	D	_	19	advmod	_
+19	professionaalse	A	sg=sg|g=g	20	amod	_
+20	välispoliitika	S	sg=sg|g=g	12	obl	_
+21	tõttu	K	_	20	case	_
+22	-	Z	_	28	punct	_
+23	see	P	sg=sg|n=n	24	det	_
+24	situatsioon	S	sg=sg|n=n	28	nsubj:cop	_
+25	on	V	vad=vad	28	cop	_
+26	praegu	D	_	28	advmod	_
+27	meile	P	pl=pl|all=all	28	nsubj:cop	_
+28	võõras	A	sg=sg|n=n	12	parataxis	_
+29	,	Z	_	33	punct	_
+30	sest	J	_	33	mark	_
+31	Eesti	H	sg=sg|g=g	33	nsubj	_
+32	on	V	b=b	33	aux	_
+33	integreerunud	A	sg=sg|n=n	28	advcl	_
+34	paljude	P	pl=pl|g=g	35	nmod	_
+35	Euroopa	H	sg=sg|g=g	38	nmod	_
+36	ja	J	_	37	cc	_
+37	transatlantiliste	A	pl=pl|g=g	35	conj	_
+38	organisatsioonidega	S	pl=pl|kom=kom	33	obj	_
+39	.	Z	_	28	punct	_
+
+# sent_id = 4194173
+# text = " Ma vaatasin täna ka rohkem järgmisesse aastasse ja ei mängitanud ära minevaid mängijaid .
+1	"	Z	_	3	punct	_
+2	Ma	P	sg=sg|n=n	3	nsubj	_
+3	vaatasin	V	sin=sin	0	root	_
+4	täna	D	_	3	advmod	_
+5	ka	D	_	6	advmod	_
+6	rohkem	D	_	3	advmod	_
+7	järgmisesse	A	sg=sg|ill=ill	8	amod	_
+8	aastasse	S	sg=sg|ill=ill	3	obl	_
+9	ja	J	_	11	cc	_
+10	ei	V	neg=neg	11	aux	_
+11	mängitanud	V	nud=nud	3	conj	_
+12	ära	D	_	13	advmod	_
+13	minevaid	A	pl=pl|p=p	14	acl	_
+14	mängijaid	S	pl=pl|p=p	11	obj	CHECK
+15	.	Z	_	3	punct	_
+
+# sent_id = 265437
+# text = V õ i m mängitab meid kõiki .
+1	V	O	?=?	5	obl	_
+2	õ	Y	?=?	1	flat	_
+3	i	Y	?=?	1	flat	_
+4	m	Y	?=?	5	obl	_
+5	mängitab	V	b=b	0	root	_
+6	meid	P	pl=pl|p=p	5	nsubj	CHECK
+7	kõiki	P	pl=pl|p=p	6	det	_
+8	.	Z	_	5	punct	_
+
+# sent_id = 523354
+# text = Eestis on sajandeid kergemat puhkpillimuusikat mängitud , aga klassikalist brassimuusikat ei mängita naaberriikideski arvestataval tasemel .
+1	Eestis	H	sg=sg|in=in	6	obl	_
+2	on	V	b=b	6	aux	_
+3	sajandeid	S	pl=pl|p=p	6	obl	_
+4	kergemat	C	sg=sg|p=p	5	amod	_
+5	puhkpillimuusikat	S	sg=sg|p=p	6	obj	_
+6	mängitud	A	pl=pl|n=n	0	root	_
+7	,	Z	_	12	punct	_
+8	aga	J	_	12	cc	_
+9	klassikalist	A	sg=sg|p=p	10	amod	_
+10	brassimuusikat	S	sg=sg|p=p	12	nsubj	CHECK
+11	ei	V	neg=neg	12	aux	_
+12	mängita	V	o=o	6	conj	_
+13	naaberriikideski	S	pl=pl|in=in	12	obj	_
+14	arvestataval	A	sg=sg|ad=ad	15	acl	_
+15	tasemel	S	sg=sg|ad=ad	12	obl	_
+16	.	Z	_	6	punct	_
+
+# sent_id = 621174
+# text = " Agressiivset muusikat Õllesummeril ei mängita , " märkis Rekkaro viidates õlleste inimeste niigi ägedamale olekule .
+1	"	Z	_	6	punct	_
+2	Agressiivset	A	sg=sg|p=p	3	amod	_
+3	muusikat	S	sg=sg|p=p	6	nsubj	CHECK
+4	Õllesummeril	S	sg=sg|ad=ad	6	obj	_
+5	ei	V	neg=neg	6	aux	_
+6	mängita	V	o=o	0	root	_
+7	,	Z	_	6	punct	_
+8	"	Z	_	6	punct	_
+9	märkis	V	s=s	6	parataxis	_
+10	Rekkaro	H	sg=sg|n=n	11	nsubj	_
+11	viidates	V	des=des	9	conj	_
+12	õlleste	A	pl=pl|g=g	13	amod	_
+13	inimeste	S	pl=pl|g=g	16	nmod	_
+14	niigi	D	_	15	advmod	_
+15	ägedamale	C	sg=sg|all=all	16	amod	_
+16	olekule	S	sg=sg|all=all	9	obj	_
+17	.	Z	_	6	punct	_
+
+# sent_id = 7964620
+# text = Ja instruktor , kes poistesõõri keskel kaigasgranaadi pärast korgi ära keerab , kes tõmbenööri mängitab ja seletab — selle granaadi viivitus on seitse sekundit .
+1	Ja	J	_	2	cc	_
+2	instruktor	S	sg=sg|n=n	0	root	_
+3	,	Z	_	11	punct	_
+4	kes	P	pl=pl|n=n	11	nsubj	_
+5	poistesõõri	S	sg=sg|g=g	11	obl	_
+6	keskel	K	_	5	case	_
+7	kaigasgranaadi	S	sg=sg|g=g	11	obl	_
+8	pärast	K	_	7	case	_
+9	korgi	S	sg=sg|g=g	11	obl	_
+10	ära	D	_	11	compound:prt	_
+11	keerab	V	b=b	2	acl:relcl	_
+12	,	Z	_	15	punct	_
+13	kes	P	sg=sg|n=n	15	nsubj	_
+14	tõmbenööri	S	sg=sg|g=g	15	obj	CHECK
+15	mängitab	V	b=b	11	conj	_
+16	ja	J	_	17	cc	_
+17	seletab	V	b=b	15	conj	_
+18	—	Z	_	21	punct	_
+19	selle	P	sg=sg|g=g	20	det	_
+20	granaadi	S	sg=sg|g=g	21	nmod	_
+21	viivitus	S	sg=sg|n=n	17	parataxis	_
+22	on	V	b=b	24	cop	_
+23	seitse	N	sg=sg|n=n	24	nummod	_
+24	sekundit	S	sg=sg|p=p	21	nsubj:cop	_
+25	.	Z	_	2	punct	_
+
+# sent_id = 772273
+# text = Laule mängitavad Lemo kõrval Ahto Kruusmann , Ain Boltovski ja Indrek Parts .
+1	Laule	H	sg=sg|n=n	2	obj	CHECK
+2	mängitavad	V	vad=vad	0	root	_
+3	Lemo	H	sg=sg|g=g	2	obl	_
+4	kõrval	K	_	3	case	_
+5	Ahto	H	sg=sg|n=n	2	nsubj	_
+6	Kruusmann	H	sg=sg|n=n	5	flat	_
+7	,	Z	_	8	punct	_
+8	Ain	H	sg=sg|n=n	5	conj	_
+9	Boltovski	H	sg=sg|n=n	8	flat	_
+10	ja	J	_	11	cc	_
+11	Indrek	H	sg=sg|n=n	5	conj	_
+12	Parts	H	sg=sg|n=n	11	flat	_
+13	.	Z	_	2	punct	_
+
+# sent_id = 95805
+# text = Eesti jalgpallil on muidugi ees pikk ja vaevarikas retk , kuid lootust sisendab ala massilisuse kasv , enam pole Eestis kohta , kus vutti ei mängitaks , ka maakoolide turniiridele pääs on tihe , juurde on tulnud noori juhendajaid , loodud on vastseid spordikoole jne.
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	jalgpallil	S	sg=sg|ad=ad	5	nsubj:cop	_
+3	on	V	b=b	5	cop	_
+4	muidugi	D	_	5	advmod	_
+5	ees	D	_	0	root	_
+6	pikk	A	sg=sg|n=n	9	amod	_
+7	ja	J	_	8	cc	_
+8	vaevarikas	A	sg=sg|n=n	6	conj	_
+9	retk	S	sg=sg|n=n	5	nsubj:cop	_
+10	,	Z	_	13	punct	_
+11	kuid	J	_	13	cc	_
+12	lootust	S	sg=sg|p=p	13	nsubj	_
+13	sisendab	V	b=b	5	conj	_
+14	ala	S	sg=sg|g=g	15	nmod	_
+15	massilisuse	S	sg=sg|g=g	16	nmod	_
+16	kasv	S	sg=sg|n=n	13	obj	_
+17	,	Z	_	18	punct	_
+18	enam	D	_	5	conj	_
+19	pole	V	neg=neg|o=o	18	cop	_
+20	Eestis	H	sg=sg|in=in	19	nsubj	_
+21	kohta	S	sg=sg|p=p	18	nsubj:cop	_
+22	,	Z	_	26	punct	_
+23	kus	D	_	26	mark	_
+24	vutti	S	sg=sg|p=p	26	obj	CHECK
+25	ei	V	neg=neg	26	aux	_
+26	mängitaks	V	ks=ks	21	acl	_
+27	,	Z	_	33	punct	_
+28	ka	D	_	33	advmod	_
+29	maakoolide	S	pl=pl|g=g	30	nmod	_
+30	turniiridele	S	pl=pl|all=all	31	nmod	_
+31	pääs	S	sg=sg|n=n	33	nsubj:cop	_
+32	on	V	b=b	33	cop	_
+33	tihe	A	sg=sg|n=n	26	conj	_
+34	,	Z	_	37	punct	_
+35	juurde	D	_	37	compound:prt	_
+36	on	V	b=b	37	aux	_
+37	tulnud	A	_	26	conj	_
+38	noori	A	pl=pl|p=p	39	amod	_
+39	juhendajaid	S	pl=pl|p=p	37	nsubj	_
+40	,	Z	_	41	punct	_
+41	loodud	A	_	26	conj	_
+42	on	V	vad=vad	41	aux	_
+43	vastseid	S	pl=pl|p=p	44	nmod	_
+44	spordikoole	S	pl=pl|p=p	41	obj	_
+45	jne	Y	?=?	44	nmod	_
+46	.	Z	_	5	punct	_
+
+# sent_id = 5311791
+# text = Esimeses geimis jättis juhendaja pingile kogenud Urmas Niitavi , ning mängitas pikakasvulist Rain Värtonit .
+1	Esimeses	O	sg=sg|in=in	2	amod	_
+2	geimis	S	sg=sg|in=in	3	obj	_
+3	jättis	V	s=s	0	root	_
+4	juhendaja	S	sg=sg|n=n	3	obj	_
+5	pingile	S	sg=sg|all=all	6	obj	_
+6	kogenud	A	pl=pl|n=n	7	acl	_
+7	Urmas	H	sg=sg|n=n	3	nsubj	_
+8	Niitavi	H	sg=sg|n=n	7	flat	_
+9	,	Z	_	11	punct	_
+10	ning	J	_	11	cc	_
+11	mängitas	V	s=s	3	conj	_
+12	pikakasvulist	A	sg=sg|p=p	13	amod	_
+13	Rain	H	sg=sg|n=n	11	obj	CHECK
+14	Värtonit	H	sg=sg|p=p	13	flat	_
+15	.	Z	_	3	punct	_
+

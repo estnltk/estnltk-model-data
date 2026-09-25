@@ -1,0 +1,587 @@
+# sent_id = 1709431
+# text = Kohvi hind poes ei lange .
+1	Kohvi	S	sg=sg|p=p	2	nmod	CHECK
+2	hind	S	sg=sg|n=n	5	nsubj	_
+3	poes	S	sg=sg|in=in	5	nsubj	_
+4	ei	V	neg=neg	5	aux	_
+5	lange	V	o=o	0	root	_
+6	.	Z	_	5	punct	_
+
+# sent_id = 681575
+# text = Venelanna Nina Gavriljuk langes proloogi esikohalt neljandaks , ukrainlanna Valentina Shevtshenko tõusis teiselt kohalt esimeseks ja Kristina kolmandalt teiseks .
+1	Venelanna	S	sg=sg|n=n	4	nsubj	_
+2	Nina	H	sg=sg|n=n	1	appos	_
+3	Gavriljuk	H	sg=sg|n=n	2	flat	_
+4	langes	V	s=s	0	root	_
+5	proloogi	S	sg=sg|g=g	4	obl	CHECK
+6	esikohalt	S	sg=sg|abl=abl	4	obl	_
+7	neljandaks	O	sg=sg|tr=tr	4	obl	_
+8	,	Z	_	12	punct	_
+9	ukrainlanna	S	sg=sg|n=n	12	obl	_
+10	Valentina	H	sg=sg|n=n	9	appos	_
+11	Shevtshenko	H	sg=sg|n=n	10	flat	_
+12	tõusis	V	s=s	4	conj	_
+13	teiselt	O	sg=sg|abl=abl	14	det	_
+14	kohalt	S	sg=sg|abl=abl	12	obl	_
+15	esimeseks	O	sg=sg|tr=tr	19	amod	_
+16	ja	J	_	17	cc	_
+17	Kristina	H	sg=sg|g=g	15	conj	_
+18	kolmandalt	O	sg=sg|abl=abl	19	amod	_
+19	teiseks	O	sg=sg|tr=tr	12	nsubj	_
+20	.	Z	_	4	punct	_
+
+# sent_id = 2473496
+# text = " Selleks peab kannatust varuma , kuid poole tunni jooksul lõunataevast vaadeldes paari heledamat langevat tähte peaks ikka nägema , " lisas Jaaniste .
+1	"	Z	_	5	punct	_
+2	Selleks	P	sg=sg|tr=tr	5	nsubj	_
+3	peab	V	b=b	5	aux	_
+4	kannatust	S	sg=sg|p=p	5	obj	_
+5	varuma	V	ma=ma	0	root	_
+6	,	Z	_	19	punct	_
+7	kuid	J	_	19	cc	_
+8	poole	N	sg=sg|g=g	9	nummod	_
+9	tunni	S	sg=sg|g=g	15	obl	_
+10	jooksul	K	_	9	case	_
+11	lõunataevast	S	sg=sg|p=p	12	obj	_
+12	vaadeldes	V	des=des	16	acl	_
+13	paari	S	adt=adt	14	obl	_
+14	heledamat	C	sg=sg|p=p	15	xcomp	CHECK
+15	langevat	V	vat=vat	16	acl	_
+16	tähte	S	sg=sg|p=p	19	nsubj	_
+17	peaks	V	ks=ks	19	aux	_
+18	ikka	D	_	19	advmod	_
+19	nägema	V	ma=ma	5	conj	_
+20	,	Z	_	5	punct	_
+21	"	Z	_	5	punct	_
+22	lisas	V	s=s	5	parataxis	_
+23	Jaaniste	H	sg=sg|n=n	22	nsubj	_
+24	.	Z	_	5	punct	_
+
+# sent_id = 131019
+# text = Sõiduautodel lubatakse neid küll kasutada , kuid igal juhul langeb õnnetuse korral süükoorem siis taastatud rehvi kasutajale , mitte selle taastajale .
+1	Sõiduautodel	S	pl=pl|ad=ad	2	obj	_
+2	lubatakse	V	takse=takse	0	root	_
+3	neid	P	pl=pl|p=p	2	nsubj	_
+4	küll	D	_	5	advmod	_
+5	kasutada	V	da=da	2	xcomp	_
+6	,	Z	_	10	punct	_
+7	kuid	J	_	10	cc	_
+8	igal	P	sg=sg|ad=ad	9	det	_
+9	juhul	S	sg=sg|ad=ad	10	obl	_
+10	langeb	V	b=b	2	conj	_
+11	õnnetuse	S	sg=sg|g=g	10	obl	_
+12	korral	K	_	11	case	_
+13	süükoorem	S	sg=sg|n=n	10	nsubj	_
+14	siis	D	_	15	advmod	_
+15	taastatud	A	sg=sg|n=n	16	acl	_
+16	rehvi	S	sg=sg|p=p	17	nmod	CHECK
+17	kasutajale	S	sg=sg|all=all	10	nsubj	_
+18	,	Z	_	21	punct	_
+19	mitte	D	_	21	advmod	_
+20	selle	P	sg=sg|g=g	21	det	_
+21	taastajale	S	sg=sg|all=all	17	conj	_
+22	.	Z	_	2	punct	_
+
+# sent_id = 165355
+# text = Tselluloositonni hind on välisturgudel langenud aasta alguse 1000 dollarilt 500-550 dollarile .
+1	Tselluloositonni	S	sg=sg|g=g	2	nmod	_
+2	hind	S	sg=sg|n=n	5	nsubj	_
+3	on	V	b=b	5	aux	_
+4	välisturgudel	S	pl=pl|ad=ad	5	obl	_
+5	langenud	A	_	0	root	_
+6	aasta	S	sg=sg|g=g	7	nmod	_
+7	alguse	S	sg=sg|g=g	5	nsubj	CHECK
+8	1000	N	?=?	9	nummod	_
+9	dollarilt	S	sg=sg|abl=abl	5	obl	_
+10	500	N	?=?	13	nummod	_
+11	-	Z	_	12	punct	_
+12	550	N	?=?	10	conj	_
+13	dollarile	S	sg=sg|all=all	5	obl	_
+14	.	Z	_	5	punct	_
+
+# sent_id = 1299493
+# text = Kohvi tooraine hind maailmaturul on viimasel ajal veidi langenud , see muudab ka dollari kallinemise vähem märgatavaks , selgitas Tammet .
+1	Kohvi	S	sg=sg|p=p	2	nmod	CHECK
+2	tooraine	S	sg=sg|g=g	3	nmod	_
+3	hind	S	sg=sg|n=n	9	nsubj	_
+4	maailmaturul	S	sg=sg|ad=ad	3	nmod	_
+5	on	V	b=b	9	aux	_
+6	viimasel	A	sg=sg|ad=ad	7	amod	_
+7	ajal	S	sg=sg|ad=ad	9	obl	_
+8	veidi	D	_	9	advmod	_
+9	langenud	A	pl=pl|n=n	0	root	_
+10	,	Z	_	12	punct	_
+11	see	P	sg=sg|n=n	12	nsubj	_
+12	muudab	V	b=b	9	conj	_
+13	ka	D	_	12	advmod	_
+14	dollari	S	sg=sg|g=g	15	nmod	_
+15	kallinemise	S	sg=sg|g=g	12	obj	_
+16	vähem	D	_	17	advmod	_
+17	märgatavaks	A	sg=sg|tr=tr	12	obj	_
+18	,	Z	_	19	punct	_
+19	selgitas	V	s=s	9	conj	_
+20	Tammet	H	sg=sg|n=n	19	nsubj	_
+21	.	Z	_	9	punct	_
+
+# sent_id = 271902
+# text = Nii on hõive langenud toiduaineid , nahkesemeid ja veoseadmeid tootvates sektorites kõigil vaadeldavatel aastatel .
+1	Nii	D	_	4	advmod	_
+2	on	V	vad=vad	4	aux	_
+3	hõive	S	sg=sg|n=n	4	nsubj	_
+4	langenud	A	_	0	root	_
+5	toiduaineid	S	pl=pl|p=p	10	obl	CHECK
+6	,	Z	_	7	punct	_
+7	nahkesemeid	S	pl=pl|p=p	5	conj	_
+8	ja	J	_	9	cc	_
+9	veoseadmeid	S	pl=pl|p=p	5	conj	_
+10	tootvates	A	pl=pl|in=in	11	acl	_
+11	sektorites	S	pl=pl|in=in	4	nsubj	_
+12	kõigil	P	pl=pl|ad=ad	14	det	_
+13	vaadeldavatel	A	pl=pl|ad=ad	14	acl	_
+14	aastatel	S	pl=pl|ad=ad	4	obl	_
+15	.	Z	_	4	punct	_
+
+# sent_id = 7526969
+# text = Ning Mihkel laskus vankrile külili , keeras ohjad ümber käe , et need Mikule jalgu ei langeks , kohendas kaseviha pea alla , tõmbas vankriteki peale ning tundis , et mõnusamat magamisaset pole tal eales olnud .
+1	Ning	J	_	3	cc	_
+2	Mihkel	H	sg=sg|n=n	3	nsubj	_
+3	laskus	V	s=s	0	root	_
+4	vankrile	S	sg=sg|all=all	3	obl	_
+5	külili	D	_	3	advmod	_
+6	,	Z	_	7	punct	_
+7	keeras	V	s=s	3	conj	_
+8	ohjad	S	pl=pl|n=n	7	obj	_
+9	ümber	K	_	10	case	_
+10	käe	S	sg=sg|g=g	7	obj	_
+11	,	Z	_	17	punct	_
+12	et	J	_	17	mark	_
+13	need	P	pl=pl|n=n	14	det	_
+14	Mikule	H	sg=sg|all=all	17	nsubj	_
+15	jalgu	S	pl=pl|p=p	17	obj	CHECK
+16	ei	V	neg=neg	17	aux	_
+17	langeks	V	ks=ks	7	advcl	_
+18	,	Z	_	19	punct	_
+19	kohendas	V	s=s	17	conj	_
+20	kaseviha	S	sg=sg|g=g	19	obj	_
+21	pea	S	sg=sg|g=g	19	obl	_
+22	alla	K	_	21	case	_
+23	,	Z	_	24	punct	_
+24	tõmbas	V	s=s	3	conj	_
+25	vankriteki	S	sg=sg|g=g	24	obj	_
+26	peale	K	_	24	compound:prt	_
+27	ning	J	_	28	cc	_
+28	tundis	V	s=s	3	conj	_
+29	,	Z	_	32	punct	_
+30	et	J	_	32	mark	_
+31	mõnusamat	C	sg=sg|p=p	32	amod	_
+32	magamisaset	S	sg=sg|p=p	28	ccomp	_
+33	pole	V	neg=neg|o=o	32	aux	_
+34	tal	P	sg=sg|ad=ad	32	nsubj:cop	_
+35	eales	D	_	28	ccomp	_
+36	olnud	A	_	32	cop	_
+37	.	Z	_	3	punct	_
+
+# sent_id = 9410352
+# text = Eelistused näisid langevat saksa heleda Beck's õlu kasuks ( maaletooja Tridens ) .
+1	Eelistused	S	pl=pl|n=n	3	obl	_
+2	näisid	V	sid=sid	3	aux	_
+3	langevat	V	vat=vat	0	root	_
+4	saksa	G	_	8	amod	_
+5	heleda	A	sg=sg|g=g	8	amod	_
+6	Beck's	H	sg=sg|in=in	7	nmod	_
+7	õlu	S	sg=sg|n=n	8	nmod	CHECK
+8	kasuks	S	sg=sg|tr=tr	3	nsubj	_
+9	(	Z	_	10	punct	_
+10	maaletooja	S	sg=sg|n=n	8	appos	_
+11	Tridens	H	sg=sg|n=n	10	flat:foreign	_
+12	)	Z	_	10	punct	_
+13	.	Z	_	3	punct	_
+
+# sent_id = 799947
+# text = Teadlaste sõnul võib see seletada , miks naised nii kergesti alkoholi või uimastite lõksu ei lange ja kannatavad meestest harvemini stressiga seotud vaimsete häirete all .
+1	Teadlaste	S	pl=pl|g=g	2	nmod	_
+2	sõnul	S	pl=pl|ad=ad	5	obl	_
+3	võib	V	b=b	5	aux	_
+4	see	P	sg=sg|n=n	5	nsubj	_
+5	seletada	V	da=da	0	root	_
+6	,	Z	_	16	punct	_
+7	miks	D	_	16	mark	_
+8	naised	S	pl=pl|n=n	16	nsubj	_
+9	nii	D	_	10	advmod	_
+10	kergesti	D	_	16	advmod	_
+11	alkoholi	S	sg=sg|g=g	16	obl	_
+12	või	J	_	13	cc	_
+13	uimastite	S	pl=pl|g=g	11	conj	_
+14	lõksu	S	sg=sg|p=p	16	obl	CHECK
+15	ei	V	neg=neg	16	aux	_
+16	lange	V	o=o	5	ccomp	_
+17	ja	J	_	18	cc	_
+18	kannatavad	V	vad=vad	16	conj	_
+19	meestest	S	pl=pl|el=el	18	obj	_
+20	harvemini	D	_	22	advmod	_
+21	stressiga	S	sg=sg|kom=kom	22	obl	_
+22	seotud	V	tud=tud	24	acl	_
+23	vaimsete	A	pl=pl|g=g	24	amod	_
+24	häirete	S	pl=pl|g=g	18	obl	_
+25	all	K	_	24	case	_
+26	.	Z	_	5	punct	_
+
+# sent_id = 16016446
+# text = Tegelt ma tahaks seda oktoobriks äkki siis hinnad juba langenud , siis tulevad gta SA ja nfs undergound2 .
+1	Tegelt	H	sg=sg|n=n	3	mark	_
+2	ma	P	sg=sg|n=n	3	nsubj	_
+3	tahaks	V	ks=ks	0	root	_
+4	seda	P	sg=sg|p=p	5	det	_
+5	oktoobriks	S	sg=sg|tr=tr	10	obl	_
+6	äkki	D	_	10	advmod	_
+7	siis	J	_	10	advmod	_
+8	hinnad	S	pl=pl|n=n	10	obl	CHECK
+9	juba	D	_	10	advmod	_
+10	langenud	A	pl=pl|n=n	3	xcomp	_
+11	,	Z	_	13	punct	_
+12	siis	J	_	13	advmod	_
+13	tulevad	V	vad=vad	3	conj	_
+14	gta	S	sg=sg|g=g	13	nsubj	_
+15	SA	P	sg=sg|n=n	13	nsubj	_
+16	ja	J	_	17	cc	_
+17	nfs	Y	?=?	15	conj	_
+18	undergound2	Y	?=?	17	flat	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 127101
+# text = Nüüd toimus midagi - nagu oleks langenud hõbedast kivi või käsi varjulisse tiiki , pudenes õrnust nagu vihma üle tornikella , langes valgust kuhugi suletud majja , välgatas smaragd kuristikku , helises meri , öö , luht , kastetilk , kõmas kõrgustes kõu , laulis roosi arhitektuur , veeres vaikus koidu voodi poole ... ”
+1	Nüüd	D	_	2	advmod	_
+2	toimus	V	s=s	0	root	_
+3	midagi	P	sg=sg|p=p	2	nsubj	_
+4	-	Z	_	7	punct	_
+5	nagu	D	_	7	mark	_
+6	oleks	V	ks=ks	7	aux	_
+7	langenud	A	sg=sg|n=n	2	advcl	_
+8	hõbedast	S	sg=sg|el=el	9	nmod	_
+9	kivi	S	sg=sg|p=p	7	nsubj	_
+10	või	J	_	13	cc	_
+11	käsi	S	pl=pl|p=p	9	conj	_
+12	varjulisse	A	adt=adt	13	amod	_
+13	tiiki	S	adt=adt	9	conj	_
+14	,	Z	_	15	punct	_
+15	pudenes	V	s=s	7	conj	_
+16	õrnust	S	sg=sg|p=p	15	nsubj	_
+17	nagu	D	_	18	mark	_
+18	vihma	S	sg=sg|g=g	15	advcl	_
+19	üle	K	_	20	case	_
+20	tornikella	S	sg=sg|g=g	15	obl	_
+21	,	Z	_	22	punct	_
+22	langes	V	s=s	7	conj	_
+23	valgust	S	sg=sg|p=p	22	nsubj	CHECK
+24	kuhugi	D	_	25	advmod	_
+25	suletud	V	tud=tud	26	acl	_
+26	majja	S	adt=adt	22	obl	_
+27	,	Z	_	28	punct	_
+28	välgatas	V	s=s	7	conj	_
+29	smaragd	S	sg=sg|n=n	28	obj	_
+30	kuristikku	S	adt=adt	28	obj	_
+31	,	Z	_	32	punct	_
+32	helises	V	s=s	7	conj	_
+33	meri	S	sg=sg|n=n	32	obj	_
+34	,	Z	_	35	punct	_
+35	öö	S	sg=sg|n=n	33	conj	_
+36	,	Z	_	37	punct	_
+37	luht	S	sg=sg|n=n	33	conj	_
+38	,	Z	_	39	punct	_
+39	kastetilk	S	sg=sg|n=n	33	conj	_
+40	,	Z	_	41	punct	_
+41	kõmas	V	s=s	7	conj	_
+42	kõrgustes	S	pl=pl|in=in	41	obj	_
+43	kõu	S	sg=sg|n=n	41	obj	_
+44	,	Z	_	45	punct	_
+45	laulis	V	s=s	7	conj	_
+46	roosi	S	sg=sg|p=p	47	nmod	_
+47	arhitektuur	S	sg=sg|n=n	45	obj	_
+48	,	Z	_	49	punct	_
+49	veeres	V	s=s	7	conj	_
+50	vaikus	S	sg=sg|n=n	49	obj	_
+51	koidu	S	sg=sg|g=g	49	obl	_
+52	voodi	S	sg=sg|g=g	49	obl	_
+53	poole	K	_	52	case	_
+54	...	Z	_	2	punct	_
+55	”	Z	_	2	punct	_
+
+# sent_id = 3604093
+# text = Enamik teatmeteoseid , sealhulgas minu kirjutatud Astronoomialeksikon , väidab kevade alguse langevat 20. märtsile , harvem 21. märtsile .
+1	Enamik	S	sg=sg|n=n	2	nmod	_
+2	teatmeteoseid	S	pl=pl|p=p	9	nsubj	_
+3	,	Z	_	7	punct	_
+4	sealhulgas	D	_	7	advmod	_
+5	minu	P	sg=sg|g=g	6	obl	_
+6	kirjutatud	V	tud=tud	7	acl	_
+7	Astronoomialeksikon	H	sg=sg|n=n	2	appos	_
+8	,	Z	_	9	punct	_
+9	väidab	V	b=b	0	root	_
+10	kevade	S	sg=sg|g=g	11	nmod	_
+11	alguse	S	sg=sg|g=g	12	obj	CHECK
+12	langevat	V	vat=vat	9	xcomp	_
+13	20.	O	?=?	14	amod	_
+14	märtsile	S	sg=sg|all=all	9	obl	_
+15	,	Z	_	18	punct	_
+16	harvem	D	_	9	advmod	_
+17	21.	O	?=?	18	amod	_
+18	märtsile	S	sg=sg|all=all	16	obl	_
+19	.	Z	_	9	punct	_
+
+# sent_id = 1494967
+# text = Samas olen ma ise langenud 40-aastase meesterahva rutiini , millest võiks pikemalt kirjutada , aga mis pole ka tähtis , aga mis ometi on üsna tüütav ja millest tahaks mingil moel väljuda .
+1	Samas	D	_	5	advmod	_
+2	olen	V	n=n	5	aux	_
+3	ma	P	sg=sg|n=n	5	nsubj	_
+4	ise	D	_	3	nmod	_
+5	langenud	A	pl=pl|n=n	0	root	_
+6	40-aastase	A	sg=sg|g=g	7	amod	_
+7	meesterahva	S	sg=sg|g=g	8	nmod	_
+8	rutiini	S	sg=sg|g=g	5	obl	CHECK
+9	,	Z	_	13	punct	_
+10	millest	P	sg=sg|el=el	13	nsubj	_
+11	võiks	V	ks=ks	13	aux	_
+12	pikemalt	D	_	13	advmod	_
+13	kirjutada	V	da=da	8	acl:relcl	_
+14	,	Z	_	19	punct	_
+15	aga	J	_	19	cc	_
+16	mis	P	pl=pl|n=n	19	nsubj:cop	_
+17	pole	V	neg=neg|o=o	19	cop	_
+18	ka	D	_	19	advmod	_
+19	tähtis	A	sg=sg|n=n	13	conj	_
+20	,	Z	_	26	punct	_
+21	aga	J	_	26	cc	_
+22	mis	P	pl=pl|n=n	26	nsubj:cop	_
+23	ometi	D	_	26	advmod	_
+24	on	V	vad=vad	26	cop	_
+25	üsna	D	_	26	advmod	_
+26	tüütav	A	sg=sg|n=n	13	conj	_
+27	ja	J	_	29	cc	_
+28	millest	P	pl=pl|el=el	29	nsubj	_
+29	tahaks	V	ks=ks	26	conj	_
+30	mingil	P	sg=sg|ad=ad	31	det	_
+31	moel	S	sg=sg|ad=ad	32	obl	_
+32	väljuda	V	da=da	29	xcomp	_
+33	.	Z	_	5	punct	_
+
+# sent_id = 1971796
+# text = Krooniks absurdiklassiku Samuel Becketti kuuldemäng " Kõik , kes langevad " Heino Mandri ja Lisl Lindau võrratus duettmängus .
+1	Krooniks	S	sg=sg|tr=tr	2	nmod	_
+2	absurdiklassiku	S	sg=sg|g=g	5	nmod	_
+3	Samuel	H	sg=sg|n=n	2	appos	_
+4	Becketti	H	adt=adt	3	flat	_
+5	kuuldemäng	S	sg=sg|n=n	0	root	_
+6	"	Z	_	7	punct	_
+7	Kõik	P	sg=sg|n=n	5	appos	_
+8	,	Z	_	10	punct	_
+9	kes	P	pl=pl|n=n	10	nsubj	_
+10	langevad	V	vad=vad	7	acl:relcl	_
+11	"	Z	_	12	punct	_
+12	Heino	H	sg=sg|n=n	17	nmod	_
+13	Mandri	S	sg=sg|g=g	12	flat	_
+14	ja	J	_	15	cc	_
+15	Lisl	H	sg=sg|n=n	12	conj	_
+16	Lindau	H	sg=sg|g=g	15	flat	_
+17	võrratus	S	sg=sg|n=n	18	nmod	CHECK
+18	duettmängus	S	sg=sg|in=in	10	obl	_
+19	.	Z	_	5	punct	_
+
+# sent_id = 1363469
+# text = Süü ei lange ainult palli valdajale - panin tähele , et pallita mehed ei otsinud vajalikul määral vabadust .
+1	Süü	S	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	lange	V	o=o	0	root	_
+4	ainult	D	_	5	advmod	_
+5	palli	S	sg=sg|g=g	3	nsubj	CHECK
+6	valdajale	S	sg=sg|all=all	3	obl	_
+7	-	Z	_	8	punct	_
+8	panin	V	sin=sin	3	parataxis	_
+9	tähele	X	_	8	advmod	_
+10	,	Z	_	15	punct	_
+11	et	J	_	15	mark	_
+12	pallita	S	sg=sg|ab=ab	13	nmod	_
+13	mehed	S	pl=pl|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	otsinud	V	nud=nud	8	ccomp	_
+16	vajalikul	A	sg=sg|ad=ad	17	amod	_
+17	määral	S	sg=sg|ad=ad	15	obl	_
+18	vabadust	S	sg=sg|p=p	15	obj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 11742072
+# text = Süü ei lange ainult palli valdajale - panin tähele , et pallita mehed ei otsinud vajalikul määral vabadust .
+1	Süü	S	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	lange	V	o=o	0	root	_
+4	ainult	D	_	5	advmod	_
+5	palli	S	sg=sg|g=g	3	nsubj	CHECK
+6	valdajale	S	sg=sg|all=all	3	obl	_
+7	-	Z	_	8	punct	_
+8	panin	V	sin=sin	3	parataxis	_
+9	tähele	X	_	8	advmod	_
+10	,	Z	_	15	punct	_
+11	et	J	_	15	mark	_
+12	pallita	S	sg=sg|ab=ab	13	nmod	_
+13	mehed	S	pl=pl|n=n	15	nsubj	_
+14	ei	V	neg=neg	15	aux	_
+15	otsinud	V	nud=nud	8	ccomp	_
+16	vajalikul	A	sg=sg|ad=ad	17	amod	_
+17	määral	S	sg=sg|ad=ad	15	obl	_
+18	vabadust	S	sg=sg|p=p	15	obj	_
+19	.	Z	_	3	punct	_
+
+# sent_id = 6202871
+# text = Tõenäosus , et mõni neljast Res Publica ministrist või peaminister Juhan Parts langeks üldkogul umbusalduse osaliseks , on siiski vähetõenäoline , ent eile avaldas mõni Res Publica liige arvamust , et nemad hääletavad näiteks justiitsminister Ken Marti Vaheri või rahandusminister Tõnis Paltsu vastu .
+1	Tõenäosus	S	sg=sg|n=n	20	nsubj:cop	_
+2	,	Z	_	13	punct	_
+3	et	J	_	13	mark	_
+4	mõni	P	sg=sg|n=n	5	det	_
+5	neljast	N	sg=sg|el=el	8	nummod	_
+6	Res	Y	?=?	8	nmod	_
+7	Publica	H	sg=sg|g=g	6	flat	_
+8	ministrist	S	sg=sg|el=el	13	nsubj	_
+9	või	J	_	10	cc	_
+10	peaminister	S	sg=sg|n=n	8	conj	_
+11	Juhan	H	sg=sg|n=n	10	appos	_
+12	Parts	H	sg=sg|n=n	11	flat	_
+13	langeks	V	ks=ks	1	acl	_
+14	üldkogul	S	sg=sg|ad=ad	15	nmod	_
+15	umbusalduse	S	sg=sg|g=g	16	nmod	CHECK
+16	osaliseks	A	sg=sg|tr=tr	13	obl	_
+17	,	Z	_	13	punct	_
+18	on	V	b=b	20	cop	_
+19	siiski	D	_	20	advmod	_
+20	vähetõenäoline	A	sg=sg|n=n	0	root	_
+21	,	Z	_	24	punct	_
+22	ent	J	_	24	cc	_
+23	eile	D	_	24	advmod	_
+24	avaldas	V	s=s	20	conj	_
+25	mõni	P	sg=sg|n=n	28	det	_
+26	Res	Y	?=?	28	nmod	_
+27	Publica	H	sg=sg|n=n	26	flat	_
+28	liige	S	sg=sg|n=n	24	nsubj	_
+29	arvamust	S	sg=sg|p=p	24	obj	_
+30	,	Z	_	33	punct	_
+31	et	J	_	33	mark	_
+32	nemad	P	pl=pl|n=n	33	nsubj	_
+33	hääletavad	V	vad=vad	29	acl	_
+34	näiteks	S	sg=sg|tr=tr	35	advmod	_
+35	justiitsminister	S	sg=sg|n=n	33	obl	_
+36	Ken	H	sg=sg|n=n	35	appos	_
+37	Marti	S	adt=adt	36	flat	_
+38	Vaheri	H	sg=sg|g=g	36	flat	_
+39	või	J	_	40	cc	_
+40	rahandusminister	S	sg=sg|n=n	35	conj	_
+41	Tõnis	H	sg=sg|n=n	40	appos	_
+42	Paltsu	H	sg=sg|g=g	41	flat	_
+43	vastu	K	_	41	case	_
+44	.	Z	_	20	punct	_
+
+# sent_id = 3171096
+# text = Seda tema asendi tõttu paraku näha ei saa , kuid kaunist Gullfossi ( kuldne kosk ) või 60 meetri kõrguselt langevat võimsat Skogafossi ( metsakosk ) küll .
+1	Seda	P	sg=sg|p=p	6	nsubj	_
+2	tema	P	sg=sg|g=g	3	nmod	_
+3	asendi	S	sg=sg|g=g	6	obl	_
+4	tõttu	K	_	3	case	_
+5	paraku	D	_	6	advmod	_
+6	näha	V	da=da	0	root	_
+7	ei	V	neg=neg	6	aux	_
+8	saa	V	o=o	6	aux	_
+9	,	Z	_	21	punct	_
+10	kuid	J	_	21	cc	_
+11	kaunist	A	sg=sg|p=p	12	amod	_
+12	Gullfossi	H	sg=sg|p=p	21	nsubj	CHECK
+13	(	Z	_	15	punct	_
+14	kuldne	A	sg=sg|n=n	15	amod	_
+15	kosk	S	sg=sg|n=n	12	parataxis	_
+16	)	Z	_	15	punct	_
+17	või	J	_	20	cc	_
+18	60	N	?=?	19	nummod	_
+19	meetri	S	sg=sg|g=g	20	nmod	_
+20	kõrguselt	S	sg=sg|abl=abl	12	conj	_
+21	langevat	V	vat=vat	6	conj	_
+22	võimsat	A	sg=sg|p=p	23	amod	_
+23	Skogafossi	H	sg=sg|n=n	21	nsubj	_
+24	(	Z	_	25	punct	_
+25	metsakosk	S	sg=sg|n=n	23	parataxis	_
+26	)	Z	_	25	punct	_
+27	küll	D	_	21	advmod	_
+28	.	Z	_	6	punct	_
+
+# sent_id = 16188155
+# text = Eelkõige peavad need äriühingud , kelle suhtes ei kehti nõukogu 12. detsembri 1988. aasta direktiiv 88/627/EMÜ noteeritud äriühingus olulise osaluse omandamise või võõrandamise puhul avaldamisele kuuluva info kohta* , informeerima üldsust üheksa kalendripäeva jooksul alates info saamise päevast , et füüsiline või juriidiline isik on omandanud või võõrandanud aktsiaid nii , et tema osalus ületab või langeb allapoole ühte neist määradest , mis on kehtestatud käesoleva direktiivi artiklis 4.
+1	Eelkõige	D	_	2	advmod	_
+2	peavad	V	vad=vad	35	aux	_
+3	need	P	pl=pl|n=n	4	det	_
+4	äriühingud	S	pl=pl|n=n	2	nsubj	_
+5	,	Z	_	9	punct	_
+6	kelle	P	sg=sg|g=g	9	obl	_
+7	suhtes	K	_	6	case	_
+8	ei	V	neg=neg	9	aux	_
+9	kehti	V	o=o	4	acl:relcl	_
+10	nõukogu	S	sg=sg|g=g	12	nmod	_
+11	12.	O	?=?	12	amod	_
+12	detsembri	S	sg=sg|g=g	9	obl	_
+13	1988.	O	?=?	14	amod	_
+14	aasta	S	sg=sg|g=g	15	nmod	_
+15	direktiiv	S	sg=sg|n=n	9	obl	_
+16	88	N	?=?	14	nummod	_
+17	/	Z	_	18	punct	_
+18	627	N	?=?	16	conj	_
+19	/	Z	_	20	punct	_
+20	EMÜ	Y	?=?	21	obl	_
+21	noteeritud	A	_	22	acl	_
+22	äriühingus	S	sg=sg|in=in	24	nmod	_
+23	olulise	A	sg=sg|g=g	24	amod	_
+24	osaluse	S	sg=sg|g=g	25	nmod	_
+25	omandamise	S	sg=sg|g=g	9	obl	_
+26	või	J	_	31	cc	_
+27	võõrandamise	S	sg=sg|g=g	30	obl	_
+28	puhul	K	_	27	case	_
+29	avaldamisele	S	sg=sg|all=all	30	obl	_
+30	kuuluva	A	sg=sg|g=g	31	acl	_
+31	info	S	sg=sg|g=g	25	conj	_
+32	kohta	K	_	31	case	_
+33	*	Z	_	31	punct	_
+34	,	Z	_	35	punct	_
+35	informeerima	V	ma=ma	0	root	_
+36	üldsust	S	sg=sg|p=p	37	nmod	_
+37	üheksa	N	sg=sg|g=g	38	nummod	_
+38	kalendripäeva	S	sg=sg|g=g	35	obl	_
+39	jooksul	K	_	38	case	_
+40	alates	K	_	42	case	_
+41	info	S	sg=sg|g=g	42	nmod	_
+42	saamise	S	sg=sg|g=g	35	obl	_
+43	päevast	S	sg=sg|el=el	35	obj	_
+44	,	Z	_	51	punct	_
+45	et	J	_	51	mark	_
+46	füüsiline	A	sg=sg|n=n	49	amod	_
+47	või	J	_	48	cc	_
+48	juriidiline	A	sg=sg|n=n	46	conj	_
+49	isik	S	sg=sg|n=n	51	nsubj	_
+50	on	V	b=b	51	aux	_
+51	omandanud	V	nud=nud	43	acl	_
+52	või	J	_	53	cc	_
+53	võõrandanud	A	pl=pl|n=n	51	conj	_
+54	aktsiaid	S	pl=pl|p=p	53	obj	_
+55	nii	D	_	53	advmod	_
+56	,	Z	_	60	punct	_
+57	et	J	_	60	mark	_
+58	tema	P	sg=sg|g=g	59	nmod	_
+59	osalus	S	sg=sg|n=n	60	obj	_
+60	ületab	V	b=b	53	advcl	_
+61	või	J	_	62	cc	_
+62	langeb	V	b=b	60	conj	_
+63	allapoole	D	_	62	advmod	_
+64	ühte	P	adt=adt	66	det	CHECK
+65	neist	P	pl=pl|el=el	66	det	_
+66	määradest	S	pl=pl|el=el	62	nsubj	_
+67	,	Z	_	70	punct	_
+68	mis	P	pl=pl|n=n	70	obj	_
+69	on	V	vad=vad	70	aux	_
+70	kehtestatud	A	pl=pl|n=n	66	acl:relcl	_
+71	käesoleva	A	sg=sg|g=g	72	acl	_
+72	direktiivi	S	sg=sg|g=g	73	nmod	_
+73	artiklis	S	sg=sg|in=in	70	obj	_
+74	4.	O	?=?	73	amod	_
+
