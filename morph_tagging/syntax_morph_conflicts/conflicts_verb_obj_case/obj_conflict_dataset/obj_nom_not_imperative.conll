@@ -40,7 +40,7 @@
 17	vastuseks	S	sg=sg|tr=tr	18	obj	_
 18	lõi	V	s=s	2	conj	_
 19	kass	S	sg=sg|n=n	18	nsubj	_
-20	hambed	S	pl=pl|n=n	21	nmod	CHECK
+20	hambed	S	sg=sg|n=n	21	nmod	CHECK
 21	mehe	S	sg=sg|g=g	18	obl	_
 22	kätte	K	_	21	case	_
 23	ning	J	_	24	cc	_
@@ -84,7 +84,7 @@
 6	inimene	S	sg=sg|n=n	0	root	_
 7	,	Z	_	13	punct	_
 8	kuid	J	_	13	cc	_
-9	kui	D	_	13	mark	_
+9	kui	J	_	13	mark	_
 10	ma	P	sg=sg|n=n	13	nsubj	_
 11	ta	P	sg=sg|g=g	13	obj	_
 12	kätte	K	_	13	compound:prt	_
@@ -102,7 +102,7 @@
 1	Linn	S	sg=sg|n=n	2	nsubj	_
 2	nõuab	V	b=b	0	root	_
 3	firmalt	S	sg=sg|abl=abl	4	nmod	_
-4	ööpäev	S	sg=sg|n=n	2	obl	CHECK
+4	ööpäev	S	sg=sg|n=n	2	obj	CHECK
 5	ringi	D	_	2	compound:prt	_
 6	dispetšerteenistust	S	sg=sg|p=p	2	obj	_
 7	ning	J	_	10	cc	_
@@ -110,10 +110,10 @@
 9	75	N	?=?	10	nummod	_
 10	sõiduautot	S	sg=sg|p=p	6	conj	_
 11	ja	J	_	16	cc	_
-12	kaht	N	sg=sg|p=p	16	nummod	_
-13	puudega	S	pl=pl|kom=kom	14	nmod	_
-14	inimestele	S	pl=pl|all=all	15	obj	_
-15	koha-ndatud	V	tud=tud	16	acl	_
+12	kaht	N	sg=sg|p=p	13	nummod	_
+13	puudega	S	sg=sg|kom=kom	14	nmod	_
+14	inimestele	S	pl=pl|all=all	15	obl	_
+15	koha-ndatud	A	_	16	acl	_
 16	bussi	S	sg=sg|p=p	6	conj	_
 17	.	Z	_	2	punct	_
 
@@ -141,7 +141,7 @@
 8	sünnitunnistuse	S	sg=sg|g=g	9	nmod	_
 9	koopia	S	sg=sg|n=n	3	obj	CHECK
 10	,	Z	_	15	punct	_
-11	milles	P	pl=pl|in=in	15	obj	_
+11	milles	P	sg=sg|in=in	15	obj	_
 12	on	V	vad=vad	15	aux	_
 13	tema	P	sg=sg|g=g	14	nmod	_
 14	isaks	S	sg=sg|tr=tr	15	obl	_
@@ -160,7 +160,7 @@
 
 # sent_id = 3037916
 # text = Tunnustatud fotograaf Annie Leibovitz pildistas erinevatest Disney joonisfilmidest tuttvateks tegelasteks maskeeritud kuulsusi Walt Disney lõbustuspargi uue reklaamikampaania tarvis , teatas BBC .
-1	Tunnustatud	A	_	2	acl	_
+1	Tunnustatud	A	pl=pl|n=n	2	acl	_
 2	fotograaf	S	sg=sg|n=n	5	nsubj	_
 3	Annie	H	sg=sg|n=n	2	appos	_
 4	Leibovitz	H	sg=sg|n=n	3	flat	_
@@ -170,7 +170,7 @@
 8	joonisfilmidest	S	pl=pl|el=el	10	nmod	_
 9	tuttvateks	S	sg=sg|n=n	10	nmod	_
 10	tegelasteks	S	pl=pl|tr=tr	11	obj	_
-11	maskeeritud	A	_	12	acl	_
+11	maskeeritud	V	tud=tud	12	acl	_
 12	kuulsusi	S	pl=pl|p=p	5	obj	_
 13	Walt	H	sg=sg|n=n	12	appos	_
 14	Disney	H	sg=sg|g=g	13	flat	_
@@ -185,15 +185,15 @@
 
 # sent_id = 8479526
 # text = Kui me tarvitaksime mõistet vaibakloppimine ( mis iseenesest on küllaltki rumal ja sisutu mõiste , aga aitab siin ära piiritleda , millest jutt käib ) , siis see , mida Carolyn Hillyer ja Nigel Shaw toodavad , on täpselt seesama , mis vaibakloppimine , just samavõrra vaimne ( umbes nagu kipspea ) ja niisama väärtusetu .
-1	Kui	D	_	3	mark	_
+1	Kui	J	_	3	mark	_
 2	me	P	pl=pl|n=n	3	nsubj	_
 3	tarvitaksime	V	ksime=ksime	40	advcl	_
 4	mõistet	S	sg=sg|p=p	5	nmod	_
 5	vaibakloppimine	S	sg=sg|n=n	3	obj	CHECK
 6	(	Z	_	14	punct	_
-7	mis	P	pl=pl|n=n	14	nsubj:cop	_
+7	mis	P	sg=sg|n=n	14	nsubj:cop	_
 8	iseenesest	D	_	11	advmod	_
-9	on	V	b=b	14	cop	_
+9	on	V	vad=vad	14	cop	_
 10	küllaltki	D	_	11	advmod	_
 11	rumal	A	sg=sg|n=n	14	amod	_
 12	ja	J	_	13	cc	_
@@ -214,7 +214,7 @@
 27	siis	J	_	40	advmod	_
 28	see	P	sg=sg|n=n	40	nsubj:cop	_
 29	,	Z	_	36	punct	_
-30	mida	P	sg=sg|p=p	36	nsubj	_
+30	mida	P	pl=pl|p=p	36	nsubj	_
 31	Carolyn	H	sg=sg|n=n	36	nsubj	_
 32	Hillyer	H	sg=sg|n=n	31	flat	_
 33	ja	J	_	34	cc	_
@@ -226,15 +226,15 @@
 39	täpselt	D	_	40	advmod	_
 40	seesama	P	sg=sg|n=n	0	root	_
 41	,	Z	_	43	punct	_
-42	mis	P	pl=pl|n=n	43	nmod	_
+42	mis	P	sg=sg|n=n	43	nmod	_
 43	vaibakloppimine	S	sg=sg|n=n	40	acl:relcl	_
 44	,	Z	_	47	punct	_
-45	just	I	_	46	advmod	_
+45	just	D	_	46	advmod	_
 46	samavõrra	D	_	47	advmod	_
 47	vaimne	A	sg=sg|n=n	43	conj	_
 48	(	Z	_	51	punct	_
 49	umbes	D	_	51	advmod	_
-50	nagu	D	_	49	mark	_
+50	nagu	D	_	49	fixed	_
 51	kipspea	S	sg=sg|n=n	47	parataxis	_
 52	)	Z	_	51	punct	_
 53	ja	J	_	55	cc	_
@@ -247,7 +247,7 @@
 1	Milline	P	sg=sg|n=n	4	nsubj	CHECK
 2	oleks	V	ks=ks	4	aux	_
 3	hundid	S	pl=pl|n=n	4	obj	_
-4	söönud	A	_	0	root	_
+4	söönud	A	sg=sg|n=n	0	root	_
 5	,	Z	_	7	punct	_
 6	lambad	S	pl=pl|n=n	7	obj	_
 7	alles-lahendus	V	s=s	4	conj	_
@@ -257,12 +257,12 @@
 # text = Vägagi vajalik on suitsetajate sundimine söögikohas teise nurka , et nad mittesuitsetaja isu ja riideid ära ei rikuks .
 1	Vägagi	D	_	2	advmod	_
 2	vajalik	A	sg=sg|n=n	0	root	_
-3	on	V	b=b	2	cop	_
+3	on	V	vad=vad	2	cop	_
 4	suitsetajate	S	pl=pl|g=g	5	nmod	_
 5	sundimine	S	sg=sg|n=n	2	nsubj:cop	_
 6	söögikohas	S	sg=sg|in=in	8	nmod	_
-7	teise	P	adt=adt	8	amod	_
-8	nurka	S	adt=adt	2	nsubj:cop	_
+7	teise	O	adt=adt	8	amod	_
+8	nurka	S	adt=adt	2	obl	_
 9	,	Z	_	18	punct	_
 10	et	J	_	18	mark	_
 11	nad	P	pl=pl|n=n	18	nsubj	_
@@ -300,17 +300,17 @@
 6	nii	D	_	11	cc:preconj	_
 7	auto	S	sg=sg|n=n	9	obj	CHECK
 8	välja	D	_	9	compound:prt	_
-9	loosinud	V	nud=nud	10	acl	_
+9	loosinud	A	sg=sg|n=n	10	acl	_
 10	Kroonikeskuse	S	sg=sg|g=g	11	nmod	_
 11	koduleheküljel	S	sg=sg|ad=ad	5	nsubj:cop	_
 12	,	Z	_	14	punct	_
 13	kohalikus	A	sg=sg|in=in	14	amod	_
 14	lehes	S	sg=sg|in=in	11	conj	_
-15	kui	D	_	17	cc	_
+15	kui	J	_	17	cc	_
 16	ka	D	_	17	advmod	_
 17	võiduauto	S	sg=sg|g=g	14	conj	_
 18	juures	K	_	17	case	_
-19	olnud	A	sg=sg|n=n	20	acl	_
+19	olnud	A	pl=pl|n=n	20	acl	_
 20	tahvlil	S	sg=sg|ad=ad	5	nsubj:cop	_
 21	.	Z	_	5	punct	_
 
@@ -337,8 +337,8 @@
 3	maa	S	sg=sg|n=n	7	nsubj	_
 4	oleks	V	ks=ks	7	aux	_
 5	sama	P	sg=sg|g=g	6	det	_
-6	tugevusega	S	sg=sg|kom=kom	7	obj	_
-7	kõikunud	A	sg=sg|n=n	0	root	_
+6	tugevusega	S	sg=sg|kom=kom	7	obl	_
+7	kõikunud	V	nud=nud	0	root	_
 8	Tallinnas	H	sg=sg|in=in	7	obl	_
 9	,	Z	_	7	punct	_
 10	"	Z	_	7	punct	_
@@ -428,7 +428,7 @@
 11	ei	V	neg=neg	12	aux	_
 12	taotle	V	o=o	6	parataxis	_
 13	remondiraha	S	sg=sg|g=g	12	obj	_
-14	ühestki	N	sg=sg|el=el	16	nummod	_
+14	ühestki	P	sg=sg|el=el	16	nummod	_
 15	valitsuse	S	sg=sg|g=g	16	nmod	_
 16	fondist	S	sg=sg|el=el	12	obj	_
 17	ega	J	_	18	cc	_
@@ -436,7 +436,7 @@
 19	pankadelt	S	pl=pl|abl=abl	20	nmod	_
 20	laenuraha	S	sg=sg|n=n	18	obj	CHECK
 21	,	Z	_	25	punct	_
-22	mida	P	pl=pl|p=p	25	nsubj:cop	_
+22	mida	P	sg=sg|p=p	25	nsubj:cop	_
 23	oleks	V	ks=ks	25	cop	_
 24	korteriühistutel	S	pl=pl|ad=ad	25	obl	_
 25	võimalik	A	sg=sg|n=n	20	acl:relcl	_
@@ -452,11 +452,11 @@
 3	,	Z	_	10	punct	_
 4	et	J	_	10	mark	_
 5	arhitekt	S	sg=sg|n=n	10	nsubj	_
-6	on	V	vad=vad	10	aux	_
+6	on	V	b=b	10	aux	_
 7	"	Z	_	8	punct	_
 8	Komas	H	sg=sg|n=n	10	obj	CHECK
 9	"	Z	_	8	punct	_
-10	tabanud	A	_	2	ccomp	_
+10	tabanud	A	pl=pl|n=n	2	ccomp	_
 11	hästi	D	_	10	advmod	_
 12	ära	D	_	10	compound:prt	_
 13	jalakäijate	S	pl=pl|g=g	14	nmod	_

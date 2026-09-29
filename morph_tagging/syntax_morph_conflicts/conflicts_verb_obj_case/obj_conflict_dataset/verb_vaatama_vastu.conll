@@ -35,7 +35,7 @@
 14	vindine	A	sg=sg|n=n	15	amod	_
 15	kutt	S	sg=sg|n=n	10	obl	_
 16	,	Z	_	18	punct	_
-17	üks	P	sg=sg|n=n	18	nummod	_
+17	üks	N	sg=sg|n=n	18	nummod	_
 18	silm	S	sg=sg|n=n	10	conj	_
 19	kissis	D	_	18	orphan	_
 20	,	Z	_	21	punct	_
@@ -156,7 +156,7 @@
 3	stabiilsust	S	sg=sg|p=p	2	obj	_
 4	ja	J	_	5	cc	_
 5	seda	P	sg=sg|p=p	10	nsubj:cop	_
-6	et	J	_	5	fixed	_
+6	et	J	_	10	mark	_
 7	tal	P	sg=sg|ad=ad	10	nsubj:cop	_
 8	igal	P	sg=sg|ad=ad	9	det	_
 9	pool	N	sg=sg|n=n	10	nummod	_
@@ -180,9 +180,9 @@
 27	Maalidele	S	pl=pl|all=all	21	parataxis	_
 28	Juuliustele	H	sg=sg|n=n	27	nmod	_
 29	Ivanidele	H	pl=pl|all=all	28	flat	_
-30	Ja	J	_	33	cc	_
-31	Pelagejatele	H	sg=sg|all=all	32	obl	_
-32	suunatud	V	tud=tud	33	acl	_
+30	Ja	J	_	31	cc	_
+31	Pelagejatele	H	pl=pl|all=all	32	obl	_
+32	suunatud	A	sg=sg|n=n	33	acl	_
 33	teenuse	S	sg=sg|g=g	27	conj	_
 34	puhul	K	_	33	case	_
 35	.	Z	_	2	punct	_
@@ -204,9 +204,9 @@
 1	Ühestki	N	sg=sg|el=el	2	det	_
 2	esseest	S	sg=sg|el=el	4	nsubj	_
 3	ei	V	neg=neg	4	aux	_
-4	vaadanud	V	nud=nud	0	root	_
+4	vaadanud	A	sg=sg|n=n	0	root	_
 5	vastu	D	_	4	compound:prt	_
-6	maailmavalus	S	sg=sg|in=in	4	obj	_
+6	maailmavalus	S	sg=sg|in=in	4	obl	_
 7	meie	P	pl=pl|g=g	8	nmod	_
 8	aja	S	sg=sg|g=g	9	nmod	_
 9	kangelast	S	sg=sg|p=p	4	obj	CHECK
@@ -225,11 +225,11 @@
 # sent_id = 8993202
 # text = See on seesama labasus , mis vaatas vastu vene ajal nii paljude riigimeeste võõba alt , kui nood olid mõne pitsi viina võtnud või kui nad arvasid , et neil ETA paparatsisid kõrval pole .
 1	See	P	sg=sg|n=n	4	nsubj:cop	_
-2	on	V	b=b	4	cop	_
+2	on	V	vad=vad	4	cop	_
 3	seesama	P	sg=sg|n=n	4	amod	_
 4	labasus	S	sg=sg|n=n	0	root	_
 5	,	Z	_	7	punct	_
-6	mis	P	pl=pl|n=n	7	nsubj	_
+6	mis	P	sg=sg|n=n	7	nsubj	_
 7	vaatas	V	s=s	4	acl:relcl	_
 8	vastu	D	_	7	compound:prt	_
 9	vene	G	_	10	amod	_
@@ -246,7 +246,7 @@
 20	mõne	P	sg=sg|g=g	21	det	_
 21	pitsi	S	sg=sg|p=p	23	obj	_
 22	viina	S	sg=sg|p=p	23	obj	_
-23	võtnud	A	pl=pl|n=n	7	advcl	_
+23	võtnud	A	sg=sg|n=n	7	advcl	_
 24	või	J	_	27	cc	_
 25	kui	D	_	27	mark	_
 26	nad	P	pl=pl|n=n	27	nsubj	_
@@ -344,7 +344,7 @@
 7	,	Z	_	11	punct	_
 8	kelle	P	sg=sg|g=g	11	nsubj:cop	_
 9	jooni	S	pl=pl|p=p	11	obl	_
-10	on	V	vad=vad	11	cop	_
+10	on	V	b=b	11	cop	_
 11	luuleandelises	A	sg=sg|in=in	5	acl:relcl	_
 12	,	Z	_	14	punct	_
 13	sotsialistlike	A	pl=pl|g=g	14	amod	_

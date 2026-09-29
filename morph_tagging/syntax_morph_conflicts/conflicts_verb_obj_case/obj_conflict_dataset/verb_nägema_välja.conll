@@ -144,7 +144,7 @@
 6	et	J	_	8	mark	_
 7	patsiendid	S	pl=pl|n=n	8	nsubj	_
 8	näeksid	V	ksid=ksid	4	ccomp	_
-9	väsinud	A	pl=pl|n=n	8	obj	CHECK
+9	väsinud	A	_	8	obj	CHECK
 10	välja	D	_	8	compound:prt	_
 11	.	Z	_	4	punct	_
 
@@ -175,7 +175,7 @@
 9	et	J	_	12	mark	_
 10	Courtney	H	sg=sg|n=n	12	nsubj	_
 11	oleks	V	ks=ks	12	aux	_
-12	näinud	V	nud=nud	7	acl	_
+12	näinud	A	_	7	acl	_
 13	välja	D	_	12	compound:prt	_
 14	täpselt	D	_	15	advmod	_
 15	samasugune	P	sg=sg|n=n	12	obj	CHECK
@@ -187,15 +187,15 @@
 # text = Reedel Poola saabunud paavst on avalikel esinemistel sageli väsinud välja näinud , kuid paistab üldiselt olevat kodulinna Krakowisse naasmisest jõudu ammutanud .
 1	Reedel	S	sg=sg|ad=ad	3	obl	_
 2	Poola	H	sg=sg|g=g	1	appos	_
-3	saabunud	A	sg=sg|n=n	4	acl	_
-4	paavst	S	sg=sg|n=n	11	obj	_
-5	on	V	vad=vad	11	aux	_
+3	saabunud	A	pl=pl|n=n	4	acl	_
+4	paavst	S	sg=sg|n=n	11	nsubj	_
+5	on	V	vad=vad	9	aux	_
 6	avalikel	A	pl=pl|ad=ad	7	amod	_
 7	esinemistel	S	pl=pl|ad=ad	11	obj	_
-8	sageli	D	_	11	advmod	_
-9	väsinud	A	sg=sg|n=n	11	obj	CHECK
+8	sageli	D	_	9	advmod	_
+9	väsinud	V	nud=nud	0	root	CHECK
 10	välja	D	_	11	compound:prt	_
-11	näinud	A	sg=sg|n=n	0	root	_
+11	näinud	A	pl=pl|n=n	9	csubj	_
 12	,	Z	_	21	punct	_
 13	kuid	J	_	21	cc	_
 14	paistab	V	b=b	21	aux	_
@@ -205,7 +205,7 @@
 18	Krakowisse	H	sg=sg|ill=ill	17	appos	_
 19	naasmisest	S	sg=sg|el=el	21	obj	_
 20	jõudu	S	sg=sg|p=p	21	obj	_
-21	ammutanud	A	sg=sg|n=n	11	conj	_
+21	ammutanud	A	_	11	conj	_
 22	.	Z	_	11	punct	_
 
 # sent_id = 14062167
@@ -213,7 +213,7 @@
 1	Ja	J	_	4	cc	_
 2	välja	D	_	4	compound:prt	_
 3	ei	V	neg=neg	4	aux	_
-4	näinud	A	pl=pl|n=n	0	root	_
+4	näinud	A	_	0	root	_
 5	ta	P	sg=sg|n=n	4	nsubj	_
 6	ka	D	_	7	advmod	_
 7	teab	V	b=b	4	xcomp	CHECK
@@ -231,13 +231,13 @@
 6	eest	K	_	5	case	_
 7	nägi	V	s=s	0	root	_
 8	välja	D	_	7	compound:prt	_
-9	nagu	J	_	12	mark	_
+9	nagu	D	_	12	mark	_
 10	kadunud	A	sg=sg|n=n	11	acl	_
 11	poegade	S	pl=pl|g=g	12	nmod	_
 12	kokkulend	S	sg=sg|n=n	7	advcl	_
 13	taas	D	_	15	advmod	_
-14	iseseisvaks	A	sg=sg|tr=tr	15	advcl	_
-15	saanud	A	sg=sg|n=n	16	acl	_
+14	iseseisvaks	A	sg=sg|tr=tr	16	acl	_
+15	saanud	A	pl=pl|n=n	16	acl	_
 16	kodutallu	S	adt=adt	7	obj	CHECK
 17	.	Z	_	7	punct	_
 
@@ -248,7 +248,7 @@
 3	Nikolai	H	sg=sg|n=n	2	appos	_
 4	Salnikov	H	sg=sg|n=n	3	flat	_
 5	,	Z	_	7	punct	_
-6	kes	P	sg=sg|n=n	7	nsubj	_
+6	kes	P	pl=pl|n=n	7	nsubj	_
 7	näeb	V	b=b	3	acl:relcl	_
 8	pingelisest	A	sg=sg|el=el	9	amod	_
 9	tööst	S	sg=sg|el=el	7	obj	_
@@ -277,15 +277,15 @@
 9	eeskujulikum	C	sg=sg|n=n	7	obj	_
 10	välja	D	_	7	compound:prt	_
 11	,	Z	_	7	punct	_
-12	on	V	vad=vad	15	cop	_
+12	on	V	b=b	15	cop	_
 13	see	P	sg=sg|n=n	15	nsubj:cop	_
 14	väga	D	_	15	advmod	_
 15	hubane	A	sg=sg|n=n	0	root	_
 16	,	Z	_	15	punct	_
 17	”	Z	_	15	punct	_
-18	on	V	b=b	19	aux	_
-19	kirjutanud	V	nud=nud	15	parataxis	_
-20	üks	N	sg=sg|n=n	21	det	_
+18	on	V	vad=vad	19	aux	_
+19	kirjutanud	A	_	15	parataxis	_
+20	üks	P	sg=sg|n=n	21	det	_
 21	õpilane	S	sg=sg|n=n	19	nsubj	_
 22	oma	P	sg=sg|g=g	23	nmod	_
 23	koolist	S	sg=sg|el=el	19	obj	_
@@ -295,11 +295,11 @@
 # text = " Ta on 35-aastane , ja kui seista tema kõrval , ei näe ta aastatki noorem välja , " kirjutab Kamtsatka Komsomolets .
 1	"	Z	_	4	punct	_
 2	Ta	P	sg=sg|n=n	4	nsubj:cop	_
-3	on	V	vad=vad	4	cop	_
+3	on	V	b=b	4	cop	_
 4	35-aastane	A	sg=sg|n=n	0	root	_
 5	,	Z	_	8	punct	_
 6	ja	J	_	8	cc	_
-7	kui	D	_	8	mark	_
+7	kui	J	_	8	mark	_
 8	seista	V	da=da	13	advcl	_
 9	tema	P	sg=sg|g=g	8	obl	_
 10	kõrval	K	_	9	case	_
@@ -354,14 +354,14 @@
 4	siin	D	_	3	advmod	_
 5	arutlema	V	ma=ma	3	xcomp	_
 6	,	Z	_	14	punct	_
-7	mis	P	sg=sg|n=n	8	nmod	_
+7	mis	P	pl=pl|n=n	8	nmod	_
 8	laadi	S	sg=sg|p=p	14	nsubj	CHECK
 9	oleks	V	ks=ks	14	aux	_
 10	vapside	S	pl=pl|g=g	11	nmod	_
 11	võim	S	sg=sg|n=n	14	obj	_
 12	Eestis	H	sg=sg|in=in	14	obl	_
 13	välja	D	_	14	compound:prt	_
-14	näinud	A	sg=sg|n=n	5	ccomp	_
+14	näinud	V	nud=nud	5	ccomp	_
 15	,	Z	_	18	punct	_
 16	seda	P	sg=sg|p=p	18	obj	_
 17	ei	V	neg=neg	18	aux	_

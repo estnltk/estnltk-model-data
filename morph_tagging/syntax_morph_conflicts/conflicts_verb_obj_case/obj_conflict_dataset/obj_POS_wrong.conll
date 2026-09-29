@@ -52,7 +52,7 @@
 13	,	Z	_	16	punct	_
 14	mis	P	sg=sg|n=n	16	nsubj	_
 15	oleks	V	ks=ks	16	aux	_
-16	takistanud	A	sg=sg|n=n	12	acl:relcl	_
+16	takistanud	A	pl=pl|n=n	12	acl:relcl	_
 17	fotosünteesi	V	o=o	16	obj	CHECK
 18	.	Z	_	6	punct	_
 
@@ -76,7 +76,7 @@
 7	kobisengi	V	n=n	3	obl	CHECK
 8	,	Z	_	12	punct	_
 9	et	J	_	12	mark	_
-10	milleks	P	pl=pl|tr=tr	12	nsubj	_
+10	milleks	P	sg=sg|tr=tr	12	nsubj	_
 11	maksusüsteemi	S	sg=sg|p=p	12	obj	_
 12	muuta	V	da=da	7	acl	_
 13	kui	J	_	15	mark	_
@@ -140,7 +140,7 @@
 8	seda	P	sg=sg|p=p	9	obl	_
 9	enam	D	_	6	advmod	_
 10	,	Z	_	16	punct	_
-11	kui	J	_	16	mark	_
+11	kui	D	_	16	mark	_
 12	teil	P	pl=pl|ad=ad	16	nsubj:cop	_
 13	endil	P	pl=pl|ad=ad	12	nmod	_
 14	pole	V	neg=neg|o=o	16	cop	_
@@ -149,7 +149,7 @@
 17	/	Z	_	19	punct	_
 18	homoseksuaalseid	A	pl=pl|p=p	19	amod	_
 19	kalduvusi	S	pl=pl|p=p	16	conj	_
-20	olnud	A	_	16	cop	_
+20	olnud	A	pl=pl|n=n	16	cop	_
 21	ja	J	_	25	cc	_
 22	miks	D	_	25	mark	_
 23	te	P	pl=pl|n=n	25	nsubj	_
@@ -232,7 +232,7 @@
 2	kogus	V	s=s	0	root	_
 3	ta	P	sg=sg|n=n	2	nsubj	_
 4	end	P	sg=sg|p=p	2	obj	_
-5	äpardunud	A	_	6	acl	_
+5	äpardunud	A	sg=sg|n=n	6	acl	_
 6	flipi	V	o=o	2	obl	CHECK
 7	järel	D	_	2	compound:prt	_
 8	kiiresti	D	_	2	advmod	_
@@ -246,7 +246,7 @@
 16	kedagi	P	sg=sg|p=p	19	obj	_
 17	mööda	D	_	19	compound:prt	_
 18	ei	V	neg=neg	19	aux	_
-19	lasknud	A	pl=pl|n=n	2	conj	_
+19	lasknud	A	_	2	conj	_
 20	.	Z	_	2	punct	_
 
 # sent_id = 17123633
@@ -290,11 +290,11 @@
 
 # sent_id = 14693023
 # text = kui sa oma telefonisse settingud 15300 ( GPRS / WAP GPRS ) kaudu tekitasid siis vaata need üle .
-1	kui	J	_	14	mark	_
+1	kui	D	_	14	mark	_
 2	sa	P	sg=sg|n=n	14	nsubj	_
 3	oma	P	sg=sg|g=g	4	nmod	_
 4	telefonisse	S	sg=sg|ill=ill	14	obj	_
-5	settingud	S	sg=sg|n=n	14	obl	_
+5	settingud	S	pl=pl|n=n	14	obl	_
 6	15300	N	?=?	5	nummod	_
 7	(	Z	_	8	punct	_
 8	GPRS	Y	?=?	5	parataxis	_

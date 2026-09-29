@@ -37,7 +37,7 @@
 # sent_id = 5227745
 # text = Kontserti krooninud " Singet dem Herrn " ehk koguni ületas plaadiversiooni .
 1	Kontserti	S	adt=adt	2	obj	CHECK
-2	krooninud	A	sg=sg|n=n	4	acl	_
+2	krooninud	A	_	4	acl	_
 3	"	Z	_	4	punct	_
 4	Singet	H	sg=sg|n=n	10	nsubj	_
 5	dem	S	sg=sg|n=n	4	flat	_
@@ -127,9 +127,9 @@
 7	mõjutamisega	S	sg=sg|kom=kom	3	obl	_
 8	,	Z	_	11	punct	_
 9	kes	P	pl=pl|n=n	11	nsubj:cop	_
-10	on	V	b=b	11	cop	_
+10	on	V	vad=vad	11	cop	_
 11	nooremad	C	pl=pl|n=n	7	acl:relcl	_
-12	kui	D	_	13	mark	_
+12	kui	J	_	13	mark	_
 13	14	N	?=?	11	advcl	_
 14	ja	J	_	15	cc	_
 15	näppavad	V	vad=vad	11	conj	_
@@ -151,7 +151,7 @@
 6	vastu	K	_	4	case	_
 7	hinnatava	A	sg=sg|g=g	10	acl	_
 8	viigikolmese	A	sg=sg|g=g	9	obj	_
-9	toonud	A	pl=pl|n=n	10	acl	_
+9	toonud	A	sg=sg|n=n	10	acl	_
 10	Indrek	H	sg=sg|n=n	12	nsubj	_
 11	Rumma	H	sg=sg|n=n	10	flat	_
 12	riskis	V	s=s	0	root	_
@@ -170,12 +170,12 @@
 2	proovisin	V	sin=sin	0	root	_
 3	t6mbasin	V	n=n	2	nsubj	_
 4	selle	P	sg=sg|g=g	5	det	_
-5	sialt	S	sg=sg|n=n	3	obj	CHECK
+5	sialt	S	sg=sg|n=n	2	obj	CHECK
 6	ja	J	_	7	cc	_
 7	l2ksin	S	sg=sg|n=n	5	conj	_
 8	sinna	D	_	7	advmod	_
 9	video	S	sg=sg|g=g	10	nmod	_
-10	kaarid	S	pl=pl|n=n	11	nmod	_
+10	kaarid	S	sg=sg|n=n	11	nmod	_
 11	settingutese	S	sg=sg|g=g	7	obj	_
 
 # sent_id = 3443519
@@ -183,10 +183,10 @@
 1	Päeval	H	sg=sg|n=n	4	obl	_
 2	Tallinnas	H	sg=sg|in=in	4	obl	_
 3	ringi	D	_	4	compound:prt	_
-4	kolanud	A	_	8	acl	_
+4	kolanud	A	pl=pl|n=n	8	acl	_
 5	ja	J	_	7	cc	_
 6	raha	S	sg=sg|g=g	7	obj	CHECK
-7	raisanud	A	sg=sg|n=n	4	conj	_
+7	raisanud	V	nud=nud	4	conj	_
 8	noored	S	pl=pl|n=n	12	nsubj	_
 9	olid	V	sid=sid	12	aux	_
 10	juba	D	_	11	advmod	_
@@ -207,8 +207,8 @@
 1	Majas	H	sg=sg|in=in	2	obl	_
 2	elavad	V	vad=vad	3	acl	_
 3	lapsed	S	pl=pl|n=n	5	nsubj	_
-4	on	V	vad=vad	5	aux	_
-5	haigestunud	V	nud=nud	0	root	_
+4	on	V	b=b	5	aux	_
+5	haigestunud	A	_	0	root	_
 6	külma	S	sg=sg|g=g	10	obl	_
 7	ja	J	_	8	cc	_
 8	niiskuse	S	sg=sg|g=g	6	conj	_
@@ -227,7 +227,7 @@
 2	tore	A	sg=sg|n=n	0	root	_
 3	oleks	V	ks=ks	2	cop	_
 4	,	Z	_	7	punct	_
-5	kui	J	_	7	mark	_
+5	kui	D	_	7	mark	_
 6	keegi	P	sg=sg|n=n	7	nsubj	_
 7	väntaks	V	ks=ks	2	advcl	_
 8	klubiversiooni	S	adt=adt	7	obj	_
@@ -294,16 +294,16 @@
 6	Meteora	S	sg=sg|g=g	11	obl	_
 7	pealt	K	_	6	case	_
 8	seda	P	sg=sg|p=p	9	obj	CHECK
-9	bonus	V	s=s	11	aux	_
+9	bonus	V	s=s	11	obj	_
 10	dvd'd	S	pl=pl|n=n	11	obj	_
-11	vaadanud	A	_	1	parataxis	_
+11	vaadanud	V	nud=nud	1	parataxis	_
 
 # sent_id = 10171097
 # text = Alates aastast 2000 on Eesti Kõrgem Kommertskool ainukese Balti riikide ülikoolina Euroopa Ülikoolide Topeltdiplomi Konsortsiumi ( Euro-pean Consortium of International Double Degrees ) liige .
 1	Alates	K	_	2	case	_
 2	aastast	S	sg=sg|el=el	6	obl	_
 3	2000	N	?=?	2	nummod	_
-4	on	V	b=b	6	cop	_
+4	on	V	vad=vad	6	cop	_
 5	Eesti	H	sg=sg|g=g	11	nmod	_
 6	Kõrgem	C	sg=sg|n=n	11	amod	_
 7	Kommertskool	S	sg=sg|n=n	11	nmod	_
@@ -332,12 +332,12 @@
 2	restorani	S	sg=sg|g=g	3	nmod	_
 3	köögis	S	sg=sg|in=in	4	obl	_
 4	juhtus	V	s=s	0	root	_
-5	Eesti	H	sg=sg|g=g	6	nmod	_
-6	Päevalehe	H	sg=sg|g=g	4	nsubj	_
+5	Eesti	H	sg=sg|g=g	4	nsubj	_
+6	Päevalehe	H	sg=sg|g=g	7	nmod	_
 7	testipäeval	S	sg=sg|ad=ad	8	nmod	_
 8	ettekandjate	S	pl=pl|g=g	9	nmod	_
 9	kommenteerimiskeeldu	S	adt=adt	10	obj	CHECK
-10	nõudnud	A	pl=pl|n=n	11	acl	_
+10	nõudnud	V	nud=nud	11	acl	_
 11	äpardus	S	sg=sg|n=n	4	nsubj	_
 12	.	Z	_	4	punct	_
 
@@ -374,7 +374,7 @@
 18	algataksite	V	ksite=ksite	15	conj	_
 19	konkreetsed	A	pl=pl|n=n	20	amod	_
 20	kriminaalasjad	S	pl=pl|n=n	18	obj	CHECK
-21	eelpoolnimetatud	A	sg=sg|n=n	22	acl	_
+21	eelpoolnimetatud	A	pl=pl|n=n	22	acl	_
 22	altkäemaksujuhtumite	S	pl=pl|g=g	18	obl	_
 23	kohta	K	_	22	case	_
 24	.	Z	_	9	punct	_

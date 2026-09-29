@@ -33,10 +33,10 @@
 # text = Baari eestseisus on halle ajurakke tolmutanud ja loonud külalistele tõeliselt laristamissõbralikud olud – Rod Stewarti intiimsest pildiseeriast pesuehtsa torupilli huugamiseni välja .
 1	Baari	S	sg=sg|g=g	2	nmod	_
 2	eestseisus	S	sg=sg|n=n	6	obl	_
-3	on	V	b=b	6	aux	_
+3	on	V	vad=vad	6	aux	_
 4	halle	A	pl=pl|p=p	5	amod	_
 5	ajurakke	S	pl=pl|p=p	6	obj	_
-6	tolmutanud	A	_	0	root	_
+6	tolmutanud	A	pl=pl|n=n	0	root	_
 7	ja	J	_	8	cc	_
 8	loonud	A	_	6	conj	_
 9	külalistele	S	pl=pl|all=all	8	obl	_
@@ -69,7 +69,7 @@
 11	"	Z	_	4	punct	_
 12	rääkis	V	s=s	4	parataxis	_
 13	tulekahjupaigal	S	sg=sg|ad=ad	14	obl	_
-14	olnud	A	pl=pl|n=n	15	acl	_
+14	olnud	V	nud=nud	15	acl	_
 15	fotograaf	S	sg=sg|n=n	12	nsubj	_
 16	Sulev	H	sg=sg|n=n	15	appos	_
 17	.	Z	_	4	punct	_
@@ -81,7 +81,7 @@
 3	taas	D	_	2	advmod	_
 4	välja	D	_	2	compound:prt	_
 5	ülekoormusest	S	sg=sg|el=el	6	obl	_
-6	tingitud	A	_	7	acl	_
+6	tingitud	A	pl=pl|n=n	7	acl	_
 7	trauma	S	sg=sg|n=n	2	obj	_
 8	,	Z	_	11	punct	_
 9	sama	P	sg=sg|g=g	10	det	_
@@ -155,14 +155,14 @@
 # text = Lisaks loitsumärkidele on ta teinud ka puust pühakujusid , mis samuti elamisse positiivset välja loovad .
 1	Lisaks	S	sg=sg|tr=tr	5	obl	_
 2	loitsumärkidele	S	pl=pl|all=all	1	nmod	_
-3	on	V	vad=vad	5	aux	_
+3	on	V	b=b	5	aux	_
 4	ta	P	sg=sg|n=n	5	nsubj	_
-5	teinud	V	nud=nud	0	root	_
+5	teinud	A	pl=pl|n=n	0	root	_
 6	ka	D	_	8	advmod	_
 7	puust	S	sg=sg|el=el	8	nmod	_
 8	pühakujusid	S	pl=pl|p=p	5	obj	_
 9	,	Z	_	15	punct	_
-10	mis	P	pl=pl|n=n	15	nsubj	_
+10	mis	P	sg=sg|n=n	15	nsubj	_
 11	samuti	D	_	15	advmod	_
 12	elamisse	S	adt=adt	15	obl	_
 13	positiivset	A	sg=sg|p=p	15	obj	CHECK
@@ -172,7 +172,7 @@
 
 # sent_id = 8413605
 # text = Teatud tegude keelamine ja karistamise sanktsioneerimine loob selle õiguslikult kaitstud välja , millel toimub mäng lubatud , õigustatud ja volitatud sammudega .
-1	Teatud	V	tud=tud	2	acl	_
+1	Teatud	A	sg=sg|n=n	2	acl	_
 2	tegude	S	pl=pl|g=g	3	nmod	_
 3	keelamine	S	sg=sg|n=n	7	obj	_
 4	ja	J	_	6	cc	_
@@ -187,11 +187,11 @@
 13	millel	P	sg=sg|ad=ad	14	nsubj	_
 14	toimub	V	b=b	7	advcl	_
 15	mäng	S	sg=sg|n=n	21	nmod	_
-16	lubatud	A	_	21	acl	_
+16	lubatud	A	pl=pl|n=n	21	acl	_
 17	,	Z	_	18	punct	_
-18	õigustatud	A	_	16	conj	_
+18	õigustatud	A	pl=pl|n=n	16	conj	_
 19	ja	J	_	20	cc	_
-20	volitatud	A	pl=pl|n=n	16	conj	_
+20	volitatud	V	tud=tud	16	conj	_
 21	sammudega	S	pl=pl|kom=kom	14	nsubj	_
 22	.	Z	_	7	punct	_
 

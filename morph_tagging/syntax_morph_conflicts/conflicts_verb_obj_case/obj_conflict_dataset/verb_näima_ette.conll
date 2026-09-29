@@ -24,7 +24,7 @@
 22	polnud	V	neg=neg|nud=nud	25	aux	_
 23	suudlemist	S	sg=sg|p=p	25	obj	CHECK
 24	ette	D	_	25	compound:prt	_
-25	näinud	A	_	8	parataxis	_
+25	näinud	A	sg=sg|n=n	8	parataxis	_
 26	-	Z	_	25	punct	_
 27	,	Z	_	25	punct	_
 28	oli	V	s=s	29	cop	_
@@ -33,7 +33,7 @@
 
 # sent_id = 1017769
 # text = Mis puudutab teisi tarkvaratootjaid , siis nende õiguste valdajad pole veel teatanud , et oleksid Eesti tasulistele internetipunktidele täiendava lepinguvormi ette näinud , ütles Leppik .
-1	Mis	P	sg=sg|n=n	2	nsubj	_
+1	Mis	P	pl=pl|n=n	2	nsubj	_
 2	puudutab	V	b=b	12	advcl	_
 3	teisi	P	pl=pl|p=p	4	det	_
 4	tarkvaratootjaid	S	pl=pl|p=p	2	obj	_
@@ -44,7 +44,7 @@
 9	valdajad	S	pl=pl|n=n	12	nsubj	_
 10	pole	V	neg=neg|o=o	12	aux	_
 11	veel	D	_	12	advmod	_
-12	teatanud	V	nud=nud	0	root	_
+12	teatanud	A	_	0	root	_
 13	,	Z	_	22	punct	_
 14	et	J	_	22	mark	_
 15	oleksid	V	ksid=ksid	22	aux	_
@@ -54,7 +54,7 @@
 19	täiendava	A	sg=sg|g=g	20	acl	_
 20	lepinguvormi	S	sg=sg|g=g	22	obj	CHECK
 21	ette	D	_	22	compound:prt	_
-22	näinud	A	sg=sg|n=n	12	ccomp	_
+22	näinud	A	pl=pl|n=n	12	ccomp	_
 23	,	Z	_	22	punct	_
 24	ütles	V	s=s	12	conj	_
 25	Leppik	H	sg=sg|n=n	24	nsubj	_
@@ -64,7 +64,7 @@
 # text = Aga seadusandja on ju ette näinud selle moraalse punkti , millest te aru ei saa .
 1	Aga	J	_	6	cc	_
 2	seadusandja	S	sg=sg|g=g	6	nsubj	_
-3	on	V	vad=vad	6	aux	_
+3	on	V	b=b	6	aux	_
 4	ju	D	_	6	advmod	_
 5	ette	D	_	6	compound:prt	_
 6	näinud	V	nud=nud	0	root	_
@@ -72,7 +72,7 @@
 8	moraalse	A	sg=sg|g=g	9	amod	_
 9	punkti	S	sg=sg|g=g	6	obj	CHECK
 10	,	Z	_	15	punct	_
-11	millest	P	pl=pl|el=el	15	obj	_
+11	millest	P	sg=sg|el=el	15	obj	_
 12	te	P	pl=pl|n=n	15	nsubj	_
 13	aru	S	sg=sg|p=p	15	obj	_
 14	ei	V	neg=neg	15	aux	_
@@ -83,7 +83,7 @@
 # text = Umbes nõnda on mõned meediakanalid eeloleva reede sündmu-si juba paar aastat “ ette näinud ” .
 1	Umbes	D	_	2	advmod	_
 2	nõnda	D	_	14	advmod	_
-3	on	V	b=b	14	aux	_
+3	on	V	vad=vad	14	aux	_
 4	mõned	P	pl=pl|n=n	5	det	_
 5	meediakanalid	S	pl=pl|n=n	14	nsubj	_
 6	eeloleva	A	sg=sg|g=g	7	acl	_
@@ -112,11 +112,11 @@
 10	Hansapanga-varianti	S	sg=sg|p=p	2	obj	_
 11	”	Z	_	10	punct	_
 12	,	Z	_	14	punct	_
-13	mis	P	pl=pl|n=n	14	nsubj	_
+13	mis	P	sg=sg|n=n	14	nsubj	_
 14	näinuks	V	nuks=nuks	10	acl:relcl	_
 15	ette	D	_	14	compound:prt	_
 16	osanikpankadelt	S	pl=pl|abl=abl	17	nmod	_
-17	koore	S	sg=sg|g=g	14	obj	_
+17	koore	S	sg=sg|g=g	18	nmod	_
 18	riisumist	S	sg=sg|p=p	14	obj	CHECK
 19	ja	J	_	24	cc	_
 20	selle	P	sg=sg|g=g	24	nmod	_
@@ -133,7 +133,7 @@
 3	sündmused	S	pl=pl|n=n	6	obl	_
 4	ei	V	neg=neg	6	aux	_
 5	ole	V	o=o	6	aux	_
-6	muutnud	A	sg=sg|n=n	0	root	_
+6	muutnud	A	pl=pl|n=n	0	root	_
 7	Iisraeli	H	sg=sg|g=g	8	nmod	_
 8	valmisolekut	S	sg=sg|p=p	6	obj	_
 9	diplomaatiliste	A	pl=pl|g=g	10	amod	_
@@ -146,7 +146,7 @@
 16	sellele	P	sg=sg|all=all	6	obl	_
 17	,	Z	_	30	punct	_
 18	kuidas	D	_	30	mark	_
-19	on	V	vad=vad	30	aux	_
+19	on	V	b=b	30	aux	_
 20	(	Z	_	21	punct	_
 21	USA	Y	?=?	23	parataxis	_
 22	)	Z	_	21	punct	_
@@ -168,7 +168,7 @@
 3	pole	V	neg=neg|o=o	6	aux	_
 4	linn	S	sg=sg|n=n	6	obj	_
 5	ette	D	_	6	compound:prt	_
-6	näinud	A	sg=sg|n=n	0	root	_
+6	näinud	V	nud=nud	0	root	_
 7	.	Z	_	6	punct	_
 
 # sent_id = 1554768
@@ -196,13 +196,13 @@
 # sent_id = 4454160
 # text = Hetkel on selline olukord , et FIFA on meile mingi raha ette näinud , mis on vaja ära kulutada .
 1	Hetkel	S	sg=sg|ad=ad	0	root	_
-2	on	V	vad=vad	1	cop	_
+2	on	V	b=b	1	cop	_
 3	selline	P	sg=sg|n=n	4	det	_
 4	olukord	S	sg=sg|n=n	1	nsubj:cop	_
 5	,	Z	_	13	punct	_
 6	et	J	_	13	mark	_
 7	FIFA	Y	?=?	13	obl	_
-8	on	V	vad=vad	13	aux	_
+8	on	V	b=b	13	aux	_
 9	meile	P	pl=pl|all=all	13	nsubj	_
 10	mingi	P	sg=sg|n=n	11	det	_
 11	raha	S	sg=sg|n=n	13	obj	CHECK

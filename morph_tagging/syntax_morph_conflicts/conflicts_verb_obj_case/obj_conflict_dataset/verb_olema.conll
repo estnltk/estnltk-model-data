@@ -1,293 +1,172 @@
-# sent_id = 18056000
-# text = Läinud nädala teisipäeval leidis Priiduaia talu pererahvas Võrumaal Antsla vallas ühe oma jänese olevat näost paistes ja longus kõrvadega .
-1	Läinud	A	_	2	acl	_
-2	nädala	S	sg=sg|g=g	4	obl	_
-3	teisipäeval	S	sg=sg|ad=ad	2	nmod	_
-4	leidis	V	s=s	0	root	_
-5	Priiduaia	H	sg=sg|g=g	6	nmod	_
-6	talu	S	sg=sg|g=g	7	nmod	_
-7	pererahvas	S	sg=sg|n=n	4	nsubj	_
-8	Võrumaal	H	sg=sg|ad=ad	10	nmod	_
-9	Antsla	H	sg=sg|g=g	10	nmod	_
-10	vallas	S	sg=sg|in=in	4	obl	_
-11	ühe	P	sg=sg|g=g	13	det	_
-12	oma	P	sg=sg|g=g	13	nmod	_
-13	jänese	S	sg=sg|g=g	4	obj	CHECK
-14	olevat	V	vat=vat	4	conj	_
-15	näost	S	sg=sg|el=el	4	obj	_
-16	paistes	D	_	4	advmod	_
-17	ja	J	_	19	cc	_
-18	longus	A	_	19	amod	_
-19	kõrvadega	S	pl=pl|kom=kom	4	obj	_
-20	.	Z	_	4	punct	_
+# sent_id = 217206
+# text = Jansa avastas alles Ameerikas , et kui sa tahad , et algaja püüaks kõigest väest , tuleb tema esimest edusammu märgata ja esile tõsta - edaspidi on ta end nõus kas või katkestama , et vaid uuesti kiita saada .
+1	Jansa	H	sg=sg|n=n	2	nsubj	_
+2	avastas	V	s=s	0	root	_
+3	alles	D	_	2	advmod	_
+4	Ameerikas	H	sg=sg|in=in	2	nsubj	_
+5	,	Z	_	9	punct	_
+6	et	J	_	9	mark	_
+7	kui	D	_	9	mark	_
+8	sa	P	sg=sg|n=n	9	nsubj	_
+9	tahad	V	d=d	17	advcl	_
+10	,	Z	_	13	punct	_
+11	et	J	_	13	mark	_
+12	algaja	S	sg=sg|n=n	13	nsubj	_
+13	püüaks	V	ks=ks	9	ccomp	_
+14	kõigest	P	sg=sg|el=el	15	det	_
+15	väest	S	sg=sg|el=el	13	obj	_
+16	,	Z	_	17	punct	_
+17	tuleb	V	b=b	2	ccomp	_
+18	tema	P	sg=sg|g=g	20	nmod	_
+19	esimest	O	sg=sg|p=p	20	amod	_
+20	edusammu	S	sg=sg|p=p	21	obj	_
+21	märgata	V	da=da	17	csubj	_
+22	ja	J	_	24	cc	_
+23	esile	D	_	24	compound:prt	_
+24	tõsta	V	da=da	13	conj	_
+25	-	Z	_	27	punct	_
+26	edaspidi	D	_	27	advmod	_
+27	on	V	b=b	17	parataxis	_
+28	ta	P	sg=sg|n=n	27	nsubj	_
+29	end	P	sg=sg|p=p	27	obj	CHECK
+30	nõus	D	_	27	compound:prt	_
+31	kas	D	_	33	advmod	_
+32	või	J	_	33	cc	_
+33	katkestama	V	ma=ma	27	conj	_
+34	,	Z	_	38	punct	_
+35	et	J	_	38	mark	_
+36	vaid	D	_	38	advmod	_
+37	uuesti	D	_	38	advmod	_
+38	kiita	V	da=da	33	ccomp	_
+39	saada	V	da=da	38	xcomp	_
+40	.	Z	_	2	punct	_
 
-# sent_id = 18646599
-# text = Juhan raputas pead « Ei , siis on terve kari neid kohal !
-1	Juhan	H	sg=sg|n=n	2	nsubj	_
-2	raputas	V	s=s	0	root	_
-3	pead	S	sg=sg|p=p	2	obj	_
-4	«	Z	_	5	punct	_
-5	Ei	D	_	2	advmod	_
-6	,	Z	_	8	punct	_
-7	siis	J	_	8	advmod	_
-8	on	V	b=b	2	parataxis	_
-9	terve	A	sg=sg|n=n	10	det	_
-10	kari	S	sg=sg|n=n	8	nsubj	_
-11	neid	P	pl=pl|p=p	8	nsubj	CHECK
-12	kohal	D	_	8	compound:prt	_
-13	!	Z	_	2	punct	_
+# sent_id = 12218811
+# text = Moslemeilt vitsu saama valmis olnud sõjaväelane ei julge kodutanumal oma tegudest avalikkusele aru anda , ehkki too hinge kinni pidades joodikveebli saatusele kaasa elas .
+1	Moslemeilt	S	pl=pl|abl=abl	2	nmod	_
+2	vitsu	S	pl=pl|p=p	3	obj	CHECK
+3	saama	V	ma=ma	8	aux	_
+4	valmis	D	_	5	compound:prt	_
+5	olnud	V	nud=nud	6	acl	_
+6	sõjaväelane	S	sg=sg|n=n	8	nsubj	_
+7	ei	V	neg=neg	8	aux	_
+8	julge	V	o=o	0	root	_
+9	kodutanumal	S	sg=sg|ad=ad	8	nsubj	_
+10	oma	P	sg=sg|g=g	11	nmod	_
+11	tegudest	S	pl=pl|el=el	14	obj	_
+12	avalikkusele	S	sg=sg|all=all	14	obj	_
+13	aru	S	sg=sg|p=p	14	obj	_
+14	anda	V	da=da	8	xcomp	_
+15	,	Z	_	24	punct	_
+16	ehkki	J	_	24	mark	_
+17	too	P	sg=sg|n=n	24	nsubj	_
+18	hinge	S	sg=sg|p=p	20	obj	_
+19	kinni	D	_	20	compound:prt	_
+20	pidades	V	des=des	21	acl	_
+21	joodikveebli	S	sg=sg|g=g	22	nmod	_
+22	saatusele	S	sg=sg|all=all	24	obj	_
+23	kaasa	D	_	24	compound:prt	_
+24	elas	V	s=s	8	advcl	_
+25	.	Z	_	8	punct	_
 
-# sent_id = 17222315
-# text = Püüdsin siis ka neile tantsust rääkida , Plissetskajast ja Ulanovast , kelle ees ma olin suu lahti ja silmad pärani .
-1	Püüdsin	V	sin=sin	0	root	_
-2	siis	D	_	1	advmod	_
-3	ka	D	_	6	advmod	_
-4	neile	P	pl=pl|all=all	5	det	_
-5	tantsust	S	sg=sg|el=el	6	obj	_
-6	rääkida	V	da=da	1	xcomp	_
-7	,	Z	_	8	punct	_
-8	Plissetskajast	H	sg=sg|el=el	1	conj	_
-9	ja	J	_	10	cc	_
-10	Ulanovast	H	sg=sg|el=el	8	conj	_
-11	,	Z	_	15	punct	_
-12	kelle	P	pl=pl|g=g	15	obl	_
-13	ees	K	_	12	case	_
-14	ma	P	sg=sg|n=n	15	nsubj	_
-15	olin	V	sin=sin	10	acl:relcl	_
-16	suu	S	sg=sg|g=g	15	obj	CHECK
-17	lahti	D	_	15	compound:prt	_
-18	ja	J	_	19	cc	_
-19	silmad	S	pl=pl|n=n	20	nsubj:cop	_
-20	pärani	D	_	15	conj	_
-21	.	Z	_	1	punct	_
+# sent_id = 1344246
+# text = " Me ei näe , et nelja kuuga oleks linnas midagi sündinud , ning osalt on see tingitud linnapea enesekesksusest , mille tõttu on koostöö temaga võimatu , " lausus enne Jaagot kümmekond aastat Kunda linnapea olnud Keskerakonda kuuluv Tasuja .
+1	"	Z	_	4	punct	_
+2	Me	P	pl=pl|n=n	4	nsubj	_
+3	ei	V	neg=neg	4	aux	_
+4	näe	V	o=o	0	root	_
+5	,	Z	_	12	punct	_
+6	et	J	_	12	mark	_
+7	nelja	N	sg=sg|g=g	8	nummod	_
+8	kuuga	S	sg=sg|kom=kom	12	obl	_
+9	oleks	V	ks=ks	12	aux	_
+10	linnas	S	sg=sg|in=in	12	nsubj	_
+11	midagi	P	sg=sg|p=p	12	nsubj	_
+12	sündinud	A	pl=pl|n=n	4	ccomp	_
+13	,	Z	_	18	punct	_
+14	ning	J	_	18	cc	_
+15	osalt	D	_	18	advmod	_
+16	on	V	b=b	18	aux	_
+17	see	P	sg=sg|n=n	18	obj	_
+18	tingitud	A	sg=sg|n=n	12	conj	_
+19	linnapea	S	sg=sg|g=g	20	nmod	_
+20	enesekesksusest	S	sg=sg|el=el	18	obj	_
+21	,	Z	_	27	punct	_
+22	mille	P	sg=sg|g=g	27	obl	_
+23	tõttu	K	_	22	case	_
+24	on	V	vad=vad	27	cop	_
+25	koostöö	S	sg=sg|n=n	27	nsubj:cop	_
+26	temaga	P	sg=sg|kom=kom	27	nsubj:cop	_
+27	võimatu	A	sg=sg|n=n	20	acl:relcl	_
+28	,	Z	_	4	punct	_
+29	"	Z	_	4	punct	_
+30	lausus	V	s=s	4	parataxis	_
+31	enne	K	_	34	case	_
+32	Jaagot	H	sg=sg|n=n	34	nmod	_
+33	kümmekond	N	sg=sg|n=n	34	nummod	_
+34	aastat	S	sg=sg|p=p	37	obl	_
+35	Kunda	H	sg=sg|g=g	36	nmod	_
+36	linnapea	S	sg=sg|g=g	37	obl	CHECK
+37	olnud	A	pl=pl|n=n	40	acl	_
+38	Keskerakonda	S	adt=adt	39	obl	_
+39	kuuluv	A	sg=sg|n=n	40	acl	_
+40	Tasuja	S	sg=sg|n=n	30	nsubj	_
+41	.	Z	_	4	punct	_
 
-# sent_id = 7901234
-# text = Kas nad aga seal kõik rahul olid , ei teadnud Helve päris täpselt .
-1	Kas	D	_	6	advmod	_
-2	nad	P	pl=pl|n=n	6	nsubj:cop	_
-3	aga	J	_	6	advmod	_
-4	seal	D	_	6	advmod	_
-5	kõik	P	pl=pl|n=n	6	det	CHECK
-6	rahul	D	_	10	advcl	_
-7	olid	V	sid=sid	6	cop	_
-8	,	Z	_	10	punct	_
-9	ei	V	neg=neg	10	aux	_
-10	teadnud	A	sg=sg|n=n	0	root	_
-11	Helve	H	sg=sg|n=n	10	nsubj	_
-12	päris	V	s=s	10	advmod	_
-13	täpselt	D	_	10	advmod	_
-14	.	Z	_	10	punct	_
+# sent_id = 1672234
+# text = Londonis Saatchi galeriis on kuni 20. augustini lahti järjekordne valik 1990. aastatel inglise kunstis kurikuulsaks saanud noorte ( neopop ) kunstnike töid .
+1	Londonis	H	sg=sg|in=in	3	nmod	_
+2	Saatchi	H	sg=sg|g=g	3	nmod	_
+3	galeriis	S	sg=sg|in=in	4	nsubj	_
+4	on	V	b=b	0	root	_
+5	kuni	K	_	7	case	_
+6	20.	O	?=?	7	amod	_
+7	augustini	S	sg=sg|ter=ter	4	obl	_
+8	lahti	D	_	4	compound:prt	_
+9	järjekordne	A	sg=sg|n=n	10	amod	_
+10	valik	S	sg=sg|n=n	4	nsubj	_
+11	1990.	O	?=?	12	amod	_
+12	aastatel	S	pl=pl|ad=ad	14	nmod	_
+13	inglise	G	_	14	amod	_
+14	kunstis	S	sg=sg|in=in	15	obl	_
+15	kurikuulsaks	A	sg=sg|tr=tr	16	obj	_
+16	saanud	V	nud=nud	17	acl	_
+17	noorte	S	pl=pl|g=g	21	nmod	_
+18	(	Z	_	19	punct	_
+19	neopop	S	sg=sg|n=n	17	parataxis	_
+20	)	Z	_	19	punct	_
+21	kunstnike	S	pl=pl|g=g	22	nmod	_
+22	töid	S	pl=pl|p=p	4	obj	CHECK
+23	.	Z	_	4	punct	_
 
-# sent_id = 10633618
-# text = Kui aga esimene president on oma ametiaja ära olnud ja sellega juba ...
-1	Kui	D	_	9	mark	_
-2	aga	J	_	9	advmod	_
-3	esimene	O	sg=sg|n=n	4	amod	_
-4	president	S	sg=sg|n=n	9	nsubj	_
-5	on	V	b=b	9	aux	_
-6	oma	P	sg=sg|g=g	7	nmod	_
-7	ametiaja	S	sg=sg|g=g	9	obl	CHECK
-8	ära	D	_	9	compound:prt	_
-9	olnud	A	_	0	root	_
-10	ja	J	_	11	cc	_
-11	sellega	P	sg=sg|kom=kom	9	conj	_
-12	juba	D	_	11	advmod	_
-13	...	Z	_	9	punct	_
-
-# sent_id = 20464800
-# text = onukoll: mis ma ei ole
-1	onukoll	S	sg=sg|n=n	0	root	_
-2	:	Z	_	6	punct	_
-3	mis	P	sg=sg|n=n	6	obj	CHECK
-4	ma	P	sg=sg|n=n	6	nsubj	_
-5	ei	V	neg=neg	6	aux	_
-6	ole	V	o=o	1	parataxis	_
-
-# sent_id = 1717177
-# text = Kivimaa sõmul pole siiski midagi lahti , kui Tallinna Soojuse müük peaks tuleval aastal pidurduma , kuna laekumas on tulud ka kinnisvara eest - mereäärsete alade ja Viru väljaku müügist .
-1	Kivimaa	S	sg=sg|g=g	2	nmod	_
-2	sõmul	S	sg=sg|n=n	3	obl	_
-3	pole	V	neg=neg|o=o	0	root	_
-4	siiski	D	_	3	advmod	_
-5	midagi	P	sg=sg|p=p	3	nsubj	CHECK
-6	lahti	D	_	3	compound:prt	_
-7	,	Z	_	15	punct	_
-8	kui	D	_	15	mark	_
-9	Tallinna	H	sg=sg|g=g	11	nmod	_
-10	Soojuse	H	sg=sg|g=g	11	nmod	_
-11	müük	S	sg=sg|n=n	15	nsubj	_
-12	peaks	V	ks=ks	15	aux	_
-13	tuleval	A	sg=sg|ad=ad	14	acl	_
-14	aastal	S	sg=sg|ad=ad	15	obl	_
-15	pidurduma	V	ma=ma	3	advcl	_
-16	,	Z	_	18	punct	_
-17	kuna	J	_	18	mark	_
-18	laekumas	V	mas=mas	15	advcl	_
-19	on	V	b=b	18	cop	_
-20	tulud	S	pl=pl|n=n	18	obj	_
-21	ka	D	_	22	advmod	_
-22	kinnisvara	S	sg=sg|g=g	18	obl	_
-23	eest	K	_	22	case	_
-24	-	Z	_	26	punct	_
-25	mereäärsete	A	pl=pl|g=g	26	amod	_
-26	alade	S	pl=pl|g=g	22	appos	_
-27	ja	J	_	30	cc	_
-28	Viru	H	sg=sg|g=g	29	nmod	_
-29	väljaku	S	sg=sg|g=g	30	nmod	_
-30	müügist	S	sg=sg|el=el	26	conj	_
-31	.	Z	_	3	punct	_
-
-# sent_id = 743012
-# text = Süüdistuse järgi võttis Berg telefoni jõuga ära Tartu uurimisbüroo endiselt uurijalt Annela Adamsonilt , sest naise elukaaslane oli ühele Bergi tuttavale võlgu suurema summa raha .
-1	Süüdistuse	S	sg=sg|g=g	3	obl	_
-2	järgi	K	_	1	case	_
-3	võttis	V	s=s	0	root	_
-4	Berg	H	sg=sg|n=n	3	nsubj	_
-5	telefoni	S	sg=sg|g=g	3	obj	_
-6	jõuga	S	sg=sg|kom=kom	3	obj	_
-7	ära	D	_	3	compound:prt	_
-8	Tartu	H	sg=sg|g=g	9	nmod	_
-9	uurimisbüroo	S	sg=sg|g=g	11	nmod	_
-10	endiselt	A	sg=sg|abl=abl	11	amod	_
-11	uurijalt	S	sg=sg|abl=abl	3	obj	_
-12	Annela	H	sg=sg|n=n	11	appos	_
-13	Adamsonilt	H	sg=sg|abl=abl	12	flat	_
-14	,	Z	_	18	punct	_
-15	sest	J	_	18	mark	_
-16	naise	S	sg=sg|g=g	17	nmod	_
-17	elukaaslane	S	sg=sg|n=n	18	obl	_
-18	oli	V	s=s	3	advcl	_
-19	ühele	N	sg=sg|all=all	21	det	_
-20	Bergi	H	sg=sg|g=g	21	nmod	_
-21	tuttavale	S	sg=sg|all=all	18	obl	_
-22	võlgu	D	_	18	compound:prt	_
-23	suurema	C	sg=sg|g=g	24	amod	_
-24	summa	S	sg=sg|g=g	25	nmod	_
-25	raha	S	sg=sg|p=p	18	nsubj	CHECK
+# sent_id = 15840533
+# text = Ma ei ole võib-olla nõus paljude härra Ligi väljaöeldud mõtetega , kuid ühes küsimuses oli tal tuline õigus : see seaduseparandus ei defineeri tootja mõistet .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
+2	ei	V	neg=neg	3	aux	_
+3	ole	V	o=o	0	root	_
+4	võib-olla	D	_	3	advmod	_
+5	nõus	D	_	3	compound:prt	_
+6	paljude	P	pl=pl|g=g	7	nmod	_
+7	härra	S	sg=sg|n=n	10	nmod	CHECK
+8	Ligi	D	_	9	advmod	_
+9	väljaöeldud	A	_	10	acl	_
+10	mõtetega	S	pl=pl|kom=kom	3	obj	_
+11	,	Z	_	18	punct	_
+12	kuid	J	_	18	cc	_
+13	ühes	P	sg=sg|in=in	14	det	_
+14	küsimuses	S	sg=sg|in=in	18	obl	_
+15	oli	V	s=s	14	cop	_
+16	tal	P	sg=sg|ad=ad	18	nsubj:cop	_
+17	tuline	A	sg=sg|n=n	18	amod	_
+18	õigus	S	sg=sg|n=n	3	conj	_
+19	:	Z	_	23	punct	_
+20	see	P	sg=sg|n=n	21	det	_
+21	seaduseparandus	S	sg=sg|n=n	23	nsubj	_
+22	ei	V	neg=neg	23	aux	_
+23	defineeri	V	o=o	18	parataxis	_
+24	tootja	S	sg=sg|g=g	23	nsubj	_
+25	mõistet	S	sg=sg|p=p	23	obj	_
 26	.	Z	_	3	punct	_
-
-# sent_id = 16035075
-# text = Olen seda maha ja uuesti peale ka lasnud aga pole aidanud .
-1	Olen	V	n=n	0	root	_
-2	seda	P	sg=sg|p=p	1	nsubj	CHECK
-3	maha	D	_	1	compound:prt	_
-4	ja	J	_	8	cc	_
-5	uuesti	D	_	8	advmod	_
-6	peale	D	_	8	compound:prt	_
-7	ka	D	_	8	advmod	_
-8	lasnud	A	pl=pl|n=n	11	xcomp	_
-9	aga	J	_	11	advmod	_
-10	pole	V	neg=neg|o=o	11	aux	_
-11	aidanud	A	pl=pl|n=n	1	conj	_
-12	.	Z	_	1	punct	_
-
-# sent_id = 87207
-# text = Sajandi alguse paarisajast tuhandest hülgest on tänaseks alles vaid riismed : 6000 hallhüljest ja 5000 viigrit .
-1	Sajandi	S	sg=sg|g=g	2	nmod	_
-2	alguse	S	sg=sg|g=g	3	nmod	CHECK
-3	paarisajast	N	sg=sg|el=el	4	compound	_
-4	tuhandest	N	sg=sg|el=el	5	nummod	_
-5	hülgest	S	sg=sg|el=el	10	nsubj:cop	_
-6	on	V	b=b	10	cop	_
-7	tänaseks	D	_	10	obl	_
-8	alles	D	_	10	advmod	_
-9	vaid	D	_	10	advmod	_
-10	riismed	S	pl=pl|n=n	0	root	_
-11	:	Z	_	13	punct	_
-12	6000	N	?=?	13	nummod	_
-13	hallhüljest	S	sg=sg|p=p	10	parataxis	_
-14	ja	J	_	16	cc	_
-15	5000	N	?=?	16	nummod	_
-16	viigrit	S	sg=sg|p=p	13	conj	_
-17	.	Z	_	10	punct	_
-
-# sent_id = 3413587
-# text = Atonenilt küsiti kohe saate alguses , kas Estonia hukku oleks vaja uuesti uurida , mille peale ta kinnitas , et asi on uurimisega lõppenud .
-1	Atonenilt	H	sg=sg|abl=abl	2	nsubj	_
-2	küsiti	V	ti=ti	0	root	_
-3	kohe	D	_	2	advmod	_
-4	saate	V	te=te	2	xcomp	_
-5	alguses	S	sg=sg|in=in	2	obj	_
-6	,	Z	_	10	punct	_
-7	kas	D	_	10	advmod	_
-8	Estonia	H	sg=sg|n=n	9	nmod	_
-9	hukku	S	sg=sg|p=p	10	nsubj	CHECK
-10	oleks	V	ks=ks	5	acl	_
-11	vaja	D	_	10	compound:prt	_
-12	uuesti	D	_	13	advmod	_
-13	uurida	V	da=da	10	csubj	_
-14	,	Z	_	18	punct	_
-15	mille	P	sg=sg|g=g	18	obl	_
-16	peale	K	_	15	case	_
-17	ta	P	sg=sg|n=n	18	nsubj	_
-18	kinnitas	V	s=s	13	ccomp	_
-19	,	Z	_	24	punct	_
-20	et	J	_	24	mark	_
-21	asi	S	sg=sg|n=n	24	nsubj	_
-22	on	V	vad=vad	24	aux	_
-23	uurimisega	S	sg=sg|kom=kom	24	obl	_
-24	lõppenud	V	nud=nud	18	ccomp	_
-25	.	Z	_	2	punct	_
-
-# sent_id = 15005035
-# text = Pealegi on Jazz tulvil pisikesi kavalaid üllatusi , sinna on põnev minna .
-1	Pealegi	D	_	4	advmod	_
-2	on	V	vad=vad	4	cop	_
-3	Jazz	H	sg=sg|n=n	4	nsubj:cop	_
-4	tulvil	D	_	0	root	_
-5	pisikesi	A	pl=pl|p=p	7	amod	_
-6	kavalaid	A	pl=pl|p=p	7	amod	_
-7	üllatusi	S	pl=pl|p=p	4	nsubj:cop	CHECK
-8	,	Z	_	12	punct	_
-9	sinna	D	_	12	advmod	_
-10	on	V	vad=vad	12	aux	_
-11	põnev	A	sg=sg|n=n	12	nsubj:cop	_
-12	minna	V	da=da	4	conj	_
-13	.	Z	_	4	punct	_
-
-# sent_id = 55227
-# text = See ilus elu on tegelikult olemas igaühe “ isiklikul Gröönimaal ” , igaühel meist oma kodus , mida iganes selleks koduks ka ei peeta .
-1	See	P	sg=sg|n=n	3	det	_
-2	ilus	A	sg=sg|n=n	3	amod	_
-3	elu	S	sg=sg|n=n	0	root	_
-4	on	V	b=b	3	cop	_
-5	tegelikult	D	_	3	advmod	_
-6	olemas	V	mas=mas	3	cop	_
-7	igaühe	P	sg=sg|g=g	3	nsubj:cop	CHECK
-8	“	Z	_	10	punct	_
-9	isiklikul	A	sg=sg|ad=ad	10	amod	_
-10	Gröönimaal	H	sg=sg|ad=ad	7	appos	_
-11	”	Z	_	10	punct	_
-12	,	Z	_	13	punct	_
-13	igaühel	P	sg=sg|ad=ad	3	conj	_
-14	meist	P	pl=pl|el=el	13	nsubj:cop	_
-15	oma	P	sg=sg|g=g	16	nmod	_
-16	kodus	S	sg=sg|in=in	13	orphan	_
-17	,	Z	_	24	punct	_
-18	mida	P	pl=pl|p=p	24	nsubj	_
-19	iganes	D	_	24	advmod	_
-20	selleks	P	sg=sg|tr=tr	21	det	_
-21	koduks	S	sg=sg|tr=tr	24	obj	_
-22	ka	D	_	24	advmod	_
-23	ei	V	neg=neg	24	aux	_
-24	peeta	V	ta=ta	16	acl:relcl	_
-25	.	Z	_	3	punct	_
-
-# sent_id = 2834850
-# text = Kas olete ikka nõus Reformierakonna praeguse juhtkonna nii sise- kui ka välispoliitikaga ?
-1	Kas	D	_	2	advmod	_
-2	olete	V	te=te	0	root	_
-3	ikka	D	_	2	advmod	_
-4	nõus	D	_	2	compound:prt	_
-5	Reformierakonna	H	sg=sg|g=g	7	nmod	_
-6	praeguse	A	sg=sg|g=g	7	amod	_
-7	juhtkonna	S	sg=sg|g=g	2	obl	CHECK
-8	nii	D	_	9	cc:preconj	_
-9	sise-	S	?=?	2	nsubj	_
-10	kui	J	_	12	cc	_
-11	ka	D	_	12	advmod	_
-12	välispoliitikaga	S	sg=sg|kom=kom	9	conj	_
-13	?	Z	_	2	punct	_
 
 # sent_id = 1561
 # text = Seda olen ma meedia jaoks tänaseni , arvamusliidrid on mind ühiskonnas nii positsioneerinud .
@@ -303,141 +182,353 @@
 10	mind	P	sg=sg|p=p	13	nsubj	_
 11	ühiskonnas	S	sg=sg|in=in	13	obl	_
 12	nii	D	_	13	advmod	_
-13	positsioneerinud	V	nud=nud	1	conj	_
+13	positsioneerinud	A	pl=pl|n=n	1	conj	_
 14	.	Z	_	1	punct	_
 
-# sent_id = 2957477
-# text = Ja kliendid nurisevad mõlemaga - kes pole rahul pildi kvaliteediga , kes kurdab segadust arvetega .
-1	Ja	J	_	3	cc	_
-2	kliendid	S	pl=pl|n=n	3	obj	_
-3	nurisevad	V	vad=vad	0	root	_
-4	mõlemaga	P	sg=sg|kom=kom	3	nsubj	_
-5	-	Z	_	7	punct	_
-6	kes	P	sg=sg|n=n	7	nsubj	_
-7	pole	V	neg=neg|o=o	4	acl:relcl	_
-8	rahul	D	_	7	compound:prt	_
-9	pildi	S	sg=sg|g=g	7	obj	CHECK
-10	kvaliteediga	S	sg=sg|kom=kom	9	nmod	_
+# sent_id = 1514558
+# text = Sellele vastas teede- ja sideministeerium , et parvlaeva Estonia huku põhjusi pole vaja uuesti uurida , kuna rahvusvahelise ühiskomisjoni lõppraportis on katastroofi põhjused juba kirjas .
+1	Sellele	P	sg=sg|all=all	2	nsubj	_
+2	vastas	V	s=s	0	root	_
+3	teede-	S	pl=pl|g=g	2	obj	_
+4	ja	J	_	5	cc	_
+5	sideministeerium	S	sg=sg|n=n	3	conj	_
+6	,	Z	_	12	punct	_
+7	et	J	_	12	mark	_
+8	parvlaeva	S	sg=sg|g=g	11	nmod	_
+9	Estonia	H	sg=sg|g=g	10	nmod	_
+10	huku	S	sg=sg|g=g	11	nmod	_
+11	põhjusi	S	pl=pl|p=p	12	nsubj	CHECK
+12	pole	V	neg=neg|o=o	2	ccomp	_
+13	vaja	D	_	12	compound:prt	_
+14	uuesti	D	_	15	advmod	_
+15	uurida	V	da=da	12	csubj	_
+16	,	Z	_	25	punct	_
+17	kuna	J	_	25	mark	_
+18	rahvusvahelise	A	sg=sg|g=g	19	amod	_
+19	ühiskomisjoni	S	sg=sg|g=g	20	nmod	_
+20	lõppraportis	S	sg=sg|in=in	25	nsubj:cop	_
+21	on	V	b=b	25	cop	_
+22	katastroofi	S	sg=sg|g=g	23	nmod	_
+23	põhjused	S	pl=pl|n=n	25	nsubj:cop	_
+24	juba	D	_	25	advmod	_
+25	kirjas	S	sg=sg|in=in	12	advcl	_
+26	.	Z	_	2	punct	_
+
+# sent_id = 1059821
+# text = Ida-Virumaa keskkonnateenistuse juhataja Tiiu Sizova sõnul on Lance Holding umbes 100.000 krooni ulatuses võlgu ka riigile puhta vee ressursimaksu ning keskkonnateenistus kavatseb samuti Lance Holdingu kohtusse kaevata .
+1	Ida-Virumaa	H	sg=sg|g=g	2	nmod	_
+2	keskkonnateenistuse	S	sg=sg|g=g	3	nmod	_
+3	juhataja	S	sg=sg|n=n	6	nmod	_
+4	Tiiu	H	sg=sg|n=n	3	appos	_
+5	Sizova	H	sg=sg|g=g	4	flat	_
+6	sõnul	S	pl=pl|ad=ad	7	obl	_
+7	on	V	vad=vad	0	root	_
+8	Lance	H	sg=sg|g=g	7	nsubj	_
+9	Holding	S	sg=sg|n=n	8	flat	_
+10	umbes	D	_	11	advmod	_
+11	100.000	N	?=?	12	nummod	_
+12	krooni	S	sg=sg|p=p	13	nmod	_
+13	ulatuses	S	sg=sg|in=in	7	obl	_
+14	võlgu	D	_	7	compound:prt	_
+15	ka	D	_	19	advmod	_
+16	riigile	S	sg=sg|all=all	18	nmod	_
+17	puhta	A	sg=sg|g=g	18	amod	_
+18	vee	S	sg=sg|g=g	19	nmod	_
+19	ressursimaksu	S	sg=sg|g=g	7	obj	CHECK
+20	ning	J	_	22	cc	_
+21	keskkonnateenistus	S	sg=sg|n=n	22	nsubj	_
+22	kavatseb	V	b=b	7	conj	_
+23	samuti	D	_	22	advmod	_
+24	Lance	H	sg=sg|g=g	27	nsubj	_
+25	Holdingu	S	sg=sg|g=g	24	flat	_
+26	kohtusse	S	sg=sg|ill=ill	27	obj	_
+27	kaevata	V	da=da	22	xcomp	_
+28	.	Z	_	7	punct	_
+
+# sent_id = 1319029
+# text = Seda , et kõiki igapäevaseid asju-teenuseid saab osta kodust lahkumata , kui olemas on internetiühendus ja piisavalt raha pangaarvel , ei ole vaja enam kellelegi tõestada .
+1	Seda	P	sg=sg|p=p	22	nsubj	CHECK
+2	,	Z	_	8	punct	_
+3	et	J	_	8	mark	_
+4	kõiki	P	pl=pl|p=p	6	det	_
+5	igapäevaseid	A	pl=pl|p=p	6	amod	_
+6	asju-teenuseid	S	pl=pl|p=p	8	obj	_
+7	saab	V	b=b	8	aux	_
+8	osta	V	da=da	1	acl	_
+9	kodust	A	sg=sg|p=p	10	amod	_
+10	lahkumata	V	mata=mata	8	nsubj	_
 11	,	Z	_	13	punct	_
-12	kes	P	pl=pl|n=n	13	nsubj	_
-13	kurdab	V	b=b	10	acl:relcl	_
-14	segadust	S	sg=sg|p=p	13	obj	_
-15	arvetega	S	pl=pl|kom=kom	13	obj	_
-16	.	Z	_	3	punct	_
-
-# sent_id = 10212223
-# text = Shaefferi absurdiloogika pääseb mõjule just siis , kui näitlejad on end etlemise krambist lahti ja soojaks mänginud ning hakkavad olema rohkem nemad ise kui Schaefferi tegelaste kujutajad .
-1	Shaefferi	H	sg=sg|g=g	2	nmod	_
-2	absurdiloogika	S	sg=sg|n=n	3	obl	_
-3	pääseb	V	b=b	0	root	_
-4	mõjule	S	sg=sg|all=all	3	nsubj	_
-5	just	I	_	6	advmod	_
-6	siis	J	_	3	advmod	_
-7	,	Z	_	17	punct	_
-8	kui	D	_	17	mark	_
-9	näitlejad	S	pl=pl|n=n	17	nsubj	_
-10	on	V	b=b	17	aux	_
-11	end	Y	?=?	17	obj	CHECK
-12	etlemise	S	sg=sg|g=g	17	obl	_
-13	krambist	S	sg=sg|el=el	17	obj	_
-14	lahti	D	_	17	compound:prt	_
-15	ja	J	_	16	cc	_
-16	soojaks	A	sg=sg|tr=tr	14	conj	_
-17	mänginud	A	pl=pl|n=n	3	advcl	_
-18	ning	J	_	19	cc	_
-19	hakkavad	V	vad=vad	3	conj	_
-20	olema	V	ma=ma	19	xcomp	_
-21	rohkem	D	_	22	advmod	_
-22	nemad	P	pl=pl|n=n	19	nsubj	_
-23	ise	D	_	22	nmod	_
-24	kui	J	_	26	mark	_
-25	Schaefferi	H	sg=sg|g=g	26	nmod	_
-26	tegelaste	S	pl=pl|g=g	27	nmod	_
-27	kujutajad	S	pl=pl|n=n	19	advcl	_
-28	.	Z	_	3	punct	_
-
-# sent_id = 15577062
-# text = Kui politi jäi seisma enne kui ratas talle sisse lajatas oli motikist ilmselt süüdi ja ilm selge ebaõige sõidkiiruse valik Ei ole vaja kijutada siis  ) ) napalm
-1	Kui	D	_	3	mark	_
-2	politi	S	sg=sg|n=n	3	nsubj	_
-3	jäi	V	s=s	14	advcl	_
-4	seisma	V	ma=ma	3	advcl	_
-5	enne	D	_	14	advmod	_
-6	kui	D	_	5	fixed	_
-7	ratas	S	sg=sg|n=n	10	nsubj	_
-8	talle	P	sg=sg|all=all	10	obj	_
-9	sisse	D	_	10	compound:prt	_
-10	lajatas	V	s=s	14	advcl	_
-11	oli	V	s=s	14	cop	_
-12	motikist	S	sg=sg|el=el	14	obl	_
-13	ilmselt	D	_	14	advmod	_
-14	süüdi	D	_	0	root	_
-15	ja	J	_	22	cc	_
-16	ilm	S	sg=sg|n=n	20	nmod	_
-17	selge	A	sg=sg|g=g	20	amod	_
-18	ebaõige	A	sg=sg|g=g	19	amod	_
-19	sõidkiiruse	S	sg=sg|g=g	20	nmod	_
-20	valik	S	sg=sg|n=n	22	nsubj	CHECK
-21	Ei	V	neg=neg	22	aux	_
-22	ole	V	o=o	14	conj	_
+12	kui	D	_	13	mark	_
+13	olemas	V	mas=mas	8	advcl	_
+14	on	V	vad=vad	13	aux	_
+15	internetiühendus	S	sg=sg|n=n	13	nsubj	_
+16	ja	J	_	18	cc	_
+17	piisavalt	D	_	18	advmod	_
+18	raha	S	sg=sg|g=g	15	conj	_
+19	pangaarvel	S	sg=sg|ad=ad	18	nmod	_
+20	,	Z	_	8	punct	_
+21	ei	V	neg=neg	22	aux	_
+22	ole	V	o=o	0	root	_
 23	vaja	D	_	22	compound:prt	_
-24	kijutada	V	da=da	22	csubj	_
-25	siis	D	_	24	advmod	_
-26	)	Z	_	24	punct	_
-27	)	Z	_	14	punct	_
-28	napalm	S	sg=sg|n=n	14	nsubj:cop	_
+24	enam	D	_	22	advmod	_
+25	kellelegi	P	sg=sg|all=all	26	nsubj	_
+26	tõestada	V	da=da	22	csubj	_
+27	.	Z	_	22	punct	_
 
-# sent_id = 15416675
-# text = Kahjuks ei ole ta numbrit enam alles , sest otsustasin temaga enam mitte kaupa teha .
-1	Kahjuks	D	_	3	advmod	_
+# sent_id = 3547040
+# text = Ma ei taha anda hinnangut , kas Arno Pijpers on end Eestis ammendamas või mitte .
+1	Ma	P	sg=sg|n=n	3	nsubj	_
 2	ei	V	neg=neg	3	aux	_
-3	ole	V	o=o	0	root	_
-4	ta	P	sg=sg|n=n	3	nsubj	_
-5	numbrit	S	sg=sg|p=p	3	obl	CHECK
-6	enam	D	_	3	advmod	_
-7	alles	D	_	3	compound:prt	_
-8	,	Z	_	10	punct	_
-9	sest	J	_	10	mark	_
-10	otsustasin	V	sin=sin	3	advcl	_
-11	temaga	P	sg=sg|kom=kom	15	nsubj	_
-12	enam	D	_	15	advmod	_
-13	mitte	D	_	14	advmod	_
-14	kaupa	S	sg=sg|p=p	15	obj	_
-15	teha	V	da=da	10	xcomp	_
+3	taha	V	o=o	0	root	_
+4	anda	V	da=da	3	xcomp	_
+5	hinnangut	S	sg=sg|p=p	4	obj	_
+6	,	Z	_	13	punct	_
+7	kas	D	_	13	advmod	_
+8	Arno	H	sg=sg|n=n	13	nsubj	_
+9	Pijpers	H	sg=sg|n=n	8	flat	_
+10	on	V	b=b	13	aux	_
+11	end	Y	?=?	13	obj	CHECK
+12	Eestis	H	sg=sg|in=in	13	obl	_
+13	ammendamas	V	mas=mas	5	acl	_
+14	või	J	_	15	cc	_
+15	mitte	D	_	13	conj	_
 16	.	Z	_	3	punct	_
 
-# sent_id = 7621912
-# text = Audi , selge liider alumiiniumist kandestruktuuride pruukimisel autoehituses , oli kohal pealt avaneva prototüübiga Al 2 Open End , Opel mitmeotstarbelise sõidukiga City Trekker Concept ning BMW kauni nostalgilise disainiharjutusega Z07 .
-1	Audi	H	sg=sg|n=n	10	nsubj	_
-2	,	Z	_	4	punct	_
-3	selge	A	sg=sg|n=n	4	amod	_
-4	liider	S	sg=sg|n=n	1	conj	_
-5	alumiiniumist	S	sg=sg|el=el	7	nmod	_
-6	kandestruktuuride	S	pl=pl|g=g	7	nmod	_
-7	pruukimisel	S	sg=sg|ad=ad	1	appos	_
-8	autoehituses	S	sg=sg|in=in	7	nmod	_
-9	,	Z	_	10	punct	_
-10	oli	V	s=s	0	root	_
-11	kohal	S	sg=sg|ad=ad	10	compound:prt	_
-12	pealt	D	_	13	compound:prt	_
-13	avaneva	A	sg=sg|g=g	14	acl	_
-14	prototüübiga	S	sg=sg|kom=kom	10	nsubj	_
-15	Al	Y	?=?	14	appos	_
-16	2	N	?=?	15	flat	_
-17	Open	H	sg=sg|n=n	15	flat	_
-18	End	P	sg=sg|p=p	15	flat	CHECK
-19	,	Z	_	22	punct	_
-20	Opel	H	sg=sg|n=n	22	nmod	_
-21	mitmeotstarbelise	A	sg=sg|g=g	22	amod	_
-22	sõidukiga	S	sg=sg|kom=kom	14	conj	_
-23	City	H	sg=sg|g=g	22	appos	_
-24	Trekker	H	sg=sg|n=n	23	flat	_
-25	Concept	H	sg=sg|n=n	23	flat	_
-26	ning	J	_	30	cc	_
-27	BMW	Y	?=?	30	nmod	_
-28	kauni	A	sg=sg|g=g	30	amod	_
-29	nostalgilise	A	sg=sg|g=g	30	amod	_
-30	disainiharjutusega	S	sg=sg|kom=kom	14	conj	_
-31	Z07	Y	?=?	30	appos	_
-32	.	Z	_	10	punct	_
+# sent_id = 6534752
+# text = UK peaminister Tony Blair , Saksamaa liidukantsler Gerhard Schröder ning palestiinlaste liider Yasser Arafat , kes on kõik varasematel kongressidel kohal olud , ei ilmunud maailma vasakpoolsete parteide kongressile kohale .
+1	UK	Y	?=?	2	nmod	_
+2	peaminister	S	sg=sg|n=n	25	nsubj	_
+3	Tony	H	sg=sg|n=n	2	appos	_
+4	Blair	H	sg=sg|n=n	3	flat	_
+5	,	Z	_	7	punct	_
+6	Saksamaa	H	sg=sg|g=g	7	nmod	_
+7	liidukantsler	S	sg=sg|n=n	2	conj	_
+8	Gerhard	H	sg=sg|n=n	7	appos	_
+9	Schröder	H	sg=sg|n=n	8	flat	_
+10	ning	J	_	12	cc	_
+11	palestiinlaste	S	pl=pl|g=g	12	nmod	_
+12	liider	S	sg=sg|n=n	2	conj	_
+13	Yasser	H	sg=sg|n=n	12	appos	_
+14	Arafat	H	sg=sg|n=n	13	flat	_
+15	,	Z	_	17	punct	_
+16	kes	P	pl=pl|n=n	17	nsubj	_
+17	on	V	b=b	13	acl:relcl	_
+18	kõik	P	sg=sg|n=n	20	det	_
+19	varasematel	C	pl=pl|ad=ad	20	amod	_
+20	kongressidel	S	pl=pl|ad=ad	17	obl	_
+21	kohal	D	_	17	compound:prt	_
+22	olud	S	pl=pl|n=n	17	obl	CHECK
+23	,	Z	_	17	punct	_
+24	ei	V	neg=neg	25	aux	_
+25	ilmunud	V	nud=nud	0	root	_
+26	maailma	S	sg=sg|g=g	28	nmod	_
+27	vasakpoolsete	A	pl=pl|g=g	28	amod	_
+28	parteide	S	pl=pl|g=g	29	nmod	_
+29	kongressile	S	sg=sg|all=all	25	nsubj	_
+30	kohale	D	_	25	compound:prt	_
+31	.	Z	_	25	punct	_
+
+# sent_id = 8873825
+# text = “ Mahavõtmine , mis see siis ära ei ole ? ” imestab ta mu küsimuse peale .
+1	“	Z	_	2	punct	_
+2	Mahavõtmine	S	sg=sg|n=n	0	root	_
+3	,	Z	_	9	punct	_
+4	mis	P	pl=pl|n=n	9	nsubj	CHECK
+5	see	P	sg=sg|n=n	9	nsubj	_
+6	siis	D	_	9	advmod	_
+7	ära	D	_	9	compound:prt	_
+8	ei	V	neg=neg	9	aux	_
+9	ole	V	o=o	2	acl:relcl	_
+10	?	Z	_	2	punct	_
+11	”	Z	_	2	punct	_
+12	imestab	V	b=b	2	parataxis	_
+13	ta	P	sg=sg|n=n	12	nsubj	_
+14	mu	P	sg=sg|g=g	15	nmod	_
+15	küsimuse	S	sg=sg|g=g	12	obl	_
+16	peale	K	_	15	case	_
+17	.	Z	_	2	punct	_
+
+# sent_id = 3788984
+# text = Kes pole rahul lendude arvu , kes nendeks ettenähtud ajaga või sellega , et teine liiga palju sai .
+1	Kes	P	sg=sg|n=n	2	nsubj	_
+2	pole	V	neg=neg|o=o	0	root	_
+3	rahul	D	_	2	compound:prt	_
+4	lendude	S	pl=pl|g=g	5	nmod	_
+5	arvu	S	sg=sg|p=p	2	nsubj	CHECK
+6	,	Z	_	7	punct	_
+7	kes	P	pl=pl|n=n	2	advcl	_
+8	nendeks	P	pl=pl|tr=tr	10	det	_
+9	ettenähtud	A	pl=pl|n=n	10	acl	_
+10	ajaga	S	sg=sg|kom=kom	7	obl	_
+11	või	J	_	12	cc	_
+12	sellega	P	sg=sg|kom=kom	5	conj	_
+13	,	Z	_	18	punct	_
+14	et	J	_	18	mark	_
+15	teine	O	sg=sg|n=n	18	nsubj	_
+16	liiga	D	_	17	advmod	_
+17	palju	D	_	18	advmod	_
+18	sai	V	s=s	12	acl	_
+19	.	Z	_	2	punct	_
+
+# sent_id = 3663214
+# text = Eesti riik on suuresti oma majandusedusammud võlgu just nendele liberaalsetele ja avatud majandusruumi toetavatele maksukorraldustele , mida rakendati majandusreformide läbiviimise esimestel aastatel .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	riik	S	sg=sg|n=n	3	nsubj	_
+3	on	V	b=b	0	root	_
+4	suuresti	D	_	3	advmod	_
+5	oma	P	sg=sg|g=g	6	nmod	_
+6	majandusedusammud	S	pl=pl|n=n	3	obl	CHECK
+7	võlgu	D	_	3	compound:prt	_
+8	just	D	_	15	advmod	_
+9	nendele	P	pl=pl|all=all	15	det	_
+10	liberaalsetele	A	pl=pl|all=all	13	amod	_
+11	ja	J	_	12	cc	_
+12	avatud	A	_	10	conj	_
+13	majandusruumi	S	sg=sg|g=g	14	obj	_
+14	toetavatele	A	pl=pl|all=all	15	acl	_
+15	maksukorraldustele	S	pl=pl|all=all	3	obj	_
+16	,	Z	_	18	punct	_
+17	mida	P	sg=sg|p=p	18	nsubj	_
+18	rakendati	V	ti=ti	15	acl:relcl	_
+19	majandusreformide	S	pl=pl|g=g	20	nmod	_
+20	läbiviimise	S	sg=sg|g=g	18	obj	_
+21	esimestel	O	pl=pl|ad=ad	22	amod	_
+22	aastatel	S	pl=pl|ad=ad	20	nmod	_
+23	.	Z	_	3	punct	_
+
+# sent_id = 1305662
+# text = Kogu hommiku tähelepanu keskmes olnud mees nõuab kojuminekuks karke .
+1	Kogu	A	_	2	det	_
+2	hommiku	S	sg=sg|g=g	5	obl	_
+3	tähelepanu	S	sg=sg|p=p	4	nmod	CHECK
+4	keskmes	S	sg=sg|in=in	5	obl	_
+5	olnud	V	nud=nud	6	acl	_
+6	mees	S	sg=sg|n=n	7	nsubj	_
+7	nõuab	V	b=b	0	root	_
+8	kojuminekuks	S	sg=sg|tr=tr	7	obj	_
+9	karke	S	pl=pl|p=p	7	obj	_
+10	.	Z	_	7	punct	_
+
+# sent_id = 8374635
+# text = Enne jõule jäid Vaksali 16 ja 16a elanikud kraaniveeta , sest nad olid veevärgile võlgu suurema summa .
+1	Enne	K	_	2	case	_
+2	jõule	S	sg=sg|all=all	3	obl	_
+3	jäid	V	sid=sid	0	root	_
+4	Vaksali	S	sg=sg|g=g	3	nsubj	_
+5	16	N	?=?	9	nummod	_
+6	ja	J	_	7	cc	_
+7	16a	O	sg=sg|g=g	5	conj	_
+8	elanikud	S	pl=pl|n=n	9	nmod	_
+9	kraaniveeta	S	sg=sg|ab=ab	3	nsubj	_
+10	,	Z	_	13	punct	_
+11	sest	J	_	13	mark	_
+12	nad	P	pl=pl|n=n	13	nsubj	_
+13	olid	V	sid=sid	3	advcl	_
+14	veevärgile	S	sg=sg|all=all	13	obl	_
+15	võlgu	D	_	13	compound:prt	_
+16	suurema	C	sg=sg|g=g	17	amod	_
+17	summa	S	sg=sg|g=g	13	obj	CHECK
+18	.	Z	_	3	punct	_
+
+# sent_id = 4473180
+# text = Keskmised tänavad on kõik kinni .
+1	Keskmised	A	pl=pl|n=n	2	amod	_
+2	tänavad	S	pl=pl|n=n	3	obl	_
+3	on	V	b=b	5	cop	_
+4	kõik	P	pl=pl|n=n	5	nsubj:cop	CHECK
+5	kinni	D	_	0	root	_
+6	.	Z	_	3	punct	_
+
+# sent_id = 10412410
+# text = Eesti Energia loob seni elektri ajalugu näitavaid rauakolakaid täis olnud energeetikamuuseumi Põhja puiesteel Tallinna Linnahalli juures teaduskeskuse , kus lapsed saavad väljapanekule ise käed külge panna .
+1	Eesti	H	sg=sg|g=g	2	nmod	_
+2	Energia	S	sg=sg|n=n	3	nsubj	_
+3	loob	V	b=b	0	root	_
+4	seni	D	_	3	advmod	_
+5	elektri	S	sg=sg|g=g	6	nmod	_
+6	ajalugu	S	sg=sg|p=p	7	obj	_
+7	näitavaid	A	pl=pl|p=p	8	acl	_
+8	rauakolakaid	S	pl=pl|p=p	10	obj	CHECK
+9	täis	D	_	10	compound:prt	_
+10	olnud	V	nud=nud	11	acl	_
+11	energeetikamuuseumi	S	sg=sg|g=g	3	obl	_
+12	Põhja	S	sg=sg|g=g	13	nmod	_
+13	puiesteel	S	sg=sg|ad=ad	3	obj	_
+14	Tallinna	H	sg=sg|g=g	15	nmod	_
+15	Linnahalli	H	sg=sg|g=g	3	obl	_
+16	juures	K	_	15	case	_
+17	teaduskeskuse	S	sg=sg|g=g	3	obj	_
+18	,	Z	_	26	punct	_
+19	kus	D	_	26	mark	_
+20	lapsed	S	pl=pl|n=n	26	nsubj	_
+21	saavad	V	vad=vad	26	aux	_
+22	väljapanekule	S	sg=sg|all=all	26	obj	_
+23	ise	P	sg=sg|n=n	26	obl	_
+24	käed	S	pl=pl|n=n	26	obj	_
+25	külge	D	_	26	compound:prt	_
+26	panna	V	da=da	17	acl	_
+27	.	Z	_	3	punct	_
+
+# sent_id = 493752
+# text = " Valisime õppekompanii seetõttu , et nad on alles teenima tulnud poisid ning tahtsime , et nad harjuksid uue süsteemiga kohe algusest peale , " lausus kaitsejõudude peastaabi personaliosakonna planeerimisjaoskonna ohvitser nooremleitnant Rasmus Lippur .
+1	"	Z	_	2	punct	_
+2	Valisime	V	sime=sime	0	root	_
+3	õppekompanii	S	sg=sg|g=g	2	obj	_
+4	seetõttu	D	_	2	advmod	_
+5	,	Z	_	10	punct	_
+6	et	J	_	10	mark	_
+7	nad	P	pl=pl|n=n	10	nsubj	_
+8	on	V	b=b	10	aux	_
+9	alles	D	_	10	advmod	_
+10	teenima	V	ma=ma	2	ccomp	_
+11	tulnud	A	sg=sg|n=n	12	acl	_
+12	poisid	S	pl=pl|n=n	10	obj	CHECK
+13	ning	J	_	14	cc	_
+14	tahtsime	V	sime=sime	2	conj	_
+15	,	Z	_	18	punct	_
+16	et	J	_	18	mark	_
+17	nad	P	pl=pl|n=n	18	nsubj	_
+18	harjuksid	V	ksid=ksid	14	ccomp	_
+19	uue	A	sg=sg|g=g	20	amod	_
+20	süsteemiga	S	sg=sg|kom=kom	18	obj	_
+21	kohe	D	_	18	advmod	_
+22	algusest	S	sg=sg|el=el	18	obl	_
+23	peale	K	_	22	case	_
+24	,	Z	_	2	punct	_
+25	"	Z	_	2	punct	_
+26	lausus	V	s=s	2	parataxis	_
+27	kaitsejõudude	S	pl=pl|g=g	28	nmod	_
+28	peastaabi	S	sg=sg|g=g	29	nmod	_
+29	personaliosakonna	S	sg=sg|g=g	30	nmod	_
+30	planeerimisjaoskonna	S	sg=sg|g=g	26	nsubj	_
+31	ohvitser	S	sg=sg|n=n	32	nmod	_
+32	nooremleitnant	S	sg=sg|n=n	26	nsubj	_
+33	Rasmus	H	sg=sg|n=n	32	appos	_
+34	Lippur	H	sg=sg|n=n	33	flat	_
+35	.	Z	_	2	punct	_
+
+# sent_id = 3915398
+# text = Memoriaali peakorraldaja Annus Kaareste sõnul on soomlased ja rootslased kohal koondise teiste kuni neljandate numbritega , kelle hulgas tiitlivõistluste medaliomanikke pole .
+1	Memoriaali	H	sg=sg|g=g	2	nmod	_
+2	peakorraldaja	S	sg=sg|n=n	5	nmod	_
+3	Annus	H	sg=sg|n=n	2	appos	_
+4	Kaareste	H	sg=sg|g=g	3	flat	_
+5	sõnul	S	pl=pl|ad=ad	10	obl	_
+6	on	V	b=b	10	cop	_
+7	soomlased	S	pl=pl|n=n	10	nsubj:cop	_
+8	ja	J	_	9	cc	_
+9	rootslased	S	pl=pl|n=n	7	conj	_
+10	kohal	S	sg=sg|ad=ad	0	root	_
+11	koondise	S	sg=sg|g=g	10	obl	CHECK
+12	teiste	P	pl=pl|g=g	15	det	_
+13	kuni	K	_	14	cc	_
+14	neljandate	O	pl=pl|g=g	15	amod	_
+15	numbritega	S	pl=pl|kom=kom	10	obl	_
+16	,	Z	_	20	punct	_
+17	kelle	P	sg=sg|g=g	15	acl:relcl	_
+18	hulgas	K	_	17	case	_
+19	tiitlivõistluste	S	pl=pl|g=g	20	nmod	_
+20	medaliomanikke	S	pl=pl|p=p	17	nsubj:cop	_
+21	pole	V	neg=neg|o=o	17	cop	_
+22	.	Z	_	10	punct	_
 

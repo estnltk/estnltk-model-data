@@ -1,11 +1,11 @@
 # sent_id = 2224121
 # text = Kahtlustatavana antud kuriteos on kinni peetud Arkadi ( s. 1965 ) .
 1	Kahtlustatavana	A	sg=sg|es=es	3	acl	_
-2	antud	A	sg=sg|n=n	3	acl	_
+2	antud	A	_	3	acl	_
 3	kuriteos	S	sg=sg|in=in	6	obj	_
-4	on	V	vad=vad	6	aux	_
+4	on	V	b=b	6	aux	_
 5	kinni	D	_	6	compound:prt	_
-6	peetud	V	d=d	0	root	_
+6	peetud	V	tud=tud	0	root	_
 7	Arkadi	H	sg=sg|g=g	6	obj	CHECK
 8	(	Z	_	9	punct	_
 9	s	Y	?=?	7	parataxis	_
@@ -17,14 +17,14 @@
 # sent_id = 4137043
 # text = Veokijuhti on varem politsei poolt kinni peetud raudtee ületamise ohutuseeskirjade rikkumise pärast .
 1	Veokijuhti	S	adt=adt	7	obj	CHECK
-2	on	V	b=b	7	aux	_
+2	on	V	vad=vad	7	aux	_
 3	varem	D	_	7	advmod	_
 4	politsei	S	sg=sg|g=g	7	obl	_
 5	poolt	K	_	4	case	_
 6	kinni	D	_	7	compound:prt	_
-7	peetud	A	sg=sg|n=n	0	root	_
+7	peetud	V	d=d	0	root	_
 8	raudtee	S	sg=sg|g=g	9	nmod	_
-9	ületamise	S	sg=sg|g=g	7	obj	_
+9	ületamise	S	sg=sg|g=g	7	obl	_
 10	ohutuseeskirjade	S	pl=pl|g=g	11	nmod	_
 11	rikkumise	S	sg=sg|g=g	9	nmod	_
 12	pärast	K	_	11	case	_
@@ -33,7 +33,7 @@
 # sent_id = 14290146
 # text = Kinni on peetud kuus kahtlustatavat , kes aga pärast ülekuulamist kautsjoni vastu vabastati .
 1	Kinni	D	_	3	compound:prt	_
-2	on	V	b=b	3	aux	_
+2	on	V	vad=vad	3	aux	_
 3	peetud	A	pl=pl|n=n	0	root	_
 4	kuus	S	sg=sg|in=in	5	obj	_
 5	kahtlustatavat	V	tavat=tavat	3	obj	CHECK
@@ -65,12 +65,12 @@
 14	saaja	S	sg=sg|g=g	15	nmod	_
 15	maks	S	sg=sg|n=n	4	conj	_
 16	ja	J	_	22	cc	_
-17	kui	J	_	22	mark	_
+17	kui	D	_	22	mark	_
 18	seda	P	sg=sg|p=p	22	obj	CHECK
-19	on	V	b=b	22	aux	_
+19	on	V	vad=vad	22	aux	_
 20	vähem	D	_	22	advmod	_
 21	kinni	D	_	22	compound:prt	_
-22	peetud	V	d=d	26	advcl	_
+22	peetud	A	pl=pl|n=n	26	advcl	_
 23	,	Z	_	26	punct	_
 24	peab	V	b=b	26	aux	_
 25	juurde	D	_	26	compound:prt	_
@@ -108,8 +108,8 @@
 22	üht	P	sg=sg|p=p	23	nummod	_
 23	naist	S	sg=sg|p=p	20	conj	_
 24	-	Z	_	15	punct	_
-25	on	V	vad=vad	27	aux	_
+25	on	V	b=b	27	aux	_
 26	kinni	D	_	27	compound:prt	_
-27	peetud	V	tud=tud	0	root	_
+27	peetud	V	d=d	0	root	_
 28	.	Z	_	27	punct	_
 

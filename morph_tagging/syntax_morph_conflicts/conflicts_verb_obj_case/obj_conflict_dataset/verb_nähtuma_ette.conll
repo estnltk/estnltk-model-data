@@ -21,9 +21,9 @@
 19	et	J	_	24	mark	_
 20	filmikroonikale	S	sg=sg|all=all	24	obj	_
 21	“	Z	_	24	punct	_
-22	on	V	vad=vad	24	aux	_
+22	on	V	b=b	24	aux	_
 23	ette	D	_	24	compound:prt	_
-24	nähtud	V	d=d	17	ccomp	_
+24	nähtud	A	pl=pl|n=n	17	ccomp	_
 25	ekstensiivne	A	sg=sg|n=n	26	amod	_
 26	arengutee	S	sg=sg|g=g	24	obj	CHECK
 27	-	Z	_	29	punct	_
@@ -39,17 +39,17 @@
 1	Olukorras	S	sg=sg|in=in	23	nsubj:cop	_
 2	,	Z	_	9	punct	_
 3	kus	D	_	9	mark	_
-4	ühe	P	sg=sg|g=g	5	nummod	_
+4	ühe	N	sg=sg|g=g	5	nummod	_
 5	sportlase	S	sg=sg|g=g	9	obl	_
 6	kohta	K	_	5	case	_
 7	on	V	vad=vad	9	aux	_
 8	ette	D	_	9	compound:prt	_
-9	nähtud	A	_	1	acl	_
-10	üks	N	sg=sg|n=n	11	nummod	_
+9	nähtud	V	tud=tud	1	acl	_
+10	üks	P	sg=sg|n=n	11	nummod	_
 11	inimene	S	sg=sg|n=n	12	nmod	_
 12	abipersonali	S	adt=adt	9	obj	CHECK
 13	,	Z	_	9	punct	_
-14	on	V	b=b	23	cop	_
+14	on	V	vad=vad	23	cop	_
 15	laskesuusatajail	S	pl=pl|ad=ad	23	nsubj:cop	_
 16	niigi	D	_	17	advmod	_
 17	viie	N	sg=sg|g=g	18	nummod	_
@@ -79,11 +79,11 @@
 1	Pirita	H	sg=sg|g=g	2	nmod	_
 2	jõe	S	sg=sg|g=g	4	nmod	_
 3	parempoolne	A	sg=sg|n=n	4	amod	_
-4	kallas	V	s=s	8	obj	CHECK
-5	on	V	vad=vad	8	aux	_
+4	kallas	V	s=s	8	obl	CHECK
+5	on	V	b=b	8	aux	_
 6	üldplaneeringus	S	sg=sg|in=in	8	obl	_
 7	ette	D	_	8	compound:prt	_
-8	nähtud	A	pl=pl|n=n	0	root	_
+8	nähtud	V	tud=tud	0	root	_
 9	büroodele	S	pl=pl|all=all	8	obj	_
 10	ja	J	_	11	cc	_
 11	korteritele	S	pl=pl|all=all	9	conj	_
@@ -101,7 +101,7 @@
 8	eest	K	_	7	case	_
 9	kriminaalkaristust	S	sg=sg|p=p	11	obj	CHECK
 10	ette	D	_	11	compound:prt	_
-11	nähtud	A	pl=pl|n=n	0	root	_
+11	nähtud	V	tud=tud	0	root	_
 12	.	Z	_	11	punct	_
 
 # sent_id = 122760
@@ -112,10 +112,10 @@
 4	üldplaneeringu	S	sg=sg|g=g	2	obj	_
 5	ja	J	_	10	cc	_
 6	seal	D	_	10	advmod	_
-7	on	V	vad=vad	10	aux	_
+7	on	V	b=b	10	aux	_
 8	kõik	P	pl=pl|n=n	10	obj	CHECK
 9	ette	D	_	10	compound:prt	_
-10	nähtud	V	d=d	2	conj	_
+10	nähtud	A	_	2	conj	_
 11	,	Z	_	13	punct	_
 12	nagu	J	_	13	mark	_
 13	vaja	D	_	10	advcl	_
